@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class='grid'>
+    <header class='grid-container'>
         <div>
             MONTEREY BAY AREA ROUNDUP
             P.O. Box 1462
