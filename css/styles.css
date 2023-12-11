@@ -2,33 +2,3 @@ body {
     background-color: #f8f8f8;
 
 }
-
-
-
-.grid-container {
-    display: grid;
-    grid-template: auto / 50% 50%;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-.grid-container>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
-
-.left-column-align-right>h1 {
-    font-size: 25px;
-    letter-spacing: 4px;
-}
-
-.left-column-align-right {
-    text-align: right;
-}
-
-.right-column-align-left {
-    text-align: left;
-}
