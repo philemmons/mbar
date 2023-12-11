@@ -15,8 +15,8 @@
 
 <body>
     <header class='container'>
-    <div class="row justify-content-md-center">
-            <div class='col-md-auto'>
+        <div class="row justify-content-md-center">
+            <div class='col-md-4 banner-left'>
                 <h1>MONTEREY BAY AREA ROUNDUP</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
             </div>
