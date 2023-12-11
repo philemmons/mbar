@@ -1,0 +1,6 @@
+#grid {
+    display: grid;
+    height: 200px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 20px 5px;
+  }
