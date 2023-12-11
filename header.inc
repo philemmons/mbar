@@ -12,18 +12,14 @@
 </head>
 
 <body>
-    <header class= 'grid gap-3'>
+    <header class='grid'>
         <div>
-        MONTEREY BAY AREA ROUNDUP
-P.O. Box 1462
-Monterey, CA 93942
+            MONTEREY BAY AREA ROUNDUP
+            P.O. Box 1462
+            Monterey, CA 93942
         </div>
         <div>
-<img
-    src="../images/mbar_logo.png"
-    class="img-fluid rounded-top"
-    alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple"
-/>
+            <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
 
         </div>
     </header>
