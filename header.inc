@@ -16,11 +16,11 @@
 <body>
     <header class='container'>
         <div class="row justify-content-md-center">
-            <div class='col-4 banner'>
+            <div class='col-sm-4 banner'>
                 <h1>MONTEREY BAY AREA ROUNDUP</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
             </div>
-            <div class='col-auto banner'>
+            <div class='col-sm-auto banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
 
             </div>
