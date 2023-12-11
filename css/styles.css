@@ -3,12 +3,13 @@ body {
 
 }
 
-.banner-left {
+.banner {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
-.banner-left>h1 {
+.banner>h1 {
     font-size: 25px;
     letter-spacing: 4px;
+    padding: 10% 0;
 }
