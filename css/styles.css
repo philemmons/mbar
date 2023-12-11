@@ -3,6 +3,11 @@ body {
 
 }
 
+.banner-left {
+    text-align: center;
+    padding: 2rem;
+}
+
 .banner-left>h1 {
     font-size: 25px;
     letter-spacing: 4px;
