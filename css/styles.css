@@ -4,6 +4,8 @@
     --color-2: #ffffff;
     --color-3: #dcdcdc;
     --color-4: #333333;
+    --color5: #000000;
+
     --ff-main: Montserrat, Helvetica, Calibri, Arial, sans-serif;
 }
 
@@ -14,6 +16,7 @@ body {
     line-height: 1.5;
     background-color: var(--color-1);
     margin: auto;
+    color: var(--color-5);
 }
 
 /**** hero banner ****/
@@ -36,6 +39,7 @@ footer {
 }
 
 #statement {
+    font-weight: 700;
     font-size: 20px;
 }
 
