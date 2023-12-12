@@ -101,6 +101,6 @@ nav {
 }
 
 .navbar-toggler {
-    background-color: none;
+    background-color: var(--color-1);
     border: none;
 }
