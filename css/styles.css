@@ -112,4 +112,5 @@ nav {
 
 .navbar-nav > li > a:hover{
     background-color: var(--color-7);
+    color: var(--color-2);
 }
