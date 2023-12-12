@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="row justify-content-md-center">
-        <div class="col-sm-10 shadow text-center">
+        <div class="col-sm-12 col-md-10 shadow text-center">
             <hr>
             <h3 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/">
                         <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members."></a> Private Group</strong></h3>
