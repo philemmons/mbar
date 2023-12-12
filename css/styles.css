@@ -119,9 +119,11 @@ nav {
 .dropdown-menu {
     opacity: 0;
     transition: all 0.6s;
+    border-radius: none;
 }
 
-.navbar-nav>li>a:hover {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>div>a:hover {
     background-color: var(--color-7);
     color: var(--color-2);
 }
