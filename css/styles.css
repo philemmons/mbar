@@ -51,7 +51,9 @@ hr {
 /**** copyright ****/
 
 #footer-image{
-    background-image: url("../images/footprints_in_the_sand.png");
+    background-image: url("../images/big-sur.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    color: var(--color-2);
+    height: 150px;
 }
