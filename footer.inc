@@ -9,8 +9,8 @@
                     Our Statement of Responsibility:<br><br>
                     I am responsible.<br>
                     When anyone, anywhere, reaches out for help,
-                    I want the hand of A.A. always to be there.<br><br>
-                    And for that:
+                    I want the hand of A.A. always to be there.<br>
+                    And for that
                     I am responsible.</span>
             </p>
         </div>
