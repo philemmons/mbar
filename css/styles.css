@@ -4,7 +4,8 @@
     --color-2: #ffffff;
     --color-3: #dcdcdc;
     --color-4: #333333;
-    --color5: #000000;
+    --color-5: #000000;
+    --color-6: #a8a8a8;
 
     --ff-main: Montserrat, Helvetica, Calibri, Arial, sans-serif;
 }
@@ -56,7 +57,7 @@ hr {
     background-size: cover;
     color: var(--color-4);
     height: 150px;
-    border: solid 2px var(--color-1);
+    border: inset 2px var(--color-6);
 }
 
 #footer-image>p {
