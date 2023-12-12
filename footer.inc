@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="row justify-content-md-center">
-        <div class="col-sm-12 col-md-10 text-center footer-image">
+        <div class="col-sm-12 col-md-10 text-center" id="footer-image">
             <p>
                 Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
             </p>
