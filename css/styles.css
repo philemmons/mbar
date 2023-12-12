@@ -102,5 +102,5 @@ nav {
 
 .navbar-toggler {
     background-color: var(--color-1);
-    border: none;
+    border: inset 1px var(--color-5);
 }
