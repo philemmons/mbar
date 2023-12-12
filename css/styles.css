@@ -25,3 +25,11 @@ body {
     letter-spacing: 4px;
     padding: 3.5rem 0 0 0;
 }
+
+/*** footer ***/
+footer {
+    border-top: 1px solid #cccccc;
+    padding-top: 15px;
+    background-color: var(--color-2);
+}
+
