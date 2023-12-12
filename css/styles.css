@@ -1,8 +1,40 @@
-body {
-    background-color: #f8f8f8;
+/**** variables ****/
+:root {
+    --color-1: #f8f8f8;
 
+    --ff-main: Raleway, Montserrat, Helvetica, Calibri, Arial, sans-serif;
 }
 
+
+/**** typography ****/
+body {
+    font-family: var(--ff-main);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    background-color: var(--color-1);
+    max-width: 1440px;
+    margin: auto;
+    min-width: 355px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--ff-main);
+    font-weight: 900;
+}
+
+/**** hero banner ****/
 .banner {
     text-align: center;
     padding: 1rem;
