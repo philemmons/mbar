@@ -4,14 +4,11 @@
             <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
         </div>
         <div class='col-sm-6'>
-            <p> <span style="font-weight: 700; font-size: 20px;">
-                    <br><br>
+            <p id='statement'>
                     Our Statement of Responsibility:<br><br>
                     I am responsible.<br>
-                    When anyone, anywhere, reaches out for help,
-                    I want the hand of A.A. always to be there.<br>
-                    And for that
-                    I am responsible.</span>
+                    When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
+                    And for that I am responsible.
             </p>
         </div>
     </div>

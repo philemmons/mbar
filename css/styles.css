@@ -34,3 +34,8 @@ footer {
     background-color: var(--color-2);
 }
 
+#statement {
+    padding: 1.5rem;
+    font-weight: 700; 
+    font-size: 20px;
+}
