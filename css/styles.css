@@ -3,6 +3,7 @@
     --color-1: #f8f8f8;
     --color-2: #ffffff;
     --color-3: #dcdcdc;
+    --color-4: #333333;
     --ff-main: Montserrat, Helvetica, Calibri, Arial, sans-serif;
 }
 
@@ -35,7 +36,11 @@ footer {
 }
 
 #statement {
-    padding: 1.5rem;
+    padding: 1rem;
     font-weight: 700; 
     font-size: 20px;
+}
+
+hr{
+    border-top: medium double var(--color-4);
 }
