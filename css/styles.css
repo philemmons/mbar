@@ -6,7 +6,7 @@
     --color-4: #333333;
     --color-5: #000000;
     --color-6: #a8a8a8;
-    --color-7: #565656;
+    --color-7: #6b6b6b;
 
 
     --ff-main: Montserrat, Helvetica, Calibri, Arial, sans-serif;
@@ -73,7 +73,7 @@ hr {
     color: var(--color-7);
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 15px 25px !important;
+    padding: 10px 25px !important;
 }
 
 .navbar-nav .nav-item {
@@ -86,6 +86,10 @@ nav {
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.16);
 }
 
-.navbar{
+.navbar {
     padding: 0;
+}
+
+.nav-link.active {
+    font-weight: 600;
 }
