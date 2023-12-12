@@ -10,6 +10,7 @@
 
 
     --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
+
 }
 
 
@@ -92,7 +93,7 @@ nav {
         border-right: solid 1px var(--color-6);
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         display: block;
     }
 }
@@ -119,7 +120,7 @@ nav {
 .dropdown-menu {
     opacity: 0;
     transition: all 0.6s;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .navbar-nav>li>a:hover,
