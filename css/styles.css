@@ -128,3 +128,11 @@ nav {
     background-color: var(--color-7);
     color: var(--color-2);
 }
+
+/**** hero banner ****/
+
+.bg-body-tertiary {
+    background-image: url("../images/monterey_bay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -11,7 +11,7 @@
                     <a class="nav-link active" href="index.php" aria-current="page">Home
                         <span class="visually-hidden">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown" style= 'width: 180px;'>
+                <li class="nav-item dropdown" style='width: 180px;'>
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="mbar2024.php">MBAR 2024</a>
@@ -21,7 +21,7 @@
                         <a class="dropdown-item" href="memories.php">Memories</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown" style= 'width: 161px;'>
+                <li class="nav-item dropdown" style='width: 161px;'>
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
@@ -43,6 +43,19 @@
 </nav>
 
 <main>
+    <div class="p-5 mb-4 bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="row align-items-md-stretch">
+                <div class="col-sm-6 col-lg-4 mx-auto">
+                    <div class="h-100 p-4 text-bg-light">
+                        <h2>Change the background</h2>
+                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </main>
 
