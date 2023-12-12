@@ -56,6 +56,7 @@ hr {
     background-size: cover;
     color: var(--color-4);
     height: 150px;
+    border: solid 2px var(--color-1);
 }
 
 #footer-image>p {
