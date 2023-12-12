@@ -69,7 +69,8 @@ hr {
 
 /**** navbar ****/
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
     color: var(--color-7);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -103,4 +104,12 @@ nav {
 .navbar-toggler {
     background-color: var(--color-1);
     border: inset 1px var(--color-5);
+}
+
+.dropdown-menu{
+    
+}
+
+.navbar-nav > li > a:hover{
+    background-color: var(--color-7);
 }
