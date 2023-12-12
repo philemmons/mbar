@@ -1,6 +1,6 @@
 
     <?php include 'header.inc' ?>
-
+<div class= 'container'>
     <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -32,6 +32,7 @@
     </div>
   </div>
 </nav>
+</div>
     
     <main>
 
