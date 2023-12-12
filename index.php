@@ -34,8 +34,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="border-right: none;" href="contributions.php">Contribution</a>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link" href="contributions.php">Contribution</a>
                 </li>
             </ul>
         </div>
