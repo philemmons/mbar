@@ -36,11 +36,9 @@ footer {
 }
 
 #statement {
-    padding: 1rem;
-    font-weight: 700; 
     font-size: 20px;
 }
 
-hr{
+hr {
     border-top: medium double var(--color-4);
 }
