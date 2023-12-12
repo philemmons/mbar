@@ -48,8 +48,8 @@
             <div class="row align-items-md-stretch">
                 <div class="col-sm-6 col-lg-4 mx-auto">
                     <div class="h-100 p-4 text-bg-light">
-                        <h2>Change the background</h2>
-                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                        <h2>Monterey Bay Area Roundup 2024</h2>
+                        <p>Join us 08/31 and 09/01!</p>
                     </div>
                 </div>
 
