@@ -7,7 +7,7 @@
     --color-5: #000000;
     --color-6: #a8a8a8;
     --color-7: #6b6b6b;
-    --color-8: #454545;
+    --color-8: #8b8b8b;
 
     --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
 
@@ -155,5 +155,5 @@ nav {
 }
 
 .hero-text-border {
-    border: solid 2px var(--color-6);
+    border: solid 1px var(--color-4);
 }
