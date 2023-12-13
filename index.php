@@ -132,7 +132,7 @@
                         <p class="card-text">Additional information or any questions, please contact us.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary"><a href="committees.php">Committee</a><br></small>
+                        <small class="text-body-secondary"><a href="committees.php">Committee</a></small>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                         <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary"><a href="anonymous-contribution.php">Read more</small>
+                        <small class="text-body-secondary"><a href="anonymous-contribution.php">Read more</a></small>
                     </div>
                 </div>
             </div>
