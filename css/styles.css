@@ -171,12 +171,10 @@ nav {
 
 /**** card section two ****/
 
-.card-title>a,
-.text-body-secondary>a {
+.card-title>a {
     color: var(--color-7);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
     text-decoration: none;
-    padding-left: 5px;
 }
