@@ -84,10 +84,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
-
                     <div class="card-body">
-                        <em class="fa fa-microphone" aria-hidden="true"></em>
-                        <h5 class="card-title"><a href="conference-2021.php">CONFERENCE</a></h5>
+                        <h5 class="card-title"><a href="conference-2021.php"><i class="bi bi-mic"></i> CONFERENCE</a></h5>
                         <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
                     </div>
                     <div class="card-footer">
