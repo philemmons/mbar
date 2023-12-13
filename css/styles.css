@@ -162,3 +162,9 @@ nav {
     --bs-btn-bg: #0000ff;
     --bs-btn-hover-bg: #22aaff;
 }
+
+/**** card section one ****/
+
+.card {
+    border-radius: 0 !important;
+}
