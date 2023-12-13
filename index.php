@@ -129,10 +129,10 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="contact.php">
                                 <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></h5>
-                        <p class="card-text">Additional information or any questions, please contact us.</p>
+                        <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Committee</a></small>
+                        <small class="text-body-secondary"><a href="committee-meetings.php" class="btn btn-primary">Join Us</a></small>
                     </div>
                 </div>
             </div>
@@ -141,11 +141,11 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="MBAR-history.php">
-                                <i class="bi bi-chat-left-text me-2" style="font-size: 2rem; color: var(--color-8);"></i>HISTORY</a></h5>
+                                <i class="bi bi-chat-left-text me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></h5>
                         <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar-history.php" class="btn btn-primary">Read more</a></small>
+                        <small class="text-body-secondary"><a href="mbar-history.php" class="btn btn-primary">Our Past</a></small>
                     </div>
                 </div>
             </div>
@@ -154,11 +154,11 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="anonymous-contribution.php">
-                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>CONTRIBUTIONS</a></h5>
+                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></h5>
                         <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="anonymous-contribution.php" class="btn btn-primary">Read more</a></small>
+                        <small class="text-body-secondary"><a href="anonymous-contribution.php" class="btn btn-primary">Helping Hand</a></small>
                     </div>
                 </div>
             </div>
