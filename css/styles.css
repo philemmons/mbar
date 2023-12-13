@@ -23,18 +23,18 @@ body {
     color: var(--color-5);
 }
 
-.font-italic{
+.font-italic {
     font-style: italic;
 }
 
 .py-6 {
-    padding-top: 5rem!important;
-    padding-bottom: 5rem!important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
 }
 
 .py-7 {
-    padding-top: 7rem!important;
-    padding-bottom: 7rem!important;
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
 }
 
 /**** header ****/
@@ -151,10 +151,10 @@ nav {
     background-size: cover;
 }
 
-.shadow-wrap{
+.shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
 
-.hero-text-border{
+.hero-text-border {
     border: solid 2px var(--color-6);
 }
