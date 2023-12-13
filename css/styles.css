@@ -168,3 +168,13 @@ nav {
 .card {
     border-radius: 0 !important;
 }
+
+/**** card section two ****/
+
+.card-title>a,
+.card-footer>a {
+    color: var(--color-7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}

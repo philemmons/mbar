@@ -15,7 +15,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="mbar2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Regristration</a>
+                        <a class="dropdown-item" href="registration.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
                         <a class="dropdown-item" href="memories.php">Memories</a>
@@ -99,7 +99,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="registration.php">
-                        <i class="bi bi-briefcase" style="font-size: 2rem; color: var(--color-8);"></i>REGISTRATION</a></h5>
+                                <i class="bi bi-briefcase" style="font-size: 2rem; color: var(--color-8);"></i>Registration</a></h5>
                         <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer">
@@ -111,12 +111,12 @@
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="activites.php">
-                        <i class="bi bi-activity" style="font-size: 2rem; color: var(--color-8);"></i>ACTIVITIES</a></h5>
+                        <h5 class="card-title"><a href="activities.php">
+                                <i class="bi bi-activity" style="font-size: 2rem; color: var(--color-8);"></i>Activities</a></h5>
                         <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary"><a href="activites.php">Closed</a></small>
+                        <small class="text-body-secondary"><a href="activities.php">Closed</a></small>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="contact.php">
-                        <i class="bi bi-people-fill" style="font-size: 2rem; color: var(--color-8);"></i>COMMITEES</a></h5>
+                                <i class="bi bi-people-fill" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></h5>
                         <p class="card-text">Additional information or any questions, please contact us.</p>
                     </div>
                     <div class="card-footer">
@@ -140,7 +140,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="MBAR-history.php">
-                        <i class="bi bi-chat-left-text" style="font-size: 2rem; color: var(--color-8);"></i>HISTORY</a></h5>
+                                <i class="bi bi-chat-left-text" style="font-size: 2rem; color: var(--color-8);"></i>HISTORY</a></h5>
                         <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer">
@@ -153,7 +153,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h5 class="card-title"><a href="anonymous-contribution.php">
-                        <i class="bi bi-hand-thumbs-up" style="font-size: 2rem; color: var(--color-8);"></i>CONTRIBUTIONS</a></h5>
+                                <i class="bi bi-hand-thumbs-up" style="font-size: 2rem; color: var(--color-8);"></i>CONTRIBUTIONS</a></h5>
                         <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
                     </div>
                     <div class="card-footer">
