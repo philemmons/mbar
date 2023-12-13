@@ -157,3 +157,8 @@ nav {
 .hero-text-border {
     border: solid 1px var(--color-4);
 }
+
+.btn-primary {
+    --bs-btn-bg: #0000ff;
+    --bs-btn-hover-bg: #22aaff;
+}
