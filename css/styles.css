@@ -37,6 +37,10 @@ body {
     padding-bottom: 7rem !important;
 }
 
+.pt-6{
+    padding-top: 3.5rem;
+}
+
 /**** header ****/
 .banner {
     text-align: center;
@@ -46,7 +50,6 @@ body {
 .banner>h1 {
     font-size: 25px;
     letter-spacing: 4px;
-    padding: 3.5rem 0 0 0;
 }
 
 /**** footer ****/
