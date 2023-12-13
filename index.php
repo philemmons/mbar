@@ -104,7 +104,7 @@
                         <p class="card-text">Registration fees pay for the Conference Center, Speaker Travel, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary"><a href="registration.html">Closed</a></small>
+                        <small class="text-body-secondary"><a href="registration.php">Closed</a></small>
                     </div>
                 </div>
             </div>
