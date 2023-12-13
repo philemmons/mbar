@@ -23,7 +23,11 @@ body {
     color: var(--color-5);
 }
 
-/**** hero banner ****/
+.font-italic{
+    font-style: italic;
+}
+
+/**** header ****/
 .banner {
     text-align: center;
     padding: 1rem;
@@ -142,5 +146,5 @@ nav {
 }
 
 .hero-text-border{
-    border: solid 2px var(--color-4);
+    border: solid 2px var(--color-6);
 }
