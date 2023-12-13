@@ -136,3 +136,11 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.shadow-wrap{
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.16);
+}
+
+.hero-text-border{
+    border: solid 2px var(--color-4);
+}

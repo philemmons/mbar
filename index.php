@@ -43,20 +43,19 @@
 </nav>
 
 <main>
-    <div class="p-5 mb-4 bg-body-tertiary">
-        <div class="container-fluid">
-            <div class="row align-items-md-stretch">
-                <div class="col-sm-6 col-lg-4 mx-auto">
-                    <div class="h-100 p-4 text-bg-light">
-                        <h2>Monterey Bay Area Roundup 2024</h2>
-                        <p>Join us 08/31 and 09/01!</p>
-                    </div>
+    <!-- Hero Section -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center py-5 mb-5 bg-body-tertiary">
+            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+                <div class="px-2 py-3 text-center text-bg-light">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    </h1>
+                    <p class="mb-6 h2 text-dark">August 31st and September 1st</p>
+                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
-
             </div>
         </div>
-    </div>
-
+    </section>
 </main>
 
 <?php include 'footer.inc' ?>
