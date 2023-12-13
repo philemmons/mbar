@@ -25,7 +25,7 @@
                 <p class="font-italic">To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.</p>
             </div>
             <div class='col-sm-auto banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
+                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
 
             </div>
         </div>
