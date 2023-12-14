@@ -22,9 +22,6 @@
     </div>
 </footer>
 
-<!-- Return to Top -->
-<a href="javascript:" id="return-to-top"><i class="bi bi-chevron-double-up"></i></a>
-
 <div class = 'container'>
 <div class="row justify-content-md-center">
         <div class="col-sm-12" id="footer-image">
@@ -40,18 +37,4 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-<script>
-// ===== Scroll to Top ==== 
-$(this).scroll(function() {
-    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-});
-$('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-    }, 500);
-});
-</script>
+<script></script>
