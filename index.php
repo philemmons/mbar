@@ -47,7 +47,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h1>
                     <p class="mb-6 h2 text-dark">August 31st and September 1st</p>
@@ -182,7 +182,7 @@
                 </div>
 
                 <div class="col-lg-5 pt-4">
-                    <img src="../images/coastal_wave.png" class="img-responsive shadow-wrap" alt="Huge wave crashing on the rocky shore.">
+                    <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Huge wave crashing on the rocky shore.">
                 </div>
             </div>
         </div>
