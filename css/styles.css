@@ -55,11 +55,6 @@ footer {
     background-color: var(--color-2);
 }
 
-#statement {
-    font-weight: 700;
-    font-size: 20px;
-}
-
 hr {
     border-top: medium double var(--color-4);
 }
