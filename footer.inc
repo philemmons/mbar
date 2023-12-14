@@ -21,6 +21,10 @@
         </div>
     </div>
 </footer>
+
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="bi bi-chevron-double-up"></i></a>
+
 <div class = 'container'>
 <div class="row justify-content-md-center">
         <div class="col-sm-12" id="footer-image">
