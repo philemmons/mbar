@@ -166,7 +166,7 @@
     </section>
 
     <!-- Section Three -->
-    <section class="container mb-5 p-4">
+    <section class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">
                 <h3>ABOUT MONTEREY BAY AREA ROUNDUP</h3>
