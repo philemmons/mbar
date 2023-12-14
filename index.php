@@ -104,7 +104,7 @@
                         <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Closed</a></small>
+                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                         <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Closed</a></small>
+                        <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                         <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="anonymous-contribution.php" class="btn btn-primary">Helping Hand</a></small>
+                        <small class="text-body-secondary"><a href="anonymous-contribution.php" class="btn btn-primary">Helping Hands</a></small>
                     </div>
                 </div>
             </div>
