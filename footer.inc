@@ -3,7 +3,7 @@
         <div class='col-sm-4 banner'>
             <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
         </div>
-        <div class='col-sm-8 col-md-6 p-3'>
+        <div class='col-sm-8 col-md-6 p-4'>
             <h3>Our Statement of Responsibility:</h3>
             <h3>I am responsible.
                 <br>
