@@ -167,25 +167,23 @@
 
     <!-- Section Three -->
     <section class="container mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 pt-4">
-                    <h3>ABOUT MONTEREY BAY AREA ROUNDUP</h3>
-                    <p><strong>ALCOHOLICS ANONYMOUS</strong> is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.
-                        <br><br>
-                        <strong>What is Al-Anon?</strong>
-                        Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery. <br><br>
-                        Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
-                        <br><br>
-                        Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
-                    </p>
-                </div>
-
-                <div class="col-lg-5 pt-4">
-                    <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Huge wave crashing on the rocky shore.">
-                </div>
+        <div class="row">
+            <div class="col-lg-7 p-4">
+                <h3>ABOUT MONTEREY BAY AREA ROUNDUP</h3>
+                <p><strong>ALCOHOLICS ANONYMOUS</strong> is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.
+                    <br><br>
+                    <strong>What is Al-Anon?</strong>
+                    Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery. <br><br>
+                    Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
+                    <br><br>
+                    Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
+                </p>
+            </div>
+            <div class="col-lg-5 pt-4">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Huge wave crashing on the rocky shore.">
             </div>
         </div>
+
     </section>
 
 </main>
