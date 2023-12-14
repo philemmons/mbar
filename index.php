@@ -91,7 +91,7 @@
                         <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See archives of 2022</a></small>
+                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
                     </div>
                 </div>
             </div>
