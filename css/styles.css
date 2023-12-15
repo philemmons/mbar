@@ -139,9 +139,16 @@ nav {
 /**** hero banner ****/
 
 .bg-body-tertiary {
-    background-image: url("../images/monterey_bay.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-img-home{
+    background-image: url("../images/monterey_bay.png");
+}
+
+.bg-img-conference-2024{
+    background-image: url("../images/portola-plaza.png");
 }
 
 .shadow-wrap {
