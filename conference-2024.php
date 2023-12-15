@@ -135,7 +135,7 @@
                     </p>
                     <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
                     </p>
-                    <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide two ASL Interpreters on these days:</strong>
+                    <p><strong>ADA ACCESSIBILITY - MBAR 2024 will provide two ASL Interpreters on these days:</strong>
                     </p>
                     <ul>
                         <li>Friday - 2.5 hours</li>
