@@ -169,20 +169,29 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-sm-6 text-bg-light hero-text-border">
-                <h3 class="card-title text-center mb-3">What else to do around Monterey?</h3>
+            <div class="col-sm-6 py-4">
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class="card-title text-center mb-3">What else to do around Monterey?</h3>
 
-                <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
+                    <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
 
-                <p><a href="https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/" class="bb-link" target="_blank">Hotels</a></p>
+                    <h4><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></h4>
 
-                <p><a href="https://www.yelp.com/search?find_desc=Restaurants&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></p>
+                    <h4><a href="https://www.yelp.com/search?find_desc=Kayaking&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Kayaking</a></h4>
 
-                <p><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank"><img src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"><br>Check out our local meetings</a></p>
+                    <h4><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></h4>
+
+                    <h4><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></h4>
+
+                    <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
+
+                    <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
+                </div>
             </div>
-            <div class="col-sm-auto">
-                <img class="img-fluid" src="../images/whale-breach.png"  alt="Whale breeching the ocean surface.">
+            <div class="col-sm-auto py-4">
+                <img class="img-fluid" src="../images/whale-breach.png" alt="Whale breeching the ocean surface.">
             </div>
+
         </div>
     </section>
 
