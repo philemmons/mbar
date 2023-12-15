@@ -188,3 +188,10 @@ nav {
     letter-spacing: 1px;
     text-decoration: none;
 }
+
+/**** card element changes ****/
+
+.card-title>p>a{
+    text-decoration: none;
+    color:#0000ff;
+}

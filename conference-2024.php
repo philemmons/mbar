@@ -78,23 +78,24 @@
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+            <div class="col-xl-8 col-lg-8 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
+                    <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
+                        <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
+                        <a href="" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <strong>Big Book p89</strong></a>
+                        </p>
+                        <p>
+                        It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. 
+                        Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <strong>Big Book P. 89.</strong></a>
-                        <br>
-                        <br>
-                        It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. <br>
-                        Life will mean something at last! The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
-                        <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <strong>Big Book P. 152</strong></a>
+                        <a href="" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <strong>Big Book p152</strong></a>
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
