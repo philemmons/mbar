@@ -110,7 +110,7 @@ nav {
 }
 
 .nav-link.active,
-dropdown-item.active {
+.dropdown-item.active {
     font-weight: 600;
     background-color: var(--color-2) !important;
 }
