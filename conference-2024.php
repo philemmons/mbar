@@ -87,7 +87,7 @@
                     </p>
                     <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bblink" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p152</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p152</a>
                     </p>
                 </div>
             </div>
