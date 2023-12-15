@@ -109,7 +109,8 @@ nav {
     padding: 0;
 }
 
-.nav-link.active {
+.nav-link.active,
+dropdown-item.active {
     font-weight: 600;
 }
 
@@ -121,7 +122,8 @@ nav {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
-    opacity: 1
+    opacity: 1;
+
 }
 
 .dropdown-menu {
@@ -130,8 +132,11 @@ nav {
     border-radius: 0;
 }
 
+
+
 .navbar-nav>li>a:hover,
-.navbar-nav>li>div>a:hover {
+.navbar-nav>li>div>a:hover,
+.navbar-nav>li>a>.active {
     background-color: var(--color-7);
     color: var(--color-2);
 }
