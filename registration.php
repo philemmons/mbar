@@ -44,7 +44,7 @@
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
@@ -73,14 +73,19 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="register-now">Download the Registration Form</a></h3>
-                    <p>Below is the registration form MBAR 2024, and can be returned by mail or email.<br>
-                        MONTEREY BAY AREA ROUNDUP<br>Att: Naomi B.<br>
-                        P.O. Box 1462<br>Monterey, CA 93942<br>OR email to <a href="mailto:mbarregchair2024@gmail.com">mbarregchair2024@gmail.com</a>
-                        <br>
-                        <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                    <p>Below is the registration form MBAR 2024, and can be returned by mail or email.
+                    </p>
+                    <p>MONTEREY BAY AREA ROUNDUP<br>
+                        Att: Naomi B.<br>
+                        P.O. Box 1462<br>
+                        Monterey, CA 93942
+                    </p>
+                    <p>OR email to <a href="mailto:mbarregchair2024@gmail.com">mbarregchair2024@gmail.com</a>
+                    </p>
+                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">MBAR 2024 Registration Form</a>
-                        <br>
-                        If you have any question, please contact our Steering Committee<a href="mailto:mbarchair2024@gmail.com">mbarchair2024@gmail.com</a>
+                    </p>
+                    <p>If you have any question, please contact our Steering Committee<a href="mailto:mbarchair2024@gmail.com">mbarchair2024@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -107,7 +112,7 @@
 
     <!-- Section Four -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
