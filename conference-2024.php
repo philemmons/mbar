@@ -46,7 +46,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference<br>
                             with<br>
                             Al-Anon Participation</span></h1>
@@ -59,7 +59,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">August 31st and<br>September 1st</p>
@@ -84,12 +84,12 @@
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p89</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p89</a>
                     </p>
                     <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/bigbook/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p152</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Big Book p152</a>
                     </p>
                 </div>
             </div>
@@ -121,7 +121,7 @@
         </div>
     </section>
 
-    <!-- Section Three -->
+    <!-- Section Four -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-5">

@@ -47,7 +47,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h1>
                     <p class="mb-6 h2 text-dark">August 31st and<br>September 1st</p>
@@ -104,7 +104,7 @@
                         <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
+                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Preregistration is Live</a></small>
                     </div>
                 </div>
             </div>
