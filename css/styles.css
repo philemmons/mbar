@@ -189,9 +189,10 @@ nav {
     text-decoration: none;
 }
 
-/**** card element changes ****/
+/**** big book href ****/
 
-.card-title>p>a{
+.bb-link {
     text-decoration: none;
-    color:#0000ff;
+    color: #0000ff;
+    font-weight: 700;
 }
