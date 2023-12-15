@@ -101,18 +101,19 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3><a href="activities.php">Bethlehem Lutheran Church</a></h3>
-                    <div class="col-md-12 text-left" id="bordermap">
-                        <strong><img src="images/icons/warning-sign.png" width="50" height="50" alt="">PLEASE NOTE:</strong> The Breakfast and Dinner will be held at<br><strong> Bethlehem Lutheran Church, located at 800 Cass Street in Monterey</strong> (a little over one mile from the Conference Center).<br><br>
-
+                    <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
+                    <div class="col-md-12 db-5">
+                        <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
+                            <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
+                            (It is a little over one mile from the Conference Center.)
+                        </p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.345532490949!2d-121.89797058430084!3d36.59398628697924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem+Lutheran+Church!5e0!3m2!1sen!2sus!4v1550676666728" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                     <br>
                     <hr>
                     <br>
-                    <section id="mcc"></section>
-                    <h3><a href="activities.php">Monterey Conference Center</a></h3>
-                    <div class="col-md-12 text-left" id="bordermap1">
+                    <h3 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h3>
+                    <div class="col-md-12 db-5">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.037184010839!2d-121.89686518419717!3d36.6014134799899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de422461f891b%3A0x20f8f64ee124f091!2sMonterey+Conference+Center!5e0!3m2!1sen!2sus!4v1548347273704" width="100%" height="450" style="border:0" allowfullscreen=""></iframe>
                     </div>
                 </div>
@@ -120,27 +121,32 @@
         </div>
     </section>
 
+    <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+            <div class="col-xl-8 col-lg-8 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4>ADA ACCESSIBILITY</h4>
-                    <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this
-                        document with your Event Manager. These general policies, rules and regulations are subject to change.
-                        <strong>The Monterey Conference Center</strong> ADA COMPLIANCE - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                    <h3 class="card-title mb-3">
+                        <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.</p>
+                        <p><strong>The Monterey Conference Center ADA COMPLIANCE</strong> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                        </p>
+                        <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
+                            <br>
+                            Assisted hearing devices are available through our preferred in house Audio-Visual provider.
+                        </p>
+                        <p>
+                            <strong>ADA ACCESSIBILITY: MBAR 2024 will provide</strong>:
+                            <br>
+                        <ul>
+                            <li><strong>two ASL Interpreters</strong> on these days:</li>
+                            <li>Friday - 2.5 hours</li>
+                            <li>Saturday - 2.5 hours</li>
+                            <li>Sunday - 3.0 hours</li>
+                        </ul>
                         <br>
-                        It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.<br>
-                        Assisted hearing devices are available through our preferred in house AV provider.
-                    </p>
-                    <br>
-                    <strong>ADA ACCESSIBILITY: MBAR 2022 will provide</strong>:
-                    <ul>
-                        <li><strong>2 ASL Interpreters</strong> (see option in the conference daily schedule)</li>
-                        <li>Friday 2.5h</li>
-                        <li>Saturday 2.5h</li>
-                        <li>Sunday 3.0h</li>
-                    </ul> (<a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/"><span style="font-size: 12px; font-style: italic">From Monterey Conference Center website</span> </a> ) <br><br>
-                    <sup><strong>NOTE:</strong> ADA accessibility's are subject to change with the new schedule and reservation time and location. </sup>
+                        <a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/"><span style="font-style: italic">(ADA information from Monterey Conference Center)</span></a>
+                        <br><br>
+                        <sup><strong>PLEASE NOTE:</strong> ADA accessibility's are subject to change with the new schedule and reservation time and location.</sup>
                 </div>
             </div>
         </div>

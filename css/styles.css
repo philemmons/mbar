@@ -196,3 +196,10 @@ nav {
     color: #0000ff;
     font-weight: 600;
 }
+
+/**** maps ****/
+
+.db-5{
+    border: solid 5px var(--color-7);
+    border-style: double;
+}
