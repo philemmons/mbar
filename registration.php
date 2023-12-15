@@ -72,7 +72,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="register-now">Download the Registration Form</a></h3>
+                    <h3 class="card-title mb-3"><a href="#register-now">Download the Registration Form</a></h3>
                     <p>Below is the registration form MBAR 2024, and can be returned by mail or email.
                     </p>
                     <p>MONTEREY BAY AREA ROUNDUP<br>
@@ -85,7 +85,7 @@
                     <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">MBAR 2024 Registration Form</a>
                     </p>
-                    <p>If you have any question, please contact our Steering Committee<a href="mailto:mbarchair2024@gmail.com">mbarchair2024@gmail.com</a>
+                    <p>If you have any question, please contact our Steering Committee at <a href="mailto:mbarchair2024@gmail.com">mbarchair2024@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -128,7 +128,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="register-now">A.A. Conventions: Why do we have to pay?</a></h3>
+                    <h3 class="card-title mb-3"><a href="#register-now">A.A. Conventions: Why do we have to pay?</a></h3>
                     <p>There are many A.A. conferences/conventions held around the world. One of the most common misconceptions of their gathering is that they are A.A. meetings and since there are no dues or fees for A.A. membership, there should be no fees to attend. Conventions and conferences are special events, not regular A.A. meetings. They require months of planning, preparation and costs.
                     </p>
                     <p>Since most events are held in hotels/conference centers, there is a charge for the use of some facilities. Other expenses include travel and lodging for the speakers, printing of fliers, schedules, programs, postage, supplies and entertainment. A large event requires a substantial amount of money.
