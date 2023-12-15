@@ -44,7 +44,7 @@
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey Bay sunset and other activities.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey sunset and fellowship activities.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
@@ -56,15 +56,15 @@
 
     <!-- Section One -->
     <section class="container shadow-wrap">
-        <div class="row">
+        <div class="row py-4 mb-5">
             <div class="col-lg-4 col-sm-12 col-12">
                 <figure class="figure">
                     <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
                     <figcaption class="figure-caption">
-                        <h2> Guest Speakers</h2>
-                        <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
-                        </p>
+                        <h2>Guest Speakers</h2>
                     </figcaption>
+                    <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
+                    </p>
                 </figure>
             </div>
 
@@ -76,12 +76,12 @@
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12">
-                        <h4>Meet the Speakers Dinner</h4>
-                        <h5><strong>at Bethlehem Lutheran Church</strong>.
-                            <p><a href="https://mbar.philemmons.dev/conference-2022.php#map">(See map here)</a>
-                            </p>
-                            Join us for a delicious dinner and meet the speakers at the Bethlehem Lutheran Church Hall (in the back of the building).
-                        </h5>
+                        <figcaption class="figure-caption">
+                            <h3>Meet the Speakers Dinner</h3>
+                        </figcaption>
+                        <p><a href="https://mbar.philemmons.dev/conference-2022.php#map" class="bb-link">(See map here)</a></p>
+                        <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> (in the back of the building).
+                        </p>
                     </div>
                 </div>
 
@@ -92,9 +92,11 @@
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12">
-                        <h4>Marathon Meetings</h4>
-                        <h5>During the MBAR Conference there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main A.A. / Al-Anon Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
-                        </h5>
+                        <figcaption class="figure-caption">
+                            <h3>Marathon Meetings</h3>
+                        </figcaption>
+                        <p>During the MBAR Conference there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                        </p>
                     </div>
                 </div>
 
@@ -105,10 +107,12 @@
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12">
-                        <h4>Roundup Breakfast</h4>
-                        <p><a href="https://mbar.philemmons.dev/conference-2022.php#map">(See map here)</a></p>
-                        <h5>Join us for a delicious breakfast and fellowship <strong>at Bethlehem Lutheran Church</strong>. (in the back of the building) to start off the activities of the day.
-                        </h5>
+                        <figcaption class="figure-caption">
+                            <h3>Roundup Breakfast</h3>
+                        </figcaption>
+                        <p><a href="https://mbar.philemmons.dev/conference-2022.php#map" class="bb-link">(See map here)</a></p>
+                        <p>Join us for a delicious breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
+                        </p>
                     </div>
                 </div>
 
@@ -119,25 +123,29 @@
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12">
-                        <h4>Dance and Fellowship</h4>
-                        <h5>After the Main speaker meeting on Saturday Night, join us for some fun and fellowship. After all, "we aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
-
-                        </h5>
+                        <figcaption class="figure-caption">
+                            <h3>Dance and Fellowship</h3>
+                        </figcaption>
+                        <p>After the Main speaker meeting on Saturday Night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
+                        </p>
                     </div>
+                </div>
 
-                    <div class="row">
-                        <div class="col-sm-6 col-12">
-                            <figure class="figure">
-                                <img src="../images/con-ice-cream.png" class="figure-img img-fluid mt-4" alt="Ice cream social logo with the words on top of a cone.">
-                            </figure>
-                        </div>
-                        <div class="col-sm-6 col-12">
-                            <h4>Ice-Cream Social</h4>
-                            <h5><b>Will be held on the Stevenson Terrace at the Conference Center</b>. <p><a href="https://mbar.philemmons.dev/conference-2022.php#map">(See map here)</a></p><br>
-                                Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.<br>
-                                For more info, pick up a program at the Registration desk!
-                            </h5>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-6 col-12">
+                        <figure class="figure">
+                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid mt-4" alt="Ice cream social logo with the words on top of a cone.">
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-12 box-3">
+                        <figcaption class="figure-caption">
+                            <h3>Ice-Cream Social</h3>
+                        </figcaption>
+                        <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
+                        <p><a href="https://mbar.philemmons.dev/conference-2022.php#map" class="bb-link">(See map here)</a></p>
+                        <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
+                        </p>
+                        <p>For more info, pick up your program at the Registration desk!</p>
                     </div>
                 </div>
 
@@ -146,7 +154,7 @@
     </section>
 
 
-    <!-- Section One -->
+    <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
@@ -160,7 +168,26 @@
         </div>
     </section>
 
-
+    <!-- Section Three -->
+    <section class="container shadow-wrap">
+        <div class="row m-0">
+            <div class="col-lg-5 col-md-12 p-0">
+                <h2>What to do <br>Around<br> Monterey</h2>
+                <ul>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.seemonterey.com/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Visit the coast</a></li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Restaurants</a></li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Hotels</a></li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.aamonterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img src="mbiaa-logo.png" width="300" alt=""><br>Check out our local meetings</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-7 col-md-12 p-0">
+                <figure>
+                    <img class="inner-img" src="..images/whale-breach.png" alt="Whale breeching the ocean surface.">
+                    <img class="out-sideimg" src="..images/california-seal.png" alt="State of California Seal">
+                </figure>
+            </div>
+        </div>
+    </section>
 
 </main>
 <?php include 'footer.inc' ?>
