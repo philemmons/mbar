@@ -112,6 +112,7 @@ nav {
 .nav-link.active,
 dropdown-item.active {
     font-weight: 600;
+    background-color: var(--color-2) !important;
 }
 
 .navbar-toggler {
@@ -135,8 +136,7 @@ dropdown-item.active {
 
 
 .navbar-nav>li>a:hover,
-.navbar-nav>li>div>a:hover,
-.navbar-nav>li>a>.active {
+.navbar-nav>li>div>a:hover {
     background-color: var(--color-7);
     color: var(--color-2);
 }
@@ -148,11 +148,11 @@ dropdown-item.active {
     background-size: cover;
 }
 
-.bg-img-home{
+.bg-img-home {
     background-image: url("../images/monterey_bay.png");
 }
 
-.bg-img-conference-2024{
+.bg-img-conference-2024 {
     background-image: url("../images/portola-plaza.png");
 }
 
@@ -200,6 +200,7 @@ dropdown-item.active {
     display: none;
     transition: all 0.3s ease;
 }
+
 #return-to-top i {
     color: #fff;
     margin: 0;
@@ -209,9 +210,11 @@ dropdown-item.active {
     font-size: 19px;
     transition: all 0.3s ease;
 }
+
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
+
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
