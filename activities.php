@@ -177,7 +177,7 @@
 
                     <h4><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></h4>
 
-                    <h4><a href="https://www.yelp.com/search?find_desc=Kayaking&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Kayaking</a></h4>
+                    <h4><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></h4>
 
                     <h4><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></h4>
 
