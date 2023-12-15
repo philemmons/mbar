@@ -58,7 +58,7 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-6 col-md-12 pt-5">
+            <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center py-5 mb-5">
+        <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-12 col-12 text-center px-3">
                 <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
             </div>
@@ -78,7 +78,7 @@
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
@@ -99,7 +99,7 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
@@ -124,7 +124,7 @@
     <!-- Section Four -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h3>
                     <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
