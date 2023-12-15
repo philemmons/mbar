@@ -73,14 +73,14 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="#register-now">Download the Registration Form</a></h3>
-                    <p>Below is the registration form MBAR 2024, and can be returned by mail or email.
+                    <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                     </p>
                     <p>MONTEREY BAY AREA ROUNDUP<br>
                         Att: Naomi B.<br>
                         P.O. Box 1462<br>
                         Monterey, CA 93942
                     </p>
-                    <p>OR email to <a href="mailto:mbarregchair2024@gmail.com" class="bb-link">Registration Chair</a>
+                    <p>OR email the completed form to our <a href="mailto:mbarregchair2024@gmail.com" class="bb-link">Registration Chair</a>
                     </p>
                     <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2024 Registration Form</a>
