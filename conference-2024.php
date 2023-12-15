@@ -99,7 +99,7 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+            <div class="col-xl-8 col-lg-8 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
@@ -125,28 +125,25 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3">
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class="card-title mb-3 text-center">ADA  ACCESSIBILITY</h3>
                         <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
                         </p>
-                        <p><strong>The Monterey Conference Center ADA COMPLIANCE</strong> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                        <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                         </p>
                         <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
-                            <br>
-                            Assisted hearing devices are available through our preferred in house Audio-Visual provider.
                         </p>
-                        <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide</strong>:
-                            <br>
-                        <ul class= ">
-                            <li><strong>two ASL Interpreters</strong> on these days:</li>
+                        <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
+                        </p>
+                        <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide two ASL Interpreters on these days:</strong>:
+                        </p>
+                        <ul>
                             <li>Friday - 2.5 hours</li>
                             <li>Saturday - 2.5 hours</li>
                             <li>Sunday - 3.0 hours</li>
                         </ul>
-                        <br>
-                        <a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/"><span style="font-style: italic">(ADA information from Monterey Conference Center)</span></a>
-                        <br><br>
-                        <sup><strong>PLEASE NOTE:</strong> ADA accessibility's are subject to change with the new schedule and reservation time and location.</sup>
+                        <p style= "font-style: italics;"><strong>PLEASE NOTE:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                    </p>
                 </div>
             </div>
         </div>
