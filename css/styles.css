@@ -161,7 +161,7 @@ nav {
     background-image: url("../images/portola-plaza.png");
 }
 
-.bg-image-registration{
+.bg-image-registration {
     background-image: url("../images/portola-plaza-sunset.png");
 }
 
@@ -203,7 +203,7 @@ nav {
 
 /**** maps ****/
 
-.db-5{
+.db-5 {
     border: solid 5px var(--color-7);
     border-style: double;
 }
