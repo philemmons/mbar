@@ -168,9 +168,9 @@
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-md-center mb-5">
-            <div class="col-sm-6 banner">
-                <h3 class="card-title mb-3">What else to do around Monterey?</h3>
+        <div class="row justify-content-center mb-5">
+            <div class="col-sm-6 text-bg-light hero-text-border">
+                <h3 class="card-title text-center mb-3">What else to do around Monterey?</h3>
 
                 <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
 
@@ -180,8 +180,8 @@
 
                 <p><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank"><img src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"><br>Check out our local meetings</a></p>
             </div>
-            <div class="col-sm-auto banner">
-                <img src="..images/whale-breach.png" class="img-fluid" alt="Whale breeching the ocean surface.">
+            <div class="col-sm-auto">
+                <img class="img-fluid" src="../images/whale-breach.png"  alt="Whale breeching the ocean surface.">
             </div>
         </div>
     </section>
