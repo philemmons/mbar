@@ -127,17 +127,17 @@
             <div class="col-xl-8 col-lg-8 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3">
-                        <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.</p>
+                        <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
+                        </p>
                         <p><strong>The Monterey Conference Center ADA COMPLIANCE</strong> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                         </p>
                         <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
                             <br>
                             Assisted hearing devices are available through our preferred in house Audio-Visual provider.
                         </p>
-                        <p>
-                            <strong>ADA ACCESSIBILITY: MBAR 2024 will provide</strong>:
+                        <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide</strong>:
                             <br>
-                        <ul>
+                        <ul class= ">
                             <li><strong>two ASL Interpreters</strong> on these days:</li>
                             <li>Friday - 2.5 hours</li>
                             <li>Saturday - 2.5 hours</li>
