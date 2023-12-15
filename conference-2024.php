@@ -58,7 +58,7 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-            <div class="col-xl-7 col-lg-7 col-md-12 pt-5">
+            <div class="col-xl-6 col-lg-6 col-md-12 pt-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h2>
@@ -78,7 +78,7 @@
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-12 py-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
@@ -109,7 +109,7 @@
                         </p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.345532490949!2d-121.89797058430084!3d36.59398628697924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem+Lutheran+Church!5e0!3m2!1sen!2sus!4v1550676666728" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
-                    <br>
+                    <br><br>
                     <hr>
                     <br>
                     <h3 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h3>
@@ -124,7 +124,7 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-12 py-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-5">
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title mb-3 text-center">ADA  ACCESSIBILITY</h3>
                         <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
@@ -135,7 +135,7 @@
                         </p>
                         <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
                         </p>
-                        <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide two ASL Interpreters on these days:</strong>:
+                        <p><strong>ADA ACCESSIBILITY: MBAR 2024 will provide two ASL Interpreters on these days:</strong>
                         </p>
                         <ul>
                             <li>Friday - 2.5 hours</li>
