@@ -5,8 +5,7 @@
         </div>
         <div class='col-sm-8 col-md-6 p-4'>
             <h3>Our Statement of Responsibility:</h3>
-            <h4>I am responsible.
-                <br>
+            <h4>I am responsible.<br>
                 When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
                 And for that I am responsible.
             </h4>
@@ -25,8 +24,7 @@
 <div class='container'>
     <div class="row justify-content-md-center">
         <div class="col-sm-12" id="footer-image">
-            <p>
-                Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
+            <p>Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
             </p>
         </div>
     </div>
