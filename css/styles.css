@@ -165,6 +165,10 @@ nav {
     background-image: url("../images/portola-plaza-sunset.png");
 }
 
+.bg-img-activity {
+    background-image: url("../images/activity.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
