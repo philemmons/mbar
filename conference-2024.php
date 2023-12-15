@@ -70,7 +70,7 @@
 
         <div class="row justify-content-center mb-5">
             <div class="col-sm-12 col-12 text-center p-3">
-                <img class="img-fluid banner" src="conference-room.png" alt="">
+                <img class="img-fluid banner" src="../images/conference-room.png" alt="">
             </div>
         </div>
     </section>
