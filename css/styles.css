@@ -37,6 +37,10 @@ body {
     padding-bottom: 7rem !important;
 }
 
+.container.shadow-wrap {
+    background-color: var(--color-6);
+}
+
 /**** header ****/
 .banner {
     text-align: center;
@@ -112,6 +116,7 @@ nav {
 .nav-link.active,
 .dropdown-item.active {
     font-weight: 600;
+    color: var(--color-5);
     background-color: var(--color-2);
 }
 
