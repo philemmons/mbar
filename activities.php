@@ -168,21 +168,20 @@
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
-        <div class="row m-0">
-            <div class="col-lg-5 col-md-12 p-0">
-                <h2>What to do <br>Around<br> Monterey</h2>
-                <ul>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.seemonterey.com/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Visit the coast</a></li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Restaurants</a></li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Hotels</a></li>
-                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" onclick="window.open('https://www.aamonterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img src="mbiaa-logo.png" width="300" alt=""><br>Check out our local meetings</a></li>
-                </ul>
+        <div class="row justify-content-md-center mb-5">
+            <div class="col-sm-6 banner">
+                <h3 class="card-title mb-3">What else to do around Monterey?</h3>
+
+                <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
+
+                <p><a href="https://www.hotels.com/de1689482/hotels-near-monterey-convention-center-monterey-united-states-of-america/" class="bb-link" target="_blank">Hotels</a></p>
+
+                <p><a href="https://www.yelp.com/search?find_desc=Restaurants&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></p>
+
+                <p><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank"><img src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"><br>Check out our local meetings</a></p>
             </div>
-            <div class="col-lg-7 col-md-12 p-0">
-                <figure>
-                    <img class="inner-img" src="..images/whale-breach.png" alt="Whale breeching the ocean surface.">
-                    <img class="out-sideimg" src="..images/california-seal.png" alt="State of California Seal">
-                </figure>
+            <div class="col-sm-auto banner">
+                <img src="..images/whale-breach.png" class="img-fluid" alt="Whale breeching the ocean surface.">
             </div>
         </div>
     </section>
