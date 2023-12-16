@@ -170,6 +170,10 @@ nav {
     background-image: url("../images/activity.png");
 }
 
+.bg-img-history{
+    background-image: url("../images/monterey-state-beach.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
