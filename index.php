@@ -12,7 +12,9 @@
                         <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown" style='width: 180px;'>
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</a>
+                    <!-- <a class="nav-link dropdown-toggle" href="" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</a> -->
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
@@ -22,7 +24,8 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown" style='width: 161px;'>
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</a>
+                    <!-- <a class="nav-link dropdown-toggle" href="" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</a> -->
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
@@ -88,7 +91,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>2024 Conference</a></h5>
-                        <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
+                            <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
@@ -101,7 +104,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
                                 <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registration</a></h5>
-                        <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
+                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Preregistration is Live</a></small>
@@ -114,7 +117,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Activities</a></h5>
-                        <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
+                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
@@ -129,7 +132,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="contact.php">
                                 <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></h5>
-                        <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
+                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="committee-meetings.php" class="btn btn-primary">Contact Us</a></small>
@@ -142,7 +145,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="MBAR-history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></h5>
-                        <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="mbar-history.php" class="btn btn-primary">Our Past</a></small>
@@ -155,7 +158,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="anonymous-contribution.php">
                                 <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></h5>
-                        <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
+                            <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="anonymous-contribution.php" class="btn btn-primary">Helping Hands</a></small>
