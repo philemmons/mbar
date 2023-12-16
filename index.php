@@ -140,12 +140,12 @@
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="MBAR-history.php">
+                        <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></h5>
                             <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar-history.php" class="btn btn-primary">Our Past</a></small>
+                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
                     </div>
                 </div>
             </div>
