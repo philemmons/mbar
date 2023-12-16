@@ -11,7 +11,7 @@
                     <a class="nav-link" href="index.php" aria-current="page">Home</a>
                 </li>
                 <li class="nav-item dropdown" style='width: 180px;'>
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</a>
+                <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item active" href="conference-2024.php">MBAR 2024<span class="visually-hidden">(current)</span></a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
@@ -21,7 +21,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown" style='width: 161px;'>
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</a>
+                <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
