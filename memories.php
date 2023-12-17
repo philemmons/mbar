@@ -44,7 +44,7 @@
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Amazing Monterey State Beach">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Colorful tress during the fall.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
@@ -56,7 +56,7 @@
 
     <!-- Section One -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
