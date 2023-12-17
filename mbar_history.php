@@ -139,9 +139,9 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Schedule of Events</a></h5>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank">Conference line up 2022</a></p>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2021.php" class="bb-link" target="_blank">Conference line up 2021</a></p>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">Conference line up 2019</a></p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank">2022 Conference</a></p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2021.php" class="bb-link" target="_blank">2021 Conference</a></p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">2019 Conference</a></p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Check out MBAR's line up from our previous events</small>
@@ -173,16 +173,16 @@
                         <h6 class="card-title"><a href="conference-2021.php">
                                 <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Fliers Over the Years</a></h5>
                             <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2015 Program</a>
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Program</a>
                             </p>
                             <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2014 Program</a>
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Program</a>
                             </p>
                             <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2003 Program</a>
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Program</a>
                             </p>
                             <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 1997 Program</a>
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Program</a>
                             </p>
                     </div>
                     <div class="card-footer text-center">
