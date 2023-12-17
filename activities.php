@@ -171,7 +171,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-sm-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title text-center mb-3">What else to do around Monterey?</h3>
+                    <h3 class="card-title text-center mb-3">EXPLORING MONTEREY</h3>
 
                     <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
 
