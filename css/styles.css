@@ -142,7 +142,7 @@ nav {
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
-.navbar-nav>li>div>a:hover{
+.navbar-nav>li>div>a:hover {
     background-color: var(--color-7);
     color: var(--color-2);
 }
@@ -170,8 +170,12 @@ nav {
     background-image: url("../images/activity.png");
 }
 
-.bg-img-history{
+.bg-img-history {
     background-image: url("../images/monterey-state-beach.png");
+}
+
+.bg-img-memories {
+    background-image: url("../images/bg-img-memories.png");
 }
 
 .shadow-wrap {
@@ -219,9 +223,9 @@ nav {
 
 /**** audio controls ****/
 
-audio{
+audio {
     max-height: 100%;
     max-width: 100%;
     margin: auto;
     object-fit: contain;
-  }
+}
