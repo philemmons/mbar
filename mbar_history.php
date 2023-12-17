@@ -134,7 +134,7 @@
     <!-- Section Two -->
     <section class="container">
         <div class="row justify-content-center mb-5">
-            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
@@ -166,29 +166,28 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Section Three -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3 text-center">MONTEREY BAY AREA ROUNDUP</h3>
-                    <p>Speakers and guests come from all over the United States. Take a look at some fliers from our past.
-                    </p>
-                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2015 Program</a>
-                    </p>
-                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2014 Program</a>
-                    </p>
-                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2003 Program</a>
-                    </p>
-                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 1997 Program</a>
-                    </p>
+            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <h6 class="card-title"><a href="conference-2021.php">
+                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Fliers Over the Years</a></h5>
+                            <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2015 Program</a>
+                            </p>
+                            <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2014 Program</a>
+                            </p>
+                            <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2003 Program</a>
+                            </p>
+                            <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 1997 Program</a>
+                            </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary">Speakers and guests come from all over the United States.</small>
+                    </div>
                 </div>
             </div>
         </div>
