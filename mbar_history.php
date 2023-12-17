@@ -78,31 +78,31 @@
     <!-- Section Two -->
     <section class="container">
         <div class="row justify-content-center mb-5">
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Schedule of Events</a></h5>
-                            <p class="card-text">Conference line up 2022 (With audio files)</p>
-                            <p class="card-text">Conference line up 2021 (With audio files)</p>
-                            <p class="card-text">Conference line up 2019 (With audio files)</p>
+                            <p class="card-text">Conference line up 2022</p>
+                            <p class="card-text">Conference line up 2021</p>
+                            <p class="card-text">Conference line up 2019</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
+                        <small class="text-body-secondary">All have audio files</small>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Audio recording of speakers sharing their experience, strength, and hope.</a></h5>
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Audio Recording of Speakers</a></h5>
                             <p class="card-text">Paul O. from 2017</p>
                             ----audio file here----
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
+                        <small class="text-body-secondary">Speakers are sharing their experience, strength, and hope.</small>
                     </div>
                 </div>
             </div>
@@ -115,12 +115,11 @@
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <h5 class="card-title">Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</h5>
-
                 </div>
             </div>
         </div>
-
-        <!-- Section Four -->
+    </section>
+    <!-- Section Four -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
