@@ -135,7 +135,7 @@ if (!empty($errors)) {
                                 Required
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <label for="memory-em" class="form-label">Email</label>
                             <input type="email" class="form-control" id="memory-em" required>
                             <div class="invalid-feedback">
@@ -156,7 +156,7 @@ if (!empty($errors)) {
                                 Please enter your message in the text area.
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-md-6">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -166,9 +166,10 @@ if (!empty($errors)) {
                                     You must agree before submitting.
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary" type="submit">Submit form</button>
-                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
                     </form>
                 </div>
             </div>
