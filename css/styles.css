@@ -217,4 +217,11 @@ nav {
     border-style: double;
 }
 
-/**** ADA card ****/
+/**** audio controls ****/
+
+audio{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
