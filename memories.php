@@ -156,7 +156,7 @@ if (!empty($errors)) {
                                 Please enter your message in the text area.
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-9">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -167,7 +167,7 @@ if (!empty($errors)) {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <button class="btn btn-primary" type="submit">Submit form</button>
                         </div>
                     </form>
