@@ -59,13 +59,39 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Care to share your experience with us?</span>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">The event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
+                    <p class="mb-6 h5 text-dark">Care to share your experience with us?</p>
+                </div>
+                <div>
+                    ---- form here ----
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <h6 class="card-title"><a href="conference-2021.php">
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
+                            <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <h6 class="card-title"><a href="registration.php">
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
+                            <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
+                    </div>
+                </div>
+            </div>
+</section>
 
 </main>
 <?php include 'footer.inc' ?>
