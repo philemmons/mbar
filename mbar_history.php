@@ -67,7 +67,7 @@
         </div>
 
         <div class="row justify-content-center py-4 mb-5">
-            <div class="col-sm-12 col-12 text-center px-3">
+            <div class="col-sm-5 col-5 text-center px-5">
                 <p class="mb-6 h4 text-dark">Below are MBAR's event banners used over the years.
                 </p>
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 mb-3 mb-lg-0 py-4">
+            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
