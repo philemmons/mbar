@@ -3,7 +3,7 @@
 $errors = [];
 $errorMessage = '';
 
-$secret = getenv('g-secret-key ');
+$secret = getenv('g-secret-key');
 
 if (!empty($_POST)) {
     $name = $_POST['name'];
@@ -78,7 +78,7 @@ if (!empty($_POST)) {
       <button
         class="g-recaptcha"
         type="submit"
-        data-sitekey= <? getenv('g-site-key');?>
+        data-sitekey= <? echo getenv('g-site-key');?>
         data-callback='onRecaptchaSuccess'
       >
         Submit
