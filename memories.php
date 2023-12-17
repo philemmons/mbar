@@ -1,31 +1,18 @@
 <?php
-$errors = [];
+if (isset($_POST['memory-fn']))
+$firstName = htmlspecialchars($_POST['memory-fn']); // User input deviceName
 
-if (!empty($_POST)) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+if (isset($_POST['memory-ln']))
+$lastName = htmlspecialchars($_POST['memory-ln']);
 
-    if (empty($name)) {
-        $errors[] = 'Name is empty';
-    }
+if (isset($_POST['memory-em']))
+$email = htmlspecialchars($_POST['memory-em']);
 
-    if (empty($email)) {
-        $errors[] = 'Email is empty';
-    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Email is invalid';
-    }
+if (isset($_POST['memory-t']))
+$title = htmlspecialchars($_POST['memory-t']);
 
-    if (empty($message)) {
-        $errors[] = 'Message is empty';
-    }
-}
-
-
-if (!empty($errors)) {
-    $allErrors = join('<br/>', $errors);
-    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-}
+if (isset($_POST['memory-ta']))
+$textArea = htmlspecialchars($_POST['memory-ta']);
 
 ?>
 <?php
@@ -150,7 +137,7 @@ if (!empty($errors)) {
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="validationTextarea" class="form-label">Text Area</label>
+                            <label for="memory-ta" class="form-label">Text Area</label>
                             <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message in the text area.
