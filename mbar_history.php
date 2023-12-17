@@ -68,9 +68,65 @@
 
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-12 col-12 text-center px-3">
-                <p class="mb-6 h4 text-dark">Below are MBAR's banners used over the years.
+                <p class="mb-6 h4 text-dark">Below are MBAR's event banners used over the years.
                 </p>
-                --- carousal ---
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
@@ -83,9 +139,9 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Schedule of Events</a></h5>
-                            <p class="card-text">Conference line up 2022</p>
-                            <p class="card-text">Conference line up 2021</p>
-                            <p class="card-text">Conference line up 2019</p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank">Conference line up 2022</a></p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2021.php" class="bb-link" target="_blank">Conference line up 2021</a></p>
+                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">Conference line up 2019</a></p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">All have audio files</small>
@@ -93,13 +149,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+            <div class="col-lg-5 mb-3 mb-lg-0 py-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Audio Recording of Speakers</a></h5>
                             <p class="card-text">Paul O. from 2017</p>
-                            ----audio file here----
+                            <audio controls="">
+                                <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
+                                <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Speakers are sharing their experience, strength, and hope.</small>
@@ -111,33 +171,29 @@
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <h5 class="card-title">Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Section Four -->
-    <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title mb-3 text-center">MONTEREY BAY AREA ROUNDUP</h3>
-                    <p>Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.
+                    <p>Speakers and guests come from all over the United States. Take a look at some fliers from our past.
                     </p>
-                    <ul>
-                        <li>Friday - 2.5 hours</li>
-                        <li>Saturday - 2.5 hours</li>
-                        <li>Sunday - 3.0 hours</li>
-                    </ul>
+                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2015 Program</a>
+                    </p>
+                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2014 Program</a>
+                    </p>
+                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2003 Program</a>
+                    </p>
+                    <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 1997 Program</a>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    </section>
 </main>
 <?php include 'footer.inc' ?>
 </body>
