@@ -58,16 +58,45 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
                     </h4>
                     <p class="mb-6 h5 text-dark">Care to share your experience with us?</p>
                 </div>
             </div>
 
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
+                    <?php
+                    $errors = [];
 
+                    if (!empty($_POST)) {
+                        $name = $_POST['name'];
+                        $email = $_POST['email'];
+                        $message = $_POST['message'];
+
+                        if (empty($name)) {
+                            $errors[] = 'Name is empty';
+                        }
+
+                        if (empty($email)) {
+                            $errors[] = 'Email is empty';
+                        } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                            $errors[] = 'Email is invalid';
+                        }
+
+                        if (empty($message)) {
+                            $errors[] = 'Message is empty';
+                        }
+                    }
+
+
+                    if (!empty($errors)) {
+                        $allErrors = join('<br/>', $errors);
+                        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+                    }
+
+                    ?>
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="p-3 text-bg-light hero-text-border" title="Blog your thoughts and feelings.">
                     <form class="row g-3 needs-validation" novalidate>
                         <div class="col-md-4">
                             <label for="validationCustom01" class="form-label">First name</label>
