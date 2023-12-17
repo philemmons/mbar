@@ -1,3 +1,53 @@
+<?php
+            $errors = [];
+
+            if (!empty($_POST)) {
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+
+                if (empty($name)) {
+                    $errors[] = 'Name is empty';
+                }
+
+                if (empty($email)) {
+                    $errors[] = 'Email is empty';
+                } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $errors[] = 'Email is invalid';
+                }
+
+                if (empty($message)) {
+                    $errors[] = 'Message is empty';
+                }
+            }
+
+
+            if (!empty($errors)) {
+                $allErrors = join('<br/>', $errors);
+                $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+            }
+
+            ?>
+            <?php
+
+            use PHPMailer\PHPMailer\PHPMailer;
+
+            require 'PHPMailer/src/PHPMailer.php';
+            require 'PHPMailer/src/SMTP.php';
+
+            $mail = new PHPMailer();
+            $mail->isSMTP();
+            $mail->Host = gethostname();
+            $mail->SMTPAuth = true;
+            $mail->Username = 'sender@example.com';
+            $mail->Password = 'password';
+            $mail->setFrom('sender@example.com');
+            $mail->addAddress('recipient@example.com');
+            $mail->Subject = 'Here is the subject';
+            $mail->Body    = 'This is the body.';
+            $mail->send();
+            ?>
+
 <?php include 'header.inc' ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -61,110 +111,59 @@
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">Care to share your experience with us?</p>
+                    <p class="mb-6 h5 text-dark">Care to share your experience with us, and your post will be anonymous?</p>
                 </div>
             </div>
 
-                    <?php
-                    $errors = [];
 
-                    if (!empty($_POST)) {
-                        $name = $_POST['name'];
-                        $email = $_POST['email'];
-                        $message = $_POST['message'];
-
-                        if (empty($name)) {
-                            $errors[] = 'Name is empty';
-                        }
-
-                        if (empty($email)) {
-                            $errors[] = 'Email is empty';
-                        } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                            $errors[] = 'Email is invalid';
-                        }
-
-                        if (empty($message)) {
-                            $errors[] = 'Message is empty';
-                        }
-                    }
-
-
-                    if (!empty($errors)) {
-                        $allErrors = join('<br/>', $errors);
-                        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-                    }
-
-                    ?>
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Blog your thoughts and feelings.">
                     <form class="row g-3 needs-validation" novalidate>
-                        <div class="col-md-4">
-                            <label for="validationCustom01" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationCustom02" class="form-label">Last name</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationCustomUsername" class="form-label">Username</label>
-                            <div class="input-group has-validation">
-                                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                                <div class="invalid-feedback">
-                                    Please choose a username.
-                                </div>
+                        <div class="col-md-6">
+                            <label for="memory-fn" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="memory-fn" required>
+                            <div class="invalid-feedback">
+                                Required
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="validationCustom03" class="form-label">City</label>
-                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <label for="memory-ln" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="memory-ln" required>
                             <div class="invalid-feedback">
-                                Please provide a valid city.
+                                Required
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <label for="validationCustom04" class="form-label">State</label>
-                            <select class="form-select" id="validationCustom04" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option>...</option>
-                            </select>
+                        <div class="col-md-4">
+                            <label for="memory-em" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="memory-em" required>
+                                <div class="invalid-feedback">
+                                    Required
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="memory-t" class="form-label">Memory Title</label>
+                            <input type="text" class="form-control" id="memory-t" required>
                             <div class="invalid-feedback">
-                                Please select a valid state.
+                                Please enter a message title.
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <label for="validationCustom05" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Text Area</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
                             <div class="invalid-feedback">
-                                Please provide a valid zip.
+                                Please enter your message in the text area.
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Agree to terms and conditions
+                                    I agree to have my message published on MBAR's website.
                                 </label>
                                 <div class="invalid-feedback">
                                     You must agree before submitting.
                                 </div>
                             </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="validationTextarea" class="form-label">Textarea</label>
-                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter a message in the textarea.
-                            </div>
-                        </div>
-
                         <div class="col-12">
                             <button class="btn btn-primary" type="submit">Submit form</button>
                         </div>
