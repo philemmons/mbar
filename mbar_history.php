@@ -144,7 +144,7 @@
                             <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">Conference line up 2019</a></p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary">Check out MBAR's line up from our previous events.</small>
+                        <small class="text-body-secondary">Check out MBAR's line up from our previous events</small>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                             </audio>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary">Speakers are sharing their experience, strength, and hope.</small>
+                        <small class="text-body-secondary">Sharing their experience, strength, and hope</small>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                             </p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary">Speakers and guests come from all over the United States.</small>
+                        <small class="text-body-secondary">Speakers and guests come from all over the U.S.</small>
                     </div>
                 </div>
             </div>
