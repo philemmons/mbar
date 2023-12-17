@@ -48,7 +48,7 @@
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
-                            History</span></h1>
+                    History</span></h1>
                 </div>
             </div>
         </div>
@@ -59,20 +59,18 @@
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup since 1993</span>
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">MBAR was established in 1993 with our guiding principle:<br>"Keep It Simple."</span>
                     </h3>
-                    <p class="mb-6 h4 text-dark">MBAR has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
+                    <p class="mb-6 h4 text-dark">The event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-12 col-12 text-center px-3">
-                <p class="mb-6 h4 text-dark">MBAR was established in 1993 with our guiding slogan - "Keep It Simple."
+                <p class="mb-6 h4 text-dark">Below are the logos used over the years.
                 </p>
                 --- carousal ---
-                <p class="mb-6 h4 text-dark">Above are our logos used over the years.
-                </p>
             </div>
         </div>
     </section>
@@ -98,10 +96,9 @@
             <div class="col-sm-6 mb-3 mb-sm-0 px-4">
                 <div class="card">
                     <div class="card-body text-center shadow-wrap">
-                        <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Speakers sharing their experience, strength, and hope.</span>
+                        <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Audio recording of speakers sharing their experience, strength, and hope.</span>
                         </h3>
-                        <p class="mb-6 h4 text-dark">Audio from 2017 (Speakers Paul O.)</p>
-
+                        <p class="mb-6 h4 text-dark">Paul O. from 2017</p>
                         ----audio file here----
                     </div>
                 </div>
