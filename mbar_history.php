@@ -144,7 +144,7 @@
                             <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">Conference line up 2019</a></p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary">All have audio files</small>
+                        <small class="text-body-secondary">Check out MBAR's line up from our previous events.</small>
                     </div>
                 </div>
             </div>
