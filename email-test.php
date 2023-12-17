@@ -57,7 +57,7 @@ if (!empty($_POST)) {
 <html>
 <body>
   <script src="https://www.google.com/recaptcha/api.js"></script>
-  <form action="/form.php" method="post" id="contact-form">
+  <form action="/email-test.php" method="post" id="contact-form">
     <h2>Contact us</h2>
 
     <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
