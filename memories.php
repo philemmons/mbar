@@ -1,34 +1,35 @@
 <?php
-            $errors = [];
+$errors = [];
 
-            if (!empty($_POST)) {
-                $name = $_POST['name'];
-                $email = $_POST['email'];
-                $message = $_POST['message'];
+if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-                if (empty($name)) {
-                    $errors[] = 'Name is empty';
-                }
+    if (empty($name)) {
+        $errors[] = 'Name is empty';
+    }
 
-                if (empty($email)) {
-                    $errors[] = 'Email is empty';
-                } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                    $errors[] = 'Email is invalid';
-                }
+    if (empty($email)) {
+        $errors[] = 'Email is empty';
+    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Email is invalid';
+    }
 
-                if (empty($message)) {
-                    $errors[] = 'Message is empty';
-                }
-            }
+    if (empty($message)) {
+        $errors[] = 'Message is empty';
+    }
+}
 
 
-            if (!empty($errors)) {
-                $allErrors = join('<br/>', $errors);
-                $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-            }
+if (!empty($errors)) {
+    $allErrors = join('<br/>', $errors);
+    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+}
 
-            ?>
-            <?php
+?>
+<?php
+/*
 
             use PHPMailer\PHPMailer\PHPMailer;
 
@@ -46,7 +47,8 @@
             $mail->Subject = 'Here is the subject';
             $mail->Body    = 'This is the body.';
             $mail->send();
-            ?>
+            */
+?>
 
 <?php include 'header.inc' ?>
 
@@ -135,10 +137,10 @@
                         </div>
                         <div class="col-md-4">
                             <label for="memory-em" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="memory-em" required>
-                                <div class="invalid-feedback">
-                                    Required
-                                </div>
+                            <input type="email" class="form-control" id="memory-em" required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <label for="memory-t" class="form-label">Memory Title</label>
@@ -164,9 +166,9 @@
                                     You must agree before submitting.
                                 </div>
                             </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                            </div>
                     </form>
                 </div>
             </div>
