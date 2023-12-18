@@ -15,7 +15,7 @@ if (!empty($_POST)) {
     $verify = json_decode(file_get_contents($recaptchaUrl));
 
     if (!$verify->success) {
-      $errors[] = 'Recaptcha failed';
+        $errors[] = 'Recaptcha failed';
     }
 
     if (empty($name)) {
@@ -55,78 +55,81 @@ if (!empty($_POST)) {
 ?>
 
 <html>
+
 <body>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
-  <form action="/email-test.php" method="post" id="contact-form">
-    <h2>Contact us</h2>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <form action="/email-test.php" method="post" id="contact-form">
+        <h2>Contact us</h2>
 
-    <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
-    <p>
-      <label>First Name:</label>
-      <input name="name" type="text"/>
-    </p>
-    <p>
-      <label>Email Address:</label>
-      <input style="cursor: pointer;" name="email" type="text"/>
-    </p>
-    <p>
-      <label>Message:</label>
-      <textarea name="message"></textarea>
-    </p>
+        <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
+        <p>
+            <label>First Name:</label>
+            <input name="name" type="text" />
+        </p>
+        <p>
+            <label>Email Address:</label>
+            <input style="cursor: pointer;" name="email" type="text" />
+        </p>
+        <p>
+            <label>Message:</label>
+            <textarea name="message"></textarea>
+        </p>
 
-    <p>
-      <button
-        class="g-recaptcha"
-        type="submit"
-        data-sitekey= <? echo getenv('g-site-key');?>
-        data-callback='onRecaptchaSuccess'
-      >
-        Submit
-      </button>
-    </p>
-  </form>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-  <script>
-      const constraints = {
-          name: {
-              presence: {allowEmpty: false}
-          },
-          email: {
-              presence: {allowEmpty: false},
-              email: true
-          },
-          message: {
-              presence: {allowEmpty: false}
-          }
-      };
+        <p>
+            <button class="g-recaptcha" type="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback='onRecaptchaSuccess'>
+                Submit
+            </button>
+        </p>
+    </form>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script>
+        const constraints = {
+            name: {
+                presence: {
+                    allowEmpty: false
+                }
+            },
+            email: {
+                presence: {
+                    allowEmpty: false
+                },
+                email: true
+            },
+            message: {
+                presence: {
+                    allowEmpty: false
+                }
+            }
+        };
 
-      const form = document.getElementById('contact-form');
+        const form = document.getElementById('contact-form');
 
-      form.addEventListener('submit', function (event) {
-          const formValues = {
-              name: form.elements.name.value,
-              email: form.elements.email.value,
-              message: form.elements.message.value
-          };
+        form.addEventListener('submit', function(event) {
+            const formValues = {
+                name: form.elements.name.value,
+                email: form.elements.email.value,
+                message: form.elements.message.value
+            };
 
-          const errors = validate(formValues, constraints);
+            const errors = validate(formValues, constraints);
 
-          if (errors) {
-              event.preventDefault();
-              const errorMessage = Object
-                  .values(errors)
-                  .map(function (fieldValues) {
-                      return fieldValues.join(', ')
-                  })
-                  .join("\n");
+            if (errors) {
+                event.preventDefault();
+                const errorMessage = Object
+                    .values(errors)
+                    .map(function(fieldValues) {
+                        return fieldValues.join(', ')
+                    })
+                    .join("\n");
 
-              alert(errorMessage);
-          }
-      }, false);
+                alert(errorMessage);
+            }
+        }, false);
 
-      function onRecaptchaSuccess () {
-          document.getElementById('contact-form').submit()
-      }
-  </script>
+        function onRecaptchaSuccess() {
+            document.getElementById('contact-form').submit()
+        }
+    </script>
 </body>
+
 </html>

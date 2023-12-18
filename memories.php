@@ -1,20 +1,79 @@
 <?php
-if (isset($_POST['memory-fn']))
-$firstName = htmlspecialchars($_POST['memory-fn']); // User input deviceName
 
-if (isset($_POST['memory-ln']))
-$lastName = htmlspecialchars($_POST['memory-ln']);
+$errors = [];
+$errorMessage = '';
 
-if (isset($_POST['memory-em']))
-$email = htmlspecialchars($_POST['memory-em']);
+$secret = getenv('g-secret-key');
 
-if (isset($_POST['memory-t']))
-$title = htmlspecialchars($_POST['memory-t']);
+if (!empty($_POST)) {
 
-if (isset($_POST['memory-ta']))
-$textArea = htmlspecialchars($_POST['memory-ta']);
+    if (isset($_POST['memory-fn']))
+        $firstName = htmlspecialchars($_POST['memory-fn']); // User input deviceName
 
+    if (isset($_POST['memory-ln']))
+        $lastName = htmlspecialchars($_POST['memory-ln']);
+
+    if (isset($_POST['memory-em']))
+        $email = htmlspecialchars($_POST['memory-em']);
+
+    if (isset($_POST['memory-t']))
+        $title = htmlspecialchars($_POST['memory-t']);
+
+    if (isset($_POST['memory-ta']))
+        $textArea = htmlspecialchars($_POST['memory-ta']);
+
+
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+
+    $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify?secret={$secret}&response={$recaptchaResponse}";
+    $verify = json_decode(file_get_contents($recaptchaUrl));
+
+    if (!$verify->success) {
+        $errors[] = 'Recaptcha failed';
+    }
+
+    if (empty($firstName)) {
+        $errors[] = 'First name is empty';
+    }
+
+    if (empty($lastName)) {
+        $errors[] = 'Last name is empty';
+    }
+
+    if (empty($email)) {
+        $errors[] = 'Email is empty';
+    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = 'Email is invalid';
+    }
+
+    if (empty($title)) {
+        $errors[] = 'Title is empty';
+    }
+
+    if (empty($textArea)) {
+        $errors[] = 'Text area is empty';
+    }
+
+    if (!empty($errors)) {
+        $allErrors = join('<br/>', $errors);
+        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+    } else {
+        $toEmail = getenv('mbar-to-email');
+        $emailSubject = 'New email from MBAR memories form';
+        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
+
+        $bodyParagraphs = ["First Name: {$firstName}", "Last Name: {$lastName}", "Email: {$email}", "Title: {$title}", "Text Area:", $textArea];
+        $body = join(PHP_EOL, $bodyParagraphs);
+
+        if (mail($toEmail, $emailSubject, $body, $headers)) {
+            header('Location: memory_thank_you.php');
+        } else {
+            $errorMessage = "<p style='color: red;'>Oops, something went wrong. Please try again later</p>";
+        }
+    }
+}
 ?>
+
 <?php
 /*
 
@@ -107,7 +166,12 @@ $textArea = htmlspecialchars($_POST['memory-ta']);
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Blog your thoughts and feelings.">
-                    <form class="row g-3 needs-validation" novalidate>
+
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
+                    <form action="/memories.php" method="post" id="contract-form" class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                            <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
+                        </div>
                         <div class="col-md-6">
                             <label for="memory-fn" class="form-label">First name</label>
                             <input type="text" class="form-control" id="memory-fn" required>
@@ -155,7 +219,8 @@ $textArea = htmlspecialchars($_POST['memory-ta']);
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                            <button class="btn btn-primary g-recaptcha" type="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback='onRecaptchaSuccess'>Submit form
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -208,6 +273,10 @@ $textArea = htmlspecialchars($_POST['memory-ta']);
             }, false)
         })
     })()
+
+    function onRecaptchaSuccess() {
+        document.getElementById('contact-form').submit()
+    }
 </script>
 </body>
 
