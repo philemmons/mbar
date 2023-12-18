@@ -74,15 +74,14 @@
                  */
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
-                if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
+                if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
                     echo "<script>";
-                    echo "var myModal = new bootstrap.Modal(document.getElementById('myModal'));";
-                    echo "myModal.show();";
+                    echo "$(document).ready(function(){ var myModal = new bootstrap.Modal(document.getElementById('myModal'));";
+                    echo "myModal.show(); });";
                     echo "</script>"; // Show modal
 
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
-            
             }
             ?>
 
@@ -90,7 +89,7 @@
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
-                    <form action= "/memories.php" method="POST" class="row g-3 needs-validation" id= "myForm" novalidate>
+                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
@@ -188,7 +187,9 @@
     </section>
 
 </main>
+
 <?php include 'footer.inc' ?>
+
 <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {
