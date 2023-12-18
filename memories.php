@@ -77,7 +77,7 @@
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script>";
+                    echo "<script type='module'>";
                     echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
                     echo "window.addEventListener('DOMContentLoaded', () => { ";
                     echo "myModal.show();";
