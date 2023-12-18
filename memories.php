@@ -31,7 +31,7 @@ if (!empty($_POST)) {
     if (!$verify->success) {
         $errors[] = 'Recaptcha failed';
     }
-
+/*
     if (empty($firstName)) {
         $errors[] = 'First name is empty';
     }
@@ -53,7 +53,7 @@ if (!empty($_POST)) {
     if (empty($textArea)) {
         $errors[] = 'Text area is empty';
     }
-
+*/
     if (!empty($errors)) {
         $allErrors = join('<br/>', $errors);
         $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
