@@ -68,7 +68,7 @@
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Thank you, your message has been received.">
-                    <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Thank you displayed in various languages" title="Thank you, your message has been received." />
+                    <img src="../images/thank-you.png" class="img-fluid shadow-wrap" alt="Thank you displayed in various languages" title="Thank you, your message has been received." />
                     <p>Thank you, your message has been received.</p>
 
                 </div>
