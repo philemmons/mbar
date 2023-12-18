@@ -74,7 +74,7 @@
                 if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
                     echo '<div class="col-xl-10 col-lg-10 col-md-12 pt-4">';
                     echo '<div class="p-3 text-center text-bg-light hero-text-border">';
-                    echo '<p class="mb-6 text-dark">Thank you, your message was emailed.</p>';
+                    echo '<p class="h6 text-dark">Thank you, your message was emailed.</p>';
                     echo '</div>';
                     echo '</div>';
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
