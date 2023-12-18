@@ -74,13 +74,13 @@
                 echo '</div>';
             }
             ?>
-            
+
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
 
-                    <form class="row g-3 needs-validation" novalidate>
+                    <form method="POST" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
