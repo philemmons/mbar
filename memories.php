@@ -73,6 +73,8 @@
                  * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
                  * 
                  * https://www.youtube.com/watch?v=tyxchSojW48
+                 * 
+                 * https://stackoverflow.com/questions/64113404/bootstrap-5-referenceerror-bootstrap-is-not-defined
                  */
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
@@ -144,7 +146,7 @@
                             <button type="submit" class="btn btn-primary" name="submitMemory" value="submit">Submit Form</button>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
                     </form>
                 </div>
@@ -216,6 +218,10 @@
     //function onRecaptchaSuccess() {
     //    document.getElementById('contact-form').submit()
     //}
+
+    function resetFields() {
+    return confirm("Are you sure you want to reset all fields?");
+}
 </script>
 </body>
 
