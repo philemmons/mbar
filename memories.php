@@ -118,10 +118,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6 text-center">
                             <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit Form</button>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset"  onclick="resetFields();">Reset Form</button>
                         </div>
                     </form>
