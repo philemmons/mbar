@@ -173,38 +173,38 @@ if (!empty($_POST)) {
                             <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
                         </div>
                         <div class="col-md-6">
-                            <label for="memory-fn" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="memory-fn" required>
-                            <div class="valid-feedback">
-                                Accepted.
+                            <label for="fn" class="form-label">First name</label>
+                            <input type="text" class="form-control" name= "memory-fn" id="fn" required>
+                            <div class="invalid-feedback">
+                                Required
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="memory-ln" class="form-label">Last name</label>
-                            <input type="text" class="form-control" id="memory-ln" required>
-                            <div class="valid-feedback">
-                                Accepted.
+                            <label for="ln" class="form-label">Last name</label>
+                            <input type="text" class="form-control" name= "memory-ln" id="ln" required>
+                            <div class="invalid-feedback">
+                                Required
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="memory-em" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="memory-em" required>
-                            <div class="valid-feedback">
-                                Email verified.
+                            <label for="em" class="form-label">Email</label>
+                            <input type="email" class="form-control" name= "memory-em" id="em" required>
+                            <div class="invalid-feedback">
+                                Required
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="memory-t" class="form-label">Memory Title</label>
-                            <input type="text" class="form-control" id="memory-t" required>
-                            <div class="valid-feedback">
-                                Title looks good!
+                            <label for="ti" class="form-label">Memory Title</label>
+                            <input type="text" class="form-control" name= "memory-t" id="ti" required>
+                            <div class="invalid-feedback">
+                                Please enter a message title.
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="memory-ta" class="form-label">Text Area</label>
-                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                            <div class="valid-feedback">
-                                Message ready.
+                            <label for="ta" class="form-label">Text Area</label>
+                            <textarea class="form-control" name= "memory-ta" id="ta" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message in the text area.
                             </div>
                         </div>
                         <div class="col-md-9">
@@ -213,8 +213,8 @@ if (!empty($_POST)) {
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to have my message published on MBAR's website.
                                 </label>
-                                <div class="valid-feedback">
-                                    You have agreed!
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
                                 </div>
                             </div>
                         </div>
