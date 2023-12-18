@@ -107,7 +107,7 @@
                                 Please enter your message in the text area.
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-9">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input"  name="invalidCheck" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -119,10 +119,10 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <button type="submit" class="btn btn-primary" name="submit" value="submit"> Submit </button>
+                            <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit Form</button>
                         </div>
                         <div class="col-md-3">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset"  onclick="resetFields();"> Reset </button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset"  onclick="resetFields();">Reset Form</button>
                         </div>
                     </form>
                 </div>
