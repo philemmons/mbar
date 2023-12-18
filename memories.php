@@ -69,17 +69,14 @@
             if (isset($_POST['submitMemory'])) {
                 //sendingEmail();
 
-                /**
-                 * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
-                 */
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script>";
-                    echo "$(document).ready(function(){ var myModal = new bootstrap.Modal(document.getElementById('myModal'));";
-                    echo "myModal.show(); });";
-                    echo "</script>"; // Show modal
-
+                    echo '<div class="col-xl-10 col-lg-10 col-md-12 pt-4">';
+                    echo '<div class="p-3 text-center text-bg-light hero-text-border">';
+                    echo '<p class="mb-6 text-dark">Thank you, your message was emailed.</p>';
+                    echo '</div>';
+                    echo '</div>';
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
             }
@@ -157,7 +154,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Thank you, your message was sent.</p>
+                    <p></p>
                 </div>
             </div>
         </div>
