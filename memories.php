@@ -65,7 +65,16 @@
                 </div>
             </div>
 
-
+            <?php
+            if (isset($_POST['submitMemory'])) {
+                echo '<div class="col-xl-10 col-lg-10 col-md-12 pt-4">';
+                echo '<div class="p-3 text-center text-bg-light hero-text-border">';
+                echo '<p class="mb-6 h5 text-dark">Thank you, your message was sent.</p>';
+                echo '</div>';
+                echo '</div>';
+            }
+            ?>
+            
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
@@ -109,7 +118,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input"  name="invalidCheck" id="invalidCheck" value="" required>
+                                <input type="checkbox" class="form-check-input" name="invalidCheck" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to have my message published on MBAR's website.
                                 </label>
@@ -119,10 +128,10 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit">Submit Form</button>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset"  onclick="resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="resetFields();">Reset Form</button>
                         </div>
                     </form>
                 </div>
