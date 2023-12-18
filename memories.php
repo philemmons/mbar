@@ -59,7 +59,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">'Every memory we create together is a footprint on the path of a life we make together.'</span>
                     </h4>
                     <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
                 </div>
@@ -75,13 +75,11 @@
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script>
-                    $(document).ready(function(){
-                    $('#myForm').on('submit', function(e){
-                    $('#awaitModal').modal('show');
-                    e.preventDefault();
-                  });
-                  </script>"; // Show modal
+                    echo "<script>";
+                    echo "var myModal = new bootstrap.Modal(document.getElementById('myModal'));";
+                    echo "myModal.show();";
+                    echo "</script>"; // Show modal
+
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
             
@@ -92,7 +90,7 @@
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
-                    <form method="POST" class="row g-3 needs-validation" novalidate id= "myForm">
+                    <form action= "/memories.php" method="POST" class="row g-3 needs-validation" id= "myForm" novalidate>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
