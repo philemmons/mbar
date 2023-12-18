@@ -108,7 +108,7 @@ if (!empty($_POST)) {
                 <li class="nav-item">
                     <a class="nav-link" href="index.php" aria-current="page">Home</a>
                 </li>
-                <li class="nav-item dropdown" style='width: 180px;'>
+                <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
@@ -118,7 +118,7 @@ if (!empty($_POST)) {
                         <a class="dropdown-item active" href="memories.php">Memories<span class="visually-hidden">(current)</span></a>
                     </div>
                 </li>
-                <li class="nav-item dropdown" style='width: 161px;'>
+                <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
@@ -168,42 +168,42 @@ if (!empty($_POST)) {
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script src="https://www.google.com/recaptcha/api.js"></script>
-                    
+
                     <form action="/memories.php" method="post" id="contact-form" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
                         </div>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
-                            <input type="text" class="form-control" name= "memory-fn" id="fn" required>
+                            <input type="text" class="form-control" name="memory-fn" id="fn" required>
                             <div class="invalid-feedback">
                                 Required
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="ln" class="form-label">Last name</label>
-                            <input type="text" class="form-control" name= "memory-ln" id="ln" required>
+                            <input type="text" class="form-control" name="memory-ln" id="ln" required>
                             <div class="invalid-feedback">
                                 Required
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="em" class="form-label">Email</label>
-                            <input type="email" class="form-control" name= "memory-em" id="em" required>
+                            <input type="email" class="form-control" name="memory-em" id="em" required>
                             <div class="invalid-feedback">
                                 Required
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="ti" class="form-label">Memory Title</label>
-                            <input type="text" class="form-control" name= "memory-t" id="ti" required>
+                            <input type="text" class="form-control" name="memory-t" id="ti" required>
                             <div class="invalid-feedback">
                                 Please enter a message title.
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="ta" class="form-label">Text Area</label>
-                            <textarea class="form-control" name= "memory-ta" id="ta" required></textarea>
+                            <textarea class="form-control" name="memory-ta" id="ta" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message in the text area.
                             </div>
