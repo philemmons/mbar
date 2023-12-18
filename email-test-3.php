@@ -230,3 +230,63 @@ $.ajax({
 if(isset( $_POST['updates']))
 $updates = $_POST['updates'];
 ?>
+
+
+
+OLD-----
+<form action="/memories.php" method="post" id="contact-form" class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                            <?php //echo ((!empty($errorMessage)) ? $errorMessage : '') 
+                            ?>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="fn" class="form-label">First name</label>
+                            <input type="text" class="form-control" name="memory-fn" id="fn" required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ln" class="form-label">Last name</label>
+                            <input type="text" class="form-control" name="memory-ln" id="ln" required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="em" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="memory-em" id="em" required>
+                            <div class="invalid-feedback">
+                                Required
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ti" class="form-label">Memory Title</label>
+                            <input type="text" class="form-control" name="memory-t" id="ti" required>
+                            <div class="invalid-feedback">
+                                Please enter a message title.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ta" class="form-label">Text Area</label>
+                            <textarea class="form-control" name="memory-ta" id="ta" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message in the text area.
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    I agree to have my message published on MBAR's website.
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <!-- <button class="btn btn-primary g-recaptcha" type="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback='onRecaptchaSuccess'>Submit form
+                            </button> -->
+                        </div>
+                    </form>
