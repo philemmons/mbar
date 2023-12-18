@@ -61,13 +61,12 @@
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">Care to share your experience with us, and your post will be anonymous.</p>
+                    <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
                 </div>
             </div>
 
-
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-            <div class="p-3 text-bg-light text-center hero-text-border" title="Thank you, your message has been received.">
+                <div class="p-3 text-bg-light text-center hero-text-border" title="Thank you, your message has been received.">
                     <img src="../images/thank-you.png" class="img-fluid shadow-wrap my-3" alt="Thank you displayed in various languages" title="Thank you, your message has been received.">
                     <p class="mb-6 h4 text-dark">Your message has been received.</p>
                 </div>

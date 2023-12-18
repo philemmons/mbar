@@ -159,16 +159,16 @@ if (!empty($_POST)) {
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">"Every memory we create together is a footprint on the path of a life we make together."</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">Care to share your experience with us, and your post will be anonymous.</p>
+                    <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
                 </div>
             </div>
 
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="Blog your thoughts and feelings.">
+                <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script src="https://www.google.com/recaptcha/api.js"></script>
-                    <form action="/memories.php" method="post" id="contract-form" class="row g-3 needs-validation" novalidate>
+                    <form action="/memories.php" method="post" id="contact-form" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
                         </div>
