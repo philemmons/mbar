@@ -68,6 +68,17 @@
             <?php
             if (isset($_POST['submitMemory'])) {
                 //sendingEmail();
+
+                /**
+                 * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
+                 */
+                $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
+
+                if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
+                    echo "<script>$('#memoryFormModel').modal('show')</script>"; // Show modal
+                    unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
+                }
+            
             }
             ?>
 
@@ -123,7 +134,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit" data-bs-toggle="modal" data-bs-target="#memoryFormModel">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit">Submit Form</button>
                         </div>
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="resetFields();">Reset Form</button>
@@ -135,11 +146,11 @@
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="memoryFormModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="memoryFormModel" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Memory Form</h1>
+                    <h1 class="modal-title fs-5" id="memoryFormLabel">Memory Form</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
