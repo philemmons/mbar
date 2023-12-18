@@ -175,36 +175,36 @@ if (!empty($_POST)) {
                         <div class="col-md-6">
                             <label for="memory-fn" class="form-label">First name</label>
                             <input type="text" class="form-control" id="memory-fn" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="valid-feedback">
+                                Accepted.
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="memory-ln" class="form-label">Last name</label>
                             <input type="text" class="form-control" id="memory-ln" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="valid-feedback">
+                                Accepted.
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="memory-em" class="form-label">Email</label>
                             <input type="email" class="form-control" id="memory-em" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="valid-feedback">
+                                Email verified.
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="memory-t" class="form-label">Memory Title</label>
                             <input type="text" class="form-control" id="memory-t" required>
-                            <div class="invalid-feedback">
-                                Please enter a message title.
+                            <div class="valid-feedback">
+                                Title looks good!
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="memory-ta" class="form-label">Text Area</label>
                             <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter your message in the text area.
+                            <div class="valid-feedback">
+                                Message ready.
                             </div>
                         </div>
                         <div class="col-md-9">
@@ -213,8 +213,8 @@ if (!empty($_POST)) {
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to have my message published on MBAR's website.
                                 </label>
-                                <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                <div class="valid-feedback">
+                                    You have agreed!
                                 </div>
                             </div>
                         </div>
