@@ -72,7 +72,7 @@
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
 
                     <form class="row g-3 needs-validation" novalidate>
-                    <div class="col-md-6">
+                        <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
                             <div class="invalid-feedback">
@@ -107,9 +107,9 @@
                                 Please enter your message in the text area.
                             </div>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-6">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name= "invalidCheck" id="invalidCheck" value="" required>
+                                <input type="checkbox" class="form-check-input"  name="invalidCheck" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to have my message published on MBAR's website.
                                 </label>
@@ -118,8 +118,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-primary" name="submit" value="submit"> Submit </button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset"  onclick="resetFields();"> Reset </button>
                         </div>
                     </form>
                 </div>
