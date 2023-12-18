@@ -75,7 +75,13 @@
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script> $('#memoryFormModal').modal('show') </script>"; // Show modal
+                    echo "<script>
+                    $(document).ready(function(){
+                    $('#myForm').on('submit', function(e){
+                    $('#awaitModal').modal('show');
+                    e.preventDefault();
+                  });
+                  </script>"; // Show modal
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
             
@@ -86,7 +92,7 @@
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
-                    <form method="POST" class="row g-3 needs-validation" novalidate>
+                    <form method="POST" class="row g-3 needs-validation" novalidate id= "myForm">
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
@@ -146,7 +152,7 @@
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="memoryFormModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
+    <div class="modal fade" id="awaitModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
