@@ -75,7 +75,7 @@
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script> const myModal = new bootstrap.Modal('#myModal', { keyboard: false}) myModal.show(); </script>"; // Show modal
+                    echo "<script> const myModal = new bootstrap.Modal('#memoryFormModal', { keyboard: false}) myModal.toggle(); </script>"; // Show modal
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
             
@@ -146,7 +146,7 @@
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
+    <div class="modal fade" id="memoryFormModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
