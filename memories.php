@@ -31,7 +31,7 @@ if (!empty($_POST)) {
     if (!$verify->success) {
         $errors[] = 'Recaptcha failed';
     }
-/*
+
     if (empty($firstName)) {
         $errors[] = 'First name is empty';
     }
@@ -53,7 +53,7 @@ if (!empty($_POST)) {
     if (empty($textArea)) {
         $errors[] = 'Text area is empty';
     }
-*/
+
     if (!empty($errors)) {
         $allErrors = join('<br/>', $errors);
         $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
@@ -168,6 +168,7 @@ if (!empty($_POST)) {
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script src="https://www.google.com/recaptcha/api.js"></script>
+                    
                     <form action="/memories.php" method="post" id="contact-form" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-12">
                             <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
