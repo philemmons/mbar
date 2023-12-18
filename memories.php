@@ -69,15 +69,22 @@
             if (isset($_POST['submitMemory'])) {
                 //sendingEmail();
 
+                /**
+                 * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
+                 * 
+                 * https://www.youtube.com/watch?v=tyxchSojW48
+                 */
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo '<div class="col-xl-10 col-lg-10 col-md-12 pt-4">';
-                    echo '<div class="p-3 text-center text-bg-light hero-text-border">';
-                    echo '<p class="h5" style= "color: #0000ff;">Thank you, your message was submitted.</p>';
-                    echo '</div>';
-                    echo '</div>';
-                    unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
+                    echo "<script>";
+                    echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
+                    echo "window.addEventListener('DOMContentLoaded', () => { ";
+                    echo "myModal.show();";
+                    echo "});";
+                    echo "</script>"; // Show modal
+
+                    unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value and make the value equal to null
                 }
             }
             ?>
@@ -154,7 +161,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p></p>
+                    <p>Thank you, your message was sent.</p>
                 </div>
             </div>
         </div>
