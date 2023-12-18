@@ -67,11 +67,7 @@
 
             <?php
             if (isset($_POST['submitMemory'])) {
-                echo '<div class="col-xl-10 col-lg-10 col-md-12 pt-4">';
-                echo '<div class="p-3 text-center text-bg-light hero-text-border">';
-                echo '<p class="mb-6 h5 text-dark">Thank you, your message was sent.</p>';
-                echo '</div>';
-                echo '</div>';
+                //sendingEmail();
             }
             ?>
 
@@ -79,7 +75,6 @@
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
                     <script //src="https://www.google.com/recaptcha/api.js"></script>
-
                     <form method="POST" class="row g-3 needs-validation" novalidate>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
@@ -128,7 +123,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit" data-bs-toggle="modal" data-bs-target="#memoryFormModel">Submit Form</button>
                         </div>
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="resetFields();">Reset Form</button>
@@ -138,6 +133,21 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="memoryFormModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Memory Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you, your message was sent.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="container">
         <div class="row justify-content-center mb-5">
