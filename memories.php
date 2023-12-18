@@ -75,7 +75,7 @@
                 $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
                 if(isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script>const modalToggle = document.getElementById('memoryFormModal'); myModal.show(modalToggle);</script>"; // Show modal
+                    echo "<script>const modalToggle = document.getElementById('memoryFormModal'); modalToggle.show();</script>"; // Show modal
                     unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value of $_SESSION['formSubmitted'] and will make the value equal to null
                 }
             
