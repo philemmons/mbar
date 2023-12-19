@@ -66,26 +66,45 @@
             </div>
 
             <?php
-            if (isset($_POST['submitMemory'])) {
-                //sendingEmail();
-                /**
-                 * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
-                 * 
-                 * https://www.youtube.com/watch?v=tyxchSojW48
-                 * 
-                 * https://stackoverflow.com/questions/64113404/bootstrap-5-referenceerror-bootstrap-is-not-defined
-                 */
-                $_SESSION['formSubmitted'] = true; // Sets session once form is submitted and input fields are not empty
 
-                if (isset($_SESSION['formSubmitted']) && $_SESSION['formSubmitted'] === true) {
-                    echo "<script type='module'>";
-                    echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
-                    echo "window.addEventListener('DOMContentLoaded', () => { ";
-                    echo "myModal.show();";
-                    echo "});";
-                    echo "</script>"; // Show modal
+            /**
+             * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
+             * 
+             * https://www.youtube.com/watch?v=tyxchSojW48
+             * 
+             * https://stackoverflow.com/questions/64113404/bootstrap-5-referenceerror-bootstrap-is-not-defined
+             * 
+             * https://www.youtube.com/watch?v=zeEtA0sFkDA
+             * 
+             */
+            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-                    unset($_SESSION['formSubmitted']); // IMPORTANT - this will unset the value and make the value equal to null
+                $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+                $recaptcha_secret = getenv('g-secret-key');
+                $recaptcha_response = $_POST['g-recaptcha-response'];
+
+                $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+                $recaptcha = json_decode($recaptcha, true);
+
+                if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
+                    /* reCaptcha verified, redirect to thank you page, etc */
+                    $recaptcha_message = "reCaptcha verified";
+
+                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+
+                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
+                        echo "<script type='module'>";
+                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
+                        echo "window.addEventListener('DOMContentLoaded', () => { ";
+                        echo "myModal.show();";
+                        echo "});";
+                        echo "</script>"; // Show modal
+
+                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
+                    }
+                } else {
+                    /* reCaptcha not verified, redirect to error, etc */
+                    $recaptcha_message = "reCaptcha not verified";
                 }
             }
             ?>
@@ -143,7 +162,7 @@
 
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="submitMemory" value="submit">Submit Form</button>
+                            <button id="submit-button" class="btn btn-primary g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
                         </div>
 
 
@@ -216,9 +235,18 @@
             }, false)
         })
     })()
+</script>
 
+<script>
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
+    }
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById('contact-form').submit();
     }
 </script>
 </body>
