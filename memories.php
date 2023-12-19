@@ -185,6 +185,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Thank you, your message was sent.</p>
+                    <p><? echo $recaptcha_message; ?>
                 </div>
             </div>
         </div>
