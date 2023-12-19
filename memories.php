@@ -66,9 +66,48 @@
             </div>
 
             <?php
+
+            $errors = [];
+            $errorMessage = '';
+
+            $secret = getenv('g-secret-key');
+
+            if (!empty($_POST)) {
+
+                $recaptchaResponse = $_POST['g-recaptcha-response'];
+
+                $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify?secret={$secret}&response={$recaptchaResponse}";
+                $verify = json_decode(file_get_contents($recaptchaUrl));
+
+                if (!$verify->success) {
+                    $errors[] = 'Recaptcha failed';
+                }
+
+                if (!empty($errors)) {
+                    $allErrors = join('<br/>', $errors);
+                    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+                    // } else {
+                    //$toEmail = 'systemadmin@philemmons.dev';
+                    //$emailSubject = 'New email from your contact form';
+                    //$headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
+
+                    //$bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
+                    //$body = join(PHP_EOL, $bodyParagraphs);
+
+                    //if (mail($toEmail, $emailSubject, $body, $headers)) {
+                    //    header('Location: thank-you.html');
+                    //} else {
+                    //    $errorMessage = "<p style='color: red;'>Oops, something went wrong. Please try again later<p>";
+                    //}
+                }
+            }
+
+            ?>
+
+
+            <?php
             if (isset($_POST['submitMemory'])) {
                 //sendingEmail();
-
                 /**
                  * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
                  * 
@@ -94,8 +133,9 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <script //src="https://www.google.com/recaptcha/api.js"></script>
-                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form" novalidate>
                         <div class="col-md-6">
                             <label for="fn" class="form-label">First name</label>
                             <input type="text" class="form-control" name="memory-fn" id="fn" required>
@@ -142,9 +182,14 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submitMemory" value="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="submitMemory" value="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback=' onRecaptchaSuccess'>Submit Form</button>
                         </div>
+
+
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
@@ -215,13 +260,13 @@
         })
     })()
 
-    //function onRecaptchaSuccess() {
-    //    document.getElementById('contact-form').submit()
-    //}
+    function onRecaptchaSuccess() {
+        document.getElementById('contact-form').submit()
+    }
 
     function resetFields() {
-    return confirm("Are you sure you want to reset all fields?");
-}
+        return confirm("Are you sure you want to reset all fields?");
+    }
 </script>
 </body>
 
