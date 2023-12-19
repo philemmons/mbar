@@ -86,7 +86,8 @@
                 if (!empty($errors)) {
                     $allErrors = join('<br/>', $errors);
                     $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-                    // } else {
+                } else {
+                    echo 'alert(submitted)';
                     //$toEmail = 'systemadmin@philemmons.dev';
                     //$emailSubject = 'New email from your contact form';
                     //$headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
@@ -186,7 +187,7 @@
 
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="submitMemory" value="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback=' onRecaptchaSuccess'>Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="submitMemory" value="submit">Submit Form</button>
                         </div>
 
 
