@@ -231,7 +231,7 @@
 
     const myForm = document.querySelector("form");
 
-    form.addEventListener('submit', function(e) {
+    myForm.addEventListener('submit', function(e) {
         //prevent the form from submitting
         e.preventDefault();
 
