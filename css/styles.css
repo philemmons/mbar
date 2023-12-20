@@ -230,7 +230,7 @@ audio {
     object-fit: contain;
 }
 
-/**** iframe ****/
+/**** iframe -- works okay if the form pages are all similar sizes ****/
 
 .ratio-height {
     height: 2725px;
@@ -268,9 +268,3 @@ audio {
         height: 2180px;
     }
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}

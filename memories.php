@@ -165,6 +165,10 @@
                             <button id="submit-button" class="btn btn-primary g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
                         </div>
 
+                        <div class="col-md-6 text-center">
+                            <button type="submit" id="submit-button" class="btn btn-primary g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
+                        </div>
+
 
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
