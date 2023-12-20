@@ -229,6 +229,8 @@
     const userTitle = document.querySelector('#ti');
     const userMess = document.querySelector('#ta');
 
+    const myForm = document.querySelector("form");
+
     form.addEventListener('submit', function(e) {
         //prevent the form from submitting
         e.preventDefault();
