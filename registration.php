@@ -60,11 +60,13 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <div id="register-now"></div>
-                    <iframe class="col-xl-12" src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <div id="register-now">
+                        <div class="ratio ratio-height>
+                            <iframe src=" https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Section Two -->
