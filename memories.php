@@ -168,6 +168,10 @@
                         </div>
 
                         <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" >Submit Form</button>
+                        </div>
+
+                        <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
                     </form>
@@ -336,7 +340,7 @@
         };
     };
 
-    form.addEventListener('input', debounce(function(e) {
+    myForm.addEventListener('input', debounce(function(e) {
         switch (e.target.id) {
             case 'username':
                 checkUsername();
