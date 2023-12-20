@@ -168,7 +168,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button">Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value= "submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -228,15 +228,15 @@
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
     const fname = document.querySelector('#fn');
-    alert(fname);
+    //alert(fname);
     const lname = document.querySelector('#ln');
-    alert(lname);
+    //alert(lname);
     const userEmail = document.querySelector('#em');
-    alert(userEmail);
+    //alert(userEmail);
 const userTitle = document.querySelector('#ti');
-alert(userTitle);
+//alert(userTitle);
     const userMess = document.querySelector('#ta');
-    alert(userMess);
+    //alert(userMess);
 
     const myForm = document.querySelector("form");
 
