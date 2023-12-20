@@ -166,7 +166,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" id="submit-button" class="btn btn-primary g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
+                            <button type="submit" id="submit-button" class="btn btn-primary">Submit Form</button>
                         </div>
 
 
