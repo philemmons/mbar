@@ -233,12 +233,12 @@ audio {
 /**** iframe ****/
 
 .ratio-height{
-    height: 2200px;
+    height: 2700px;
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 468px) {
     .ratio-height{
-        height: 2700px;
+        height: 2400px;
     }
 }
 
@@ -250,7 +250,7 @@ audio {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .ratio-height{
-        height: 2400px;
+        height: 2200px;
     }
 }
 
