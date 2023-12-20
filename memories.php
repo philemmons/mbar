@@ -228,10 +228,15 @@
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
     const fname = document.querySelector('#fn');
+    alert(fname);
     const lname = document.querySelector('#ln');
+    alert(lname);
     const userEmail = document.querySelector('#em');
-    const userTitle = document.querySelector('#ti');
+    alert(userEmail);
+const userTitle = document.querySelector('#ti');
+alert(userTitle);
     const userMess = document.querySelector('#ta');
+    alert(userMess);
 
     const myForm = document.querySelector("form");
 
