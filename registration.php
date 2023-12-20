@@ -61,8 +61,8 @@
             <div class="col-xl-8 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <div id="register-now"></div>
-                    <div>
-                        <iframe class= "google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <div style= "height: 50rem;">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" width= "100%" height= "100%" marginheight="0" marginwidth="0">Loading…</iframe>
                     </div>
                 </div>
             </div>
