@@ -58,13 +58,10 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-6 col-lg-6 col-md-12 py-4">
+            <div class="col-xl-8 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
                     <div id="register-now"></div>
-                    <div class="ratio">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" marginheight="0" marginwidth="0">Loading…</iframe>
-                    </div>
-
+                    <iframe class="col-xl-12" src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
