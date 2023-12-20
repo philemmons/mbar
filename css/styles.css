@@ -233,8 +233,15 @@ audio {
 /**** iframe ****/
 
 .ratio-height{
-    height: 2700px;
+    height: 2760px;
 }
+
+@media (min-width: 360px) {
+    .ratio-height{
+        height: 2425px;
+    }
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 468px) {
     .ratio-height{
