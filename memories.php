@@ -112,60 +112,59 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form" novalidate>
+                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form">
+
                         <div class="col-md-6">
-                            <label for="fn" class="form-label">First name</label>
-                            <input type="text" class="form-control" name="memory-fn" id="fn" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="form-field">
+                                <label for="fn" class="form-label">First name</label>
+                                <input type="text" class="form-control" name="memory-fn" id="fn" required>
+                                <small></small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-field">
+                                <label for="ln" class="form-label">Last name</label>
+                                <input type="text" class="form-control" name="memory-ln" id="ln" required>
+                                <small></small>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="ln" class="form-label">Last name</label>
-                            <input type="text" class="form-control" name="memory-ln" id="ln" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="form-field">
+                                <label for="em" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="memory-em" id="em" required>
+                                <small></small>
                             </div>
                         </div>
+
                         <div class="col-md-6">
-                            <label for="em" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="memory-em" id="em" required>
-                            <div class="invalid-feedback">
-                                Required
+                            <div class="form-field">
+                                <label for="ti" class="form-label">Memory Title</label>
+                                <input type="text" class="form-control" name="memory-t" id="ti" required>
+                                <small></small>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="ti" class="form-label">Memory Title</label>
-                            <input type="text" class="form-control" name="memory-t" id="ti" required>
-                            <div class="invalid-feedback">
-                                Please enter a message title.
-                            </div>
-                        </div>
+
                         <div class="mb-3">
-                            <label for="ta" class="form-label">Text Area</label>
-                            <textarea class="form-control" name="memory-ta" id="ta" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter your message in the text area.
+                            <div class="form-field">
+                                <label for="ta" class="form-label">Text Area</label>
+                                <textarea class="form-control" name="memory-ta" id="ta" required></textarea>
+                                <small></small>
                             </div>
                         </div>
+
                         <div class="col-md-12">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="invalidCheck" id="invalidCheck" value="" required>
+                            <div class="form-field">
+                                <input type="checkbox" class="form-check-input" name="invalidCheck" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to have my message published on MBAR's website.
                                 </label>
-                                <div class="invalid-feedback">
-                                    You must agree before submitting.
-                                </div>
+                                <small></small>
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" id="submit-button" class="btn btn-primary">Submit Form</button>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button id="submit-button" class="btn btn-primary g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submit-button" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -220,34 +219,138 @@
 
 <?php include 'footer.inc' ?>
 
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
-
-                form.classList.add('was-validated')
-
-            }, false)
-
-        })
-    })()
-</script>
 
 <script>
+    /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
+
+    const fname = document.querySelector('#fn');
+    const lname = document.querySelector('#ln');
+    const userEmail = document.querySelector('#em');
+    const userTitle = document.querySelector('#ti');
+    const userMess = document.querySelector('#ta');
+
+    form.addEventListener('submit', function(e) {
+        //prevent the form from submitting
+        e.preventDefault();
+
+        // validate forms
+        let isFirstNameValid = validText(fname, 3, 25),
+            isLastNameValid = validText(lname, 3, 25),
+            isEmailValid = validEmail(),
+            isTitleValid = validText(userTitle, 3, 50),
+            isMessageValid = validText(userMessage, 1, 1000);
+
+        let isFormValid = isUsernameValid && isLastNameValid &&
+            isEmailValid && isTitleValid && isMessageValid;
+
+        // submit to the server if the form is valid
+        if (isFormValid) {
+            <?php echo 'success';?>
+        }
+    })
+
+    const isRequired = (value) => value === '' ? false : true;
+
+    const isBetween = (length, min, max) => length < min || length > max ? false : true;
+
+    const isEmailValid = (userEmail) => {
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(userEmail);
+    };
+
+
+    const showError = (input, message) => {
+        // get the form-field element
+        const formField = input.parentElement;
+
+        // add the error class
+        formField.classList.remove('success');
+        formField.classList.add('error');
+
+        // show the error message
+        const error = formField.querySelector('small');
+        error.textContent = message;
+    };
+
+
+    const showSuccess = (input) => {
+        // get the form-field element
+        const formField = input.parentElement;
+
+        // remove the error class
+        formField.classList.remove('error');
+        formField.classList.add('success');
+
+        // hide the error message
+        const error = formField.querySelector('small');
+        error.textContent = '';
+    };
+
+
+    // This will be used for first name, last name, title message, and message
+    const validText = (inputText, min, max) => {
+
+        let valid = false;
+        const userText = inputText.value.trim();
+
+        if (!isRequired(userText)) {
+            showError(inputText, 'Required');
+        } else if (!isBetween(userText.length, min, max)) {
+            showError(inputText, `Username must be between ${min} and ${max} characters.`);
+        } else {
+            showSuccess(userText);
+            valid = true;
+        }
+        return valid;
+    };
+
+
+    const validEmail = () => {
+        let valid = false;
+        const email = userEmail.value.trim();
+        if (!isRequired(email)) {
+            showError(userEmail, 'Required');
+        } else if (!isEmailValid(email)) {
+            showError(userEmail, 'Email is invalid.')
+        } else {
+            showSuccess(email);
+            valid = true;
+        }
+        return valid;
+    };
+
+
+    const debounce = (fn, delay = 500) => {
+        let timeoutId;
+        return (...args) => {
+            // cancel the previous timer
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+            // setup a new timer
+            timeoutId = setTimeout(() => {
+                fn.apply(null, args)
+            }, delay);
+        };
+    };
+
+    form.addEventListener('input', debounce(function(e) {
+        switch (e.target.id) {
+            case 'username':
+                checkUsername();
+                break;
+            case 'email':
+                checkEmail();
+                break;
+        }
+    }));
+
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
     }
 </script>
+
+
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
