@@ -168,7 +168,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" >Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -251,7 +251,7 @@
 
         // submit to the server if the form is valid
         if (isFormValid) {
-            <?php echo 'success';?>
+            <?php echo 'success'; ?>
         }
     })
 
@@ -342,14 +342,25 @@
 
     myForm.addEventListener('input', debounce(function(e) {
         switch (e.target.id) {
-            case 'username':
-                checkUsername();
+            case 'fn':
+                validText(fname, 3, 25);
                 break;
-            case 'email':
-                checkEmail();
+            case 'ln':
+                validText(lname, 3, 25);
+                break;
+            case 'em':
+                validEmail();
+                break;
+            case 'ti':
+                validText(userTitle, 3, 50);
+                break;
+            case 'ta':
+                validText(userMessage, 1, 1000);
                 break;
         }
     }));
+
+
 
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
