@@ -68,7 +68,7 @@
             <?php
 
 
-$recaptcha_secret = getenv('g-secret-key');
+            $recaptcha_secret = getenv('g-secret-key');
 
             /**
              * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
@@ -157,7 +157,7 @@ $recaptcha_secret = getenv('g-secret-key');
 
                         <div class="col-md-12">
                             <div class="form-field">
-                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value = '' required>
+                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value='' required>
                                 <label class="form-check-label" for="iChk">
                                     I agree to have my message published on MBAR's website.
                                 </label><br>
@@ -166,13 +166,13 @@ $recaptcha_secret = getenv('g-secret-key');
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" disabled >Submit</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
                         </div>
-<!--
+                      
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit" disabled="disabled">Submit Form</button>
                         </div>
-        -->
+       
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
@@ -230,15 +230,15 @@ $recaptcha_secret = getenv('g-secret-key');
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
     const fname = document.querySelector('#fn');
-  
+
     const lname = document.querySelector('#ln');
-    
+
     const userEmail = document.querySelector('#em');
-    
+
     const userTitle = document.querySelector('#ti');
-    
+
     const userMess = document.querySelector('#ta');
-    
+
     const userCheck = document.querySelector('#iChk');
 
     const submitButton = document.querySelector('#submitBtn');
@@ -256,7 +256,7 @@ $recaptcha_secret = getenv('g-secret-key');
             isEmailValid = validEmail(),
             isTitleValid = validText(userTitle, 3, 50),
             isMessageValid = validText(userMess, 1, 1000);
-            isCheckboxValid = validCheckbox();
+        isCheckboxValid = validCheckbox();
 
         let isFormValid = isFirstNameValid && isLastNameValid &&
             isEmailValid && isTitleValid && isMessageValid && isCheckboxValid;
