@@ -148,6 +148,7 @@
 
             ?>
 
+<div id="memory-now"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
