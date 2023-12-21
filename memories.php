@@ -145,7 +145,7 @@
 
                         <div class="col-md-12">
                             <label for="mem-ta" class="form-label">Message</label>
-                            <textarea class="form-control" id="mem-ta" required>
+                            <textarea class="form-control" id="mem-ta" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message.
                             </div>
