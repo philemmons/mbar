@@ -55,7 +55,7 @@
 
 
 
-    <!-- Section Three -->
+    <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-auto py-4">
@@ -77,15 +77,85 @@
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
-                    </h3>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="p-3 text-center text-bg-light hero-text-border">
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">'Archived Meeting Minutes Over the Years'</span>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="p-3 text-center text-bg-light hero-text-border">
+                    <h3>2023 MBAR Minutes</h3>
+                    <hr>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 11/11/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 10/14/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 09/09/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 08/12/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 06/10/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 05/13/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 04/08/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 03/11/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 02/11/2023</a> <br>
+                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <a href="" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 01/14/2023</a> <br>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-xl-7 col-lg-7 col-md-12 py-4">
+            <div class="p-3 text-center text-bg-light hero-text-border" title="">
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                2022
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                2021
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                2021
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
 
 </main>
 <?php include 'footer.inc' ?>
