@@ -155,7 +155,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-field">
                                 <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value='' required>
                                 <label class="form-check-label" for="iChk">
@@ -165,18 +165,14 @@
                             </div>
                         </div>
 
-                        <div class= "col-md-6">
-                        <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> ></div>
-                        </div>
-<!--
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? //echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
+                        </div>
+                        <!--
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit" disabled="disabled">Submit Form</button>
                         </div>
         -->
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit" >Submit Form</button>
-                        </div>
-      
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
@@ -268,7 +264,7 @@
         // submit to the server if the form is valid
         if (isFormValid) {
             alert('success');
-           // submitButton.disabled = false;
+            submitButton.disabled = false;
         }
     })
 
@@ -404,9 +400,9 @@
 </script>
 
 <script>
-    //function onRecaptchaSuccess(token) {
-    //    document.getElementById('contact-form').submit();
-    //}
+    function onRecaptchaSuccess(token) {
+        document.getElementById('contact-form').submit();
+    }
 </script>
 </body>
 
