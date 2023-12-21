@@ -336,7 +336,7 @@
     const validCheckbox = () => {
         let valid = false;
         const cBox = userCheck.value.trim();
-        if (!isRequired(cBox.checked)) {
+        if (!isRequired(cBox)) {
             showError(userCheck, 'You must agree to the above TOS.');
         } else {
             showSuccess(userCheck);
