@@ -68,6 +68,10 @@
 
             <?php
 
+            /**
+             * https://www.codexworld.com/new-google-recaptcha-with-php/
+             */
+            
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
 
