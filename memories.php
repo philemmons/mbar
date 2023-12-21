@@ -66,8 +66,6 @@
             </div>
 
             <?php
-
-
             $recaptcha_secret = getenv('g-secret-key');
 
             /**
@@ -81,16 +79,6 @@
              * 
              */
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-                $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                $recaptcha_response = $_POST['g-recaptcha-response'];
-
-                $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-                $recaptcha = json_decode($recaptcha, true);
-
-                if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
-                    /* reCaptcha verified, redirect to thank you page, etc */
-                    $recaptcha_message = "reCaptcha verified";
 
                     $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
 
@@ -108,7 +96,6 @@
                     /* reCaptcha not verified, redirect to error, etc */
                     $recaptcha_message = "reCaptcha not verified";
                 }
-            }
             ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
