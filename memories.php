@@ -154,7 +154,7 @@
                     <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
                         <div class="col-md-6">
                             <label for="fname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname" required>
+                            <input type="text" class="form-control" name="fname" id="fname" required>
                             <div class="invalid-feedback">
                                 Please enter your first name.
                             </div>
@@ -162,7 +162,7 @@
 
                         <div class="col-md-6">
                             <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="lname' id=" lname" required>
+                            <input type="text" class="form-control" name="lname" id=" lname" required>
                             <div class="invalid-feedback">
                                 Please enter your last name.
                             </div>
@@ -212,7 +212,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name= "submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name= "submit" >Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
