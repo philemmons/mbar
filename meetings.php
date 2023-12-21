@@ -66,10 +66,8 @@
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title text-center mb-3"><em>The second Saturday of each month at 10:00am PST</em></h3>
                     <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
-                        <strong>Password</strong>: 2024
-                    </p>
-                    <br>
-                    <p class="text-center">Next Meetings: <strong>01/13/2024, 02/10/2024, 03/09/2024</strong></p>
+                        <strong>Password</strong>: 2024</p>
+                    <p class="text-center"><strong>Next Meetings:</strong> 01/13/2024, 02/10/2024, 03/09/2024</p>
                 </div>
             </div>
         </div>
