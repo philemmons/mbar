@@ -272,6 +272,9 @@
         return re.test(userEmail);
     };
 
+    const isChecked = (userCheck) => {
+        return userCheck.checked;
+    }
 
     const showError = (input, message) => {
         // get the form-field element
@@ -335,8 +338,8 @@
 
     const validCheckbox = () => {
         let valid = false;
-        const cBox = userCheck.value.trim();
-        if (!isRequired(cBox)) {
+        const cBox = userCheck;
+        if (!isChecked(cBox)) {
             showError(userCheck, 'You must agree to the above TOS.');
         } else {
             showSuccess(userCheck);
