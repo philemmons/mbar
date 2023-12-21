@@ -64,47 +64,75 @@
                     <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
                 </div>
             </div>
+
+
             <?php
-            /**
-             * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
-             * 
-             * https://www.youtube.com/watch?v=tyxchSojW48
-             * 
-             * https://stackoverflow.com/questions/64113404/bootstrap-5-referenceerror-bootstrap-is-not-defined
-             * 
-             * https://www.youtube.com/watch?v=zeEtA0sFkDA
-             * 
-             */
-            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-                $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                $recaptcha_response = $_POST['g-recaptcha-response'];
-                $recaptcha_secret = getenv('g-secret-key');
+            // Google reCAPTCHA API keys settings 
+            $secretKey  = getenv('g-secret-key');
 
-                $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-                $recaptcha = json_decode($recaptcha, true);
+            // Email settings 
+            $recipientEmail = getenv('mbar-to-email ');
 
-                if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
-                    /* reCaptcha verified, redirect to thank you page, etc */
-                    $recaptcha_message = "reCaptcha verified";
+            // If the form is submitted 
+            $postData = $statusMsg = '';
+            $status = 'error';
 
-                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+            if (isset($_POST['submit'])) {
+                $postData = $_POST;
 
-                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
-                        echo "<script type='module'>";
-                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
-                        echo "window.addEventListener('DOMContentLoaded', () => { ";
-                        echo "myModal.show();";
-                        echo "});";
-                        echo "</script>"; // Show modal
+                // Validate form input fields 
+                if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
 
-                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
+                    // Validate reCAPTCHA checkbox 
+                    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+
+                        // Verify the reCAPTCHA API response 
+                        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+
+                        // Decode JSON data of API response 
+                        $responseData = json_decode($verifyResponse);
+
+                        // If the reCAPTCHA API response is valid 
+                        if ($responseData->success) {
+                            // Retrieve value from the form input fields 
+                            $name = !empty($_POST['name']) ? $_POST['name'] : '';
+                            $email = !empty($_POST['email']) ? $_POST['email'] : '';
+                            $message = !empty($_POST['message']) ? $_POST['message'] : '';
+
+                            // Send email notification to the site admin 
+                            $to = $recipientEmail;
+                            $subject = 'New Mem Request Submitted';
+                            $htmlContent = " 
+                    <h4>Contact request details</h4> 
+                    <p><b>Name: </b>" . $name . "</p> 
+                    <p><b>Email: </b>" . $email . "</p> 
+                    <p><b>Message: </b>" . $message . "</p> 
+                ";
+
+                            // Always set content-type when sending HTML email 
+                            $headers = "MIME-Version: 1.0" . "\r\n";
+                            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                            // More headers 
+                            $headers .= 'From:' . $name . ' <' . $email . '>' . "\r\n";
+
+                            // Send email 
+                            mail($to, $subject, $htmlContent, $headers);
+
+                            $status = 'success';
+                            $statusMsg = 'Thank you! Your contact request has been submitted successfully.';
+                            $postData = '';
+                        } else {
+                            $statusMsg = 'Robot verification failed, please try again.';
+                        }
+                    } else {
+                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
                     }
                 } else {
-                    /* reCaptcha not verified, redirect to error, etc */
-                    $recaptcha_message = "reCaptcha not verified";
+                    $statusMsg = 'Please fill all the mandatory fields.';
                 }
             }
+
             ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -121,7 +149,7 @@
 
                         <div class="col-md-6">
                             <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lname" required>
+                            <input type="text" class="form-control" name= "lname' id="lname" required>
                             <div class="invalid-feedback">
                                 Please enter your last name.
                             </div>
@@ -129,7 +157,7 @@
 
                         <div class="col-md-6">
                             <label for="mem-email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="mem-email" required>
+                            <input type="email" class="form-control" name= "lname" id="mem-email" required>
                             <div class="invalid-feedback">
                                 Please enter your email.
                             </div>
@@ -137,7 +165,7 @@
 
                         <div class="col-md-6">
                             <label for="mem-title" class="form-label">Message Title</label>
-                            <input type="text" class="form-control" id="mem-title" required>
+                            <input type="text" class="form-control" name= "mem-title" id="mem-title" required>
                             <div class="invalid-feedback">
                                 Please enter a title.
                             </div>
@@ -145,7 +173,7 @@
 
                         <div class="col-md-12">
                             <label for="mem-ta" class="form-label">Message</label>
-                            <textarea class="form-control" id="mem-ta" required></textarea>
+                            <textarea class="form-control" name= "mem-ta" id="mem-ta" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message.
                             </div>
@@ -153,7 +181,7 @@
 
                         <div class="col-md-12">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <input type="checkbox" class="form-check-input" name= "cBox" id="invalidCheck" value=""  required>
                                 <label class="form-check-label" for="invalidCheck">
                                     Agree to terms and conditions
                                 </label>
@@ -166,17 +194,23 @@
                         <div class="col-md-12 text-center">
                             <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
                             <div class="invalid-feedback">
-                               <? echo $recaptcha_message ?>
+                                <? echo $recaptcha_message ?>
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button class="btn btn-primary" type="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" >Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
+
+                        <?php if (!empty($statusMsg)) { ?>
+                            <div class="col-md-12 text-center">
+                                <p class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                            </div>
+                        <?php } ?>
 
                     </form>
                 </div>
@@ -184,21 +218,7 @@
         </div>
     </section>
 
-    <!-- Modal -->
-    <div class="modal fade" id="awaitModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="memoryFormLabel">Memory Form</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Thank you, your message was sent.</p>
-                    <p><? echo $recaptcha_message; ?>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <section class="container">
         <div class="row justify-content-center mb-5">
