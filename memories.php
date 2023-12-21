@@ -147,7 +147,7 @@
             }
 
             ?>
-            <div id="bookMark"></div>
+        
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
@@ -159,7 +159,7 @@
                         </div>
                     <?php } ?>
 
-                    <form action="memories.php/#bookMark" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
                             <label for="fname" class="form-label">First Name</label>
