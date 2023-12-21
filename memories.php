@@ -54,6 +54,8 @@
         </div>
     </section>
 
+    <div id="bookMark"></div>
+    
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
@@ -147,19 +149,19 @@
             }
 
             ?>
-            <div id= "bookMark"></div>
+           
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="memories.php/#bookMark" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-
-                        <?php if (!empty($statusMsg)) { ?>
-                            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                                    <p class="mb-6 h5 text-dark "status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
-                                </div>
+                    <?php if (!empty($statusMsg)) { ?>
+                        <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                            <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                                <p class="mb-6 h5 text-dark " status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                             </div>
-                        <?php } ?>
+                        </div>
+                    <?php } ?>
+
+                    <form action="memories.php/#bookMark" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
                             <label for="fname" class="form-label">First Name</label>
