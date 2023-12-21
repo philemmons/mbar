@@ -156,7 +156,7 @@
                         <?php if (!empty($statusMsg)) { ?>
                             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                                    <p class="mb-6 h5 text-dark message-status"> <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                                    <p class="mb-6 h5 text-dark "status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                                 </div>
                             </div>
                         <?php } ?>
