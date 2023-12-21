@@ -143,7 +143,7 @@
 
 
                             <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key') ?> data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                                 <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -158,29 +158,29 @@
                         </div>
 
                     </form>
-
-                    <section class="container">
-                        <div class="row justify-content-center mb-5">
-                            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
-                                <div class="card h-100 shadow-wrap">
-                                    <div class="card-body">
-                                        <h6 class="card-title"><a href="conference-2021.php">
-                                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
-                                            <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
-                                    </div>
+                </div>
+                <section class="container">
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                            <div class="card h-100 shadow-wrap">
+                                <div class="card-body">
+                                    <h6 class="card-title"><a href="conference-2021.php">
+                                            <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
+                                        <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
-                                <div class="card h-100 shadow-wrap">
-                                    <div class="card-body">
-                                        <h6 class="card-title"><a href="registration.php">
-                                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
-                                            <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
-                                    </div>
+                        <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                            <div class="card h-100 shadow-wrap">
+                                <div class="card-body">
+                                    <h6 class="card-title"><a href="registration.php">
+                                            <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
+                                        <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
                                 </div>
                             </div>
-                    </section>
+                        </div>
+                </section>
 
 </main>
 
