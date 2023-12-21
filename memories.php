@@ -249,7 +249,7 @@ const userTitle = document.querySelector('#ti');
             isLastNameValid = validText(lname, 3, 25),
             isEmailValid = validEmail(),
             isTitleValid = validText(userTitle, 3, 50),
-            isMessageValid = validText(userMessage, 1, 1000);
+            isMessageValid = validText(userMess, 1, 1000);
 
         let isFormValid = isUsernameValid && isLastNameValid &&
             isEmailValid && isTitleValid && isMessageValid;
@@ -360,7 +360,7 @@ const userTitle = document.querySelector('#ti');
                 validText(userTitle, 3, 50);
                 break;
             case 'ta':
-                validText(userMessage, 1, 1000);
+                validText(userMess, 1, 1000);
                 break;
         }
     }));
