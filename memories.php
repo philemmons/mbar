@@ -147,11 +147,20 @@
             }
 
             ?>
-
+            <div id= "bookMark"></div>
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="memories.php/#bookMark" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+
+                        <?php if (!empty($statusMsg)) { ?>
+                            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                                    <p class="mb-6 h5 text-dark message-status"> <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                                </div>
+                            </div>
+                        <?php } ?>
+
                         <div class="col-md-6">
                             <label for="fname" class="form-label">First Name</label>
                             <input type="text" class="form-control" name="fname" id="fname" required>
@@ -212,19 +221,12 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name= "submit" >Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
-
-                        <?php if (!empty($statusMsg)) { ?>
-                            <div class="col-md-12 text-center">
-                                <p class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
-                            </div>
-                        <?php } ?>
-
                     </form>
                 </div>
             </div>
