@@ -82,7 +82,13 @@
                 $postData = $_POST;
 
                 // Validate form input fields 
-                if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
+                if (
+                    !empty($_POST['fname']) &&
+                    !empty($_POST['lname']) &&
+                    !empty($_POST['mem-email']) &&
+                    !empty($_POST['mem-title']) &&
+                    !empty($_POST['mem-ta'])
+                ) {
 
                     // Validate reCAPTCHA checkbox 
                     if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
@@ -96,34 +102,37 @@
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $name = !empty($_POST['name']) ? $_POST['name'] : '';
-                            $email = !empty($_POST['email']) ? $_POST['email'] : '';
-                            $message = !empty($_POST['message']) ? $_POST['message'] : '';
+                            $firstName = !empty($_POST['fname']) ? $_POST['fname'] : '';
+                            $lastName = !empty($_POST['lname']) ? $_POST['lname'] : '';
+                            $email = !empty($_POST['mem-email']) ? $_POST['mem-email'] : '';
+                            $messageTitle = !empty($_POST['mem-title']) ? $_POST['mem-title'] : '';
+                            $mainMessage = !empty($_POST['mem-ta']) ? $_POST['mem-ta'] : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
-                            $subject = 'New Mem Request Submitted';
+                            $subject = 'New Memory Request Submitted';
                             $htmlContent = " 
-                    <h4>Contact request details</h4> 
-                    <p><b>Name: </b>" . $name . "</p> 
+                    <h4>Memory form request details</h4> 
+                    <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Message: </b>" . $message . "</p> 
+                    <p><b>Message: </b>" . $messageTitle . "</p> 
+                    <p><b>Name: </b>" . $mainMessage . "</p> 
                 ";
 
                             // Always set content-type when sending HTML email 
                             $headers = "MIME-Version: 1.0" . "\r\n";
                             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                             // More headers 
-                            $headers .= 'From:' . $name . ' <' . $email . '>' . "\r\n";
+                            $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
 
                             // Send email 
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you! Your contact request has been submitted successfully.';
+                            $statusMsg = 'Thank you! Your memory has been submitted successfully.';
                             $postData = '';
                         } else {
-                            $statusMsg = 'Robot verification failed, please try again.';
+                            $statusMsg = 'reCaptcha verification failed, please try again.';
                         }
                     } else {
                         $statusMsg = 'Please check the reCAPTCHA checkbox.';
@@ -149,7 +158,7 @@
 
                         <div class="col-md-6">
                             <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name= "lname' id="lname" required>
+                            <input type="text" class="form-control" name="lname' id=" lname" required>
                             <div class="invalid-feedback">
                                 Please enter your last name.
                             </div>
@@ -157,7 +166,7 @@
 
                         <div class="col-md-6">
                             <label for="mem-email" class="form-label">Email</label>
-                            <input type="email" class="form-control" name= "lname" id="mem-email" required>
+                            <input type="email" class="form-control" name="mem-email" id="mem-email" required>
                             <div class="invalid-feedback">
                                 Please enter your email.
                             </div>
@@ -165,7 +174,7 @@
 
                         <div class="col-md-6">
                             <label for="mem-title" class="form-label">Message Title</label>
-                            <input type="text" class="form-control" name= "mem-title" id="mem-title" required>
+                            <input type="text" class="form-control" name="mem-title" id="mem-title" required>
                             <div class="invalid-feedback">
                                 Please enter a title.
                             </div>
@@ -173,7 +182,7 @@
 
                         <div class="col-md-12">
                             <label for="mem-ta" class="form-label">Message</label>
-                            <textarea class="form-control" name= "mem-ta" id="mem-ta" required></textarea>
+                            <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message.
                             </div>
@@ -181,7 +190,7 @@
 
                         <div class="col-md-12">
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name= "cBox" id="invalidCheck" value=""  required>
+                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
                                     Agree to terms and conditions
                                 </label>
@@ -199,7 +208,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" >Submit Form</button>
+                            <button type="submit" class="btn btn-primary">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -217,8 +226,6 @@
             </div>
         </div>
     </section>
-
-
 
     <section class="container">
         <div class="row justify-content-center mb-5">
