@@ -168,7 +168,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value= "submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -233,8 +233,8 @@
     //alert(lname);
     const userEmail = document.querySelector('#em');
     //alert(userEmail);
-const userTitle = document.querySelector('#ti');
-//alert(userTitle);
+    const userTitle = document.querySelector('#ti');
+    //alert(userTitle);
     const userMess = document.querySelector('#ta');
     //alert(userMess);
 

@@ -273,14 +273,14 @@ audio {
 }
 
 /**** memory form ****/
-.form-control.error {
+.form-error.error {
     border: 1px solid var(--error-color);
 }
 
-.form-control.error>small {
-    color: var(--error-color);
+.form-error.success {
+    border: 1px solid var(--success-color);
 }
 
-.form-control.success {
-    border: 1px solid var(--success-color);
+.form-error>small {
+    color: var(--error-color);
 }
