@@ -166,7 +166,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> disabled>Submit</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn"  disabled>Submit</button>
                         </div>
                       <!--
                         <div class="col-md-6 text-center">
