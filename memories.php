@@ -66,8 +66,6 @@
             </div>
 
             <?php
-            $recaptcha_secret = getenv('g-secret-key');
-
             /**
              * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
              * 
@@ -78,23 +76,35 @@
              * https://www.youtube.com/watch?v=zeEtA0sFkDA
              * 
              */
-            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            if (isset($_POST['submit'])) {
 
-                $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+                $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+                $recaptcha_response = $_POST['g-recaptcha-response'];
+                $recaptcha_secret = getenv('g-secret-key');
 
-                if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
-                    echo "<script type='module'>";
-                    echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
-                    echo "window.addEventListener('DOMContentLoaded', () => { ";
-                    echo "myModal.show();";
-                    echo "});";
-                    echo "</script>"; // Show modal
+                $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+                $recaptcha = json_decode($recaptcha, true);
 
-                    unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
+                if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
+                    /* reCaptcha verified, redirect to thank you page, etc */
+                    $recaptcha_message = "reCaptcha verified";
+
+                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+
+                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
+                        echo "<script type='module'>";
+                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
+                        echo "window.addEventListener('DOMContentLoaded', () => { ";
+                        echo "myModal.show();";
+                        echo "});";
+                        echo "</script>"; // Show modal
+
+                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
+                    }
+                } else {
+                    /* reCaptcha not verified, redirect to error, etc */
+                    $recaptcha_message = "reCaptcha not verified";
                 }
-            } else {
-                /* reCaptcha not verified, redirect to error, etc */
-                $recaptcha_message = "reCaptcha not verified";
             }
             ?>
 

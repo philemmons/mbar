@@ -66,10 +66,6 @@
             </div>
 
             <?php
-
-
-            $recaptcha_secret = getenv('g-secret-key');
-
             /**
              * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
              * 
@@ -84,6 +80,7 @@
 
                 $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
                 $recaptcha_response = $_POST['g-recaptcha-response'];
+                $recaptcha_secret = getenv('g-secret-key');
 
                 $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
                 $recaptcha = json_decode($recaptcha, true);
