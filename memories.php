@@ -215,7 +215,6 @@
 
 <?php include 'footer.inc' ?>
 
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
