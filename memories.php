@@ -151,7 +151,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12">
+                        <div class="col-md-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -163,8 +163,12 @@
                             </div>
                         </div>
 
-                        <div class="col-12">
+                        <div class="col-md-6 text-center">
                             <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
 
                     </form>
