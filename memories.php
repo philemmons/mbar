@@ -164,7 +164,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submit-button" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit" disabled>Submit Form</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit" disabled>Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -239,7 +239,7 @@
     
     const userCheck = document.querySelector('#iChk');
 
-    const submitButton = document.querySelector('#submit-button');
+    const submitButton = document.querySelector('#submitBtn');
 
     const myForm = document.querySelector("form");
 
