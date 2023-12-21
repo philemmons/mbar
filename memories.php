@@ -164,7 +164,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submit-button" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submit-button" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit" disabled>Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
@@ -239,10 +239,12 @@
     
     const userCheck = document.querySelector('#iChk');
 
+    const submitButton = document.querySelector('#submit-button');
 
     const myForm = document.querySelector("form");
 
-    myForm.addEventListener('submit', function(e) {
+    myForm.addEventListener('change', function(e) {
+
         //prevent the form from submitting
         e.preventDefault();
 
@@ -260,6 +262,7 @@
         // submit to the server if the form is valid
         if (isFormValid) {
             alert('success');
+            submitButton.disabled = false;
         }
     })
 
