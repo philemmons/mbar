@@ -166,7 +166,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey= 000 data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
                         </div>
                       <!--
                         <div class="col-md-6 text-center">
