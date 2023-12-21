@@ -9,6 +9,9 @@
     --color-7: #6b6b6b;
     --color-8: #8b8b8b;
 
+    --error-color: #ff0019;
+    --success-color: #0ece3b;
+
     --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
 
 }
@@ -267,4 +270,17 @@ audio {
     .ratio-height {
         height: 2180px;
     }
+}
+
+/**** memory form ****/
+.form-control.error {
+    border: 1px solid var(--error-color);
+}
+
+.form-control.error>small {
+    color: var(--error-color);
+}
+
+.form-control.success {
+    border: 1px solid var(--success-color);
 }
