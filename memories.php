@@ -110,7 +110,7 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="memories.php" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action= "memories.php" method= "POST" class="row g-3 needs-validation" id="myForm" novalidate>
                         <div class="col-md-6">
                             <label for="fname" class="form-label">First Name</label>
                             <input type="text" class="form-control" id="fname" required>
@@ -151,7 +151,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <div class="col-md-8">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -162,9 +162,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class= "col-md-4">
+                        <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> ></div>
+                        </div>
 
                         <div class="col-md-6 text-center">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                            <button class="btn btn-primary" type="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
