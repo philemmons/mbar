@@ -80,22 +80,22 @@
              */
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+                $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
 
-                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
-                        echo "<script type='module'>";
-                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
-                        echo "window.addEventListener('DOMContentLoaded', () => { ";
-                        echo "myModal.show();";
-                        echo "});";
-                        echo "</script>"; // Show modal
+                if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
+                    echo "<script type='module'>";
+                    echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
+                    echo "window.addEventListener('DOMContentLoaded', () => { ";
+                    echo "myModal.show();";
+                    echo "});";
+                    echo "</script>"; // Show modal
 
-                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
-                    }
-                } else {
-                    /* reCaptcha not verified, redirect to error, etc */
-                    $recaptcha_message = "reCaptcha not verified";
+                    unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
                 }
+            } else {
+                /* reCaptcha not verified, redirect to error, etc */
+                $recaptcha_message = "reCaptcha not verified";
+            }
             ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -152,18 +152,19 @@
                             </div>
                         </div>
 
-                        <div class= "col-md-12">
-                        <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> ></div>
+                        <div class="col-md-12">
+                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
                         </div>
-<!--
+                        <!--
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? //echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? //echo getenv('g-site-key'); 
+                                                                                                                                        ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
                         </div>
         -->
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit" >Submit Form</button>
+                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit">Submit Form</button>
                         </div>
-      
+
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
@@ -253,7 +254,7 @@
         // submit to the server if the form is valid
         if (isFormValid) {
             alert('success');
-           // submitButton.disabled = false;
+            // submitButton.disabled = false;
         }
     })
 
@@ -388,11 +389,6 @@
     }
 </script>
 
-<script>
-    //function onRecaptchaSuccess(token) {
-    //    document.getElementById('contact-form').submit();
-    //}
-</script>
 </body>
 
 </html>
