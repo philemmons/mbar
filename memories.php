@@ -71,12 +71,12 @@
             /**
              * https://www.codexworld.com/new-google-recaptcha-with-php/
              */
-            
+
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
 
             // Email settings 
-            $recipientEmail = getenv('mbar-to-email ');
+            $recipientEmail = getenv('mbar-to-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -212,7 +212,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name= "submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
