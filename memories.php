@@ -142,7 +142,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-field">
                                 <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value='' required>
                                 <label class="form-check-label" for="iChk">
@@ -152,7 +152,7 @@
                             </div>
                         </div>
 
-                        <div class= "col-md-6">
+                        <div class= "col-md-12">
                         <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?> ></div>
                         </div>
 <!--
@@ -183,7 +183,6 @@
                 </div>
                 <div class="modal-body">
                     <p>Thank you, your message was sent.</p>
-                    <p><? echo $recaptcha_message; ?>
                 </div>
             </div>
         </div>
