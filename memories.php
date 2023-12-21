@@ -64,7 +64,6 @@
                     <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
                 </div>
             </div>
-
             <?php
             /**
              * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
@@ -88,6 +87,19 @@
                 if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
                     /* reCaptcha verified, redirect to thank you page, etc */
                     $recaptcha_message = "reCaptcha verified";
+
+                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
+
+                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
+                        echo "<script type='module'>";
+                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
+                        echo "window.addEventListener('DOMContentLoaded', () => { ";
+                        echo "myModal.show();";
+                        echo "});";
+                        echo "</script>"; // Show modal
+
+                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
+                    }
                 } else {
                     /* reCaptcha not verified, redirect to error, etc */
                     $recaptcha_message = "reCaptcha not verified";
@@ -98,69 +110,85 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form id="contact-form" method="post" action="contact.php" role="form">
-
-                        <div class="messages"></div>
-
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
+                    <form action="memories.php" class="row g-3 needs-validation" id="myForm" novalidate>
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="fname" required>
+                            <div class="invalid-feedback">
+                                Please enter your first name.
                             </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key') ?> data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                
-                                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-                                <div class="help-block with-errors"></div>
-                            </div>
-
-
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
-
-                            <p class="text-muted">
-                                <strong>*</strong> These fields are required.
-                            </p>
                         </div>
+
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lname" required>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mem-email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="mem-email" required>
+                            <div class="invalid-feedback">
+                                Please enter your email.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mem-title" class="form-label">Message Title</label>
+                            <input type="text" class="form-control" id="mem-title" required>
+                            <div class="invalid-feedback">
+                                Please enter a title.
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="mem-ta" class="form-label">City</label>
+                            <input type="text" class="form-control" id="mem-ta" rows="4" required>
+                            <div class="invalid-feedback">
+                                Please enter your message.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="awaitModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="memoryFormLabel">Memory Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you, your message was sent.</p>
+                    <p><? echo $recaptcha_message; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-5 mb-3 mb-lg-0 px-4">
@@ -188,8 +216,27 @@
 
 <?php include 'footer.inc' ?>
 
-<script src="../source/validator.js"></script>
-<script src="../source/contact.js"></script>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
 <script>
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
