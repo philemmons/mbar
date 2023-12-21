@@ -67,6 +67,9 @@
 
             <?php
 
+
+$recaptcha_secret = getenv('g-secret-key');
+
             /**
              * https://teamtreehouse.com/community/displaying-a-bootstrap-modal-after-php-for-submission
              * 
@@ -80,7 +83,6 @@
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                $recaptcha_secret = getenv('g-secret-key');
                 $recaptcha_response = $_POST['g-recaptcha-response'];
 
                 $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
@@ -164,13 +166,13 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onSubmit" data-action="submit" disabled>Submit Form</button>
+                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
                         </div>
-
+<!--
                         <div class="col-md-6 text-center">
                             <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit">Submit Form</button>
                         </div>
-
+        -->
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
@@ -223,7 +225,7 @@
 
 <?php include 'footer.inc' ?>
 
-
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
@@ -389,19 +391,16 @@
                 break;
         }
     }));
+</script>
 
-
-
+<script>
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
     }
 </script>
 
-
-
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
-    function onSubmit(token) {
+    function onRecaptchaSuccess(token) {
         document.getElementById('contact-form').submit();
     }
 </script>
