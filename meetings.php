@@ -59,7 +59,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-auto py-4">
-                <a href="" onclick="window.open('https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."></a>
+                <a href="" class= "bb-link" onclick="window.open('https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."></a>
             </div>
             <div class="col-sm-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
@@ -80,7 +80,7 @@
 
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">'Archived Meeting Minutes Over the Years'</span>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
                     </h4>
                 </div>
             </div>
@@ -90,25 +90,25 @@
                     <h3>2023 MBAR Minutes</h3>
                     <hr>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 11/11/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 10/14/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:10/14/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 09/09/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:09/09/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 08/12/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/12/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 06/10/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:06/10/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 05/13/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:05/13/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 04/08/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:04/08/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 03/11/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:03/11/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 02/11/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:02/11/2023</a> <br>
                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
-                    <a href="" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open: <b>MBAR Minutes</b>: 01/14/2023</a> <br>
+                    <a href="" class= "bb-link" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:01/14/2023</a> <br>
                 </div>
             </div>
         </div>
