@@ -48,7 +48,7 @@
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Committee Meeting<br>
-                            Information</span></h1>
+                    Information</span></h1>
                 </div>
             </div>
         </div>
@@ -66,8 +66,9 @@
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title text-center mb-3"><em>The second Saturday of each month at 10:00am PST</em></h3>
                     <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
-                        <strong>Password</strong>: 2024.<br>
+                        <strong>Password</strong>: 2024
                     </p>
+                    <br>
                     <p class="text-center">Next Meetings: <strong>01/13/2024, 02/10/2024, 03/09/2024</strong></p>
                 </div>
             </div>
@@ -89,25 +90,25 @@
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3>2023 MBAR Minutes</h3>
                     <hr>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:10/14/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:09/09/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/12/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:06/10/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:05/13/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:04/08/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:03/11/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:02/11/2023</a> <br>
-                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:01/14/2023</a> <br>
                 </div>
             </div>
