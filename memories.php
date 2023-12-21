@@ -158,7 +158,7 @@
                                 <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value = '' required>
                                 <label class="form-check-label" for="iChk">
                                     I agree to have my message published on MBAR's website.
-                                </label>
+                                </label><br>
                                 <small></small>
                             </div>
                         </div>
@@ -336,7 +336,7 @@
     const validCheckbox = () => {
         let valid = false;
         const cBox = userCheck.value.trim();
-        if (!isRequired(cBox)) {
+        if (!cBox.checked) {
             showError(userCheck, 'You must agree to the above TOS.');
         } else {
             showSuccess(userCheck);
