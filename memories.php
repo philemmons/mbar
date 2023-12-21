@@ -155,8 +155,8 @@
 
                         <div class="col-md-12">
                             <div class="form-field">
-                                <input type="checkbox" class="form-check-input" name="invalidCheck" id="invalidCheck" required>
-                                <label class="form-check-label" for="invalidCheck">
+                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" required>
+                                <label class="form-check-label" for="iChk">
                                     I agree to have my message published on MBAR's website.
                                 </label>
                                 <small></small>
@@ -228,15 +228,17 @@
     /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
     const fname = document.querySelector('#fn');
-    //alert(fname);
+  
     const lname = document.querySelector('#ln');
-    //alert(lname);
+    
     const userEmail = document.querySelector('#em');
-    //alert(userEmail);
+    
     const userTitle = document.querySelector('#ti');
-    //alert(userTitle);
+    
     const userMess = document.querySelector('#ta');
-    //alert(userMess);
+    
+    const userCheck = document.querySelector('#iChk');
+
 
     const myForm = document.querySelector("form");
 
@@ -330,6 +332,19 @@
         return valid;
     };
 
+    const validCheckbox = () => {
+        let valid = false;
+        const cBox = userCheck.value.trim();
+        if (!isRequired(cBox)) {
+            showError(userCheck, 'You must agree to the above TOS.');
+        } else {
+            showSuccess(userCheck);
+            valid = true;
+        }
+        return valid;
+    };
+
+
 
     const debounce = (fn, delay = 500) => {
         let timeoutId;
@@ -361,6 +376,9 @@
                 break;
             case 'ta':
                 validText(userMess, 1, 1000);
+                break;
+            case 'iChk':
+                validCheckbox();
                 break;
         }
     }));
