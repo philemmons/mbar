@@ -112,7 +112,7 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form">
+                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form" novalidate>
 
                         <div class="col-md-6">
                             <div class="form-field">
@@ -309,7 +309,7 @@ const userTitle = document.querySelector('#ti');
         } else if (!isBetween(userText.length, min, max)) {
             showError(inputText, `Username must be between ${min} and ${max} characters.`);
         } else {
-            showSuccess(userText);
+            showSuccess(inputText);
             valid = true;
         }
         return valid;
@@ -324,7 +324,7 @@ const userTitle = document.querySelector('#ti');
         } else if (!isEmailValid(email)) {
             showError(userEmail, 'Email is invalid.')
         } else {
-            showSuccess(email);
+            showSuccess(userEmail);
             valid = true;
         }
         return valid;
