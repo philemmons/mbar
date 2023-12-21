@@ -252,9 +252,10 @@
             isEmailValid = validEmail(),
             isTitleValid = validText(userTitle, 3, 50),
             isMessageValid = validText(userMess, 1, 1000);
+            isCheckboxValid = validCheckbox();
 
-        let isFormValid = isUsernameValid && isLastNameValid &&
-            isEmailValid && isTitleValid && isMessageValid;
+        let isFormValid = isFirstNameValid && isLastNameValid &&
+            isEmailValid && isTitleValid && isMessageValid && isCheckboxValid;
 
         // submit to the server if the form is valid
         if (isFormValid) {
@@ -345,7 +346,6 @@
     };
 
 
-
     const debounce = (fn, delay = 500) => {
         let timeoutId;
         return (...args) => {
@@ -360,6 +360,7 @@
         };
     };
 
+    
     myForm.addEventListener('input', debounce(function(e) {
         switch (e.target.id) {
             case 'fn':
