@@ -155,7 +155,7 @@
 
                         <div class="col-md-12">
                             <div class="form-field">
-                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" required>
+                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value = '' required>
                                 <label class="form-check-label" for="iChk">
                                     I agree to have my message published on MBAR's website.
                                 </label>
@@ -360,7 +360,7 @@
         };
     };
 
-    
+
     myForm.addEventListener('input', debounce(function(e) {
         switch (e.target.id) {
             case 'fn':
