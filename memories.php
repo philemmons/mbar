@@ -256,7 +256,7 @@
 
         // submit to the server if the form is valid
         if (isFormValid) {
-            <?php echo 'success'; ?>
+            alert('success');
         }
     })
 
@@ -275,8 +275,8 @@
         const formField = input.parentElement;
 
         // add the error class
-        formField.classList.remove('success');
-        formField.classList.add('error');
+        input.classList.remove('success');
+        input.classList.add('error');
 
         // show the error message
         const error = formField.querySelector('small');
@@ -289,8 +289,8 @@
         const formField = input.parentElement;
 
         // remove the error class
-        formField.classList.remove('error');
-        formField.classList.add('success');
+        input.classList.remove('error');
+        input.classList.add('success');
 
         // hide the error message
         const error = formField.querySelector('small');
