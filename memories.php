@@ -76,7 +76,7 @@
              * https://www.youtube.com/watch?v=zeEtA0sFkDA
              * 
              */
-            if (isset($_POST['submit'])) {
+            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
                 $recaptcha_response = $_POST['g-recaptcha-response'];
@@ -88,19 +88,6 @@
                 if ($recaptcha['success'] == 1 and $recaptcha['score'] >= 0.5 and $recaptcha['action'] == "submit") {
                     /* reCaptcha verified, redirect to thank you page, etc */
                     $recaptcha_message = "reCaptcha verified";
-
-                    $_SESSION['submitSuccess'] = true; // Sets session once form is submitted and input fields are not empty
-
-                    if (isset($_SESSION['submitSuccess']) && $_SESSION['submitSuccess'] === true) {
-                        echo "<script type='module'>";
-                        echo "const myModal = bootstrap.Modal.getOrCreateInstance('#awaitModal');";
-                        echo "window.addEventListener('DOMContentLoaded', () => { ";
-                        echo "myModal.show();";
-                        echo "});";
-                        echo "</script>"; // Show modal
-
-                        unset($_SESSION['submitSuccess']); // IMPORTANT - this will unset the value and make the value equal to null
-                    }
                 } else {
                     /* reCaptcha not verified, redirect to error, etc */
                     $recaptcha_message = "reCaptcha not verified";
@@ -111,288 +98,96 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="/memories.php" method="POST" class="row g-3 needs-validation" id="contact-form" novalidate>
+                    <form id="contact-form" method="post" action="contact.php" role="form">
 
-                        <div class="col-md-6">
-                            <div class="form-field">
-                                <label for="fn" class="form-label">First name</label>
-                                <input type="text" class="form-control" name="memory-fn" id="fn" required>
-                                <small></small>
+                        <div class="messages"></div>
+
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-field">
-                                <label for="ln" class="form-label">Last name</label>
-                                <input type="text" class="form-control" name="memory-ln" id="ln" required>
-                                <small></small>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-field">
-                                <label for="em" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="memory-em" id="em" required>
-                                <small></small>
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <div class="form-field">
-                                <label for="ti" class="form-label">Memory Title</label>
-                                <input type="text" class="form-control" name="memory-t" id="ti" required>
-                                <small></small>
+
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                <div class="help-block with-errors"></div>
                             </div>
+
+
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+
+                            <p class="text-muted">
+                                <strong>*</strong> These fields are required.
+                            </p>
+
                         </div>
 
-                        <div class="mb-3">
-                            <div class="form-field">
-                                <label for="ta" class="form-label">Text Area</label>
-                                <textarea class="form-control" name="memory-ta" id="ta" required></textarea>
-                                <small></small>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="form-field">
-                                <input type="checkbox" class="form-check-input" name="memory-ic" id="iChk" value='' required>
-                                <label class="form-check-label" for="iChk">
-                                    I agree to have my message published on MBAR's website.
-                                </label><br>
-                                <small></small>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
-                        </div>
-                        <!--
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary g-recaptcha" name="memory_submit" id="submitBtn" data-sitekey=<? //echo getenv('g-site-key'); 
-                                                                                                                                        ?> data-callback="onRecaptchaSuccess" data-action="submit" disabled>Submit</button>
-                        </div>
-        -->
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary " name="memory_submit" id="submit-button" value="submit">Submit Form</button>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
                     </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Modal -->
-    <div class="modal fade" id="awaitModal" tabindex="-1" aria-labelledby="memoryFormLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="memoryFormLabel">Memory Form</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Thank you, your message was sent.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <section class="container">
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                                <div class="card h-100 shadow-wrap">
+                                    <div class="card-body">
+                                        <h6 class="card-title"><a href="conference-2021.php">
+                                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
+                                            <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
+                                    </div>
+                                </div>
+                            </div>
 
-    <section class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <h6 class="card-title"><a href="conference-2021.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
-                            <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <h6 class="card-title"><a href="registration.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
-                            <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
-                    </div>
-                </div>
-            </div>
-    </section>
+                            <div class="col-lg-5 mb-3 mb-lg-0 px-4">
+                                <div class="card h-100 shadow-wrap">
+                                    <div class="card-body">
+                                        <h6 class="card-title"><a href="registration.php">
+                                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
+                                            <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
 
 </main>
 
 <?php include 'footer.inc' ?>
 
-<script>
-    /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
-
-    const fname = document.querySelector('#fn');
-
-    const lname = document.querySelector('#ln');
-
-    const userEmail = document.querySelector('#em');
-
-    const userTitle = document.querySelector('#ti');
-
-    const userMess = document.querySelector('#ta');
-
-    const userCheck = document.querySelector('#iChk');
-
-    const submitButton = document.querySelector('#submitBtn');
-
-    const myForm = document.querySelector("form");
-
-    myForm.addEventListener('change', function(e) {
-
-        //prevent the form from submitting
-        e.preventDefault();
-
-        // validate forms
-        let isFirstNameValid = validText(fname, 3, 25),
-            isLastNameValid = validText(lname, 3, 25),
-            isEmailValid = validEmail(),
-            isTitleValid = validText(userTitle, 3, 50),
-            isMessageValid = validText(userMess, 1, 1000);
-        isCheckboxValid = validCheckbox();
-
-        let isFormValid = isFirstNameValid && isLastNameValid &&
-            isEmailValid && isTitleValid && isMessageValid && isCheckboxValid;
-
-        // submit to the server if the form is valid
-        if (isFormValid) {
-            alert('success');
-            // submitButton.disabled = false;
-        }
-    })
-
-    const isRequired = (value) => value === '' ? false : true;
-
-    const isBetween = (length, min, max) => length < min || length > max ? false : true;
-
-    const isEmailValid = (userEmail) => {
-        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(userEmail);
-    };
-
-    const isChecked = (userCheck) => {
-        return userCheck.checked;
-    }
-
-    const showError = (input, message) => {
-        // get the form-field element
-        const formField = input.parentElement;
-
-        // add the error class
-        input.classList.remove('success');
-        input.classList.add('error');
-
-        // show the error message
-        const error = formField.querySelector('small');
-        error.textContent = message;
-    };
-
-
-    const showSuccess = (input) => {
-        // get the form-field element
-        const formField = input.parentElement;
-
-        // remove the error class
-        input.classList.remove('error');
-        input.classList.add('success');
-
-        // hide the error message
-        const error = formField.querySelector('small');
-        error.textContent = '';
-    };
-
-
-    // This will be used for first name, last name, title message, and message
-    const validText = (inputText, min, max) => {
-
-        let valid = false;
-        const userText = inputText.value.trim();
-
-        if (!isRequired(userText)) {
-            showError(inputText, 'Required');
-        } else if (!isBetween(userText.length, min, max)) {
-            showError(inputText, `Username must be between ${min} and ${max} characters.`);
-        } else {
-            showSuccess(inputText);
-            valid = true;
-        }
-        return valid;
-    };
-
-
-    const validEmail = () => {
-        let valid = false;
-        const email = userEmail.value.trim();
-        if (!isRequired(email)) {
-            showError(userEmail, 'Required');
-        } else if (!isEmailValid(email)) {
-            showError(userEmail, 'Email is invalid.')
-        } else {
-            showSuccess(userEmail);
-            valid = true;
-        }
-        return valid;
-    };
-
-    const validCheckbox = () => {
-        let valid = false;
-        const cBox = userCheck;
-        if (!isChecked(cBox)) {
-            showError(userCheck, 'You must agree to the above TOS.');
-        } else {
-            showSuccess(userCheck);
-            valid = true;
-        }
-        return valid;
-    };
-
-
-    const debounce = (fn, delay = 500) => {
-        let timeoutId;
-        return (...args) => {
-            // cancel the previous timer
-            if (timeoutId) {
-                clearTimeout(timeoutId);
-            }
-            // setup a new timer
-            timeoutId = setTimeout(() => {
-                fn.apply(null, args)
-            }, delay);
-        };
-    };
-
-
-    myForm.addEventListener('input', debounce(function(e) {
-        switch (e.target.id) {
-            case 'fn':
-                validText(fname, 3, 25);
-                break;
-            case 'ln':
-                validText(lname, 3, 25);
-                break;
-            case 'em':
-                validEmail();
-                break;
-            case 'ti':
-                validText(userTitle, 3, 50);
-                break;
-            case 'ta':
-                validText(userMess, 1, 1000);
-                break;
-            case 'iChk':
-                validCheckbox();
-                break;
-        }
-    }));
-</script>
-
+<script src="../source/validator.js"></script>
+<script src="../source/contact.js"></script>
 <script>
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
