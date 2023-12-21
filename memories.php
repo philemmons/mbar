@@ -144,8 +144,8 @@
                         </div>
 
                         <div class="col-md-12">
-                            <label for="mem-ta" class="form-label">City</label>
-                            <input type="text" class="form-control" id="mem-ta" rows="4" required>
+                            <label for="mem-ta" class="form-label">Message</label>
+                            <textarea class="form-control" id="mem-ta" required>
                             <div class="invalid-feedback">
                                 Please enter your message.
                             </div>
