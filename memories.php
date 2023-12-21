@@ -54,8 +54,6 @@
         </div>
     </section>
 
-    <div id="bookMark"></div>
-    
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
@@ -149,7 +147,7 @@
             }
 
             ?>
-           
+            <div id="bookMark"></div>
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
