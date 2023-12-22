@@ -150,7 +150,7 @@
 
             <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
                         <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
