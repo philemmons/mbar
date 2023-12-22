@@ -65,8 +65,8 @@
             </div>
 
             <div class="col-xl-11 col-lg-9 col-md-7 py-4">
-                <table class="table table-bordered shadow ">
-                    <thead class="thead-dark">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
                         <tr>
                             <th scope="col">Committees</th>
                             <th scope="col">2019</th>
@@ -186,148 +186,148 @@
                     </thead>
 
                     <tbody>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Registration Chair</td>
                             <td>Naomi B.</td>
                             <td>Naomi B.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Activities</td>
                             <td>Samantha C.</td>
                             <td>?</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>BBQ Chair</td>
                             <td>Joanie</td>
                             <td>Henry L.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Breakfast Chair</td>
                             <td>Joanie</td>
                             <td>Renee N.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Dance Chair</td>
                             <td>n/a</td>
                             <td>Chris T.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Decorations Chair</td>
                             <td>Hilda P.</td>
                             <td>Hilda P.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Dinner Chair</td>
                             <td>Joanie</td>
                             <td>Aubrey</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Facilites Chair</td>
                             <td>Nick K.</td>
                             <td>Billy H.</td>
                         </tr>
 
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>GSR Liaison</td>
                             <td>Teresa J.</td>
                             <td>?</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>H&amp;I Liaison</td>
                             <td>Michael R.</td>
                             <td>?</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Hospitality</td>
                             <td>Phil C.</td>
                             <td>Phil C.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Host</td>
                             <td>Phil C.</td>
                             <td>May H.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Ice Cream Social</td>
                             <td>Joanie D.</td>
                             <td>Joanie D.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Literature Chair</td>
                             <td>Monica P.</td>
                             <td>May H.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Marathon Meetings Chair</td>
                             <td>Mark S.</td>
                             <td>Mark S.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Merchandise Chair</td>
                             <td>May H.</td>
                             <td>?</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Outreach Chair</td>
                             <td>n/a</td>
                             <td>Kathleen M.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Panel</td>
                             <td>n/a</td>
                             <td>Mary Grace</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Raffle Chair</td>
                             <td>Esther F.</td>
                             <td>Katherine J.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Shuttle Service Chair</td>
                             <td>Chuck N.</td>
                             <td>Trevor F.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
                             <td></td>
                             <td>Chris T.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
                             <td></td>
                             <td>Victoria M.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Spanish Community</td>
                             <td></td>
                             <td>Eric M.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Speaker Chair</td>
                             <td>Brady S.</td>
                             <td>Mark B.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Speaker Chair (Al-anon)</td>
                             <td></td>
                             <td>Susan A.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>T-shirts Chair</td>
                             <td>n/a.</td>
                             <td>Charly F.</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Welcome &amp; Social Chair</td>
                             <td>n/a.</td>
                             <td>Arthur T. </td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Young People Chair</td>
                             <td>Samantha C.</td>
                             <td>?</td>
                         </tr>
-                        <tr class="table-secondary">
+                        <tr class="table-primary">
                             <td>Zoom Meeting</td>
                             <td></td>
                             <td>Phillip E.</td>
