@@ -78,7 +78,7 @@
                     </tbody>
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4">AA Steering Committee</th>
+                            <th colspan="4" scope="col">AA Steering Committee</th>
                         </tr>
                     </thead>
 
@@ -116,7 +116,7 @@
                     </tbody>
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4">Al-Anon Steering Committee</th>
+                            <th colspan="4" scope="col">Al-Anon Steering Committee</th>
                         </tr>
                     </thead>
 
@@ -198,7 +198,7 @@
 
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4">Committee Chairs</th>
+                            <th colspan="4" scope="col">Committee Chairs</th>
                         </tr>
                     </thead>
 
