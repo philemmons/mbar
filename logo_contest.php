@@ -58,7 +58,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Micha C. - Logo D, is MBAR's Logo Contest winner for 2024.</span>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
                     </h4>
                     <p class="mb-6 h5 text-dark">Great job Micha!</p>
                 </div>
@@ -75,7 +75,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h4 text-dark">Thank you to all who participated. We hope you enjoyed this contest as much as we did.</p>
+                    <p class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
+                    We hope you enjoyed this contest as much as we did.</p>
                 </div>
             </div>
         </div>
