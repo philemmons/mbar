@@ -89,7 +89,7 @@
                         </tr>
                         <tr class="table-success">
                             <td>AA Co-Chair</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Phil C. </td>
                         </tr>
                         <tr class="table-success">
@@ -123,43 +123,43 @@
 
                         <tr class="table-warning">
                             <td>Al-Anon Co-Chair</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Decorations</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Literature</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Dawn C.</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Marathon Mtg. Chair</td>
                             <td>Donna F.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Raffle</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Recording Secretary</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Registration Chair</td>
                             <td>Debbie O.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Secretary</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Speaker Chair</td>
@@ -168,13 +168,13 @@
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Treasurer</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Thomas L.</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Ateen</td>
-                            <td>n/a</td>
-                            <td>?</td>
+                            <td>--</td>
+                            <td>--</td>
                         </tr>
                     </tbody>
 
@@ -194,7 +194,7 @@
                         <tr class="table-primary">
                             <td>Activities</td>
                             <td>Samantha C.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>BBQ Chair</td>
@@ -208,7 +208,7 @@
                         </tr>
                         <tr class="table-primary">
                             <td>Dance Chair</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Chris T.</td>
                         </tr>
                         <tr class="table-primary">
@@ -230,12 +230,12 @@
                         <tr class="table-primary">
                             <td>GSR Liaison</td>
                             <td>Teresa J.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>H&amp;I Liaison</td>
                             <td>Michael R.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Hospitality</td>
@@ -265,16 +265,16 @@
                         <tr class="table-primary">
                             <td>Merchandise Chair</td>
                             <td>May H.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Outreach Chair</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Kathleen M.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Panel</td>
-                            <td>n/a</td>
+                            <td>--</td>
                             <td>Mary Grace</td>
                         </tr>
                         <tr class="table-primary">
@@ -289,17 +289,17 @@
                         </tr>
                         <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
-                            <td></td>
+                            <td>--</td>
                             <td>Chris T.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
-                            <td></td>
+                            <td>--</td>
                             <td>Victoria M.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Spanish Community</td>
-                            <td></td>
+                            <td>--</td>
                             <td>Eric M.</td>
                         </tr>
                         <tr class="table-primary">
@@ -309,27 +309,27 @@
                         </tr>
                         <tr class="table-primary">
                             <td>Speaker Chair (Al-anon)</td>
-                            <td></td>
+                            <td>--</td>
                             <td>Susan A.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>T-shirts Chair</td>
-                            <td>n/a.</td>
+                            <td>---.</td>
                             <td>Charly F.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Welcome &amp; Social Chair</td>
-                            <td>n/a.</td>
+                            <td>---.</td>
                             <td>Arthur T. </td>
                         </tr>
                         <tr class="table-primary">
                             <td>Young People Chair</td>
                             <td>Samantha C.</td>
-                            <td>?</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Zoom Meeting</td>
-                            <td></td>
+                            <td>--</td>
                             <td>Phillip E.</td>
                         </tr>
                     </tbody>
