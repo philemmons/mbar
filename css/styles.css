@@ -197,6 +197,11 @@ nav {
     background-image: url("../images/contact_us_banner.png");
 }
 
+.bg-img-helpingHands {
+    background-image: url("../images/helping_hands_banner.png");
+}
+
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
