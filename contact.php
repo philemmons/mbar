@@ -159,7 +159,7 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We ar willing to listen.">
 
-                    <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
                             <label for="contact-fn" class="form-label">First Name</label>
