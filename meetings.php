@@ -129,41 +129,31 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/12-10-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:12/10/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:10/14/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-12-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/12/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:09/09/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/10-8-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:10/08/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/12/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/9-24-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:09/24/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:06/10/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-27-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/27/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:05/13/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-20-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/20/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:04/08/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-13-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/13/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:03/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-6-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/06/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:02/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/7-9-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:07/09/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:01/14/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/6-11-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:06/11/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/5-14-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:05/14/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:10/14/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/4-9-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:04/09/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/9-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:09/09/2023</a> <br>
-                                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:08/12/2023</a> <br>
-                                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:06/10/2023</a> <br>
-                                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:05/13/2023</a> <br>
-                                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:04/08/2023</a> <br>
-                                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:03/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/3-12-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:03/12/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/2-12-22.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:02/12/2022</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
