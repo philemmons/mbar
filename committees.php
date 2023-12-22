@@ -65,7 +65,7 @@
             </div>
 
             <div class="col-xl-11 col-lg-9 col-md-7 py-4">
-                <table class="table">
+                <table class="table table-bordered">
                     <thead class="table-dark">
                         <tr class= "text-center">
                             <th>Committees</th>
@@ -264,13 +264,13 @@
                             <td>Michael R.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Hospitality Chair</td>
+                            <td>Hospitality</td>
                             <td>Phil C.</td>
                             <td>Phil C.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Host Chair</td>
+                            <td>Host</td>
                             <td>Phil C.</td>
                             <td>May H.</td>
                             <td>Cindy A.</td>
@@ -306,7 +306,7 @@
                             <td>Laura P.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Panel Chair</td>
+                            <td>Panel</td>
                             <td>--</td>
                             <td>Mary Grace</td>
                             <td>--</td>
