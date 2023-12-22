@@ -185,6 +185,10 @@ nav {
     background-image: url("../images/bg-img-meetings.png");
 }
 
+.bg-img-meetings {
+    background-image: url("../images/bg-img-committee.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
