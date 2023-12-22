@@ -65,7 +65,7 @@
             </div>
 
             <div class="col-xl-11 col-lg-9 col-md-7 py-4">
-                <table class="table>
+                <table class="table">
                     <thead class="table-dark">
                         <tr class= "text-center">
                             <th>Committees</th>
@@ -111,7 +111,7 @@
                             <td>AA Recording Secretary</td>
                             <td>Andy V.</td>
                             <td>Andy V.</td>
-                            <td>Roger M.>
+                            <td>Roger M.</td>
                         </tr>
                     </tbody>
                     <thead class="filterHead">
