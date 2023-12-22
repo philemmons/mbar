@@ -47,7 +47,7 @@
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-committee" title="Please contact any of us with any questions, feedback, or concerns.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Committee Meeting<br>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">MBAR's<br>
                             Trusted Servants</span></h1>
                 </div>
             </div>
@@ -59,7 +59,7 @@
 
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Planning Committee</span>
                     </h4>
                 </div>
             </div>
