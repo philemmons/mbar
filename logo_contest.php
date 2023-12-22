@@ -44,11 +44,10 @@
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Five past logo's as our banner.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Logo Contest<br>
-                            2024</span></h1>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Logo Contest 2024 winner and runner-ups.">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Logo Contest 2024</span></h1>
                 </div>
             </div>
         </div>
@@ -57,7 +56,6 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Micha C. - Logo D, is MBAR's Logo Contest winner for 2024.</span>
@@ -70,8 +68,11 @@
                 <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
             </div>
         </div>
+    </section>
 
-        <div class="row justify-content-center">
+    <!-- Section Two -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <p class="mb-6 h4 text-dark">Thank you to all who participated. We hope you enjoyed this contest as much as we did.</p>
