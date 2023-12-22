@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-12 col-lg-10 col-md-8 py-4">
+            <div class="col-xl-11 col-lg-9 col-md-7 py-4">
                 <table class="table table-bordered shadow ">
                     <thead class="thead-dark">
                         <tr>
