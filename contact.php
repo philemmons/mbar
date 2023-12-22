@@ -54,13 +54,13 @@
         </div>
     </section>
 
- <!-- Section One -->
- <section class="container shadow-wrap">
+    <!-- Section One -->
+    <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
                     <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care.<br>We really do.</span>
-                    </h4>
+                        </h4>
                 </div>
             </div>
 
@@ -107,9 +107,9 @@
                             $firstName = !empty($_POST['contact-fn']) ? $_POST['contact-fn'] : '';
                             $lastName = !empty($_POST['contact-ln']) ? $_POST['contact-ln'] : '';
                             $email = !empty($_POST['contact-em']) ? $_POST['contact-em'] : '';
-
-                            $messageTitle = !empty($_POST['contact-subj']) ? $_POST['contact-subj'] : '';
-                            $mainMessage = !empty($_POST['contact-ta']) ? $_POST['contact-ta'] : '';
+                            $phone = !empty($_POST['contact-phone']) ? $_POST['contact-phone'] : '';
+                            $contactSubj = !empty($_POST['contact-subj']) ? $_POST['contact-subj'] : '';
+                            $contactMess = !empty($_POST['contact-ta']) ? $_POST['contact-ta'] : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -118,8 +118,9 @@
                     <h4>Contact Us Form</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Title: </b>" . $messageTitle . "</p> 
-                    <p><b>Message: </b>" . $mainMessage . "</p> 
+                    <p><b>Email: </b>" . $phone . "</p> 
+                    <p><b>Subject: </b>" . $contactSubj . "</p> 
+                    <p><b>Message: </b>" . $contactMess . "</p> 
                 ";
 
                             // Always set content-type when sending HTML email 
@@ -147,7 +148,7 @@
 
             ?>
 
-<div id="contact-us"></div>
+            <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
@@ -186,8 +187,8 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="contact-phone" class="form-label">Phone(optional)</label>
-                            <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern= "^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder= "555.867.5309">
+                            <label for="contact-phone" class="form-label">Phone(Optional)</label>
+                            <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
                                 Please enter a valid phone number.
                             </div>
@@ -229,8 +230,8 @@
         </div>
     </section>
 
-        <!-- Section Two -->
-        <section class="container shadow-wrap">
+    <!-- Section Two -->
+    <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
