@@ -193,6 +193,10 @@ nav {
     background-image: url("../images/logo_contest_banner.png");
 }
 
+.bg-img-contactUs {
+    background-image: url("../images/contact_us_banner.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
