@@ -60,7 +60,7 @@
             <div class="col-sm-auto py-4">
                 <a href="" class="bb-link" onclick="window.open('https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."></a>
             </div>
-            <div class="col-sm-6 py-4">
+            <div class="col-md-8 col-sm-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title text-center mb-3"><em>The second Saturday of each month at 10:00am PST</em></h3>
                     <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
@@ -77,7 +77,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2>2023 Minutes</h2>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2023 Minutes</span>
+                    </h4>
                     <hr>
                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
