@@ -57,9 +57,9 @@
  <!-- Section One -->
  <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+            <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <<p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care. We really do.</span>
+                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care. We really do.</span>
                     </h4>
                 </div>
             </div>
@@ -187,7 +187,7 @@
 
                         <div class="col-md-6">
                             <label for="contact-phone" class="form-label">Phone(optional)</label>
-                            <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern= "^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" >
+                            <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern= "^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder= "555.867.5309">
                             <div class="invalid-feedback">
                                 Please enter a valid phone number.
                             </div>
