@@ -189,6 +189,10 @@ nav {
     background-image: url("../images/bg-img-committee.png");
 }
 
+.bg-img-logoContest {
+    background-image: url("../images/logo_contest_banner.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
