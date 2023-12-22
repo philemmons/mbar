@@ -75,14 +75,6 @@
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-
-            <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
-                    </h4>
-                </div>
-            </div>
-
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2>2023 Minutes</h2>
@@ -114,6 +106,14 @@
 
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
+
+            <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                <div class="p-3 text-center text-bg-light hero-text-border">
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
+                    </h4>
+                </div>
+            </div>
+
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
 
@@ -121,7 +121,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                <strong>2022</strong>
+                                    <strong>2022</strong>
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -162,7 +162,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                <strong>2021</strong>
+                                    <strong>2021</strong>
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
