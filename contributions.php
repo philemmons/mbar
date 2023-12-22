@@ -48,7 +48,7 @@
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Contact Us">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Voluntary Contributions:<br>
-                            "Helping Hands"</span>
+                            Helping Hands</span>
                     </h1>
                 </div>
             </div>
@@ -60,8 +60,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.
-                    </p>
+                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.</span></h4>
                 </div>
             </div>
 
@@ -148,7 +147,7 @@
 
             <div id="hand-us"></div>
             <?php if (!empty($statusMsg)) { ?>
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
                         <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
