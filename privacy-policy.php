@@ -57,7 +57,7 @@
 
     <!-- Section One -->
     <section class="container shadow-wrap">
-        < class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="">
                     <p class="mb-6 h4 text-dark">Website Privacy Policy of Monterey Bay Area Roundup</p>
