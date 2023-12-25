@@ -89,7 +89,7 @@
                         <br><br>
                         <strong>CONFIDENTIALITY AND SECURITY OF YOUR PERSONAL INFORMATION.</strong>
                         <br>
-                        Except as otherwise provided in this Site Privacy Policy, we will keep your Personal Information private and will not share it with third parties, unless such disclosure is necessary to: (a) comply with a court order or other legal process; (b) protect our rights or property; or (c) enforce our Terms and Conditions of Use. Our Terms of Use policy can be found by clicking Terms of Use. Your Personal Information is stored on secure servers that are not accessible by third parties. We provide you with the capability to transmit your Personal Information via secured and encrypted channels if you use a similarly equipped web browser.
+                        Except as otherwise provided in this Site Privacy Policy, we will keep your Personal Information private and will not share it with third parties, unless such disclosure is necessary to: (a) comply with a court order or other legal process; (b) protect our rights or property; or (c) enforce our Terms and Conditions of Use. Our Terms of Use policy can be found below. Your Personal Information is stored on secure servers that are not accessible by third parties. We provide you with the capability to transmit your Personal Information via secured and encrypted channels if you use a similarly equipped web browser.
                         <br><br>
                         <strong>YOUR ABILITY TO ACCESS, UPDATE, AND CORRECT YOUR PERSONAL INFORMATION.</strong>
                         <br>
@@ -120,7 +120,7 @@
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="POLICIES">
-                    <strong>POLICIES.</strong>
+                    <strong>TERMS OF USE AND POLICIES.</strong>
                     <br><br>
                     General montereybayarearoundup.org ('SITE or MBAR ') acts as a marketplace, an intermediary between buyers and ticket sellers ('TICKET SELLERS') to facilitate the purchase and sale of event tickets, and as such is not directly involved in the actual ticket sale transaction between the buyers and TICKET SELLERS. ALL SALES ARE FINAL. As tickets sold through SITE are often obtained through the secondary market and prices are determined by the individual ticket seller, the prices for tickets may be above or below face value. Tickets sold through SITE are from a third party; therefore, the buyer's name will not be printed on the tickets. Please note that the name on the tickets does not affect the buyer's ability to access the event. By using or visiting this SITE or purchasing tickets in any manner from the SITE, USER expressly agree to abide and be bound by these Terms and Policies, as well as all applicable laws, ordinances and regulations.
                     <br>
@@ -377,7 +377,7 @@
                     <br>
                     The categories of third parties with whom PERSONAL INFORMATION has been shared with;
                     <br>
-                    The specific pieces of PERSONAL INFORMATION collected about USER (also called a data portability request)
+                    The specific pieces of PERSONAL INFORMATION collected about USER (also called a data portability request);
                     <br>
                     If USER PERSONAL INFORMATION has been sold or disclosed for a business purpose, two separate lists disclosing: (1) sales, identifying the PERSONAL INFORMATION categories that each category of recipient purchased; and, (2) disclosures for a business purpose, identifying the PERSONAL INFORMATION categories that each category of recipient obtained
                     <br><br>
@@ -441,9 +441,9 @@
                     <br>
                     PROVIDER will not discriminate against USER for exercising any of USER CCPA rights. Unless permitted by the CCPA, PROVIDER will not:
                     <br>
-                    Deny USER goods or services
+                    Deny USER goods or services.
                     <br>
-                    Charge USER different prices or rates for goods or services, including through granting discounts or other benefits, or imposing penalties
+                    Charge USER different prices or rates for goods or services, including through granting discounts or other benefits, or imposing penalties.
                     <br>
                     Provide USER with a different level or quality of goods or services.
                     <br>
