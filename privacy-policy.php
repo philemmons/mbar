@@ -69,7 +69,7 @@
                         <br><br>
                         <strong>INTRODUCTION.</strong>
                         <br>
-                        https://montereybayarearoundup.org (hereinafter "us," "we," or "Company") takes user privacy very seriously because we know that your privacy on the web is very important to you. We are committed to respecting the privacy rights of our customers, visitors, and other users of the Company Website ("the Site"). We created this Website Privacy Policy ("Site Privacy Policy") to give you confidence as you visit and use the Site, and to demonstrate our commitment to fair information practices and the protection of privacy. This Site Privacy Policy is only applicable to the Site, and not to any other third party websites that you may be able to access from the Site, each of which may have data collection, storage, and use practices and policies that differ materially from this Site Privacy Policy. If you choose to provide personally identifying information to us, we will use it and disclose it as described in this Site Privacy Policy. This Site Privacy Policy is incorporated into our Terms of Use by reference. This Site is not directed at children 13 years of age or younger. We, therefore, will not intentionally collect information about any user under the age of 13.
+                        montereybayarearoundup.org (hereinafter "us," "we," or "Company") takes user privacy very seriously because we know that your privacy on the web is very important to you. We are committed to respecting the privacy rights of our customers, visitors, and other users of the Company Website ("the Site"). We created this Website Privacy Policy ("Site Privacy Policy") to give you confidence as you visit and use the Site, and to demonstrate our commitment to fair information practices and the protection of privacy. This Site Privacy Policy is only applicable to the Site, and not to any other third party websites that you may be able to access from the Site, each of which may have data collection, storage, and use practices and policies that differ materially from this Site Privacy Policy. If you choose to provide personally identifying information to us, we will use it and disclose it as described in this Site Privacy Policy. This Site Privacy Policy is incorporated into our Terms of Use by reference. This Site is not directed at children 13 years of age or younger. We, therefore, will not intentionally collect information about any user under the age of 13.
                         <br><br>
                         <strong>SITE INFORMATION COLLECTION PRACTICES.</strong>
                         <br>
@@ -79,13 +79,13 @@
                         <br>
                         (b) Personal Information Collected. In order for you to access services provided in connection with the Site (the "Service"), we require you to provide us with certain information that personally identifies you ("Personal Information"). Personal Information includes the following categories of information: (1) Contact Data (such as your name, mailing address, telephone, and e-mail address); and (2) Financial Data (such as your account or credit card number). We also may collect Retailer ID. If you communicate with us by e-mail, or complete online forms via the Site, any information provided in such communication may be collected as Personal Information. EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH CREDIT CARD INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
                         <br><br>
-                        <strong>Uses of Information Collected:</strong>
+                        <strong>USES OF INFORMATION COLLECTED:</strong>
                         <br>
                         (a) Company Use of Information. We use Contact Data to send you information about our services, to send electronic newsletters, or to contact you when necessary. We use Traffic Data to customize and tailor your experience on the Site.
                         <br>
                         (b) Sharing of Personal Information. We share certain categories of information we collect from you in the ways described in this Site Privacy Policy. We share Contact Data with our business partners who assist us by performing core services (such as data storage and security) related to our operation of the Site. Those business partners have all agreed to uphold the same standards of security and confidentiality that we have promised to you in this Site Privacy Policy, and they will only use your Contact Data to carry out their specific business obligations to Company. If you do not want us to share your Contact Data with our business partners who assist us by performing core services related to our operation of the Site, you can choose not to provide such Personal Information, but please understand that such a request limits your ability to take advantage of those portions of the Site that require such information.
                         <br>
-                        (c) Your Choice Regarding Collection, Use, and Distribution of Personal Information. You may choose not to provide us with any Personal Information. In such an event, you can still access and use much of the Site; however you will not be able to access and use those portions of the Site that require your Personal Information. If you do not wish to receive information from us, <a href="contact.php" class="bb-link">Please email us</a>
+                        (c) Your Choice Regarding Collection, Use, and Distribution of Personal Information. You may choose not to provide us with any Personal Information. In such an event, you can still access and use much of the Site; however you will not be able to access and use those portions of the Site that require your Personal Information. If you do not wish to receive information from us, <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
                         <br><br>
                         <strong>CONFIDENTIALITY AND SECURITY OF YOUR PERSONAL INFORMATION.</strong>
                         <br>
@@ -93,7 +93,7 @@
                         <br><br>
                         <strong>YOUR ABILITY TO ACCESS, UPDATE, AND CORRECT YOUR PERSONAL INFORMATION.</strong>
                         <br>
-                        We maintain a procedure in order to help you confirm that your Personal Information remains correct and up-to-date. Please contact us at reserve@centrellainn.com or by mail or phone to (a) request a review and update your Personal Information that we have already collected; (b) choose whether or not you wish us to send you information about our company; and/or (c) choose whether or not you wish for us to share your Personal Information with our business partners who assist us by performing core services related to our operation of the Site.
+                        We maintain a procedure in order to help you confirm that your Personal Information remains correct and up-to-date. Please contact us at <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or by mail or phone to (a) request a review and update your Personal Information that we have already collected; (b) choose whether or not you wish us to send you information about our company; and/or (c) choose whether or not you wish for us to share your Personal Information with our business partners who assist us by performing core services related to our operation of the Site.
                         <br><br>
                         <strong>EMAIL SECURITY.</strong>
                         <br>
@@ -113,7 +113,7 @@
                         <br><br>
                         <strong>CONTACT US.</strong>
                         <br>
-                        For more information regarding this Site Privacy Policy or the Site, please <a href="contact.php" class="bb-link">contact us</a> or at the address above:<br>
+                        For more information regarding this Site Privacy Policy or the Site, please <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or at the address above:<br>
                     </p>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                 <div class="p-3 text-bg-light hero-text-border" title="POLICIES">
                     <strong>POLICIES.</strong>
                     <br><br>
-                    General https://montereybayarearoundup.org/ ('SITE or MBAR ') acts as a marketplace, an intermediary between buyers and ticket sellers ('TICKET SELLERS') to facilitate the purchase and sale of event tickets, and as such is not directly involved in the actual ticket sale transaction between the buyers and TICKET SELLERS. ALL SALES ARE FINAL. As tickets sold through SITE are often obtained through the secondary market and prices are determined by the individual ticket seller, the prices for tickets may be above or below face value. Tickets sold through SITE are from a third party; therefore, the buyer's name will not be printed on the tickets. Please note that the name on the tickets does not affect the buyer's ability to access the event. By using or visiting this SITE or purchasing tickets in any manner from the SITE, USER expressly agree to abide and be bound by these Terms and Policies, as well as all applicable laws, ordinances and regulations.
+                    General montereybayarearoundup.org ('SITE or MBAR ') acts as a marketplace, an intermediary between buyers and ticket sellers ('TICKET SELLERS') to facilitate the purchase and sale of event tickets, and as such is not directly involved in the actual ticket sale transaction between the buyers and TICKET SELLERS. ALL SALES ARE FINAL. As tickets sold through SITE are often obtained through the secondary market and prices are determined by the individual ticket seller, the prices for tickets may be above or below face value. Tickets sold through SITE are from a third party; therefore, the buyer's name will not be printed on the tickets. Please note that the name on the tickets does not affect the buyer's ability to access the event. By using or visiting this SITE or purchasing tickets in any manner from the SITE, USER expressly agree to abide and be bound by these Terms and Policies, as well as all applicable laws, ordinances and regulations.
                     <br>
                     ALL SALES ARE FINAL; there are no cancellations, returns, or exchanges.
                     <br>
@@ -281,11 +281,11 @@
                     <br><br>
                     <strong>ATTENTION CALIFORNIA CONSUMERS! PLEASE READ CAREFULLY AN UPDATED SECTION PERTAINING TO USER RIGHTS UNDER THE CALIFORNIA CONSUMER PRIVACY ACT ('CCPA').</strong>
                     <br>
-                    USERS of https://montereybayarearoundup.org/ can browse https://montereybayarearoundup.org without revealing USER'S personal information, but in order to take advantage of most of the services, USER must provide with personal information on forms. By providing personal information, USER expressly consents to the collection, use, disclosure and retention of USER'S personal information as described in this privacy policy ('PRIVACY POLICY'), and the terms set forth in our Terms &amp; Conditions. This PRIVACY POLICY covers MBAR and PROVIDER'S treatment of personal or personally identifiable information, herein referred to as 'PERSONAL INFORMATION', that may be collected when USER is on the MBAR and when USER uses MBAR services. This PRIVACY POLICY does not apply to the practices of companies or individuals that MBAR does not own or exercise supervisory control over, or to third party advertisers on the MBAR.
+                    USERS of montereybayarearoundup.org can browse montereybayarearoundup.org without revealing USER'S personal information, but in order to take advantage of most of the services, USER must provide with personal information on forms. By providing personal information, USER expressly consents to the collection, use, disclosure and retention of USER'S personal information as described in this privacy policy ('PRIVACY POLICY'), and the terms set forth in our Terms &amp; Conditions. This PRIVACY POLICY covers MBAR and PROVIDER'S treatment of personal or personally identifiable information, herein referred to as 'PERSONAL INFORMATION', that may be collected when USER is on the MBAR and when USER uses MBAR services. This PRIVACY POLICY does not apply to the practices of companies or individuals that MBAR does not own or exercise supervisory control over, or to third party advertisers on the MBAR.
                     <br>
                     MBAR does update this PRIVACY POLICY from time to time so please review this PRIVACY POLICY regularly. If MBAR materially alters the PRIVACY POLICY, MBAR will notify USER of such changes by posting a notice on MBAR and/or contacting USER at the e-mail address provided to MBAR. Your continued use of the SITE will be deemed as USER agreement that USER information may be used in accordance with the new policy. If USER do not agree with the changes, then USER should stop using the SITE, and USER should notify SITE that USER do not want USER information used in accordance with the changes.
                     <br><br>
-                    <strong>THIS PRIVACY POLICY DISCLOSES THE PRIVACY PRACTICES FOR https://montereybayarearoundup.org/. IT APPLIES SOLELY TO INFORMATION COLLECTED BY THIS WEBSITE. THIS PRIVACY POLICY WILL NOTIFY USER OF THE FOLLOWING:</strong>
+                    <strong>THIS PRIVACY POLICY DISCLOSES THE PRIVACY PRACTICES FOR montereybayarearoundup.org. IT APPLIES SOLELY TO INFORMATION COLLECTED BY THIS WEBSITE. THIS PRIVACY POLICY WILL NOTIFY USER OF THE FOLLOWING:</strong>
                     <br>
                     What PERSONAL INFORMATION is collected from USER through the SITE, how it is used, and with whom it may be shared.
                     <br>
@@ -303,7 +303,7 @@
                     <br><br>
                     <strong>SEE SECTION BELOW 'HOW WE USE COOKIES, THIRD PARTY ADVERTISING, SERVICES AND COLLECTION OF DATA' TO LEARN MORE.</strong>
                     <br>
-                    By submitting a telephone number to SITE, USER agree that a representative of https://montereybayarearoundup.org/ can contact USER at the number USER provide, potentially using automated technology (including texts/SMS messaging) or a pre-recorded message. Your consent is not an obligation to receive any of PROVIDER or FULFILLER's products and/or services.
+                    By submitting a telephone number to SITE, USER agree that a representative of montereybayarearoundup.org can contact USER at the number USER provide, potentially using automated technology (including texts/SMS messaging) or a pre-recorded message. Your consent is not an obligation to receive any of PROVIDER or FULFILLER's products and/or services.
                     <br>
                     PROVIDER, along with FULFILLER, will use USER's personal information for transactional purposes, including those related to customer service for the transaction. PROVIDER may also use USER's personal information to provide marketing services on behalf of SITE as well as share USER's personal information with affiliated entities of PROVIDER to provide joint content and services and to market the products and services of such entities. PROVIDER may sell USER'S personal information to non-financial organizations, such as companies engaged in direct marketing and the selling of consumer products and services.
                     <br>
@@ -335,7 +335,7 @@
                     <br>
                     USER has the right to access their data and provide instructions on how to go about doing so.
                     <br>
-                    An individual who seeks access, or who seeks to correct, amend or delete inaccurate data, as required by MBAR in accordance with applicable law(s), should direct their query to <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> SITE, PROVIDER, or FULFILLER will respond within a reasonable timeframe or as required by applicable law(s).
+                    An individual who seeks access, or who seeks to correct, amend or delete inaccurate data, as required by MBAR in accordance with applicable law(s), should direct their query to <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> SITE, PROVIDER, or FULFILLER will respond within a reasonable time frame or as required by applicable law(s).
                     <br><br>
                     <strong>USE OF COOKIES, THIRD PARTY ADVERTISING, SERVICES &AMP; DATA COLLECTION.</strong>
                     <br>
@@ -347,7 +347,7 @@
                     <br>
                     SITE also works with third parties that collect information across various channels. Such third parties use this information to recognize USER across different channels and platforms, including but not limited to, computers, mobile devices, smart TVs, over time for advertising, analytics, attribution, and reporting purposes. USER's data may be transferred outside the country from which it was originally collected.
                     <br>
-                    Some browsers have a 'do not track' feature that lets USER tell websites that USER does not want to have USER's online activities tracked. Currently, SITE does not respond to browser 'do not track' signals, but SITE does provide USER the option to opt out of targeted advertising. To learn more about this type of advertising or to opt-out of this type of advertising, visit <a href="https://www.aboutads.info/choices." class= "bb-link">HERE</a>
+                    Some browsers have a 'do not track' feature that lets USER tell websites that USER does not want to have USER's online activities tracked. Currently, SITE does not respond to browser 'do not track' signals, but SITE does provide USER the option to opt out of targeted advertising. To learn more about this type of advertising or to opt-out of this type of advertising, visit <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
                     <br>
                     Security takes reasonable precautions to protect USER information. When USER submits sensitive information via SITE, USER information is protected both online and offline.
                     <br>
@@ -406,7 +406,7 @@
                     <br><br>
                     <strong>PERSONAL INFORMATION SALES OPT-OUT RIGHTS.</strong>
                     <br>
-                    If USER are a California resident, USER may request to opt-out of the sale of USER personal information by clicking on the following link: <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT: Opt Out</a>
+                    If USER are a California resident, USER may request to opt-out of the sale of USER personal information through <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>, and allow a reasonable time frame outlined in OUR policy.
                     <br>
                     You do not need to create an account with SITE to exercise USER opt-out rights. Fulfiller will only use personal information provided in an opt-out request to review and comply with the request.
                     <br><br>
@@ -451,7 +451,7 @@
                     <br><br>
                     <strong>OTHER CALIFORNIA PRIVACY RIGHTS:</strong>
                     <br>
-                    California Civil Code Section § 1798.83, the “Shine the Light” law, permits users of our Site that are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send an email to <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
+                    California Civil Code Section § 1798.83, the "Shine the Light" law, permits users of our Site that are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send an email to <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
                     <br>
                     Copyright Infringement Notification Should USER wish to file a copyright infringement notification with SITE, USER will need to send a written or electronic communication that includes all of the following, as based on Section 512(c)(3) of the Digital Millennium Copyright Act (DMCA):
                     <br>
@@ -464,7 +464,7 @@
                     <br>
                     Written or electronic notice of copyright infringement should be mailed, faxed, or emailed to SITE's designated agent at:
                     <br>
-                    Copyright Complaints <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
+                    Copyright Complaints <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> and provide the URL with you complaint.
                     <br><br>
                     <strong>PLEASE NOTE THE FOLLOWING:</strong>
                     <br>
@@ -518,7 +518,7 @@
                     <br>
                     If any provision or part of these Supplemental Terms is held to be illegal, unenforceable or ineffective, such provision or part thereof shall be deemed modified to the least extent necessary to render such provision legal, enforceable and effective, or, if no such modification is possible, such provision or part thereof shall be deemed severable, such that all other provisions in and referenced in these Supplemental Terms remain valid and binding.
                     <br><br>
-                    <strong>These policies were last amended <?php echo date("Y"); ?></strong>
+                    <strong>These policies were last amended 12.25.23</strong>
                 </div>
             </div>
         </div>
