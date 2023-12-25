@@ -201,6 +201,10 @@ nav {
     background-image: url("../images/helping_hands_banner.png");
 }
 
+.bg-img-privacy {
+    background-image: url("../images/bg-img-privacy.png");
+}
+
 
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
