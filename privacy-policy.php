@@ -79,7 +79,7 @@
                         <br>
                         (b) Personal Information Collected. In order for you to access services provided in connection with the Site (the "Service"), we require you to provide us with certain information that personally identifies you ("Personal Information"). Personal Information includes the following categories of information: (1) Contact Data (such as your name, mailing address, telephone, and e-mail address); and (2) Financial Data (such as your account or credit card number). We also may collect Retailer ID. If you communicate with us by e-mail, or complete online forms via the Site, any information provided in such communication may be collected as Personal Information. EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH CREDIT CARD INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
                         <br><br>
-                        <strong>Uses of Information Collected:<strong>
+                        <strong>Uses of Information Collected:</strong>
                         <br>
                         (a) Company Use of Information. We use Contact Data to send you information about our services, to send electronic newsletters, or to contact you when necessary. We use Traffic Data to customize and tailor your experience on the Site.
                         <br>
