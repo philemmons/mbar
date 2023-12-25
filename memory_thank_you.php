@@ -1,4 +1,4 @@
-<?php include 'header.inc' ?>
+<?php include_once 'header.inc' ?>
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
@@ -98,7 +98,7 @@
     </section>
 
 </main>
-<?php include 'footer.inc' ?>
+<?php include_once 'footer.inc' ?>
 
 </body>
 
