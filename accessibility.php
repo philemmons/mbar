@@ -57,7 +57,7 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
                     <h4 class="fw-bold mb-3 text-primary">
                         <span class="text-dark px-3 px-md-0">MBAR's General Accessibility Statement</span>
                     </h4>
@@ -65,19 +65,13 @@
                 </div>
             </div>
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="">
 
                     <h4 class="fw-bold mb-3 text-primary">
                         <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
                     </h4>
 
-                    <p class="mb-6 h5 text-dark">montereybayarearoundup.org makes available the UserWay Website Accessibility Widget that is powered by a dedicated accessibility server. The software allows .montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
-
-                    <h4 class="fw-bold mb-3 text-primary">
-                        <span class="text-dark px-3 px-md-0">Enabling the Accessibility Menu</span>
-                    </h4>
-
-                    <p class="mb-6 h5 text-dark">The montereybayarearoundup.org accessibility menu can be enabled by clicking the accessibility menu icon that appears on the corner of the page. After triggering the accessibility menu, please wait a moment for the accessibility menu to load in its entirety.</p>
+                    <p class="mb-6 h5 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. The site checker allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
 
                     <h4 class="fw-bold mb-3 text-primary">
                         <span class="text-dark px-3 px-md-0">Disclaimer</span>
@@ -99,7 +93,7 @@
 
                     <p class="mb-6 h5 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org </p>
 
-                    <p class="mb-6 h5 text-dark">Customer Support as follows - Email: <a href="mailto:systemadmin@mbar.philemmons.dev">Email: Webmaster with ADA request</a></p>
+                    <p class="mb-6 h5 text-dark">Customer Support as follows - Email: <a href="mailto:systemadmin@mbar.philemmons.dev">SysAdmin with ADA request</a></p>
 
                     <hr>
                     <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explanation of WCAG 2.0 Level A Conformance"><img height="30" src="https://www.w3.org/WAI/wcag2A" alt="Level A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
