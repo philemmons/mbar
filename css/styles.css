@@ -66,6 +66,10 @@ hr {
     border-top: medium double var(--color-4);
 }
 
+.nav-link-size{
+    font-size: 10px;
+}
+
 /**** copyright ****/
 
 #footer-image {
