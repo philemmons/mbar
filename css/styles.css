@@ -66,11 +66,6 @@ hr {
     border-top: medium double var(--color-4);
 }
 
-.nav-link-size{
-    font-size: 10px;
-    color: var(--color-2);
-}
-
 /**** copyright ****/
 
 #footer-image {
@@ -100,6 +95,11 @@ hr {
 
 .navbar-nav .nav-item {
     border-right: none;
+}
+
+.nav-link.nav-link-size{
+    font-size: 12px;
+    color: var(--color-6);
 }
 
 nav {
