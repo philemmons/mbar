@@ -58,7 +58,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
-                    <h4 class="fw-bold mb-6 text-primary">
+                    <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">MBAR's General Accessibility Statement</span>
                     </h4>
                     <p class="mb-3 h5 text-dark">montereybayarearoundup.org strives to ensure that its services are accessible to people with disabilities. montereybayarearoundup.org has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that every person has the right to live with dignity, equality, comfort and independence.</p>
@@ -67,13 +67,13 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="">
 
-                    <h4 class="fw-bold mb-6 text-primary">
+                    <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
                     </h4>
 
                     <p class="mb-3 h5 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. The site checker allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
 
-                    <h4 class="fw-bold mb-6 text-primary">
+                    <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Disclaimer</span>
                     </h4>
 
@@ -81,13 +81,13 @@
 
                     <p class="mb-3 h5 text-dark">Despite our efforts to make all pages and content on montereybayarearoundup.org fully accessible, some content may not have yet been fully adapted to the strictest accessibility standards. This may be a result of not having found or identified the most appropriate technological solution.</p>
 
-                    <h4 class="fw-bold mb-6 text-primary">
+                    <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Here For You</span>
                     </h4>
 
                     <p class="mb-3 h5 text-dark">If you are experiencing difficulty with any content on montereybayarearoundup.org or require assistance with any part of our site, please contact us during normal business hours as detailed below and we will be happy to assist.</p>
 
-                    <h4 class="fw-bold mb-6 text-primary">
+                    <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Contact Us</span>
                     </h4>
 
