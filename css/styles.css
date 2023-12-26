@@ -205,6 +205,9 @@ nav {
     background-image: url("../images/bg-img-privacy.png");
 }
 
+.bg-img-access {
+    background-image: url("../images/accessibility_laptop_workflow.png");
+}
 
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
