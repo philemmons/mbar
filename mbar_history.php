@@ -16,7 +16,7 @@
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item active" href="mbar_history.php">MBAR History<span class="visually-hidden">(current)</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="mbar_history.php">MBAR History<span class="visually-hidden">(current)</span></a>
                         <a class="dropdown-item" href="memories.php">Memories</a>
                     </div>
                 </li>

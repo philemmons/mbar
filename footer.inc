@@ -27,6 +27,15 @@
             <p>Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
             </p>
         </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="accessibility.php">Site accessibility</a>
+                    <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
+                    <a class="nav-link" href="sitemap.php">Site Map</a>
+                </div>
+            </div>
+        </nav>
     </div>
 </div>
 

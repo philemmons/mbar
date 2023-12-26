@@ -24,7 +24,7 @@
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item active" href="committees.php">Committees<span class="visually-hidden">(current)</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="committees.php">Committees<span class="visually-hidden">(current)</span></a>
                     </div>
                 </li>
                 <li class="nav-item">

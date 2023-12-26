@@ -31,7 +31,7 @@
                     <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contact.php">Contact<span class="visually-hidden">(current)</span></a>
+                    <a class="nav-link active" aria-current="page" href="contact.php">Contact<span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
                     <a class="nav-link" href="contributions.php">Contribution</a>

@@ -17,7 +17,7 @@
                         <a class="dropdown-item" href="registration.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item active" href="memories.php">Memories<span class="visually-hidden">(current)</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="memories.php">Memories<span class="visually-hidden">(current)</span></a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

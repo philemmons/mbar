@@ -28,7 +28,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="logo_contest.php">Logo Contest<span class="visually-hidden">(current)</span></a>
+                    <a class="nav-link active" aria-current="page" href="logo_contest.php">Logo Contest<span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
