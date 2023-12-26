@@ -26,16 +26,20 @@
         <div class="col-sm-12" id="footer-image">
             <p>Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
             </p>
+            <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessibility.php">Site accessibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item" style="border-right: none;">
+                        <a class="nav-link" href="sitemap.php">Site Map</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="accessibility.php">Site accessibility</a>
-                    <a class="nav-link" href="privacy-policy.php">Privacy Policy</a>
-                    <a class="nav-link" href="sitemap.php">Site Map</a>
-                </div>
-            </div>
-        </nav>
     </div>
 </div>
 
