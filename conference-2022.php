@@ -71,14 +71,12 @@
         </div>
         <div class="row justify-content-md-center">
             <div class='col-sm-4 banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
+                <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
             </div>
             <div class='col-sm-8 col-md-6 p-4'>
-                <h3>Our Statement of Responsibility:</h3>
-                <h4>I am responsible.<br>
-                    When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
-                    And for that I am responsible.
-                </h4>
+                <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
+                </h3>
+                <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
             </div>
         </div>
         <div class="row justify-content-center mb-5">
