@@ -58,19 +58,17 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="">
-                    <div class='col-sm-4 banner'>
-                        <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
-                        </h3>
-                        <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
-                    </div>
-                    <div class='col-sm-auto banner'>
-                        <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
-                    </div>
+
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
+                    </h3>
+                    <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+                
+                    <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
                 </div>
+
             </div>
         </div>
         <div class="row justify-content-md-center">
-        <div class="p-3 text-bg-light hero-text-border" title="">
             <div class='col-sm-4 banner'>
                 <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
             </div>
@@ -85,7 +83,6 @@
                 <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
             </div>
         </div>
-</div>
     </section>
 
 
