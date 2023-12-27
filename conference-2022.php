@@ -240,9 +240,9 @@
                                     <td>A.A.Speaker Meeting</td>
                                     <td>Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
                                         <audio controls="">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
