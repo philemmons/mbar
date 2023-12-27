@@ -273,7 +273,7 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-12 col-md-12 pt-4">
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
                     <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
                         <img class="img-fluid" src="../images/button-reg.png" alt="2022 logo with register here text.">
