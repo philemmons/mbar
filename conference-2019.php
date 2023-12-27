@@ -54,22 +54,28 @@
     </section>
 
     <!-- Section One -->
+    <h2>Conference</h2>
     <section class="container shadow-wrap">
-        <h2>Conference</h2>
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="row box">
                     <div class="col-sm-11 col-12">
-                        <h3><a href="services.html">Conference info: KEEP IT SIMPLE</a></h3>
+                        <h3>Conference Info: KEEP IT SIMPLE</h3>
                     </div>
-                    <br><br>
+                    <br>
                     <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                     </p>
                     <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
                     </p>
-                    <p>Frequent contact with newcomers and with each other is the bright spot of our lives. Big Book Pg. 89.
-                        <br><br>
-                        It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you. Big Book Pg. 152
+                    <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
+                        <br>
+                        <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</a>
+                    </p>
+                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                        <br>
+                        <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</a>
                     </p>
                 </div>
             </div>
@@ -85,10 +91,9 @@
                         <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-11 col-12">
-                        <h3><a href="services.html">Friday, August 30, 2019</a>
-                            <br>
-                        </h3>
-                        STEINBECK BALLROOM 2 and 3 - Up the Escalator
+                        <h3>Friday, August 30, 2019</h3>
+                        <br>
+                        STEINBECK BALLROOM 2 and 3 (Up the Escalator)
                         <br><br>
                         <p><strong>2:00pm</strong> - Registration Opens (Main Lobby Upstairs — Registration Area)
                             <br>
@@ -157,16 +162,16 @@
                         <span style="font-size: 15px; color: blue">Harry H. Audio File</span>
                         <br>
                         <hr>
-                        <hr>
                         <strong>Al-Anon Speaker:</strong> Jane H. from Denver, CO
                         <br>
                         <audio controls="">
                             <source src="audio/2019/Jane H. from Denver, CO Al-Anon - 2019 MBAR - 08-30-19_02.ogg" type="audio/ogg">
                             <source src="audio/2019/Jane H. from Denver, CO Al-Anon - 2019 MBAR - 08-30-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
-                        </audio> <br>
-                        <span style="font-size: 15px; color: blue">Jane H. Audio File</span><br>
-
+                        </audio>
+                        <br>
+                        <span style="font-size: 15px; color: blue">Jane H. Audio File</span>
+                        <br>
                         <hr>
                         <div style="column-count: 2">
                             Secretary - Thomas L.
@@ -201,10 +206,10 @@
                             <br><br>
                         </div>
                         <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: blue; font-weight: 600">One Man Band</span>
-                        <br>
+                        <br><br>
                         <p><img src="photo-logo/icon/triangle-png-75.png" width="10" height="10" alt="Black Triangle icon for special order no link"> This symbol denotes that there is an extra charge for these items that are not included in the cost of registration
                         </p>
-                        <br><br>
+                        <br>
                         <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
                             <li><strong>2 ASL Interpreters</strong> </li>
@@ -225,40 +230,39 @@
                         <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-11 col-12">
-                        <h3><a href="activites.html">Saturday, August 31, 2019</a> </h3>
+                        <h3>Saturday, August 31, 2019</h3>
                         STEINBECK BALLROOM 2 and 3
                         <br><br>
                         <p><strong>From 8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
                             <br>
                         </p>
                         <div style="column-count: 2">
-                            8:00am Ron M. (Prunedale) TBA
+                            8:00am Ron M. (Prunedale)
                             <br>
                             9:00am Jack F. (Salinas) Character Defect
                             <br>
-                            10:00am Mike H. (Hollister) TBA
+                            10:00am Mike H. (Hollister)
                             <br>
                             11:00am Mark Y. (Salinas) How It Works
                             <br>
-                            12:00pm Charlie A. (Salinas) TBA
+                            12:00pm Charlie A. (Salinas)
                             <br>
-                            1:00pm Rob C. (Hollister) TBA
+                            1:00pm Rob C. (Hollister)
                             <br>
-                            2:00pm Michelle S. (Monterey) TBA
+                            2:00pm Michelle S. (Monterey)
                             <br>
                             3:00pm Jodi B. (Castroville) Twenty-Four-Hour-Living
                             <br>
                             4:00pm Jean T. (Monterey) Rigorous Honesty
                             <br>
-                            5:00pm Dan S. (Marina) TBA
+                            5:00pm Dan S. (Marina)
                             <br>
-                            6:00pm Wes M. TBA
+                            6:00pm Wes M.
                             <br>
-                            10:00pm Steve C. TBA
+                            10:00pm Steve C.
                             <br>
                         </div>
-                        <br>
-                        <p></p>
+                        <br><br>
                         <p>
                             <strong>From 8:00am - AL-ANON MARATHON MEETING SCHEDULE</strong>
                         </p>
@@ -296,9 +300,8 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Dr. Sheila C and Dr. Jerry C Audio File</span>
+                        <span style="font-size: 15px; color: blue"> Doctors Opinion Panel Audio File</span>
                         <br>
-                        <hr>
                         <hr>
                         <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
                         <br>
@@ -308,13 +311,12 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Sonny C. and Masa M. Audio File</span>
+                        <span style="font-size: 15px; color: blue">Emotional Sobriety Workshop Audio File</span>
                         <br>
-                        <hr>
                         <hr>
                         <strong>12:30pm</strong> The Many Paths to Spirituality Panel Meeting
                         <br>
-                        <span style="margin-left: 100px">Panel:</span> Jean T. Maggie W. and Carrie H. (Monterey, CA)
+                        <span style="margin-left: 100px">Panelist:</span> Jean T., Maggie W., and Carrie H. (Monterey, CA)
                         <br>
                         <audio controls="">
                             <source src="audio/2019/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_02.ogg" type="audio/ogg">
@@ -322,7 +324,7 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Many Paths to Spirituality Audio File</span>
+                        <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Audio File</span>
                         <br>
                         <hr>
                         <strong>2:00pm</strong> - Ice Cream Social (Stevenson Terrace)
@@ -332,9 +334,9 @@
                         <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall)
                         <br>
 
-                        <strong>7:00pm</strong> - Round Up Drawing (Must Be Present to Win)
+                        <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win
                         <br>
-                        <strong>8:00pm</strong> - Saturday Night Speaker Meeting (ASL Interpretation Provided)
+                        <strong>8:00pm</strong> - Saturday Night Speaker Meeting - ASL Interpretation Provided
                         <br>
                         <hr>
                         <span style="margin-left: 100px"><strong>A.A. Speaker:</strong> Charlie H. Henderson, NV</span>
@@ -367,7 +369,7 @@
                         </div>
                         <strong>9:30pm</strong> - Fun and Fellowship Dance
                         <br><br>
-                        <strong>ADA ACCESSIBILITY: MBAR2019 will provide</strong>:
+                        <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
                             <li><strong>2 ASL Interpreters</strong> </li>
                             <li>Saturday: 2.5h</li>
@@ -392,13 +394,13 @@
                         <br><br>
                         <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
                             <br>
-                            8:00am Chuck N. (Salinas) TBA
-                            <br>
+                            8:00am Chuck N. (Salinas)
+                            <br><br>
                             <strong>8:00am - AL-ANON MARATHON MEETING SCHEDULE</strong>
                             <br>
                             8:00am GMHP Meditation Daily Reader
                         </p>
-                        <br><br>
+                        <br>
                         <hr>
                         <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
                         <br>
@@ -408,12 +410,11 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Louise M., Sacramento, CA Audio File</span>
+                        <span style="font-size: 15px; color: blue">Louise M. Audio File</span>
                         <hr>
                         <br>
-
-                        (ASL Interpretation Provided)<br>
-                        <p></p>
+                        ASL Interpretation Provided
+                        <br>
                         <div style="column-count: 2">
                             Secretary - Thomas L.
                             <br>
@@ -432,7 +433,7 @@
                             Al-Anon Closing
                             <br>
                         </div>
-                        <br><br>
+                        <br>
                         <hr>
                         <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
                         <br>
@@ -459,9 +460,9 @@
                             <br>
                         </div>
                         <br><br>
-                        <p><strong>12:00pm</strong> - Conference Ends—See You Next Time
+                        <p><strong>12:00pm</strong> - Conference Ends — See You Next Time
                             <br>
-                            May God Bless You and Keep You Until Then (Big Book Pg. 164)
+                            May God Bless You and Keep You Until Then (Big Book p164)
                         </p>
                         <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
@@ -469,7 +470,6 @@
                                 <strong>2 ASL Interpreters</strong>
                             </li>
                         </ul>
-                        <br>
                         <br>
                         <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank">
                             <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page.">
