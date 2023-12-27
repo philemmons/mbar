@@ -139,9 +139,9 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Past Schedule of Events</a></h5>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank">2022 Conference</a></p>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2021.php" class="bb-link" target="_blank">2021 Conference</a></p>
-                            <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">2019 Conference</a></p>
+                            <p class="card-text"> <a href="https://mbar.philemmons.dev/conference-2022.php" class="bb-link" target="_blank">2022 Conference</a></p>
+                            <p class="card-text"> <a href="https://mbar.philemmons.dev/conference-2021.php" class="bb-link" target="_blank">2021 Conference</a></p>
+                            <p class="card-text"> <a href="https://mbar.philemmons.dev/conference-2019.php" class="bb-link" target="_blank">2019 Conference</a></p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Check out MBAR's line up from our previous events</small>
