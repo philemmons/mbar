@@ -58,9 +58,16 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+                    <div class='col-sm-4 banner'>
+                        <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
+                        </h3>
+                        <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+                    </div>
+                    <div class='col-sm-auto banner'>
+                        <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -118,9 +125,9 @@
                                     <td>Kick-Off A.A. Meeting </td>
                                     <td>Speaker: <strong>Arthur T., Carmel, CA</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
-                                            <source src="conference_2o22/audio2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
+                                            <source src="../audio/2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -145,9 +152,9 @@
                                     <td>A.A. / Al-Anon Speaker Meeting</td>
                                     <td>Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
-                                            <source src="conference_2o22/audio2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
+                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -162,9 +169,9 @@
                                     <td>A.A. Speaker Meeting </td>
                                     <td>Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
-                                            <source src="conference_2o22/audio2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Rocky-S_From Phoenix/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -180,8 +187,6 @@
                                     <td>(Immediately Following Raffle)</td>
                                 </tr>
                             </tbody>
-
-
 
                             <thead class="table-dark">
                                 <th colspan="3">
@@ -214,9 +219,9 @@
                                     <td>Al-Anon Speaker Meeting </td>
                                     <td>Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
+                                            <source src="../audio/2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -226,9 +231,9 @@
                                     <td>Al-Anon Family Panel</td>
                                     <td>Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
-                                            <source src="conference_2o22/audio2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
+                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -243,9 +248,9 @@
                                     <td>A.A.Speaker Meeting</td>
                                     <td>Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
                                         <audio controls="">
-                                            <source src="conference_2o22/audio2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
-                                            <source src="conference_2o22/audio2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
-                                            <source src="conference_2o22/audio2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
+                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
                                     </td>
@@ -277,7 +282,7 @@
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+            <div class="col-xl-10 col-lg-12 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2022</span>
                     </h3>
@@ -296,7 +301,9 @@
                         <br><br>
                         Δ Location of Event is different than conference site
                         <br><br>
-                        <strong>Host of MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
+                        <strong>Host of MBAR 2022:</strong> May H.
+                        <br>
+                        MBAR Steering Committee
                         <br>
                         <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
                         <br>
