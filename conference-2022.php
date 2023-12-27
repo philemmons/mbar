@@ -56,20 +56,14 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-
-
-            <div class='col-sm-4 banner'>
+            <div class='col-sm-auto banner pt-4'>
+                <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
+            </div>
+            <div class='col-sm-6 banner pt-4'>
                 <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h1></span>
                 </h3>
                 <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
             </div>
-            <div class='col-sm-auto banner'>
-                <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
-
-            </div>
-
-
-
         </div>
         <div class="row justify-content-center mb-5">
             <div class="col-sm-12 col-12 text-center px-3 py-4">
