@@ -275,10 +275,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2022</span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">September 2nd and<br>September 3rd</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true"><img src="photo-logo/ButtonReg.png" width="300" alt="2022 logo with register here text."></a>
                 </div>
             </div>
         </div>
@@ -292,9 +289,7 @@
                         <br><br>
                         Δ Location of Event is different than conference site
                         <br><br>
-                        <strong>Host of MBAR 2022:</strong> May H.
-                        <br>
-                        MBAR Steering Committee
+                        <strong>Host of MBAR 2022:</strong> May H. - MBAR Steering Committee
                         <br>
                         <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
                         <br>
