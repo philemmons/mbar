@@ -104,7 +104,7 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Teresa J. audio files</span>
+                        <span style="font-size: 15px; color: blue">Teresa J. Audio File</span>
                         <br>
                         <hr>
                         <div style="column-count: 2">
@@ -265,23 +265,23 @@
                         <div style="column-count: 2">
                             8:00am Monday Night Serenity
                             <br>
-                            9:00am Friday Noon Carmel Keep it Simple
+                            9:00am Friday Noon Carmel - Keep it Simple
                             <br>
-                            10:00am Salinas Saturday Step and Tradition
+                            10:00am Salinas Saturday - Step and Tradition
                             <br>
-                            11:00am Marla M. Iam Enough
+                            11:00am Marla M. - I am Enough
                             <br>
-                            12:00pm Jem G. Our Courage to Change
+                            12:00pm Jem G. - Our Courage to Change
                             <br>
                             1:00pm Al-Ateen Panel
                             <br>
-                            3:00pm Al-Ateen Mtg (Al-Ateen Members Only)
+                            3:00pm Al-Ateen Meeting (Al-Ateen Members Only)
                             <br>
-                            3:00pm Su B. Family Recovery In Institutions
+                            3:00pm Su B. - Family Recovery In Institutions
                             <br>
                             4:00pm Laurie B. and Guadalupe L.
                             <br>
-                            Una Dia de la Vez - SPANISH SPEAKING
+                            5:00pm TBA - Una Dia de la Vez - SPANISH SPEAKING
                             <br>
                         </div>
                         <br>
@@ -296,11 +296,11 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Dr. Sheila C and Dr. Jerry C audio files</span>
+                        <span style="font-size: 15px; color: blue">Dr. Sheila C and Dr. Jerry C Audio File</span>
                         <br>
                         <hr>
                         <hr>
-                        <strong>11:15am</strong> Emotional Sobriety Workshop Sonny C. and Masa M.
+                        <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
                         <br>
                         <audio controls="">
                             <source src="audio/Emotional Sobriety Workshop/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
@@ -308,13 +308,13 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Sonny C. and Masa M. audio files</span>
+                        <span style="font-size: 15px; color: blue">Sonny C. and Masa M. Audio File</span>
                         <br>
                         <hr>
                         <hr>
-                        <strong>12:30pm</strong> The Many Paths to Spirituality Panel meeting
+                        <strong>12:30pm</strong> The Many Paths to Spirituality Panel Meeting
                         <br>
-                        <span style="margin-left: 100px">Panel:</span> Jean T. Maggie W. and Carrie H. (Monterey)
+                        <span style="margin-left: 100px">Panel:</span> Jean T. Maggie W. and Carrie H. (Monterey, CA)
                         <br>
                         <audio controls="">
                             <source src="audio/ManyPathstoSpirituality/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_02.ogg" type="audio/ogg">
@@ -322,17 +322,17 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Many Paths to Spirituality audio files</span>
+                        <span style="font-size: 15px; color: blue">Many Paths to Spirituality Audio File</span>
                         <br>
                         <hr>
-                        <strong>2:00pm</strong> - Ice Cream Social Ice Cream Social at (Stevenson Terrace)
+                        <strong>2:00pm</strong> - Ice Cream Social (Stevenson Terrace)
                         <br>
                         <strong>4:00pm</strong> - Speed Fellowship
                         <br>
                         <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall)
                         <br>
 
-                        <strong>7:00pm</strong> - Round Up Drawing (must be present to win)
+                        <strong>7:00pm</strong> - Round Up Drawing (Must Be Present to Win)
                         <br>
                         <strong>8:00pm</strong> - Saturday Night Speaker Meeting (ASL Interpretation Provided)
                         <br>
@@ -345,7 +345,7 @@
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Charlie H. Henderson audio files</span>
+                        <span style="font-size: 15px; color: blue">Charlie H. Henderson Audio File</span>
                         <hr>
                         <div style="column-count: 2">
                             Secretary - May H.
@@ -379,8 +379,6 @@
     </section>
 
 
-
-
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -390,83 +388,90 @@
                     </div>
                     <div class="col-sm-11 col-12">
                         <h3><a href="activites.html">Sunday, September 1, 2019</a></h3>
-                        STEINBECK BALLROOM (2 and 3)<br>
-                        <br>
-                        <p>
-                            <strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
+                        STEINBECK BALLROOM 2 and 3
+                        <br><br>
+                        <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
                             <br>
-                            8:00am Chuck N. (Salinas) TBA<br>
-
+                            8:00am Chuck N. (Salinas) TBA
+                            <br>
                             <strong>8:00am - AL-ANON MARATHON MEETING SCHEDULE</strong>
-
                             <br>
-
-                            8:00am GMHP Meditation Daily Reader <br>
-                            <br>
+                            8:00am GMHP Meditation Daily Reader
                         </p>
-                        <p>
-                        </p>
+                        <br><br>
                         <hr>
-                        <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA<br>
+                        <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
+                        <br>
                         <audio controls="">
                             <source src="audio/Louise M/Al-Anon_Speaker-Louise M-from_Sacramento_CA-2019-MBAR-08-31-19_01.ogg" type="audio/ogg">
                             <source src="audio/Louise M/Al-Anon Speaker - Louise M. from Sacramento, CA - 2019 MBAR - 08-31-19.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
-                        </audio> <br>
-                        <span style="font-size: 15px; color: blue">Louise M., Sacramento, CA audio files</span>
+                        </audio>
+                        <br>
+                        <span style="font-size: 15px; color: blue">Louise M., Sacramento, CA Audio File</span>
                         <hr>
                         <br>
 
                         (ASL Interpretation Provided)<br>
                         <p></p>
                         <div style="column-count: 2">
-                            Secretary - Thomas L.<br>
-                            Open with Serenity Prayer<br>
-                            Al-Anon Welcome<br>
-                            Al-Anon Preamble<br>
-                            Al-Anon Twelve Steps<br>
-                            Al-Anon Twelve Traditions<br>
-                            Al-Anon Safety Statement<br>
-                            Al-Anon Closing<br>
+                            Secretary - Thomas L.
+                            <br>
+                            Open with Serenity Prayer
+                            <br>
+                            Al-Anon Welcome
+                            <br>
+                            Al-Anon Preamble
+                            <br>
+                            Al-Anon Twelve Steps
+                            <br>
+                            Al-Anon Twelve Traditions
+                            <br>
+                            Al-Anon Safety Statement
+                            <br>
+                            Al-Anon Closing
+                            <br>
                         </div>
-                        <br>
-                        <p>
-                        </p>
+                        <br><br>
                         <hr>
-                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA <br>
+                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
+                        <br>
                         <audio controls="">
                             <source src="audio/PatB/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_02.ogg" type="audio/ogg">
                             <source src="audio/PatB/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
-                        </audio> <br>
-                        <span style="font-size: 15px; color: blue">Pat B. audio files</span><br>
-
+                        </audio>
+                        <br>
+                        <span style="font-size: 15px; color: blue">Pat B. Audio File</span>
+                        <br>
                         <hr>
-
-
                         (ASL Interpretation Provided)<br>
                         <div style="column-count: 2">
-                            Preamble<br>
-                            Traditions<br>
-                            Chapter 3—More About Alcoholism<br>
-                            How It Works:<br>
-                            Vision For You <br>
-
+                            Preamble
+                            <br>
+                            Traditions
+                            <br>
+                            Chapter Three — More About Alcoholism
+                            <br>
+                            How It Works
+                            <br>
+                            Vision For You
+                            <br>
                         </div>
-                        <br>
-                        <p></p>
-                        <p>
-                            <strong>12:00pm</strong> - Conference Ends—See You Next Time<br>
+                        <br><br>
+                        <p><strong>12:00pm</strong> - Conference Ends—See You Next Time
+                            <br>
                             May God Bless You and Keep You Until Then (Big Book Pg. 164)
                         </p>
-                        <strong>ADA ACCESSIBILITY: MBAR2019 will provide</strong>:
+                        <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
-                            <li><strong>2 ASL Interpreters</strong> </li>
-
+                            <li>
+                                <strong>2 ASL Interpreters</strong>
+                            </li>
                         </ul>
                         <br>
                         <br>
-                        <a href="" onclick="window.open('https://www.A.A.monterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <img src="photo-logo/icon/A.A.Mlogo.png" width="300" alt="Monterey Bay Area alcolics Anonymous logo, click to go back to A.A. Monterey home page"></a><br> <br>
+                        <a href="" onclick="window.open('https://www.A.A.monterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <img src="photo-logo/icon/A.A.Mlogo.png" width="300" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."></a><br> <br>
                         See our local A.A. Central Office website (link above) for a current listing of meetings in the area, for after the conclusion of the conference.
                     </div>
                 </div>
