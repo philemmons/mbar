@@ -57,8 +57,8 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3>Conference Services: KEEP IT SIMPLE</h3>
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class= "text-center">Conference Services: KEEP IT SIMPLE</h3>
                     <br>
                     <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                     </p>
@@ -83,8 +83,8 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3>Friday, August 30, 2019</h3>
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class= "text-center">Friday, August 30, 2019</h3>
                     <br>
                     STEINBECK BALLROOM 2 and 3 (Up the Escalator)
                     <br><br>
@@ -213,8 +213,8 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3>Saturday, August 31, 2019</h3>
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class= "text-center">Saturday, August 31, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>From 8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -367,8 +367,8 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3>Sunday, September 1, 2019</h3>
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class= "text-center">Sunday, September 1, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
