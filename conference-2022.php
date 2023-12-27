@@ -71,7 +71,6 @@
         </div>
     </section>
 
-
     <!--Section Two-->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
@@ -270,7 +269,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
