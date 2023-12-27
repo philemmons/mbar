@@ -79,7 +79,7 @@
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-sm">
-                            <thead>
+                            <thead class="table-dark">
                                 <th colspan="3">
                                     <h3>Friday Night, September 2nd</h3>
                                 </th>
@@ -87,20 +87,20 @@
                             <tbody>
                                 <tr>
                                     <td>8:00pm</td>
-                                    <td><i class="bi bi-camera-video-fill"></i>A.A. Zoom Meeting</td>
+                                    <td><i class="bi bi-camera-video-fill"> </i>A.A. Zoom Meeting</td>
                                     <td>Speaker: <strong>Reggie W., Los Angeles, CA</strong></td>
                                 </tr>
                                 <tr>
                                     <td>50/50 Raffle</td>
-                                    <td><strong>Zoom Meeting ID:</strong> 851-8969-3046</td>
-                                    <td><strong>Zoom Meeting Password:</strong> 338999</td>
+                                    <td>Zoom Meeting ID: <strong>851-8969-3046</strong></td>
+                                    <td>Zoom Meeting Password: <strong>338999</strong></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-sm">
-                            <thead>
+                            <thead class="table-dark">
                                 <th colspan="3">
                                     <h3>Saturday, September 3rd</h3>
                                 </th>
@@ -188,7 +188,7 @@
 
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-sm">
-                            <thead>
+                            <thead class="table-dark">
                                 <th colspan="3">
                                     <h3>Sunday, September 4th</h3>
                                 </th>
@@ -217,7 +217,7 @@
                                 <tr class="table-primary">
                                     <td>11:00am</td>
                                     <td>Al-Anon Speaker Meeting </td>
-                                    <td>Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong>
+                                    <td>Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
@@ -281,7 +281,7 @@
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2022</span>
@@ -291,24 +291,27 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-            <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
-                <p>CHECK IN AT REGISTRATION DESK TO OBTAIN YOUR REGISTRATION PACKET CONTAINING YOUR NAME BADGE, PROGRAM, LIST OF ALL MARATHON MEETING TIMES, AND ANY TICKETS FOR MEALS OR EVENTS YOU MAY HAVE PURCHASED.
-                    <br><br>
-                    FOR MORE INFORMATION WHILE AT THE EVENT, QUESTIONS CONCERNING THE EVENT, OR LOST AND FOUND ITEMS, PLEASE GO TO THE REGISTRATION DESK.
-                    <br><br>
-                    Δ Location of Event is different than conference site
-                    <br><br>
-                    <strong>HOST OF MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
-                    <br>
-                    <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
-                    <br>
-                    <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
-                </p>
-                <hr>
-                <p>See our local A.A. Central Office website
-                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
-                </p>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
+                    <p>CHECK IN AT REGISTRATION DESK TO OBTAIN YOUR REGISTRATION PACKET CONTAINING YOUR NAME BADGE, PROGRAM, LIST OF ALL MARATHON MEETING TIMES, AND ANY TICKETS FOR MEALS OR EVENTS YOU MAY HAVE PURCHASED.
+                        <br><br>
+                        FOR MORE INFORMATION WHILE AT THE EVENT, QUESTIONS CONCERNING THE EVENT, OR LOST AND FOUND ITEMS, PLEASE GO TO THE REGISTRATION DESK.
+                        <br><br>
+                        Δ Location of Event is different than conference site
+                        <br><br>
+                        <strong>HOST OF MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
+                        <br>
+                        <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
+                        <br>
+                        <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
+                    </p>
+                    <hr>
+                    <p>See our local A.A. Central Office website
+                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -318,12 +321,12 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3 text-center">Conference Theme: <strong>KEEP IT SIMPLE<strong></h3>
+                    <h3 class="card-title mb-3 text-center">Conference Services: KEEP IT SIMPLE</h3>
+                    <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
+                    </p>
+                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
+                    </p>
                 </div>
-                <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
-                </p>
-                <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
-                </p>
             </div>
         </div>
     </section>
