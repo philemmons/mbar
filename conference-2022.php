@@ -96,10 +96,7 @@
                                     <td>Zoom Meeting Password: <strong>338999</strong></td>
                                 </tr>
                             </tbody>
-                        </table>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover table-sm">
+
                             <thead class="table-dark">
                                 <th colspan="3">
                                     <h3>Saturday, September 3rd</h3>
@@ -183,11 +180,9 @@
                                     <td>(Immediately Following Raffle)</td>
                                 </tr>
                             </tbody>
-                        </table>
-                    </div>
 
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover table-sm">
+
+
                             <thead class="table-dark">
                                 <th colspan="3">
                                     <h3>Sunday, September 4th</h3>
@@ -301,7 +296,7 @@
                         <br><br>
                         Δ Location of Event is different than conference site
                         <br><br>
-                        <strong>HOST OF MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
+                        <strong>Host of MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
                         <br>
                         <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
                         <br>
