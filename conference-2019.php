@@ -291,8 +291,8 @@
                         <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
                         <br>
                         <audio controls="">
-                            <source src="audio/DrSheila C &amp; DrJerry C/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
-                            <source src="audio/DrSheila C &amp; DrJerry C/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                            <source src="audio/2019/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
+                            <source src="audio/2019/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -303,8 +303,8 @@
                         <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
                         <br>
                         <audio controls="">
-                            <source src="audio/Emotional Sobriety Workshop/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
-                            <source src="audio/Emotional Sobriety Workshop/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                            <source src="audio/2019/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
+                            <source src="audio/2019/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -317,8 +317,8 @@
                         <span style="margin-left: 100px">Panel:</span> Jean T. Maggie W. and Carrie H. (Monterey, CA)
                         <br>
                         <audio controls="">
-                            <source src="audio/ManyPathstoSpirituality/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_02.ogg" type="audio/ogg">
-                            <source src="audio/ManyPathstoSpirituality/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_01.mp3" type="audio/mpeg">
+                            <source src="audio/2019/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_02.ogg" type="audio/ogg">
+                            <source src="audio/2019/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -340,8 +340,8 @@
                         <span style="margin-left: 100px"><strong>A.A. Speaker:</strong> Charlie H. Henderson, NV</span>
                         <br>
                         <audio controls="">
-                            <source src="audio/CharlieH/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.ogg" type="audio/ogg">
-                            <source src="audio/CharlieH/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                            <source src="audio/2019/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.ogg" type="audio/ogg">
+                            <source src="audio/2019/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -403,8 +403,8 @@
                         <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
                         <br>
                         <audio controls="">
-                            <source src="audio/Louise M/Al-Anon_Speaker-Louise M-from_Sacramento_CA-2019-MBAR-08-31-19_01.ogg" type="audio/ogg">
-                            <source src="audio/Louise M/Al-Anon Speaker - Louise M. from Sacramento, CA - 2019 MBAR - 08-31-19.mp3" type="audio/mpeg">
+                            <source src="audio/2019/Al-Anon_Speaker-Louise M-from_Sacramento_CA-2019-MBAR-08-31-19_01.ogg" type="audio/ogg">
+                            <source src="audio/2019/Al-Anon Speaker - Louise M. from Sacramento, CA - 2019 MBAR - 08-31-19.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -437,8 +437,8 @@
                         <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
                         <br>
                         <audio controls="">
-                            <source src="audio/PatB/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_02.ogg" type="audio/ogg">
-                            <source src="audio/PatB/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_01.mp3" type="audio/mpeg">
+                            <source src="audio/2019/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_02.ogg" type="audio/ogg">
+                            <source src="audio/2019/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_01.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
@@ -471,7 +471,10 @@
                         </ul>
                         <br>
                         <br>
-                        <a href="" onclick="window.open('https://www.A.A.monterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> <img src="photo-logo/icon/A.A.Mlogo.png" width="300" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."></a><br> <br>
+                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank">
+                            <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page.">
+                        </a>
+                        <br><br>
                         See our local A.A. Central Office website (link above) for a current listing of meetings in the area, for after the conclusion of the conference.
                     </div>
                 </div>
