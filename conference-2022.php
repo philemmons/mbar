@@ -88,12 +88,12 @@
                                 <tr>
                                     <td>8:00pm</td>
                                     <td><i class="bi bi-camera-video-fill"></i>A.A. Zoom Meeting</td>
-                                    <td><strong>Reggie W., Los Angeles, CA</strong></td>
+                                    <td>Speaker: <strong>Reggie W., Los Angeles, CA</strong></td>
                                 </tr>
                                 <tr>
                                     <td>50/50 Raffle</td>
-                                    <td><strong>Zoom Meeting ID</strong>: 851-8969-3046</td>
-                                    <td><strong>Zoom Meeting Password</strong>: 338999</td>
+                                    <td><strong>Zoom Meeting ID:</strong> 851-8969-3046</td>
+                                    <td><strong>Zoom Meeting Password:</strong> 338999</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -116,10 +116,10 @@
                                     <td>Al-Anon Marathon Meetings (English/Spanish)</td>
                                     <td></td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>10:00am</td>
                                     <td>Kick-Off A.A. Meeting </td>
-                                    <td>Speaker:<strong>Arthur T., Carmel, CA</strong><br>
+                                    <td>Speaker: <strong>Arthur T., Carmel, CA</strong><br>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Arthur_T-From-Carmel/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
@@ -143,10 +143,10 @@
                                     <td>A.A. Old-Timers' Panel</td>
                                     <td></td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>2:00pm</td>
                                     <td>A.A. / Al-Anon Speaker Meeting</td>
-                                    <td><strong>Al-Anon Speaker: Mary N., Orange, CA <br> A.A.Speaker: Guillermo N., Orange, CA</strong><br>
+                                    <td>Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Mary-N_(Al-Anon)_Guillermo-N/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
@@ -158,9 +158,9 @@
                                 <tr>
                                     <td>5:00pm</td>
                                     <td>Meet the Speakers Dinner</td>
-                                    <td>(! @ Bethlehem Lutheran Church) ∆</td>
+                                    <td><strong>Bethlehem Lutheran Church ∆</strong></td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>7:30pm</td>
                                     <td>A.A. Speaker Meeting </td>
                                     <td>Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
@@ -197,7 +197,7 @@
                                 <tr>
                                     <td>8:00am</td>
                                     <td>Continental Round-Up Breakfast</td>
-                                    <td>(! Bethlehem Lutheran Church) ∆</td>
+                                    <td><strong>Bethlehem Lutheran Church ∆</strong></td>
                                 </tr>
                                 <tr>
                                     <td>8:00am</td>
@@ -212,12 +212,12 @@
                                 <tr>
                                     <td>10:00am</td>
                                     <td>A.A. Spanish Speaking Meeting </td>
-                                    <td><strong> </strong></td>
+                                    <td>Speaker: <strong>TBA</strong></td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>11:00am</td>
                                     <td>Al-Anon Speaker Meeting </td>
-                                    <td><strong>Al-Anon Speaker: Robin K. Marina, CA <br>Al-Anon Speaker: Terril K. Marina, CA</strong>
+                                    <td>Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
@@ -226,10 +226,10 @@
                                         </audio>
                                     </td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>1:30am</td>
                                     <td>Al-Anon Family Panel</td>
-                                    <td><strong>Al Anon Family Panel: Michele M / Pete-C Dawn-C / Joe-P</strong><br>
+                                    <td>Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
@@ -243,10 +243,10 @@
                                     <td>Ice Cream Social</td>
                                     <td><strong>(2nd Floor Terrace)</strong></td>
                                 </tr>
-                                <tr class="table-success">
+                                <tr class="table-primary">
                                     <td>5:00pm</td>
-                                    <td>A.A.Speaker Meeting Speaker</td>
-                                    <td><strong>Chris T., Del Rey Oaks, CA</strong><br>
+                                    <td>A.A.Speaker Meeting</td>
+                                    <td>Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
                                         <audio controls="">
                                             <source src="conference_2o22/audio2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
                                             <source src="conference_2o22/audio2022/Chris-T_From-Del-Rey-Oaks/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
@@ -278,51 +278,57 @@
         </div>
     </section>
 
-    <div class="col-sm-12 col-12 col-xl-12">
-        <a href="registration.html" class="btn btn-light btn-lg active" role="button" aria-pressed="true"><img src="photo-logo/ButtonReg.png" width="300" alt=""></a>
-        <br><br>
-        <hr>
-        <p>CHECK IN AT REGISTRATION DESK TO OBTAIN YOUR REGISTRATION PACKET CONTAINING YOUR NAME BADGE, PROGRAM, LIST OF ALL MARATHON MEETING TIMES, AND ANY TICKETS FOR MEALS OR EVENTS YOU MAY HAVE PURCHASED.
-            <br><br>
-            FOR MORE INFORMATION WHILE AT THE EVENT, QUESTIONS CONCERNING THE EVENT, OR LOST AND FOUND ITEMS, PLEASE GO TO THE REGISTRATION DESK.
-            <br><br>
-            Δ Location of Event is different than conference site<br><br>
-            <strong>HOST OF MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE<br>
-            <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.<br>
-            <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
-        </p>
 
-        <hr>
-        <p>See our local A.A.Central Office website
-            <a href="" onclick="window.open('https://www.aamonterey.org/', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"> www.aamonterey.org</a> for a current listing of meetings in the area.
-        </p>
-    </div>
-    </div>
-    <div class="row box">
-        <br>
-        <div class="col-sm-11 col-12">
-            <h3><a href="services.html">Conference info: KEEP IT SIMPLE</a></h3>
+    <!-- Section Three -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2022</span>
+                    </h3>
+                    <p class="mb-6 h4 text-dark">September 2nd and<br>September 3rd</p>
+                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                </div>
+            </div>
         </div>
-        <br>
-        <p>
-            <strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
-        </p>
-
-        <p>
-            <strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
-        </p>
-        <p>
-            Frequent contact with newcomers and with each other is the bright spot of our lives. Big Book Pg. 89.<br>
-            <br>
-            It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you. Big Book Pg. 152
-        </p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+        <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+            <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
+                <p>CHECK IN AT REGISTRATION DESK TO OBTAIN YOUR REGISTRATION PACKET CONTAINING YOUR NAME BADGE, PROGRAM, LIST OF ALL MARATHON MEETING TIMES, AND ANY TICKETS FOR MEALS OR EVENTS YOU MAY HAVE PURCHASED.
+                    <br><br>
+                    FOR MORE INFORMATION WHILE AT THE EVENT, QUESTIONS CONCERNING THE EVENT, OR LOST AND FOUND ITEMS, PLEASE GO TO THE REGISTRATION DESK.
+                    <br><br>
+                    Δ Location of Event is different than conference site
+                    <br><br>
+                    <strong>HOST OF MBAR 2022:</strong> May H. MBAR STEERING COMMITTEE
+                    <br>
+                    <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
+                    <br>
+                    <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
+                </p>
+                <hr>
+                <p>See our local A.A. Central Office website
+                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
+                </p>
+            </div>
+        </div>
     </section>
-    <!-- Section Two -->
+
+    <!-- Section Four -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                <div class="p-3 text-bg-light hero-text-border">
+                    <h3 class="card-title mb-3 text-center">Conference Theme: <strong>KEEP IT SIMPLE<strong></h3>
+                </div>
+                <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
+                </p>
+                <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Five -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -343,7 +349,7 @@
         </div>
     </section>
 
-    <!-- Section Three -->
+    <!-- Section Six -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -367,7 +373,7 @@
         </div>
     </section>
 
-    <!-- Section Four -->
+    <!-- Section Seven -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
