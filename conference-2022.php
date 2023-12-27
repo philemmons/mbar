@@ -299,7 +299,7 @@
                     </p>
                     <hr>
                     <p>See our local A.A. Central Office website
-                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule."> aamonterey.org</a> for a current listing of meetings in the area.
+                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
                     </p>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                     <h3 class="card-title mb-3 text-center">Conference Services: KEEP IT SIMPLE</h3>
                     <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                     </p>
-                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
+                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
                     </p>
                 </div>
             </div>

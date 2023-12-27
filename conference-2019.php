@@ -54,18 +54,17 @@
     </section>
 
     <!-- Section One -->
-    <h2>Conference</h2>
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="row box">
                     <div class="col-sm-11 col-12">
-                        <h3>Conference Info: KEEP IT SIMPLE</h3>
+                        <h3>Conference Services: KEEP IT SIMPLE</h3>
                     </div>
                     <br>
                     <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                     </p>
-                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
+                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. go to registration desk for more information about this complimentary service.
                     </p>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
@@ -207,13 +206,9 @@
                         </div>
                         <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: blue; font-weight: 600">One Man Band</span>
                         <br><br>
-                        <p><img src="photo-logo/icon/triangle-png-75.png" width="10" height="10" alt="Black Triangle icon for special order no link"> This symbol denotes that there is an extra charge for these items that are not included in the cost of registration
-                        </p>
-                        <br>
                         <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
-                            <li><strong>2 ASL Interpreters</strong> </li>
-                            <li>Friday: 2.5h</li>
+                            <li><strong>2 ASL Interpreters</strong> - Friday: 2.5h</li>
                         </ul>
                     </div>
                 </div>
@@ -279,17 +274,15 @@
                             <br>
                             1:00pm Al-Ateen Panel
                             <br>
-                            3:00pm Al-Ateen Meeting (Al-Ateen Members Only)
+                            3:00pm Al-Ateen Meeting (Closed Meeting: Al-Ateen Members Only)
                             <br>
                             3:00pm Su B. - Family Recovery In Institutions
                             <br>
-                            4:00pm Laurie B. and Guadalupe L.
-                            <br>
-                            5:00pm TBA - Una Dia de la Vez - SPANISH SPEAKING
+                            4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
                             <br>
                         </div>
                         <br>
-                        <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall)
+                        <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
                         <br><br>
                         <hr>
                         <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
@@ -331,7 +324,7 @@
                         <br>
                         <strong>4:00pm</strong> - Speed Fellowship
                         <br>
-                        <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall)
+                        <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall ∆)
                         <br>
 
                         <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win
@@ -367,12 +360,14 @@
                             Closing Prayer
                             <br>
                         </div>
+                        <br>
+                        <hr>
+                        <br>
                         <strong>9:30pm</strong> - Fun and Fellowship Dance
                         <br><br>
                         <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
                         <ul>
-                            <li><strong>2 ASL Interpreters</strong> </li>
-                            <li>Saturday: 2.5h</li>
+                            <li><strong>2 ASL Interpreters</strong> - Saturday: 2.5h</li>
                         </ul>
                     </div>
                 </div>
@@ -389,7 +384,7 @@
                         <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="col-sm-11 col-12">
-                        <h3><a href="activites.html">Sunday, September 1, 2019</a></h3>
+                        <h3>Sunday, September 1, 2019</h3>
                         STEINBECK BALLROOM 2 and 3
                         <br><br>
                         <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -400,7 +395,6 @@
                             <br>
                             8:00am GMHP Meditation Daily Reader
                         </p>
-                        <br>
                         <hr>
                         <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
                         <br>
@@ -459,7 +453,7 @@
                             Vision For You
                             <br>
                         </div>
-                        <br><br>
+                        <br>
                         <p><strong>12:00pm</strong> - Conference Ends — See You Next Time
                             <br>
                             May God Bless You and Keep You Until Then (Big Book p164)
@@ -508,7 +502,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
+                    <h3 class="card-title mb-3"><a href="activities.php">∆ Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
                         <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
                             <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
