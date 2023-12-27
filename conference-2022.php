@@ -64,8 +64,8 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-12 text-center px-3 py-4 mb-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-sm-12 col-12 text-center px-3 py-4">
                 <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
             </div>
         </div>
@@ -112,14 +112,12 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>9:00am
-                                    <td>
+                                    <td>9:00am</td>
                                     <td>Al-Anon Marathon Meetings (English/Spanish)</td>
                                     <td></td>
                                 </tr>
                                 <tr class="table-success">
-                                    <td>10:00am
-                                    <td>
+                                    <td>10:00am</td>
                                     <td>Kick-Off A.A. Meeting </td>
                                     <td>Speaker:<strong>Arthur T., Carmel, CA</strong><br>
                                         <audio controls="">
@@ -131,20 +129,17 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>10:00am
-                                    <td>
+                                    <td>10:00am</td>
                                     <td>A.A. Meeting Spanish Speaking</td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>11:00am
-                                    <td>
+                                    <td>11:00am</td>
                                     <td>A.A. Marathon Meetings Begin</td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>11:30am
-                                    <td>
+                                    <td>11:30am</td>
                                     <td>A.A. Old-Timers' Panel</td>
                                     <td></td>
                                 </tr>
@@ -205,32 +200,27 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>8:00am
-                                    <td>
+                                    <td>8:00am</td>
                                     <td>Continental Round-Up Breakfast</td>
                                     <td>(! Bethlehem Lutheran Church) ∆</td>
                                 </tr>
                                 <tr>
-                                    <td>8:00am
-                                    <td>
+                                    <td>8:00am</td>
                                     <td>A.A. Marathon Meetings Begin</td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>9:00am
-                                    <td>
+                                    <td>9:00am</td>
                                     <td>Al-Anon Marathon Meetings (English/Spanish)</td>
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>10:00am
-                                    <td>
+                                    <td>10:00am</td>
                                     <td>A.A. Spanish Speaking Meeting </td>
                                     <td><strong> </strong></td>
                                 </tr>
                                 <tr class="table-success">
-                                    <td>11:00am
-                                    <td>
+                                    <td>11:00am</td>
                                     <td>Al-Anon Speaker Meeting </td>
                                     <td><strong>Al-Anon Speaker: Robin K. Marina, CA <br>Al-Anon Speaker: Terril K. Marina, CA</strong>
                                         <audio controls="">
@@ -247,8 +237,7 @@
                                     <td><br></td>
                                 </tr>
                                 <tr class="table-success border border-dark">
-                                    <td>1:30am
-                                    <td>
+                                    <td>1:30am</td>
                                     <td>Al-Anon Family Panel</td>
                                     <td><strong>Al Anon Family Panel: Michele M / Pete-C Dawn-C / Joe-P</strong><br>
                                         <audio controls="">
@@ -260,14 +249,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>3:00pm
-                                    <td>
+                                    <td>3:00pm</td>
                                     <td>Ice Cream Social</td>
                                     <td><strong>(2nd Floor Terrace)</strong></td>
                                 </tr>
                                 <tr class="table-success border border-dark">
-                                    <td>5:00pm
-                                    <td>
+                                    <td>5:00pm</td>
                                     <td>A.A.Speaker Meeting Speaker</td>
                                     <td><strong>Chris T., Del Rey Oaks, CA</strong><br>
                                         <audio controls="">
@@ -279,8 +266,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>6:30pm
-                                    <td>
+                                    <td>6:30pm</td>
                                     <td>Raffle Drawing</td>
                                     <td>(Immediately Following Speaker Meeting)</td>
                                 </tr>
