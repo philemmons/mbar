@@ -84,7 +84,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center">Friday, August 30, 2019</h3>
+                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Friday, August 30, 2019</h3>
                     <br>
                     STEINBECK BALLROOM 2 and 3 (Up the Escalator)
                     <br><br>
@@ -214,7 +214,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center">Saturday, August 31, 2019</h3>
+                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Saturday, August 31, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>From 8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -368,7 +368,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center">Sunday, September 1, 2019</h3>
+                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Sunday, September 1, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -464,7 +464,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
+                    <h3 class="card-title mb-3"><i class="bi bi-question-circle"> </i><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
