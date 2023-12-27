@@ -80,7 +80,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><i class="bi bi-question-circle"> </i><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
+                    <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
