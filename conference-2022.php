@@ -143,11 +143,6 @@
                                     <td>A.A. Old-Timers' Panel</td>
                                     <td></td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
                                 <tr class="table-success">
                                     <td>2:00pm</td>
                                     <td>A.A. / Al-Anon Speaker Meeting</td>
@@ -229,14 +224,9 @@
                                             <source src="conference_2o22/audio2022/Al-Anon_Speaker_Meeting-Robin K_Terrill-K/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
                                             Your browser does not support the audio element.
                                         </audio>
-
-
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td><br></td>
-                                </tr>
-                                <tr class="table-success border border-dark">
+                                <tr class="table-success">
                                     <td>1:30am</td>
                                     <td>Al-Anon Family Panel</td>
                                     <td><strong>Al Anon Family Panel: Michele M / Pete-C Dawn-C / Joe-P</strong><br>
@@ -253,7 +243,7 @@
                                     <td>Ice Cream Social</td>
                                     <td><strong>(2nd Floor Terrace)</strong></td>
                                 </tr>
-                                <tr class="table-success border border-dark">
+                                <tr class="table-success">
                                     <td>5:00pm</td>
                                     <td>A.A.Speaker Meeting Speaker</td>
                                     <td><strong>Chris T., Del Rey Oaks, CA</strong><br>
@@ -270,7 +260,6 @@
                                     <td>Raffle Drawing</td>
                                     <td>(Immediately Following Speaker Meeting)</td>
                                 </tr>
-
                                 <tr>
                                     <td>8:00pm</td>
                                     <td>Fellowship and Music</td>
@@ -283,7 +272,6 @@
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
