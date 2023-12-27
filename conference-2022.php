@@ -70,6 +70,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
+        <div class="p-3 text-bg-light hero-text-border" title="">
             <div class='col-sm-4 banner'>
                 <img src="../images/logo2022.png" class="img-fluid shadow-wrap" alt="Monterey Bay Are Roundup 2022 logo with a sea otter and the slogan: Keep It Simple" title="Artist Unknown" />
             </div>
@@ -84,6 +85,7 @@
                 <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
             </div>
         </div>
+</div>
     </section>
 
 
