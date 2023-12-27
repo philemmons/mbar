@@ -79,7 +79,7 @@
         </div>
     </section>
 
-
+  <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -97,8 +97,8 @@
                     <strong>Early Bird A.A. Speaker :</strong> Teresa J. from Monterey, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Teresa J. From Monterey, CA - 2019 MBAR - 08-30-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Teresa J. From Monterey, CA - 2019 MBAR - 08-30-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
+                        <source src="audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -147,8 +147,8 @@
                     <strong>A.A. Speaker:</strong> Harry H., from Denver, CO
                     <br><br>
                     <audio controls="">
-                        <source src="audio/2019/Harry H. from Denver, CO - 2019 MBAR - 08-30-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Harry H. from Denver, CO - 2019 MBAR - 08-30-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
+                        <source src="audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -158,8 +158,8 @@
                     <strong>Al-Anon Speaker:</strong> Jane H. from Denver, CO
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Jane H. from Denver, CO Al-Anon - 2019 MBAR - 08-30-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Jane H. from Denver, CO Al-Anon - 2019 MBAR - 08-30-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
+                        <source src="audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -209,7 +209,7 @@
         </div>
     </section>
 
-
+  <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -277,8 +277,8 @@
                     <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Doctors Opinion Panel - Dr. Sheila C &amp; Dr. Jerry C. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
+                        <source src="audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -288,8 +288,8 @@
                     <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Emotional Sobriety Workshop - Sonny C. &amp; Masa M. - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
+                        <source src="audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -301,8 +301,8 @@
                     <span style="margin-left: 100px">Panelist:</span> Jean T., Maggie W., and Carrie H. (Monterey, CA)
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/The Many Paths to Spirituality Panel - Jean T. &amp; Cari H. - 2019 MBAR - 08-31-19 (1)_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
+                        <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -324,8 +324,8 @@
                     <span style="margin-left: 100px"><strong>A.A. Speaker:</strong> Charlie H. Henderson, NV</span>
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.ogg" type="audio/ogg">
-                        <source src="audio/2019/Charlie H. from Henderson, NV - 2019 MBAR - 08-31-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
+                        <source src="audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -363,7 +363,7 @@
         </div>
     </section>
 
-
+  <!-- Section Four -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -383,8 +383,8 @@
                     <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Al-Anon_Speaker-Louise M-from_Sacramento_CA-2019-MBAR-08-31-19_01.ogg" type="audio/ogg">
-                        <source src="audio/2019/Al-Anon Speaker - Louise M. from Sacramento, CA - 2019 MBAR - 08-31-19.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
+                        <source src="audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
@@ -416,8 +416,8 @@
                     <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_02.ogg" type="audio/ogg">
-                        <source src="audio/2019/Pat B. from Clovis, CA - 2019 MBAR - 09-01-19_01.mp3" type="audio/mpeg">
+                        <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
+                        <source src="audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                     <br>
