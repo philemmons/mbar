@@ -275,7 +275,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration for 2024 is now open!">
-                <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true"><img src="../image/button-reg.png" width="300" alt="2022 logo with register here text."></a>
+                <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true"><img src="../images/button-reg.png" width="300" alt="2022 logo with register here text."></a>
                 </div>
             </div>
         </div>
