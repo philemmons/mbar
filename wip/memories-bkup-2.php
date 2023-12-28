@@ -10,7 +10,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.php" aria-current="page">Home</a>
                 </li>
-                <li class="nav-item dropdown-center">
+                <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
@@ -20,7 +20,7 @@
                         <a class="dropdown-item active" aria-current="page" href="memories.php">Memories<span class="visually-hidden">(current)</span></a>
                     </div>
                 </li>
-                <li class="nav-item dropdown-center">
+                <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
