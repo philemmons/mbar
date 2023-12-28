@@ -67,7 +67,7 @@
                     </div>
                </div>
 
-               <div class="col-sm-12 col-12 text-center px-3 py-4">
+               <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
                     </div>
@@ -81,7 +81,7 @@
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <h4 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h4>
-                         <p class="mb-6 h5 text-dark">BINGO!
+                         <p class="mb-6 h4 text-dark">BINGO!
                               <br>
                               "Fun-ds & Fellowship" Bingo Night Fundraiser
                               <br>
@@ -94,10 +94,9 @@
                               <strong>Speaker:</strong> Elena B
                               <br>
                               Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
-                              <br>
-                              <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                              <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
                          </p>
+                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
+                         <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
                     </div>
                </div>
           </div>
