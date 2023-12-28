@@ -8,7 +8,7 @@
           <div class="collapse.true navbar-collapse" id="collapsibleNavId">
                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                         <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Home
+                         <a class="nav-link" aria-current="page" href="index.php" aria-current="page">Home
                               <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
@@ -29,6 +29,7 @@
                          </div>
                     </li>
                     <li class="nav-item">
+                         <a class="nav-link active" href="logo_contest.php">Upcoming Events<span class="visually-hidden">(current)</span></a>
                          <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                     </li>
                     <li class="nav-item">
@@ -56,25 +57,48 @@
 
      <!-- Section One -->
      <section class="container shadow-wrap">
-          <div class="row justify-content-center mb-5">
-               <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Bingo Night!">
-                         <object type="application/pdf" data="../pdf/bingo-fundraiser-flyer.pdf" style="min-height:100vh;width:100%">
-                              <p>BINGO Night
-                                   <br>
-                                   When: January 26, 2024, 6-9pm
-                                   <br>
-                                   Where: Moose Lodge - 555 Canyon Del Rey Blvd, Del Rey Oaks CA
-                                   <br>
-                                   Speaker: Elena B
-                              </p>
-                         </object>
+          <div class="row justify-content-center py-4 mb-5">
+               <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                         <p class="mb-6 h5 text-dark">Check back for various events leading up to the 20243 conference!</p>
                     </div>
+               </div>
+
+               <div class="col-sm-12 col-12 text-center px-3">
+                    <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
                </div>
           </div>
      </section>
 
      <!-- Section Two -->
+     <section class="container shadow-wrap">
+          <div class="row justify-content-center mb-5">
+               <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                         <h4 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h4>
+                         <p>BINGO!
+                              <br>
+                              "Fun-ds & Fellowship" Bingo Night Fundraiser
+                              <br>
+                              Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                              <br>
+                              <strong>When:</strong> January 26, 2024, 6-9pm
+                              <br>
+                              <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
+                              <br>
+                              <strong>Speaker:</strong> Elena B
+                              <br>
+                              Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
+                              <br>
+                              <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
+                              <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
+                         </p>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Section Three -->
      <section class="container shadow-wrap">
           <div class="row justify-content-center mb-5">
                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
