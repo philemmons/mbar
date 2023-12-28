@@ -59,8 +59,13 @@
           <div class="row justify-content-center">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Bingo Night 01-26-24">
-                         <object type= "application/pdf" data= "../pdf/bingo-fundraiser-flyer.pdf" width= "100%" height= "800">
-                              Bingo Night
+                         <object type="application/pdf" data="../pdf/bingo-fundraiser-flyer.pdf" style="min-height:100vh;width:100%" >
+                              <p>When: January 26, 2024, 6-9pm
+                                   <br>
+                                   Where: Moose Lodge - 555 Canyon Del Rey Blvd, Del Rey Oaks CA
+                                   <br>
+                                   Speaker: Elena B
+                              </p>
                          </object>
                     </div>
                </div>
