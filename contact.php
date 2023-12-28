@@ -87,7 +87,7 @@
             if (isset($_POST['submit'])) {
                 $postData = $_POST;
 
-                // Validate form input fields 
+                // Validate form input fields
                 if (
                     !empty($_POST['contact-fn']) &&
                     !empty($_POST['contact-ln']) &&
@@ -108,12 +108,12 @@
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['contact-fn']) ? $_POST['contact-fn'] : '';
-                            $lastName = !empty($_POST['contact-ln']) ? $_POST['contact-ln'] : '';
-                            $email = !empty($_POST['contact-em']) ? $_POST['contact-em'] : '';
-                            $phone = !empty($_POST['contact-phone']) ? $_POST['contact-phone'] : '';
-                            $contactSubj = !empty($_POST['contact-subj']) ? $_POST['contact-subj'] : '';
-                            $contactMess = !empty($_POST['contact-ta']) ? $_POST['contact-ta'] : '';
+                            $firstName = !empty($_POST['contact-fn']) ? htmlspecialchars($_POST['contact-fn']) : '';
+                            $lastName = !empty($_POST['contact-ln']) ? htmlspecialchars($_POST['contact-ln']) : '';
+                            $email = !empty($_POST['contact-em']) ? htmlspecialchars($_POST['contact-em']) : '';
+                            $phone = !empty($_POST['contact-phone']) ? htmlspecialchars($_POST['contact-phone']) : '';
+                            $contactSubj = !empty($_POST['contact-subj']) ? htmlspecialchars($_POST['contact-subj']) : '';
+                            $contactMess = !empty($_POST['contact-ta']) ? htmlspecialchars($_POST['contact-ta']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;

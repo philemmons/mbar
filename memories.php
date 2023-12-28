@@ -110,11 +110,11 @@
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['fname']) ? $_POST['fname'] : '';
-                            $lastName = !empty($_POST['lname']) ? $_POST['lname'] : '';
-                            $email = !empty($_POST['mem-email']) ? $_POST['mem-email'] : '';
-                            $messageTitle = !empty($_POST['mem-title']) ? $_POST['mem-title'] : '';
-                            $mainMessage = !empty($_POST['mem-ta']) ? $_POST['mem-ta'] : '';
+                            $firstName = !empty($_POST['fname']) ? htmlspecialchars($_POST['fname']) : '';
+                            $lastName = !empty($_POST['lname']) ? htmlspecialchars($_POST['lname']) : '';
+                            $email = !empty($_POST['mem-email']) ? htmlspecialchars($_POST['mem-email']) : '';
+                            $messageTitle = !empty($_POST['mem-title']) ? htmlspecialchars($_POST['mem-title']) : '';
+                            $mainMessage = !empty($_POST['mem-ta']) ? htmlspecialchars($_POST['mem-ta']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;

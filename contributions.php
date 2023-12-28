@@ -107,10 +107,10 @@
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $email = !empty($_POST['hand-em']) ? $_POST['hand-em'] : '';
-                            $phone = !empty($_POST['hand-ph']) ? $_POST['hand-ph'] : '';
-                            $amount = !empty($_POST['hand-am']) ? $_POST['hand-am'] : '';
-                            $mainMessage = !empty($_POST['hand-ta']) ? $_POST['hand-ta'] : '';
+                            $email = !empty($_POST['hand-em']) ? htmlspecialchars($_POST['hand-em']) : '';
+                            $phone = !empty($_POST['hand-ph']) ? htmlspecialchars($_POST['hand-ph']) : '';
+                            $amount = !empty($_POST['hand-am']) ? htmlspecialchars($_POST['hand-am']) : '';
+                            $mainMessage = !empty($_POST['hand-ta']) ? htmlspecialchars($_POST['hand-ta']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
