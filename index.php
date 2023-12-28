@@ -64,12 +64,12 @@
     <!-- Section One -->
     <section class="container">
         <div class="row justify-content-center mb-5">
-            <div class="col-sm-6 mb-3 mb-sm-0 px-4">
+            <div class="col-lg-6 mb-3 mb-sm-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
                                 <i class="bi bi-trophy" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship" Fundraiser </a></h5>
-                            <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                            <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo!
                                 <br>
                                 <strong>When:</strong> January 26, 2024, 6-9pm
                             </p>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 mb-3 mb-sm-0 px-4">
+            <div class="col-slg-6 mb-3 mb-sm-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
