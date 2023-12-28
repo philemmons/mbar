@@ -11,7 +11,7 @@
                     <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Home
                         <span class="visually-hidden">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown-center">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
@@ -21,7 +21,7 @@
                         <a class="dropdown-item" href="memories.php">Memories</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown-center">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
