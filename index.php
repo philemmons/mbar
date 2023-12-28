@@ -84,7 +84,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-door-open" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h5>
-                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery.In other words, you get what you give.
+                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
                             </p>
                     </div>
                     <div class="card-footer text-center">
