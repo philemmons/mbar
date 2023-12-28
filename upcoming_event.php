@@ -78,6 +78,20 @@
      <!-- Section Two -->
      <section class="container shadow-wrap">
           <div class="row justify-content-center mb-5">
+               <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
+                         <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                         </h3>
+                         <p class="mb-6 h4 text-dark">August 31st and September 1st</p>
+                         <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Section Three -->
+     <section class="container shadow-wrap">
+          <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <h4 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h4>
@@ -97,20 +111,6 @@
                          </p>
                          <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
                          <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
-                    </div>
-               </div>
-          </div>
-     </section>
-
-     <!-- Section Three -->
-     <section class="container shadow-wrap">
-          <div class="row justify-content-center mb-5">
-               <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                         <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                         </h3>
-                         <p class="mb-6 h4 text-dark">August 31st and September 1st</p>
-                         <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
                     </div>
                </div>
           </div>
