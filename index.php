@@ -65,19 +65,36 @@
     <section class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-6 mb-3 mb-sm-0 px-4">
-                <div class="card">
-                    <div class="card-body text-center shadow-wrap">
-                        <h5 class="card-title">Bingo Night - 'Fun-ds & Fellowship'</h5>
-
-                        <a href="upcoming_event.php" class="btn btn-primary">View Our Upcoming Event</a>
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <h6 class="card-title"><a href="upcoming_event.php">
+                                <i class="bi bi-trophy" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night</a></h5>
+                            <p class="card-text">"Fun-ds & Fellowship" Fundraiser - Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                                <br>
+                                <strong>When:</strong> January 26, 2024, 6-9pm
+                                <br>
+                                <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
+                                <br>
+                                <strong>Speaker:</strong> Elena B
+                                <br>
+                                Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
+                            </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">View the flyer here</a></small>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 mb-3 mb-sm-0 px-4">
-                <div class="card">
-                    <div class="card-body text-center shadow-wrap">
-                        <h5 class="card-title">We are looking for volunteers</h5>
-                        <a href="contact.php" class="btn btn-primary">Let us know if you are interested</a>
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <h6 class="card-title"><a href="conference-2024.php">
+                                <i class="bi bi-door-open" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h5>
+                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery.In other words, you get what you give.
+                            </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Let us know if you are interested</a></small>
                     </div>
                 </div>
             </div>
