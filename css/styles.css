@@ -213,6 +213,10 @@ nav {
     background-image: url("../images/accessibility_laptop_workflow.png");
 }
 
+.bg-img-upcoming {
+    background-image: url("../images/event-banner.png");
+}
+
 .shadow-wrap {
     box-shadow: 0 0 8px 2px var(--color-8);
 }
