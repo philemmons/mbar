@@ -60,7 +60,7 @@
 
      <!-- Section One -->
      <section class="container shadow-wrap">
-          <div class="row justify-content-center py-4 mb-5">
+          <div class="row justify-content-center mb-5">
                <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <p class="mb-6 h5 text-dark">Check back for various events leading up to the 2024 Conference!</p>
@@ -94,19 +94,19 @@
           <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h4 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h4>
-                         <p class="mb-6 h4 text-dark">BINGO!
+                         <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h3>
+                         <p class="mb-6 h5 text-dark">BINGO!
                               <br>
                               "Fun-ds & Fellowship" Bingo Night Fundraiser
                               <br>
                               Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
-                              <br>
+                              <br><br>
                               <strong>When:</strong> January 26, 2024, 6-9pm
                               <br>
                               <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
                               <br>
                               <strong>Speaker:</strong> Elena B
-                              <br>
+                              <br><br>
                               Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
                          </p>
                          <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">

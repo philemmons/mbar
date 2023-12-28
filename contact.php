@@ -27,9 +27,13 @@
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                </li>
+                <li class="nav-item dropdown">
+                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownId">
+                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                         </div>
+                    </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="contact.php">Contact<span class="visually-hidden">(current)</span></a>
                 </li>
