@@ -28,12 +28,12 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                         </div>
-                    </li>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
@@ -378,7 +378,7 @@
                     <h3 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h3>
                     <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
                     </p>
-                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target= "_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                     </p>
                     <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
                     </p>

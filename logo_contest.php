@@ -28,12 +28,12 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                              <a class="nav-link active" href="logo_contest.php">Logo Contest<span class="visually-hidden">(current)</span></a>
-                         </div>
-                    </li>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                        <a class="nav-link active" href="logo_contest.php">Logo Contest<span class="visually-hidden">(current)</span></a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
@@ -80,7 +80,7 @@
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <p class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
-                    We hope you enjoyed this contest as much as we did.</p>
+                        We hope you enjoyed this contest as much as we did.</p>
                 </div>
             </div>
         </div>

@@ -29,12 +29,12 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                         </div>
-                    </li>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
@@ -67,9 +67,9 @@
             <div class="col-sm-6 mb-3 mb-sm-0 px-4">
                 <div class="card">
                     <div class="card-body text-center shadow-wrap">
-                        <h5 class="card-title">MBAR Conference Archives</h5>
+                        <h5 class="card-title">Bingo Night - 'Fun-ds & Fellowship'</h5>
 
-                        <a href="conference-2022.php" class="btn btn-primary">View Our 2022 Conference</a>
+                        <a href="upcoming_event.php" class="btn btn-primary">View Our Upcoming Event</a>
                     </div>
                 </div>
             </div>

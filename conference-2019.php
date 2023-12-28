@@ -28,12 +28,12 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                         </div>
-                    </li>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
@@ -62,7 +62,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center">Conference Services: KEEP IT SIMPLE</h3>
+                    <h3 class="text-center">Conference Services: KEEP IT SIMPLE</h3>
                     <br>
                     <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                     </p>
@@ -83,12 +83,12 @@
         </div>
     </section>
 
-  <!-- Section Two -->
+    <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Friday, August 30, 2019</h3>
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Friday, August 30, 2019</h3>
                     <br>
                     STEINBECK BALLROOM 2 and 3 (Up the Escalator)
                     <br><br>
@@ -213,12 +213,12 @@
         </div>
     </section>
 
-  <!-- Section Three -->
+    <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Saturday, August 31, 2019</h3>
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Saturday, August 31, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>From 8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -367,12 +367,12 @@
         </div>
     </section>
 
-  <!-- Section Four -->
+    <!-- Section Four -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class= "text-center"><i class="bi bi-calendar2-check-fill"> </i>Sunday, September 1, 2019</h3>
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Sunday, September 1, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
                     <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
@@ -516,7 +516,7 @@
                     <h3 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h3>
                     <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
                     </p>
-                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target= "_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                     </p>
                     <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
                     </p>
