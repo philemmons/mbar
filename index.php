@@ -68,20 +68,14 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night</a></h5>
-                            <p class="card-text">"Fun-ds & Fellowship" Fundraiser - Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                                <i class="bi bi-trophy" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship" Fundraiser </a></h5>
+                            <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
                                 <br>
                                 <strong>When:</strong> January 26, 2024, 6-9pm
-                                <br>
-                                <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
-                                <br>
-                                <strong>Speaker:</strong> Elena B
-                                <br>
-                                Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
                             </p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">View the flyer here</a></small>
+                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">View more info here</a></small>
                     </div>
                 </div>
             </div>
