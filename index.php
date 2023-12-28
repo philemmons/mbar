@@ -170,7 +170,7 @@
                     <div class="card-body">
                         <h6 class="card-title"><a href="contribution.php">
                                 <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></h5>
-                            <p class="card-text">In keeping with A.A.'s Seventh Tradition of self-support, we accept contributions only from A.A. members.</p>
+                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="contribution.php" class="btn btn-primary">Helping Hands</a></small>
@@ -187,7 +187,7 @@
                 <h3>ABOUT MONTEREY BAY AREA ROUNDUP</h3>
                 <p><strong>ALCOHOLICS ANONYMOUS</strong> is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.
                     <br><br>
-                    <strong>What is Al-Anon?</strong>
+                    <strong>WHAT IS AL-ANON?</strong>
                     Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery. <br><br>
                     Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
                     <br><br>

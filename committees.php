@@ -82,7 +82,7 @@
                     </tbody>
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4" scope="col">AA Steering Committee</th>
+                            <th colspan="4" scope="col">A.A. Steering Committee</th>
                         </tr>
                     </thead>
 
