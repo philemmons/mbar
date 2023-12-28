@@ -59,7 +59,8 @@
           <div class="row justify-content-center">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Bingo Night 01-26-24">
-                         <object type= "application/pdf" data= "../pdf/bingo-fundraiser-flyer.pdf" width= "100%" height= "100%">
+                         <object type= "application/pdf" data= "../pdf/bingo-fundraiser-flyer.pdf" width= "100%" height= "800">
+                              Bingo Night
                          </object>
                     </div>
                </div>
