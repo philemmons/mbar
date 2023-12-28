@@ -68,7 +68,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship"</a></h5>
+                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship"</a></h5>
                             <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo!
                                 <br>
                                 <strong>When:</strong> January 26, 2024, 6-9pm
@@ -83,7 +83,7 @@
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
-                                <i class="bi bi-door-open" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h5>
+                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h5>
                             <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
                             </p>
                     </div>
