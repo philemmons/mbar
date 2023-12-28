@@ -28,9 +28,12 @@
                               <a class="dropdown-item" href="committees.php">Committees</a>
                          </div>
                     </li>
-                    <li class="nav-item">
-                         <a class="nav-link active" href="logo_contest.php">Upcoming Events<span class="visually-hidden">(current)</span></a>
-                         <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    <li class="nav-item dropdown">
+                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownId">
+                              <a class="nav-link active" href="upcoming_event.php">Bingo Night<span class="visually-hidden">(current)</span></a>
+                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                         </div>
                     </li>
                     <li class="nav-item">
                          <a class="nav-link" href="contact.php">Contact</a>
@@ -60,12 +63,14 @@
           <div class="row justify-content-center py-4 mb-5">
                <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <p class="mb-6 h5 text-dark">Check back for various events leading up to the 20243 conference!</p>
+                         <p class="mb-6 h5 text-dark">Check back for various events leading up to the 2024 Conference!</p>
                     </div>
                </div>
 
-               <div class="col-sm-12 col-12 text-center px-3">
-                    <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
+               <div class="col-sm-12 col-12 text-center px-3 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                         <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
+                    </div>
                </div>
           </div>
      </section>
@@ -76,7 +81,7 @@
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <h4 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h4>
-                         <p>BINGO!
+                         <p class="mb-6 h5 text-dark">BINGO!
                               <br>
                               "Fun-ds & Fellowship" Bingo Night Fundraiser
                               <br>
