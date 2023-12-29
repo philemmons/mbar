@@ -73,8 +73,9 @@
 			</div>
 		</div>
 
-		<div class="row justify-content-center" id="top">
-			<div class="col-xl-10 col-lg-10 col-md-12 py-4" id="cont">
+		<div class="row justify-content-center mb-5">
+			<div class="col-xl-10 col-lg-10 col-md-12 py-4">
+			<div class="p-3 text-center text-bg-light hero-text-border" title="">
 				<ul class="level-0">
 					<li class="lhead">https:/ </li>
 					<li>
