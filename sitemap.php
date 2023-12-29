@@ -172,13 +172,13 @@
 				<div id="top">
 					<div class="row py-4">
 						<div class="col-6">
-							<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
+							<h5><span><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a></span>
 							</h5>
 						</div>
 						<div class="col-6">
-							<h5><span>Last updated: 2023, December 28
-									<br>
-									Total pages: 18</span>
+							<h5>Last updated: 2023, December 28
+								<br>
+								Total pages: 18
 							</h5>
 						</div>
 					</div>
