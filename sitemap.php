@@ -87,18 +87,18 @@
 			z-index: 1;
 		}
 
-		h3 {
+		h5 {
 			margin: auto;
 			padding: 10px;
 			max-width: 600px;
 			color: #666;
 		}
 
-		h3 span {
+		h5 span {
 			float: right;
 		}
 
-		h3 a {
+		h5 a {
 			font-weight: normal;
 			display: block;
 		}
@@ -169,13 +169,12 @@
 	<section class="container shadow-wrap">
 		<div class="row justify-content-center mb-5">
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4">
-
 				<div id="top">
-					<h3>
-						<span>Last updated: 2023, December 28<br>
+					<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
+						<span>Last updated: 2023, December 28
+							<br>
 							Total pages: 18</span>
-						<a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
-					</h3>
+					</h5>
 				</div>
 				<div id="cont">
 					<ul class="level-0">
