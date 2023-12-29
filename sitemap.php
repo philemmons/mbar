@@ -170,11 +170,18 @@
 		<div class="row justify-content-center mb-5">
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4">
 				<div id="top">
-					<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
-						<span>Last updated: 2023, December 28
-							<br>
-							Total pages: 18</span>
-					</h5>
+					<div class="row py-4">
+						<div class="col-6">
+							<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
+							</h5>
+						</div>
+						<div class="col-6">
+							<h5><span>Last updated: 2023, December 28
+									<br>
+									Total pages: 18</span>
+							</h5>
+						</div>
+					</div>
 				</div>
 				<div id="cont">
 					<ul class="level-0">
