@@ -49,9 +49,9 @@
 <main>
 	<!-- Hero Section -->
 	<section class="container shadow-wrap">
-		<div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-sitemap" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
+		<div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-sitemap" title="Virtual network on a navy blue background.">
 			<div class="col-xl-7 col-lg-7 col-md-12 py-5">
-				<div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
+				<div class="p-3 text-center text-bg-light hero-text-border" title="HTML Site Map - assist with indexing">
 					<h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">montereybayarearoundup.org<br>HTML Site Map</span>
 					</h1>
 				</div>
@@ -59,123 +59,16 @@
 		</div>
 	</section>
 
-
-	<style type="text/css">
-		body {
-			background-color: #fff;
-			font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-			margin: 0;
-		}
-
-		#top {
-
-			background-color: #b1d1e8;
-			font-size: 16px;
-			padding-bottom: 40px;
-		}
-
-		nav {
-			font-size: 24px;
-			margin: 0px 30px 0px;
-			border-bottom-left-radius: 6px;
-			border-bottom-right-radius: 6px;
-			background-color: #f3f3f3;
-			color: #666;
-			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-			padding: 10px 0;
-			text-align: center;
-			z-index: 1;
-		}
-
-		h5 {
-			margin: auto;
-			padding: 10px;
-			max-width: 600px;
-			color: #666;
-		}
-
-		h5 span {
-			float: right;
-		}
-
-		h5 a {
-			font-weight: normal;
-			display: block;
-		}
-
-
-		#cont {
-			position: relative;
-			border-radius: 6px;
-			box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
-			background: #f3f3f3;
-
-			margin: -20px 30px 0px 30px;
-			padding: 20px;
-		}
-
-		.lpage>a:link,
-		.lpage>a:visited {
-			color: #0180AF;
-			text-decoration: underline;
-		}
-
-		.lpage>a:hover {
-			color: #666;
-		}
-
-
-		#footer1 {
-			padding: 1.5rem;
-			text-align: center;
-		}
-
-		ul {
-			margin: 0px;
-
-			padding: 0px;
-			list-style: none;
-		}
-
-		li {
-			margin: 0px;
-		}
-
-		li ul {
-			margin-left: 20px;
-		}
-
-		.lhead {
-			background: #ddd;
-			padding: 10px;
-			margin: 10px 0px;
-		}
-
-		.lcount {
-			padding: 0px 10px;
-		}
-
-		.lpage {
-			border-bottom: #ddd 1px solid;
-			padding: 5px;
-		}
-
-		.last-page {
-			border: none;
-		}
-	</style>
-
 	<section class="container shadow-wrap">
 		<div class="row justify-content-center mb-5">
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4">
 				<div id="top">
 					<div class="row py-4">
-						<div class="col-6">
-							<h5><span><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a></span>
+						<div class="col-md-6">
+							<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
 							</h5>
 						</div>
-						<div class="col-6">
+						<div class="col-md-6">
 							<h5>Last updated: 2023, December 28
 								<br>
 								Total pages: 18
@@ -217,7 +110,7 @@
 					</ul>
 					<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
 				</div>
-				<div id="footer1">
+				<div id="sitemap-footer">
 					Page created with <a target="_blank" href="https://www.xml-sitemaps.com">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2023 XML-Sitemaps.com
 				</div>
 			</div>

@@ -322,4 +322,38 @@ audio {
   color: var(--success-color);
 }
 
-/**** committee table ****/
+/**** sitemap ****/
+
+.lhead {
+  background: #ddd;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.lcount {
+  padding: 0px 10px;
+}
+
+.lpage {
+  border-bottom: #ddd 1px solid;
+  padding: 5px;
+}
+
+.last-page {
+  border: none;
+}
+
+.lpage > a:link,
+.lpage > a:visited {
+  color: #0180af;
+  text-decoration: underline;
+}
+
+.lpage > a:hover {
+  color: #666;
+}
+
+#sitemap-footer{
+  padding: 1.5rem;
+  text-align: center;
+}
