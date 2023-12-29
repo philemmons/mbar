@@ -7,7 +7,7 @@ if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
   header("Location:admin.php");
 }
 
-include_once 'header.html';
+include_once 'header.inc';
 include_once 'php/sourceFinal.php';
 
 $dbConn = getDBConnection();
