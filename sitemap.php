@@ -52,17 +52,17 @@
 		<div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-sitemap" title="Virtual network on a navy blue background.">
 			<div class="col-xl-7 col-lg-7 col-md-12 py-5">
 				<div class="p-3 text-center text-bg-light hero-text-border" title="HTML Site Map - assist with indexing">
-					<h3 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">montereybayarearoundup.org<br>HTML Site Map</span>
-					</h3>
+					<h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">HTML Site Map</span>
+					</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="container shadow-wrap">
-		<div class="row justify-content-center mb-5" id="top">
+		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
+				<h5 class= "float-end"><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
 				</h5>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
