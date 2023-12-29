@@ -60,18 +60,16 @@
 	</section>
 
 	<section class="container shadow-wrap">
-		<div class="row justify-content-center mb-5">
-			<div id="top">
-				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
-					</h5>
-				</div>
-				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<h5>Last updated: 2023, December 28
-						<br>
-						Total pages: 18
-					</h5>
-				</div>
+		<div class="row justify-content-center mb-5" id="top">
+			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+				<h5><a href="http://mbar.philemmons.dev">mbar.philemmons.dev Homepage</a>
+				</h5>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+				<h5>Last updated: 2023, December 28
+					<br>
+					Total pages: 18
+				</h5>
 			</div>
 		</div>
 
