@@ -212,6 +212,10 @@ nav {
   background-image: url("../images/event-banner.png");
 }
 
+.bg-img-sitemap {
+  background-image: url("../images/sitemap-banner.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }
