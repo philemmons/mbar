@@ -348,5 +348,5 @@ audio {
 }
 
 .list-group {
-  border-radius: var(--bs-border-radius-sm);
+  border-radius: 2rem 4rem !important;
 }
