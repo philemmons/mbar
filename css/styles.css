@@ -327,12 +327,12 @@ audio {
 .lhead,
 .lhead>li {
   background: #ddd;
-  border-radius: 2rem 4rem !important;
+  border-radius: 1rem 3rem !important;
   margin: .15rem;
 }
 
 ul.level-1>li.ms-5{
-  border-radius: 2rem 4rem !important;
+  border-radius: 1rem 3rem !important;
   margin: .15rem;
 }
 
@@ -344,11 +344,11 @@ ul.level-1>li.ms-5{
 
 #top {
   background-color: #99c4e2;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
-.olt-3{ /* over lap top */
-  margin-top: -3rem;
+.olt-5{ /* over lap top */
+  margin-top: -5rem;
 }
 
 .no-bullet{

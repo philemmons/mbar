@@ -107,7 +107,7 @@
 					<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
 
 					<div id="sitemap-footer">
-						Page created with <a target="_blank" href="https://www.xml-sitemaps.com">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2023 XML-Sitemaps.com
+						Page created with <a href="https://www.xml-sitemaps.com" class= "bb-link" target="_blank">Google XML sitemap and html sitemaps generator</a> | Copyright &copy; 2005-2023 XML-Sitemaps.com
 					</div>
 				</div>
 			</div>
