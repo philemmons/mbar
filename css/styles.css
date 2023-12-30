@@ -324,8 +324,10 @@ audio {
 
 /**** sitemap ****/
 
-.lhead {
+.lhead,
+.lhead>li {
   background: #ddd;
+  border-radius: 2rem 4rem;
 }
 
 
@@ -345,8 +347,4 @@ audio {
 
 .no-bullet{
   list-style-type: none;
-}
-
-.list-group {
-  border-radius: 2rem 4rem !important;
 }
