@@ -356,10 +356,10 @@
                         </div>
 
 
-                        <p> À la carte Meal Options</p>
+                        <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
 
                         <div class="col-md-6">
-                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00 p.m. - $25</label>
+                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value= "yes" >Yes, please!</option>
@@ -373,8 +373,8 @@
 
 
                         <div class="col-md-6">
-                            <label for="reg-fs" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00 - 9:30 a.m.) - $10</label>
-                            <select class="form-select" name="reg-fs" id="reg-fs" required>
+                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
+                            <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value= "yes" >Yes, please!</option>
                                 <option value= "no" >No thank you</option>
@@ -387,8 +387,8 @@
 
 
                         <div class="col-md-6">
-                            <label for="reg-fs" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
-                            <select class="form-select" name="reg-fs" id="reg-fs" required>
+                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                            <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value= "yes" >Yes, please!</option>
                                 <option value= "no" >No thank you</option>
@@ -402,12 +402,12 @@
                         <div class="col-md-6">
                             <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-                                <label class="form-check-label" for="validationFormCheck2">Pre-registration</label>
+                                <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-                                <label class="form-check-label" for="validationFormCheck3">Registration</label>
+                                <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
                                 <div class="invalid-feedback">
                                 Please select one.
                                 </div>
@@ -433,7 +433,7 @@
 
 
                         <div class="col-md-6">
-                            <label for="reg-pm" class="form-label">Payment Method</label>
+                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid<strong> - Payment options below</label>
                             <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="venmo" >Venmo</option>
@@ -450,7 +450,7 @@
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    I agree to terms of service AND understand registration is incomplete until paid.
+                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.<strong>
                                 </label>
                                 <div class="invalid-feedback">
                                     You must agree before submitting.
