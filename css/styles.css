@@ -331,6 +331,11 @@ audio {
   margin: .15rem;
 }
 
+li>.ms-5{
+  border-radius: 2rem 4rem !important;
+  margin: .15rem;
+}
+
 
 #sitemap-footer{
   padding: 1.5rem;
