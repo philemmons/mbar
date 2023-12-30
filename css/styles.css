@@ -326,6 +326,7 @@ audio {
 
 .lhead {
   background: #ddd;
+  list-style-type: none;
 }
 
 
