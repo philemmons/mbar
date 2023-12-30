@@ -77,10 +77,10 @@
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-3">
 				<div class="p-3 text-bg-light hero-text-border" title="">
 					<ul class="level-0 list-group ms-5">
-								<li class= "lhead no-bullet">/</li>
+								<li class= "lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
 								<li>
 									<ul class="level-1 list-group">
-										<li class= "lhead">mbar.philemmons.dev/ <span class="lcount">18 pages</span></li>
+										<li class= "lhead no-bullet list-group-item list-group-item-action list-group-item-dark">mbar.philemmons.dev/ <span class="lcount">18 pages</span></li>
 										<li class= "ms-5"><a href="https://mbar.philemmons.dev/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
 										<li class= "ms-5"><a href="https://mbar.philemmons.dev/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
 										<li class= "ms-5"><a href="https://mbar.philemmons.dev/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
