@@ -326,7 +326,6 @@ audio {
 
 .lhead {
   background: #ddd;
-  list-style-type: none;
 }
 
 
@@ -344,3 +343,6 @@ audio {
   margin-top: -3rem;
 }
 
+.no-bullet{
+  list-style-type: none;
+}

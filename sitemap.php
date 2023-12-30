@@ -77,7 +77,7 @@
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-3">
 				<div class="p-3 text-bg-light hero-text-border" title="">
 					<ul class="level-0 list-group ms-5">
-								<li class= "lhead">/</li>
+								<li class= "lhead no-bullet">/</li>
 								<li>
 									<ul class="level-1 list-group">
 										<li class= "lhead">mbar.philemmons.dev/ <span class="lcount">18 pages</span></li>
