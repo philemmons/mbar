@@ -339,10 +339,10 @@ audio {
   padding-bottom: 3rem;
 }
 
-.level-0>ul,
-.level-1>ul,
-.level-2>ul,
-.level-2>ul>li{
+.level-0,
+.level-1,
+.level-2,
+.level-2>li{
   list-style-type: none;
   padding: 1rem;
   color: var(--color-7);
