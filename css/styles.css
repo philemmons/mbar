@@ -326,16 +326,10 @@ audio {
 
 .lhead {
   background: #ddd;
-  padding: 10px;
-  margin: 10px 0px;
 }
 
 .lcount {
   padding: 0px 10px;
-}
-
-.lpage {
-  margin-left: 1rem;
 }
 
 .last-page {
