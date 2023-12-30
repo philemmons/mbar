@@ -331,7 +331,7 @@ audio {
   margin: .15rem;
 }
 
-li>.ms-5{
+.level-1>.lhead>li{
   border-radius: 2rem 4rem !important;
   margin: .15rem;
 }
