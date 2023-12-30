@@ -74,34 +74,31 @@
 		</div>
 
 		<div class="row justify-content-center mb-5">
-			<div class="col-xl-10 col-lg-10 col-md-12 py-4">
+			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-3">
 				<div class="p-3 text-bg-light hero-text-border" title="">
-					<ul class="level-0">
-						<li>https:/</li>
-						<li>
-							<ul class="level-1">
+					<ul class="level-0 list-group">
 								<li>/</li>
 								<li>
-									<ul class="level-2">
+									<ul class="level-1 list-group">
 										<li>mbar.philemmons.dev/ <span class="lcount">18 pages</span></li>
-										<li><a href="https://mbar.philemmons.dev/" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
-										<li><a href="https://mbar.philemmons.dev/index.php" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
-										<li><a href="https://mbar.philemmons.dev/conference-2024.php" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
-										<li><a href="https://mbar.philemmons.dev/registration.php" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
-										<li><a href="https://mbar.philemmons.dev/activities.php" title="Monterey Bay Area | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
-										<li><a href="https://mbar.philemmons.dev/mbar_history.php" title="Monterey Bay Area | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
-										<li><a href="https://mbar.philemmons.dev/memories.php" title="Monterey Bay Area | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
-										<li><a href="https://mbar.philemmons.dev/meetings.php" title="Monterey Bay Area | Meetings">Monterey Bay Area Roundup 2024 | Meetings</a></li>
-										<li><a href="https://mbar.philemmons.dev/committees.php" title="Monterey Bay Area | Committees">Monterey Bay Area Roundup 2024 | Committees</a></li>
-										<li><a href="https://mbar.philemmons.dev/upcoming_event.php" title="Monterey Bay Area | Upcoming Events">Monterey Bay Area Roundup 2024 | Upcoming Events</a></li>
-										<li><a href="https://mbar.philemmons.dev/logo_contest.php" title="Monterey Bay Area | Logo Contest">Monterey Bay Area Roundup 2024 | Logo Contest</a></li>
-										<li><a href="https://mbar.philemmons.dev/contact.php" title="Monterey Bay Area | Contact Us">Monterey Bay Area Roundup 2024 | Contact Us</a></li>
-										<li><a href="https://mbar.philemmons.dev/contributions.php" title="Monterey Bay Area | Contributions">Monterey Bay Area Roundup 2024 | Contributions</a></li>
-										<li><a href="https://mbar.philemmons.dev/conference-2022.php" title="Monterey Bay Area | Archive Conference 2022">Monterey Bay Area Roundup 2024 | Archive Conference 2022</a></li>
-										<li><a href="https://mbar.philemmons.dev/accessibility.php" title="Monterey Bay Area | Accessibility">Monterey Bay Area Roundup 2024 | Accessibility</a></li>
-										<li><a href="https://mbar.philemmons.dev/privacy-policy.php" title="Monterey Bay Area | Privacy Policy">Monterey Bay Area Roundup 2024 | Privacy Policy</a></li>
-										<li><a href="https://mbar.philemmons.dev/sitemap.php" title="Monterey Bay Area | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
-										<li><a href="https://mbar.philemmons.dev/conference-2019.php" title="Monterey Bay Area | Archive Conference 2019">Monterey Bay Area Roundup 2024 | Archive Conference 2019</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/registration.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/activities.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/mbar_history.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/memories.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/meetings.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Meetings">Monterey Bay Area Roundup 2024 | Meetings</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/committees.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Committees">Monterey Bay Area Roundup 2024 | Committees</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/upcoming_event.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Upcoming Events">Monterey Bay Area Roundup 2024 | Upcoming Events</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/logo_contest.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Logo Contest">Monterey Bay Area Roundup 2024 | Logo Contest</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/contact.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contact Us">Monterey Bay Area Roundup 2024 | Contact Us</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/contributions.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contributions">Monterey Bay Area Roundup 2024 | Contributions</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/conference-2022.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Archive Conference 2022">Monterey Bay Area Roundup 2024 | Archive Conference 2022</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/accessibility.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Accessibility">Monterey Bay Area Roundup 2024 | Accessibility</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/privacy-policy.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Privacy Policy">Monterey Bay Area Roundup 2024 | Privacy Policy</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/sitemap.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
+										<li class= "ms-5"><a href="https://mbar.philemmons.dev/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Archive Conference 2019">Monterey Bay Area Roundup 2024 | Archive Conference 2019</a></li>
 									</ul>
 								</li>
 							</ul>
