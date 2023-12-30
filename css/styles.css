@@ -335,22 +335,11 @@ audio {
 }
 
 .lpage {
-  border-bottom: #ddd 1px solid;
-  padding: 5px;
+  margin-left: 1rem;
 }
 
 .last-page {
   border: none;
-}
-
-.lpage > a:link,
-.lpage > a:visited {
-  color: #0180af;
-  text-decoration: underline;
-}
-
-.lpage > a:hover {
-  color: #666;
 }
 
 #sitemap-footer{
@@ -360,17 +349,6 @@ audio {
 
 #top {
   background-color: #99c4e2;
-  font-size: 16px;
-  padding-bottom: 40px;
+  padding-bottom: 3rem;
 }
-
-#cont {
-  position: relative;
-  border-radius: 6px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  background: #f3f3f3;
-  margin: -20px 30px 0px 30px;
-  
-}
-
 
