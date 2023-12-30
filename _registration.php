@@ -62,12 +62,352 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div id="register-now"></div>
-            <div class="col-xl-8 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <div style="height: 50rem;">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" id="reg-form"  title= "2024 MBAR registration form through Google forms.">Loading…</iframe>
+            <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care.<br>We really do.</span>
+                        </h4>
+                </div>
+            </div>
+
+            <?php
+
+            /**
+             * https://www.codexworld.com/new-google-recaptcha-with-php/
+             */
+
+            // Google reCAPTCHA API keys settings 
+            $secretKey  = getenv('g-secret-key');
+
+            // Email settings 
+            $recipientEmail = getenv('mbar-to-email');
+
+            // If the form is submitted 
+            $postData = $statusMsg = '';
+            $status = 'error';
+
+            if (isset($_POST['submit'])) {
+                $postData = $_POST;
+
+                // Validate form input fields
+                if (
+                    !empty($_POST['register-fn']) &&
+                    !empty($_POST['register-ln']) &&
+                    !empty($_POST['register-em']) &&
+                    !empty($_POST['register-subj']) &&
+                    !empty($_POST['register-ta'])
+                ) {
+
+                    // Validate reCAPTCHA checkbox 
+                    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+
+                        // Verify the reCAPTCHA API response 
+                        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+
+                        // Decode JSON data of API response 
+                        $responseData = json_decode($verifyResponse);
+
+                        // If the reCAPTCHA API response is valid 
+                        if ($responseData->success) {
+                            // Retrieve value from the form input fields 
+                            $firstName = !empty($_POST['register-fn']) ? htmlspecialchars($_POST['register-fn']) : '';
+                            $lastName = !empty($_POST['register-ln']) ? htmlspecialchars($_POST['register-ln']) : '';
+                            $email = !empty($_POST['register-em']) ? htmlspecialchars($_POST['register-em']) : '';
+                            $phone = !empty($_POST['register-phone']) ? htmlspecialchars($_POST['register-phone']) : '';
+                            $registerSubj = !empty($_POST['register-subj']) ? htmlspecialchars($_POST['register-subj']) : '';
+                            $registerMess = !empty($_POST['register-ta']) ? htmlspecialchars($_POST['register-ta']) : '';
+
+                            // Send email notification to the site admin 
+                            $to = $recipientEmail;
+                            $subject = 'Contact Us Submitted';
+                            $htmlContent = " 
+                    <h4>Contact Us Form</h4> 
+                    <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
+                    <p><b>Email: </b>" . $email . "</p> 
+                    <p><b>Email: </b>" . $phone . "</p> 
+                    <p><b>Subject: </b>" . $contactSubj . "</p> 
+                    <p><b>Message: </b>" . $contactMess . "</p> 
+                ";
+
+                            // Always set content-type when sending HTML email 
+                            $headers = "MIME-Version: 1.0" . "\r\n";
+                            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                            // More headers 
+                            $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
+
+                            // Send email 
+                            mail($to, $subject, $htmlContent, $headers);
+
+                            $status = 'success';
+                            $statusMsg = 'Thank you, your message was sent, and please allow up to 48 hours to reply.';
+                            $postData = '';
+                        } else {
+                            $statusMsg = 'reCaptcha verification failed, please try again.';
+                        }
+                    } else {
+                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                    }
+                } else {
+                    $statusMsg = 'Please fill all the mandatory fields.';
+                }
+            }
+
+            ?>
+
+            <div id="register-us"></div>
+            <?php if (!empty($statusMsg)) { ?>
+                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
+                        <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
+                </div>
+            <?php } ?>
+
+            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                <div class="p-3 text-bg-light hero-text-border" title="We ar willing to listen.">
+
+                    <form action="-registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+
+                        <div class="col-md-6">
+                            <label for="register-fn" class="form-label">First Name</label>
+                            <input type="text" class="form-control" name="register-fn" id="register-fn" required>
+                            <div class="invalid-feedback">
+                                Please enter your first name.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="register-ln" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" name="register-ln" id=" register-ln" required>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="register-em" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="register-em" id="register-em" required>
+                            <div class="invalid-feedback">
+                                Please enter your email.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Fellowship</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>A.A.</option>
+                                <option>Al-Anon</option>
+                                <option>Double Winner</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your Fellowship
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-hg" class="form-label">Homegroup</label>
+                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <div class="invalid-feedback">
+                                Please enter a Homegroup(s)
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-phone" class="form-label">Phone(Optional)</label>
+                            <input type="tel" class="form-control" name="register-phone" id="register-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                            <div class="invalid-feedback">
+                                Please enter a valid phone number.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-hg" class="form-label">Address</label>
+                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <div class="invalid-feedback">
+                                Please enter a Homegroup
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-hg" class="form-label">City</label>
+                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <div class="invalid-feedback">
+                                Please enter a Homegroup
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">State</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>A.A.</option>
+                                <option>Al-Anon</option>
+                                <option>Double Winner</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-hg" class="form-label">Zipcode</label>
+                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <div class="invalid-feedback">
+                                Please enter a Homegroup
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-hg" class="form-label">City</label>
+                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <div class="invalid-feedback">
+                                Please enter a Homegroup
+                            </div>
+                        </div>
+
+<p>registration</p>
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck2">Pre-registration</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck3">Registration</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Yes, please!</option>
+                                <option>No thank you</option>
+                                <option>Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+
+                       <p> À la carte Meal Options</p>
+                  
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00 p.m. - $25</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Yes, please!</option>
+                                <option>No thank you</option>
+                                <option>Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+                 
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00 - 9:30 a.m.) - $10</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Yes, please!</option>
+                                <option>No thank you</option>
+                                <option>Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+        
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Yes, please!</option>
+                                <option>No thank you</option>
+                                <option>Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+                            
+
+
+                        <div class="col-md-6">
+                            <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck2">Pre-registration</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck3">Registration</label>
+                                <div class="invalid-feedback">More example invalid feedback text</div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Helping Hand Contribution</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>$50</option>
+                                <option>$45</option>
+                                <option>$35</option>
+                                <option>$45</option>
+                                <option>$35</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your Contribution.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="register-fs" class="form-label">Payment Method</label>
+                            <select class="form-select" id="register-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Venmo</option>
+                                <option>Cash</option>
+                                <option>Check</option>
+                                <option>PayPal</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12 text-center">
+                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
+                            <div class="invalid-feedback">
+                                <? echo $recaptcha_message ?>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -148,6 +488,32 @@
 
 </main>
 <?php include_once 'footer.inc' ?>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
+<script>
+    function resetFields() {
+        return confirm("Are you sure you want to reset all fields?");
+    }
+</script>
 </body>
 
 </html>
