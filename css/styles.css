@@ -346,3 +346,7 @@ audio {
 .no-bullet{
   list-style-type: none;
 }
+
+.list-group {
+  border-radius: var(--bs-border-radius-sm);
+}
