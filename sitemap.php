@@ -78,7 +78,7 @@
 				<div class="p-3 text-bg-light hero-text-border" title="">
 					<ul class="level-0 list-group ms-5">
 								<li class= "lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
-								<li>
+								<li class= "no-bullet">
 									<ul class="level-1 list-group">
 										<li class= "lhead no-bullet list-group-item list-group-item-action list-group-item-dark">mbar.philemmons.dev/ <span class="lcount">18 pages</span></li>
 										<li class= "ms-5"><a href="https://mbar.philemmons.dev/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
