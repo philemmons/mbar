@@ -63,9 +63,11 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care.<br>We really do.</span>
-                        </h4>
+                <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
+                    <h3 class="card-title text-center mb-3"><a href="#register-now">Welcome to MBAR 2024</a></h3>
+                    <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024 and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
+                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">We appreciate your commitment to attend! Your preregistration will assist with event planning and preparation. Thank you!
+                        </span></p>
                 </div>
             </div>
 
@@ -90,11 +92,11 @@
 
                 // Validate form input fields
                 if (
-                    !empty($_POST['register-fn']) &&
-                    !empty($_POST['register-ln']) &&
-                    !empty($_POST['register-em']) &&
-                    !empty($_POST['register-subj']) &&
-                    !empty($_POST['register-ta'])
+                    !empty($_POST['reg-fn']) &&
+                    !empty($_POST['reg-ln']) &&
+                    !empty($_POST['reg-em']) &&
+                    !empty($_POST['reg-subj']) &&
+                    !empty($_POST['reg-ta'])
                 ) {
 
                     // Validate reCAPTCHA checkbox 
@@ -109,12 +111,12 @@
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['register-fn']) ? htmlspecialchars($_POST['register-fn']) : '';
-                            $lastName = !empty($_POST['register-ln']) ? htmlspecialchars($_POST['register-ln']) : '';
-                            $email = !empty($_POST['register-em']) ? htmlspecialchars($_POST['register-em']) : '';
-                            $phone = !empty($_POST['register-phone']) ? htmlspecialchars($_POST['register-phone']) : '';
-                            $registerSubj = !empty($_POST['register-subj']) ? htmlspecialchars($_POST['register-subj']) : '';
-                            $registerMess = !empty($_POST['register-ta']) ? htmlspecialchars($_POST['register-ta']) : '';
+                            $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn']) : '';
+                            $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln']) : '';
+                            $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em']) : '';
+                            $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone']) : '';
+                            $registerSubj = !empty($_POST['reg-subj']) ? htmlspecialchars($_POST['reg-subj']) : '';
+                            $registerMess = !empty($_POST['reg-ta']) ? htmlspecialchars($_POST['reg-ta']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -165,35 +167,35 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We ar willing to listen.">
 
-                    <form action="-registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="regForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="register-fn" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="register-fn" id="register-fn" required>
+                            <label for="reg-fn" class="form-label">First Name</label>
+                            <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                             <div class="invalid-feedback">
                                 Please enter your first name.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="register-ln" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="register-ln" id=" register-ln" required>
+                            <label for="reg-ln" class="form-label">Last Name or Initial</label>
+                            <input type="text" class="form-control" name="reg-ln" id=" reg-ln" required>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Please enter your last name or initial.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="register-em" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="register-em" id="register-em" required>
+                            <label for="reg-em" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                             <div class="invalid-feedback">
                                 Please enter your email.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Fellowship</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-fs" class="form-label">Fellowship</label>
+                            <select class="form-select" name="reg-fs" id="reg-fs" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option>A.A.</option>
                                 <option>Al-Anon</option>
@@ -207,17 +209,17 @@
 
 
                         <div class="col-md-6">
-                            <label for="register-hg" class="form-label">Homegroup</label>
-                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
+                            <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                             <div class="invalid-feedback">
-                                Please enter a Homegroup(s)
+                                Please enter your Homegroup(s)
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-phone" class="form-label">Phone(Optional)</label>
-                            <input type="tel" class="form-control" name="register-phone" id="register-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                            <label for="reg-phone" class="form-label">Phone with Area Code (Optional)</label>
+                            <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
                                 Please enter a valid phone number.
                             </div>
@@ -225,127 +227,177 @@
 
 
                         <div class="col-md-6">
-                            <label for="register-hg" class="form-label">Address</label>
-                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <label for="reg-addr" class="form-label">Mailing Address(Optional)</label>
+                            <input type="text" class="form-control" name="reg-addr" id="reg-hg">
                             <div class="invalid-feedback">
-                                Please enter a Homegroup
+                                Please enter your address.
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-hg" class="form-label">City</label>
-                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <label for="reg-city" class="form-label">City (Optional)</label>
+                            <input type="text" class="form-control" name="reg-city" id="reg-hg" placeholder="Monterey">
                             <div class="invalid-feedback">
-                                Please enter a Homegroup
+                                Please enter a city.
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">State</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-state" class="form-label">State</label>
+                            <select class="form-select" name="reg-fs" id="reg-state">
                                 <option selected disabled value="">Choose...</option>
-                                <option>A.A.</option>
-                                <option>Al-Anon</option>
-                                <option>Double Winner</option>
-                                <option>Other</option>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AZ">AZ</option>
+                                <option value="AR">AR</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DE">DE</option>
+                                <option value="DC">DC</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="IA">IA</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="ME">ME</option>
+                                <option value="MD">MD</option>
+                                <option value="MA">MA</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MS">MS</option>
+                                <option value="MO">MO</option>
+                                <option value="MT">MT</option>
+                                <option value="NE">NE</option>
+                                <option value="NV">NV</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NY">NY</option>
+                                <option value="NC">NC</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WV">WV</option>
+                                <option value="WI">WI</option>
+                                <option value="WY">WY</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Please select your state.
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-hg" class="form-label">Zipcode</label>
-                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
+                            <label for="reg-zc" class="form-label">Zip Code</label>
+                            <input type="text" class="form-control" name="reg-zc" id="reg-zc">
                             <div class="invalid-feedback">
-                                Please enter a Homegroup
+                                Please enter your zip code.
                             </div>
                         </div>
 
 
-                        <div class="col-md-6">
-                            <label for="register-hg" class="form-label">City</label>
-                            <input type="text" class="form-control" name="register-hg" id="register-hg" required>
-                            <div class="invalid-feedback">
-                                Please enter a Homegroup
-                            </div>
-                        </div>
 
-<p>registration</p>
                         <div class="col-md-6">
+                            <p>Registration</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-                                <label class="form-check-label" for="validationFormCheck2">Pre-registration</label>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-                                <label class="form-check-label" for="validationFormCheck3">Registration</label>
-                                <div class="invalid-feedback">More example invalid feedback text</div>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
+                                <div class="invalid-feedback">
+                                    Please check one.
+                                </div>
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
-                            <select class="form-select" id="register-fs" required>
+                            <p>PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
+                            <ul>
+                                <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
+                                </li>
+                                <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
+                                </li>
+                                <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
+                                </li>
+                            </ul>
+
+                            <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
+                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option>Yes, please!</option>
-                                <option>No thank you</option>
-                                <option>Still deciding</option>
+                                <option value= "yes" >Yes, please!</option>
+                                <option value= "no" >No thank you</option>
+                                <option value= "undecided" disabled >Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Please select one.
                             </div>
                         </div>
 
 
-                       <p> À la carte Meal Options</p>
-                  
-                        <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00 p.m. - $25</label>
-                            <select class="form-select" id="register-fs" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option>Yes, please!</option>
-                                <option>No thank you</option>
-                                <option>Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please enter your last name.
-                            </div>
-                        </div>
-                 
+                        <p> À la carte Meal Options</p>
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00 - 9:30 a.m.) - $10</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00 p.m. - $25</label>
+                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option>Yes, please!</option>
-                                <option>No thank you</option>
-                                <option>Still deciding</option>
+                                <option value= "yes" >Yes, please!</option>
+                                <option value= "no" >No thank you</option>
+                                <option value= "undecided" >Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                            Please select one.
                             </div>
                         </div>
 
-        
+
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-fs" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00 - 9:30 a.m.) - $10</label>
+                            <select class="form-select" name="reg-fs" id="reg-fs" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option>Yes, please!</option>
-                                <option>No thank you</option>
-                                <option>Still deciding</option>
+                                <option value= "yes" >Yes, please!</option>
+                                <option value= "no" >No thank you</option>
+                                <option value= "undecided" >Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                            Please select one.
                             </div>
                         </div>
-                            
 
+
+                        <div class="col-md-6">
+                            <label for="reg-fs" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                            <select class="form-select" name="reg-fs" id="reg-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value= "yes" >Yes, please!</option>
+                                <option value= "no" >No thank you</option>
+                                <option value= "undecided" >Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                            Please select one.
+                            </div>
+                        </div>
 
                         <div class="col-md-6">
                             <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
@@ -356,21 +408,23 @@
                             <div class="form-check mb-3">
                                 <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
                                 <label class="form-check-label" for="validationFormCheck3">Registration</label>
-                                <div class="invalid-feedback">More example invalid feedback text</div>
+                                <div class="invalid-feedback">
+                                Please select one.
+                                </div>
                             </div>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Helping Hand Contribution</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
+                            <select class="form-select" name="reg-hhc" id="reg-hhc">
                                 <option selected disabled value="">Choose...</option>
-                                <option>$50</option>
-                                <option>$45</option>
-                                <option>$35</option>
-                                <option>$45</option>
-                                <option>$35</option>
-                                <option>Other</option>
+                                <option value="50" >$50</option>
+                                <option value="45" >$45</option>
+                                <option value="35" >$35</option>
+                                <option value="10" >$10</option>
+                                <option value="5" >$5</option>
+                                <option value="0" >Other</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please enter your Contribution.
@@ -379,16 +433,28 @@
 
 
                         <div class="col-md-6">
-                            <label for="register-fs" class="form-label">Payment Method</label>
-                            <select class="form-select" id="register-fs" required>
+                            <label for="reg-pm" class="form-label">Payment Method</label>
+                            <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option>Venmo</option>
-                                <option>Cash</option>
-                                <option>Check</option>
-                                <option>PayPal</option>
+                                <option value="venmo" >Venmo</option>
+                                <option value="cash" >Cash</option>
+                                <option value="check" >Check</option>
+                                <option value="paypal">PayPal</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    I agree to terms of service AND understand registration is incomplete until paid.
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
                             </div>
                         </div>
 
