@@ -328,6 +328,7 @@ audio {
 .lhead>li {
   background: #ddd;
   border-radius: 2rem 4rem !important;
+  margin: .15rem;
 }
 
 
