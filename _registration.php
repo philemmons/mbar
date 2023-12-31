@@ -387,7 +387,7 @@
                             </div>
                         </div>
                         
-                        <hr>
+                    
                         <div class="col-lg-6">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
@@ -416,7 +416,7 @@
                             </div>
                         </div>
 
-                        <hr>
+                     
 
                         <div class="col-md-6">
                             <div class="form-check">
