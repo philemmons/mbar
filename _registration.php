@@ -190,7 +190,7 @@
 
             ?>
 
-           
+
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form received - please make your payment to complete your registration.">
@@ -346,11 +346,11 @@
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= "before" onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= "after" onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value="after" onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
                                     Required - Please check one.
@@ -635,13 +635,13 @@ form.onchange = updateForm;
         let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
 
         myArr.forEach(function($key) {
-            document.getElementById($key).disabled = !($obj.value == "yes");
 
             if ($obj.value == "yes")
                 document.getElementById($key).value = "no";
-
             else
-                document.getElementById(key).value = "";
+                document.getElementById($key).value = "";
+
+            document.getElementById($key).disabled = ($obj.value == "yes");
         });
 
     }
