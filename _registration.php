@@ -51,7 +51,7 @@
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>
@@ -289,7 +289,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <label for="reg-fs" class="form-label">Fellowship</label>
                             <select class="form-select" name="reg-fs" id="reg-fs" required>
                                 <option selected disabled value="">Choose...</option>
@@ -304,7 +304,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
                             <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                             <div class="invalid-feedback">
@@ -314,7 +314,7 @@
 
 
                         <div class="col-md-12">
-                            <p>Registration</p>
+                            <p class="h5">REGISTRATION</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
@@ -330,7 +330,7 @@
 
 
                         <div class="col-md-12">
-                            <p>PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
+                            <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
                                 <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
                                 </li>
@@ -339,7 +339,9 @@
                                 <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
                                 </li>
                             </ul>
+                        </div>
 
+                        <div class="col-md-8">
                             <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
                             <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -353,11 +355,11 @@
                         </div>
 
                         <div class="col-md-12">
-                            <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
+                            <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
+                        <div class="col-md-3">
+                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -370,8 +372,8 @@
                         </div>
 
 
-                        <div class="col-md-6">
-                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
+                        <div class="col-md-3">
+                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -384,8 +386,8 @@
                         </div>
 
 
-                        <div class="col-md-6">
-                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                        <div class="col-md-3">
+                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -397,83 +399,81 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
-                                <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
+                        <div class="col-md-3">
+                            <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                            <select class="form-select" name="reg-snd" id="reg-snd" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="yes">I'll be wearing my dancing shoes!</option>
+                                <option value="no">I don't dance...LOL</option>
+                                <option value="undecided">Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select one.
                             </div>
-                            <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
-                                <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
+                            <select class="form-select" name="reg-hhc" id="reg-hhc">
+                                <option selected disabled value="">Choose...</option>
+                                <option value="50">$50</option>
+                                <option value="45">$45</option>
+                                <option value="35">$35</option>
+                                <option value="10">$10</option>
+                                <option value="5">$5</option>
+                                <option value="0">Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your Contribution.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                            <select class="form-select" name="reg-pm" id="reg-pm" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="venmo">Venmo</option>
+                                <option value="cash">Cash</option>
+                                <option value="check">Check</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
+                                </label>
                                 <div class="invalid-feedback">
-                                    Please select one.
+                                    You must agree before submitting.
                                 </div>
                             </div>
                         </div>
-               
-
-                <div class="col-md-6">
-                    <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
-                    <select class="form-select" name="reg-hhc" id="reg-hhc">
-                        <option selected disabled value="">Choose...</option>
-                        <option value="50">$50</option>
-                        <option value="45">$45</option>
-                        <option value="35">$35</option>
-                        <option value="10">$10</option>
-                        <option value="5">$5</option>
-                        <option value="0">Other</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please enter your Contribution.
-                    </div>
-                </div>
 
 
-                <div class="col-md-6">
-                    <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
-                    <select class="form-select" name="reg-pm" id="reg-pm" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option value="venmo">Venmo</option>
-                        <option value="cash">Cash</option>
-                        <option value="check">Check</option>
-                        <option value="paypal">PayPal</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select one.
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
-                        <label class="form-check-label" for="invalidCheck">
-                            I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
-                        </label>
-                        <div class="invalid-feedback">
-                            You must agree before submitting.
+                        <div class="col-md-12 text-center">
+                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
+                            <div class="invalid-feedback">
+                                <? echo $recaptcha_message ?>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                        </div>
 
-                <div class="col-md-12 text-center">
-                    <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
-                    <div class="invalid-feedback">
-                        <? echo $recaptcha_message ?>
-                    </div>
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="col-md-6 text-center">
-                    <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                </div>
-
-                <div class="col-md-6 text-center">
-                    <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                </div>
-                </form>
             </div>
-        </div>
         </div>
     </section>
 
