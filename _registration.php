@@ -632,6 +632,8 @@ function checkOption(obj) {
     myArr.forEach(function (key) {
         if(obj.value == "yes")
             document.getElementById(key).value= "no";
+        else
+        document.getElementById(key).value= "";
     });
     
 }
