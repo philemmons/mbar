@@ -386,7 +386,9 @@
                                 Please select one.
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="col-lg-6">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
@@ -414,20 +416,8 @@
                                 Please enter your Contribution.
                             </div>
                         </div>
+
                         <hr>
-                        <div class="col-md-6">
-                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
-                            <select class="form-select" name="reg-pm" id="reg-pm" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="venmo">Venmo</option>
-                                <option value="cash">Cash</option>
-                                <option value="check">Check</option>
-                                <option value="paypal">PayPal</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select one.
-                            </div>
-                        </div>
 
                         <div class="col-md-6">
                             <div class="form-check">
@@ -454,7 +444,6 @@
                                 Please select one.
                             </div>
                         </div>
-
 
                         <div class="col-md-12 text-center">
                             <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
