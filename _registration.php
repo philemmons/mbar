@@ -168,50 +168,50 @@
                     <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="regForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="reg-fn" class="form-label">First Name</label>
+                            <label for="reg-fn" class="form-label">First Name*</label>
                             <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                             <div class="invalid-feedback">
-                                Please enter your first name.
+                                Required - Please enter your first name.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-ln" class="form-label">Last Name or Initial</label>
+                            <label for="reg-ln" class="form-label">Last Name or Initial*</label>
                             <input type="text" class="form-control" name="reg-ln" id=" reg-ln" required>
                             <div class="invalid-feedback">
-                                Please enter your last name or initial.
+                                Required - Please enter your last name or initial.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-em" class="form-label">Email</label>
+                            <label for="reg-em" class="form-label">Email*</label>
                             <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                                Required - Please enter your email.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-phone" class="form-label">Phone with Area Code (Optional)</label>
+                            <label for="reg-phone" class="form-label">Phone with Area Code</label>
                             <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
-                                Please enter a valid phone number.
+                                Optional - Please enter a valid phone number.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="reg-addr" class="form-label">Mailing Address(Optional)</label>
+                            <label for="reg-addr" class="form-label">Mailing Address</label>
                             <input type="text" class="form-control" name="reg-addr" id="reg-hg">
                             <div class="invalid-feedback">
-                                Please enter your address.
+                                Optional - Please enter your address.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-city" class="form-label">City (Optional)</label>
+                            <label for="reg-city" class="form-label">City</label>
                             <input type="text" class="form-control" name="reg-city" id="reg-hg" placeholder="Monterey">
                             <div class="invalid-feedback">
-                                Please enter a city.
+                                Optional - Please enter a city.
                             </div>
                         </div>
 
@@ -272,7 +272,7 @@
                                 <option value="WY">Wyoming</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select your state.
+                                Optional - Please select your state.
                             </div>
                         </div>
 
@@ -280,7 +280,7 @@
                             <label for="reg-zc" class="form-label">Zip Code</label>
                             <input type="text" class="form-control" name="reg-zc" id="reg-zc">
                             <div class="invalid-feedback">
-                                Please enter your zip code.
+                                Optional - Please enter your zip code.
                             </div>
                         </div>
 
@@ -294,7 +294,7 @@
                                 <option>Other</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your Fellowship
+                                Required - Please enter your Fellowship
                             </div>
                         </div>
 
@@ -302,7 +302,7 @@
                             <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
                             <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                             <div class="invalid-feedback">
-                                Please enter your Homegroup(s)
+                                Optional - Please enter your Homegroup(s)
                             </div>
                         </div>
 
@@ -316,7 +316,7 @@
                                 <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
-                                    Please check one.
+                                    Required - Please check one.
                                 </div>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
                                 <option value="undecided" disabled>Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Required - Please select one.
                             </div>
                         </div>
 
@@ -357,7 +357,7 @@
                                 <option value="undecided">Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Required - Please select one.
                             </div>
                         </div>
 
@@ -370,7 +370,7 @@
                                 <option value="undecided">Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Required - Please select one.
                             </div>
                         </div>
 
@@ -383,22 +383,22 @@
                                 <option value="undecided">Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Required - Please select one.
                             </div>
                         </div>
-                        
+
                         <hr>
-                        
+
                         <div class="col-lg-6">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
-                            <select class="form-select" name="reg-snd" id="reg-snd" required>
+                            <select class="form-select" name="reg-snd" id="reg-snd">
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">I'll be wearing my dancing shoes!</option>
                                 <option value="no">I don't dance...LOL</option>
                                 <option value="undecided">Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Optional - Please select one.
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -413,7 +413,7 @@
                                 <option value="0">Other</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please enter your Contribution.
+                                Optional - Please enter your Contribution.
                             </div>
                         </div>
 
@@ -426,7 +426,7 @@
                                     I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
                                 </label>
                                 <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                    Required - You must agree before submitting.
                                 </div>
                             </div>
                         </div>
@@ -441,7 +441,7 @@
                                 <option value="paypal">PayPal</option>
                             </select>
                             <div class="invalid-feedback">
-                                Please select one.
+                                Required - Please select one.
                             </div>
                         </div>
 
