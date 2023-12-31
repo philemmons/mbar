@@ -76,7 +76,7 @@
 		<div class="row justify-content-center mb-5">
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-5">
 				<div class="p-3 text-bg-light hero-text-border" title="">
-					<ul class="level-0 list-group ms-5">
+					<ul class="level-0 list-group ms-3">
 								<li class= "lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
 								<li class= "no-bullet">
 									<ul class="level-1 list-group">
