@@ -342,11 +342,11 @@
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= 45 required>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= 45 onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= 50 required>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= 50 onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
                                     Required - Please check one.
@@ -366,7 +366,7 @@
                             </ul>
 
                             <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
-                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="checkOption(this)" required>
+                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
                                 <option value="no">No thank you</option>
@@ -625,7 +625,7 @@ form.onchange = updateForm;
 /**
  * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
  */
-function checkOption(obj) {
+function optionEBMB(obj) {
 
     let myArr = ['reg-mtsd', 'reg-rucb' , 'reg-ics'];
 
@@ -636,6 +636,15 @@ function checkOption(obj) {
         document.getElementById(key).value= "";
     });
     
+}
+
+function optionSND(obj) {
+
+    if(obj.checked)
+        document.getElementById("reg-snd").value= "no";
+     else
+        document.getElementById("reg-snd").value= "";
+
 }
 
 
