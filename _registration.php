@@ -191,29 +191,6 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="reg-fs" class="form-label">Fellowship</label>
-                            <select class="form-select" name="reg-fs" id="reg-fs" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option>A.A.</option>
-                                <option>Al-Anon</option>
-                                <option>Double Winner</option>
-                                <option>Other</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please enter your Fellowship
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
-                            <input type="text" class="form-control" name="reg-hg" id="reg-hg">
-                            <div class="invalid-feedback">
-                                Please enter your Homegroup(s)
-                            </div>
-                        </div>
-
 
                         <div class="col-md-6">
                             <label for="reg-phone" class="form-label">Phone with Area Code (Optional)</label>
@@ -224,7 +201,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label for="reg-addr" class="form-label">Mailing Address(Optional)</label>
                             <input type="text" class="form-control" name="reg-addr" id="reg-hg">
                             <div class="invalid-feedback">
@@ -242,7 +219,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <label for="reg-state" class="form-label">State</label>
                             <select class="form-select" name="reg-fs" id="reg-state">
                                 <option selected disabled value="">Choose...</option>
@@ -304,7 +281,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <label for="reg-zc" class="form-label">Zip Code</label>
                             <input type="text" class="form-control" name="reg-zc" id="reg-zc">
                             <div class="invalid-feedback">
@@ -312,9 +289,31 @@
                             </div>
                         </div>
 
+                        <div class="col-md-6">
+                            <label for="reg-fs" class="form-label">Fellowship</label>
+                            <select class="form-select" name="reg-fs" id="reg-fs" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>A.A.</option>
+                                <option>Al-Anon</option>
+                                <option>Double Winner</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your Fellowship
+                            </div>
+                        </div>
 
 
                         <div class="col-md-6">
+                            <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
+                            <input type="text" class="form-control" name="reg-hg" id="reg-hg">
+                            <div class="invalid-feedback">
+                                Please enter your Homegroup(s)
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12">
                             <p>Registration</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
@@ -330,7 +329,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <p>PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
                                 <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -353,66 +352,66 @@
                             </div>
                         </div>
 
+                        <div class="p-3 text-center text-bg-light hero-text-border">
+                            <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
 
-                        <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
-
-                        <div class="col-md-6">
-                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
-                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select one.
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
-                            <select class="form-select" name="reg-rucb" id="reg-rucb" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select one.
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
-                            <select class="form-select" name="reg-ics" id="reg-ics" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
-                                <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
-                            </div>
-                            <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
-                                <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
+                            <div class="col-md-6">
+                                <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
+                                <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
                                 <div class="invalid-feedback">
                                     Please select one.
                                 </div>
                             </div>
+
+
+                            <div class="col-md-6">
+                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
+                                <select class="form-select" name="reg-rucb" id="reg-rucb" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select one.
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                                <select class="form-select" name="reg-ics" id="reg-ics" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select one.
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
+                                    <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
+                                    <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
+                                    <div class="invalid-feedback">
+                                        Please select one.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-
+                        
                         <div class="col-md-6">
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
