@@ -65,13 +65,13 @@
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">MBAR was established in 1993 with our guiding principle:<br>"Keep It Simple."</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">The event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
+                    <p class="mb-6 h5 text-dark">This event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center py-4 mb-5">
-            <div class="col-sm-5 col-5 text-center px-5">
+            <div class="col-sm-5  text-center px-5">
                 <p class="mb-6 h4 text-dark">Below are MBAR's event banners used over the years.
                 </p>
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

@@ -101,7 +101,7 @@
                               <br>
                               Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
                               <br><br>
-                              <strong>When:</strong> January 26, 2024, 6-9pm
+                              <strong>When:</strong> January 26, 2024, 6pm - 9pm
                               <br>
                               <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
                               <br>
