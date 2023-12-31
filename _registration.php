@@ -210,7 +210,7 @@
 
                         <div class="col-md-6">
                             <label for="reg-ln" class="form-label">Last Name or Initial *</label>
-                            <input type="text" class="form-control" name="reg-ln" id=" reg-ln" required>
+                            <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
                             <div class="invalid-feedback">
                                 Required - Please enter your last name or initial.
                             </div>
@@ -242,7 +242,7 @@
 
                         <div class="col-md-6">
                             <label for="reg-city" class="form-label">City</label>
-                            <input type="text" class="form-control" name="reg-city" id="reg-hg" placeholder="Monterey">
+                            <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
                             <div class="invalid-feedback">
                                 Optional - Please enter a city.
                             </div>
@@ -630,11 +630,10 @@ function checkOption(obj) {
     let myArr = ['reg-mtsd', 'reg-rucb' , 'reg-ics'];
 
     myArr.forEach(function (key) {
-        document.getElementById(key).disabled = (obj.value == "yes");
+        document.getElementById(key).value = "no" = (obj.value == "yes");
     });
     
 }
-
 
 
 </script>
