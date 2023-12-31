@@ -72,7 +72,7 @@
 
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-5  text-center px-5">
-                <p class="mb-6 h4 text-dark">Below are MBAR's event banners used over the years.
+                <p class="mb-6 h4 text-dark">Below are MBAR's banners used over the years.
                 </p>
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">

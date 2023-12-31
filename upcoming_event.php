@@ -103,7 +103,7 @@
                               <br><br>
                               <strong>When:</strong> January 26, 2024, 6pm - 9pm
                               <br>
-                              <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks CA
+                              <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks, CA
                               <br>
                               <strong>Speaker:</strong> Elena B
                               <br><br>
