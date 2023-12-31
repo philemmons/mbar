@@ -156,19 +156,19 @@
             <div id="register-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form received - please make your payment to complete your registration.">
                         <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We ar willing to listen.">
+                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
                     <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="regForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="reg-fn" class="form-label">First Name*</label>
+                            <label for="reg-fn" class="form-label">First Name *<span class="big-star">*</span></label>
                             <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                             <div class="invalid-feedback">
                                 Required - Please enter your first name.
@@ -176,7 +176,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-ln" class="form-label">Last Name or Initial*</label>
+                            <label for="reg-ln" class="form-label">Last Name or Initial *</label>
                             <input type="text" class="form-control" name="reg-ln" id=" reg-ln" required>
                             <div class="invalid-feedback">
                                 Required - Please enter your last name or initial.
@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="reg-em" class="form-label">Email*</label>
+                            <label for="reg-em" class="form-label">Email *</label>
                             <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                             <div class="invalid-feedback">
                                 Required - Please enter your email.
@@ -285,7 +285,7 @@
                         </div>
 
                         <div class="col-md-4">
-                            <label for="reg-fs" class="form-label">Fellowship</label>
+                            <label for="reg-fs" class="form-label">Fellowship *</label>
                             <select class="form-select" name="reg-fs" id="reg-fs" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option>A.A.</option>
@@ -299,7 +299,7 @@
                         </div>
 
                         <div class="col-md-8">
-                            <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
+                            <label for="reg-hg" class="form-label">Homegroup(s)</label>
                             <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                             <div class="invalid-feedback">
                                 Optional - Please enter your Homegroup(s)
@@ -307,7 +307,7 @@
                         </div>
 
                         <div class="col-lg-5">
-                            <p class="h5">REGISTRATION</p>
+                            <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
@@ -332,7 +332,7 @@
                                 </li>
                             </ul>
 
-                            <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
+                            <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
                             <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -349,7 +349,7 @@
                         </div>
 
                         <div class="col-lg-4">
-                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
+                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm)* - $25 </label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -362,7 +362,7 @@
                         </div>
 
                         <div class="col-lg-4">
-                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
+                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am)* - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -375,7 +375,7 @@
                         </div>
 
                         <div class="col-lg-4">
-                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
+                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm)* - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
