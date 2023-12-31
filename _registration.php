@@ -62,7 +62,7 @@
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                     <h3 class="card-title text-center mb-3"><a href="#register-now">Welcome to MBAR 2024</a></h3>
                     <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024 and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
@@ -433,7 +433,7 @@
 
 
                         <div class="col-md-6">
-                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid<strong> - Payment options below</label>
+                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
                             <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="venmo">Venmo</option>
@@ -450,7 +450,7 @@
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.<strong>
+                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
                                 </label>
                                 <div class="invalid-feedback">
                                     You must agree before submitting.
@@ -477,6 +477,17 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
+                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">We appreciate your commitment to attend! Your preregistration will assist with event planning and preparation. Thank you!
+                        </span></p>
+                </div>
+            </div>
+            </div>
     </section>
 
     <!-- Section Two -->
