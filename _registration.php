@@ -633,17 +633,20 @@ function optionEBMB(obj) {
         if(obj.value == "yes")
             document.getElementById(key).value= "no";
         else
-        document.getElementById(key).value= "";
+            document.getElementById(key).value= "";
     });
     
 }
 
 function optionSND(obj) {
-
-    if(obj.checked)
-        document.getElementById("reg-snd").value= "no";
-     else
-        document.getElementById("reg-snd").value= "";
+    let snd = document.getElementById("reg-snd");
+    if(obj.checked){
+        snd.value= "yes";
+        snd.disable;
+    } else{
+        snd.value= "";
+        
+    }
 
 }
 
