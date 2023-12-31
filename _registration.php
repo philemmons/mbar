@@ -348,7 +348,7 @@
                             <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-12">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
@@ -361,7 +361,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-12">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -374,7 +374,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-12">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
