@@ -191,7 +191,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-md-6">
                             <label for="reg-phone" class="form-label">Phone with Area Code (Optional)</label>
                             <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
@@ -199,7 +198,6 @@
                                 Please enter a valid phone number.
                             </div>
                         </div>
-
 
                         <div class="col-md-12">
                             <label for="reg-addr" class="form-label">Mailing Address(Optional)</label>
@@ -209,7 +207,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-md-6">
                             <label for="reg-city" class="form-label">City (Optional)</label>
                             <input type="text" class="form-control" name="reg-city" id="reg-hg" placeholder="Monterey">
@@ -217,7 +214,6 @@
                                 Please enter a city.
                             </div>
                         </div>
-
 
                         <div class="col-md-3">
                             <label for="reg-state" class="form-label">State</label>
@@ -280,7 +276,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-md-3">
                             <label for="reg-zc" class="form-label">Zip Code</label>
                             <input type="text" class="form-control" name="reg-zc" id="reg-zc">
@@ -303,7 +298,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-md-8">
                             <label for="reg-hg" class="form-label">Homegroup(Optional)</label>
                             <input type="text" class="form-control" name="reg-hg" id="reg-hg">
@@ -311,7 +305,6 @@
                                 Please enter your Homegroup(s)
                             </div>
                         </div>
-
 
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION</p>
@@ -328,7 +321,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-lg-7">
                             <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
@@ -339,7 +331,7 @@
                                 <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
                                 </li>
                             </ul>
-                   
+
                             <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
                             <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -369,7 +361,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-lg-4">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
@@ -383,7 +374,6 @@
                             </div>
                         </div>
 
-
                         <div class="col-lg-4">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
@@ -396,9 +386,7 @@
                                 Please select one.
                             </div>
                         </div>
-
-                      <hr><hr>
-
+                        <hr>
                         <div class="col-lg-6">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
@@ -411,7 +399,6 @@
                                 Please select one.
                             </div>
                         </div>
-
                         <div class="col-lg-6">
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
@@ -427,11 +414,8 @@
                                 Please enter your Contribution.
                             </div>
                         </div>
-
-
-<hr><hr>
-
-                        <div class="col-lg-6">
+                        <hr>
+                        <div class="col-md-6">
                             <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
                             <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
@@ -445,7 +429,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
                                 <label class="form-check-label" for="invalidCheck">
@@ -454,6 +438,20 @@
                                 <div class="invalid-feedback">
                                     You must agree before submitting.
                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                            <select class="form-select" name="reg-pm" id="reg-pm" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="venmo">Venmo</option>
+                                <option value="cash">Cash</option>
+                                <option value="check">Check</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select one.
                             </div>
                         </div>
 
