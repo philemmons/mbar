@@ -313,7 +313,7 @@
                         </div>
 
 
-                        <div class="col-md-12">
+                        <div class="col-md-5">
                             <p class="h5">REGISTRATION</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
@@ -329,7 +329,7 @@
                         </div>
 
 
-                        <div class="col-md-12">
+                        <div class="col-md-7">
                             <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
                                 <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -339,9 +339,7 @@
                                 <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
                                 </li>
                             </ul>
-                        </div>
-
-                        <div class="col-md-8">
+                   
                             <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35</label>
                             <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
                                 <option selected disabled value="">Choose...</option>
