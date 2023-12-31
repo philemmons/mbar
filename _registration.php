@@ -359,7 +359,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <label for="reg-mtsd" class="form-label h-50">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
+                            <label for="reg-mtsd" class="form-label h-60">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -373,7 +373,7 @@
 
 
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <label for="reg-rucb" class="form-label h-50">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
+                            <label for="reg-rucb" class="form-label h-60">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -387,7 +387,7 @@
 
 
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <label for="reg-ics" class="form-label h-50">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
+                            <label for="reg-ics" class="form-label h-60">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
@@ -400,7 +400,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <label for="reg-snd" class="form-label h-50">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                            <label for="reg-snd" class="form-label h-60">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">I'll be wearing my dancing shoes!</option>
