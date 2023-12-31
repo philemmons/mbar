@@ -71,6 +71,8 @@
 
             <?php
 
+            include_once 'php-source.php';
+
             /**
              * https://www.codexworld.com/new-google-recaptcha-with-php/
              */
@@ -88,7 +90,7 @@
             if (isset($_POST['submit'])) {
                 $postData = $_POST;
 
-                // Validate form input fields
+                // Validate form required input fields
                 if (
                     !empty($_POST['reg-fn']) &&
                     !empty($_POST['reg-ln']) &&
@@ -135,6 +137,7 @@
                             $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox']) : '';
                             $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm']) : '';
 
+                            saveData();
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -342,11 +345,11 @@
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= 45 onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value=45 onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= 50 onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value=50 onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
                                     Required - Please check one.
@@ -622,31 +625,29 @@ var form = document.getElementById('myForm');
 form.onchange = updateForm;
 */
 
-/**
- * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
- */
-function optionEBMB(obj) {
+    /**
+     * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
+     */
+    function optionEBMB(obj) {
 
-    let myArr = ['reg-mtsd', 'reg-rucb' , 'reg-ics'];
+        let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
 
-    myArr.forEach(function (key) {
-        if(obj.value == "yes")
-            document.getElementById(key).value= "no";
+        myArr.forEach(function(key) {
+            if (obj.value == "yes")
+                document.getElementById(key).value = "no";
+            else
+                document.getElementById(key).value = "";
+        });
+
+    }
+
+    function optionSND(obj) {
+        let snd = document.getElementById("reg-snd");
+        if (obj.checked)
+            snd.value = "yes";
         else
-            document.getElementById(key).value= "";
-    });
-    
-}
-
-function optionSND(obj) {
-    let snd = document.getElementById("reg-snd");
-    if(obj.checked)
-        snd.value= "yes";
-    else
-        snd.value= "";
-}
-
-
+            snd.value = "";
+    }
 </script>
 </body>
 
