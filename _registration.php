@@ -65,7 +65,7 @@
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                     <h3 class="card-title text-center mb-3"><a href="#register-now">Welcome to MBAR 2024</a></h3>
-                    <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024 and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
+                    <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
                 </div>
             </div>
 
@@ -358,7 +358,7 @@
                             <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
@@ -372,7 +372,7 @@
                         </div>
 
 
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -386,7 +386,7 @@
                         </div>
 
 
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
@@ -399,7 +399,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
                                 <option selected disabled value="">Choose...</option>
