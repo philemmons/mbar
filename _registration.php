@@ -370,7 +370,7 @@
                         </div>
 
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -384,7 +384,7 @@
                         </div>
 
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
@@ -397,7 +397,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-4">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
                                 <option selected disabled value="">Choose...</option>
@@ -411,7 +411,7 @@
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
                                 <option selected disabled value="">Choose...</option>
@@ -428,7 +428,7 @@
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
                             <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
