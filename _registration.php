@@ -630,7 +630,7 @@ function checkOption(obj) {
     let myArr = ['reg-mtsd', 'reg-rucb' , 'reg-ics'];
 
     myArr.forEach(function (key) {
-        document.getElementById(key).value = "no" = (obj.value == "yes");
+        document.getElementById(key).value("no") = (obj.value == "yes");
     });
     
 }
