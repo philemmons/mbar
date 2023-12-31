@@ -122,7 +122,7 @@
                     <h4>Contact Us Form</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Email: </b>" . $phone . "</p> 
+                    <p><b>Phone: </b>" . $phone . "</p> 
                     <p><b>Subject: </b>" . $contactSubj . "</p> 
                     <p><b>Message: </b>" . $contactMess . "</p> 
                 ";

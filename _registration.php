@@ -78,7 +78,7 @@
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
 
-            // Email settings 
+            // Email settings
             $recipientEmail = getenv('mbar-to-email');
 
             // If the form is submitted 
@@ -93,8 +93,14 @@
                     !empty($_POST['reg-fn']) &&
                     !empty($_POST['reg-ln']) &&
                     !empty($_POST['reg-em']) &&
-                    !empty($_POST['reg-subj']) &&
-                    !empty($_POST['reg-ta'])
+                    !empty($_POST['reg-fs']) &&
+                    !empty($_POST['radio-stacked']) &&
+                    !empty($_POST['reg-ebmb']) &&
+                    !empty($_POST['reg-mtsd']) &&
+                    !empty($_POST['reg-rucb']) &&
+                    !empty($_POST['reg-ics']) &&
+                    !empty($_POST['reg-cBox']) &&
+                    !empty($_POST['reg-pm'])
                 ) {
 
                     // Validate reCAPTCHA checkbox 
@@ -106,26 +112,53 @@
                         // Decode JSON data of API response 
                         $responseData = json_decode($verifyResponse);
 
-                        // If the reCAPTCHA API response is valid 
+                        // If the reCAPTCHA API response is valid
                         if ($responseData->success) {
-                            // Retrieve value from the form input fields 
+                            // Retrieve value from the form input fields
                             $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn']) : '';
                             $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln']) : '';
                             $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em']) : '';
                             $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone']) : '';
-                            $registerSubj = !empty($_POST['reg-subj']) ? htmlspecialchars($_POST['reg-subj']) : '';
-                            $registerMess = !empty($_POST['reg-ta']) ? htmlspecialchars($_POST['reg-ta']) : '';
+                            $address = !empty($_POST['reg-addr']) ? htmlspecialchars($_POST['reg-addr']) : '';
+                            $city = !empty($_POST['reg-city']) ? htmlspecialchars($_POST['reg-city']) : '';
+                            $state = !empty($_POST['reg-state']) ? htmlspecialchars($_POST['reg-state']) : '';
+                            $zc = !empty($_POST['reg-zc']) ? htmlspecialchars($_POST['reg-zc']) : '';
+                            $fs = !empty($_POST['reg-fs']) ? htmlspecialchars($_POST['reg-fs']) : '';
+                            $hg = !empty($_POST['reg-hg']) ? htmlspecialchars($_POST['reg-hg']) : '';
+                            $register = !empty($_POST['radio-stacked']) ? htmlspecialchars($_POST['radio-stacked']) : '';
+                            $ebmb = !empty($_POST['reg-ebmb']) ? htmlspecialchars($_POST['reg-ebmb']) : '';
+                            $mtsd = !empty($_POST['reg-mtsd']) ? htmlspecialchars($_POST['reg-mtsd']) : '';
+                            $rucb = !empty($_POST['reg-rucb']) ? htmlspecialchars($_POST['reg-rucb']) : '';
+                            $ics = !empty($_POST['reg-ics']) ? htmlspecialchars($_POST['reg-ics']) : '';
+                            $snd = !empty($_POST['reg-snd']) ? htmlspecialchars($_POST['reg-snd']) : '';
+                            $hhc = !empty($_POST['reg-hhc']) ? htmlspecialchars($_POST['reg-hhc']) : '';
+                            $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox']) : '';
+                            $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm']) : '';
+
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
-                            $subject = 'Contact Us Submitted';
+                            $subject = 'Registration Form Submitted';
                             $htmlContent = " 
-                    <h4>Contact Us Form</h4> 
+                    <h4>Registration Form</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Email: </b>" . $phone . "</p> 
-                    <p><b>Subject: </b>" . $contactSubj . "</p> 
-                    <p><b>Message: </b>" . $contactMess . "</p> 
+                    <p><b>Phone: </b>" . $phone . "</p> 
+                    <p><b>Address: </b>" . $address . "</p> 
+                    <p><b>City: </b>" . $city . "</p> 
+                    <p><b>State: </b>" . $state . "/p> 
+                    <p><b>Zip Code: </b>" . $zc . "</p> 
+                    <p><b>Fellowship: </b>" . $fs . "</p> 
+                    <p><b>Homegroup: </b>" . $hg . "</p> 
+                    <p><b>Registration: </b>" . $register . "</p> 
+                    <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "/p> 
+                    <p><b>Meet the Speaker Dinner: </b>" . $mtsd . "</p> 
+                    <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
+                    <p><b>Ice Cream Social: </b>" . $ics . "</p> 
+                    <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
+                    <p><b>Helping Hand Contribution: </b>" . $hhc . "/p> 
+                    <p><b>ToS: </b>" . $cBox . "</p> 
+                    <p><b>Payment Method: </b>" . $pm . "/p> 
                 ";
 
                             // Always set content-type when sending HTML email 
@@ -201,7 +234,7 @@
 
                         <div class="col-md-12">
                             <label for="reg-addr" class="form-label">Mailing Address</label>
-                            <input type="text" class="form-control" name="reg-addr" id="reg-hg">
+                            <input type="text" class="form-control" name="reg-addr" id="reg-addr">
                             <div class="invalid-feedback">
                                 Optional - Please enter your address.
                             </div>
@@ -217,7 +250,7 @@
 
                         <div class="col-md-3">
                             <label for="reg-state" class="form-label">State</label>
-                            <select class="form-select" name="reg-fs" id="reg-state">
+                            <select class="form-select" name="reg-state" id="reg-state">
                                 <option selected disabled value="">Choose...</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
@@ -309,11 +342,11 @@
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= 45 required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" required>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= 50 required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
                                     Required - Please check one.
@@ -333,7 +366,7 @@
                             </ul>
 
                             <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
-                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" required>
+                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="checkOption(this)" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
                                 <option value="no">No thank you</option>
@@ -421,7 +454,7 @@
 
                         <div class="col-md-6">
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
+                                <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
                                 <label class="form-check-label" for="invalidCheck">
                                     I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
                                 </label>
@@ -566,6 +599,39 @@
     function resetFields() {
         return confirm("Are you sure you want to reset all fields?");
     }
+</script>
+<script>
+    /*
+    let hhcVal = document.getElementById("reg-hhc").value;
+    const cost = new Map([
+        ["reg-early", 45],
+        ["reg-late", 50],
+        ["reg-ebmb", 35],
+        ["reg-mtsd", 25],
+        ["reg-rucb", 10],
+        ["reg-ics", 5],
+        ["reg-snd", 5],
+        ["reg-hhc", hccVal]
+    ]);
+
+    var updateForm = function () {
+
+};
+
+var form = document.getElementById('myForm');
+form.onchange = updateForm;
+*/
+
+/**
+ * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
+ */
+function checkOption(obj) {
+    document.getElementsById("reg-mtsd").disabled = !(obj.value == "yes");
+    document.getElementsById("reg-rucb").disabled = !(obj.value == "yes");
+    document.getElementsById("reg-ics").disabled = !(obj.value == "yes");
+}
+
+
 </script>
 </body>
 
