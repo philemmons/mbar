@@ -66,8 +66,6 @@
                 <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                     <h3 class="card-title text-center mb-3"><a href="#register-now">Welcome to MBAR 2024</a></h3>
                     <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024 and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">We appreciate your commitment to attend! Your preregistration will assist with event planning and preparation. Thank you!
-                        </span></p>
                 </div>
             </div>
 
@@ -140,7 +138,7 @@
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you, your message was sent, and please allow up to 48 hours to reply.';
+                            $statusMsg = 'We appreciate your commitment to attend! Your preregistration will assist with event planning and preparation. Thank you!';
                             $postData = '';
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
@@ -477,17 +475,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">We appreciate your commitment to attend! Your preregistration will assist with event planning and preparation. Thank you!
-                        </span></p>
-                </div>
-            </div>
-            </div>
     </section>
 
     <!-- Section Two -->
