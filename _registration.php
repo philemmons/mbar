@@ -189,7 +189,7 @@
 
             ?>
 
-            <div id="register-us"></div>
+            <div id="register-now"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form received - please make your payment to complete your registration.">
@@ -345,11 +345,11 @@
                         <div class="col-lg-5">
                             <p class="h5">REGISTRATION *</p>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value=45 onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value= "before" onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
                             </div>
                             <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value=50 onChange="optionSND(this)" required>
+                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value= "after" onChange="optionSND(this)" required>
                                 <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                 <div class="invalid-feedback">
                                     Required - Please check one.
@@ -446,7 +446,8 @@
                                 <option value="35">$35</option>
                                 <option value="10">$10</option>
                                 <option value="5">$5</option>
-                                <option value="0">Other</option>
+                                <option value="other">Other</option>
+                                <option value="0">No thank you</option>
                             </select>
                             <div class="invalid-feedback">
                                 Optional - Please enter your Contribution.
