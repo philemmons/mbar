@@ -626,10 +626,15 @@ form.onchange = updateForm;
  * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
  */
 function checkOption(obj) {
-    document.getElementById("reg-mtsd").disabled = (obj.value == "yes");
-    document.getElementById("reg-rucb").disabled = (obj.value == "yes");
-    document.getElementById("reg-ics").disabled = (obj.value == "yes");
+
+    let myArr = ['reg-mtsd', 'reg-mtsd' , 'reg-mtsd'];
+
+    myArr.forEach(function (key) {
+        document.getElementById(key).disabled = (obj.value == "yes");
+    });
+    
 }
+
 
 
 </script>
