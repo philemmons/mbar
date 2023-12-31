@@ -173,7 +173,7 @@
                             <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contribution.php" class="btn btn-primary">Helping Hands</a></small>
+                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>
                     </div>
                 </div>
             </div>
