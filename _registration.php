@@ -635,9 +635,9 @@ form.onchange = updateForm;
         let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
 
         myArr.forEach(function($key) {
-            document.getElementById($key).disabled = !($obj.value == "yes") 
+            document.getElementById($key).disabled = !($obj.value == "yes");
 
-            if (obj.value == "yes")
+            if ($obj.value == "yes")
                 document.getElementById($key).value = "no";
 
             else
