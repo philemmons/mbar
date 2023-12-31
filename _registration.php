@@ -355,7 +355,7 @@
                         <div class="col-md-12">
                             <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
@@ -411,7 +411,7 @@
                                 </div>
                             </div>
                         </div>
-                </div>
+               
 
                 <div class="col-md-6">
                     <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
