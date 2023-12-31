@@ -640,14 +640,10 @@ function optionEBMB(obj) {
 
 function optionSND(obj) {
     let snd = document.getElementById("reg-snd");
-    if(obj.checked){
+    if(obj.checked)
         snd.value= "yes";
-        snd.disable;
-    } else{
+    else
         snd.value= "";
-        
-    }
-
 }
 
 
