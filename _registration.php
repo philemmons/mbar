@@ -168,7 +168,7 @@
                     <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="regForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="reg-fn" class="form-label">First Name *<span class="big-star">*</span></label>
+                            <label for="reg-fn" class="form-label">First Name *</label>
                             <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                             <div class="invalid-feedback">
                                 Required - Please enter your first name.
