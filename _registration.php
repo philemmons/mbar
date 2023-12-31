@@ -348,7 +348,7 @@
                             <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
                         </div>
 
-                        <div class="col-xl-4">
+                        <div class="col-lg-4">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
@@ -361,7 +361,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4">
+                        <div class="col-lg-4">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am) - $10</label>
                             <select class="form-select" name="reg-rucb" id="reg-rucb" required>
                                 <option selected disabled value="">Choose...</option>
@@ -374,7 +374,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4">
+                        <div class="col-lg-4">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm) - $5</label>
                             <select class="form-select" name="reg-ics" id="reg-ics" required>
                                 <option selected disabled value="">Choose...</option>
@@ -389,7 +389,7 @@
 
                         <hr>
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
                             <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                             <select class="form-select" name="reg-snd" id="reg-snd" required>
                                 <option selected disabled value="">Choose...</option>
@@ -401,7 +401,7 @@
                                 Please select one.
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
                                 <option selected disabled value="">Choose...</option>
