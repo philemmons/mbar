@@ -313,7 +313,7 @@
                         </div>
 
 
-                        <div class="col-md-5">
+                        <div class="col-lg-5">
                             <p class="h5">REGISTRATION</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
@@ -329,7 +329,7 @@
                         </div>
 
 
-                        <div class="col-md-7">
+                        <div class="col-lg-7">
                             <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
                                 <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -411,7 +411,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
                                 <option selected disabled value="">Choose...</option>
@@ -428,7 +428,7 @@
                         </div>
 
 
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
                             <select class="form-select" name="reg-pm" id="reg-pm" required>
                                 <option selected disabled value="">Choose...</option>
