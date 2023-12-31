@@ -313,7 +313,7 @@
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-5">
                             <p class="h5">REGISTRATION</p>
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" required>
@@ -329,7 +329,7 @@
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-7">
                             <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
                             <ul>
                                 <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -352,11 +352,11 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
                             <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-6">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm) - $25</label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
