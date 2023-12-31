@@ -352,127 +352,128 @@
                             </div>
                         </div>
 
-                        <div class="p-3 text-center text-bg-light hero-text-border">
+                        <div class="col-md-12">
                             <p> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following à la carte options.</p>
-
-                            <div class="col-md-6">
-                                <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
-                                <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="yes">Yes, please!</option>
-                                    <option value="no">No thank you</option>
-                                    <option value="undecided">Still deciding</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Please select one.
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6">
-                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
-                                <select class="form-select" name="reg-rucb" id="reg-rucb" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="yes">Yes, please!</option>
-                                    <option value="no">No thank you</option>
-                                    <option value="undecided">Still deciding</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Please select one.
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-6">
-                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
-                                <select class="form-select" name="reg-ics" id="reg-ics" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="yes">Yes, please!</option>
-                                    <option value="no">No thank you</option>
-                                    <option value="undecided">Still deciding</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Please select one.
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
-                                    <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
-                                </div>
-                                <div class="form-check mb-3">
-                                    <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
-                                    <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
-                                    <div class="invalid-feedback">
-                                        Please select one.
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         
                         <div class="col-md-6">
-                            <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
-                            <select class="form-select" name="reg-hhc" id="reg-hhc">
+                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner - Saturday Night @ 5:00pm - $25</label>
+                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option value="50">$50</option>
-                                <option value="45">$45</option>
-                                <option value="35">$35</option>
-                                <option value="10">$10</option>
-                                <option value="5">$5</option>
-                                <option value="0">Other</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please enter your Contribution.
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
-                            <select class="form-select" name="reg-pm" id="reg-pm" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="venmo">Venmo</option>
-                                <option value="cash">Cash</option>
-                                <option value="check">Check</option>
-                                <option value="paypal">PayPal</option>
+                                <option value="yes">Yes, please!</option>
+                                <option value="no">No thank you</option>
+                                <option value="undecided">Still deciding</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select one.
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+
+                        <div class="col-md-6">
+                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning from 8:00am - 9:30am ) - $10</label>
+                            <select class="form-select" name="reg-rucb" id="reg-rucb" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="yes">Yes, please!</option>
+                                <option value="no">No thank you</option>
+                                <option value="undecided">Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select one.
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon from 3:00 - 4:00 p.m.) - $5</label>
+                            <select class="form-select" name="reg-ics" id="reg-ics" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="yes">Yes, please!</option>
+                                <option value="no">No thank you</option>
+                                <option value="undecided">Still deciding</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p>Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</p>
                             <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
-                                <label class="form-check-label" for="invalidCheck">
-                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
-                                </label>
+                                <input type="radio" class="form-check-input" id="reg-snd-yes" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-snd-yes">I'll be wearing my dancing shoes!</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="radio" class="form-check-input" id="reg-snd-no" name="radio-stacked" required>
+                                <label class="form-check-label" for="reg-snd-no">I don't dance...LOL</label>
                                 <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                    Please select one.
                                 </div>
                             </div>
                         </div>
-
-
-                        <div class="col-md-12 text-center">
-                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
-                            <div class="invalid-feedback">
-                                <? echo $recaptcha_message ?>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
                 </div>
+
+                <div class="col-md-6">
+                    <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
+                    <select class="form-select" name="reg-hhc" id="reg-hhc">
+                        <option selected disabled value="">Choose...</option>
+                        <option value="50">$50</option>
+                        <option value="45">$45</option>
+                        <option value="35">$35</option>
+                        <option value="10">$10</option>
+                        <option value="5">$5</option>
+                        <option value="0">Other</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please enter your Contribution.
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                    <select class="form-select" name="reg-pm" id="reg-pm" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option value="venmo">Venmo</option>
+                        <option value="cash">Cash</option>
+                        <option value="check">Check</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select one.
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="1" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 text-center">
+                    <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
+                    <div class="invalid-feedback">
+                        <? echo $recaptcha_message ?>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                </div>
+                </form>
             </div>
+        </div>
         </div>
     </section>
 
