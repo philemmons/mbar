@@ -72,7 +72,7 @@
 
             <?php
 
-            include_once 'source/php-source.php';
+           // include_once '../source/php-source.php';
 
             /**
              * https://www.codexworld.com/new-google-recaptcha-with-php/
@@ -82,7 +82,7 @@
             $secretKey  = getenv('g-secret-key');
 
             // Email settings
-            //$recipientEmail = getenv('mbar-to-email');
+            $recipientEmail = getenv('mbar-to-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -138,10 +138,8 @@
                             $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox']) : '';
                             $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm']) : '';
 
-                            saveData();
-
                             // Send email notification to the site admin 
-                            $to = $email;
+                            $to = $recipientEmail;
                             $subject = 'Registration Form Submitted';
                             $htmlContent = " 
                     <h4>Registration Form</h4> 
