@@ -72,7 +72,7 @@
 
             <?php
 
-           include_once '../source/php-source.php';
+           include_once 'source/php-source.php';
 
 
             /**
@@ -180,7 +180,7 @@
                             $postData = '';
 
                             regFormData();
-                            
+
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
                         }
