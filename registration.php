@@ -1,4 +1,7 @@
-<?php include_once 'header.inc' ?>
+<?php
+session_start();  //start or resume an existing session
+include_once 'header.inc' 
+?>
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
