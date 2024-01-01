@@ -54,44 +54,122 @@ function preExeFetNOPARA($sql)
      return $records;
 }
 
+
+
+/*
+*@input: Name of the database table 
+*@output: all contents of device table for the user in ascending numerical order
+*/
+function getInfo($table)
+{
+    $sql = "SELECT * FROM " . $table . " ORDER BY id ASC";
+    return preExeFetNOPARA($sql);
+}
+
+function getUserInfo($email)
+{
+    global $dbConn, $nPara;
+
+    $nPara[':dEmail'] = $email;
+    $sql = "SELECT * FROM registration WHERE id = :dEmail ";
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($nPara);
+    $record = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $record;
+}
+
 function saveData()
 {
      global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm;
-     global $dbConn;
+     global $dbConn, $nPara;
 
-     if (isset($_POST['submit'])) {
+     if (isset($_POST['submit-reg'])) {
 
-        $sql = "INSERT INTO registration (
-                    conName,
-                    start_date,
-                    end_date,
-                    year,
-                    event_location,
+          $sql = "INSERT INTO registration (
+                    firstname,
+                    lastname,
+                    email,
+                    phone,
+                    address,
                     city,
                     state,
-                    country,
-                    website
+                    zipcode,
+                    fellowship,
+                    homegroup,
+                    registration,
+                    ebmb,
+                    speakerdinner,
+                    breakfast,
+                    icecream,
+                    dance,
+                    helpinghand,
+                    tos,
+                    payment
                 ) VALUES (
-                :conName, :start_date, :end_date, :year, :event_location, :city, :state, :country, :website
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm
                 )";
 
-        $nPara[':conName']  = htmlspecialchars($_POST['conName'], ENT_QUOTES);
-        $nPara[':start_date'] = htmlspecialchars($_POST['start_date'], ENT_QUOTES);
-        $nPara[':end_date'] = htmlspecialchars($_POST['end_date'], ENT_QUOTES);
-        $nPara[':year'] = htmlspecialchars($_POST['year'], ENT_QUOTES);
-        $nPara[':event_location'] = htmlspecialchars($_POST['event_location'], ENT_QUOTES);
-        $nPara[':city'] = htmlspecialchars($_POST['city'], ENT_QUOTES);
-        $nPara[':state'] = htmlspecialchars($_POST['state'], ENT_QUOTES);
-        $nPara[':country'] = htmlspecialchars($_POST['country'], ENT_QUOTES);
-        $nPara[':website'] = htmlspecialchars(preg_replace("(^https?://)", "", $_POST['website']), ENT_QUOTES);
+          $nPara[':firstName'] = $firstName;
+          $nPara[':lastName'] = $lastName;
+          $nPara[':email'] = $email;
+          $nPara[':phone'] = $phone;
+          $nPara[':address'] = $address;
+          $nPara[':city'] = $city;
+          $nPara[':state'] = $state;
+          $nPara[':zc'] = $zc;
+          $nPara[':fs'] = $fs;
+          $nPara[':hg'] = $hg;
+          $nPara[':register'] = $register;
+          $nPara[':ebmb'] = $ebmb;
+          $nPara[':mtsd'] = $mtsd;
+          $nPara[':rucb'] = $rucb;
+          $nPara[':ics'] = $ics;
+          $nPara[':snd'] = $snd;
+          $nPara[':hhc'] = $hhc;
+          $nPara[':cBox'] = $cBox;
+          $nPara[':pm'] = $pm;
 
-        $stmt = $dbConn->prepare($sql);
-        $stmt->execute($nPara);
-        //clear the value - prevent multiple insertions
-        $nPara = array();
+          $stmt = $dbConn->prepare($sql);
+          $stmt->execute($nPara);
+          //clear the value - prevent multiple insertions
+          $nPara = array();
 
-        sleep(5);
-    } //eof if
+          sleep(5);
+     } //eof if
 }
 
+//login.php
+/*
+*@input: login process accesssed by login.php with user input
+*@output: successful login  directs user to index.php
+*Future work - https://stackoverflow.com/questions/20764031/php-salt-and-hash-sha256-for-login-password
+*/
+function goMain()
+{
+    global $dbConn, $nPara;
 
+    $userForm = htmlspecialchars($_POST['formUN'],ENT_QUOTES);
+    $pwForm = hash('sha256', $_POST['formPW']);
+
+    //Prevents SQL injection by using a named parameter.
+    $nPara[':username'] = $userForm;
+    $nPara[':password'] = $pwForm;
+
+    $sql = "SELECT * FROM admin WHERE userName = :username AND password = :password";
+
+    $statement = $dbConn->prepare($sql);
+    $statement->execute($nPara);
+    $record = $statement->fetch(PDO::FETCH_ASSOC);
+
+    if (empty($record)) { //wrong credentials
+        echo "<form method='POST' action='login.php'>";
+        echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
+        echo "</form>";
+    } else {
+        $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
+        $_SESSION["username"]  = $record['userName'];
+        $_SESSION["status"] = "Admin";
+        //echo $_SESSION["status"];
+        header("Location: admin.php"); //redirect to home page
+    }
+}
