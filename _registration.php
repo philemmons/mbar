@@ -139,7 +139,7 @@
                             $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm'], ENT_QUOTES) : '';
 
                             // Send email notification to the site admin 
-                            $to = $recipientEmail;
+                            $to = $email;
                             $subject = 'Registration Form Submitted';
                             $htmlContent = " 
                     <h4>Registration Form</h4> 
@@ -168,6 +168,8 @@
                             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                             // More headers 
                             $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
+
+                            $headers .= 'Bcc: '. $recipientEmail . "\r\n";
 
                             // Send email 
                             mail($to, $subject, $htmlContent, $headers);
