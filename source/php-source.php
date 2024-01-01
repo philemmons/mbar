@@ -8,9 +8,9 @@ $dbConn = getDBConnection();
  * @input: register form fields
  * @output variables assigned are converted to HTML predefined entities, including quotes, and lowercase
  */
-function regFormData()
+function regFormData($total)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
 
      $firstName = isset($_POST['reg-fn']) ? strtolower(htmlspecialchars($_POST['reg-fn'], ENT_QUOTES)) : '';
      $lastName = isset($_POST['reg-ln']) ? strtolower(htmlspecialchars($_POST['reg-ln'], ENT_QUOTES)) : '';
@@ -32,7 +32,63 @@ function regFormData()
      $cBox = isset($_POST['reg-cBox']) ? strtolower(htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['reg-pm']) ? strtolower(htmlspecialchars($_POST['reg-pm'], ENT_QUOTES)) : '';
 
-     saveData();
+     saveData($total);
+}
+
+
+function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
+{
+     $amount = 0.00;
+
+     if ($register == "before") {
+          $amount += 45.0;
+     } else {
+          $amount += 50.0;
+     }
+
+     if ($ebmb == "yes") {
+          $amount += 35.0;
+     }
+
+     if ($mtsd == "yes") {
+          $amount += 25.0;
+     }
+
+     if ($rucb == "yes") {
+          $amount += 10.0;
+     }
+
+     if ($ics == "yes") {
+          $amount += 5.0;
+     }
+
+     switch ($hhc) {
+          case "100":
+               $amount += 100.0;
+               break;
+          case "50":
+               $amount += 50.0;
+               break;
+          case "45":
+               $amount += 45.0;
+               break;
+          case "35":
+               $amount += 35.0;
+               break;
+          case "20":
+               $amount += 20.0;
+               break;
+          case "10":
+               $amount += 10.0;
+               break;
+          case "5":
+               $amount += 5.0;
+               break;
+          default:
+               $amount += 0.0;
+     }
+
+     return $amount;
 }
 
 /*
@@ -83,9 +139,9 @@ function getUserInfo($email)
      return $record;
 }
 
-function saveData()
+function saveData($total)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm;
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
@@ -109,9 +165,10 @@ function saveData()
                     dance,
                     helpinghand,
                     tos,
-                    payment
+                    payment,
+                    total
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total
                 )";
 
           $nPara[':firstName'] = $firstName;

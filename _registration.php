@@ -138,6 +138,8 @@
                             $hhc = !empty($_POST['reg-hhc']) ? htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES) : '';
                             $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES) : '';
                             $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm'], ENT_QUOTES) : '';
+                            $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+
 
                             // Send email notification to the site admin 
                             $to = $email;
@@ -160,6 +162,7 @@
                     <p><b>Ice Cream Social: </b>" . $ics . "</p> 
                     <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
                     <p><b>Helping Hand Contribution: </b>" . $hhc . "</p> 
+                    <p><b>Current Total: </b>$" . $total . ".00</p> 
                     <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p> 
                 ";
@@ -179,7 +182,7 @@
                             $statusMsg = 'We appreciate your commitment to attend! Your Pre-Registration will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
                             $postData = '';
 
-                            regFormData();
+                            regFormData($total);
 
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
@@ -448,12 +451,15 @@
                             <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
                             <select class="form-select" name="reg-hhc" id="reg-hhc">
                                 <option selected disabled value="">Choose...</option>
-                                <option value="50">$50</option>
-                                <option value="45">$45</option>
-                                <option value="35">$35</option>
-                                <option value="10">$10</option>
                                 <option value="5">$5</option>
+                                <option value="10">$10</option>
+                                <option value="20">$20</option>
+                                <option value="35">$35</option>
+                                <option value="45">$45</option>
+                                <option value="50">$50</option>
+                                <option value="100">$100</option>
                                 <option value="other">Other</option>
+                                <option value="no thank you">No thank you</option>
                             </select>
                             <div class="invalid-feedback">
                                 Optional - Please enter your Contribution.
