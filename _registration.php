@@ -200,7 +200,7 @@
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
-                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="regForm" novalidate>
+                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
                             <label for="reg-fn" class="form-label">First Name *</label>

@@ -176,7 +176,7 @@
 
                         <div class="col-md-6">
                             <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="lname" id=" lname" required>
+                            <input type="text" class="form-control" name="lname" id="lname" required>
                             <div class="invalid-feedback">
                                 Please enter your last name.
                             </div>
