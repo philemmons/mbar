@@ -395,7 +395,7 @@
 
                         <div class="col-lg-4">
                             <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm)* - $25 </label>
-                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionMTSD(this)" required>
+                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
                                 <option value="no">No thank you</option>
@@ -408,7 +408,7 @@
 
                         <div class="col-lg-4">
                             <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am)* - $10</label>
-                            <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionRUCB(this)" required>
+                            <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
                                 <option value="no">No thank you</option>
@@ -421,7 +421,7 @@
 
                         <div class="col-lg-4">
                             <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm)* - $5</label>
-                            <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionICS(this)" required>
+                            <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>
                                 <option value="no">No thank you</option>
@@ -661,29 +661,18 @@ form.onchange = updateForm;
             snd.value = "";
     }
 
-    function optionMTSD($obj) {
+    function optionCHANGE() {
         let ebmb = document.getElementById('reg-ebmb');
-        if ($obj.value == "yes")
+        let mtsd = document.getElementById('reg-mtsd');
+        let rucb = document.getElementById('reg-rucb');
+        let ics = document.getElementById('reg-ics');
+
+        if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes")
             ebmb.value = "no";
         else
             ebmb.value = "";
     }
 
-    function optionRUCB($obj) {
-        let ebmb = document.getElementById('reg-ebmb');
-        if ($obj.value == "yes")
-            ebmb.value = "no";
-        else
-            ebmb.value = "";
-    }
-
-    function optionICS($obj) {
-        let ebmb = document.getElementById('reg-ebmb');
-        if ($obj.value == "yes")
-            ebmb.value = "no";
-        else
-            ebmb.value = "";
-    }
 </script>
 </body>
 
