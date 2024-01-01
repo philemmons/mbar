@@ -72,7 +72,8 @@
 
             <?php
 
-           // include_once '../source/php-source.php';
+           include_once '../source/php-source.php';
+
 
             /**
              * https://www.codexworld.com/new-google-recaptcha-with-php/
@@ -167,7 +168,7 @@
                             $headers = "MIME-Version: 1.0" . "\r\n";
                             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                             // More headers 
-                            $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
+                            $headers .= 'From: ' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
 
                             $headers .= 'Bcc: '. $recipientEmail . "\r\n";
 
@@ -175,8 +176,11 @@
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'We appreciate your commitment to attend! Your Pre-Registration will assist with event planning and preparation. Thank you!';
+                            $statusMsg = 'We appreciate your commitment to attend! Your Pre-Registration will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
                             $postData = '';
+
+                            regFormData();
+                            
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
                         }
@@ -193,7 +197,7 @@
 
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form received - please make your payment to complete your registration.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form message.">
                         <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>

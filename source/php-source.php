@@ -8,27 +8,32 @@ $dbConn = getDBConnection();
  * @input: register form fields
  * @output variables assigned are converted to HTML predefined entities, including quotes, and lowercase
  */
+function regFormData()
+{
+     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm;
 
-$firstName = isset($_POST['reg-fn']) ? strtolower(htmlspecialchars($_POST['reg-fn'], ENT_QUOTES)) : '';
-$lastName = isset($_POST['reg-ln']) ? strtolower(htmlspecialchars($_POST['reg-ln'], ENT_QUOTES)) : '';
-$email = isset($_POST['reg-em']) ? strtolower(htmlspecialchars($_POST['reg-em'], ENT_QUOTES)) : '';
-$phone = isset($_POST['reg-phone']) ? strtolower(htmlspecialchars($_POST['reg-phone'], ENT_QUOTES)) : '';
-$address = isset($_POST['reg-addr']) ? strtolower(htmlspecialchars($_POST['reg-addr'], ENT_QUOTES)) : '';
-$city = isset($_POST['reg-city']) ? strtolower(htmlspecialchars($_POST['reg-city'], ENT_QUOTES)) : '';
-$state = isset($_POST['reg-state']) ? strtolower(htmlspecialchars($_POST['reg-state'], ENT_QUOTES)) : '';
-$zc = isset($_POST['reg-zc']) ? strtolower(htmlspecialchars($_POST['reg-zc'], ENT_QUOTES)) : '';
-$fs = isset($_POST['reg-fs']) ? strtolower(htmlspecialchars($_POST['reg-fs'], ENT_QUOTES)) : '';
-$hg = isset($_POST['reg-hg']) ? strtolower(htmlspecialchars($_POST['reg-hg'], ENT_QUOTES)) : '';
-$register = isset($_POST['radio-stacked']) ? strtolower(htmlspecialchars($_POST['radio-stacked'], ENT_QUOTES)) : '';
-$ebmb = isset($_POST['reg-ebmb']) ? strtolower(htmlspecialchars($_POST['reg-ebmb'], ENT_QUOTES)) : '';
-$mtsd = isset($_POST['reg-mtsd']) ? strtolower(htmlspecialchars($_POST['reg-mtsd'], ENT_QUOTES)) : '';
-$rucb = isset($_POST['reg-rucb']) ? strtolower(htmlspecialchars($_POST['reg-rucb'], ENT_QUOTES)) : '';
-$ics = isset($_POST['reg-ics']) ? strtolower(htmlspecialchars($_POST['reg-ics'], ENT_QUOTES)) : '';
-$snd = isset($_POST['reg-snd']) ? strtolower(htmlspecialchars($_POST['reg-snd'], ENT_QUOTES)) : '';
-$hhc = isset($_POST['reg-hhc']) ? strtolower(htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES)) : '';
-$cBox = isset($_POST['reg-cBox']) ? strtolower(htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES)) : '';
-$pm = isset($_POST['reg-pm']) ? strtolower(htmlspecialchars($_POST['reg-pm'], ENT_QUOTES)) : '';
+     $firstName = isset($_POST['reg-fn']) ? strtolower(htmlspecialchars($_POST['reg-fn'], ENT_QUOTES)) : '';
+     $lastName = isset($_POST['reg-ln']) ? strtolower(htmlspecialchars($_POST['reg-ln'], ENT_QUOTES)) : '';
+     $email = isset($_POST['reg-em']) ? strtolower(htmlspecialchars($_POST['reg-em'], ENT_QUOTES)) : '';
+     $phone = isset($_POST['reg-phone']) ? strtolower(htmlspecialchars($_POST['reg-phone'], ENT_QUOTES)) : '';
+     $address = isset($_POST['reg-addr']) ? strtolower(htmlspecialchars($_POST['reg-addr'], ENT_QUOTES)) : '';
+     $city = isset($_POST['reg-city']) ? strtolower(htmlspecialchars($_POST['reg-city'], ENT_QUOTES)) : '';
+     $state = isset($_POST['reg-state']) ? strtolower(htmlspecialchars($_POST['reg-state'], ENT_QUOTES)) : '';
+     $zc = isset($_POST['reg-zc']) ? strtolower(htmlspecialchars($_POST['reg-zc'], ENT_QUOTES)) : '';
+     $fs = isset($_POST['reg-fs']) ? strtolower(htmlspecialchars($_POST['reg-fs'], ENT_QUOTES)) : '';
+     $hg = isset($_POST['reg-hg']) ? strtolower(htmlspecialchars($_POST['reg-hg'], ENT_QUOTES)) : '';
+     $register = isset($_POST['radio-stacked']) ? strtolower(htmlspecialchars($_POST['radio-stacked'], ENT_QUOTES)) : '';
+     $ebmb = isset($_POST['reg-ebmb']) ? strtolower(htmlspecialchars($_POST['reg-ebmb'], ENT_QUOTES)) : '';
+     $mtsd = isset($_POST['reg-mtsd']) ? strtolower(htmlspecialchars($_POST['reg-mtsd'], ENT_QUOTES)) : '';
+     $rucb = isset($_POST['reg-rucb']) ? strtolower(htmlspecialchars($_POST['reg-rucb'], ENT_QUOTES)) : '';
+     $ics = isset($_POST['reg-ics']) ? strtolower(htmlspecialchars($_POST['reg-ics'], ENT_QUOTES)) : '';
+     $snd = isset($_POST['reg-snd']) ? strtolower(htmlspecialchars($_POST['reg-snd'], ENT_QUOTES)) : '';
+     $hhc = isset($_POST['reg-hhc']) ? strtolower(htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES)) : '';
+     $cBox = isset($_POST['reg-cBox']) ? strtolower(htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES)) : '';
+     $pm = isset($_POST['reg-pm']) ? strtolower(htmlspecialchars($_POST['reg-pm'], ENT_QUOTES)) : '';
 
+     saveData();
+}
 
 /*
 *@input: PDO sql string to be processed with or without parameterized variable(s)
@@ -62,20 +67,20 @@ function preExeFetNOPARA($sql)
 */
 function getInfo($table)
 {
-    $sql = "SELECT * FROM " . $table . " ORDER BY id ASC";
-    return preExeFetNOPARA($sql);
+     $sql = "SELECT * FROM " . $table . " ORDER BY id ASC";
+     return preExeFetNOPARA($sql);
 }
 
 function getUserInfo($email)
 {
-    global $dbConn, $nPara;
+     global $dbConn, $nPara;
 
-    $nPara[':dEmail'] = $email;
-    $sql = "SELECT * FROM registration WHERE id = :dEmail ";
-    $stmt = $dbConn->prepare($sql);
-    $stmt->execute($nPara);
-    $record = $stmt->fetch(PDO::FETCH_ASSOC);
-    return $record;
+     $nPara[':dEmail'] = $email;
+     $sql = "SELECT * FROM registration WHERE id = :dEmail ";
+     $stmt = $dbConn->prepare($sql);
+     $stmt->execute($nPara);
+     $record = $stmt->fetch(PDO::FETCH_ASSOC);
+     return $record;
 }
 
 function saveData()
@@ -146,30 +151,30 @@ function saveData()
 */
 function goMain()
 {
-    global $dbConn, $nPara;
+     global $dbConn, $nPara;
 
-    $userForm = htmlspecialchars($_POST['formUN'],ENT_QUOTES);
-    $pwForm = hash('sha256', $_POST['formPW']);
+     $userForm = htmlspecialchars($_POST['formUN'], ENT_QUOTES);
+     $pwForm = hash('sha256', $_POST['formPW']);
 
-    //Prevents SQL injection by using a named parameter.
-    $nPara[':username'] = $userForm;
-    $nPara[':password'] = $pwForm;
+     //Prevents SQL injection by using a named parameter.
+     $nPara[':username'] = $userForm;
+     $nPara[':password'] = $pwForm;
 
-    $sql = "SELECT * FROM admin WHERE userName = :username AND password = :password";
+     $sql = "SELECT * FROM admin WHERE userName = :username AND password = :password";
 
-    $statement = $dbConn->prepare($sql);
-    $statement->execute($nPara);
-    $record = $statement->fetch(PDO::FETCH_ASSOC);
+     $statement = $dbConn->prepare($sql);
+     $statement->execute($nPara);
+     $record = $statement->fetch(PDO::FETCH_ASSOC);
 
-    if (empty($record)) { //wrong credentials
-        echo "<form method='POST' action='login.php'>";
-        echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
-        echo "</form>";
-    } else {
-        $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
-        $_SESSION["username"]  = $record['userName'];
-        $_SESSION["status"] = "Admin";
-        //echo $_SESSION["status"];
-        header("Location: admin.php"); //redirect to home page
-    }
+     if (empty($record)) { //wrong credentials
+          echo "<form method='POST' action='login.php'>";
+          echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
+          echo "</form>";
+     } else {
+          $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
+          $_SESSION["username"]  = $record['userName'];
+          $_SESSION["status"] = "Admin";
+          //echo $_SESSION["status"];
+          header("Location: admin.php"); //redirect to home page
+     }
 }
