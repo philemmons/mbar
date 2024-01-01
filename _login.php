@@ -26,13 +26,13 @@ if (isset($_POST['logout'])) {
     <div class="collapse.true navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.php" >Home</a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item dropdown">
           <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
           <div class="dropdown-menu" aria-labelledby="dropdownId">
             <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-            <a class="dropdown-item"  href="registration.php">Registration</a>
+            <a class="dropdown-item" href="registration.php">Registration</a>
             <a class="dropdown-item" href="activities.php">Activities</a>
             <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
             <a class="dropdown-item" href="memories.php">Memories</a>
@@ -61,43 +61,59 @@ if (isset($_POST['logout'])) {
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
         </li>
+        <?php
+        if (isset($_SESSION["status"])) {
+          echo '<li class="nav-item">';
+          echo '<form method ="POST" id="one" >';
+          echo '<input type="submit" value="Logout" class="nav-link" name="Logout"/>';
+          echo '</form>';
+          echo '</li>';
+        }
+        ?>
       </ul>
     </div>
   </div>
 </nav>
 
-
-<?php
-if (isset($_SESSION["status"])) {
-  echo '<form method ="POST" id="one" >';
-  echo '<input type="submit" value="Logout" class="btn" name="logout" style="box-shadow: none !important;"/>';
-  echo '</form>';
-}
-?>
-
-</div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
-
-<!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
-<div id="mLogin">
-  <h6>Please login to continue...</h6>
-  <br>
-  <button onclick="document.getElementById('id01').style.display='block'" class="btn">Login</button>
-  <?php
-  if (isset($_POST['login'])) {
-    goMain();
-  }
-  ?>
-  <br><br>
-  <div id='wrapper-robot'>
-    <div class='title'>
-      <img src="img/robot.png" alt="Small robot typing on a small laptop at a desk." />
+<main>
+  <!-- Hero Section -->
+  <section class="container shadow-wrap">
+    <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-login" title="Computer generated fractal with blue and orange colors.">
+      <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+        <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup Login</span>
+          </h1>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div id="id01" class="modalAD">
+  </section>
 
+  <!-- Section One -->
+  <section class="container shadow-wrap">
+    <div class="row justify-content-center mb-5">
+      <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+        <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome1">
+          <!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
+          <div id="mLogin">
+            <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Please login to continue...</span>
+            </h4>
+            <br>
+            <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary">Login</button>
+            <?php
+            if (isset($_POST['login'])) {
+              goMain();
+            }
+            ?>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="id01" class="modalAD">
   <form method="POST" class="modal-contentAD animateAD" name="loginForm">
 
     <div class="containerAD">

@@ -216,6 +216,10 @@ nav {
   background-image: url("../images/sitemap-banner.png");
 }
 
+.bg-img-login {
+  background-image: url("../images/blue-orange-banner.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }
