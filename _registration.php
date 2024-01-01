@@ -640,8 +640,6 @@ form.onchange = updateForm;
                 document.getElementById($key).value = "no";
             else
                 document.getElementById($key).value = "";
-
-            document.getElementById($key).disabled = ($obj.value == "yes");
         });
 
     }
