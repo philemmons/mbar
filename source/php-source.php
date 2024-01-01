@@ -83,7 +83,7 @@ function saveData()
      global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm;
      global $dbConn, $nPara;
 
-     if (isset($_POST['submit-reg'])) {
+     if (isset($_POST['submit'])) {
 
           $sql = "INSERT INTO registration (
                     firstname,

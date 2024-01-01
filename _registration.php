@@ -494,7 +494,7 @@
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit-reg">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
