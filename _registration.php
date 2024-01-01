@@ -118,25 +118,25 @@
                         // If the reCAPTCHA API response is valid
                         if ($responseData->success) {
                             // Retrieve value from the form input fields
-                            $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn']) : '';
-                            $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln']) : '';
-                            $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em']) : '';
-                            $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone']) : '';
-                            $address = !empty($_POST['reg-addr']) ? htmlspecialchars($_POST['reg-addr']) : '';
-                            $city = !empty($_POST['reg-city']) ? htmlspecialchars($_POST['reg-city']) : '';
-                            $state = !empty($_POST['reg-state']) ? htmlspecialchars($_POST['reg-state']) : '';
-                            $zc = !empty($_POST['reg-zc']) ? htmlspecialchars($_POST['reg-zc']) : '';
-                            $fs = !empty($_POST['reg-fs']) ? htmlspecialchars($_POST['reg-fs']) : '';
-                            $hg = !empty($_POST['reg-hg']) ? htmlspecialchars($_POST['reg-hg']) : '';
-                            $register = !empty($_POST['radio-stacked']) ? htmlspecialchars($_POST['radio-stacked']) : '';
-                            $ebmb = !empty($_POST['reg-ebmb']) ? htmlspecialchars($_POST['reg-ebmb']) : '';
-                            $mtsd = !empty($_POST['reg-mtsd']) ? htmlspecialchars($_POST['reg-mtsd']) : '';
-                            $rucb = !empty($_POST['reg-rucb']) ? htmlspecialchars($_POST['reg-rucb']) : '';
-                            $ics = !empty($_POST['reg-ics']) ? htmlspecialchars($_POST['reg-ics']) : '';
-                            $snd = !empty($_POST['reg-snd']) ? htmlspecialchars($_POST['reg-snd']) : '';
-                            $hhc = !empty($_POST['reg-hhc']) ? htmlspecialchars($_POST['reg-hhc']) : '';
-                            $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox']) : '';
-                            $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm']) : '';
+                            $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn'], ENT_QUOTES) : '';
+                            $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln'], ENT_QUOTES) : '';
+                            $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em'], ENT_QUOTES) : '';
+                            $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone'], ENT_QUOTES) : '';
+                            $address = !empty($_POST['reg-addr']) ? htmlspecialchars($_POST['reg-addr'], ENT_QUOTES) : '';
+                            $city = !empty($_POST['reg-city']) ? htmlspecialchars($_POST['reg-city'], ENT_QUOTES) : '';
+                            $state = !empty($_POST['reg-state']) ? htmlspecialchars($_POST['reg-state'], ENT_QUOTES) : '';
+                            $zc = !empty($_POST['reg-zc']) ? htmlspecialchars($_POST['reg-zc'], ENT_QUOTES) : '';
+                            $fs = !empty($_POST['reg-fs']) ? htmlspecialchars($_POST['reg-fs'], ENT_QUOTES) : '';
+                            $hg = !empty($_POST['reg-hg']) ? htmlspecialchars($_POST['reg-hg'], ENT_QUOTES) : '';
+                            $register = !empty($_POST['radio-stacked']) ? htmlspecialchars($_POST['radio-stacked'], ENT_QUOTES) : '';
+                            $ebmb = !empty($_POST['reg-ebmb']) ? htmlspecialchars($_POST['reg-ebmb'], ENT_QUOTES) : '';
+                            $mtsd = !empty($_POST['reg-mtsd']) ? htmlspecialchars($_POST['reg-mtsd'], ENT_QUOTES) : '';
+                            $rucb = !empty($_POST['reg-rucb']) ? htmlspecialchars($_POST['reg-rucb'], ENT_QUOTES) : '';
+                            $ics = !empty($_POST['reg-ics']) ? htmlspecialchars($_POST['reg-ics'], ENT_QUOTES) : '';
+                            $snd = !empty($_POST['reg-snd']) ? htmlspecialchars($_POST['reg-snd'], ENT_QUOTES) : '';
+                            $hhc = !empty($_POST['reg-hhc']) ? htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES) : '';
+                            $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES) : '';
+                            $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm'], ENT_QUOTES) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -148,19 +148,19 @@
                     <p><b>Phone: </b>" . $phone . "</p> 
                     <p><b>Address: </b>" . $address . "</p> 
                     <p><b>City: </b>" . $city . "</p> 
-                    <p><b>State: </b>" . $state . "/p> 
+                    <p><b>State: </b>" . $state . "</p> 
                     <p><b>Zip Code: </b>" . $zc . "</p> 
                     <p><b>Fellowship: </b>" . $fs . "</p> 
                     <p><b>Homegroup: </b>" . $hg . "</p> 
                     <p><b>Registration: </b>" . $register . "</p> 
-                    <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "/p> 
+                    <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "</p> 
                     <p><b>Meet the Speaker Dinner: </b>" . $mtsd . "</p> 
                     <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
                     <p><b>Ice Cream Social: </b>" . $ics . "</p> 
                     <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
-                    <p><b>Helping Hand Contribution: </b>" . $hhc . "/p> 
+                    <p><b>Helping Hand Contribution: </b>" . $hhc . "</p> 
                     <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
-                    <p><b>Payment Method: </b>" . $pm . "/p> 
+                    <p><b>Payment Method: </b>" . $pm . "</p> 
                 ";
 
                             // Always set content-type when sending HTML email 
@@ -447,8 +447,7 @@
                                 <option value="35">$35</option>
                                 <option value="10">$10</option>
                                 <option value="5">$5</option>
-                                <option value="other">Other</option>
-                                <option value="0">No thank you</option>
+                                <option value="">Other</option>
                             </select>
                             <div class="invalid-feedback">
                                 Optional - Please enter your Contribution.
