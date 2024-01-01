@@ -82,7 +82,7 @@
             $secretKey  = getenv('g-secret-key');
 
             // Email settings
-            $recipientEmail = getenv('mbar-to-email');
+            //$recipientEmail = getenv('mbar-to-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -141,7 +141,7 @@
                             saveData();
 
                             // Send email notification to the site admin 
-                            $to = $recipientEmail;
+                            $to = $email;
                             $subject = 'Registration Form Submitted';
                             $htmlContent = " 
                     <h4>Registration Form</h4> 
@@ -161,7 +161,7 @@
                     <p><b>Ice Cream Social: </b>" . $ics . "</p> 
                     <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
                     <p><b>Helping Hand Contribution: </b>" . $hhc . "/p> 
-                    <p><b>ToS: </b>" . $cBox . "</p> 
+                    <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "/p> 
                 ";
 
@@ -356,6 +356,8 @@
                                     Required - Please check one.
                                 </div>
                             </div>
+                            <p>Note: Saturday Night Dance is free with paid registration.
+                            </p>
                         </div>
 
                         <div class="col-lg-7">
