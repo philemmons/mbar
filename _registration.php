@@ -447,7 +447,7 @@
                                 <option value="35">$35</option>
                                 <option value="10">$10</option>
                                 <option value="5">$5</option>
-                                <option value="">Other</option>
+                                <option value="other">Other</option>
                             </select>
                             <div class="invalid-feedback">
                                 Optional - Please enter your Contribution.
