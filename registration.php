@@ -50,8 +50,8 @@
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>
@@ -64,7 +64,7 @@
         <div class="row justify-content-center mb-5">
             <div id="register-now"></div>
             <div class="col-xl-8 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <div style="height: 50rem;">
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" id="reg-form"  title= "2024 MBAR registration form through Google forms.">Loading…</iframe>
                     </div>
@@ -118,10 +118,10 @@
 
     <!-- Section Four -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5" title="Preregistration is live.">
+        <div class="row justify-content-center mb-5" title="Pre-Registration is live.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Preregistration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Preregistration is Live</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>
