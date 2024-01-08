@@ -55,10 +55,10 @@ if (isset($_POST['logout'])) {
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
-        <li class="nav-item" style="border-right: none;">
+        <li class="nav-item">
           <a class="nav-link" href="contributions.php">Contribution</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="border-right: none;">
           <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
         </li>
         <?php
