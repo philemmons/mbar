@@ -79,7 +79,7 @@ include_once 'header.inc'
 
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
-
+            echo getenv('g-site-key'); die();
             // Email settings 
             $recipientEmail = getenv('mbar-to-email');
 
@@ -218,7 +218,6 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-md-12 text-center">
-                        <? echo getenv('g-site-key'); die();?> 
                             <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
                             <div class="invalid-feedback">
                                 <? echo $recaptcha_message ?>
