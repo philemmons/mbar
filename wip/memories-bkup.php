@@ -28,12 +28,12 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                         <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                              <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                              <a class="nav-link" href="logo_contest.php">Logo Contest</a>
-                         </div>
-                    </li>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
+                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
@@ -92,7 +92,7 @@
                     $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
                 } else {
                     echo 'alert(submitted)';
-                    //$toEmail = 'systemadmin@philemmons.dev';
+                    //$toEmail = 'systemadmin@montereybayarearoundup.org';
                     //$emailSubject = 'New email from your contact form';
                     //$headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
 

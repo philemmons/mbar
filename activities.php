@@ -1,6 +1,6 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc' 
+include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -86,7 +86,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Meet the Speakers Dinner</h3>
                         </figcaption>
-                        <p><a href="https://mbar.philemmons.dev/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
                         <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> (in the back of the building).
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Roundup Breakfast</h3>
                         </figcaption>
-                        <p><a href="https://mbar.philemmons.dev/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
                         <p>Join us for a delicious breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
                         </p>
                     </div>
@@ -149,7 +149,7 @@ include_once 'header.inc'
                             <h3>Ice-Cream Social</h3>
                         </figcaption>
                         <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
-                        <p><a href="https://mbar.philemmons.dev/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
                         <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
                         </p>
                         <p>For more info, pick up your program at the Registration desk!</p>

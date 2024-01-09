@@ -37,7 +37,7 @@ if (!empty($_POST)) {
         $allErrors = join('<br/>', $errors);
         $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
     } else {
-        $toEmail = 'systemadmin@philemmons.dev';
+        $toEmail = 'systemadmin@montereybayarearoundup.org';
         $emailSubject = 'New email from your contact form';
         $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
 
