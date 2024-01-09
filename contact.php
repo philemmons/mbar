@@ -79,7 +79,7 @@ include_once 'header.inc'
 
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
-            echo getenv('g-site-key'); die();
+            echo getenv('g-secret-key'); die();
             // Email settings 
             $recipientEmail = getenv('mbar-to-email');
 
