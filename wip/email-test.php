@@ -76,7 +76,7 @@ if (!empty($_POST)) {
         </p>
 
         <p>
-            <button class="g-recaptcha" type="submit" data-sitekey=<? echo getenv('g-site-key'); ?> data-callback='onRecaptchaSuccess'>
+            <button class="g-recaptcha" type="submit" data-sitekey=<?php echo getenv('g-site-key'); ?> data-callback='onRecaptchaSuccess'>
                 Submit
             </button>
         </p>

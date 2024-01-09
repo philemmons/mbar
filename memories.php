@@ -1,6 +1,6 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc' 
+include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -222,9 +222,9 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-md-12 text-center">
-                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
+                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div class="invalid-feedback">
-                                <? echo $recaptcha_message ?>
+                                <?php echo $recaptcha_message ?>
                             </div>
                         </div>
 

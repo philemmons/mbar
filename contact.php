@@ -1,6 +1,6 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc' 
+include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -79,7 +79,7 @@ include_once 'header.inc'
 
             // Google reCAPTCHA API keys settings 
             $secretKey  = getenv('g-secret-key');
-            
+
             // Email settings 
             $recipientEmail = getenv('mbar-to-email');
 
@@ -218,9 +218,9 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-md-12 text-center">
-                            <div class="g-recaptcha" data-sitekey=<? echo getenv('g-site-key'); ?>></div>
+                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div class="invalid-feedback">
-                                <? echo $recaptcha_message ?>
+                                <?php echo $recaptcha_message ?>
                             </div>
                         </div>
 
@@ -242,7 +242,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <? echo getenv('mbar-chair-email'); ?> </p>
+                    <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mbar-chair-email'); ?> </p>
                 </div>
             </div>
         </div>
