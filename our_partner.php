@@ -54,7 +54,7 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-partner" title="Meeting diversity enhances our lives.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-partner" title="Let It Begin With Me">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Both function more effectively if we remains 'separate,' cooperating but not affiliating with the other.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Our Partner<br>Al-Anon Family Groups</span></h1>
@@ -67,7 +67,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="p-3  text-bg-light hero-text-border">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
                     </h4>
                     <hr>
@@ -90,7 +90,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="p-3  text-bg-light hero-text-border">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics - Lois's Story(1995)</span>
                     </h4>
                     <hr>
@@ -110,7 +110,7 @@ include_once 'header.inc'
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+            <div class="col-xl-6 col-lg-6 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
@@ -125,7 +125,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="p-3  text-bg-light hero-text-border">
                     <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
                     </h4>
                     <hr>
