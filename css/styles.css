@@ -48,7 +48,7 @@ body {
   padding: 1rem;
 }
 
-.banner > h1 {
+.banner>h1 {
   font-size: 25px;
   letter-spacing: 4px;
 }
@@ -75,7 +75,7 @@ hr {
   border-top: inset 2px var(--color-6);
 }
 
-#footer-image > p {
+#footer-image>p {
   font-size: 10px;
   padding-top: 1rem;
 }
@@ -142,9 +142,9 @@ nav {
   border-radius: 0;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > button:hover,
-.navbar-nav > li > div > a:hover {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>button:hover,
+.navbar-nav>li>div>a:hover {
   background-color: var(--color-7);
   color: var(--color-2);
 }
@@ -169,11 +169,11 @@ nav {
 }
 
 .bg-img-activity {
-  background-image: url("../images/activity.png");
+  background-image: url("../images/monterey-state-beach.png");
 }
 
 .bg-img-history {
-  background-image: url("../images/monterey-state-beach.png");
+  background-image: url("../images/activity.png");
 }
 
 .bg-img-memories {
@@ -241,7 +241,7 @@ nav {
 
 /**** card section two ****/
 
-.card-title > a {
+.card-title>a {
   color: var(--color-7);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -335,13 +335,13 @@ audio {
   margin: .15rem;
 }
 
-ul.level-1>li.ms-5{
+ul.level-1>li.ms-5 {
   border-radius: 1rem 3rem !important;
   margin: .15rem;
 }
 
 
-#sitemap-footer{
+#sitemap-footer {
   padding: 1.5rem;
   text-align: center;
 }
@@ -351,16 +351,17 @@ ul.level-1>li.ms-5{
   padding-bottom: 5rem;
 }
 
-.olt-5{ /* over lap top */
+.olt-5 {
+  /* over lap top */
   margin-top: -5rem;
 }
 
-.no-bullet{
+.no-bullet {
   list-style-type: none;
 }
 
 /**** registration form****/
 
-.big-star{
+.big-star {
   font-weight: bolder;
 }
