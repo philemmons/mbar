@@ -6,5 +6,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/montgfor/public_html
+    - export DEPLOYPATH=/home/montgfor/public_html/
     - /bin/cp -R * $DEPLOYPATH
