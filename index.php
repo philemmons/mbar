@@ -1,6 +1,6 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc' 
+include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -57,7 +57,7 @@ include_once 'header.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h1>
-                    <p class="mb-6 h2 text-dark">August 31st and<br>September 1st</p>
+                    <p class="mb-6 h2 text-dark">Saturday, August 31st and<br>Sunday, September 1st</p>
                     <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
             </div>
