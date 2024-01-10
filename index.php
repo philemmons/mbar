@@ -74,7 +74,7 @@ include_once 'header.inc'
                                 <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship"</a></h5>
                             <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo!
                                 <br>
-                                <strong>When:</strong> January 26, 2024, 6-9pm
+                                <strong>When:</strong> Friday — January 26, 2024, 6-9pm
                             </p>
                     </div>
                     <div class="card-footer text-center">
