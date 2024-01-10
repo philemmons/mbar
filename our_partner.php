@@ -94,7 +94,7 @@ include_once 'header.inc'
                     <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics<br>Lois's Story(1995)</span>
                     </h4>
                     <hr>
-                    <p>According to Lois W. - "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could."
+                    <p>According to Lois W. — "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could."
                         <br><br>
                         "This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes."
                         <br><br>
