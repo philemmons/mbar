@@ -100,7 +100,7 @@ include_once 'header.inc'
                         <br><br>
                         "My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes."
                         <br><br>
-                        "We began to learn...that the partner of the alcoholic also needed to live by a spiritual program."
+                        "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
                     </p>
                 </div>
             </div>
