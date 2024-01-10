@@ -106,11 +106,11 @@ include_once 'header.inc'
                               <br><br>
                               <strong>When:</strong> Friday — January 26, 2024, 6pm - 9pm
                               <br>
-                              <strong>Where:</strong> Moose Lodge - 555 Canyon Del Rey Blvd,Del Rey Oaks, CA
+                              <strong>Where:</strong> Moose Lodge — 555 Canyon Del Rey Blvd, Del Rey Oaks, CA
                               <br>
                               <strong>Speaker:</strong> Elena B
                               <br><br>
-                              Hot Dogs - Beverages - Light Snacks - 50/50 Raffle and Bingo Prizes
+                              Hot Dogs — Beverages — Light Snacks — 50/50 Raffle and Bingo Prizes
                          </p>
                          <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
                          <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>

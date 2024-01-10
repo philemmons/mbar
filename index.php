@@ -78,7 +78,7 @@ include_once 'header.inc'
                             </p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">View more info here</a></small>
+                        <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View more info here</a></small>
                     </div>
                 </div>
             </div>
