@@ -1,7 +1,7 @@
 <footer class='container'>
     <div class="row justify-content-md-center">
         <div class='col-sm-4 banner'>
-            <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Are Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
+            <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
         </div>
         <div class='col-sm-8 col-md-6 p-4'>
             <h3>Our Statement of Responsibility:</h3>
@@ -14,7 +14,7 @@
     <div class="row justify-content-md-center">
         <div class="col-sm-12 col-md-10 shadow text-center">
             <hr>
-            <h3 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target= "_blank">
+            <h3 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
                         <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members."></a> Private Group</strong></h3>
             <hr>
         </div>
@@ -27,19 +27,19 @@
             <p>Copyright © 2023 Monterey Bay Area Roundup. All Rights Reserved.
             </p>
         </div>
-            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
-                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-size" href="accessibility.php">Site accessibility</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-size" href="privacy-policy.php">Privacy Policy</a>
-                    </li>
-                    <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link nav-link-size" href="sitemap.php">Site Map</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
+            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-size" href="accessibility.php">Site accessibility</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-size" href="privacy-policy.php">Privacy Policy</a>
+                </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link nav-link-size" href="sitemap.php">Site Map</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </div>
 
