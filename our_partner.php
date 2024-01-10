@@ -68,7 +68,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
                     </h4>
                     <hr>
                     <p>The following resolution of gratitude to the Fellowship of the Al-Anon Family Groups was unanimously approved by the 1969 General Service Conference of Alcoholics Anonymous.
@@ -91,16 +91,16 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics - Lois's Story(1995)</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics - Lois's Story(1995)</span>
                     </h4>
                     <hr>
-                    <p>According to Lois W. - "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, "Damn your old meetings!" and threw a shoe as hard as I could.
+                    <p>According to Lois W. - "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could.""
                         <br><br>
-                        This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes.
+                        "This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes."
                         <br><br>
-                        My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes.
+                        "My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes."
                         <br><br>
-                        We began to learn...that the partner of the alcoholic also needed to live by a spiritual program."
+                        "We began to learn...that the partner of the alcoholic also needed to live by a spiritual program."
                     </p>
                 </div>
             </div>
@@ -109,7 +109,7 @@ include_once 'header.inc'
 
     <!-- Section Three -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
@@ -126,7 +126,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
                     </h4>
                     <hr>
                     <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
