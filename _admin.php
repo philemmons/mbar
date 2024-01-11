@@ -123,17 +123,13 @@ function displayRegAdmin($registration)
 
     echo "<td>
     <a href='regUpdate.php?id=" . $eachReg['id'] . "'>
-      <button type=\"button\" class=\"btn btn-success\">
-        <i class=\"bi bi-pencil\"></i> Update
-      </button>
+      <button type=\"button\" class=\"btn btn-success\"> Update </button>
     </a>";
     echo "</td>";
 
     echo "<td>
     <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['email'] . "\")' >
-      <button type=\"button\" class=\"btn btn-danger\">
-        <i class=\"bi bi-trash3\"></i> Delete 
-      </button>
+      <button type=\"button\" class=\"btn btn-danger\"> Delete </button>
     </a>";
     echo "</td>";
 
@@ -161,6 +157,16 @@ function displayRegAdmin($registration)
 }
 
 ?>
+    <!-- https://datatables.net -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/responsive.bootstrap5.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap5.min.css" />
+
 
 <script>
   function confirmDelete($user) {
