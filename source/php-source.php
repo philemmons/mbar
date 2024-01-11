@@ -224,7 +224,7 @@ function goMain()
      $record = $statement->fetch(PDO::FETCH_ASSOC);
 
      if (empty($record)) { //wrong credentials
-          echo "<form method='POST' action='login.php'>";
+          echo "<form method='POST' action='_login.php'>";
           echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
           echo "</form>";
      } else {
@@ -232,6 +232,6 @@ function goMain()
           $_SESSION["username"]  = $record['userName'];
           $_SESSION["status"] = "Admin";
           //echo $_SESSION["status"];
-          header("Location: _admin.php"); //redirect to home page
+          header("Location: _admin.php"); //redirect to login page
      }
 }

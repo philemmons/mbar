@@ -4,7 +4,7 @@ session_start();
 if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
   $_SESSION["name"] = "Guest";
 } else {
-  header("Location:admin.php");
+  header("Location:_admin.php");
 }
 
 include_once 'header.inc';
@@ -110,42 +110,22 @@ if (isset($_POST['logout'])) {
 
 </main>
 
-<!--
-<div id="id01" class="modalAD">
-  <form method="POST" class="modal-contentAD animateAD" name="loginForm">
-
-    <div class="containerAD">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="formUN" required id="ittAD">
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="formPW" required id="itpAD">
-
-      <input type="submit" name="login" value="Login" class="btnAD btn" style="width: 100%;" />
-    </div>
-
-    <div class="containerAD">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" id="cancelbtnAD" class="btn">Cancel</button>
-    </div>
-  </form>
-</div>
--->
 <!-- Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
 
-        <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate="">
+        <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate>
 
           <label for="ittLM">Username</label>
-          <input type="text" class="form-control" name="formUN" id="ittLM" required="">
+          <input type="text" class="form-control" name="formUN" id="ittLM" required>
           <div class="invalid-feedback">
             Required
           </div>
 
           <label for="itpLM">Password</label>
-          <input type="password" class="form-control" name="formPW" id="itpLM" required="">
+          <input type="password" class="form-control" name="formPW" id="itpLM" required>
           <div class="invalid-feedback">
             Required
           </div>
@@ -163,7 +143,6 @@ if (isset($_POST['logout'])) {
     </div>
   </div>
 </div>
-
 
 <?php include_once 'footer.inc' ?>
 
