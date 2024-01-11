@@ -182,7 +182,7 @@ include_once 'header.inc'
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'We appreciate your commitment to attend! Your Pre-Registration will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
+                            $statusMsg = 'Your pre-registration was sent, and it will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
                             $postData = '';
 
                             regFormData($total);
