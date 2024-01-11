@@ -95,9 +95,9 @@ if (isset($_POST['logout'])) {
         <div class="p-3 text-center text-bg-light hero-text-border" title="Please login to continue.">
           <h4 class="fw-bold text-dark px-md-0">Thank you for your service.
           </h4>
-          <div class="d-grid col-6">
+          <div class="d-grid col-12 mx-auto">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
             <?php
             if (isset($_POST['login'])) {
               goMain();
@@ -138,18 +138,18 @@ if (isset($_POST['logout'])) {
 
         <form method="POST" class="p-3 needs-validation" name="loginForm" novalidate>
 
-          <label for="ittLM" class="form-label">Username *</label>
+          <label for="ittLM" class="form-label">Username</label>
           <input type="text" class="form-control" name="formUN" id="ittLM" required>
           <div class="invalid-feedback">
             Required
           </div>
 
-          <label for="itpLM" class="form-label">Password *</label>
+          <label for="itpLM" class="form-label">Password</label>
           <input type="password" class="form-control" name="formPW" id="itpLM" required>
           <div class="invalid-feedback">
             Required
           </div>
-          <div class="d-grid col-12 mx-auto">
+          <div class="d-grid col-10 mx-auto">
             <input type="submit" name="login" value="Login" class="btn btn-outline-primary btn-sm" style="width: 100%;" />
           </div>
         </form>
