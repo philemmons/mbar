@@ -149,7 +149,7 @@ if (isset($_POST['logout'])) {
           <div class="invalid-feedback">
             Required
           </div>
-          <div class="d-grid col-10">
+          <div class="d-grid col-12 mx-auto">
             <input type="submit" name="login" value="Login" class="btn btn-outline-primary btn-sm" style="width: 100%;" />
           </div>
         </form>
