@@ -35,11 +35,8 @@
                 <li class="nav-item">
                     <a class="nav-link nav-link-size" href="privacy-policy.php">Privacy Policy</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style="border-right: none;">
                     <a class="nav-link nav-link-size" href="sitemap.php">Site Map</a>
-                </li>
-                <li class="nav-item"  style="border-right: none;">
-                    <a class="nav-link nav-link-size" href="_login.php">Admin</a>
                 </li>
             </ul>
         </nav>

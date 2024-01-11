@@ -55,13 +55,16 @@ if (isset($_POST['logout'])) {
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
-        <li class="nav-item style="border-right: none;">
+        <li class="nav-item style=" border-right: none;">
           <a class="nav-link" href="contributions.php">Contribution</a>
+        </li>
+        <li class="nav-item" style="border-right: none;">
+          <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
         </li>
         <?php
         if (isset($_SESSION["status"])) {
           echo '<li class="nav-item">';
-          echo '<form method ="POST" id="one" >';
+          echo '<form method ="POST" id="oneBtn" >';
           echo '<input type="submit" value="Logout" class="nav-link" name="Logout"/>';
           echo '</form>';
           echo '</li>';
