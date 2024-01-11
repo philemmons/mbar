@@ -54,7 +54,7 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>
@@ -124,7 +124,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5" title="Pre-Registration is live.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>

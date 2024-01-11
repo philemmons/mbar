@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
                     <a href="registration.php" class="btn btn-primary me-2">Register Now</a>

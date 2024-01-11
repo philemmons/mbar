@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.</span></h4>
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.</span></h4>
                 </div>
             </div>
 

@@ -91,13 +91,11 @@ if (isset($_POST['logout'])) {
   <!-- Section One -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
-      <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-        <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome1">
-          <!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
-          <div id="mLogin">
-            <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Please login to continue.</span>
-            </h4>
-            <br>
+      <div class="col-xl-7 col-lg-7 col-md-12 py-4">
+        <div class="p-3 text-center text-bg-light hero-text-border" title="Please login to continue.">
+          <h4 class="fw-bold text-dark px-md-0">Thank you for your service.
+          </h4>
+          <div class="d-grid col-6">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
             <?php
@@ -105,11 +103,9 @@ if (isset($_POST['logout'])) {
               goMain();
             }
             ?>
-            <br><br>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
 </main>
@@ -142,19 +138,18 @@ if (isset($_POST['logout'])) {
 
         <form method="POST" class="p-3 needs-validation" name="loginForm" novalidate>
 
-          <div class="containerAD">
-            <label for="ittLM" class="form-label">Username *</label>
-            <input type="text" class="form-control" name="formUN" id="ittLM" required>
-            <div class="invalid-feedback">
-              Required
-            </div>
+          <label for="ittLM" class="form-label">Username *</label>
+          <input type="text" class="form-control" name="formUN" id="ittLM" required>
+          <div class="invalid-feedback">
+            Required
+          </div>
 
-            <label for="itpLM" class="form-label">Password *</label>
-            <input type="password" class="form-control" name="formPW" id="itpLM" required>
-            <div class="invalid-feedback">
-              Required
-            </div>
-
+          <label for="itpLM" class="form-label">Password *</label>
+          <input type="password" class="form-control" name="formPW" id="itpLM" required>
+          <div class="invalid-feedback">
+            Required
+          </div>
+          <div class="d-grid col-10">
             <input type="submit" name="login" value="Login" class="btn btn-outline-primary btn-sm" style="width: 100%;" />
           </div>
         </form>
