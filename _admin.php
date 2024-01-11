@@ -16,7 +16,8 @@ if (isset($_POST['logout'])) {
   header("Location: index.php");
 }
 
-/*admin report*/
+/******* admin report *******/
+
 /* average number of registrations per state */
 function getConAvg()
 {
@@ -65,6 +66,7 @@ function getConTot()
   //print_r($tot);
   return $tot;
 }
+
 function displayConTot($tot)
 {
   foreach ($tot as $part) {
@@ -108,14 +110,17 @@ function getNextCon()
   return $records;
 }
 
+/******* end admin reports *******/
+
 /* registration display with update and delete buttons for each */
 function displayRegAdmin($registration)
 {
   foreach ($registration as $eachReg) {
-    $newDate = dateDisplay($eachReg['start_date'], $eachReg['end_date']);
-
     echo "<tr>";
-    echo "<td>" . $eachReg['conName'] . "</td>";
+    echo "<td>" . $eachReg['firstname'] . "</td>";
+    echo "<td>" . $eachReg['lastname'] . "</td>";
+    echo "<td>" . $eachReg['email'] . "</td>";
+
     echo "<td>
     <a href='regUpdate.php?id=" . $eachReg['id'] . "'>
       <button type=\"button\" class=\"btn\">
@@ -123,6 +128,7 @@ function displayRegAdmin($registration)
       </button>
     </a>";
     echo "</td>";
+
     echo "<td>
     <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['conName'] . "\")' >
       <button type=\"button\" class=\"btn\">
@@ -130,17 +136,30 @@ function displayRegAdmin($registration)
       </button>
     </a>";
     echo "</td>";
-    echo "<td>" . $newDate . "</td>";
-    echo "<td>" . $eachReg['year'] . "</td>";
-    echo "<td>" . $eachReg['event_location'] . "</td>";
+
+    echo "<td>" . $eachReg['payment'] . "</td>";
+    echo "<td>" . $eachReg['total'] . "</td>";
+    echo "<td>" . $eachReg['paid'] . "</td>";
+    echo "<td>" . $eachReg['result'] . "</td>";
+    echo "<td>" . $eachReg['phone'] . "</td>";
+    echo "<td>" . $eachReg['address'] . "</td>";
     echo "<td>" . $eachReg['city'] . "</td>";
     echo "<td>" . $eachReg['state'] . "</td>";
-    echo "<td>" . $eachReg['country'] . "</td>";
-    echo "<td> <a href='https://" . $eachReg['website'] . "' target='_blank'>" . $eachReg['website'] . "</a> </td>";
+    echo "<td>" . $eachReg['zipcode'] . "</td>";
+    echo "<td>" . $eachReg['fellowship'] . "</td>";
+    echo "<td>" . $eachReg['homegroup'] . "</td>";
+    echo "<td>" . $eachReg['registration'] . "</td>";
+    echo "<td>" . $eachReg['ebmb'] . "</td>";
+    echo "<td>" . $eachReg['speakerdinner'] . "</td>";
+    echo "<td>" . $eachReg['breakfast'] . "</td>";
+    echo "<td>" . $eachReg['icecream'] . "</td>";
+    echo "<td>" . $eachReg['dance'] . "</td>";
+    echo "<td>" . $eachReg['helpinghand'] . "</td>";
+    echo "<td>" . $eachReg['tos'] . "</td>";
     echo "</tr>";
   }
 }
-/* end admin reports*/
+
 ?>
 
 <script>

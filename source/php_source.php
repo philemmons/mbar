@@ -140,24 +140,13 @@ function getUserInfo($email)
 }
 
 /*
-*@input: Name of the convention table
-*@output: all contents of CONVENTION table for the user by ascending date with TBA values last
+*@input: Name of the database table - registration
+*@output: all contents of registration table for the user by ascending date with TBA values last
 */
 function getRegData($table)
 {
-    $sql = "SELECT *, STR_TO_DATE(CONCAT(start_date, ' ', year),
-    '%M %d %Y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
+    $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
     return preExeFetNOPARA($sql);
-}
-
-/*  admin.php */
-function dateDisplay($startDate, $endDate)
-{
-    $result = strcasecmp($startDate, $endDate);
-    if ($result == 0) {
-        return $startDate;
-    }
-    return $startDate . "-" . substr($endDate, strrpos($endDate, ' ') + 1);
 }
 
 function saveData($total)
