@@ -221,7 +221,7 @@ include_once 'header.inc'
                             </div>
                         </div>
 
-                        <div class="col-md-12 text-center">
+                        <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div>
                                 Note: The form will reset if unchecked.
