@@ -134,7 +134,7 @@ if (isset($_POST['logout'])) {
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-body" id="loginModalLabel">
+      <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
 
         <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate="">
 
@@ -151,14 +151,14 @@ if (isset($_POST['logout'])) {
           </div>
 
           <div class="d-grid col-sm-5 mx-auto pt-3">
-            <input type="submit" name="login" value="Login" class="btn btn-outline-primary">
+            <input type="submit" name="login" value="Login" class="btn btn-primary">
           </div>
 
           <div class="d-grid col-sm-5 mx-auto pt-3">
-            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
           </div>
         </form>
-        
+
       </div>
     </div>
   </div>
