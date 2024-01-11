@@ -235,5 +235,3 @@ function goMain()
           header("Location: _admin.php"); //redirect to login page
      }
 }
-
-?>
