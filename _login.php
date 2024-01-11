@@ -136,21 +136,26 @@ if (isset($_POST['logout'])) {
     <div class="modal-content">
       <div class="modal-body" id="loginModalLabel">
 
-        <form method="POST" class="p-3 needs-validation" name="loginForm" novalidate>
+        <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate="">
 
-          <label for="ittLM" class="form-label">Username</label>
-          <input type="text" class="form-control" name="formUN" id="ittLM" required>
+          <label for="ittLM">Username</label>
+          <input type="text" class="form-control" name="formUN" id="ittLM" required="">
           <div class="invalid-feedback">
             Required
           </div>
 
-          <label for="itpLM" class="form-label">Password</label>
-          <input type="password" class="form-control" name="formPW" id="itpLM" required>
+          <label for="itpLM">Password</label>
+          <input type="password" class="form-control" name="formPW" id="itpLM" required="">
           <div class="invalid-feedback">
             Required
           </div>
-          <div class="d-grid col-sm-10 mx-auto p-2">
-            <input type="submit" name="login" value="Login" class="btn btn-outline-primary btn-sm" style="width: 100%;" />
+
+          <div class="d-grid col-sm-5 mx-auto pt-3">
+            <input type="submit" name="login" value="Login" class="btn btn-outline-primary">
+          </div>
+
+          <div class="d-grid col-sm-5 mx-auto pt-3">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
           </div>
         </form>
 
