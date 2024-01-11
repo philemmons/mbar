@@ -4,7 +4,7 @@ session_start();
 if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
   $_SESSION["name"] = "Guest";
 } else {
-  header("Location:_admin.php");
+  header("Location: _admin.php");
 }
 
 include_once 'header.inc';
