@@ -622,27 +622,6 @@ include_once 'header.inc'
     }
 </script>
 <script>
-    /*
-    let hhcVal = document.getElementById("reg-hhc").value;
-    const cost = new Map([
-        ["reg-early", 45],
-        ["reg-late", 50],
-        ["reg-ebmb", 35],
-        ["reg-mtsd", 25],
-        ["reg-rucb", 10],
-        ["reg-ics", 5],
-        ["reg-snd", 5],
-        ["reg-hhc", hccVal]
-    ]);
-
-    var updateForm = function () {
-
-};
-
-var form = document.getElementById('myForm');
-form.onchange = updateForm;
-*/
-
     /**
      * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
      */
@@ -651,10 +630,10 @@ form.onchange = updateForm;
         let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
 
         myArr.forEach(function($key) {
-            if ($obj.value == "yes")
+            if ($obj.value == "yes" || $obj.value == "undecided")
                 document.getElementById($key).value = "no";
-            else
-                document.getElementById($key).value = "";
+            //else
+                //document.getElementById($key).value = "";
         });
 
     }
@@ -673,10 +652,10 @@ form.onchange = updateForm;
         let rucb = document.getElementById('reg-rucb');
         let ics = document.getElementById('reg-ics');
 
-        if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes")
+        if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
             ebmb.value = "no";
-        else
-            ebmb.value = "";
+        //else
+            //ebmb.value = "";
     }
 </script>
 </body>

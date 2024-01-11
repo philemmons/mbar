@@ -4,7 +4,7 @@
 #----------------------------------------------------------------cp:ppd
 AuthType Basic
 AuthName "Protected 'mbar/wip'"
-AuthUserFile "/home/vjwszppa/.htpasswds/mbar/wip/passwd"
+AuthUserFile "/home/montgfor/.htpasswds/mbar/wip/passwd"
 Require valid-user
 #----------------------------------------------------------------cp:ppd
 # End section managed by cPanel: Password Protected Directories -cp:ppd
