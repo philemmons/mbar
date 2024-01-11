@@ -80,6 +80,9 @@ include_once 'header.inc'
 
             /**
              * https://www.codexworld.com/new-google-recaptcha-with-php/
+             * 
+             * https://www.namecheap.com/support/knowledgebase/article.aspx/10038/31/how-to-configure-a-contact-form-with-us/#mailfunction
+             *
              */
 
             // Google reCAPTCHA API keys settings 
