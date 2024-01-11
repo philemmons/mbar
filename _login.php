@@ -81,7 +81,7 @@ if (isset($_POST['logout'])) {
     <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-login" title="Computer generated fractal with blue and orange colors.">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup Login</span>
+          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>Admin Login</span>
           </h1>
         </div>
       </div>
@@ -95,15 +95,11 @@ if (isset($_POST['logout'])) {
         <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome1">
           <!-- https://www.w3schools.com/howto/howto_css_login_form.asp -->
           <div id="mLogin">
-            <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Please login to continue...</span>
+            <h4 class="fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Please login to continue.</span>
             </h4>
             <br>
             <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-            <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary">Login</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
             <?php
             if (isset($_POST['login'])) {
               goMain();
@@ -118,6 +114,7 @@ if (isset($_POST['logout'])) {
 
 </main>
 
+<!--
 <div id="id01" class="modalAD">
   <form method="POST" class="modal-contentAD animateAD" name="loginForm">
 
@@ -136,21 +133,35 @@ if (isset($_POST['logout'])) {
     </div>
   </form>
 </div>
-
+-->
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body" id="loginModalLabel">
+
+        <form method="POST" class="p-3 needs-validation" name="loginForm" novalidate>
+
+          <div class="containerAD">
+            <label for="ittLM" class="form-label">Username *</label>
+            <input type="text" class="form-control" name="formUN" id="ittLM" required>
+            <div class="invalid-feedback">
+              Required
+            </div>
+
+            <label for="itpLM" class="form-label">Password *</label>
+            <input type="password" class="form-control" name="formPW" id="itpLM" required>
+            <div class="invalid-feedback">
+              Required
+            </div>
+
+            <input type="submit" name="login" value="Login" class="btn btn-outline-primary btn-sm" style="width: 100%;" />
+          </div>
+        </form>
+
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
       </div>
     </div>
   </div>
@@ -158,17 +169,6 @@ if (isset($_POST['logout'])) {
 
 
 <?php include_once 'footer.inc' ?>
-
-<script>
-  // Get the modal
-  var modal = document.getElementById('id01');
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-</script>
 
 </body>
 

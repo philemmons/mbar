@@ -232,6 +232,6 @@ function goMain()
           $_SESSION["username"]  = $record['userName'];
           $_SESSION["status"] = "Admin";
           //echo $_SESSION["status"];
-          header("Location: admin.php"); //redirect to home page
+          header("Location: _admin.php"); //redirect to home page
      }
 }
