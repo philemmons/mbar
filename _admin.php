@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
-  header("Location: login.php");
+  header("Location: _login.php");
 }
 
 include_once 'header.inc';
