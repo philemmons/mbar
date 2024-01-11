@@ -123,16 +123,16 @@ function displayRegAdmin($registration)
 
     echo "<td>
     <a href='regUpdate.php?id=" . $eachReg['id'] . "'>
-      <button type=\"button\" class=\"btn\">
-        <span class=\"glyphicon glyphicon-pencil\" aria-hidden=\"true\"></span> Update
+      <button type=\"button\" class=\"btn btn-success\">
+        <i class=\"bi bi-pencil\"></i> Update
       </button>
     </a>";
     echo "</td>";
 
     echo "<td>
-    <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['conName'] . "\")' >
-      <button type=\"button\" class=\"btn\">
-        <span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span> Delete
+    <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['email'] . "\")' >
+      <button type=\"button\" class=\"btn btn-danger\">
+        <i class=\"bi bi-trash3\"></i> Delete 
       </button>
     </a>";
     echo "</td>";
@@ -163,8 +163,8 @@ function displayRegAdmin($registration)
 ?>
 
 <script>
-  function confirmDelete(userFullName) {
-    var confirmDelete = confirm("Do you really want to delete: " + userFullName + "");
+  function confirmDelete($user) {
+    var confirmDelete = confirm("Do you really want to delete: " + $user + "");
     if (!confirmDelete) {
       return false;
     } else {
@@ -213,12 +213,12 @@ function displayRegAdmin($registration)
         <li class="nav-item style=" border-right: none;">
           <a class="nav-link" href="contributions.php">Contribution</a>
         </li>
-        <li class="nav-item" style="border-right: none;">
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
         </li>
         <?php
         if (isset($_SESSION["status"])) {
-          echo '<li class="nav-item">';
+          echo '<li class="nav-item" style="border-right: none;">';
           echo '<form method ="POST" id="oneBtn" >';
           echo '<input type="submit" value="Logout" class="nav-link" name="Logout"/>';
           echo '</form>';
@@ -262,71 +262,72 @@ function displayRegAdmin($registration)
             </div>
 
             <div class="col-auto">
-              <input type="submit" value="Search" name="filterForm" class="btn" />
+              <input type="submit" value="Search" name="filterForm" class="btn btn-primary" />
             </div>
 
             <div class="col-auto">
-              <a href="regInsert.php" class="btn">Add New Registration</a>
+              <a href="regInsert.php" class="btn btn-primary">Add New Registration</a>
             </div>
 
             <div class="col-auto">
               <!-- Button trigger modal -->
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                 Admin Reports
               </button>
             </div>
 
           </form>
+        </div>
 
-          <div class="col-xl-12 py-4">
-            <div class="p-3 text-bg-light hero-text-border">
-              <table class="table table-sm table-striped table-hover display nowrap" id="adminDisplay" style="width:100%;">
-                <caption>Admin Registrations</caption>
-                <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
-                <thead class='table-dark'>
-                  <tr>
-                    <th>First</th>
-                    <th>Last</th>
-                    <th>Email</th>
-                    <th>Alter</th>
-                    <th>Remove</th>
-                    <th>Payment</th>
-                    <th>Due</th>
-                    <th>Paid</th>
-                    <th>Date</th>
-                    <th>Phone</th>
-                    <th>Address</th>
-                    <th>City</th>
-                    <th>State</th>
-                    <th>Zip Code</th>
-                    <th>Fellowship</th>
-                    <th>Home Group</th>
-                    <th>Reg Type</th>
-                    <th>EBMB</th>
-                    <th>Dinner</th>
-                    <th>BreakFast</th>
-                    <th>Ice Cream</th>
-                    <th>Dance</th>
-                    <th>Help-Hand</th>
-                    <th>TOS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <?php
-                  if (isset($_POST['filterForm'])) {
-                    $filterCon = goSQLcon("registration");
-                    displayRegAdmin($filterCon);
-                  } else {
-                    $registration = getRegData("registration");
-                    displayRegAdmin($registration);
-                  }
-                  ?>
-                </tbody>
-              </table>
-            </div>
+        <div class="col-xl-12 py-4">
+          <div class="p-3 text-bg-light hero-text-border">
+            <table class="table table-sm table-striped table-hover display nowrap" id="adminDisplay" style="width:100%;">
+              <caption>Admin Registrations</caption>
+              <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
+              <thead class='table-dark text-center'>
+                <tr>
+                  <th>First</th>
+                  <th>Last</th>
+                  <th>Email</th>
+                  <th>Alter</th>
+                  <th>Remove</th>
+                  <th>Payment</th>
+                  <th>Due</th>
+                  <th>Paid</th>
+                  <th>Date</th>
+                  <th>Phone</th>
+                  <th>Address</th>
+                  <th>City</th>
+                  <th>State</th>
+                  <th>Zip Code</th>
+                  <th>Fellowship</th>
+                  <th>Home Group</th>
+                  <th>Reg Type</th>
+                  <th>EBMB</th>
+                  <th>Dinner</th>
+                  <th>BreakFast</th>
+                  <th>Ice Cream</th>
+                  <th>Dance</th>
+                  <th>Help-Hand</th>
+                  <th>TOS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+                if (isset($_POST['filterForm'])) {
+                  $filterCon = goSQLcon("registration");
+                  displayRegAdmin($filterCon);
+                } else {
+                  $registration = getRegData("registration");
+                  displayRegAdmin($registration);
+                }
+                ?>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
