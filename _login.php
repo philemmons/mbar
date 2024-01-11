@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
-  $_SESSION["name"] = "Guest";
+if (isset($_SESSION["status"]) && ($_SESSION['status'] == getenv('LOGIN_STATUS'))) {  //Check whether the admin has logged in
+  header("Location:admin.php");
 } else {
-  header("Location: _admin.php");
+  $_SESSION["name"] = "Guest";
 }
 
 include_once 'header.inc';
-include_once 'source/php-source.php';
+include_once 'source/php_source.php';
 
 $dbConn = getDBConnection();
 
@@ -18,6 +18,7 @@ if (isset($_POST['logout'])) {
 }
 
 ?>
+
 <nav class="navbar navbar-expand-lg">
   <div class="container">
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">

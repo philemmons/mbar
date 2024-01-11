@@ -230,7 +230,7 @@ function goMain()
      } else {
           $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
           $_SESSION["username"]  = $record['userName'];
-          $_SESSION["status"] = "Admin";
+          $_SESSION["status"] = getenv('LOGIN_STATUS');
           //echo $_SESSION["status"];
           header("Location: _admin.php"); //redirect to login page
      }

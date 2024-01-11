@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["status"])) {  //Check whether the admin has logged in
+if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'))) {  //Check whether the admin has logged in
   header("Location: _login.php");
 }
 
 include_once 'header.inc';
-include_once 'source/php-source.php';
+include_once 'source/php_source.php';
 
 $dbConn = getDBConnection();
 
