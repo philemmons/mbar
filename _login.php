@@ -158,10 +158,7 @@ if (isset($_POST['logout'])) {
             <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
           </div>
         </form>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        
       </div>
     </div>
   </div>
