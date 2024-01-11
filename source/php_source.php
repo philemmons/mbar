@@ -232,6 +232,6 @@ function goMain()
           $_SESSION["username"]  = $record['userName'];
           $_SESSION["status"] = getenv('LOGIN_STATUS');
           //echo $_SESSION["status"];
-          //header("Location: _admin.php"); //redirect to login page
+          header("Location: _admin.php"); //redirect to login page
      }
 }
