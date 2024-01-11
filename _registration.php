@@ -502,8 +502,8 @@ include_once 'header.inc'
 
                         <div class="col-md-12 text-center">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div class="invalid-feedback">
-                                <?php echo $recaptcha_message ?>
+                            <div>
+                                Note: The form will reset if unchecked.
                             </div>
                         </div>
 
@@ -633,7 +633,7 @@ include_once 'header.inc'
             if ($obj.value == "yes" || $obj.value == "undecided")
                 document.getElementById($key).value = "no";
             //else
-                //document.getElementById($key).value = "";
+            //document.getElementById($key).value = "";
         });
 
     }
@@ -655,7 +655,7 @@ include_once 'header.inc'
         if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
             ebmb.value = "no";
         //else
-            //ebmb.value = "";
+        //ebmb.value = "";
     }
 </script>
 </body>

@@ -162,7 +162,7 @@ include_once 'header.inc'
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We ar willing to listen.">
+                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
                     <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
@@ -203,8 +203,8 @@ include_once 'header.inc'
 
                         <div class="col-md-12 text-center">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div class="invalid-feedback">
-                                <?php echo $recaptcha_message ?>
+                            <div>
+                                Note: The form will reset if unchecked.
                             </div>
                         </div>
 
