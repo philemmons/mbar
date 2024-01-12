@@ -240,54 +240,145 @@ function displayRegAdmin($registration)
   </section>
 
   <!-- Section One -->
+  <section class="container shadow-wrap">
+    <div class="row justify-content-center mb-5">
+      <div class="col-xl-12 pt-4">
+        <div class="p-3 text-bg-light hero-text-border">
+          <h6>
+            Welcome <?= $_SESSION['name'] ?>
+          </h6>
+          <br>
+          <form method="POST" name="conForm" id="middlePage" class="row gx-4 gy-3 align-items-center">
 
-  <table class="table table-sm table-hover display nowrap" style="width:100%;" id="adminDisplay">
-    <caption>Admin Registrations</caption>
-    <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
-    <thead class='table-dark text-center'>
-      <tr>
-        <th>First</th>
-        <th>Last</th>
-        <th>Email</th>
-        <th>Alter</th>
-        <th>Remove</th>
-        <th>Payment</th>
-        <th>Due</th>
-        <th>Paid</th>
-        <th>Date</th>
-        <th>Phone</th>
-        <th>Address</th>
-        <th>City</th>
-        <th>State</th>
-        <th>Zip Code</th>
-        <th>Fellowship</th>
-        <th>Home Group</th>
-        <th>Reg Type</th>
-        <th>EBMB</th>
-        <th>Dinner</th>
-        <th>BreakFast</th>
-        <th>Ice Cream</th>
-        <th>Dance</th>
-        <th>Help-Hand</th>
-        <th>TOS</th>
-      </tr>
-    </thead>
-    <tbody>
-      <?php
-      if (isset($_POST['filterForm'])) {
-        $filterCon = goSQLcon("registration");
-        displayRegAdmin($filterCon);
-      } else {
-        $registration = getRegData("registration");
-        displayRegAdmin($registration);
-      }
-      ?>
-    </tbody>
-  </table>
- 
+            <div class="col-auto">
+              <div class="input-group">
+                <div class="input-group-text">Name</div>
+                <input type="text" name="regName" placeholder="Search by Name" />
+              </div>
+            </div>
+
+            <div class="col-auto">
+              <input type="submit" value="Search" name="filterForm" class="btn btn-primary" />
+            </div>
+
+            <div class="col-auto">
+              <a href="regInsert.php" class="btn btn-primary">Add New Registration</a>
+            </div>
+
+            <div class="col-auto">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Admin Reports
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="col-xl-12 py-4">
+    <div class="p-3 text-bg-light hero-text-border">
+      <table class="table table-sm table-hover display nowrap" style="width:100%;" id="adminDisplay">
+        <caption>Admin Registrations</caption>
+        <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
+        <thead class='table-dark text-center'>
+          <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>Email</th>
+            <th>Alter</th>
+            <th>Remove</th>
+            <th>Payment</th>
+            <th>Due</th>
+            <th>Paid</th>
+            <th>Date</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+            <th>Fellowship</th>
+            <th>Home Group</th>
+            <th>Reg Type</th>
+            <th>EBMB</th>
+            <th>Dinner</th>
+            <th>BreakFast</th>
+            <th>Ice Cream</th>
+            <th>Dance</th>
+            <th>Help-Hand</th>
+            <th>TOS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php
+          if (isset($_POST['filterForm'])) {
+            $filterCon = goSQLcon("registration");
+            displayRegAdmin($filterCon);
+          } else {
+            $registration = getRegData("registration");
+            displayRegAdmin($registration);
+          }
+          ?>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
 
-  
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title fs-5" id="myModalLabel">Admin Report</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body" style="overflow: auto;">
+          <p>Average number of registrations per State:
+            <?php $num = getConAvg();
+            displayConAvg($num); ?></p>
+          <p>The States with more than four registration in descending order:<br>
+            <?php $list = getConByState();
+            displayConByState($list); ?></p>
+          <p>Total overall registrations:
+            <?php $cnt = getConTot();
+            displayConTot($cnt); ?> </p>
+          <p>One or more upcoming registrations based on today's date:</p>
+
+          <table class="table table-sm table-striped table-hover display nowrap" id="summaryDisplay" style="width:100%;">
+            <caption>Admin Upcoming registration Summary</caption>
+            <thead class='table-dark'>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Year</th>
+                <th>Location</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Official</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php
+              $groupCons = getNextCon();
+              displayCon($groupCons);
+              ?>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <?php include_once 'footer.inc' ?>
 
@@ -296,6 +387,20 @@ function displayRegAdmin($registration)
     new DataTable('#adminDisplay', {
       responsive: true
     });
+    /*
+        new DataTable('#summaryDisplay', {
+          lengthMenu: [5, 10],
+          searching: false,
+          ordering: false,
+          responsive: true,
+          pagingType: 'simple'
+        });
+
+        $('#myModal').on('shown.bs.modal', function() {
+          var table = $('#summaryDisplay').DataTable();
+          table.columns.adjust();
+        });
+        */
   </script>
 
   </body>
