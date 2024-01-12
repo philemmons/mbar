@@ -380,3 +380,9 @@ ul.level-1>li.ms-5 {
   float: right;
   margin-right: 1.5rem;
 }
+
+/**** datatable ****/
+.dataTables_wrapper .dataTables_filter input{
+  margin: 0 0 0.5rem 0.25rem !important;
+  padding: 0px !important;
+}
