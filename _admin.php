@@ -326,60 +326,6 @@ function displayRegAdmin($registration)
     </div>
   </div>
 
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h6 class="modal-title fs-5" id="myModalLabel">Admin Report</h6>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-
-        <div class="modal-body" style="overflow: auto;">
-          <p>Average number of registrations per State:
-            <?php $num = getConAvg();
-            displayConAvg($num); ?></p>
-          <p>The States with more than four registration in descending order:<br>
-            <?php $list = getConByState();
-            displayConByState($list); ?></p>
-          <p>Total overall registrations:
-            <?php $cnt = getConTot();
-            displayConTot($cnt); ?> </p>
-          <p>One or more upcoming registrations based on today's date:</p>
-
-          <table class="table table-sm table-striped table-hover display nowrap" id="summaryDisplay" style="width:100%;">
-            <caption>Admin Upcoming registration Summary</caption>
-            <thead class='table-dark'>
-              <tr>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Year</th>
-                <th>Location</th>
-                <th>City</th>
-                <th>State</th>
-                <th>Country</th>
-                <th>Official</th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php
-              $groupCons = getNextCon();
-              displayCon($groupCons);
-              ?>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
   <?php include_once 'footer.inc' ?>
 
   <script>
