@@ -274,55 +274,56 @@ function displayRegAdmin($registration)
 
           </form>
         </div>
-        <div class="py-4 style="overflow: auto;"">
-          <table class="table table-sm table-hover table-striped display nowrap"  id="adminDisplay" style="width:100%;">
-            <caption>Admin Registrations</caption>
-            <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
-            <thead class='table-dark text-center'>
-              <tr>
-                <th>First</th>
-                <th>Last</th>
-                <th>Email</th>
-                <th>Alter</th>
-                <th>Remove</th>
-                <th>Payment</th>
-                <th>Due</th>
-                <th>Paid</th>
-                <th>Date</th>
-                <th>Phone</th>
-                <th>Address</th>
-                <th>City</th>
-                <th>State</th>
-                <th>Zip Code</th>
-                <th>Fellowship</th>
-                <th>Home Group</th>
-                <th>Reg Type</th>
-                <th>EBMB</th>
-                <th>Dinner</th>
-                <th>BreakFast</th>
-                <th>Ice Cream</th>
-                <th>Dance</th>
-                <th>Help-Hand</th>
-                <th>TOS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php
-              if (isset($_POST['filterForm'])) {
-                $filterCon = goSQLcon("registration");
-                displayRegAdmin($filterCon);
-              } else {
-                $registration = getRegData("registration");
-                displayRegAdmin($registration);
-              }
-              ?>
-            </tbody>
-          </table>
-        </div>
+
       </div>
     </div>
   </section>
 
+  <div>
+    <table class="table table-sm table-hover table-striped display nowrap" id="adminDisplay" style="width:100%;">
+      <caption>Admin Registrations</caption>
+      <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
+      <thead class='table-dark text-center'>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+          <th>Email</th>
+          <th>Alter</th>
+          <th>Remove</th>
+          <th>Payment</th>
+          <th>Due</th>
+          <th>Paid</th>
+          <th>Date</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Zip Code</th>
+          <th>Fellowship</th>
+          <th>Home Group</th>
+          <th>Reg Type</th>
+          <th>EBMB</th>
+          <th>Dinner</th>
+          <th>BreakFast</th>
+          <th>Ice Cream</th>
+          <th>Dance</th>
+          <th>Help-Hand</th>
+          <th>TOS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php
+        if (isset($_POST['filterForm'])) {
+          $filterCon = goSQLcon("registration");
+          displayRegAdmin($filterCon);
+        } else {
+          $registration = getRegData("registration");
+          displayRegAdmin($registration);
+        }
+        ?>
+      </tbody>
+    </table>
+  </div>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
