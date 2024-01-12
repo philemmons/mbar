@@ -158,8 +158,6 @@ function displayRegAdmin($registration)
 
 ?>
 
-
-
 <script>
   function confirmDelete($user) {
     var confirmDelete = confirm("Do you really want to delete: " + $user + "");
@@ -279,7 +277,7 @@ function displayRegAdmin($registration)
 
         <div class="col-xl-12 py-4">
           <div class="p-3 text-bg-light hero-text-border">
-            <table class="table table-sm table-striped table-hover display nowrap" id="adminDisplay" style="width:100%;">
+            <table class="display nowrap" style="width:100%;" id="adminDisplay">
               <caption>Admin Registrations</caption>
               <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
               <thead class='table-dark text-center'>
