@@ -274,7 +274,7 @@ function displayRegAdmin($registration)
 
           </form>
         </div>
-        <div class="py-4">
+        <div class="py-4 style="overflow: auto;"">
           <table class="table table-sm table-hover table-striped display nowrap"  id="adminDisplay" style="width:100%;">
             <caption>Admin Registrations</caption>
             <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
