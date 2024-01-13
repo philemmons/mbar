@@ -249,21 +249,8 @@ function displayRegAdmin($registration)
             Welcome <?= $_SESSION['name'] ?>
           </h6>
           <br>
-          <form method="POST" name="conForm" id="middlePage" class="row gx-4 gy-3 align-items-center">
-
             <div class="col-auto">
-              <div class="input-group">
-                <div class="input-group-text">Name</div>
-                <input type="text" name="regName" placeholder="Search by Name" />
-              </div>
-            </div>
-
-            <div class="col-auto">
-              <input type="submit" value="Search" name="filterForm" class="btn btn-primary" />
-            </div>
-
-            <div class="col-auto">
-              <a href="regInsert.php" class="btn btn-primary">Add New Registration</a>
+              <a href="exportData.php" target= '_blank' class="btn btn-primary">Export CSV file</a>
             </div>
 
             <div class="col-auto">
@@ -272,10 +259,9 @@ function displayRegAdmin($registration)
                 Admin Reports
               </button>
             </div>
-
-          </form>
         </div>
       </div>
+
 
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
