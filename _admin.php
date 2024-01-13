@@ -36,9 +36,9 @@ function getOnePara($alpha)
   global $dbConn;
 
   $sql = "SELECT SUM(" . $alpha . ") as result FROM registration";
-  echo $sql . '<br>';
+  //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
-  print_r($tot);
+  //print_r($tot);
   return displayTot($tot);
 }
 
@@ -48,9 +48,9 @@ function getTwoPara($alpha, $beta)
   global $dbConn;
 
   $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
-  echo $sql . '<br>';
+  //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
-  print_r($tot);
+  //print_r($tot);
   return displayTot($tot);
 }
 
@@ -237,7 +237,7 @@ function displayRegAdmin($registration)
                   </div>
                   
                     <div class='col-sm-3'>
-                      Post-Reg: <?php //echo getTwoPara('registration', 'after'); 
+                      Post-Reg: <?php echo getTwoPara('registration', 'after'); 
                                 ?>
                     </div>
                     <div class='col-sm-3'>
@@ -247,57 +247,57 @@ function displayRegAdmin($registration)
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                      Cash: <?php //echo getTwoPara('payment', 'cash'); 
+                      Cash: <?php echo getTwoPara('payment', 'cash'); 
                             ?>
                     </div>
                     <div class="col-sm-3">
-                      Check: <?php //echo getTwoPara('payment', 'check'); 
+                      Check: <?php echo getTwoPara('payment', 'check'); 
                               ?>
                     </div>
                     <div class='col-sm-3'>
-                      Venmo: <?php //echo getTwoPara('payment', 'venmo'); 
+                      Venmo: <?php echo getTwoPara('payment', 'venmo'); 
                               ?>
                     </div>
                     <div class='col-sm-3'>
-                      PayPal: <?php //echo getTwoPara('payment', 'paypal'); 
+                      PayPal: <?php echo getTwoPara('payment', 'paypal'); 
                               ?>
                     </div>
                   </div>
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                      EBMB: <?php //echo getTwoPara('ebmb', 'yes'); 
+                      EBMB: <?php echo getTwoPara('ebmb', 'yes'); 
                             ?>
                     </div>
                     <div class="col-sm-3">
-                      Speaker Dinner: <?php //echo getTwoPara('speakerdinner', 'yes'); 
+                      Speaker Dinner: <?php echo getTwoPara('speakerdinner', 'yes'); 
                                       ?>
                     </div>
                     <div class='col-sm-3'>
-                      Breakfast: <?php //echo getTwoPara('breakfast', 'yes'); 
+                      Breakfast: <?php echo getTwoPara('breakfast', 'yes'); 
                                   ?>
                     </div>
                     <div class='col-sm-3'>
-                      ICS <?php //echo getTwoPara('icecream', 'yes'); 
+                      ICS <?php echo getTwoPara('icecream', 'yes'); 
                           ?>
                     </div>
                   </div>
 
                   <div class='row py-2'>
                     <div class="col-sm-3">
-                      A.A.: <?php //echo getTwoPara('fellowship', 'a.a.'); 
+                      A.A.: <?php echo getTwoPara('fellowship', 'a.a.'); 
                             ?>
                     </div>
                     <div class='col-sm-3'>
-                      Al-Anon: <?php //echo getTwoPara('fellowship', 'al-anon'); 
+                      Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); 
                                 ?>
                     </div>
                     <div class='col-sm-3'>
-                      Both: <?php //echo getTwoPara('fellowship', 'double winner'); 
+                      Both: <?php echo getTwoPara('fellowship', 'double winner'); 
                             ?>
                     </div>
                     <div class='col-sm-3'>
-                      Other: <?php //echo getTwoPara('fellowship', 'other'); 
+                      Other: <?php echo getTwoPara('fellowship', 'other'); 
                               ?>
                     </div>
                   </div>
