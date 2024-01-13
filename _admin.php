@@ -56,9 +56,10 @@ function getTwoPara($alpha, $beta)
 
 function displayTot($tot)
 {
-  foreach ($tot as $part) {
-    echo $part['result'] . " ";
-  }
+  //foreach ($tot as $part) {
+    //echo $part['result'] . " ";
+  //}
+  echo $tot[0]['result'];
 }
 
 
