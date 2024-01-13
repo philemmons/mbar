@@ -22,9 +22,11 @@ if (isset($_POST['logout'])) {
 function getZeroPara()
 {
   global $dbConn;
-  $sql = "SELECT count(*) as result FROM registration";
-  $tot =  preExeFetNOPARA($sql);
 
+  $sql = "SELECT count(*) as result FROM registration";
+  echo $sql . '<br>';
+  $tot =  preExeFetNOPARA($sql);
+  print_r($tot);
   return displayTot($tot);
 }
 
@@ -32,7 +34,9 @@ function getZeroPara()
 function getOnePara($alpha)
 {
   global $dbConn;
+
   $sql = "SELECT SUM('. $alpha .') as result FROM registration";
+  echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
 print_r($tot);
   return displayTot($tot);
@@ -42,7 +46,9 @@ print_r($tot);
 function getTwoPara($alpha, $beta)
 {
   global $dbConn;
+
   $sql = "SELECT '. $alpha . ', count(*) as result FROM registration where '. $alpha . ' like '. $beta. '";
+  echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   print_r($tot);
   return displayTot($tot);
