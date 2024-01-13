@@ -30,12 +30,14 @@ function getConAvg()
   //print_r($ans);
   return $ans;
 }
+
 function displayConAvg($num)
 {
   foreach ($num as $digit) {
     echo $digit['result'] . " ";
   }
 }
+
 /* number of registrations per state greater than four*/
 function getConByState()
 {
@@ -51,6 +53,7 @@ function getConByState()
   //print_r($list);
   return $list;
 }
+
 function displayConByState($list)
 {
   foreach ($list as $item) {
@@ -247,31 +250,44 @@ function displayRegAdmin($registration)
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
+          <h6> Welcome <?= $_SESSION['name'] ?></h6>
+          <br>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <strong>Registration Details</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class='row'>
 
-          <div class='col-sm-6'>
-            <h6> Welcome <?= $_SESSION['name'] ?>
-            </h6>
+                    <div class='col-sm-3'>
+
+                    </div>
+
+                    <div class="col-sm-3">
+                      <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
+                    </div>
+
+                    <div class='col-sm-3'>
+                      <h6> Welcome <?= $_SESSION['name'] ?>
+                      </h6>
+                    </div>
+
+                    <div class='col-sm-3'>
+                      <h6> Welcome <?= $_SESSION['name'] ?>
+                      </h6>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-sm-6">
-            <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
-          </div>
-
+          
         </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Section One -->
-  <section class="container">
-    <div class="row justify-content-center mb-5">
-      <div class="col-md-6">
-        <h6> Welcome <?= $_SESSION['name'] ?>
-        </h6>
-      </div>
-      <div class="col-md-6">
-      <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
       </div>
     </div>
   </section>
