@@ -229,7 +229,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                     <?php } ?>
 
                     <div class="col-md-6">
-                        <a href="admin.php#middlePage" class="btn" style="float:right">Return to Admin</a>
+                        <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right">Return to Admin</a>
                     </div>
 
                     </form>
