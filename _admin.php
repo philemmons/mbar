@@ -232,7 +232,7 @@ function displayRegAdmin($registration)
                   </div>
 
                   <div class="col-sm-3">
-                    Pre-Reg: <?php echo getTwoPara('registration', 'before'); ?>
+                    Pre-Reg: <?php //echo getTwoPara('registration', 'before'); ?>
                   </div>
                   
                     <div class='col-sm-3'>
