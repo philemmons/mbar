@@ -238,6 +238,7 @@ function displayRegAdmin($registration)
         <div class="p-3 text-center text-bg-light hero-text-border">
           <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
           </h1>
+          <h6> Welcome <?= $_SESSION['name'] ?></h6>
         </div>
       </div>
     </div>
@@ -250,43 +251,81 @@ function displayRegAdmin($registration)
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
-          <h6> Welcome <?= $_SESSION['name'] ?></h6>
-          <br>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <strong>Registration Details</strong>
+                  <strong>Registration Totals</strong>
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
+
                   <div class='row'>
-
                     <div class='col-sm-3'>
-
-                    </div>
-
-                    <div class="col-sm-3">
                       <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
                     </div>
-
-                    <div class='col-sm-3'>
-                      <h6> Welcome <?= $_SESSION['name'] ?>
-                      </h6>
+                    <div class="col-sm-3">
+                      Attendee's:
                     </div>
-
                     <div class='col-sm-3'>
-                      <h6> Welcome <?= $_SESSION['name'] ?>
-                      </h6>
+                      Amount Due:
                     </div>
-
+                    <div class='col-sm-3'>
+                      Amount Paid:
+                    </div>
                   </div>
+
+                  <div class='row'>
+                    <div class='col-sm-3'>
+                      Helping Hands:
+                    </div>
+                    <div class="col-sm-3">
+                      Pre-Reg:
+                    </div>
+                    <div class='col-sm-3'>
+                      Post-Reg:
+                    </div>
+                    <div class='col-sm-3'>
+                      Helping Hands:
+                    </div>
+                  </div>
+
+                  <div class='row'>
+                    <div class='col-sm-3'>
+                      EBMB:
+                    </div>
+                    <div class="col-sm-3">
+                      Speaker Dinner:
+                    </div>
+                    <div class='col-sm-3'>
+                      Breakfast:
+                    </div>
+                    <div class='col-sm-3'>
+                      ICS
+                    </div>
+                  </div>
+
+                  <div class='row'>
+                    <div class='col-sm-3'>
+                      Dance:
+                    </div>
+                    <div class="col-sm-3">
+                      A.A.
+                    </div>
+                    <div class='col-sm-3'>
+                      Al-Anon:
+                    </div>
+                    <div class='col-sm-3'>
+                      Both:
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
