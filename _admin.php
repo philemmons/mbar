@@ -78,8 +78,6 @@ function displayTot($tot)
 }
 
 
-
-
 /* registration display with update and delete buttons for each */
 function displayRegAdmin($registration)
 {
@@ -288,22 +286,22 @@ function displayRegAdmin($registration)
                     </div>
                     <div class="col-sm-3">
                       MTSD: <?php echo getTwoPara('speakerdinner', 'yes');
-                                      ?>
+                            ?>
                     </div>
                     <div class='col-sm-3'>
                       RUCB: <?php echo getTwoPara('breakfast', 'yes');
-                                  ?>
+                            ?>
                     </div>
                     <div class='col-sm-3'>
                       ICS: <?php echo getTwoPara('icecream', 'yes');
-                          ?>
+                            ?>
                     </div>
                   </div>
 
                   <div class='row py-2'>
                     <div class="col-sm-3">
                       AA: <?php echo getTwoPara('fellowship', 'a.a.');
-                            ?>
+                          ?>
                     </div>
                     <div class='col-sm-3'>
                       Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon');
@@ -376,30 +374,17 @@ function displayRegAdmin($registration)
       </div>
     </div>
   </section>
+</main>
 
-  <?php include_once 'footer.inc' ?>
+<?php include_once 'footer.inc' ?>
 
-  <script>
-    //https://datatables.net/reference/option
-    new DataTable('#adminDisplay', {
-      responsive: true
-    });
-    /*
-        new DataTable('#summaryDisplay', {
-          lengthMenu: [5, 10],
-          searching: false,
-          ordering: false,
-          responsive: true,
-          pagingType: 'simple'
-        });
+<script>
+  //https://datatables.net/reference/option
+  new DataTable('#adminDisplay', {
+    responsive: true
+  });
+</script>
 
-        $('#myModal').on('shown.bs.modal', function() {
-          var table = $('#summaryDisplay').DataTable();
-          table.columns.adjust();
-        });
-        */
-  </script>
+</body>
 
-  </body>
-
-  </html>
+</html>
