@@ -74,13 +74,13 @@ function displayRegAdmin($registration)
 
     echo "<td>
     <a href='regUpdate.php?id=" . $eachReg['id'] . "'>
-      <button type=\"button\" class=\"btn btn-success\"> Update </button>
+      <button type=\"button\" class=\"btn btn-success btn-sm\"> Update </button>
     </a>";
     echo "</td>";
 
     echo "<td>
     <a href='deleteReg.php?id=" . $eachReg['id'] . "' onclick= 'return confirmDelete(\"" . $eachReg['email'] . "\")' >
-      <button type=\"button\" class=\"btn btn-danger\"> Delete </button>
+      <button type=\"button\" class=\"btn btn-danger btn-sm\"> Delete </button>
     </a>";
     echo "</td>";
 
