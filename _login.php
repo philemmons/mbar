@@ -68,7 +68,7 @@ if (isset($_POST['logout'])) {
         if (isset($_SESSION["status"])) {
           echo '<li class="nav-item">';
           echo '<form method ="POST" id="oneBtn" >';
-          echo '<input type="submit" value="logout" class="nav-link" name="Logout"/>';
+          echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
           echo '</form>';
           echo '</li>';
         }

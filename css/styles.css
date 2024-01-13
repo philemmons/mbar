@@ -144,7 +144,8 @@ nav {
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
-.navbar-nav>li>div>a:hover {
+.navbar-nav>li>div>a:hover,
+.log-input:hover {
   background-color: var(--color-7);
   color: var(--color-2);
 }
