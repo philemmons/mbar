@@ -3,8 +3,8 @@ ob_start();
 session_start();
 
 // Load the database configuration file 
-include_once 'dbConnection.php';
-include_once 'source/php_source';
+include_once 'source/dbConnection.php';
+include_once 'source/php_source.php';
 
 // Fetch records from database 
 $regArray = getRegData('registration');
