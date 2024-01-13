@@ -233,21 +233,6 @@ function displayRegAdmin($registration)
                       Attendee's: <?php echo getZeroPara();
                                   ?>
                     </div>
-                    <div class='col-sm-3'>
-                      Amount Due: <?php echo getOnePara('total');
-                                  ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Amount Paid: <?php echo getOnePara('paid');
-                                    ?>
-                    </div>
-                  </div>
-
-                  <div class='row py-2'>
-                    <div class='col-sm-3'>
-                      Helping Hands: <?php echo getHelpHand();
-                                      ?>
-                    </div>
                     <div class="col-sm-3">
                       Pre-Reg: <?php echo getTwoPara('registration', 'before');
                                 ?>
@@ -257,8 +242,23 @@ function displayRegAdmin($registration)
                       Post-Reg: <?php echo getTwoPara('registration', 'after');
                                 ?>
                     </div>
+                  </div>
+
+                  <div class='row py-2'>
                     <div class='col-sm-3'>
 
+                    </div>
+                    <div class='col-sm-3'>
+                      Amount Due: <?php echo getOnePara('total');
+                                  ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Amount Paid: <?php echo getOnePara('paid');
+                                    ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Helping Hands: <?php echo getHelpHand();
+                                      ?>
                     </div>
                   </div>
 
@@ -287,22 +287,22 @@ function displayRegAdmin($registration)
                             ?>
                     </div>
                     <div class="col-sm-3">
-                      Speaker Dinner: <?php echo getTwoPara('speakerdinner', 'yes');
+                      MTSD: <?php echo getTwoPara('speakerdinner', 'yes');
                                       ?>
                     </div>
                     <div class='col-sm-3'>
-                      Breakfast: <?php echo getTwoPara('breakfast', 'yes');
+                      RUCB: <?php echo getTwoPara('breakfast', 'yes');
                                   ?>
                     </div>
                     <div class='col-sm-3'>
-                      ICS <?php echo getTwoPara('icecream', 'yes');
+                      ICS: <?php echo getTwoPara('icecream', 'yes');
                           ?>
                     </div>
                   </div>
 
                   <div class='row py-2'>
                     <div class="col-sm-3">
-                      A.A.: <?php echo getTwoPara('fellowship', 'a.a.');
+                      AA: <?php echo getTwoPara('fellowship', 'a.a.');
                             ?>
                     </div>
                     <div class='col-sm-3'>
