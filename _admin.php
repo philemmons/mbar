@@ -271,7 +271,7 @@ function displayRegAdmin($registration)
         </h6>
       </div>
       <div class="col-md-6">
-        test2
+      <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
       </div>
     </div>
   </section>
