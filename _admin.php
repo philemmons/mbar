@@ -33,7 +33,7 @@ function getOnePara($alpha)
 {
   global $dbConn;
   $sql = "SELECT SUM('. $alpha .') as result FROM registration";
-  $tot =  preExeFetNOPARA($sql);
+  $tot =  preExeFetPARA($sql);
 
   return displayTot($tot);
 }
@@ -43,7 +43,7 @@ function getTwoPara($alpha, $beta)
 {
   global $dbConn;
   $sql = "SELECT '. $alpha . ', count(*) as result FROM registration where '. $alpha . ' like '. $beta. '";
-  $tot =  preExeFetNOPARA($sql);
+  $tot =  preExeFetPARA($sql);
 
   return displayTot($tot);
 }
@@ -216,7 +216,7 @@ function displayRegAdmin($registration)
                     </div>
                   </div>
 
-                  <div class='row '>
+                  <div class='row py-2'>
                     <div class='col-sm-3'>
                       Helping Hands: <?php echo getOnePara('helpinghand'); ?>
                     </div>
@@ -231,7 +231,7 @@ function displayRegAdmin($registration)
                     </div>
                   </div>
 
-                  <div class='row '>
+                  <div class='row py-2'>
                     <div class='col-sm-3'>
                       Cash: <?php echo getTwoPara('payment', 'cash'); ?>
                     </div>
