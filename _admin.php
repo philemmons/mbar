@@ -287,7 +287,7 @@ function displayRegAdmin($registration)
                       Post-Reg:
                     </div>
                     <div class='col-sm-3'>
-                      Helping Hands:
+                      
                     </div>
                   </div>
 
