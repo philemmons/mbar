@@ -87,6 +87,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['payment'] . "</td>";
     echo "<td>" . $eachReg['total'] . "</td>";
     echo "<td>" . $eachReg['paid'] . "</td>";
+    echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $eachReg['result'] . "</td>";
     echo "<td>" . $eachReg['phone'] . "</td>";
     echo "<td>" . $eachReg['address'] . "</td>";
@@ -101,7 +102,6 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['breakfast'] . "</td>";
     echo "<td>" . $eachReg['icecream'] . "</td>";
     echo "<td>" . $eachReg['dance'] . "</td>";
-    echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $eachReg['tos'] . "</td>";
     echo "</tr>";
   }
@@ -330,6 +330,7 @@ function displayRegAdmin($registration)
                 <th>Payment</th>
                 <th>Due</th>
                 <th>Paid</th>
+                <th>Help-Hand</th>
                 <th>Date</th>
                 <th>Phone</th>
                 <th>Address</th>
@@ -344,7 +345,6 @@ function displayRegAdmin($registration)
                 <th>BreakFast</th>
                 <th>Ice Cream</th>
                 <th>Dance</th>
-                <th>Help-Hand</th>
                 <th>TOS</th>
               </tr>
             </thead>
