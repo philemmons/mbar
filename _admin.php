@@ -243,23 +243,18 @@ function displayRegAdmin($registration)
   <!-- Section One -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
-      <div class="col-xl-12 pt-4">
+      <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
-          <div class='col-sm-4'>
+
+          <div class='col-sm-6'>
             <h6> Welcome <?= $_SESSION['name'] ?>
             </h6>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
           </div>
-
-          <div class="col-sm-4">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-              Admin Reports
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>
