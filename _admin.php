@@ -54,6 +54,21 @@ function getTwoPara($alpha, $beta)
   return displayTot($tot);
 }
 
+function getHelpHand()
+{
+  global $dbConn;
+
+  $sql = "SELECT SUM( 
+            CAST( 
+              ( SELECT helpinghand FROM registration WHERE helpinghand REGEXP '[0-9]')
+            AS UNSIGNED ) 
+          ) AS result";
+  //echo $sql . '<br>';
+  $tot =  preExeFetNOPARA($sql);
+  //print_r($tot);
+  return displayTot($tot);
+}
+
 function displayTot($tot)
 {
   //foreach ($tot as $part) {
@@ -61,6 +76,8 @@ function displayTot($tot)
   //}
   echo $tot[0]['result'];
 }
+
+
 
 
 /* registration display with update and delete buttons for each */
@@ -185,7 +202,7 @@ function displayRegAdmin($registration)
         <div class="p-3 text-center text-bg-light hero-text-border">
           <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
           </h1>
-          <h6> Welcome <?= $_SESSION['name'] ?></h6>
+          <h6> Welcome <?= ucwords($_SESSION['name']) ?></h6>
         </div>
       </div>
     </div>
@@ -228,7 +245,7 @@ function displayRegAdmin($registration)
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                      Helping Hands: <?php echo 'in progress'; //getOnePara('helpinghand'); 
+                      Helping Hands: <?php echo getHelpHand();
                                       ?>
                     </div>
                     <div class="col-sm-3">
