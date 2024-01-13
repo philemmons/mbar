@@ -47,11 +47,11 @@ function getTwoPara($alpha, $beta)
 {
   global $dbConn;
 
-  $sql = "SELECT " . $alpha . ", count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+  $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
   echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   print_r($tot);
-  return 1;//displayTot($tot);
+  return displayTot($tot);
 }
 
 function displayTot($tot)
