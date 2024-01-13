@@ -218,7 +218,7 @@ function displayRegAdmin($registration)
         if (isset($_SESSION["status"])) {
           echo '<li class="nav-item" style="border-right: none;">';
           echo '<form method ="POST" id="oneBtn" >';
-          echo '<input type="submit" value="logout" class="nav-link" name="Logout"/>';
+          echo '<input type="submit" value="logout" class="nav-link" name="logout"/>';
           echo '</form>';
           echo '</li>';
         }
