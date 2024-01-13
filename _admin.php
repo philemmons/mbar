@@ -49,15 +49,15 @@ function getTwoPara($alpha, $beta)
 
   $sql = "SELECT " . $alpha . " count(*) as result FROM registration where " . $alpha . " like " . $beta . " ";
   echo $sql . '<br>';
-  //$tot =  preExeFetNOPARA($sql);
-  //print_r($tot);
-  //return displayTot($tot);
+  $tot =  preExeFetNOPARA($sql);
+  print_r($tot);
+  return 1;//displayTot($tot);
 }
 
 function displayTot($tot)
 {
   foreach ($tot as $part) {
-    echo $part['result'];
+    echo $part['result'] . " ";
   }
 }
 
@@ -232,7 +232,7 @@ function displayRegAdmin($registration)
                   </div>
 
                   <div class="col-sm-3">
-                    Pre-Reg: <?php //echo getTwoPara('registration', 'before'); ?>
+                    Pre-Reg: <?php echo getTwoPara('registration', 'before'); ?>
                   </div>
                   
                     <div class='col-sm-3'>
