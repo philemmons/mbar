@@ -219,11 +219,9 @@ function saveData($total)
 function goMain()
 {
      global $dbConn, $nPara;
-echo $_POST['formPW'] . 'MBAR';
-die;
 
      $userForm = htmlspecialchars($_POST['formUN'], ENT_QUOTES);
-     $pwForm = hash('sha256', ($_POST['formPW'] . 'MBAR'));
+     $pwForm = hash('sha256', ($_POST['formPW'] . getenv('PW_SALT')));
 
      //Prevents SQL injection by using a named parameter.
      $nPara[':username'] = $userForm;
