@@ -49,8 +49,8 @@ function getTwoPara($alpha, $beta)
 
   $sql = "SELECT " . $alpha . " count(*) as result FROM registration where " . $alpha . " like " . $beta . " ";
   echo $sql . '<br>';
-  $tot =  preExeFetNOPARA($sql);
-  print_r($tot);
+  //$tot =  preExeFetNOPARA($sql);
+  //print_r($tot);
   //return displayTot($tot);
 }
 
