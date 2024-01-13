@@ -24,9 +24,9 @@ function getZeroPara()
   global $dbConn;
 
   $sql = "SELECT count(*) as result FROM registration";
-  echo $sql . '<br>';
+  //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
-  print_r($tot);
+  //print_r($tot);
   return displayTot($tot);
 }
 
