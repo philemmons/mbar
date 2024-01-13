@@ -220,25 +220,22 @@ function displayRegAdmin($registration)
 
 
                     <div class='col-sm-3'>
-                      Amount Paid: <?php echo getOnePara('paid');
-                                    ?>
+                      Amount Paid: <?php echo getOnePara('paid'); ?>
                     </div>
                   </div>
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                      Helping Hands: <?php echo getOnePara('helpinghand');
-                                      ?>
+                      Helping Hands: <?php //echo getOnePara('helpinghand'); ?>
                     </div>
                   </div>
-                  <!--
+               
                     <div class="col-sm-3">
-                      Pre-Reg: <?php //echo getTwoPara('registration', 'before'); 
-                                ?>
+                      Pre-Reg: <?php echo getTwoPara('registration', 'before'); ?>
                     </div>
+                       <!--
                     <div class='col-sm-3'>
-                      Post-Reg: <?php //echo getTwoPara('registration', 'after'); 
-                                ?>
+                      Post-Reg: <?php //echo getTwoPara('registration', 'after'); ?>
                     </div>
                     <div class='col-sm-3'>
 
@@ -278,7 +275,7 @@ function displayRegAdmin($registration)
                                   ?>
                     </div>
                     <div class='col-sm-3'>
-                      ICS <? php // echo getTwoPara('icecream', 'yes'); 
+                      ICS <?php // echo getTwoPara('icecream', 'yes'); 
                           ?>
                     </div>
                   </div>
