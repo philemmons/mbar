@@ -1,6 +1,9 @@
 <?php
 ob_start();
 session_start();
+/**
+ * https://www.codexworld.com/export-data-to-csv-file-using-php-mysql/
+ */
 
 // Load the database configuration file 
 include_once 'source/dbConnection.php';
@@ -22,7 +25,6 @@ if (count($regArray) > 0) {
     fputcsv($f, $fields, $delimiter);
 
     // Output each row of the data, format line as csv and write to file pointer 
-
     foreach ($regArray as $eachReg) {
 
         $lineData = array(

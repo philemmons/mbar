@@ -230,7 +230,7 @@ function displayRegAdmin($registration)
 <main>
   <!-- Hero Section -->
   <section class="container shadow-wrap">
-    <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay - Yen Vu, unsplash.com">
+    <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay by Yen Vu">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border">
           <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
@@ -245,20 +245,21 @@ function displayRegAdmin($registration)
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 pt-4">
         <div class="p-3 text-bg-light hero-text-border">
-          <h6>
-            Welcome <?= $_SESSION['name'] ?>
-          </h6>
-          <br>
-            <div class="col-auto">
-              <a href="exportData.php" target= '_blank' class="btn btn-primary">Export CSV file</a>
-            </div>
+          <div class='col-sm-4'>
+            <h6> Welcome <?= $_SESSION['name'] ?>
+            </h6>
+          </div>
 
-            <div class="col-auto">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                Admin Reports
-              </button>
-            </div>
+          <div class="col-sm-4">
+            <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
+          </div>
+
+          <div class="col-sm-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Admin Reports
+            </button>
+          </div>
         </div>
       </div>
 
@@ -298,8 +299,8 @@ function displayRegAdmin($registration)
             </thead>
             <tbody>
               <?php
-                $registration = getRegData("registration");
-                displayRegAdmin($registration);
+              $registration = getRegData("registration");
+              displayRegAdmin($registration);
               ?>
             </tbody>
           </table>
