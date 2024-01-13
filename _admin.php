@@ -240,6 +240,8 @@ function displayRegAdmin($registration)
     </div>
   </section>
 
+
+
   <!-- Section One -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
@@ -254,24 +256,25 @@ function displayRegAdmin($registration)
           <div class="col-sm-6">
             <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
           </div>
-          
+
         </div>
       </div>
     </div>
   </section>
 
 
-      <!-- Section One -->
-      <section class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-6">
-                test
-            </div>
-            <div class="col-md-6">
-                test2 
-            </div>
-        </div>
-    </section>
+  <!-- Section One -->
+  <section class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6">
+        <h6> Welcome <?= $_SESSION['name'] ?>
+        </h6>
+      </div>
+      <div class="col-md-6">
+        test2
+      </div>
+    </div>
+  </section>
 
   <!-- Section Two -->
   <section class="container shadow-wrap">
