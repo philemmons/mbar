@@ -23,7 +23,7 @@ if (count($regArray) > 0) {
 
     // Output each row of the data, format line as csv and write to file pointer 
 
-    foreach ($registration as $eachReg) {
+    foreach ($regArray as $eachReg) {
 
         $lineData = array(
             $eachReg['firstname'],
