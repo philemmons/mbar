@@ -123,116 +123,119 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 </nav>
 
 <main>
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-12 py-4">
+                <h6>
+                    Welcome <?= ucwords($_SESSION['name']) ?> - Update Registration Info
+                </h6>
+                <br>
 
-    <div class="wrapper form-display">
-        <h6>
-            Welcome <?= ucwords($_SESSION['name']) ?> - Update Registration Info
-        </h6>
-        <br>
+                <?php
+                if (isset($_GET['id'])) {
+                    $conInfo = getConInfo($_GET['id']);
+                ?>
+                    <form method='POST' name="updateConForm" class='row gx-4 gy-3 align-items-center' onsubmit='validateUpdate();'>
 
-        <?php
-        if (isset($_GET['id'])) {
-            $conInfo = getConInfo($_GET['id']);
-        ?>
-            <form method='POST' name="updateConForm" class='row gx-4 gy-3 align-items-center' onsubmit='validateUpdate();'>
+                        <div class="col-md-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="conID" placeholder="Default - auto incremented" name="conID" value="<?= $conInfo['id'] ?>" disabled />
+                                <label for="conID">ConID</label>
+                                <span id="conIDError"></span>
+                            </div>
+                        </div>
 
-                <div class="col-md-2">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="conID" placeholder="Default - auto incremented" name="conID" value="<?= $conInfo['id'] ?>" disabled />
-                        <label for="conID">ConID</label>
-                        <span id="conIDError"></span>
+                        <div class="col-md-10">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="conName" placeholder="Enter Registration Name" name="conName" value="<?= $conInfo['conName'] ?>" />
+                                <label for="conName">Registration Name</label>
+                                <span id="conNameError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="start_date" name="start_date" value="<?= $conInfo['start_date'] ?>" />
+                                <label for="start_date">Start Month & Day Only</label>
+                                <span id="start_dateError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="end_date" name="end_date" value="<?= $conInfo['end_date'] ?>" />
+                                <label for="end_date">End Month & Day Only</label>
+                                <span id="end_dateError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="int" class="form-control" id="year" placeholder="Enter Year:" name="year" value="<?= $conInfo['year'] ?>" />
+                                <label for="year">Year</label>
+                                <span id="yearError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="event_location" placeholder="Enter Location" name="event_location" value="<?= $conInfo['event_location'] ?>" />
+                                <label for="event_location">Event Location</label>
+                                <span id="event_locationError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="city" placeholder="Enter City" name="city" value="<?= $conInfo['city'] ?>" />
+                                <label for="city">City</label>
+                                <span id="cityError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="state" placeholder="Enter State" name="state" value="<?= $conInfo['state'] ?>" />
+                                <label for="state">State</label>
+                                <span id="stateError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country" value="<?= $conInfo['country'] ?>" />
+                                <label for="country">Country</label>
+                                <span id="countryError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="website" placeholder="xxx.example.xxx" name="website" value="<?= $conInfo['website'] ?>" />
+                                <label for="website">Website</label>
+                                <span id="websiteError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3"><!-- Button trigger modal -->
+                            <button type="submit" name="submitUpdate" value="update" class="btn" data-bs-toggle="modal" data-bs-target="#updateModal">Update</btn>
+                        </div>
+
+                        <div class="col-md-3">
+                            <button type="reset" name="reset" value="reset" class="btn" onlclick="myReset('updateConForm')" ;> Reset </button>
+                        </div>
+                    <?php } else {  ?>
+                        <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
+                    <?php } ?>
+
+                    <div class="col-md-6">
+                        <a href="admin.php#middlePage" class="btn" style="float:right">Return to Admin</a>
                     </div>
-                </div>
 
-                <div class="col-md-10">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="conName" placeholder="Enter Registration Name" name="conName" value="<?= $conInfo['conName'] ?>" />
-                        <label for="conName">Registration Name</label>
-                        <span id="conNameError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="start_date" name="start_date" value="<?= $conInfo['start_date'] ?>" />
-                        <label for="start_date">Start Month & Day Only</label>
-                        <span id="start_dateError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="end_date" name="end_date" value="<?= $conInfo['end_date'] ?>" />
-                        <label for="end_date">End Month & Day Only</label>
-                        <span id="end_dateError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="int" class="form-control" id="year" placeholder="Enter Year:" name="year" value="<?= $conInfo['year'] ?>" />
-                        <label for="year">Year</label>
-                        <span id="yearError"></span>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="event_location" placeholder="Enter Location" name="event_location" value="<?= $conInfo['event_location'] ?>" />
-                        <label for="event_location">Event Location</label>
-                        <span id="event_locationError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="city" placeholder="Enter City" name="city" value="<?= $conInfo['city'] ?>" />
-                        <label for="city">City</label>
-                        <span id="cityError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="state" placeholder="Enter State" name="state" value="<?= $conInfo['state'] ?>" />
-                        <label for="state">State</label>
-                        <span id="stateError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country" value="<?= $conInfo['country'] ?>" />
-                        <label for="country">Country</label>
-                        <span id="countryError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="website" placeholder="xxx.example.xxx" name="website" value="<?= $conInfo['website'] ?>" />
-                        <label for="website">Website</label>
-                        <span id="websiteError"></span>
-                    </div>
-                </div>
-
-                <div class="col-md-3"><!-- Button trigger modal -->
-                    <button type="submit" name="submitUpdate" value="update" class="btn" data-bs-toggle="modal" data-bs-target="#updateModal">Update</btn>
-                </div>
-
-                <div class="col-md-3">
-                    <button type="reset" name="reset" value="reset" class="btn" onlclick="myReset('updateConForm')" ;> Reset </button>
-                </div>
-            <?php } else {  ?>
-                <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
-            <?php } ?>
-
-            <div class="col-md-6">
-                <a href="admin.php#middlePage" class="btn" style="float:right">Return to Admin</a>
+                    </form>
             </div>
-
-            </form>
-    </div>
+        </div>
+    </section>
 
 </main>
 
