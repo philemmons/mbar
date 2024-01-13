@@ -145,8 +145,8 @@ function getUserInfo($email)
 */
 function getRegData($table)
 {
-    $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
-    return preExeFetNOPARA($sql);
+     $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
+     return preExeFetNOPARA($sql);
 }
 
 function saveData($total)
@@ -219,9 +219,11 @@ function saveData($total)
 function goMain()
 {
      global $dbConn, $nPara;
+echo $_POST['formPW'] . 'MBAR';
+die;
 
      $userForm = htmlspecialchars($_POST['formUN'], ENT_QUOTES);
-     $pwForm = hash('sha256', $_POST['formPW']);
+     $pwForm = hash('sha256', ($_POST['formPW'] . 'MBAR'));
 
      //Prevents SQL injection by using a named parameter.
      $nPara[':username'] = $userForm;
@@ -246,4 +248,15 @@ function goMain()
      }
 }
 
+//regInsert.php and regUpdate.php
+function getConInfo($conID)
+{
+     global $dbConn, $nPara;
 
+     $nPara[':dConId'] = $conID;
+     $sql = "SELECT * FROM convention WHERE id = :dConId ";
+     $stmt = $dbConn->prepare($sql);
+     $stmt->execute($nPara);
+     $record = $stmt->fetch(PDO::FETCH_ASSOC);
+     return $record;
+}

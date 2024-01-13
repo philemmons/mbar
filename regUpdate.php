@@ -133,13 +133,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                 <?php
                 if (isset($_GET['id'])) {
-                    $conInfo = getConInfo($_GET['id']);
+                    $regInfo = getRegInfo($_GET['id']);
                 ?>
                     <form method='POST' name="updateConForm" class='row gx-4 gy-3 align-items-center' onsubmit='validateUpdate();'>
 
                         <div class="col-md-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="conID" placeholder="Default - auto incremented" name="conID" value="<?= $conInfo['id'] ?>" disabled />
+                                <input type="text" class="form-control" id="conID" placeholder="Default - auto incremented" name="conID" value="<?= $regInfo['id'] ?>" disabled />
                                 <label for="conID">ConID</label>
                                 <span id="conIDError"></span>
                             </div>
@@ -147,7 +147,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-10">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="conName" placeholder="Enter Registration Name" name="conName" value="<?= $conInfo['conName'] ?>" />
+                                <input type="text" class="form-control" id="conName" placeholder="Enter Registration Name" name="conName" value="<?= $regInfo['conName'] ?>" />
                                 <label for="conName">Registration Name</label>
                                 <span id="conNameError"></span>
                             </div>
@@ -155,7 +155,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="start_date" name="start_date" value="<?= $conInfo['start_date'] ?>" />
+                                <input type="text" class="form-control" id="start_date" name="start_date" value="<?= $regInfo['start_date'] ?>" />
                                 <label for="start_date">Start Month & Day Only</label>
                                 <span id="start_dateError"></span>
                             </div>
@@ -163,7 +163,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="end_date" name="end_date" value="<?= $conInfo['end_date'] ?>" />
+                                <input type="text" class="form-control" id="end_date" name="end_date" value="<?= $regInfo['end_date'] ?>" />
                                 <label for="end_date">End Month & Day Only</label>
                                 <span id="end_dateError"></span>
                             </div>
@@ -171,7 +171,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="int" class="form-control" id="year" placeholder="Enter Year:" name="year" value="<?= $conInfo['year'] ?>" />
+                                <input type="int" class="form-control" id="year" placeholder="Enter Year:" name="year" value="<?= $regInfo['year'] ?>" />
                                 <label for="year">Year</label>
                                 <span id="yearError"></span>
                             </div>
@@ -179,7 +179,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="event_location" placeholder="Enter Location" name="event_location" value="<?= $conInfo['event_location'] ?>" />
+                                <input type="text" class="form-control" id="event_location" placeholder="Enter Location" name="event_location" value="<?= $regInfo['event_location'] ?>" />
                                 <label for="event_location">Event Location</label>
                                 <span id="event_locationError"></span>
                             </div>
@@ -187,7 +187,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="city" placeholder="Enter City" name="city" value="<?= $conInfo['city'] ?>" />
+                                <input type="text" class="form-control" id="city" placeholder="Enter City" name="city" value="<?= $regInfo['city'] ?>" />
                                 <label for="city">City</label>
                                 <span id="cityError"></span>
                             </div>
@@ -195,7 +195,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="state" placeholder="Enter State" name="state" value="<?= $conInfo['state'] ?>" />
+                                <input type="text" class="form-control" id="state" placeholder="Enter State" name="state" value="<?= $regInfo['state'] ?>" />
                                 <label for="state">State</label>
                                 <span id="stateError"></span>
                             </div>
@@ -203,7 +203,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country" value="<?= $conInfo['country'] ?>" />
+                                <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country" value="<?= $regInfo['country'] ?>" />
                                 <label for="country">Country</label>
                                 <span id="countryError"></span>
                             </div>
@@ -211,7 +211,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="website" placeholder="xxx.example.xxx" name="website" value="<?= $conInfo['website'] ?>" />
+                                <input type="text" class="form-control" id="website" placeholder="xxx.example.xxx" name="website" value="<?= $regInfo['website'] ?>" />
                                 <label for="website">Website</label>
                                 <span id="websiteError"></span>
                             </div>
