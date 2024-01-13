@@ -17,104 +17,44 @@ if (isset($_POST['logout'])) {
   header("Location: index.php");
 }
 
-/******* admin report *******/
+/**** registration totals ****/
 
-/* average number of registrations per state */
-function getConAvg()
+function getZeroPara()
 {
   global $dbConn;
-
-  $sql = "SELECT ROUND(COUNT(*) / COUNT(DISTINCT (state))) as result 
-          FROM registration";
-  $ans =  preExeFetNOPARA($sql);
-  //print_r($ans);
-  return $ans;
-}
-
-function displayConAvg($num)
-{
-  foreach ($num as $digit) {
-    echo $digit['result'] . " ";
-  }
-}
-
-/* number of registrations per state greater than four*/
-function getConByState()
-{
-  global $dbConn;
-  $sql = "SELECT state, c
-          FROM
-            (SELECT state, COUNT(*) AS c
-             FROM registration AS t1
-             GROUP BY state
-             ORDER BY c DESC) AS t2
-          WHERE t2.c > 4";
-  $list =  preExeFetNOPARA($sql);
-  //print_r($list);
-  return $list;
-}
-
-function displayConByState($list)
-{
-  foreach ($list as $item) {
-    echo $item['state'] . " " . $item['c'] . "<br>";
-  }
-}
-
-/* total registration */
-function getConTot()
-{
-  global $dbConn;
-  $sql = "SELECT count(*) as conTotal FROM registration";
+  $sql = "SELECT count(*) as result FROM registration";
   $tot =  preExeFetNOPARA($sql);
-  //print_r($tot);
-  return $tot;
+
+  return displayTot($tot);
 }
 
-function displayConTot($tot)
+
+function getOnePara($alpha)
+{
+  global $dbConn;
+  $sql = "SELECT SUM('. $alpha .') as result FROM registration";
+  $tot =  preExeFetNOPARA($sql);
+
+  return displayTot($tot);
+}
+
+
+function getTwoPara($alpha, $beta)
+{
+  global $dbConn;
+  $sql = "SELECT '. $alpha . ', count(*) as result FROM registration where '. $alpha . ' like '. $beta. '";
+  $tot =  preExeFetNOPARA($sql);
+
+  return displayTot($tot);
+}
+
+function displayTot($tot)
 {
   foreach ($tot as $part) {
-    echo $part['conTotal'] . " ";
+    echo $part['result'];
   }
 }
 
-/* list of the upcoming registrations based on date, one or more */
-function getNextCon()
-{
-  global $dbConn;
-
-  $sql = "SELECT COUNT(*) as c
-          FROM
-              (SELECT 
-                  id, STR_TO_DATE(CONCAT(start_date, ' ', year), '%M %d %Y') AS result
-              FROM registration
-              ORDER BY result IS NULL , result ASC) AS t1
-          WHERE
-              result > CURRENT_DATE()
-          GROUP BY result
-          ORDER BY result ASC
-          limit 1";
-
-  $stmt = $dbConn->prepare($sql);
-  $stmt->execute();
-  $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-  foreach ($records as $item) {
-    $limit =  $item['c'];
-  }
-
-  $sql = "SELECT *, STR_TO_DATE(CONCAT(start_date, ' ', year), '%M %d %Y') AS r
-          FROM registration 
-          WHERE STR_TO_DATE(CONCAT(start_date, ' ', year), '%M %d %Y') > CURRENT_DATE() 
-          ORDER BY r IS NULL , r ASC limit " . $limit;
-  $stmt = $dbConn->prepare($sql);
-  $stmt->execute();
-  $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-  return $records;
-}
-
-/******* end admin reports *******/
 
 /* registration display with update and delete buttons for each */
 function displayRegAdmin($registration)
@@ -261,63 +201,78 @@ function displayRegAdmin($registration)
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 
-                  <div class='row'>
+                  <div class='row py-2'>
                     <div class='col-sm-3'>
                       <a href="exportData.php" target='_blank' class="btn btn-primary">Export CSV file</a>
                     </div>
                     <div class="col-sm-3">
-                      Attendee's:
+                      Attendee's: <?php echo getZeroPara(); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Amount Due:
+                      Amount Due: <?php echo getOnePara('total'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Amount Paid:
+                      Amount Paid: <?php echo getOnePara('paid'); ?>
                     </div>
                   </div>
 
-                  <div class='row'>
+                  <div class='row '>
                     <div class='col-sm-3'>
-                      Helping Hands:
+                      Helping Hands: <?php echo getOnePara('helpinghand'); ?>
                     </div>
                     <div class="col-sm-3">
-                      Pre-Reg:
+                      Pre-Reg: <?php echo getTwoPara('registration', 'before'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Post-Reg:
+                      Post-Reg: <?php echo getTwoPara('registration', 'after'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      
+
                     </div>
                   </div>
 
-                  <div class='row'>
+                  <div class='row '>
                     <div class='col-sm-3'>
-                      EBMB:
+                      Cash: <?php echo getTwoPara('payment', 'cash'); ?>
                     </div>
                     <div class="col-sm-3">
-                      Speaker Dinner:
+                      Check: <?php echo getTwoPara('payment', 'check'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Breakfast:
+                      Venmo: <?php echo getTwoPara('payment', 'venmo'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      ICS
+                      PayPal: <?php echo getTwoPara('payment', 'paypal'); ?>
                     </div>
                   </div>
 
-                  <div class='row'>
+                  <div class='row py-2'>
                     <div class='col-sm-3'>
-                      Dance:
+                      EBMB: <?php echo getTwoPara('ebmb', 'yes'); ?>
                     </div>
                     <div class="col-sm-3">
-                      A.A.
+                      Speaker Dinner: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Al-Anon:
+                      Breakfast: <?php echo getTwoPara('breakfast', 'yes'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Both:
+                      ICS <?php echo getTwoPara('icecream', 'yes'); ?>
+                    </div>
+                  </div>
+
+                  <div class='row py-2'>
+                    <div class="col-sm-3">
+                      A.A.: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Both: <?php echo getTwoPara('fellowship', 'double winner'); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Other: <?php echo getTwoPara('fellowship', 'other'); ?>
                     </div>
                   </div>
 
