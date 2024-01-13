@@ -34,7 +34,7 @@ function getOnePara($alpha)
   global $dbConn;
   $sql = "SELECT SUM('. $alpha .') as result FROM registration";
   $tot =  preExeFetNOPARA($sql);
-
+print_r($tot);
   return displayTot($tot);
 }
 
@@ -44,7 +44,7 @@ function getTwoPara($alpha, $beta)
   global $dbConn;
   $sql = "SELECT '. $alpha . ', count(*) as result FROM registration where '. $alpha . ' like '. $beta. '";
   $tot =  preExeFetNOPARA($sql);
-
+  print_r($tot);
   return displayTot($tot);
 }
 
