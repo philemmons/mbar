@@ -262,8 +262,12 @@ function displayRegAdmin($registration)
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-
+  <!-- Section Two -->
+  <section class="container shadow-wrap">
+    <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
           <table class="table table-hover display nowrap" style="width:100%;" id="adminDisplay">
