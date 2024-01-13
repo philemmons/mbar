@@ -7,7 +7,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'php/dbConnection.php';
+include_once 'source/dbConnection.php';
 
 $dbConn = getDBConnection();
 
@@ -18,5 +18,5 @@ $sql = "DELETE FROM registration
 $stmt = $dbConn->prepare($sql);
 $stmt->execute($nPara);
 
-header("Location: /admin.php");
+header("Location: _admin.php");
 exit();
