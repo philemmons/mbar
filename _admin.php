@@ -312,13 +312,8 @@ function displayRegAdmin($registration)
             </thead>
             <tbody>
               <?php
-              if (isset($_POST['filterForm'])) {
-                $filterCon = goSQLcon("registration");
-                displayRegAdmin($filterCon);
-              } else {
                 $registration = getRegData("registration");
                 displayRegAdmin($registration);
-              }
               ?>
             </tbody>
           </table>
