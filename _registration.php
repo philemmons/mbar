@@ -337,10 +337,10 @@ include_once 'header.inc'
                             <label for="reg-fs" class="form-label">Fellowship *</label>
                             <select class="form-select" name="reg-fs" id="reg-fs" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option>A.A.</option>
-                                <option>Al-Anon</option>
-                                <option>Double Winner</option>
-                                <option>Other</option>
+                                <option value="A.A.">A.A.</option>
+                                <option value="Al-Anon">Al-Anon</option>
+                                <option value="Double Winner">Double Winner</option>
+                                <option value="Other">Other</option>
                             </select>
                             <div class="invalid-feedback">
                                 Required - Please enter your Fellowship
@@ -400,7 +400,7 @@ include_once 'header.inc'
                         </div>
 
                         <div class="col-lg-4">
-                            <label for="reg-mtsd" class="form-label">Meet The Speakers Dinner (Saturday Night @ 5:00pm)* - $25 </label>
+                            <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm)* - $25 </label>
                             <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes, please!</option>

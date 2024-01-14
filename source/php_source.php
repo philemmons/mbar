@@ -247,12 +247,12 @@ function goMain()
 }
 
 //regInsert.php and regUpdate.php
-function getConInfo($conID)
+function getRegInfo($regID)
 {
      global $dbConn, $nPara;
 
-     $nPara[':dConId'] = $conID;
-     $sql = "SELECT * FROM convention WHERE id = :dConId ";
+     $nPara[':dRegId'] = $regID;
+     $sql = "SELECT * FROM registration WHERE id = :dRegId ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
