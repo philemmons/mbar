@@ -519,14 +519,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-3 text-center">
                             <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm')" ;> Reset Registration</button>
                         </div>
-                        <div class="col-lg-3">
+
                     <?php } else {  ?>
                         <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
                     <?php } ?>
-                    <div class="col-lg-3">
-                    </div>
-                    <div class="col-lg-3 text-center">
-                        <a href="_admin.php" class="btn btn-primary btn-sm">Return to Admin</a>
+
+                    <div class="col-lg-6">
+                        <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
                     </div>
 
                     </form>
