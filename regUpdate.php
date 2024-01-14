@@ -8,6 +8,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 
 include_once 'header.inc';
 include_once 'source/php_source.php';
+include_once 'source/dbConnection.php';
 
 $dbConn = getDBConnection();
 
@@ -20,6 +21,16 @@ if (isset($_POST['logout'])) {
 //NOTE: the next 3 sections of code sequence matters for the updated output
 
 if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" form
+
+    $register = !empty($_POST['upd-reg']) ? htmlspecialchars($_POST['upd-reg'], ENT_QUOTES) : '';
+    $ebmb = !empty($_POST['upd-ebmb']) ? htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES) : '';
+    $mtsd = !empty($_POST['upd-mtsd']) ? htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES) : '';
+    $rucb = !empty($_POST['upd-rucb']) ? htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES) : '';
+    $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
+    $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
+    
+    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+    
     $sql = "UPDATE registration
             SET 
                 firstname = :firstName,
@@ -43,6 +54,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 total = $total,
                 paid = :paid
             WHERE id = :reg_id";
+       
+
+
 
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
@@ -63,10 +77,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
-    $nPara[':paid'] = strtolower(htmlspecialchars($_POST['upd-paid'], ENT_QUOTES));
-
-    $total = getTotal($nPara[':register'], $nPara[':ebmb'], $nPara[':mtsd'], $nPara[':rucb'], $nPara[':ics'], $nPara[':hhc']);
-
+    $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -232,7 +243,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-3">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
+                                <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
                                 <label for="upd-total">Total</label>
                             </div>
                             <div class="invalid-feedback">
@@ -242,7 +253,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-md-3">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $regInfo['paid'] ?>">
+                                <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $regInfo['paid'] ?>">
                                 <label for="upd-paid">Paid</label>
                             </div>
                             <div class="invalid-feedback">
