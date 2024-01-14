@@ -28,9 +28,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $rucb = !empty($_POST['upd-rucb']) ? htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES) : '';
     $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
-    
+
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
-    
+
     $sql = "UPDATE registration
             SET 
                 firstname = :firstName,
@@ -54,7 +54,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 total = $total,
                 paid = :paid
             WHERE id = :reg_id";
-       
+
 
 
 
@@ -188,14 +188,14 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 ?>
                     <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateForm" novalidate>
 
-                        <div class="col-md-2">
+                        <div class="col-md-1">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="upd-id" placeholder="Default - auto incremented" name="upd-id" value="<?= $regInfo['id'] ?>" disabled>
                                 <label for="upd-id">RegID</label>
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required />
                                 <label for="upd-fn">First Name</label>
@@ -205,7 +205,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $regInfo['lastname'] ?>" required>
                                 <label for="upd-ln" class="form-label">Last Name</label>
@@ -215,7 +215,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required>
                                 <label for="upd-em" class="form-label">Email</label>
@@ -225,7 +225,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-pm" id="upd-pm" required>
                                     <option value="<?= $regInfo['payment'] ?>" selected> <?php echo $regInfo['payment'] ?></option>
@@ -241,7 +241,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
                                 <label for="upd-total">Total</label>
@@ -251,7 +251,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $regInfo['paid'] ?>">
                                 <label for="upd-paid">Paid</label>
@@ -261,7 +261,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-hhc" id="upd-hhc">
                                     <option value="<?= $regInfo['helpinghand'] ?>" selected> <?php echo $regInfo['helpinghand'] ?></option>
@@ -282,7 +282,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= $regInfo['phone'] ?>">
                                 <label for="upd-phone" class="form-label">Phone</label>
@@ -292,7 +292,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-addr" id="upd-addr" placeholder="Enter MA" value="<?= $regInfo['address'] ?>">
                                 <label for="upd-addr" class="form-label">Address</label>
@@ -312,7 +312,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-state" id="upd-state">
                                     <option value="<?= $regInfo['state'] ?>" selected> <?php echo $regInfo['state'] ?></option>
@@ -375,7 +375,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-zc" id="upd-zc" placeholder="Enter ZC" value="<?= $regInfo['zipcode'] ?>">
                                 <label for=" upd-zc" class="form-label">Zip Code</label>
@@ -385,7 +385,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-fs" id="upd-fs" required>
                                     <option value="<?= $regInfo['fellowship'] ?>" selected> <?php echo $regInfo['fellowship'] ?></option>
@@ -401,7 +401,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-hg" id="upd-hg" placeholder="Enter HO" value="<?= $regInfo['homegroup'] ?>">
                                 <label for="upd-hg" class="form-label">Homegroup(s)</label>
@@ -411,7 +411,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-reg" id="upd-reg" required>
                                     <option value="<?= $regInfo['registration'] ?>" selected> <?php echo $regInfo['registration'] ?></option>
@@ -424,7 +424,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 Required - Please check one.
                             </div>
                         </div>
-
 
                         <div class="col-lg-3">
                             <div class="form-floating">
@@ -442,7 +441,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-4">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-mtsd" id="upd-mtsd" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['speakerdinner'] ?>" selected> <?php echo $regInfo['speakerdinner'] ?></option>
@@ -458,7 +457,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-rucb" id="upd-rucb" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['breakfast'] ?>" selected> <?php echo $regInfo['breakfast'] ?></option>
@@ -474,7 +473,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-ics" id="upd-ics" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['icecream'] ?>" selected> <?php echo $regInfo['icecream'] ?></option>
@@ -489,9 +488,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <hr>
+                        
 
-                        <div class="col-lg-4">
+                        <div class="col-md-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-snd" id="upd-snd">
                                     <option value="<?= $regInfo['dance'] ?>" selected> <?php echo $regInfo['dance'] ?></option>
@@ -506,7 +505,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <hr>
+                        
 
                         <!-- Button trigger modal
                         <div class="col-md-3">
@@ -518,7 +517,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <div class="col-md-3 text-center">
-                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateConForm')" ;> Reset Registration</button>
+                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm')" ;> Reset Registration</button>
                         </div>
 
                     <?php } else {  ?>
