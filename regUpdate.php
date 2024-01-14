@@ -177,9 +177,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">
-                <h6>
-                    Welcome <?= ucwords($_SESSION['name']) ?> - Update Registration Info
-                </h6>
+                <h6>Update Registration Info</h6>
                 <br>
 
                 <?php
@@ -215,7 +213,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-5">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required>
                                 <label for="upd-em" class="form-label">Email</label>
@@ -234,7 +232,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 Optional - Enter phone number.
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-pm" id="upd-pm" required>
@@ -519,13 +519,14 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-3 text-center">
                             <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm')" ;> Reset Registration</button>
                         </div>
-
+                        <div class="col-lg-3">
                     <?php } else {  ?>
                         <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
                     <?php } ?>
-
-                    <div class="col-lg-6">
-                        <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right">Return to Admin</a>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <a href="_admin.php" class="btn btn-primary btn-sm">Return to Admin</a>
                     </div>
 
                     </form>
