@@ -40,7 +40,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 dance = :snd,
                 helpinghand = :hhc,
                 payment = :pm,
-                total = :total,
+                total = $total,
                 paid = :paid
             WHERE id = :reg_id";
 
@@ -63,8 +63,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
-    $nPara[':total'] = strtolower(htmlspecialchars($_POST['upd-total'], ENT_QUOTES));
     $nPara[':paid'] = strtolower(htmlspecialchars($_POST['upd-paid'], ENT_QUOTES));
+
+    $total = getTotal($nPara[':register'], $nPara[':ebmb'], $nPara[':mtsd'], $nPara[':rucb'], $nPara[':ics'], $nPara[':hhc']);
 
 
     $stmt = $dbConn->prepare($sql);
@@ -147,6 +148,21 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 </nav>
 
 <main>
+
+    <!-- Hero Section -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
+            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+                <div class="p-3 text-center text-bg-light hero-text-border">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
+                    </h1>
+                    <h6> Welcome <?= ucwords($_SESSION['name']) ?></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">
@@ -237,7 +253,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-hhc" id="upd-hhc">
-                                    <option value="<?= $regInfo['helpinghand'] ?>" selected> <?php echo $regInfo['firstname'] ?></option>
+                                    <option value="<?= $regInfo['helpinghand'] ?>" selected> <?php echo $regInfo['helpinghand'] ?></option>
                                     <option value="5">$5</option>
                                     <option value="10">$10</option>
                                     <option value="20">$20</option>

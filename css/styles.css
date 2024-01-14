@@ -229,6 +229,10 @@ nav {
   background-image: url("../images/bg-img-success.png");
 }
 
+.bg-img-success {
+  background-image: url("../images/bg-img-update.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }

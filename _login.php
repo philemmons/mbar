@@ -79,6 +79,7 @@ if (isset($_POST['logout'])) {
 </nav>
 
 <main>
+  
   <!-- Hero Section -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-login" title="Computer generated fractal with blue and orange colors.">
