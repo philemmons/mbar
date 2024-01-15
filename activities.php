@@ -196,7 +196,7 @@ include_once 'header.inc'
                 </div>
             </div>
             <div class="col-sm-auto py-4">
-                <img class="img-fluid" src="../images/whale-breach.png" alt="Whale breeching the ocean surface.">
+                <img class="img-fluid" src="../images/mosaic-monterey.png" alt="Beautiful mosaic of monterey.">
             </div>
 
         </div>
