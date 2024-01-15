@@ -51,7 +51,7 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey sunset and fellowship activities.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Del Monte Forest coastline at sunset.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
@@ -176,23 +176,41 @@ include_once 'header.inc'
     <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-sm-6 py-4">
+            <div class="col-sm-10 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="card-title text-center mb-3">EXPLORING MONTEREY</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
+                        </div>
 
-                    <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
+                        <div class="col-sm-6">
+                            <h4><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></h4>
+                        </div>
+                    </div>
 
-                    <h4><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></h4>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></h4>
+                        </div>
 
-                    <h4><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></h4>
+                        <div class="col-sm-4">
+                            <h4><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></h4>
+                        </div>
 
-                    <h4><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></h4>
+                        <div class="col-sm-4">
+                            <h4><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></h4>
+                        </div>
+                    </div>
 
-                    <h4><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></h4>
-                    <br>
-                    <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
+                            <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
+                        </div>
+                    </div>
 
-                    <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
+
                 </div>
             </div>
             <div class="col-sm-auto py-4">
