@@ -60,7 +60,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
                 tos = $tos,
 
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, :paid, $tos
+                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
 
 
@@ -420,7 +420,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <select class="form-select" name="ins-reg" id="ins-reg" required>
+                            <select class="form-select" name="ins-reg" id="ins-reg" onChange="optionSND(this)" required>
                                 <option selected disabled value="">Choose...</option>
                                 <option value="before">Before</option>
                                 <option value="after">After</option>
@@ -513,7 +513,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
                     </div>
 
                     <hr>
-                    
+
                     <div class="col-lg-3 text-center">
                         <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
                     </div>
@@ -572,10 +572,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
 
         function optionSND($obj) {
             let snd = document.getElementById("ins-snd");
-            if ($obj.checked)
+            if (!empty($obj.value))
                 snd.value = "yes";
-            else
-                snd.value = "";
         }
 
         function optionCHANGE() {
