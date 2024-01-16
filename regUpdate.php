@@ -184,7 +184,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 if (isset($_GET['id'])) {
                     $regInfo = getRegInfo($_GET['id']);
                 ?>
-                    <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateForm" novalidate>
+                    <form method='POST' name="updateRegForm" class="row g-3 needs-validation" id="updateRegForm" novalidate>
 
                         <div class="col-lg-1">
                             <div class="form-floating">
@@ -517,7 +517,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <div class="col-lg-3 text-center">
-                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm')" ;> Reset Registration</button>
+                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm');" > Reset Registration</button>
                         </div>
 
                     <?php } else {  ?>
