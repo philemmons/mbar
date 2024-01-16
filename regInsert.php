@@ -22,7 +22,7 @@ if (isset($_POST['logout'])) {
 
 $status = $statusMsg = '';
 
-if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" form
+if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
     $register = !empty($_POST['ins-reg']) ? htmlspecialchars($_POST['ins-reg'], ENT_QUOTES) : '';
     $ebmb = !empty($_POST['ins-ebmb']) ? htmlspecialchars($_POST['ins-ebmb'], ENT_QUOTES) : '';
@@ -61,7 +61,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
 
-echo $sql;die;
+echo $sql . '<br>';
 
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
@@ -84,7 +84,7 @@ echo $sql;die;
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
 
-
+    print_r($array); die;
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);

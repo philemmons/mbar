@@ -206,7 +206,7 @@ function saveData($total)
           //clear the value - prevent multiple insertions
           $nPara = array();
 
-          sleep(5);
+          sleep(2);
      } //eof if
 }
 
