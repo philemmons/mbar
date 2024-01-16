@@ -61,7 +61,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
 
-//echo $sql . '<br>';
+    //echo $sql . '<br>';
 
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
@@ -84,7 +84,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
 
-   // print_r($nPara); die;
+    // print_r($nPara); die;
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -180,7 +180,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 <div class='row'>
                     <div class="col-xl-8 col-lg-8 col-md-12 pt-4 mx-auto">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form message.">
-                            <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                            <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                         </div>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value= 0 required>
+                            <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value=0 required>
                             <label for="ins-paid">Paid *</label>
                         </div>
                         <div class="invalid-feedback">
