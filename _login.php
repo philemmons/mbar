@@ -61,18 +61,6 @@ if (isset($_POST['logout'])) {
         <li class="nav-item style=" border-right: none;">
           <a class="nav-link" href="contributions.php">Contribution</a>
         </li>
-        <li class="nav-item" style="border-right: none;">
-          <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
-        </li>
-        <?php
-        if (isset($_SESSION["status"])) {
-          echo '<li class="nav-item">';
-          echo '<form method ="POST" id="oneBtn" >';
-          echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
-          echo '</form>';
-          echo '</li>';
-        }
-        ?>
       </ul>
     </div>
   </div>
@@ -91,6 +79,33 @@ if (isset($_POST['logout'])) {
       </div>
     </div>
   </section>
+
+  <!-- Bottom Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item" style="border-right: none;">
+            <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
+          </li>
+          <?php
+          if (isset($_SESSION["status"])) {
+            echo '<li class="nav-item">';
+            echo '<form method ="POST" id="oneBtn" >';
+            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+            echo '</form>';
+            echo '</li>';
+          }
+          ?>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
 
   <!-- Section One -->
   <section class="container shadow-wrap">
