@@ -133,7 +133,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Dance and Fellowship</h3>
                         </figcaption>
-                        <p>After the Main speaker meeting on Saturday Night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
+                        <p>After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
                         </p>
                     </div>
                 </div>
