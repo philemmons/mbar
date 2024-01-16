@@ -170,28 +170,28 @@ include_once 'header.inc'
                         <h4 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h4>
                     </figcaption>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos</a></p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></p>
                         </div>
                     </div>
