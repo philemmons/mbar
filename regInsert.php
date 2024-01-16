@@ -36,7 +36,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
 
 
     $sql = "INSERT INTO registration (
-            SET 
                 firstname = :firstName,
                 lastname = :lastName,
                 email = :email,
