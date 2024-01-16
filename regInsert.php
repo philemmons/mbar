@@ -61,7 +61,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
 
-echo $sql . '<br>';
+//echo $sql . '<br>';
 
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
@@ -84,7 +84,7 @@ echo $sql . '<br>';
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
 
-    print_r($nPara); die;
+   // print_r($nPara); die;
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
