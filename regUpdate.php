@@ -161,36 +161,36 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         </div>
     </section>
 
-  <!-- Bottom Navbar -->
-  <nav class="navbar navbar-expand-lg mb-5">
-    <div class="container">
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse.true navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="_login.php">Admin Panel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="regUpdate.php">Update Registration<span class="visually-hidden">(current)</span></a>
-          </li>
-          <?php
-          if (isset($_SESSION["status"])) {
-            echo '<li class="nav-item" style="border-right: none;">';
-            echo '<form method ="POST" id="oneBtn" >';
-            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
-            echo '</form>';
-            echo '</li>';
-          }
-          ?>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-expand-lg mb-5">
+        <div class="container">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="_login.php">Admin Panel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="regUpdate.php">Update Registration<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <?php
+                    if (isset($_SESSION["status"])) {
+                        echo '<li class="nav-item" style="border-right: none;">';
+                        echo '<form method ="POST" id="oneBtn" >';
+                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+                        echo '</form>';
+                        echo '</li>';
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Section One -->
     <section class="container shadow-wrap">
@@ -538,14 +538,16 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-3 text-center">
                             <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm"> Reset Registration</button>
                         </div>
+                        <div class="col-lg-6">
 
-                    <?php } else {  ?>
-                        <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
-                    <?php } ?>
+                        <?php } else {  ?>
+                            <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
 
-                    <div class="col-lg-6">
-                        <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
-                    </div>
+                            <div class="col-lg-12">
+                            <?php } ?>
+
+                            <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
+                        </div>
 
                     </form>
             </div>
