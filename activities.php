@@ -141,7 +141,7 @@ include_once 'header.inc'
                 <div class="row">
                     <div class="col-sm-6 col-12">
                         <figure class="figure">
-                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid mt-4" alt="Ice cream social logo with the words on top of a cone.">
+                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Ice cream social logo with the words on top of a cone.">
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12 box-3">
