@@ -91,10 +91,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
     $nPara = array();
 
-    $status = 'Success';
+    $status = 'success';
     $statusMsg = "Registration Accepted";
 } else {
-    $status = 'Error';
+    $status = 'error';
     $statusMsg = 'Please fill all the mandatory fields.';
 }
 
@@ -178,7 +178,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
             <?php if (!empty($statusMsg)) { ?>
                 <div class='row'>
-                    <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                    <div class="col-xl-8 col-lg-8 col-md-12 pt-4 mx-auto">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form message.">
                             <p class="mb-6 h5 text-dark status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                         </div>
