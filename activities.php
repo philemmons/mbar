@@ -148,10 +148,11 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Ice Cream Social</h3>
                         </figcaption>
-                        <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
                         <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
                         <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
                         </p>
+                        <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
+                        
                         <p><strong>For more conference info, pick up your program at the Registration desk.</strong></p>
                     </div>
                 </div>
