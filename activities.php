@@ -61,6 +61,20 @@ include_once 'header.inc'
         </div>
     </section>
 
+    <!-- Section Registration -->
+    <section class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    </h3>
+                    <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
+                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section One -->
     <section class="container shadow-wrap">
         <div class="row pt-4 mb-5">
@@ -152,7 +166,7 @@ include_once 'header.inc'
                         <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
                         </p>
                         <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
-                        
+
                         <p><strong>For more conference info, pick up your program at the Registration desk.</strong></p>
                     </div>
                 </div>
@@ -162,19 +176,6 @@ include_once 'header.inc'
     </section>
 
     <!-- Section Two -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5" title="Pre-Registration is live.">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
-                    </h3>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Three -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-6 py-4">
