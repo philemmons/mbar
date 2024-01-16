@@ -146,7 +146,7 @@ include_once 'header.inc'
                     </div>
                     <div class="col-sm-6 col-12 box-3">
                         <figcaption class="figure-caption">
-                            <h3>Ice-Cream Social</h3>
+                            <h3>Ice Cream Social</h3>
                         </figcaption>
                         <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
                         <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
