@@ -164,10 +164,11 @@ include_once 'header.inc'
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-sm-6 py-4">
+            <div class="col-md-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title text-center mb-3">EXPLORING MONTEREY AND SURROUNDING AREAS</h3>
-
+                <figcaption class="figure-caption">
+                    <h3 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h3>
+                </figcaption>
                     <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
 
                     <h4><a href="https://www.parks.ca.gov/?page_id=571" class= "bb-link" target= "_blank">Hiking at Point Lobos</a></h4>
@@ -186,7 +187,9 @@ include_once 'header.inc'
                 </div>
             </div>
             <div class="col-sm-auto py-4">
-                <img class="img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge in Big Sur coastline.">
+            <figure class="figure">
+                <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge in Big Sur coastline.">
+            </figure>
             </div>
 
         </div>
