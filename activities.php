@@ -169,24 +169,24 @@ include_once 'header.inc'
                 <figcaption class="figure-caption">
                     <h3 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h3>
                 </figcaption>
-                    <h4><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></h4>
+                    <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
 
-                    <h4><a href="https://www.parks.ca.gov/?page_id=571" class= "bb-link" target= "_blank">Hiking at Point Lobos</a></h4>
+                    <p><a href="https://www.parks.ca.gov/?page_id=571" class= "bb-link" target= "_blank">Hiking at Point Lobos</a></p>
 
-                    <h4><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></h4>
+                    <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></p>
 
-                    <h4><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></h4>
+                    <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></p>
 
-                    <h4><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></h4>
+                    <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></p>
 
-                    <h4><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></h4>
+                    <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></p>
                     <br>
-                    <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
+                    <p><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></p>
 
                     <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
                 </div>
             </div>
-            <div class="col-sm-auto py-4">
+            <div class="col-md-6 py-4">
             <figure class="figure">
                 <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge in Big Sur coastline.">
             </figure>
