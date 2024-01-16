@@ -233,6 +233,10 @@ nav {
   background-image: url("../images/bg-img-update.png");
 }
 
+.bg-img-insert {
+  background-image: url("../images/pfeiffer-big-sur.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }
