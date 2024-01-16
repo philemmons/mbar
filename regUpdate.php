@@ -511,7 +511,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-md-3">
                             <button type="submit" name="submitUpdate" value="update" class="btn" data-bs-toggle="modal" data-bs-target="#updateModal">Update</btn>
                         </div>
- -->
+                        -->
                         <div class="col-lg-3 text-center">
                             <button type="submit" class="btn btn-primary btn-sm" name="submitUpdate" value='update'>Update Registration</button>
                         </div>
@@ -533,23 +533,21 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         </div>
     </section>
 
-
-
     <!-- Modal
-<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-body" style="text-align: center">
-                <h3>Update</h3>
-                <img src='img/complete.png' alt='complete word with red border with a brick like texture.' >
+            <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-body" style="text-align: center">
+                            <h3>Update</h3>
+                            <img src='img/complete.png' alt='complete word with red border with a brick like texture.' >
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
--->
+            -->
 
     <?php include_once 'footer.inc' ?>
     <script>
