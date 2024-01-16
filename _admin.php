@@ -183,7 +183,7 @@ function displayRegAdmin($registration)
 <main>
   <!-- Hero Section -->
   <section class="container shadow-wrap">
-    <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">
+    <div class="row justify-content-center py-6 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border">
           <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
@@ -195,19 +195,25 @@ function displayRegAdmin($registration)
   </section>
 
   <!-- Bottom Navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg mb-5">
     <div class="container">
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse.true navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-          <li class="nav-item" style="border-right: none;">
-            <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="_login.php">Admin Panel<span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="regUpdate.php">Update Registration</a>
           </li>
           <?php
           if (isset($_SESSION["status"])) {
-            echo '<li class="nav-item">';
+            echo '<li class="nav-item" style="border-right: none;">';
             echo '<form method ="POST" id="oneBtn" >';
             echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
             echo '</form>';
@@ -222,7 +228,7 @@ function displayRegAdmin($registration)
   <!-- Section One -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
-      <div class="col-xl-12 pt-4">
+      <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
@@ -334,9 +340,6 @@ function displayRegAdmin($registration)
           </div>
 
         </div>
-      </div>
-      <div class="col-xl-12 py-4">
-        <a href="regInsert.php" class="btn btn-primary me-2">Add New Registration</a>
       </div>
     </div>
   </section>

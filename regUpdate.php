@@ -150,7 +150,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
+        <div class="row justify-content-center py-6 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
@@ -161,30 +161,36 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         </div>
     </section>
 
-    <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse.true navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                    <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <?php
-                    if (isset($_SESSION["status"])) {
-                        echo '<li class="nav-item">';
-                        echo '<form method ="POST" id="oneBtn" >';
-                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
-                        echo '</form>';
-                        echo '</li>';
-                    }
-                    ?>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <!-- Bottom Navbar -->
+  <nav class="navbar navbar-expand-lg mb-5">
+    <div class="container">
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="_login.php">Admin Panel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="regUpdate.php">Update Registration<span class="visually-hidden">(current)</span></a>
+          </li>
+          <?php
+          if (isset($_SESSION["status"])) {
+            echo '<li class="nav-item" style="border-right: none;">';
+            echo '<form method ="POST" id="oneBtn" >';
+            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+            echo '</form>';
+            echo '</li>';
+          }
+          ?>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <!-- Section One -->
     <section class="container shadow-wrap">
