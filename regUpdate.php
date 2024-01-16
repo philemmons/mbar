@@ -414,7 +414,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-reg" id="upd-reg" required>
+                                <select class="form-select" name="upd-reg" id="upd-reg" onChange="optionSND(this)" required>
                                     <option value="<?= $regInfo['registration'] ?>" selected> <?php echo $regInfo['registration'] ?></option>
                                     <option value="before">Before</option>
                                     <option value="after">After</option>
@@ -590,10 +590,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
         function optionSND($obj) {
             let snd = document.getElementById("upd-snd");
-            if ($obj.checked)
+            if ($obj.value == 'before' || $obj.value == 'after')
                 snd.value = "yes";
-            else
-                snd.value = "";
         }
 
         function optionCHANGE() {
