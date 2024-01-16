@@ -56,8 +56,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
                 payment = :pm,
                 total = $total,
                 paid = :paid,
-                tos = $tos,
-
+                tos = $tos
                 ) VALUES (
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
