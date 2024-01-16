@@ -1,6 +1,13 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc'
+include_once 'header.inc';
+
+if (isset($_POST['logout'])) {
+    session_unset();
+    session_destroy();
+    header("Location: index.php");
+}
+
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -43,6 +50,19 @@ include_once 'header.inc'
                 <li class="nav-item" style="border-right: none;">
                     <a class="nav-link" href="contributions.php">Contribution</a>
                 </li>
+                <?php
+                if (isset($_SESSION["status"]) && ($_SESSION['status'] == getenv('LOGIN_STATUS'))) {
+                    echo '<li class="nav-item">';
+                    echo '<a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>';
+                    echo '</li>';
+                    
+                    echo '<li class="nav-item" style="border-right: none;">';
+                    echo '<form method ="POST" id="oneBtn" >';
+                    echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout" />';
+                    echo '</form>';
+                    echo '</li>';
+                }
+                ?>
             </ul>
         </div>
     </div>
