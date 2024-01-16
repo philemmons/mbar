@@ -533,9 +533,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         </div>
     </section>
 
-</main>
 
-<!-- Modal
+
+    <!-- Modal
 <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -551,71 +551,71 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 </div>
 -->
 
-<?php include_once 'footer.inc' ?>
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
+    <?php include_once 'footer.inc' ?>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
-</script>
-<script>
-    /**
-     * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
-     */
-    function optionEBMB($obj) {
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        /**
+         * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
+         */
+        function optionEBMB($obj) {
 
-        let myArr = ['upd-mtsd', 'upd-rucb', 'upd-ics'];
+            let myArr = ['upd-mtsd', 'upd-rucb', 'upd-ics'];
 
-        myArr.forEach(function($key) {
-            if ($obj.value == "yes" || $obj.value == "undecided")
-                document.getElementById($key).value = "no";
+            myArr.forEach(function($key) {
+                if ($obj.value == "yes" || $obj.value == "undecided")
+                    document.getElementById($key).value = "no";
+                //else
+                //document.getElementById($key).value = "";
+            });
+
+        }
+
+        function optionSND($obj) {
+            let snd = document.getElementById("upd-snd");
+            if ($obj.checked)
+                snd.value = "yes";
+            else
+                snd.value = "";
+        }
+
+        function optionCHANGE() {
+            let ebmb = document.getElementById('upd-ebmb');
+            let mtsd = document.getElementById('upd-mtsd');
+            let rucb = document.getElementById('upd-rucb');
+            let ics = document.getElementById('upd-ics');
+
+            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
+                ebmb.value = "no";
             //else
-            //document.getElementById($key).value = "";
-        });
+            //ebmb.value = "";
+        }
+    </script>
+    <script>
+        /* only for conUpdate */
+        function myReset(thisForm) {
+            document.getElementById(thisForm).reset();
+        }
+    </script>
+    </body>
 
-    }
-
-    function optionSND($obj) {
-        let snd = document.getElementById("upd-snd");
-        if ($obj.checked)
-            snd.value = "yes";
-        else
-            snd.value = "";
-    }
-
-    function optionCHANGE() {
-        let ebmb = document.getElementById('upd-ebmb');
-        let mtsd = document.getElementById('upd-mtsd');
-        let rucb = document.getElementById('upd-rucb');
-        let ics = document.getElementById('upd-ics');
-
-        if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
-            ebmb.value = "no";
-        //else
-        //ebmb.value = "";
-    }
-</script>
-<script>
-    /* only for conUpdate */
-    function myReset(thisForm) {
-        document.getElementById(thisForm).reset();
-    }
-</script>
-</body>
-
-</html>
+    </html>

@@ -12,6 +12,8 @@
          </div>
      </section>
 
+    </main>
+
      <footer class='container'>
          <div class="row justify-content-md-center">
              <div class='col-sm-4 banner'>

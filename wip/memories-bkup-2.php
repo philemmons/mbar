@@ -222,189 +222,189 @@
             </div>
     </section>
 
-</main>
-
-<?php include_once 'footer.inc' ?>
-
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-    /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
-
-    const fname = document.querySelector('#fn');
-
-    const lname = document.querySelector('#ln');
-
-    const userEmail = document.querySelector('#em');
-
-    const userTitle = document.querySelector('#ti');
-
-    const userMess = document.querySelector('#ta');
-
-    const userCheck = document.querySelector('#iChk');
-
-    const submitButton = document.querySelector('#submitBtn');
-
-    const myForm = document.querySelector("form");
-
-    myForm.addEventListener('change', function(e) {
-
-        //prevent the form from submitting
-        e.preventDefault();
-
-        // validate forms
-        let isFirstNameValid = validText(fname, 3, 25),
-            isLastNameValid = validText(lname, 3, 25),
-            isEmailValid = validEmail(),
-            isTitleValid = validText(userTitle, 3, 50),
-            isMessageValid = validText(userMess, 1, 1000);
-        isCheckboxValid = validCheckbox();
-
-        let isFormValid = isFirstNameValid && isLastNameValid &&
-            isEmailValid && isTitleValid && isMessageValid && isCheckboxValid;
-
-        // submit to the server if the form is valid
-        if (isFormValid) {
-            alert('success');
-            submitButton.disabled = false;
-        }
-    })
-
-    const isRequired = (value) => value === '' ? false : true;
-
-    const isBetween = (length, min, max) => length < min || length > max ? false : true;
-
-    const isEmailValid = (userEmail) => {
-        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(userEmail);
-    };
-
-    const isChecked = (userCheck) => {
-        return userCheck.checked;
-    }
-
-    const showError = (input, message) => {
-        // get the form-field element
-        const formField = input.parentElement;
-
-        // add the error class
-        input.classList.remove('success');
-        input.classList.add('error');
-
-        // show the error message
-        const error = formField.querySelector('small');
-        error.textContent = message;
-    };
 
 
-    const showSuccess = (input) => {
-        // get the form-field element
-        const formField = input.parentElement;
+    <?php include_once 'footer.inc' ?>
 
-        // remove the error class
-        input.classList.remove('error');
-        input.classList.add('success');
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        /* https://www.javascripttutorial.net/javascript-dom/javascript-form-validation/ */
 
-        // hide the error message
-        const error = formField.querySelector('small');
-        error.textContent = '';
-    };
+        const fname = document.querySelector('#fn');
 
+        const lname = document.querySelector('#ln');
 
-    // This will be used for first name, last name, title message, and message
-    const validText = (inputText, min, max) => {
+        const userEmail = document.querySelector('#em');
 
-        let valid = false;
-        const userText = inputText.value.trim();
+        const userTitle = document.querySelector('#ti');
 
-        if (!isRequired(userText)) {
-            showError(inputText, 'Required');
-        } else if (!isBetween(userText.length, min, max)) {
-            showError(inputText, `Username must be between ${min} and ${max} characters.`);
-        } else {
-            showSuccess(inputText);
-            valid = true;
-        }
-        return valid;
-    };
+        const userMess = document.querySelector('#ta');
 
+        const userCheck = document.querySelector('#iChk');
 
-    const validEmail = () => {
-        let valid = false;
-        const email = userEmail.value.trim();
-        if (!isRequired(email)) {
-            showError(userEmail, 'Required');
-        } else if (!isEmailValid(email)) {
-            showError(userEmail, 'Email is invalid.')
-        } else {
-            showSuccess(userEmail);
-            valid = true;
-        }
-        return valid;
-    };
+        const submitButton = document.querySelector('#submitBtn');
 
-    const validCheckbox = () => {
-        let valid = false;
-        const cBox = userCheck;
-        if (!isChecked(cBox)) {
-            showError(userCheck, 'You must agree to the above TOS.');
-        } else {
-            showSuccess(userCheck);
-            valid = true;
-        }
-        return valid;
-    };
+        const myForm = document.querySelector("form");
 
+        myForm.addEventListener('change', function(e) {
 
-    const debounce = (fn, delay = 500) => {
-        let timeoutId;
-        return (...args) => {
-            // cancel the previous timer
-            if (timeoutId) {
-                clearTimeout(timeoutId);
+            //prevent the form from submitting
+            e.preventDefault();
+
+            // validate forms
+            let isFirstNameValid = validText(fname, 3, 25),
+                isLastNameValid = validText(lname, 3, 25),
+                isEmailValid = validEmail(),
+                isTitleValid = validText(userTitle, 3, 50),
+                isMessageValid = validText(userMess, 1, 1000);
+            isCheckboxValid = validCheckbox();
+
+            let isFormValid = isFirstNameValid && isLastNameValid &&
+                isEmailValid && isTitleValid && isMessageValid && isCheckboxValid;
+
+            // submit to the server if the form is valid
+            if (isFormValid) {
+                alert('success');
+                submitButton.disabled = false;
             }
-            // setup a new timer
-            timeoutId = setTimeout(() => {
-                fn.apply(null, args)
-            }, delay);
+        })
+
+        const isRequired = (value) => value === '' ? false : true;
+
+        const isBetween = (length, min, max) => length < min || length > max ? false : true;
+
+        const isEmailValid = (userEmail) => {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(userEmail);
         };
-    };
 
-
-    myForm.addEventListener('input', debounce(function(e) {
-        switch (e.target.id) {
-            case 'fn':
-                validText(fname, 3, 25);
-                break;
-            case 'ln':
-                validText(lname, 3, 25);
-                break;
-            case 'em':
-                validEmail();
-                break;
-            case 'ti':
-                validText(userTitle, 3, 50);
-                break;
-            case 'ta':
-                validText(userMess, 1, 1000);
-                break;
-            case 'iChk':
-                validCheckbox();
-                break;
+        const isChecked = (userCheck) => {
+            return userCheck.checked;
         }
-    }));
-</script>
 
-<script>
-    function resetFields() {
-        return confirm("Are you sure you want to reset all fields?");
-    }
-</script>
+        const showError = (input, message) => {
+            // get the form-field element
+            const formField = input.parentElement;
 
-<script>
-    function onRecaptchaSuccess(token) {
-        document.getElementById('contact-form').submit();
-    }
-</script>
-</body>
+            // add the error class
+            input.classList.remove('success');
+            input.classList.add('error');
 
-</html>
+            // show the error message
+            const error = formField.querySelector('small');
+            error.textContent = message;
+        };
+
+
+        const showSuccess = (input) => {
+            // get the form-field element
+            const formField = input.parentElement;
+
+            // remove the error class
+            input.classList.remove('error');
+            input.classList.add('success');
+
+            // hide the error message
+            const error = formField.querySelector('small');
+            error.textContent = '';
+        };
+
+
+        // This will be used for first name, last name, title message, and message
+        const validText = (inputText, min, max) => {
+
+            let valid = false;
+            const userText = inputText.value.trim();
+
+            if (!isRequired(userText)) {
+                showError(inputText, 'Required');
+            } else if (!isBetween(userText.length, min, max)) {
+                showError(inputText, `Username must be between ${min} and ${max} characters.`);
+            } else {
+                showSuccess(inputText);
+                valid = true;
+            }
+            return valid;
+        };
+
+
+        const validEmail = () => {
+            let valid = false;
+            const email = userEmail.value.trim();
+            if (!isRequired(email)) {
+                showError(userEmail, 'Required');
+            } else if (!isEmailValid(email)) {
+                showError(userEmail, 'Email is invalid.')
+            } else {
+                showSuccess(userEmail);
+                valid = true;
+            }
+            return valid;
+        };
+
+        const validCheckbox = () => {
+            let valid = false;
+            const cBox = userCheck;
+            if (!isChecked(cBox)) {
+                showError(userCheck, 'You must agree to the above TOS.');
+            } else {
+                showSuccess(userCheck);
+                valid = true;
+            }
+            return valid;
+        };
+
+
+        const debounce = (fn, delay = 500) => {
+            let timeoutId;
+            return (...args) => {
+                // cancel the previous timer
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+                // setup a new timer
+                timeoutId = setTimeout(() => {
+                    fn.apply(null, args)
+                }, delay);
+            };
+        };
+
+
+        myForm.addEventListener('input', debounce(function(e) {
+            switch (e.target.id) {
+                case 'fn':
+                    validText(fname, 3, 25);
+                    break;
+                case 'ln':
+                    validText(lname, 3, 25);
+                    break;
+                case 'em':
+                    validEmail();
+                    break;
+                case 'ti':
+                    validText(userTitle, 3, 50);
+                    break;
+                case 'ta':
+                    validText(userMess, 1, 1000);
+                    break;
+                case 'iChk':
+                    validCheckbox();
+                    break;
+            }
+        }));
+    </script>
+
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
+
+    <script>
+        function onRecaptchaSuccess(token) {
+            document.getElementById('contact-form').submit();
+        }
+    </script>
+    </body>
+
+    </html>

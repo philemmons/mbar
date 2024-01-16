@@ -242,37 +242,37 @@
             </div>
     </section>
 
-</main>
 
-<?php include_once 'footer.inc' ?>
 
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+    <?php include_once 'footer.inc' ?>
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-    function onRecaptchaSuccess() {
-        document.getElementById('contact-form').submit()
-    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
 
-    function resetFields() {
-        return confirm("Are you sure you want to reset all fields?");
-    }
-</script>
-</body>
+        function onRecaptchaSuccess() {
+            document.getElementById('contact-form').submit()
+        }
 
-</html>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
+    </body>
+
+    </html>

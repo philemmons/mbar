@@ -593,71 +593,71 @@ include_once 'header.inc'
         </div>
     </section>
 
-</main>
-<?php include_once 'footer.inc' ?>
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+    <?php include_once 'footer.inc' ?>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
-</script>
-<script>
-    function resetFields() {
-        return confirm("Are you sure you want to reset all fields?");
-    }
-</script>
-<script>
-    /**
-     * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
-     */
-    function optionEBMB($obj) {
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-        let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
+    <script>
+        /**
+         * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
+         */
+        function optionEBMB($obj) {
 
-        myArr.forEach(function($key) {
-            if ($obj.value == "yes" || $obj.value == "undecided")
-                document.getElementById($key).value = "no";
+            let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
+
+            myArr.forEach(function($key) {
+                if ($obj.value == "yes" || $obj.value == "undecided")
+                    document.getElementById($key).value = "no";
+                //else
+                //document.getElementById($key).value = "";
+            });
+
+        }
+
+        function optionSND($obj) {
+            let snd = document.getElementById("reg-snd");
+            if ($obj.checked)
+                snd.value = "yes";
+            else
+                snd.value = "";
+        }
+
+        function optionCHANGE() {
+            let ebmb = document.getElementById('reg-ebmb');
+            let mtsd = document.getElementById('reg-mtsd');
+            let rucb = document.getElementById('reg-rucb');
+            let ics = document.getElementById('reg-ics');
+
+            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
+                ebmb.value = "no";
             //else
-            //document.getElementById($key).value = "";
-        });
+            //ebmb.value = "";
+        }
+    </script>
+    </body>
 
-    }
-
-    function optionSND($obj) {
-        let snd = document.getElementById("reg-snd");
-        if ($obj.checked)
-            snd.value = "yes";
-        else
-            snd.value = "";
-    }
-
-    function optionCHANGE() {
-        let ebmb = document.getElementById('reg-ebmb');
-        let mtsd = document.getElementById('reg-mtsd');
-        let rucb = document.getElementById('reg-rucb');
-        let ics = document.getElementById('reg-ics');
-
-        if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
-            ebmb.value = "no";
-        //else
-        //ebmb.value = "";
-    }
-</script>
-</body>
-
-</html>
+    </html>

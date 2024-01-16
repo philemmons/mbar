@@ -539,8 +539,8 @@ include_once 'header.inc'
         </div>
     </section>
 
-</main>
-<?php include_once 'footer.inc' ?>
-</body>
 
-</html>
+    <?php include_once 'footer.inc' ?>
+    </body>
+
+    </html>

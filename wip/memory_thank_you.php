@@ -101,9 +101,9 @@
             </div>
     </section>
 
-</main>
-<?php include_once 'footer.inc' ?>
 
-</body>
+    <?php include_once 'footer.inc' ?>
 
-</html>
+    </body>
+
+    </html>

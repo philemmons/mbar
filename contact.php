@@ -243,37 +243,37 @@ include_once 'header.inc'
         </div>
     </section>
 
-</main>
 
-<?php include_once 'footer.inc' ?>
 
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
+    <?php include_once 'footer.inc' ?>
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
-</script>
-<script>
-    function resetFields() {
-        return confirm("Are you sure you want to reset all fields?");
-    }
-</script>
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-</body>
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
 
-</html>
+    </body>
+
+    </html>

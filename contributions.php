@@ -161,7 +161,7 @@ include_once 'header.inc'
                 </div>
             <?php } ?>
 
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
                     <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
@@ -218,12 +218,7 @@ include_once 'header.inc'
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Section Two -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <p class="mb-6 h5 text-dark">In keeping with A.A.'s Seventh Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
@@ -232,37 +227,37 @@ include_once 'header.inc'
         </div>
     </section>
 
-</main>
 
-<?php include_once 'footer.inc' ?>
 
-<script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
+    <?php include_once 'footer.inc' ?>
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
-</script>
-<script>
-    function resetFields() {
-        return confirm("Are you sure you want to reset all fields?");
-    }
-</script>
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-</body>
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
 
-</html>
+    </body>
+
+    </html>

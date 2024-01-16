@@ -374,17 +374,17 @@ function displayRegAdmin($registration)
       </div>
     </div>
   </section>
-</main>
 
-<?php include_once 'footer.inc' ?>
 
-<script>
-  //https://datatables.net/reference/option
-  new DataTable('#adminDisplay', {
-    responsive: true
-  });
-</script>
+  <?php include_once 'footer.inc' ?>
 
-</body>
+  <script>
+    //https://datatables.net/reference/option
+    new DataTable('#adminDisplay', {
+      responsive: true
+    });
+  </script>
 
-</html>
+  </body>
+
+  </html>

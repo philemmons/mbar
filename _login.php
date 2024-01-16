@@ -79,7 +79,7 @@ if (isset($_POST['logout'])) {
 </nav>
 
 <main>
-  
+
   <!-- Hero Section -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-login" title="Computer generated fractal with blue and orange colors.">
@@ -112,44 +112,44 @@ if (isset($_POST['logout'])) {
       </div>
   </section>
 
-</main>
 
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
 
-        <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate>
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
 
-          <label for="ittLM">Username</label>
-          <input type="text" class="form-control" name="formUN" id="ittLM" required>
-          <div class="invalid-feedback">
-            Required
-          </div>
+          <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate>
 
-          <label for="itpLM">Password</label>
-          <input type="password" class="form-control" name="formPW" id="itpLM" required>
-          <div class="invalid-feedback">
-            Required
-          </div>
+            <label for="ittLM">Username</label>
+            <input type="text" class="form-control" name="formUN" id="ittLM" required>
+            <div class="invalid-feedback">
+              Required
+            </div>
 
-          <div class="d-grid col-sm-5 mx-auto pt-3">
-            <input type="submit" name="login" value="Login" class="btn btn-primary">
-          </div>
+            <label for="itpLM">Password</label>
+            <input type="password" class="form-control" name="formPW" id="itpLM" required>
+            <div class="invalid-feedback">
+              Required
+            </div>
 
-          <div class="d-grid col-sm-5 mx-auto pt-3">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-          </div>
-        </form>
+            <div class="d-grid col-sm-5 mx-auto pt-3">
+              <input type="submit" name="login" value="Login" class="btn btn-primary">
+            </div>
 
+            <div class="d-grid col-sm-5 mx-auto pt-3">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+          </form>
+
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<?php include_once 'footer.inc' ?>
+  <?php include_once 'footer.inc' ?>
 
-</body>
+  </body>
 
-</html>
+  </html>

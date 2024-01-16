@@ -1,6 +1,6 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc' 
+include_once 'header.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg">
@@ -531,8 +531,8 @@ include_once 'header.inc'
         </div>
     </section>
 
-</main>
-<?php include_once 'footer.inc' ?>
-</body>
 
-</html>
+    <?php include_once 'footer.inc' ?>
+    </body>
+
+    </html>
