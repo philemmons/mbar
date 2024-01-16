@@ -164,7 +164,7 @@ include_once 'header.inc'
     <!-- Section Two -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-md-6 py-4">
+            <div class="col-lg-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                     <figcaption class="figure-caption">
                         <h4 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h4>
