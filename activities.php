@@ -167,7 +167,7 @@ include_once 'header.inc'
             <div class="col-md-6 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
                 <figcaption class="figure-caption">
-                    <h3 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h3>
+                    <h4 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h4>
                 </figcaption>
                     <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
 
@@ -181,7 +181,7 @@ include_once 'header.inc'
 
                     <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></p>
                     <br>
-                    <p><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></p>
+                    <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
 
                     <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
                 </div>
