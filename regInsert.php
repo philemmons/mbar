@@ -572,7 +572,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
 
         function optionSND($obj) {
             let snd = document.getElementById("ins-snd");
-            if (!empty($obj.value))
+            if ($obj.value == 'Before' || $obj.value == 'After')
                 snd.value = "yes";
         }
 
