@@ -211,7 +211,7 @@ function displayRegAdmin($registration)
   <!-- Section One -->
   <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
-      <div class="col-xl-12 py-4">
+      <div class="col-xl-12 pt-4">
         <div class="p-3 text-bg-light hero-text-border">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
@@ -323,6 +323,9 @@ function displayRegAdmin($registration)
           </div>
 
         </div>
+      </div>
+      <div class="col-xl-6 py-4">
+        <a href="regInsert.php" class="btn btn-primary me-2">Add New Registration</a>
       </div>
     </div>
   </section>
