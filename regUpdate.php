@@ -90,7 +90,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
 ?>
 
-<!--<script src='js/jsFinal.js'></script>-->
+<!--<script src='js/jsFinal.js'></script>
 
 <script>
     $(document).ready(function() {
@@ -99,7 +99,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         });
     }); //documentReady
 </script>
-
+-->
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
