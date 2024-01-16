@@ -61,6 +61,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
 
+echo $sql;die;
+
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['ins-ln'], ENT_QUOTES));
