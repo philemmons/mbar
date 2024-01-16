@@ -324,7 +324,7 @@ function displayRegAdmin($registration)
 
         </div>
       </div>
-      <div class="col-xl-6 py-4">
+      <div class="col-xl-12 py-4">
         <a href="registration.php" class="btn btn-primary me-2">Add New Registration</a>
       </div>
     </div>
