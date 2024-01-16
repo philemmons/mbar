@@ -517,7 +517,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <div class="col-lg-3 text-center">
-                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" onclick="myReset('updateRegForm');" > Reset Registration</button>
+                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm" > Reset Registration</button>
                         </div>
 
                     <?php } else {  ?>
@@ -609,7 +609,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         }
     </script>
     <script>
-        /* only for conUpdate */
+        
         function myReset(thisForm) {
             document.getElementById(thisForm).reset();
         }
