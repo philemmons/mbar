@@ -63,7 +63,7 @@ include_once 'header.inc'
 
     <!-- Section One -->
     <section class="container shadow-wrap">
-        <div class="row py-4 mb-5">
+        <div class="row pt-4 mb-5">
             <div class="col-lg-4 col-sm-12 col-12">
                 <figure class="figure">
                     <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
