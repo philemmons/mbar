@@ -36,27 +36,27 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
 
     $sql = "INSERT INTO registration (
-                firstname = :firstName,
-                lastname = :lastName,
-                email = :email,
-                phone = :phone,
-                address = :address,
-                city = :city,
-                state = :state,
-                zipcode = :zc,
-                fellowship = :fs,
-                homegroup = :hg,
-                registration = :register,
-                ebmb = :ebmb,
-                speakerdinner = :mtsd,
-                breakfast = :rucb,
-                icecream = :ics,
-                dance = :snd,
-                helpinghand = :hhc,
-                payment = :pm,
-                total = $total,
-                paid = :paid,
-                tos = $tos
+                firstname,
+                lastname,
+                email,
+                phone,
+                address,
+                city,
+                state,
+                zipcode,
+                fellowship,
+                homegroup,
+                registration,
+                ebmb,
+                speakerdinner,
+                breakfast,
+                icecream,
+                dance,
+                helpinghand,
+                payment,
+                total,
+                paid,
+                tos
                 ) VALUES (
                     :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
                 )";
