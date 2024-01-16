@@ -269,7 +269,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "update user" fo
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" required>
+                            <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value= 0 required>
                             <label for="ins-paid">Paid *</label>
                         </div>
                         <div class="invalid-feedback">
