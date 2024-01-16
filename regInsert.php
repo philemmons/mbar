@@ -84,7 +84,7 @@ echo $sql . '<br>';
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
 
-    print_r($array); die;
+    print_r($nPara); die;
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
