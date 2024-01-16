@@ -234,12 +234,7 @@ include_once 'header.inc'
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Section Two -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
+            
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mbar-chair-email'); ?> </p>
