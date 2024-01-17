@@ -14,7 +14,7 @@ include_once 'header.inc'
                     <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle active" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(actual)</span></button>
+                    <button class="nav-link dropdown-toggle active" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia<span class="visually-hidden">(actual)</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registro</a>
@@ -54,7 +54,8 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="MBAR Conference 2022 Archive">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Conference 2019 and Audio Files<br>Archive</span></h1>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Conferencia 2019 y Archivos de Audio<br>Archivo</span></h1>
+                    <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
         </div>
@@ -65,21 +66,21 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="text-center">Conference Services: KEEP IT SIMPLE</h3>
+                    <h3 class="text-center">Servicios de Conferencias: KEEP IT SIMPLE</h3>
                     <br>
-                    <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
+                    <p><strong>Regístrese en la mesa de registro</strong> para obtener sus paquetes de registro que contienen sus credenciales, programas y boletos para las comidas o el baile que haya comprado.
                     </p>
-                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
+                    <p><strong>Habrá servicio de transporte disponible</strong> para conducir desde el centro de conferencias hasta la Iglesia Luterana de Belén para el desayuno del sábado por la mañana y la cena del sábado por la noche para conocer a los oradores. Dirígete al mostrador de registro para obtener más información sobre este servicio gratuito.
                     </p>
-                    <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
+                    <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89</a>
                     </p>
-                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                    <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrará liberación del cuidado, el aburrimiento y la preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152</a>
                     </p>
                 </div>
             </div>
@@ -91,125 +92,125 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Friday, August 30, 2019</h3>
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Viernes, 30 de Agosto de 2019</h3>
                     <br>
-                    STEINBECK BALLROOM 2 and 3 (Up the Escalator)
+                    STEINBECK BALLROOM 2 and 3 (Subiendo las escaleras mecánicas)
                     <br><br>
-                    <p><strong>2:00pm</strong> - Registration Opens (Main Lobby Upstairs — Registration Area)
+                    <p><strong>2:00pm</strong> - Se Abre la Inscripción (Vestíbulo Principal Arriba - Área de Inscripción)
                         <br>
-                        <strong>3:00pm</strong> - Kick-Off A.A. Speaker Meeting
+                        <strong>3:00pm</strong> -Lanzamiento de A.A. Reunión de Oradores
                         <br>
                     </p>
                     <hr>
-                    <strong>Early Bird A.A. Speaker :</strong> Teresa J. from Monterey, CA
+                    <strong>Los Madrugadores A.A. Vocero :</strong> Teresa J. de Monterey, CA
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
                         <source src="audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Teresa J. Audio File</span>
+                    <span style="font-size: 15px; color: blue">Teresa J. Archivo de Audio</span>
                     <br>
                     <hr>
                     <div style="column-count: 2">
-                        Secretary: Cindy A.
+                        Secretario: Cindy A.
                         <br>
-                        Preamble: Arthur T.
+                        Preámbulo: Arthur T.
                         <br>
-                        Traditions: Lisa
+                        Tradiciones: Lisa
                         <br>
-                        Chapter 3: Donna M.
+                        Capítulo 3 : Donna M.
                         <br>
-                        How It Work: Brady S.
+                        Como Funciona: Brady S.
                         <br>
-                        Vision For You: Kathy M.
+                        Visión Para Ti: Kathy M.
                         <br>
                     </div>
                     <br>
-                    <strong> From 4:00pm - A.A. MARATHON MEETING SCHEDULE </strong>
+                    <strong> De 4:00pm - A.A. CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                     <br>
                     <div style="column-count: 2">
-                        4:00pm - Chael R. (Salinas) Willingness
+                        4:00pm - Chael R. (Salinas) Voluntad
                         <br>
-                        5:00pm - Patricia W. (Salinas) Acceptance
+                        5:00pm - Patricia W. (Salinas) Aceptación
                         <br>
-                        6:00pm - Saramae (Salinas) Quality vs Quantity
+                        6:00pm - Saramae (Salinas) Calidad versus Cantidad
                         <br>
                     </div>
                     <br>
-                    <strong>From 6:00pm - AL-ANON MARATHON MEETING SCHEDULE</strong>
+                    <strong>De 6:00pm - AL-ANON CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                     <div style="column-count: 2">
-                        6:00pm Thursday ODAT
+                        6:00pm Thursday ODAT - Un Día a la Vez
                         <br>
                     </div>
                     <br>
-                    <strong>6:30pm</strong> - Raffle Prize Drawing
+                    <strong>6:30pm</strong> - Sorteo del Premio de la Rifa
                     <br>
-                    <strong>7:30pm</strong> - Friday Night A.A./Al-Anon Meeting
+                    <strong>7:30pm</strong> - Viernes Noche A.A./Al-Anon Reunión
                     <br>
-                    (ASL Interpretation Provided)
+                    (Se proporciona interpretación ASL)
                     <br>
                     <hr>
-                    <strong>A.A. Speaker:</strong> Harry H., from Denver, CO
+                    <strong>A.A. Orador:</strong> Harry H., de Denver, CO
                     <br><br>
                     <audio controls="">
                         <source src="audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
                         <source src="audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Harry H. Audio File</span>
+                    <span style="font-size: 15px; color: blue">Harry H. Archivo de Audio</span>
                     <br>
                     <hr>
-                    <strong>Al-Anon Speaker:</strong> Jane H. from Denver, CO
+                    <strong>Al-Anon Orador:</strong> Jane H. de Denver, CO
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
                         <source src="audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Jane H. Audio File</span>
+                    <span style="font-size: 15px; color: blue">Jane H. Archivo de Audio</span>
                     <br>
                     <hr>
                     <div style="column-count: 2">
-                        Secretary - Thomas L.
+                        Secretario - Thomas L.
                         <br>
-                        Open with Serenity Prayer
+                        Abra con la Oración de la Serenidad
                         <br>
-                        Al-Anon Welcome
+                        Bienvenida a Al-Anon
                         <br>
-                        Al-Anon Preamble
+                        Preámbulo de Al-Anon
                         <br>
-                        Al-Anon Twelve Steps
+                        Los Doce Pasos de Al-Anon
                         <br>
-                        Al-Anon Twelve Traditions
+                        Las Doce Tradiciones de Al-Anon
                         <br>
-                        Al-Anon Safety Statement
+                        Declaración de seguridad de Al-Anon
                         <br>
-                        Al-Anon Closing
+                        Clausura de Al-Anon
                         <br><br>
-                        Secretary - Ashley G.
+                        Secretaria - Ashley G.
                         <br>
-                        Preamble: Laura
+                        Preámbulo: Laura
                         <br>
-                        Traditions: Kim
+                        Tradiciones: Kim
                         <br>
-                        Chapter 3: David
+                        Capítulo 3: David
                         <br>
-                        How It Works: Mare
+                        Cómo Funciona: Mare
                         <br>
-                        Vision For You: Courtney C.
+                        Visión Para Ti: Courtney C.
                         <br>
-                        Closing Prayer
+                        Oración Final
                         <br><br>
                     </div>
-                    <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: blue; font-weight: 600">One Man Band</span>
+                    <strong>9:30pm</strong> - Evento de Diversión y Compañerismo: <span style="color: blue; font-weight: 600">One Man Band</span>
                     <br><br>
-                    <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
+                    <strong>ACCESIBILIDAD ADA: MBAR 2019 proporcionará</strong>:
                     <ul>
-                        <li><strong>2 ASL Interpreters</strong> - Friday: 2.5h</li>
+                        <li><strong>2 Intérpretes de ASL</strong> - Viernes: 2,5h</li>
                     </ul>
                 </div>
             </div>
@@ -221,20 +222,20 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Saturday, August 31, 2019</h3>
-                    STEINBECK BALLROOM 2 and 3
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Sábado, 31 de Agosto de 2019</h3>
+                    STEINBECK BALLROOM 2 y 3
                     <br><br>
-                    <p><strong>From 8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
+                    <p><strong>De 8:00am - A.A. CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                         <br>
                     </p>
                     <div style="column-count: 2">
                         8:00am Ron M. (Prunedale)
                         <br>
-                        9:00am Jack F. (Salinas) Character Defect
+                        9:00am Jack F. (Salinas) Defecto de Carácter
                         <br>
                         10:00am Mike H. (Hollister)
                         <br>
-                        11:00am Mark Y. (Salinas) How It Works
+                        11:00am Mark Y. (Salinas) Cómo Funciona
                         <br>
                         12:00pm Charlie A. (Salinas)
                         <br>
@@ -242,9 +243,9 @@ include_once 'header.inc'
                         <br>
                         2:00pm Michelle S. (Monterey)
                         <br>
-                        3:00pm Jodi B. (Castroville) Twenty-Four-Hour-Living
+                        3:00pm Jodi B. (Castroville) Vivir-Veinticuatro-Horas
                         <br>
-                        4:00pm Jean T. (Monterey) Rigorous Honesty
+                        4:00pm Jean T. (Monterey) Honestidad Rigurosa
                         <br>
                         5:00pm Dan S. (Marina)
                         <br>
@@ -255,65 +256,65 @@ include_once 'header.inc'
                     </div>
                     <br><br>
                     <p>
-                        <strong>From 8:00am - AL-ANON MARATHON MEETING SCHEDULE</strong>
+                        <strong>De 8:00am - AL-ANON CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                     </p>
                     <div style="column-count: 2">
-                        8:00am Monday Night Serenity
+                        8:00am Serenidad del Lunes por la Noche
                         <br>
-                        9:00am Friday Noon Carmel - Keep it Simple
+                        9:00am Viernes Mediodía Carmel - Mantenlo Simple
                         <br>
-                        10:00am Salinas Saturday - Step and Tradition
+                        10:00am Salinas Sábado - Paso y Tradición
                         <br>
-                        11:00am Marla M. - I am Enough
+                        11:00am Marla M. - Yo soy Euficiente
                         <br>
-                        12:00pm Jem G. - Our Courage to Change
+                        12:00pm Jem G. - Nuestro Coraje para Cambiar
                         <br>
                         1:00pm Al-Ateen Panel
                         <br>
-                        3:00pm Al-Ateen Meeting (Closed Meeting: Al-Ateen Members Only)
+                        3:00pm Al-Ateen Reunión (Reunión Cerrada: Solo Miembros de Al-Ateen)
                         <br>
-                        3:00pm Su B. - Family Recovery In Institutions
+                        3:00pm Su B. - Recuperación Familiar En Instituciones
                         <br>
-                        4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
+                        4:00pm Laurie B. y Guadalupe L.- Una Dia de la Vez - Habla Español
                         <br>
                     </div>
                     <br>
-                    <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
+                    <strong>8:00am</strong> - Desayuno de Compañerismo Resumen(Bethlehem Lutheran Church Hall ∆)
                     <br><br>
                     <hr>
-                    <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
+                    <strong>10:00pm</strong> Panel de Opinión de Médicos: Jerry C. y Sheila C.
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
                         <source src="audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue"> Doctors Opinion Panel Audio File</span>
+                    <span style="font-size: 15px; color: blue"> Panel de Opinión de Médicos Archivo de Audio</span>
                     <br>
                     <hr>
-                    <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
+                    <strong>11:15am</strong> Taller de Sobriedad Emocional: Sonny C. y Masa M.
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
                         <source src="audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Emotional Sobriety Workshop Audio File</span>
+                    <span style="font-size: 15px; color: blue">Taller de Sobriedad Emocional Archivo de Audio</span>
                     <br>
                     <hr>
-                    <strong>12:30pm</strong> The Many Paths to Spirituality Panel Meeting
+                    <strong>12:30pm</strong>Reunión del Panel Los Muchos Caminos Hacia la Espiritualidad
                     <br>
                     <span style="margin-left: 100px">Panelist:</span> Jean T., Maggie W., and Carrie H. (Monterey, CA)
                     <br>
                     <audio controls="">
                         <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
                         <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Audio File</span>
+                    <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Archivo de Audio</span>
                     <br>
                     <hr>
                     <strong>2:00pm</strong> - Ice Cream Social (Stevenson Terrace)
@@ -333,10 +334,10 @@ include_once 'header.inc'
                     <audio controls="">
                         <source src="audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
                         <source src="audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Charlie H. Henderson Audio File</span>
+                    <span style="font-size: 15px; color: blue">Charlie H. Henderson Archivo de Audio</span>
                     <hr>
                     <div style="column-count: 2">
                         Secretary - May H.
@@ -378,11 +379,11 @@ include_once 'header.inc'
                     <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Sunday, September 1, 2019</h3>
                     STEINBECK BALLROOM 2 and 3
                     <br><br>
-                    <p><strong>8:00am - A.A. MARATHON MEETING SCHEDULE</strong>
+                    <p><strong>8:00am - A.A. CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                         <br>
                         8:00am Chuck N. (Salinas)
                         <br><br>
-                        <strong>8:00am - AL-ANON MARATHON MEETING SCHEDULE</strong>
+                        <strong>8:00am - AL-ANON CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                         <br>
                         8:00am GMHP Meditation Daily Reader
                     </p>
@@ -392,10 +393,10 @@ include_once 'header.inc'
                     <audio controls="">
                         <source src="audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
                         <source src="audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Louise M. Audio File</span>
+                    <span style="font-size: 15px; color: blue">Louise M. Archivo de Audio</span>
                     <hr>
                     <br>
                     ASL Interpretation Provided
@@ -425,10 +426,10 @@ include_once 'header.inc'
                     <audio controls="">
                         <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
                         <source src="audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Pat B. Audio File</span>
+                    <span style="font-size: 15px; color: blue">Pat B. Archivo de Audio</span>
                     <br>
                     <hr>
                     (ASL Interpretation Provided)<br>
@@ -477,7 +478,7 @@ include_once 'header.inc'
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</a>
                     </p>
-                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release de care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</a>
@@ -496,7 +497,7 @@ include_once 'header.inc'
                     <div class="col-md-12 db-5">
                         <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
                             <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
-                            (It is a little over one mile from the Conference Center.)
+                            (It is a little over one mile de the Conference Center.)
                         </p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25626.756836816734!2d-121.91606218727391!3d36.59400863899273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem%20Lutheran%20Church!5e0!3m2!1sen!2sus!4v1704873760536!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
