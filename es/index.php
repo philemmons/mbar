@@ -55,7 +55,7 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Resumen del área de la bahía de Monterey 2024</span>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirs del área de la bahía de Monterey 2024</span>
                     </h1>
                     <p class="mb-6 h2 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
@@ -106,7 +106,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conferencia 2024</a></h5>
-                            <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
+                            <p class="card-text">Calendario de eventos durante nuestro reunirs de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Ver Archivos de 2022</a></small>
@@ -132,7 +132,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Actividades</a></h5>
-                            <p class="card-text">Reuniones Maratónicas, Desayuno Resumen, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
+                            <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Avance</a></small>
@@ -187,7 +187,7 @@ include_once 'header.inc'
     <section class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">
-                <h3>ACERCA DEL RESUMEN DEL ÁREA DE LA BAHÍA DE MONTEREY</h3>
+                <h3>ACERCA DEL REUNIRSE DEL ÁREA DE LA BAHÍA DE MONTEREY</h3>
                 <p><strong>ALCOHÓLICOS ANÓNIMOS</strong> es una comunidad de personas que comparten su experiencia, fortaleza y esperanza entre sí para poder resolver su problema común y ayudar a otros a recuperarse del alcoholismo. El único requisito para ser miembro es el deseo de dejar de beber. No hay cuotas ni honorarios para A.A. afiliación; Nos sustentamos a través de nuestras propias contribuciones. AUTOMÓVIL CLUB BRITÁNICO. no está aliado con ninguna secta, denominación política, organización o institución; no desea involucrarse en ninguna controversia; ni apoya ni se opone a ninguna causa. Nuestro objetivo principal es mantenernos sobrios y ayudar a otros alcohólicos a alcanzar la sobriedad.
                     <br><br>
                     <strong>¿QUÉ ES AL-ANON?</strong>

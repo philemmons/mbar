@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Resumen del Área de la Bahía de Monterey 2024</title>
+    <title>Reunirs del Área de la Bahía de Monterey 2024</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <!-- Bootstrap CSS v5.3.2 -->
@@ -50,7 +50,7 @@
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
-                <h1>RESUMEN DEL ÁREA DE LA BAHÍA DE MONTEREY</h1>
+                <h1>REUNIRSE DEL ÁREA DE LA BAHÍA DE MONTEREY</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
                 <p class="font-italic">Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer un compañerismo a tu alrededor, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte.</p>
             </div>

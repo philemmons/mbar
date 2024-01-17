@@ -51,7 +51,7 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey mosaic and fellowship activities.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey tile mosaic at the Conference Center inspiring fellowship activities.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
@@ -102,7 +102,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Marathon Meetings</h3>
                         </figcaption>
-                        <p>During the MBAR Conference there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                        <p>During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
                         </p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ include_once 'header.inc'
                 <div class="row">
                     <div class="col-sm-6 col-12">
                         <figure class="figure">
-                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Ice cream social logo with the words on top of a cone.">
+                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
                         </figure>
                     </div>
                     <div class="col-sm-6 col-12 box-3">
@@ -204,7 +204,7 @@ include_once 'header.inc'
             </div>
             <div class="col-lg-6 py-4 text-center">
                 <figure class="figure">
-                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge in Big Sur coastline.">
+                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge at Big Sur along the coastline.">
                 </figure>
             </div>
 
