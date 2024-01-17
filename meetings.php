@@ -116,7 +116,7 @@ include_once 'header.inc'
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/12-09-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/2023/12-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:12/09/2023</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
                                     <a href="" class="bb-link" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:11/11/2023</a> <br>
                                     <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
