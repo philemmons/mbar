@@ -198,7 +198,7 @@ include_once 'header.inc'
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Huge wave crashing on the rocky shore.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title= "Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore.">
             </div>
         </div>
     </section>
