@@ -91,31 +91,31 @@ include_once 'header.inc'
 
                     <tbody>
                         <tr class="table-success">
-                            <td>AA Chairperson</td>
+                            <td>A.A. Chairperson</td>
                             <td>May H.</td>
                             <td>Cindy A.</td>
                             <td>Chris T.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Co-Chair</td>
+                            <td>A.A. Co-Chair</td>
                             <td>--</td>
                             <td>Phil C. </td>
                             <td>Renee C.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Treasurer</td>
+                            <td>A.A. Treasurer</td>
                             <td>Cindy A.</td>
                             <td>Daylene A.</td>
                             <td>Carolyn H.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Co-Treasurer</td>
+                            <td>A.A. Co-Treasurer</td>
                             <td>Cindy A.</td>
                             <td>Mona S.</td>
                             <td>Jean T.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Recording Secretary</td>
+                            <td>A.A. Recording Secretary</td>
                             <td>Andy V.</td>
                             <td>Andy V.</td>
                             <td>Roger M.</td>

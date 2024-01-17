@@ -55,7 +55,7 @@ include_once 'header.inc'
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">MBAR's<br>
-                            Trusted Servants</span></h1>
+                            Siervos de Confianza</span></h1>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Past and Present Planning Committee's</span>
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Comité de Planificación Pasado y Presente</span>
                     </h4>
                 </div>
             </div>
@@ -85,37 +85,37 @@ include_once 'header.inc'
                     </tbody>
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4" scope="col">A.A. Steering Committee</th>
+                            <th colspan="4" scope="col">A.A. Comité Directivo</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr class="table-success">
-                            <td>AA Chairperson</td>
+                            <td>A.A. Presidente</td>
                             <td>May H.</td>
                             <td>Cindy A.</td>
                             <td>Chris T.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Co-Chair</td>
+                            <td>A.A. Copresidente</td>
                             <td>--</td>
                             <td>Phil C. </td>
                             <td>Renee C.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Treasurer</td>
+                            <td>A.A. Tesorero</td>
                             <td>Cindy A.</td>
                             <td>Daylene A.</td>
                             <td>Carolyn H.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Co-Treasurer</td>
+                            <td>A.A. Co-tesorero</td>
                             <td>Cindy A.</td>
                             <td>Mona S.</td>
                             <td>Jean T.</td>
                         </tr>
                         <tr class="table-success">
-                            <td>AA Recording Secretary</td>
+                            <td>A.A. Secretario de grabación</td>
                             <td>Andy V.</td>
                             <td>Andy V.</td>
                             <td>Roger M.</td>
@@ -123,73 +123,73 @@ include_once 'header.inc'
                     </tbody>
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4" scope="col">Al-Anon Steering Committee</th>
+                            <th colspan="4" scope="col">Al-Anon Comité Directivo</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr class="table-warning">
-                            <td>Al-Anon Chair</td>
+                            <td>Al-Anon Presidente</td>
                             <td>Thomas L.</td>
                             <td>Sidney A.R.</td>
                             <td>Jane H.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Co-Chair</td>
+                            <td>Al-Anon Copresidente</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Decorations</td>
+                            <td>Al-Anon Decoraciones</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Literature</td>
+                            <td>Al-Anon Literatura</td>
                             <td>--</td>
                             <td>Dawn C.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Marathon Mtg. Chair</td>
+                            <td>Al-Anon Reunión de Maratón Silla</td>
                             <td>Donna F.</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Raffle</td>
+                            <td>Al-Anon Rifa</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Recording Secretary</td>
+                            <td>Al-Anon Secretario de Grabación</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Registration Chair</td>
+                            <td>Al-Anon Presidente de Registro</td>
                             <td>Debbie O.</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Secretary</td>
+                            <td>Al-Anon Secretario</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Speaker Chair</td>
+                            <td>Al-Anon Presidente del Orador</td>
                             <td>Susan A.</td>
                             <td>Susan A.</td>
                             <td>Susan A.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Treasurer</td>
+                            <td>Al-Anon Tesorero</td>
                             <td>--</td>
                             <td>Thomas L.</td>
                             <td>--</td>
@@ -205,109 +205,109 @@ include_once 'header.inc'
 
                     <thead class="filterHead">
                         <tr class="filterRow">
-                            <th colspan="4" scope="col">Committee Chairs</th>
+                            <th colspan="4" scope="col">Presidentes de Comités</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr class="table-primary">
-                            <td>Registration Chair</td>
+                            <td>Presidente de Registro</td>
                             <td>Naomi B.</td>
                             <td>Naomi B.</td>
                             <td>Naomi B.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Activities</td>
+                            <td>Actividades</td>
                             <td>Samantha C.</td>
                             <td>--</td>
                             <td></td>
                         </tr>
                         <tr class="table-primary">
-                            <td>BBQ Chair</td>
+                            <td>Silla de Barbacoa</td>
                             <td>Joanie</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Breakfast Chair</td>
+                            <td>Silla de Desayuno</td>
                             <td>Joanie</td>
                             <td>Renee N.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Dance Chair</td>
+                            <td>Silla de Baile</td>
                             <td>--</td>
                             <td>Chris T.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Decorations Chair</td>
+                            <td>Silla Decoraciones</td>
                             <td>Hilda P.</td>
                             <td>Hilda P.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Dinner Chair</td>
+                            <td>Silla de Cena</td>
                             <td>Joanie</td>
                             <td>Aubrey</td>
                             <td>Aubrey</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Facilites Chair</td>
+                            <td>Presidente de Instalaciones</td>
                             <td>Nick K.</td>
                             <td>Billy H.</td>
                             <td>Sally H.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>GSR Liaison</td>
+                            <td>Enlace RSG</td>
                             <td>Teresa J.</td>
                             <td>--</td>
                             <td>Cole</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>H&amp;I Liaison</td>
+                            <td>Enlace de HeI</td>
                             <td>Michael R.</td>
                             <td>Michael R.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Hospitality</td>
+                            <td>Hospitalidad</td>
                             <td>Phil C.</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Host</td>
+                            <td>Anfitrión</td>
                             <td>Phil C.</td>
                             <td>May H.</td>
                             <td>Cindy A.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Ice Cream Social</td>
+                            <td>Helado Social</td>
                             <td>Joanie D.</td>
                             <td>Joanie D.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Literature Chair</td>
+                            <td>Cátedra de Literatura</td>
                             <td>Monica P.</td>
                             <td>May H.</td>
                             <td>May H.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Marathon Meetings Chair</td>
+                            <td>Presidente de Reuniones Maratonianas</td>
                             <td>Mark S.</td>
                             <td>Mark S.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Merchandise Chair</td>
+                            <td>Presidente de Mercancía</td>
                             <td>May H.</td>
                             <td>May H.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Outreach Chair</td>
+                            <td>Presidente de extensión</td>
                             <td>--</td>
                             <td>Kathleen M.</td>
                             <td>Laura P.</td>
@@ -319,73 +319,73 @@ include_once 'header.inc'
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Raffle Chair</td>
+                            <td>Silla de Rifa</td>
                             <td>Esther F.</td>
                             <td>Katherine J.</td>
                             <td>Katherine J.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Shuttle Service Chair</td>
+                            <td>Silla de Servicio de Transporte</td>
                             <td>Chuck N.</td>
                             <td>Chuck N.</td>
                             <td></td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Social Media Co-Chair</td>
+                            <td>Copresidente de Redes Sociales</td>
                             <td>--</td>
                             <td>Chris T.</td>
                             <td>Gina H.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Social Media Co-Chair</td>
+                            <td>Copresidente de Redes Sociales</td>
                             <td>--</td>
                             <td>Victoria M.</td>
                             <td>Sean B.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Spanish Community</td>
+                            <td>Comunidad Española</td>
                             <td>--</td>
                             <td>Eric M.</td>
                             <td>Eric M.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Speaker Chair</td>
+                            <td>Presidente del Orador</td>
                             <td>Brady S.</td>
                             <td>Mark B.</td>
                             <td>Kathleen S.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Speaker Chair (Al-Anon)</td>
+                            <td>Presidente del Orador (Al-Anon)</td>
                             <td>--</td>
                             <td>Susan A.</td>
                             <td>Susan A.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>T-shirts Chair</td>
+                            <td>Camisetas Silla</td>
                             <td>---.</td>
                             <td>Charly F.</td>
                             <td>Jessica L.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Website Chair</td>
+                            <td>Presidente del Sitio Web</td>
                             <td>--</td>
                             <td>--</td>
                             <td>Phillip E.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Welcome &amp; Social Chair</td>
+                            <td>Bienvenida y Silla Social</td>
                             <td>---</td>
                             <td>Arthur T.</td>
                             <td>Arthur T.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Young People Chair</td>
+                            <td>Silla de Jóvenes</td>
                             <td>Samantha C.</td>
                             <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Zoom Meeting</td>
+                            <td>Reunión de Zoom</td>
                             <td>--</td>
                             <td>Phillip E.</td>
                             <td>Phillip E.</td>
