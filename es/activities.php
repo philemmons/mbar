@@ -86,7 +86,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Cena de Conozca a los Oradores</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
                         <p>Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Desayuno Reunirse</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
                         <p>Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
                         </p>
                     </div>
