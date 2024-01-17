@@ -53,7 +53,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference<br>
                             with<br>
                             Al-Anon Participation</span></h1>
@@ -66,11 +66,11 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
                 </div>
             </div>
         </div>

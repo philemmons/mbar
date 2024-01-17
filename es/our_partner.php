@@ -111,11 +111,11 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
-                    <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                    <p class="mb-6 h4 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
                 </div>
             </div>
         </div>

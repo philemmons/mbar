@@ -54,11 +54,11 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Resumen del área de la bahía de Monterey 2024</span>
                     </h1>
-                    <p class="mb-6 h2 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                    <p class="mb-6 h2 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
                 </div>
             </div>
         </div>
@@ -71,14 +71,14 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Bingo Night: "Fun-ds & Fellowship"</a></h5>
-                            <p class="card-text">Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo!
+                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>NOCHE DE BINGO: "DIVERSIÓN Y COMPAÑERISMO"</a></h5>
+                            <p class="card-text">¡Únase a The Herd at The Moose para una noche de compañerismo, recuperación y bingo!
                                 <br>
-                                <strong>When:</strong> Friday — January 26, 2024, 6-9pm
+                                <strong>Cuándo:</strong> viernes, 26 de enero de 2024, de 6 a 9 p. m.
                             </p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View more info here</a></small>
+                        <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Ver más información aquí</a></small>
                     </div>
                 </div>
             </div>
@@ -86,12 +86,12 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
-                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h5>
-                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
+                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Voluntarios</a></h5>
+                            <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
                             </p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Let us know if you are interested</a></small>
+                        <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Déjenos saber si esta interesado</a></small>
                     </div>
                 </div>
             </div>
@@ -105,11 +105,11 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>2024 Conference</a></h5>
-                            <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conferencia 2024</a></h5>
+                            <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
+                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Ver Archivos de 2022</a></small>
                     </div>
                 </div>
             </div>
@@ -119,10 +119,10 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
                                 <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registro</a></h5>
-                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
+                            <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
+                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">La preinscripción está activa</a></small>
                     </div>
                 </div>
             </div>
@@ -132,10 +132,10 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Actividades</a></h5>
-                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
+                            <p class="card-text">Reuniones Maratónicas, Desayuno Resumen, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
+                        <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Avance</a></small>
                     </div>
                 </div>
             </div>
@@ -146,11 +146,11 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="contact.php">
-                                <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></h5>
-                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
+                                <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Comité</a></h5>
+                            <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contact Us</a></small>
+                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contacta con nosotros</a></small>
                     </div>
                 </div>
             </div>
@@ -159,11 +159,11 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></h5>
-                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Historia</a></h5>
+                            <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
+                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Nuestro pasado</a></small>
                     </div>
                 </div>
             </div>
@@ -172,11 +172,11 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="contribution.php">
-                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></h5>
-                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contribuciones</a></h5>
+                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>
+                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Manos amigas</a></small>
                     </div>
                 </div>
             </div>
@@ -187,18 +187,18 @@ include_once 'header.inc'
     <section class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">
-                <h3>ABOUT MONTEREY BAY AREA ROUNDUP</h3>
-                <p><strong>ALCOHOLICS ANONYMOUS</strong> is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.
+                <h3>ACERCA DEL RESUMEN DEL ÁREA DE LA BAHÍA DE MONTEREY</h3>
+                <p><strong>ALCOHÓLICOS ANÓNIMOS</strong> es una comunidad de personas que comparten su experiencia, fortaleza y esperanza entre sí para poder resolver su problema común y ayudar a otros a recuperarse del alcoholismo. El único requisito para ser miembro es el deseo de dejar de beber. No hay cuotas ni honorarios para A.A. afiliación; Nos sustentamos a través de nuestras propias contribuciones. AUTOMÓVIL CLUB BRITÁNICO. no está aliado con ninguna secta, denominación política, organización o institución; no desea involucrarse en ninguna controversia; ni apoya ni se opone a ninguna causa. Nuestro objetivo principal es mantenernos sobrios y ayudar a otros alcohólicos a alcanzar la sobriedad.
                     <br><br>
-                    <strong>WHAT IS AL-ANON?</strong>
-                    Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery. <br><br>
-                    Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
+                    <strong>¿QUÉ ES AL-ANON?</strong>
+                    Los Grupos de Familia Al-Anon son una comunidad de familiares y amigos de alcohólicos que comparten su experiencia, fortaleza y esperanza para resolver sus problemas comunes. Creemos que el alcoholismo es una enfermedad familiar y que un cambio de actitud puede ayudar a la recuperación. <br><br>
+                    Al-Anon no está aliado con ninguna secta, denominación, entidad política, organización o institución; no participa en ninguna controversia; ni respalda ni se opone a ninguna causa. No hay cuotas de membresía. Al-Anon se autofinancia mediante sus propias contribuciones voluntarias.
                     <br><br>
-                    Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
+                    Al-Anon tiene un solo propósito: ayudar a las familias de alcohólicos. Hacemos esto practicando los Doce Pasos, dando la bienvenida y brindando consuelo a las familias de alcohólicos, y brindando comprensión y aliento al alcohólico.
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa." title="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa.">
             </div>
         </div>
     </section>
