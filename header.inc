@@ -33,6 +33,16 @@
     
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CF8R56VR9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CF8R56VR9S');
+</script>
+
 <body>
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
