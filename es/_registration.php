@@ -11,37 +11,37 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php" aria-current="page">Home</a>
+                    <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item active" aria-current="page" href="registration.php">Registration<span class="visually-hidden">(current)</span></a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
+                        <a class="dropdown-item active" aria-current="page" href="registration.php">Registration<span class="visually-hidden">(actual)</span></a>
+                        <a class="dropdown-item" href="activities.php">Actividades</a>
+                        <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
+                        <a class="dropdown-item" href="memories.php">Recuerdos</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
+                        <a class="dropdown-item" href="meetings.php">Reuniones</a>
+                        <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos eventos</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                        <a class="nav-link" href="upcoming_event.php">Noche de bingo</a>
+                        <a class="nav-link" href="logo_contest.php">Concurso de logotipos</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contacto</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
+                    <a class="nav-link" href="contributions.php">Contribución</a>
                 </li>
             </ul>
         </div>
@@ -533,12 +533,12 @@ include_once 'header.inc'
                         P.O. Box 1462<br>
                         Monterey, CA 93942
                     </p>
-                    <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email')?>" class="bb-link">Registration Chair</a>
+                    <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
                     </p>
                     <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2024 Registration Form</a>
                     </p>
-                    <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email')?>" class="bb-link">Steering Committee</a>
+                    <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
                     </p>
                 </div>
             </div>

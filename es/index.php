@@ -11,38 +11,38 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Home
-                        <span class="visually-hidden">(current)</span></a>
+                    <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Hogar
+                        <span class="visually-hidden">(actual)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
+                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="activities.php">Actividades</a>
+                        <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
+                        <a class="dropdown-item" href="memories.php">Recuerdos</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
+                        <a class="dropdown-item" href="meetings.php">Reuniones</a>
+                        <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos eventos</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                        <a class="nav-link" href="upcoming_event.php">Noche de bingo</a>
+                        <a class="nav-link" href="logo_contest.php">Concurso de logotipos</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contacto</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
+                    <a class="nav-link" href="contributions.php">Contribución</a>
                 </li>
             </ul>
         </div>
@@ -118,7 +118,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
-                                <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registration</a></h5>
+                                <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registro</a></h5>
                             <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -131,7 +131,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
-                                <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Activities</a></h5>
+                                <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Actividades</a></h5>
                             <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -198,7 +198,7 @@ include_once 'header.inc'
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title= "Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore.">
             </div>
         </div>
     </section>

@@ -11,37 +11,37 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php" aria-current="page">Home</a>
+                    <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle active" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(current)</span></button>
+                    <button class="nav-link dropdown-toggle active" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(actual)</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" aria-current="page" href="memories.php">Memories</a>
+                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="activities.php">Actividades</a>
+                        <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
+                        <a class="dropdown-item" aria-current="page" href="memories.php">Recuerdos</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
+                        <a class="dropdown-item" href="meetings.php">Reuniones</a>
+                        <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos eventos</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-                        <a class="nav-link" href="logo_contest.php">Logo Contest</a>
+                        <a class="nav-link" href="upcoming_event.php">Noche de bingo</a>
+                        <a class="nav-link" href="logo_contest.php">Concurso de logotipos</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contacto</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
+                    <a class="nav-link" href="contributions.php">Contribución</a>
                 </li>
             </ul>
         </div>

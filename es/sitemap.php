@@ -12,37 +12,37 @@ include_once 'header.inc'
 			<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
 				<li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Home
-						<span class="visually-hidden">(current)</span></a>
+						<span class="visually-hidden">(actual)</span></a>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
 						<a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-						<a class="dropdown-item" href="registration.php">Registration</a>
-						<a class="dropdown-item" href="activities.php">Activities</a>
-						<a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-						<a class="dropdown-item" href="memories.php">Memories</a>
+						<a class="dropdown-item" href="registration.php">Registro</a>
+						<a class="dropdown-item" href="activities.php">Actividades</a>
+						<a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
+						<a class="dropdown-item" href="memories.php">Recuerdos</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
-						<a class="dropdown-item" href="meetings.php">Meetings</a>
-						<a class="dropdown-item" href="committees.php">Committees</a>
+						<a class="dropdown-item" href="meetings.php">Reuniones</a>
+						<a class="dropdown-item" href="committees.php">Comités</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos eventos</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
-						<a class="nav-link" href="upcoming_event.php">Bingo Night</a>
-						<a class="nav-link" href="logo_contest.php">Logo Contest</a>
+						<a class="nav-link" href="upcoming_event.php">Noche de bingo</a>
+						<a class="nav-link" href="logo_contest.php">Concurso de logotipos</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="contact.php">Contact</a>
+					<a class="nav-link" href="contact.php">Contacto</a>
 				</li>
 				<li class="nav-item" style="border-right: none;">
-					<a class="nav-link" href="contributions.php">Contribution</a>
+					<a class="nav-link" href="contributions.php">Contribución</a>
 				</li>
 			</ul>
 		</div>
@@ -85,9 +85,9 @@ include_once 'header.inc'
 							<ul class="level-1 list-group">
 								<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">montereybayarearoundup.org/ <span class="lcount">18 pages</span></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
+								<li class="ms-5"><a href="https://montereybayarearoundup.org/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Hogar</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/registration.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
+								<li class="ms-5"><a href="https://montereybayarearoundup.org/registration.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registro</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/activities.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/mbar_history.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/memories.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
