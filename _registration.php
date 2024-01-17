@@ -533,12 +533,12 @@ include_once 'header.inc'
                         P.O. Box 1462<br>
                         Monterey, CA 93942
                     </p>
-                    <p>OR email the completed form to our <a href="mailto:mbarregchair2024@gmail.com" class="bb-link">Registration Chair</a>
+                    <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email')?>" class="bb-link">Registration Chair</a>
                     </p>
                     <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2024 Registration Form</a>
                     </p>
-                    <p>If you have any question, please contact our <a href="mailto:mbarchair2024@gmail.com" class="bb-link">Steering Committee</a>
+                    <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email')?>" class="bb-link">Steering Committee</a>
                     </p>
                 </div>
             </div>
