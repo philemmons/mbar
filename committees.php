@@ -100,7 +100,7 @@ include_once 'header.inc'
                             <td>AA Co-Chair</td>
                             <td>--</td>
                             <td>Phil C. </td>
-                            <td>Renee C</td>
+                            <td>Renee C.</td>
                         </tr>
                         <tr class="table-success">
                             <td>AA Treasurer</td>
@@ -132,7 +132,7 @@ include_once 'header.inc'
                             <td>Al-Anon Chair</td>
                             <td>Thomas L.</td>
                             <td>Sidney A.R.</td>
-                            <td>Sidney A.R.</td>
+                            <td>Jane H.</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Co-Chair</td>
@@ -225,14 +225,14 @@ include_once 'header.inc'
                         <tr class="table-primary">
                             <td>BBQ Chair</td>
                             <td>Joanie</td>
-                            <td>Henry L.</td>
+                            <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Breakfast Chair</td>
                             <td>Joanie</td>
                             <td>Renee N.</td>
-                            <td>Renee N.</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Dance Chair</td>
@@ -256,7 +256,7 @@ include_once 'header.inc'
                             <td>Facilites Chair</td>
                             <td>Nick K.</td>
                             <td>Billy H.</td>
-                            <td>Sally H</td>
+                            <td>Sally H.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>GSR Liaison</td>
@@ -267,13 +267,13 @@ include_once 'header.inc'
                         <tr class="table-primary">
                             <td>H&amp;I Liaison</td>
                             <td>Michael R.</td>
-                            <td>--</td>
                             <td>Michael R.</td>
+                            <td>--</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Hospitality</td>
                             <td>Phil C.</td>
-                            <td>Phil C.</td>
+                            <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
@@ -303,7 +303,7 @@ include_once 'header.inc'
                         <tr class="table-primary">
                             <td>Merchandise Chair</td>
                             <td>May H.</td>
-                            <td>--</td>
+                            <td>May H.</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-primary">
@@ -322,25 +322,25 @@ include_once 'header.inc'
                             <td>Raffle Chair</td>
                             <td>Esther F.</td>
                             <td>Katherine J.</td>
-                            <td>Katherine J</td>
+                            <td>Katherine J.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Shuttle Service Chair</td>
                             <td>Chuck N.</td>
-                            <td>Trevor F.</td>
+                            <td>Chuck N.</td>
                             <td></td>
                         </tr>
                         <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
                             <td>--</td>
                             <td>Chris T.</td>
-                            <td>Gina H</td>
+                            <td>Gina H.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
                             <td>--</td>
                             <td>Victoria M.</td>
-                            <td>Sean B</td>
+                            <td>Sean B.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Spanish Community</td>
@@ -352,13 +352,13 @@ include_once 'header.inc'
                             <td>Speaker Chair</td>
                             <td>Brady S.</td>
                             <td>Mark B.</td>
-                            <td></td>
+                            <td>Kathleen S.</td>
                         </tr>
                         <tr class="table-primary">
-                            <td>Speaker Chair (Al-anon)</td>
+                            <td>Speaker Chair (Al-Anon)</td>
                             <td>--</td>
                             <td>Susan A.</td>
-                            <td>Kathleen S.</td>
+                            <td>Susan A.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>T-shirts Chair</td>
