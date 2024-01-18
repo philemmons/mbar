@@ -94,7 +94,7 @@ include_once 'header.inc'
                 <div class="p-3 text-bg-light hero-text-border">
                     <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Viernes, 30 de Agosto de 2019</h3>
                     <br>
-                    STEINBECK BALLROOM 2 and 3 (Subiendo las escaleras mecánicas)
+                    STEINBECK BALLROOM 2 y 3 (Subiendo las escaleras mecánicas)
                     <br><br>
                     <p><strong>2:00pm</strong> - Se Abre la Inscripción (Vestíbulo Principal Arriba - Área de Inscripción)
                         <br>
@@ -306,7 +306,7 @@ include_once 'header.inc'
                     <hr>
                     <strong>12:30pm</strong>Reunión del Panel Los Muchos Caminos Hacia la Espiritualidad
                     <br>
-                    <span style="margin-left: 100px">Panelist:</span> Jean T., Maggie W., and Carrie H. (Monterey, CA)
+                    <span style="margin-left: 100px">Miembro del jurado:</span> Jean T., Maggie W., y Carrie H. (Monterey, CA)
                     <br>
                     <audio controls="">
                         <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
@@ -314,22 +314,22 @@ include_once 'header.inc'
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
-                    <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Archivo de Audio</span>
+                    <span style="font-size: 15px; color: blue">Reunión del Panel Muchos Caminos Hacia la Espiritualidad Archivo de Audio</span>
                     <br>
                     <hr>
-                    <strong>2:00pm</strong> - Ice Cream Social (Stevenson Terrace)
+                    <strong>2:00pm</strong> - Helado Social (Stevenson Terrace)
                     <br>
-                    <strong>4:00pm</strong> - Speed Fellowship
+                    <strong>4:00pm</strong> - Beca de Velocidad
                     <br>
-                    <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall ∆)
+                    <strong>5:00pm</strong> - Cena de Conozca a los Oradores (Bethlehem Lutheran Church Hall ∆)
                     <br>
 
-                    <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win
+                    <strong>7:00pm</strong> - Sorteo redondeado: debe estar presente para ganar
                     <br>
-                    <strong>8:00pm</strong> - Saturday Night Speaker Meeting - ASL Interpretation Provided
+                    <strong>8:00pm</strong> - Reunión de Oradores el Sábado por la Noche: se Proporciona Interpretación de ASL
                     <br>
                     <hr>
-                    <span style="margin-left: 100px"><strong>A.A. Speaker:</strong> Charlie H. Henderson, NV</span>
+                    <span style="margin-left: 100px"><strong>A.A. Orador:</strong> Charlie H. Henderson, NV</span>
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
@@ -340,31 +340,31 @@ include_once 'header.inc'
                     <span style="font-size: 15px; color: blue">Charlie H. Henderson Archivo de Audio</span>
                     <hr>
                     <div style="column-count: 2">
-                        Secretary - May H.
+                        Secretario - May H.
                         <br>
-                        Countdown: Michael R. and Naomi B.
+                        Cuenta regresiva: Michael R. y Naomi B.
                         <br>
-                        Preamble: Kristen
+                        Preámbulo: Kristen
                         <br>
-                        Traditions: Jimmy B.
+                        Tradiciones: Jimmy B.
                         <br>
-                        Chapter Three — More About Alcoholism: George F.
+                        Capítulo Tres: Más Sobre el Alcoholismo: George F.
                         <br>
-                        How It Works: Donna D.
+                        Cómo Funciona: Donna D.
                         <br>
-                        Vision For You: Stephanie
+                        Visión Para Ti: Stephanie
                         <br>
-                        Closing Prayer
+                        Oración Final
                         <br>
                     </div>
                     <br>
                     <hr>
                     <br>
-                    <strong>9:30pm</strong> - Fun and Fellowship Dance
+                    <strong>9:30pm</strong> - Baile Divertido y de Compañerismo
                     <br><br>
-                    <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
+                    <strong>ACCESIBILIDAD ADA: MBAR 2019 proporcionará</strong>:
                     <ul>
-                        <li><strong>2 ASL Interpreters</strong> - Saturday: 2.5h</li>
+                        <li><strong>Dos Intérpretes de ASL</strong> - Sábado: 2,5h</li>
                     </ul>
                 </div>
             </div>
@@ -376,8 +376,8 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Sunday, September 1, 2019</h3>
-                    STEINBECK BALLROOM 2 and 3
+                    <h3 class="text-center"><i class="bi bi-calendar2-check-fill"> </i>Domingo, 1 de Septiembre de 2019</h3>
+                    STEINBECK BALLROOM 2 y 3
                     <br><br>
                     <p><strong>8:00am - A.A. CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                         <br>
@@ -385,10 +385,10 @@ include_once 'header.inc'
                         <br><br>
                         <strong>8:00am - AL-ANON CALENDARIO DE REUNIONES DEL MARATÓN</strong>
                         <br>
-                        8:00am GMHP Meditation Daily Reader
+                        8:00am Lector Diario de Meditación GMHP
                     </p>
                     <hr>
-                    <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
+                    <strong>9:00am</strong> - <strong>Al-Anon Orador:</strong> Louise M., Sacramento, CA
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
@@ -399,29 +399,29 @@ include_once 'header.inc'
                     <span style="font-size: 15px; color: blue">Louise M. Archivo de Audio</span>
                     <hr>
                     <br>
-                    ASL Interpretation Provided
+                    Se Proporciona Interpretación de ASL
                     <br>
                     <div style="column-count: 2">
-                        Secretary - Thomas L.
+                        Secretario - Thomas L.
                         <br>
-                        Open with Serenity Prayer
+                        Abierto con Oración de Serenidad
                         <br>
-                        Al-Anon Welcome
+                        Al-Anon Bienvenido
                         <br>
-                        Al-Anon Preamble
+                        Al-Anon Preámbulo
                         <br>
-                        Al-Anon Twelve Steps
+                        Al-Anon Doce Pasos
                         <br>
-                        Al-Anon Twelve Traditions
+                        Al-Anon Twelve Tradiciones
                         <br>
-                        Al-Anon Safety Statement
+                        Al-Anon Declaración de Seguridad
                         <br>
-                        Al-Anon Closing
+                        Al-Anon Clausura
                         <br>
                     </div>
                     <br>
                     <hr>
-                    <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
+                    <strong>11:00am</strong> - <strong>A.A. Orador: </strong> Pat B., Clovis, CA
                     <br>
                     <audio controls="">
                         <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
@@ -432,36 +432,36 @@ include_once 'header.inc'
                     <span style="font-size: 15px; color: blue">Pat B. Archivo de Audio</span>
                     <br>
                     <hr>
-                    (ASL Interpretation Provided)<br>
+                    (Se Proporciona Interpretación ASL)<br>
                     <div style="column-count: 2">
-                        Preamble
+                        Preámbulo
                         <br>
-                        Traditions
+                        Tradiciones
                         <br>
-                        Chapter Three — More About Alcoholism
+                        Capítulo Tres: Más Sobre el Alcoholismo
                         <br>
-                        How It Works
+                        Cómo Funciona
                         <br>
-                        Vision For You
+                        Visión Para Ti
                         <br>
                     </div>
                     <br>
-                    <p><strong>12:00pm</strong> - Conference Ends — See You Next Time
+                    <p><strong>12:00pm</strong> - Finaliza la Conferencia: Nos Vemos la Próxima Vez
                         <br>
-                        May God Bless You and Keep You Until Then (Big Book p164)
+                        Que Dios te Bendiga y te Guarde Hasta Entonces (Libro Grande p164)
                     </p>
-                    <strong>ADA ACCESSIBILITY: MBAR 2019 will provide</strong>:
+                    <strong>ACCESIBILIDAD ADA: MBAR 2019 proporcionará</strong>:
                     <ul>
                         <li>
-                            <strong>2 ASL Interpreters</strong>
+                            <strong>Dos Intérpretes de ASL</strong>
                         </li>
                     </ul>
                     <br>
                     <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank">
-                        <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page.">
+                        <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Logotipo del Intergrupo de Alcohólicos Anónimos del Área de la Bahía de Monterey, haga clic para regresar a la página aamonterey.org.">
                     </a>
                     <br><br>
-                    See our local A.A. Central Office website (link above) for a current listing of meetings in the area, for after the conclusion of the conference.
+                    Vea nuestro grupo local de A.A. Sitio web de la Oficina Central (enlace arriba) para obtener una lista actualizada de las reuniones en el área, para después de la conclusión de la conferencia.
                 </div>
             </div>
         </div>
@@ -472,16 +472,16 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
-                    <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
+                    <h3 class="card-title mb-3"><a href="activities.php">¿POR QUÉ TENEMOS MBAR?</a></h3>
+                    <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89</a>
                     </p>
-                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release de care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                    <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrarás liberación de preocupaciones, aburrimiento y preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</a>
+                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152</a>
                     </p>
                 </div>
             </div>
@@ -495,9 +495,9 @@ include_once 'header.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">∆ Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
-                        <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
-                            <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
-                            (It is a little over one mile de the Conference Center.)
+                        <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>TENGA EN CUENTA:</strong> El Desayuno y la Cena se realizarán en<br>
+                            <strong>Bethlehem Lutheran Church, ubicada en 800 Cass Street en Monterey.</strong><br>
+                            (Está a poco más de una milla del Centro de Conferencias).
                         </p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25626.756836816734!2d-121.91606218727391!3d36.59400863899273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem%20Lutheran%20Church!5e0!3m2!1sen!2sus!4v1704873760536!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -517,23 +517,23 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h3>
-                    <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
+                <h3 class="card-title mb-3 text-center">ACCESIBILIDAD ADA</h3>
+                    <p>Nuestro equipo está comprometido a garantizar el éxito de su evento. Analice cualquier área que no esté cubierta en este documento con su Administrador de Eventos o Nuestro Personal. Estas políticas, reglas y regulaciones generales están sujetas a cambios.
                     </p>
-                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>La política de cumplimiento de la ADA del Monterey Conference Center</ strong></a> - El Centro de Conferencias de Monterey (MCC) cumple con la ADA. De acuerdo con la ADA, somos responsables de las adaptaciones asociadas con el acceso permanente a las instalaciones, como, entre otras, rampas para sillas de ruedas, estándares de ascensores, estándares de ancho de puertas y accesibilidad a los baños.
                     </p>
-                    <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
+                    <p>Es responsabilidad del cliente o inquilino adaptarse a los requisitos de accesibilidad no permanente e incorporar dispositivos de asistencia visual, intérpretes y accesibilidad temporal a asientos si es necesario.
                     </p>
-                    <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
+                    <p>Los dispositivos de audición asistida están disponibles a través de nuestro proveedor Audiovisual interno preferido.
                     </p>
-                    <p><strong>ADA ACCESSIBILITY - MBAR 2019 will provide two ASL Interpreters on these days:</strong>
+                    <p><strong>ACCESIBILIDAD ADA: MBAR 2019 proporcionará dos intérpretes de ASL en estos días:</strong>
                     </p>
                     <ul>
-                        <li>Friday - 2.5 hours</li>
-                        <li>Saturday - 2.5 hours</li>
-                        <li>Sunday - 3.0 hours</li>
+                        <li>Viernes - 2,5 horas</li>
+                        <li>Sábado - 2,5 horas</li>
+                        <li>Domingo - 3,0 horas</li>
                     </ul>
-                    <p style="font-style: italic;"><strong>PLEASE NOTE:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                    <p style="font-style: italic;"><strong>TENGA EN CUENTA:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicación.
                     </p>
                 </div>
             </div>

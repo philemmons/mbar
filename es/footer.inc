@@ -40,7 +40,7 @@
      <div class='container'>
          <div class="row justify-content-md-center">
              <div class="col-sm-12" id="footer-image">
-                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del área de la Bahía de Monterey. Reservados todos los derechos.
+                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                  </p>
              </div>
              <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
