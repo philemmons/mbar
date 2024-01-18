@@ -170,7 +170,7 @@ include_once 'header.inc'
                             <label for="hand-em" class="form-label">Correo electrónico</label>
                             <input type="email" class="form-control" name="hand-em" id="hand-em" required>
                             <div class="invalid-feedback">
-                            Por favor introduzca su correo electrónico.
+                                Por favor introduzca su correo electrónico.
                             </div>
                         </div>
 
@@ -178,7 +178,7 @@ include_once 'header.inc'
                             <label for="hand-ph" class="form-label">Teléfono</label>
                             <input type="tel" class="form-control" name="hand-ph" id="hand-ph" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
-                            Por favor ingrese un número de teléfono válido.
+                                Por favor ingrese un número de teléfono válido.
                             </div>
                         </div>
 
@@ -188,7 +188,7 @@ include_once 'header.inc'
                                 <span class="input-group-text" id="inputGroupPrepend">USD</span>
                                 <input type="text" class="form-control" name="hand-am" id="hand-am" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
                                 <div class="invalid-feedback">
-                                Por favor ingrese una cantidad en dólares.
+                                    Por favor ingrese una cantidad en dólares.
                                 </div>
                             </div>
                         </div>
@@ -197,14 +197,14 @@ include_once 'header.inc'
                             <label for="hand-ta" class="form-label">Mensaje o Nota a incluir.</label>
                             <textarea class="form-control" name="hand-ta" id="hand-ta" required></textarea>
                             <div class="invalid-feedback">
-                            Por favor ingrese su mensaje.
+                                Por favor ingrese su mensaje.
                             </div>
                         </div>
 
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div>
-                                Note: The form will reset if unchecked.Nota: El formulario se restablecerá si no está marcado.
+                                Nota: El formulario se restablecerá si no está marcado.
                             </div>
                         </div>
 
