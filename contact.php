@@ -81,7 +81,7 @@ include_once 'header.inc'
             $secretKey  = getenv('g-secret-key');
 
             // Email settings 
-            $recipientEmail = getenv('mbar-to-email');
+            $recipientEmail = getenv('mbar-chair-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -122,7 +122,7 @@ include_once 'header.inc'
                             $to = $recipientEmail;
                             $subject = 'Contact Us Submitted';
                             $htmlContent = " 
-                    <h4>Contact Us Form</h4> 
+                    <h4>Contact Us Form - EN</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 

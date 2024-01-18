@@ -119,7 +119,7 @@ include_once 'header.inc'
                             $to = $recipientEmail;
                             $subject = 'Helping Hand Submitted';
                             $htmlContent = " 
-                    <h4>Helping Hand Form</h4> 
+                    <h4>Helping Hand Form - EN</h4> 
                     <p><b>Name: </b> Anonymous Donor </p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 

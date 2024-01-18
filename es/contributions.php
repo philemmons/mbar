@@ -51,11 +51,11 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-helpingHands" title="We are honoring the seventh tradition.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-helpingHands" title="Nosotros estamos honrando la séptima tradición.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Contact Us">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Voluntary Contributions:<br>
-                            Helping Hands</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Contacta con Nosotros">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Contribuciones Voluntarias:<br>
+                            Manos que Ayudan</span>
                     </h1>
                 </div>
             </div>
@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.</span></h4>
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h4>
                 </div>
             </div>
 
@@ -119,7 +119,7 @@ include_once 'header.inc'
                             $to = $recipientEmail;
                             $subject = 'Helping Hand Submitted';
                             $htmlContent = " 
-                    <h4>Helping Hand Form</h4> 
+                    <h4>Helping Hand Form - ES</h4> 
                     <p><b>Name: </b> Anonymous Donor </p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
@@ -137,16 +137,16 @@ include_once 'header.inc'
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you very much. We will contact you to see how to do your Contribution';
+                            $statusMsg = 'Muchas gracias. Nos pondremos en contacto contigo para ver cómo hacer tu Aporte.';
                             $postData = '';
                         } else {
-                            $statusMsg = 'reCaptcha verification failed, please try again.';
+                            $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
                         }
                     } else {
-                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                        $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                     }
                 } else {
-                    $statusMsg = 'Please fill all the mandatory fields.';
+                    $statusMsg = 'Por favor complete todos los campos obligatorios.';
                 }
             }
 
@@ -155,7 +155,7 @@ include_once 'header.inc'
             <div id="hand-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
@@ -167,53 +167,53 @@ include_once 'header.inc'
                     <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="hand-em" class="form-label">Email</label>
+                            <label for="hand-em" class="form-label">Correo electrónico</label>
                             <input type="email" class="form-control" name="hand-em" id="hand-em" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                            Por favor introduzca su correo electrónico.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="hand-ph" class="form-label">Phone</label>
+                            <label for="hand-ph" class="form-label">Teléfono</label>
                             <input type="tel" class="form-control" name="hand-ph" id="hand-ph" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
-                                Please enter a valid phone number.
+                            Por favor ingrese un número de teléfono válido.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="hand-am" class="form-label">Your Contribution</label>
+                            <label for="hand-am" class="form-label">Tu Contribución</label>
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="inputGroupPrepend">USD</span>
                                 <input type="text" class="form-control" name="hand-am" id="hand-am" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
                                 <div class="invalid-feedback">
-                                    Please enter a dollar amount
+                                Por favor ingrese una cantidad en dólares.
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="hand-ta" class="form-label">Message or Note to be included.</label>
+                            <label for="hand-ta" class="form-label">Mensaje o Nota a incluir.</label>
                             <textarea class="form-control" name="hand-ta" id="hand-ta" required></textarea>
                             <div class="invalid-feedback">
-                                Please enter your message.
+                            Por favor ingrese su mensaje.
                             </div>
                         </div>
 
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div>
-                                Note: The form will reset if unchecked.
+                                Note: The form will reset if unchecked.Nota: El formulario se restablecerá si no está marcado.
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
                         </div>
                     </form>
                 </div>
@@ -221,7 +221,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">In keeping with A.A.'s Seventh Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                    <p class="mb-6 h5 text-dark">De acuerdo con la Séptima Tradición de autofinanciamiento de A.A., aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                 </div>
             </div>
         </div>
@@ -254,7 +254,7 @@ include_once 'header.inc'
     </script>
     <script>
         function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
+            return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
         }
     </script>
 

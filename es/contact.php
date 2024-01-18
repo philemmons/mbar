@@ -51,10 +51,10 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="Please contact us with any questions, feedback, or improvements.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Contact Us">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Contact Us</span>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Contacta con Nosotros</span>
                     </h1>
                 </div>
             </div>
@@ -65,8 +65,8 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Please contact us with any questions, feedback, or improvements because we care.<br>We really do.</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
+                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora porque nos importa.<br>Realmente nos importa.</span>
                         </h4>
                 </div>
             </div>
@@ -81,7 +81,7 @@ include_once 'header.inc'
             $secretKey  = getenv('g-secret-key');
 
             // Email settings 
-            $recipientEmail = getenv('mbar-to-email');
+            $recipientEmail = getenv('mbar-chair-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -122,7 +122,7 @@ include_once 'header.inc'
                             $to = $recipientEmail;
                             $subject = 'Contact Us Submitted';
                             $htmlContent = " 
-                    <h4>Contact Us Form</h4> 
+                    <h4>Contact Us Form - ES</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
@@ -140,16 +140,16 @@ include_once 'header.inc'
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you, your message was sent, and please allow up to 48 hours to reply.';
+                            $statusMsg = 'Gracias, su mensaje fue enviado y espere hasta 48 horas para responder.';
                             $postData = '';
                         } else {
-                            $statusMsg = 'reCaptcha verification failed, please try again.';
+                            $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
                         }
                     } else {
-                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                        $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                     }
                 } else {
-                    $statusMsg = 'Please fill all the mandatory fields.';
+                    $statusMsg = 'Por favor complete todos los campos obligatorios.';
                 }
             }
 
@@ -158,78 +158,78 @@ include_once 'header.inc'
             <div id="contact-us"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Reaching out to one another.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
+                <div class="p-3 text-bg-light hero-text-border" title="Estamos dispuestos a escuchar.">
 
                     <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="contact-fn" class="form-label">First Name</label>
+                            <label for="contact-fn" class="form-label">Nombre de pila</label>
                             <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
                             <div class="invalid-feedback">
-                                Please enter your first name.
+                                Por favor, introduzca su nombre de pila.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="contact-ln" class="form-label">Last Name</label>
+                            <label for="contact-ln" class="form-label">Apellido</label>
                             <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Por favor ingrese su apellido.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="contact-em" class="form-label">Email</label>
+                            <label for="contact-em" class="form-label">Correo electrónico</label>
                             <input type="email" class="form-control" name="contact-em" id="contact-em" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                                Por favor introduzca su correo electrónico.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="contact-phone" class="form-label">Phone(Optional)</label>
+                            <label for="contact-phone" class="form-label">Teléfono (Opcional)</label>
                             <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                             <div class="invalid-feedback">
-                                Please enter a valid phone number.
+                                Por favor ingrese un número de teléfono válido.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="contact-subj" class="form-label">Subject</label>
+                            <label for="contact-subj" class="form-label">Sujeto</label>
                             <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
                             <div class="invalid-feedback">
-                                Please enter a subject.
+                                Por favor ingrese un asunto.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="contact-ta" class="form-label">Question, Feedback or Improvement</label>
+                            <label for="contact-ta" class="form-label">Pregunta, comentario o mejora</label>
                             <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
                             <div class="invalid-feedback">
-                                Please enter your message.
+                                Por favor ingrese su mensaje.
                             </div>
                         </div>
 
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div>
-                                Note: The form will reset if unchecked.
+                                Nota: El formulario se restablecerá si no está marcado.
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
                         </div>
                     </form>
                 </div>
@@ -237,7 +237,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">Please allow us up to 48 hours to respond, and if you need assistance sooner, please email <?php echo getenv('mbar-chair-email'); ?> </p>
+                    <p class="mb-6 h5 text-dark">Permítanos hasta 48 horas para responder y, si necesita ayuda antes, envíenos un correo electrónico.<?php echo getenv('mbar-chair-email'); ?> </p>
                 </div>
             </div>
         </div>
@@ -270,7 +270,7 @@ include_once 'header.inc'
     </script>
     <script>
         function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
+            return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
         }
     </script>
 

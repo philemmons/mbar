@@ -51,10 +51,10 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Five past logo's as our banner.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Cinco logotipos anteriores como nuestro banner.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Logo Contest 2024 winner and runner-ups.">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Logo Contest 2024</span></h1>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Ganador y finalistas del Logo Contest 2024.">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Concurso de Logotipos 2024</span></h1>
                 </div>
             </div>
         </div>
@@ -65,14 +65,14 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D es el ganador del Concurso de Logotipos de MBAR para 2024.</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">Great job Micha!</p>
+                    <p class="mb-6 h5 text-dark">Gran trabajo Micha!</p>
                 </div>
             </div>
 
             <div class="col-sm-12 col-12 text-center px-3 py-4">
-                <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
+                <img class="img-fluid" src="../images/logo2024.png" alt="Se presentaron doce logotipos diferentes para 2024 con el tema Keep It Simple.">
             </div>
         </div>
     </section>
@@ -82,8 +82,8 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
-                        We hope you enjoyed this contest as much as we did.</p>
+                    <p class="mb-6 h4 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.<br>
+                        Esperamos que hayas disfrutado de este concurso tanto como nosotros.</p>
                 </div>
             </div>
         </div>
