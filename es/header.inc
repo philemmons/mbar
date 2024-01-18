@@ -20,7 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <!-- reCAPTCHA widget --->
-    <script src="https://www.google.com/recaptcha/api.js&hl=es" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?explicit&hl=es" async defer></script>
 
 
     <!-- https://datatables.net/ -->
