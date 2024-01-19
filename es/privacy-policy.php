@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="">
-                    <p class="mb-6 h4 text-dark">Política de Privacidad del Sitio Web de Reunirse del Área de la Bahía de Monterey</p>
+                    <p class="mb-6 h4 text-dark">Política de Privacidad del Sitio Web de Monterey Bay Area Roundup</p>
                 </div>
             </div>
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">

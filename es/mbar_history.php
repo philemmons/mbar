@@ -54,7 +54,7 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Increíble Playa Estatal de Monterey">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Únete a nosotros en la comunión.">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey<br>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
                             Historia</span></h1>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
@@ -66,7 +66,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Reunirse del Área de la Bahía de Monterey desde 1993.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
                     <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Keep It Simple".</span>
                     </h4>
                     <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas que enfrentan los desafíos más difíciles y a avanzar hacia un futuro más fuerte y resiliente.</p>

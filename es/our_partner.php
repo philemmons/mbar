@@ -71,16 +71,16 @@ include_once 'header.inc'
                     <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">La Deuda de Gratitud de A.A. con Al-Anon</span>
                     </h4>
                     <hr>
-                        <p>La siguiente resolución de agradecimiento a la Comunidad de los Grupos de Familia Al-Anon fue aprobada unánimemente por la Conferencia de Servicios Generales de Alcohólicos Anónimos de 1969.
-                            <br><br>
-                            Los delegados de esta 19ª Conferencia de Servicios Generales de Alcohólicos Anónimos, reunida en sesión oficial en la ciudad de Nueva York, el 25 de abril de 1969, declaran por la presente:
-                            <br><br>
-                            POR CUANTO, es el deseo de esta Conferencia confirmar la relación entre Alcohólicos Anónimos y los Grupos de Familia Al-Anon, y
-                            <br><br>
-                            POR CUANTO, es el deseo adicional de esta Conferencia reconocer la deuda de gratitud de A.A. con los Grupos de Familia Al-Anon, por lo tanto,
-                            <br><br>
-                            SE RESUELVE que Alcohólicos Anónimos reconoce la relación especial que disfruta con los Grupos de Familia Al-Anon, una confraternidad separada pero similar. Y resuelva además que Alcohólicos Anónimos desea reconocer, y por la presente reconoce, la gran contribución que los Grupos de Familia Al-Anon han hecho y están haciendo para ayudar a las familias de alcohólicos en todas partes.
-                        </p>
+                    <p>La siguiente resolución de agradecimiento a la Comunidad de los Grupos de Familia Al-Anon fue aprobada unánimemente por la Conferencia de Servicios Generales de Alcohólicos Anónimos de 1969.
+                        <br><br>
+                        Los delegados de esta 19ª Conferencia de Servicios Generales de Alcohólicos Anónimos, reunida en sesión oficial en la ciudad de Nueva York, el 25 de abril de 1969, declaran por la presente:
+                        <br><br>
+                        POR CUANTO, es el deseo de esta Conferencia confirmar la relación entre Alcohólicos Anónimos y los Grupos de Familia Al-Anon, y
+                        <br><br>
+                        POR CUANTO, es el deseo adicional de esta Conferencia reconocer la deuda de gratitud de A.A. con los Grupos de Familia Al-Anon, por lo tanto,
+                        <br><br>
+                        SE RESUELVE que Alcohólicos Anónimos reconoce la relación especial que disfruta con los Grupos de Familia Al-Anon, una confraternidad separada pero similar. Y resuelva además que Alcohólicos Anónimos desea reconocer, y por la presente reconoce, la gran contribución que los Grupos de Familia Al-Anon han hecho y están haciendo para ayudar a las familias de alcohólicos en todas partes.
+                    </p>
                 </div>
             </div>
         </div>
@@ -94,14 +94,14 @@ include_once 'header.inc'
                     <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Cómo Funciona Al-Anon para las Familias y Amigos de Alcohólicos<br>La Historia de Lois (1995)</span>
                     </h4>
                     <hora>
-                    <p>Según Lois W. — "Después de un tiempo comencé a preguntarme por qué no era tan feliz como debería ser, ya que lo único que había estado anhelando durante toda mi vida matrimonial [la sobriedad de Bill] se había hecho realidad. . Entonces, un domingo, Bill me preguntó si estaba listo para ir a la reunión con él. Para mi propio asombro y el suyo, estallé: '¡Malditas sean tus viejas reuniones!' Y lancé un zapato tan fuerte como pude".
-                        <br><br>
-                        "Esta sorprendente muestra de temperamento por nada me detuvo en seco y me hizo empezar a analizar mis propias actitudes".
-                        <br><br>
-                        "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
-                        <br><br>
-                        "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
-                    </p>
+                        <p>Según Lois W. — "Después de un tiempo comencé a preguntarme por qué no era tan feliz como debería ser, ya que lo único que había estado anhelando durante toda mi vida matrimonial [la sobriedad de Bill] se había hecho realidad. . Entonces, un domingo, Bill me preguntó si estaba listo para ir a la reunión con él. Para mi propio asombro y el suyo, estallé: '¡Malditas sean tus viejas reuniones!' Y lancé un zapato tan fuerte como pude".
+                            <br><br>
+                            "Esta sorprendente muestra de temperamento por nada me detuvo en seco y me hizo empezar a analizar mis propias actitudes".
+                            <br><br>
+                            "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
+                            <br><br>
+                            "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
+                        </p>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey 2024</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
