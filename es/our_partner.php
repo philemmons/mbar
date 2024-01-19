@@ -114,7 +114,7 @@ include_once 'header.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
-                    <p class="mb-6 h4 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
+                    <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
