@@ -17,7 +17,7 @@
      <footer class='container'>
          <div class="row justify-content-md-center">
              <div class='col-sm-4 banner'>
-                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Keep It Simple." />
+                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple." />
              </div>
              <div class='col-sm-8 col-md-6 p-4'>
                  <h3>Nuestra Declaración de Responsabilidad:</h3>

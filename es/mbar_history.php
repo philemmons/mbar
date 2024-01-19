@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Keep It Simple".</span>
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Mantenlo Simple".</span>
                     </h4>
                     <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas que enfrentan los desafíos más difíciles y a avanzar hacia un futuro más fuerte y resiliente.</p>
                 </div>

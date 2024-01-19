@@ -72,7 +72,7 @@ include_once 'header.inc'
             </div>
 
             <div class="col-sm-12 col-12 text-center px-3 py-4">
-                <img class="img-fluid" src="../images/logo2024.png" alt="Se presentaron doce logotipos diferentes para 2024 con el tema Keep It Simple.">
+                <img class="img-fluid" src="../images/logo2024.png" alt="Se presentaron doce logotipos diferentes para 2024 con el tema Mantenlo Simple.">
             </div>
         </div>
     </section>

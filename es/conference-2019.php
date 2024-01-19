@@ -66,7 +66,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="text-center">Servicios de Conferencias: KEEP IT SIMPLE</h3>
+                    <h3 class="text-center">Servicios de Conferencias: Mantenlo Simple</h3>
                     <br>
                     <p><strong>Regístrese en la mesa de registro</strong> para obtener sus paquetes de registro que contienen sus credenciales, programas y boletos para las comidas o el baile que haya comprado.
                     </p>
