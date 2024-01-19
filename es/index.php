@@ -55,9 +55,9 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Hermosa costa de la Bahía de Monterey con vista a Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirs del área de la bahía de Monterey 2024</span>
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey 2024</span>
                     </h1>
-                    <p class="mb-6 h2 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
+                    <p class="mb-6 h2 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
@@ -74,7 +74,7 @@ include_once 'header.inc'
                                 <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>NOCHE DE BINGO: "DIVERSIÓN Y COMPAÑERISMO"</a></h5>
                             <p class="card-text">¡Únase a The Herd at The Moose para una noche de compañerismo, recuperación y bingo!
                                 <br>
-                                <strong>Cuándo:</strong> viernes, 26 de enero de 2024, de 6 a 9 p. m.
+                                <strong>Cuándo:</strong> viernes, 26 de enero de 2024, de 6 a 9pm
                             </p>
                     </div>
                     <div class="card-footer text-center">
