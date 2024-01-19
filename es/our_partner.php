@@ -56,8 +56,8 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-partner" title="Let It Begin With Me">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Both function more effectively if we remains 'separate,' cooperating but not affiliating with the other.">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Our Partner<br>Al-Anon Family Groups</span></h1>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Ambos funcionan más eficazmente si permanecemos 'separados', cooperando pero sin afiliarnos el uno al otro.">
+                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Nuestro Socio<br>Grupos Familiares de Al-Anon</span></h1>
                 </div>
             </div>
         </div>
@@ -68,19 +68,19 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">La Deuda de Gratitud de A.A. con Al-Anon</span>
                     </h4>
                     <hr>
-                    <p>The following resolution of gratitude to the Fellowship of the Al-Anon Family Groups was unanimously approved by the 1969 General Service Conference of Alcoholics Anonymous.
-                        <br><br>
-                        The delegates of this, the 19th General Service Conference of Alcoholics Anonymous, meeting in official session in New York City, this 25th day of April, 1969, do hereby declare:
-                        <br><br>
-                        WHEREAS, it is the desire of this Conference to confirm the relationship between Alcoholics Anonymous and the Al-Anon Family Groups, and
-                        <br><br>
-                        WHEREAS, it is the further desire of this Conference to acknowledge A.A.'s debt of gratitude to the Al-Anon Family Groups, therefore,
-                        <br><br>
-                        BE IT RESOLVED, that Alcoholics Anonymous recognizes the special relationship which it enjoys with the Al-Anon Family Groups, a separate but similar fellowship. And be it further resolved that Alcoholics Anonymous wishes to recognize, and hereby does recognize, the great contribution which the Al-Anon Family Groups have made and are making in assisting the families of alcoholics everywhere.
-                    </p>
+                        <p>La siguiente resolución de agradecimiento a la Comunidad de los Grupos de Familia Al-Anon fue aprobada unánimemente por la Conferencia de Servicios Generales de Alcohólicos Anónimos de 1969.
+                            <br><br>
+                            Los delegados de esta 19ª Conferencia de Servicios Generales de Alcohólicos Anónimos, reunida en sesión oficial en la ciudad de Nueva York, el 25 de abril de 1969, declaran por la presente:
+                            <br><br>
+                            POR CUANTO, es el deseo de esta Conferencia confirmar la relación entre Alcohólicos Anónimos y los Grupos de Familia Al-Anon, y
+                            <br><br>
+                            POR CUANTO, es el deseo adicional de esta Conferencia reconocer la deuda de gratitud de A.A. con los Grupos de Familia Al-Anon, por lo tanto,
+                            <br><br>
+                            SE RESUELVE que Alcohólicos Anónimos reconoce la relación especial que disfruta con los Grupos de Familia Al-Anon, una confraternidad separada pero similar. Y resuelva además que Alcohólicos Anónimos desea reconocer, y por la presente reconoce, la gran contribución que los Grupos de Familia Al-Anon han hecho y están haciendo para ayudar a las familias de alcohólicos en todas partes.
+                        </p>
                 </div>
             </div>
         </div>
@@ -91,16 +91,16 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics<br>Lois's Story(1995)</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Cómo Funciona Al-Anon para las Familias y Amigos de Alcohólicos<br>La Historia de Lois (1995)</span>
                     </h4>
-                    <hr>
-                    <p>According to Lois W. — "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could."
+                    <hora>
+                    <p>Según Lois W. — "Después de un tiempo comencé a preguntarme por qué no era tan feliz como debería ser, ya que lo único que había estado anhelando durante toda mi vida matrimonial [la sobriedad de Bill] se había hecho realidad. . Entonces, un domingo, Bill me preguntó si estaba listo para ir a la reunión con él. Para mi propio asombro y el suyo, estallé: '¡Malditas sean tus viejas reuniones!' Y lancé un zapato tan fuerte como pude".
                         <br><br>
-                        "This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes."
+                        "Esta sorprendente muestra de temperamento por nada me detuvo en seco y me hizo empezar a analizar mis propias actitudes".
                         <br><br>
-                        "My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes."
+                        "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
                         <br><br>
-                        "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
+                        "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
                     </p>
                 </div>
             </div>
@@ -112,7 +112,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
@@ -126,14 +126,14 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
+                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Quiénes Somos</span>
                     </h4>
                     <hr>
-                    <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
+                    <p>Los Grupos de Familia Al-Anon son una comunidad de familiares y amigos de alcohólicos que comparten su experiencia, fortaleza y esperanza para resolver sus problemas comunes. Creemos que el alcoholismo es una enfermedad familiar y que un cambio de actitud puede ayudar a la recuperación.
                         <br><br>
-                        Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
+                        Al-Anon no está aliado con ninguna secta, denominación, entidad política, organización o institución; no participa en ninguna controversia; ni respalda ni se opone a ninguna causa. No hay cuotas de membresía. Al-Anon se autofinancia mediante sus propias contribuciones voluntarias.
                         <br><br>
-                        Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
+                        Al-Anon tiene un solo propósito: ayudar a las familias de alcohólicos. Hacemos esto practicando los Doce Pasos, dando la bienvenida y brindando consuelo a las familias de alcohólicos, y brindando comprensión y aliento al alcohólico.
                     </p>
                 </div>
             </div>
