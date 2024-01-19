@@ -81,7 +81,7 @@ include_once 'header.inc'
             $secretKey  = getenv('g-secret-key');
 
             // Email settings 
-            $recipientEmail = getenv('mbar-to-email');
+            $recipientEmail = getenv('mbar-chair-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';

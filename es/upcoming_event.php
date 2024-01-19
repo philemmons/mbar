@@ -55,7 +55,7 @@ include_once 'header.inc'
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Prior events create fellowship and generate contributions to offset MBAR's cost.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                         <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Upcoming Events 2024</span></h1>
+                         <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Próximos Eventos 2024</span></h1>
                     </div>
                </div>
           </div>
@@ -66,13 +66,13 @@ include_once 'header.inc'
           <div class="row justify-content-center mb-5">
                <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <p class="mb-6 h5 text-dark">Check back for various events leading up to the 2024 Conference!</p>
+                         <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
                     </div>
                </div>
 
                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
+                         <img class="img-fluid" src="../images/bingo-night.png" alt="Fondos y Becas - Folleto de Recaudación de Fondos de la Noche de Bingo">
                     </div>
                </div>
           </div>
@@ -83,23 +83,23 @@ include_once 'header.inc'
           <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h3>
-                         <p class="mb-6 h5 text-dark">BINGO!
+                         <h3 class="card-title mb-3"><a href="activities.php">El Resumen del Área de la Bahía de Monterey presenta</a></h3>
+                         <p class="mb-6 h5 text-dark">¡BINGO!
                               <br>
-                              "Fun-ds & Fellowship" Bingo Night Fundraiser
+                              Noche de Bingo para recaudar fondos "Fondos y Becas"
                               <br>
-                              Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                              ¡Únase a The Herd at The Moose para una noche de compañerismo, recuperación y bingo! 🎉
                               <br><br>
-                              <strong>When:</strong> Friday — January 26, 2024, 6pm - 9pm
+                              <strong>Cuándo:</strong> Viernes, 26 de Enero de 2024, de 6pm a 9pm.
                               <br>
-                              <strong>Where:</strong> Moose Lodge — 555 Canyon Del Rey Blvd, Del Rey Oaks, CA
+                              <strong>Dónde:</strong> Moose Lodge - 555 Canyon Del Rey Blvd, Del Rey Oaks, CA
                               <br>
-                              <strong>Speaker:</strong> Elena B
+                              <strong>Ponente:</strong> Elena B
                               <br><br>
-                              Hot Dogs — Beverages — Light Snacks — 50/50 Raffle and Bingo Prizes
+                              Perros calientes — Bebidas — Aperitivos Ligeros — Rifa 50/50 y Premios Bingo
                          </p>
-                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                         <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
+                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                         <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
                     </div>
                </div>
           </div>
