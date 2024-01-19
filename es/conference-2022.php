@@ -263,7 +263,7 @@ include_once 'header.inc'
                                 <tr>
                                     <td>8:00pm</td>
                                     <td>Compañerismo y Música</td>
-                                    <td>(Inmediatamente <Dir></Dir>espués del Sorteo)</td>
+                                    <td>(Inmediatamente Espués del Sorteo)</td>
                                 </tr>
                                 <tr>
                                     <td>9:00pm</td>
