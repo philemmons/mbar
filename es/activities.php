@@ -168,6 +168,7 @@ include_once 'header.inc'
                 <div class="p-3 text-bg-light hero-text-border">
                     <figcaption class="figure-caption">
                         <h4 class="card-title text-center mb-3">EXPLORANDO MONTEREY y SUS ALREDEDORES</h4>
+                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class= "bb-link" target="_blank" >(Google Translate ayuda a traducir algunos de los sitios web)</a>
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">

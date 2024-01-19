@@ -284,7 +284,7 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción para 2024 ya está abierta!">
                     <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
-                        <img class="img-fluid" src="../images/button-reg.png" alt="Logotipo de nutria marina 2022 con texto de registro aquí.">
+                        <img class="img-fluid" src="../images/button-reg-es.png" alt="Logotipo de nutria marina 2022 con texto de registro aquí.">
                     </a>
                 </div>
             </div>
