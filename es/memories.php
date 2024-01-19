@@ -51,11 +51,11 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Colorful tress during the fall.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Árboles coloridos durante el otoño.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirs del Área de la Bahía de Monterey<br>
-                            Memories</span></h1>
+                            Recuerdos</span></h1>
                 </div>
             </div>
         </div>
@@ -65,10 +65,10 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">'Every memory we create together is a footprint on the path of a life we make together.'</span>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
+                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">'Cada recuerdo que creamos juntos es una huella en el camino de una vida que hacemos juntos.'</span>
                     </h4>
-                    <p class="mb-6 h5 text-dark">Care to share your experience with us? All posts will be anonymous.</p>
+                    <p class="mb-6 h5 text-dark">¿Quieres compartir tu experiencia con nosotros? Todas las publicaciones serán anónimas.</p>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@ include_once 'header.inc'
                             $to = $recipientEmail;
                             $subject = 'New Memory Request Submitted';
                             $htmlContent = " 
-                    <h4>Memory form request details</h4> 
+                    <h4>Memory form request details - ES</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Title: </b>" . $messageTitle . "</p> 
@@ -140,16 +140,16 @@ include_once 'header.inc'
                             mail($to, $subject, $htmlContent, $headers);
 
                             $status = 'success';
-                            $statusMsg = 'Thank you! Your memory has been submitted successfully.';
+                            $statusMsg = '¡Gracias! Su memoria ha sido enviada exitosamente.';
                             $postData = '';
                         } else {
-                            $statusMsg = 'reCaptcha verification failed, please try again.';
+                            $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
                         }
                     } else {
-                        $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                        $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                     }
                 } else {
-                    $statusMsg = 'Please fill all the mandatory fields.';
+                    $statusMsg = 'Por favor complete todos los campos obligatorios.';
                 }
             }
 
@@ -158,54 +158,54 @@ include_once 'header.inc'
             <div id="memory-now"></div>
             <?php if (!empty($statusMsg)) { ?>
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
                         <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                     </div>
                 </div>
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
+                <div class="p-3 text-bg-light hero-text-border" title="Exprese sus pensamientos y sentimientos sobre MBAR.">
 
                     <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="fname" class="form-label">First Name</label>
+                            <label for="fname" class="form-label">Nombre</label>
                             <input type="text" class="form-control" name="fname" id="fname" required>
                             <div class="invalid-feedback">
-                                Please enter your first name.
+                                Por favor, introduzca su nombre de pila.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="lname" class="form-label">Last Name</label>
+                            <label for="lname" class="form-label">Apellido</label>
                             <input type="text" class="form-control" name="lname" id="lname" required>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                                Por favor ingrese su apellido.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-email" class="form-label">Email</label>
+                            <label for="mem-email" class="form-label">Correo Electrónico</label>
                             <input type="email" class="form-control" name="mem-email" id="mem-email" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                                Por favor introduzca su correo electrónico.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-title" class="form-label">Message Title</label>
+                            <label for="mem-title" class="form-label">Título del Mensaje</label>
                             <input type="text" class="form-control" name="mem-title" id="mem-title" required>
                             <div class="invalid-feedback">
-                                Please enter a title.
+                                Por favor introduce un título.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="mem-ta" class="form-label">Message</label>
+                            <label for="mem-ta" class="form-label">Mensaje</label>
                             <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
                             <div class="invalid-feedback">
-                                Please enter your message.
+                                Por favor ingrese su mensaje.
                             </div>
                         </div>
 
@@ -213,10 +213,10 @@ include_once 'header.inc'
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Agree to terms and conditions
+                                    Aceptar términos y condiciones
                                 </label>
                                 <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                    Debes aceptar antes de enviar.
                                 </div>
                             </div>
                         </div>
@@ -224,16 +224,16 @@ include_once 'header.inc'
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div>
-                                Note: The form will reset if unchecked.
+                                Nota: El formulario se restablecerá si no está marcado.
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
                         </div>
                     </form>
                 </div>
@@ -247,8 +247,8 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2021.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Meeting Wonderful People</a></h5>
-                            <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conociendo gente maravillosa</a></h5>
+                            <p class="card-text">Conocí a las personas más maravillosas en MBAR 2019; ¡Verdaderamente feliz, alegre y libre! Gracias a todos por venir y compartir compañerismo con nosotros.</p>
                     </div>
                 </div>
             </div>
@@ -257,8 +257,8 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>The Cost of Admission: Priceless!</a></h5>
-                            <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>El costo de la entrada: ¡no tiene precio!</a></h5>
+                            <p class="card-text">¿Por qué tengo que pagar? ¿No es suficiente que sea voluntario? Esos fueron mis pensamientos en mi primer MBAR. Pero el costo de la entrada "no tiene precio"; los rostros alegres, los extraños que instantáneamente se convierten en amigos, dando mi tiempo, recibiendo mucho más amor del que jamás podría dar. "No tiene precio"</p>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@ include_once 'header.inc'
     </script>
     <script>
         function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
+            return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
         }
     </script>
 
