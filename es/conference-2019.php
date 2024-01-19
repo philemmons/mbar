@@ -51,7 +51,7 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="MBAR Conference 2022 Archive">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Archivo de la Conferencia MBAR 2022">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Conferencia 2019 y Archivos de Audio<br>Archivo</span></h1>
@@ -105,8 +105,8 @@ include_once 'header.inc'
                     <strong>Los Madrugadores A.A. Vocero :</strong> Teresa J. de Monterey, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
-                        <source src="audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -155,8 +155,8 @@ include_once 'header.inc'
                     <strong>A.A. Orador:</strong> Harry H., de Denver, CO
                     <br><br>
                     <audio controls="">
-                        <source src="audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
-                        <source src="audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -166,8 +166,8 @@ include_once 'header.inc'
                     <strong>Al-Anon Orador:</strong> Jane H. de Denver, CO
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
-                        <source src="audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -285,8 +285,8 @@ include_once 'header.inc'
                     <strong>10:00pm</strong> Panel de Opinión de Médicos: Jerry C. y Sheila C.
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
-                        <source src="audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -296,8 +296,8 @@ include_once 'header.inc'
                     <strong>11:15am</strong> Taller de Sobriedad Emocional: Sonny C. y Masa M.
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
-                        <source src="audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -309,8 +309,8 @@ include_once 'header.inc'
                     <span style="margin-left: 100px">Miembro del jurado:</span> Jean T., Maggie W., y Carrie H. (Monterey, CA)
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
-                        <source src="audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
+                        <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -332,8 +332,8 @@ include_once 'header.inc'
                     <span style="margin-left: 100px"><strong>A.A. Orador:</strong> Charlie H. Henderson, NV</span>
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
-                        <source src="audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -391,8 +391,8 @@ include_once 'header.inc'
                     <strong>9:00am</strong> - <strong>Al-Anon Orador:</strong> Louise M., Sacramento, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
-                        <source src="audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
@@ -424,8 +424,8 @@ include_once 'header.inc'
                     <strong>11:00am</strong> - <strong>A.A. Orador: </strong> Pat B., Clovis, CA
                     <br>
                     <audio controls="">
-                        <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
-                        <source src="audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
+                        <source src="../audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
+                        <source src="../audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
                         Su navegador no soporta el elemento de audio.
                     </audio>
                     <br>
