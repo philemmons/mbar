@@ -108,34 +108,22 @@ include_once 'header.inc'
     </section>
 
     <!-- Section Three -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-6 col-lg-6 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
-                </div>
+    <section class="container mb-5 py-2 px-4">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Al-Anon quotes fitting together are the triangle with a transparent background." title="Al-Anon quotes fitting together are the triangle with a transparent background.">
             </div>
-        </div>
-    </section>
 
-    <!-- Section Four -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
-                    </h4>
-                    <hr>
-                    <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
-                        <br><br>
-                        Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
-                        <br><br>
-                        Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
-                    </p>
-                </div>
+            <div class="col-lg-8">
+                <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
+                </h4>
+                <hr>
+                <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
+                    <br><br>
+                    Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
+                    <br><br>
+                    Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
+                </p>
             </div>
         </div>
     </section>

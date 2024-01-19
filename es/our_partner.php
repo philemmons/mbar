@@ -107,38 +107,28 @@ include_once 'header.inc'
         </div>
     </section>
 
+
     <!-- Section Three -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-6 col-lg-6 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
-                </div>
+    <section class="container mb-5 py-2 px-4">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Las citas de Al-Anon que encajan forman el triángulo con un trasfondo transparente" . title="Las citas de Al-Anon que encajan son el triángulo con un fondo transparente.">
+            </div>
+
+            <div class="col-lg-8">
+                <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Quiénes Somos</span>
+                </h4>
+                <hr>
+                <p>Los Grupos de Familia Al-Anon son una comunidad de familiares y amigos de alcohólicos que comparten su experiencia, fortaleza y esperanza para resolver sus problemas comunes. Creemos que el alcoholismo es una enfermedad familiar y que un cambio de actitud puede ayudar a la recuperación.
+                    <br><br>
+                    Al-Anon no está aliado con ninguna secta, denominación, entidad política, organización o institución; no participa en ninguna controversia; ni respalda ni se opone a ninguna causa. No hay cuotas de membresía. Al-Anon se autofinancia mediante sus propias contribuciones voluntarias.
+                    <br><br>
+                    Al-Anon tiene un solo propósito: ayudar a las familias de alcohólicos. Hacemos esto practicando los Doce Pasos, dando la bienvenida y brindando consuelo a las familias de alcohólicos, y brindando comprensión y aliento al alcohólico.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Section Four -->
-    <section class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Quiénes Somos</span>
-                    </h4>
-                    <hr>
-                    <p>Los Grupos de Familia Al-Anon son una comunidad de familiares y amigos de alcohólicos que comparten su experiencia, fortaleza y esperanza para resolver sus problemas comunes. Creemos que el alcoholismo es una enfermedad familiar y que un cambio de actitud puede ayudar a la recuperación.
-                        <br><br>
-                        Al-Anon no está aliado con ninguna secta, denominación, entidad política, organización o institución; no participa en ninguna controversia; ni respalda ni se opone a ninguna causa. No hay cuotas de membresía. Al-Anon se autofinancia mediante sus propias contribuciones voluntarias.
-                        <br><br>
-                        Al-Anon tiene un solo propósito: ayudar a las familias de alcohólicos. Hacemos esto practicando los Doce Pasos, dando la bienvenida y brindando consuelo a las familias de alcohólicos, y brindando comprensión y aliento al alcohólico.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <?php include_once 'footer.inc' ?>
