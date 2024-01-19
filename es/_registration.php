@@ -552,7 +552,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">∆ Bethlehem Lutheran Church</a></h3>
+                    <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
                         <p><img src="../images/icons/warning-sign.png" width="50" height="50" alt="Señal de advertencia triangular con un signo de exclamación."><strong>TENGA EN CUENTA:</strong> El Desayuno y la Cena se realizarán en<br>
                             <strong>Bethlehem Lutheran Church, ubicada en 800 Cass Street en Monterey.</strong><br>
@@ -570,7 +570,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5" title="Pre-Registration is live.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
