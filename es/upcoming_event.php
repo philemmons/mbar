@@ -98,7 +98,7 @@ include_once 'header.inc'
                               <br><br>
                               Perros calientes — Bebidas — Aperitivos Ligeros — Rifa 50/50 y Premios Bingo
                          </p>
-                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                         <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
                          <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
                     </div>
                </div>
