@@ -110,7 +110,7 @@ include_once 'header.inc'
     <!-- Section Three -->
     <section class="container mb-5 py-2 px-4">
         <div class="row">
-            <div class="col-lg-4 text-center mb-5">
+            <div class="col-lg-4 text-center mb-1">
                 <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Al-Anon quotes fitting together are the triangle with a transparent background." title="Al-Anon quotes fitting together are the triangle with a transparent background.">
             </div>
 
