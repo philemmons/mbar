@@ -237,7 +237,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">Permítanos hasta 48 horas para responder y, si necesita ayuda antes, envíenos un correo electrónico.<?php echo getenv('mbar-chair-email'); ?> </p>
+                    <p class="mb-6 h5 text-dark">Permítanos hasta 48 horas para responder y, si necesita ayuda antes, envíenos un correo electrónico <?php echo getenv('mbar-chair-email'); ?> </p>
                 </div>
             </div>
         </div>
