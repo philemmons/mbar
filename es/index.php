@@ -58,7 +58,7 @@ include_once 'header.inc'
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirs del área de la bahía de Monterey 2024</span>
                     </h1>
                     <p class="mb-6 h2 text-dark">Fin de semana del Día del Trabajo, 31 de agosto y <br>1 de septiembre</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
         </div>

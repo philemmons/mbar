@@ -70,7 +70,7 @@ include_once 'header.inc'
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
-                    <a href="registration.php" class="btn btn-primary me-2">Regístrese ahora</a>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
         </div>
