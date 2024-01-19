@@ -552,7 +552,7 @@ include_once 'header.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
                     <div class="col-md-12 db-5">
-                        <p><img src="../images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
+                        <p><img src="../images/icons/warning-sign.png" width="50" height="50" alt="Señal de advertencia triangular con un signo de exclamación."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
                             <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
                             (It is a little over one mile from the Conference Center.)
                         </p>
