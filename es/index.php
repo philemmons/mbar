@@ -122,7 +122,7 @@ include_once 'header.inc'
                             <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">La preinscripción está activa</a></small>
+                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">La Preinscripción está Activa</a></small>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@ include_once 'header.inc'
                             <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contacta con nosotros</a></small>
+                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contacta con Nosotros</a></small>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@ include_once 'header.inc'
                             <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Nuestro pasado</a></small>
+                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Nuestro Pasado</a></small>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ include_once 'header.inc'
                             <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Manos amigas</a></small>
+                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Manos Amigas</a></small>
                     </div>
                 </div>
             </div>
