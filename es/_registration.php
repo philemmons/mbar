@@ -368,7 +368,7 @@ include_once 'header.inc'
                                     Required - Please check one.
                                 </div>
                             </div>
-                            <p>Note: Saturday Night Dance is free with paid registration.
+                            <p>Note: Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.<br>Saturday Night Dance is free with your paid registration.
                             </p>
                         </div>
 
