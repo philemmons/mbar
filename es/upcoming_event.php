@@ -56,6 +56,7 @@ include_once 'header.inc'
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Próximos Eventos 2024</span></h1>
+                         <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                     </div>
                </div>
           </div>

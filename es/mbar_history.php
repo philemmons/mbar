@@ -51,7 +51,7 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Amazing Monterey State Beach">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Increíble Playa Estatal de Monterey">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Únete a nosotros en la comunión.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey<br>

@@ -304,7 +304,7 @@ include_once 'header.inc'
                     <span style="font-size: 15px; color: blue">Taller de Sobriedad Emocional Archivo de Audio</span>
                     <br>
                     <hr>
-                    <strong>12:30pm</strong>Reunión del Panel Los Muchos Caminos Hacia la Espiritualidad
+                    <strong>12:30pm</strong> Reunión del Panel Los Muchos Caminos Hacia la Espiritualidad
                     <br>
                     <span style="margin-left: 100px">Miembro del jurado:</span> Jean T., Maggie W., y Carrie H. (Monterey, CA)
                     <br>

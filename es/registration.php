@@ -57,6 +57,7 @@ include_once 'header.inc'
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
                     </h3>
                     <a href="#register-now" class="btn btn-primary me-2">Regístrese Ahora</a>
+                    <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
         </div>

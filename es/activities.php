@@ -86,7 +86,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Cena de Conozca a los Oradores</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
                         <p>Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Desayuno Reunirse</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
                         <p>Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
                         </p>
                     </div>
@@ -148,7 +148,7 @@ include_once 'header.inc'
                         <figcaption class="figure-caption">
                             <h3>Helado Social</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
                         <p>¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
                         </p>
                         <p>Se llevará a cabo en la <strong>Stevenson Terrace</strong> del Centro de Conferencias.
@@ -204,7 +204,7 @@ include_once 'header.inc'
             </div>
             <div class="col-lg-6 py-4 text-center">
                 <figure class="figure">
-                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Vista aérea del puente Bixby en Big Sur a lo largo de la costa.">
+                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" title="Vista aérea del puente Bixby en Big Sur a lo largo de la costa." alt="Vista aérea del puente Bixby en Big Sur a lo largo de la costa.">
                 </figure>
             </div>
 
