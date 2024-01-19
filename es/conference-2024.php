@@ -57,6 +57,7 @@ include_once 'header.inc'
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference<br>
                             with<br>
                             Al-Anon Participation</span></h1>
+                            <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
         </div>

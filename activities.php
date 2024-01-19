@@ -204,7 +204,7 @@ include_once 'header.inc'
             </div>
             <div class="col-lg-6 py-4 text-center">
                 <figure class="figure">
-                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" alt="Arial view of the Bixby Bridge at Big Sur along the coastline.">
+                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" title="Arial view of the Bixby Bridge at Big Sur along the coastline." alt="Arial view of the Bixby Bridge at Big Sur along the coastline.">
                 </figure>
             </div>
 
