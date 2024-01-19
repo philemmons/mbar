@@ -368,8 +368,10 @@ include_once 'header.inc'
                                     Required - Please check one.
                                 </div>
                             </div>
-                            <p>Note: Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.<br>Saturday Night Dance is free with your paid registration.
-                            </p>
+                            <ul>
+                                <li>Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
+                                <li>Saturday Night Dance is free with your paid registration.</li>
+                            </ul>
                         </div>
 
                         <div class="col-lg-7">
@@ -533,12 +535,12 @@ include_once 'header.inc'
                         P.O. Box 1462<br>
                         Monterey, CA 93942
                     </p>
-                    <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email')?>" class="bb-link">Registration Chair</a>
+                    <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
                     </p>
                     <p><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                         <a href="" class="bb-link" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">MBAR 2024 Registration Form</a>
                     </p>
-                    <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email')?>" class="bb-link">Steering Committee</a>
+                    <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
                     </p>
                 </div>
             </div>
