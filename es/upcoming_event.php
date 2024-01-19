@@ -52,7 +52,7 @@ include_once 'header.inc'
 <main>
      <!-- Hero Section -->
      <section class="container shadow-wrap">
-          <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Prior events create fellowship and generate contributions to offset MBAR's cost.">
+          <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Próximos Eventos 2024</span></h1>
@@ -100,7 +100,7 @@ include_once 'header.inc'
                               Perros calientes — Bebidas — Aperitivos Ligeros — Rifa 50/50 y Premios Bingo
                          </p>
                          <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                         <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
+                         <a href="" class="bb-link" onclick="window.open('../pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
                     </div>
                </div>
           </div>

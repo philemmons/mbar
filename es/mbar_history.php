@@ -55,7 +55,7 @@ include_once 'header.inc'
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Únete a nosotros en la comunión.">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Reunirse del Área de la Bahía de Monterey<br>
-                    Historia</span></h1>
+                            Historia</span></h1>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
@@ -180,16 +180,16 @@ include_once 'header.inc'
                         <h6 class="card-title"><a href="conference-2021.php">
                                 <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volantes Anteriores A LO Largo de los Años</a></h5>
                             <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
+                                <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
                             </p>
                             <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
+                                <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
                             </p>
                             <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
+                                <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
                             </p>
                             <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                                <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
+                                <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
                             </p>
                     </div>
                     <div class="card-footer text-center">
