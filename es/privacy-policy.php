@@ -67,7 +67,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="">
-                    <p class="mb-6 h4 text-dark">>Política de Privacidad del Sitio Web de Reunirse del Área de la Bahía de Monterey</p>
+                    <p class="mb-6 h4 text-dark">Política de Privacidad del Sitio Web de Reunirse del Área de la Bahía de Monterey</p>
                 </div>
             </div>
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
@@ -174,7 +174,7 @@ include_once 'header.inc'
                     <br><br>
                     <strong>IMPUESTOS.</strong>
                     <br>
-                    TICKET SELLER es responsable de mantenerse al tanto de todos los cambios en los requisitos y montos de retención de impuestos en las diversas jurisdicciones fiscales donde TICKET SELLER vende boletos y de determinar si se deben pagar impuestos por los boletos vendidos y, excepto en los estados para los cuales el SITIO tiene informó al VENDEDOR DE BOLETOS que el SITIO recaudará ciertos impuestos, para recaudar y remitir dichos impuestos de acuerdo con la ley aplicable. Excepto en los estados para los cuales el SITIO ha informado al VENDEDOR DE BOLETOS que el SITIO agregará impuestos al cálculo de pago, el VENDEDOR DE BOLETOS incluirá todos los impuestos aplicables sobre ventas, uso, impuestos especiales, servicios y otros en el precio del boleto. EL VENDEDOR DE BOLETOS proporcionará al SITIO cualquier información que el SITIO requiera para permitir que el SITIO informe información sobre los pagos que el SITIO ha realizado al VENDEDOR DE BOLETOS a las autoridades fiscales pertinentes, incluidos, entre otros, el número de identificación del empleador, el número de seguro social o el número de identificación fiscal y el VENDEDOR DE BOLETOS. autoriza al SITIO a divulgar esa información a las autoridades fiscales pertinentes.
+                    VENDEDOR DE BOLETOS es responsable de mantenerse al tanto de todos los cambios en los requisitos y montos de retención de impuestos en las diversas jurisdicciones fiscales donde VENDEDOR DE BOLETOS vende boletos y de determinar si se deben pagar impuestos por los boletos vendidos y, excepto en los estados para los cuales el SITIO tiene informó al VENDEDOR DE BOLETOS que el SITIO recaudará ciertos impuestos, para recaudar y remitir dichos impuestos de acuerdo con la ley aplicable. Excepto en los estados para los cuales el SITIO ha informado al VENDEDOR DE BOLETOS que el SITIO agregará impuestos al cálculo de pago, el VENDEDOR DE BOLETOS incluirá todos los impuestos aplicables sobre ventas, uso, impuestos especiales, servicios y otros en el precio del boleto. EL VENDEDOR DE BOLETOS proporcionará al SITIO cualquier información que el SITIO requiera para permitir que el SITIO informe información sobre los pagos que el SITIO ha realizado al VENDEDOR DE BOLETOS a las autoridades fiscales pertinentes, incluidos, entre otros, el número de identificación del empleador, el número de seguro social o el número de identificación fiscal y el VENDEDOR DE BOLETOS. autoriza al SITIO a divulgar esa información a las autoridades fiscales pertinentes.
                     <br><br>
                     <strong>PAGO. </strong>
                     <br>
@@ -343,7 +343,7 @@ include_once 'header.inc'
                     <br>
                     El USUARIO tiene derecho a acceder a sus datos y a facilitarle instrucciones sobre cómo hacerlo.
                     <br>
-                    Una persona que busque acceder, o que busque corregir, modificar o eliminar datos inexactos, según lo exige MBAR de conformidad con las leyes aplicables, debe dirigir su consulta a <a href="contact.php" class="bb- link">CONTACTE CON ATENCIÓN AL CLIENTE</a> El SITIO, PROVEEDOR o CUMPLIMIENTO responderá dentro de un plazo razonable o según lo exijan las leyes aplicables.
+                    Una persona que busque acceder, o que busque corregir, modificar o eliminar datos inexactos, según lo exige MBAR de conformidad con las leyes aplicables, debe dirigir su consulta a <a href="contact.php" class="bb-link">CONTACTE CON ATENCIÓN AL CLIENTE</a> El SITIO, PROVEEDOR o CUMPLIMIENTO responderá dentro de un plazo razonable o según lo exijan las leyes aplicables.
                     <br><br>
                     <strong>USO DE COOKIES, PUBLICIDAD, SERVICIOS Y SERVICIOS DE TERCEROS. RECOPILACIÓN DE DATOS.</strong>
                     <br>
