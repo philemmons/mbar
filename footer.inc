@@ -12,7 +12,7 @@
          </div>
      </section>
 
-    </main>
+     </main>
 
      <footer class='container'>
          <div class="row justify-content-md-center">
@@ -40,7 +40,7 @@
      <div class='container'>
          <div class="row justify-content-md-center">
              <div class="col-sm-12" id="footer-image">
-                 <p>Copyright © <?php echo date('Y');?> Monterey Bay Area Roundup. All Rights Reserved.
+                 <p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
                  </p>
              </div>
              <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
