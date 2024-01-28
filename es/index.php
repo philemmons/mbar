@@ -71,10 +71,8 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>NOCHE DE BINGO: "DIVERSIÓN Y COMPAÑERISMO"</a></h5>
-                            <p class="card-text">¡Únase a The Herd at The Moose para una noche de compañerismo, recuperación y bingo!
-                                <br>
-                                <strong>Cuándo:</strong> viernes, 26 de enero de 2024, de 6 a 9pm
+                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge.</a></h5>
+                            <p class="card-text fw-bold">Vuelva pronto para conocer el próximo evento!
                             </p>
                     </div>
                     <div class="card-footer text-center">
