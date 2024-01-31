@@ -87,7 +87,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h3>
+                    <h4 class="card-title mb-3"><a href="activities.php">WHY DO WE HAVE MBAR?</a></h4>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
@@ -109,7 +109,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h3>
+                    <h4 class="card-title mb-3"><a href="activities.php">Bethlehem Lutheran Church</a></h4>
                     <div class="col-md-12 db-5">
                         <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong>PLEASE NOTE:</strong> Breakfast and Dinner will be held at<br>
                             <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
@@ -119,7 +119,7 @@ include_once 'header.inc'
                     </div>
                     <br>
                     <hr>
-                    <h3 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h3>
+                    <h4 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h4>
                     <div class="col-md-12 db-5">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.0350279920303!2d-121.89983220605843!3d36.601465407473455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de422461f891b%3A0x20f8f64ee124f091!2sMonterey%20Conference%20Center!5e0!3m2!1sen!2sus!4v1704873971870!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -133,7 +133,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h3>
+                    <h4 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h4>
                     <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
                     </p>
                     <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.

@@ -198,7 +198,7 @@ include_once 'header.inc'
                     </div>
 
                     <div class="text-center pt-4">
-                        <h5><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales</a></h5>
+                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales</a></h4>
                         <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Intergrupo de la Bahía de Monterey de A.A. logo"></p>
                     </div>
                 </div>

@@ -66,8 +66,8 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
-                    <p class="mb-6 h5"><span class="text-dark px-3 px-md-0">Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora porque nos importa.<br>Realmente nos importa.</span>
-                        </h4>
+                    <h3 class="h5 mb-6"><span class="text-dark px-3 px-md-0">Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora porque nos importa.<br>Realmente nos importa.</span>
+                    </h3>
                 </div>
             </div>
 
