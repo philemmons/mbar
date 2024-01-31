@@ -21,7 +21,7 @@ if (isset($_POST['logout'])) {
 
 ?>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" role="navigation">
   <div class="container">
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@ if (isset($_POST['logout'])) {
   </div>
 </nav>
 
-<main>
+<main role="main">
 
   <!-- Hero Section -->
   <section class="container shadow-wrap">

@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" role="navigation">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ include_once 'header.inc'
     </div>
 </nav>
 
-<main>
+<main role="main">
     <!-- Hero Section -->
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora.">
@@ -219,7 +219,7 @@ include_once 'header.inc'
 
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id= "reCaptcha-warning">
+                            <div id="reCaptcha-warning">
                                 Nota: El formulario se restablecerá si no está marcado.
                             </div>
                         </div>
