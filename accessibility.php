@@ -100,9 +100,9 @@ include_once 'header.inc'
 
                     <p class="mb-3 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org customer support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>">SysAdmin with ADA request</a></p>
 
-                    <hr>
+                   <!-- <hr>
                     <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explanation of WCAG 2.0 Level A Conformance"><img height="30" src="https://www.w3.org/WAI/wcag2A" alt="Level A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
-                    <hr>
+                    <hr> -->
 
                 </div>
             </div>

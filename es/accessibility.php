@@ -100,9 +100,9 @@ include_once 'header.inc'
 
                     <p class="mb-3 text-dark">Si desea informar un problema de accesibilidad, tiene alguna pregunta o necesita ayuda, comuníquese con el servicio de atención al cliente de montereybayarearoundup.org de la siguiente manera: correo electrónico: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class= "bb-link">SysAdmin con solicitud de ADA</a></p>
 
-                    <hr>
+                    <!--<hr>
                     <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explicación de la conformidad con WCAG 2.0 Nivel A"><img height="30" src="https://www.w3.org/WAI/wcag2A" alt="Cumplimiento de nivel A, Pautas de accesibilidad al contenido web 2.0 de W3C WAI"></a>
-                    <hr>
+                    <hr>-->
 
                 </div>
             </div>
