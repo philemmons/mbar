@@ -14,7 +14,7 @@ include_once 'header.inc'
                     <a class="nav-link" href="index.php" aria-current="page">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
@@ -27,14 +27,14 @@ include_once 'header.inc'
                     <a class="nav-link active" href="our_partner.php" aria-current="page">Our Partner<span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" aria-current="page" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
                         <a class="nav-link" href="logo_contest.php">Logo Contest</a>

@@ -32,7 +32,7 @@ if (isset($_POST['logout'])) {
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
+          <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
           <div class="dropdown-menu" aria-labelledby="dropdownId">
             <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
             <a class="dropdown-item" href="registration.php">Registration</a>
@@ -42,14 +42,14 @@ if (isset($_POST['logout'])) {
           </div>
         </li>
         <li class="nav-item dropdown">
-          <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
+          <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
           <div class="dropdown-menu" aria-labelledby="dropdownId">
             <a class="dropdown-item" href="meetings.php">Meetings</a>
             <a class="dropdown-item" href="committees.php">Committees</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
+          <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
           <div class="dropdown-menu" aria-labelledby="dropdownId">
             <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
             <a class="nav-link" href="logo_contest.php">Logo Contest</a>
@@ -88,7 +88,7 @@ if (isset($_POST['logout'])) {
       </button>
       <div class="collapse.true navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-          <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"': ''; ?> >
+          <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
             <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>
           </li>
           <?php
