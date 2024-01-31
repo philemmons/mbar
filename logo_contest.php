@@ -65,8 +65,8 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
-                    </h4>
+                    <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
+                    </h3>
                     <p class="mb-6 h5 text-dark">Great job Micha!</p>
                 </div>
             </div>
