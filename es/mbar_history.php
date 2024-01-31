@@ -146,7 +146,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Calendario de Eventos Pasados</a></h5>
+                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Calendario de Eventos Pasados</a></p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia</a></p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia</a></p>
                     </div>
@@ -160,7 +160,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Grabación de audio de los oradores Nota:</a></h5>
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Grabación de audio de los oradores Nota:</a></p>
                         <p class="card-text">Paul O. de 2017</p>
                         <audio controls="">
                             <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
@@ -178,7 +178,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volantes Anteriores A LO Largo de los Años</a></h5>
+                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volantes Anteriores A LO Largo de los Años</a></p>
                         <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
                             <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
                         </p>
