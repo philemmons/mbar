@@ -78,7 +78,7 @@ include_once 'header.inc'
                         <span class="text-dark px-3 px-md-0">Accesibilidad en montereybayarearoundup.org</span>
                     </h4>
 
-                    <p class="mb-3 text-dark">montereybayarearoundup.org se esfuerza continuamente por superar las Pautas de accesibilidad al contenido web 2.0 de W3C WAI. El verificador de sitios permite a montereybayarearoundup.org mejorar su cumplimiento de las Pautas de accesibilidad al contenido web (WCAG 2.1).</p>
+                    < class="mb-3 text-dark">montereybayarearoundup.org se esfuerza continuamente por superar las Pautas de accesibilidad al contenido web 2.0 de W3C WAI. Varios verificadores de sitios permiten a montereybayarearoundup.org mejorar su cumplimiento de las Pautas de accesibilidad al contenido web (WCAG 2.1).</p>
 
                     <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Descargo de responsabilidad</span>
@@ -92,17 +92,13 @@ include_once 'header.inc'
                         <span class="text-dark px-3 px-md-0">Aquí para ti</span>
                     </h4>
 
-                    <p class="mb-3 text-dark">Si tiene dificultades con algún contenido de montereybayarearoundup.org o necesita ayuda con cualquier parte de nuestro sitio, comuníquese con nosotros durante el horario comercial normal como se detalla a continuación y estaremos encantados de ayudarle.</p>
+                    <p class="mb-3 text-dark">Si tiene dificultades con algún contenido de montereybayarearoundup.org o necesita ayuda con cualquier parte de nuestro sitio, comuníquese con nosotros y estaremos encantados de ayudarle.</p>
 
                     <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Contáctenos</span>
                     </h4>
 
                     <p class="mb-3 text-dark">Si desea informar un problema de accesibilidad, tiene alguna pregunta o necesita ayuda, comuníquese con el servicio de atención al cliente de montereybayarearoundup.org de la siguiente manera: correo electrónico: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin con solicitud de ADA</a></p>
-
-                    <!--<hr>
-                    <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explicación de la conformidad con WCAG 2.0 Nivel A"><img height="30" src="https://www.w3.org/WAI/wcag2A" alt="Cumplimiento de nivel A, Pautas de accesibilidad al contenido web 2.0 de W3C WAI"></a>
-                    <hr>-->
 
                 </div>
             </div>

@@ -78,7 +78,7 @@ include_once 'header.inc'
                         <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
                     </h4>
 
-                    <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. The site checker allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
+                    <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. Various site checkers allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
 
                     <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Disclaimer</span>
@@ -92,17 +92,13 @@ include_once 'header.inc'
                         <span class="text-dark px-3 px-md-0">Here For You</span>
                     </h4>
 
-                    <p class="mb-3 text-dark">If you are experiencing difficulty with any content on montereybayarearoundup.org or require assistance with any part of our site, please contact us during normal business hours as detailed below and we will be happy to assist.</p>
+                    <p class="mb-3 text-dark">If you are experiencing difficulty with any content on montereybayarearoundup.org or require assistance with any part of our site, please contact us, and we will be happy to assist.</p>
 
                     <h4 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">Contact Us</span>
                     </h4>
 
                     <p class="mb-3 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org customer support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>">SysAdmin with ADA request</a></p>
-
-                    <!-- <hr>
-                    <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explanation of WCAG 2.0 Level A Conformance"><img height="30" src="https://www.w3.org/WAI/wcag2A" alt="Level A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"></a>
-                    <hr> -->
 
                 </div>
             </div>
