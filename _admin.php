@@ -182,8 +182,8 @@ function displayRegAdmin($registration)
     <div class="row justify-content-center py-6 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border">
-          <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
-          </h1>
+          <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Admin Panel</span>
+          </h2>
           <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
         </div>
       </div>
@@ -391,11 +391,11 @@ function displayRegAdmin($registration)
 
   <?php include_once 'footer.inc' ?>
 
-<!-- https://datatables.net/ -->
-    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-  
+  <!-- https://datatables.net/ -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
   <script>
     //https://datatables.net/reference/option
     new DataTable('#adminDisplay', {

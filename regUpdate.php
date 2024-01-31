@@ -153,8 +153,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
-                    </h1>
+                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
+                    </h2>
                     <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                 </div>
             </div>

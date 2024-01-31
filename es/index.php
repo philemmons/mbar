@@ -55,8 +55,8 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Hermosa costa de la Bahía de Monterey con vista a Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                    </h1>
+                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    </h2>
                     <p class="mb-6 h2 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
                     <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
@@ -72,8 +72,8 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
                                 <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge.</a></h6>
-                            <p class="card-text fw-bold">Vuelva pronto para conocer el próximo evento!
-                            </p>
+                        <p class="card-text fw-bold">Vuelva pronto para conocer el próximo evento!
+                        </p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Ver más información aquí</a></small>
@@ -85,8 +85,8 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Voluntarios</a></h6>
-                            <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
-                            </p>
+                        <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
+                        </p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Déjenos saber si esta interesado</a></small>
@@ -104,7 +104,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conferencia 2024</a></h6>
-                            <p class="card-text">Calendario de eventos durante nuestro reunirs de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
+                        <p class="card-text">Calendario de eventos durante nuestro reunirs de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Ver Archivos de 2022</a></small>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
                                 <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registro</a></h6>
-                            <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
+                        <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">La Preinscripción está Activa</a></small>
@@ -130,7 +130,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Actividades</a></h6>
-                            <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
+                        <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Avance</a></small>
@@ -145,7 +145,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="contact.php">
                                 <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Comité</a></h6>
-                            <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
+                        <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contacta con Nosotros</a></small>
@@ -158,7 +158,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Historia</a></h6>
-                            <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
+                        <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Nuestro Pasado</a></small>
@@ -171,7 +171,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="contribution.php">
                                 <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contribuciones</a></h6>
-                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
+                        <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Manos Amigas</a></small>
