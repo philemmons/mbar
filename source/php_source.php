@@ -258,3 +258,34 @@ function getRegInfo($regID)
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
      return $record;
 }
+
+
+/**
+ * 
+ * https://stackoverflow.com/questions/518795/dynamically-display-a-csv-file-as-an-html-table-on-a-web-page
+ * 
+ * function jj_readcsv($filename, $header = false)
+{
+    $handle = fopen($filename, "r");
+    echo '<div class="table-responsive"><table class="table table-sm table-striped table-bordered table-hover">';
+    //display header row if true
+    if ($header) {
+        $csvcontents = fgetcsv($handle);
+        echo '<tr>';
+        foreach ($csvcontents as $headercolumn) {
+            echo "<th>$headercolumn</th>";
+        }
+        echo '</tr>';
+    }
+    // displaying contents
+    while ($csvcontents = fgetcsv($handle)) {
+        echo '<tr>';
+        foreach ($csvcontents as $column) {
+            echo "<td style='width:1px; white-space:nowrap;'>$column</td>";
+        }
+        echo '</tr>';
+    }
+    echo '</table></div>';
+    fclose($handle);
+}
+ */

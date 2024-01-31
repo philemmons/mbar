@@ -58,11 +58,7 @@ function getHelpHand()
 {
   global $dbConn;
 
-  $sql = "SELECT SUM( 
-            CAST( 
-              ( SELECT helpinghand FROM registration WHERE helpinghand REGEXP '[0-9]')
-            AS UNSIGNED ) 
-          ) AS result";
+  $sql = "SELECT SUM( CAST(helpinghand AS UNSIGNED) ) AS result FROM registration WHERE helpinghand REGEXP '[0-9]'";
   //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   //print_r($tot);
