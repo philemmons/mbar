@@ -15,7 +15,7 @@ include_once 'header.inc'
 						<span class="visually-hidden">(actual)</span></a>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
 						<a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
 						<a class="dropdown-item" href="registration.php">Registro</a>
@@ -25,14 +25,14 @@ include_once 'header.inc'
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
 						<a class="dropdown-item" href="meetings.php">Reuniones</a>
 						<a class="dropdown-item" href="committees.php">Comités</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
+					<button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
 						<a class="nav-link" href="upcoming_event.php">Noche de Bingo</a>
 						<a class="nav-link" href="logo_contest.php">Concurso de Logotipos</a>

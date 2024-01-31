@@ -14,7 +14,7 @@ include_once 'header.inc'
                     <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registro</a>
@@ -24,14 +24,14 @@ include_once 'header.inc'
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="meetings.php">Reuniones</a>
                         <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="nav-link" href="upcoming_event.php">Noche de Bingo</a>
                         <a class="nav-link" href="logo_contest.php">Concurso de Logotipos</a>
@@ -168,7 +168,7 @@ include_once 'header.inc'
                 <div class="p-3 text-bg-light hero-text-border">
                     <figcaption class="figure-caption">
                         <h4 class="card-title text-center mb-3">EXPLORANDO MONTEREY y SUS ALREDEDORES</h4>
-                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class= "bb-link" target="_blank" >(Google Translate ayuda a traducir algunos de los sitios web)</a>
+                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)</a>
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">
