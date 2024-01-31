@@ -16,7 +16,7 @@ include_once 'header.inc'
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
@@ -26,14 +26,14 @@ include_once 'header.inc'
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-committees">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
                         <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
                         <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                     </div>
@@ -72,8 +72,8 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="upcoming_event.php">
                                 <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</a></h6>
-                            <p class="card-text fw-bold">Check back soon for the next event!
-                            </p>
+                        <p class="card-text fw-bold">Check back soon for the next event!
+                        </p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View more info here</a></small>
@@ -85,8 +85,8 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></h6>
-                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
-                            </p>
+                        <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
+                        </p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Let us know if you are interested</a></small>
@@ -104,7 +104,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="conference-2024.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>2024 Conference</a></h6>
-                            <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
+                        <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="registration.php">
                                 <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registration</a></h6>
-                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
+                        <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
@@ -130,7 +130,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Activities</a></h6>
-                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
+                        <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
@@ -145,7 +145,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="contact.php">
                                 <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></h6>
-                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
+                        <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contact Us</a></small>
@@ -158,7 +158,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></h6>
-                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                        <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
@@ -171,7 +171,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <h6 class="card-title"><a href="contribution.php">
                                 <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></h6>
-                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                        <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>

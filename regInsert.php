@@ -112,7 +112,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
@@ -122,14 +122,14 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-committees">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
                         <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
                         <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                     </div>

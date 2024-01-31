@@ -25,14 +25,14 @@ include_once 'header.inc'
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-committees" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Committees</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-committees">
                         <a class="dropdown-item" href="meetings.php">Meetings</a>
                         <a class="dropdown-item" href="committees.php">Committees</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
                         <a class="nav-link" href="upcoming_event.php">Bingo Night</a>
                         <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                     </div>
