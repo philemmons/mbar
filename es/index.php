@@ -70,7 +70,7 @@ include_once 'header.inc'
             <div class="col-lg-6 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="upcoming_event.php">
+                        <p class="card-title h6"><a href="upcoming_event.php">
                                 <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge.</a></h6>
                         <p class="card-text fw-bold">Vuelva pronto para conocer el próximo evento!
                         </p>
@@ -83,7 +83,7 @@ include_once 'header.inc'
             <div class="col-lg-6 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="conference-2024.php">
+                        <p class="card-title h6"><a href="conference-2024.php">
                                 <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Voluntarios</a></h6>
                         <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
                         </p>
@@ -102,7 +102,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="conference-2024.php">
+                        <p class="card-title h6"><a href="conference-2024.php">
                                 <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conferencia 2024</a></h6>
                         <p class="card-text">Calendario de eventos durante nuestro reunirs de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
                     </div>
@@ -115,7 +115,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="registration.php">
+                        <p class="card-title h6"><a href="registration.php">
                                 <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registro</a></h6>
                         <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
                     </div>
@@ -128,7 +128,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="activities.php">
+                        <p class="card-title h6"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Actividades</a></h6>
                         <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                     </div>
@@ -143,7 +143,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="contact.php">
+                        <p class="card-title h6"><a href="contact.php">
                                 <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Comité</a></h6>
                         <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
                     </div>
@@ -156,7 +156,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="mbar_history.php">
+                        <p class="card-title h6"><a href="mbar_history.php">
                                 <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>Historia</a></h6>
                         <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                     </div>
@@ -169,7 +169,7 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h6 class="card-title"><a href="contribution.php">
+                        <p class="card-title h6"><a href="contribution.php">
                                 <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contribuciones</a></h6>
                         <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                     </div>
