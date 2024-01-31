@@ -26,21 +26,24 @@
     <!-- https://datatables.net/ -->
     <link href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" rel="stylesheet">
-    
+
 </head>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF8R56VR9S"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-CF8R56VR9S');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CF8R56VR9S');
 </script>
 
 <body>
-    <header class='container'>
+    <header class='container' role="banner">
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
                 <h1>MONTEREY BAY AREA ROUNDUP</h1>

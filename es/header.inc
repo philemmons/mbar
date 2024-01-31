@@ -43,7 +43,7 @@
 </script>
 
 <body>
-    <header class='container'>
+    <header class='container' role="banner">
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
                 <h1>MONTEREY BAY AREA ROUNDUP</h1>
