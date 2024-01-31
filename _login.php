@@ -96,7 +96,7 @@ if (isset($_POST['logout'])) {
             echo '<li class="nav-item" style="border-right: none;">';
             echo '<div role= "form">';
             echo '<form method ="POST" id="oneBtn" >';
-            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+            echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
             echo '</form>';
             echo '</div>';
             echo '</li>';

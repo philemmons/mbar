@@ -183,7 +183,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         echo '<li class="nav-item" style="border-right: none;">';
                         echo '<div role= "form">';
                         echo '<form method ="POST" id="oneBtn">';
-                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
                         echo '</form>';
                         echo '</div>';
                         echo '</li>';
@@ -216,7 +216,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required />
+                                <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required>
                                 <label for="upd-fn">First Name</label>
                             </div>
                             <div class="invalid-feedback">

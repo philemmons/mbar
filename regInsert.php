@@ -182,7 +182,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         echo '<li class="nav-item" style="border-right: none;">';
                         echo '<div role= "form">';
                         echo '<form method ="POST" id="oneBtn">';
-                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
+                        echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout">';
                         echo '</form>';
                         echo '</div>';
                         echo '</li>';
@@ -224,7 +224,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required />
+                                <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required>
                                 <label for="ins-fn">First Name *</label>
                             </div>
                             <div class="invalid-feedback">

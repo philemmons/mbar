@@ -18,7 +18,7 @@
          <div class='container top-footer'>
              <div class="row justify-content-md-center">
                  <div class='col-sm-4 banner'>
-                     <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple" />
+                     <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple">
                  </div>
                  <div class='col-sm-8 col-md-6 p-4'>
                      <h3>Our Statement of Responsibility:</h3>
