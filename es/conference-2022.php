@@ -307,7 +307,7 @@ include_once 'header.inc'
                     </p>
                     <hora>
                         <p>Consulte nuestro grupo local de A.A. Sitio web de la oficina central
-                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="Programa de reuniones locales de M.B.I.A.A.">aamonterey.org</a> para obtener una lista actualizada de las reuniones en el área.
+                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" title="Programa de reuniones locales de M.B.I.A.A.">aamonterey.org</a> para obtener una lista actualizada de las reuniones en el área.
                         </p>
                 </div>
             </div>

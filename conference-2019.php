@@ -456,7 +456,7 @@ include_once 'header.inc'
                         </li>
                     </ul>
                     <br>
-                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank">
+                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
                         <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page.">
                     </a>
                     <br><br>

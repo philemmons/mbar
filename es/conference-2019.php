@@ -457,7 +457,7 @@ include_once 'header.inc'
                         </li>
                     </ul>
                     <br>
-                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank">
+                    <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
                         <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Logotipo del Intergrupo de Alcohólicos Anónimos del Área de la Bahía de Monterey, haga clic para regresar a la página aamonterey.org.">
                     </a>
                     <br><br>

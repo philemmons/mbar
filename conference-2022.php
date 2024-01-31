@@ -306,7 +306,7 @@ include_once 'header.inc'
                     </p>
                     <hr>
                     <p>See our local A.A. Central Office website
-                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" _target="blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
+                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" title="M.B.I.A.A meeting schedule.">aamonterey.org</a> for a current listing of meetings in the area.
                     </p>
                 </div>
             </div>
