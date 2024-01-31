@@ -52,9 +52,9 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Hermosa costa de la Bahía de Monterey con vista a Lover's Point.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" alt="Hermosa costa de la Bahía de Monterey con vista a Lover's Point." title="Hermosa costa de la Bahía de Monterey con vista a Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
+                <div class="p-3 text-center text-bg-light hero-text-border" alt="¡La preinscripción está abierta!" title="¡La preinscripción está abierta!">
                     <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h2>
                     <p class="mb-6 h2 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
@@ -196,7 +196,7 @@ include_once 'header.inc'
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa." title="Puesta de sol en el Océano Pacífico con olas bañadas en la orilla.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa." title="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa.">
             </div>
         </div>
     </section>

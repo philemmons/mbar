@@ -2,7 +2,7 @@
      <section class="container shadow-wrap">
          <div class="row justify-content-center mb-5">
              <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
+                 <div class="p-3 text-center text-bg-light hero-text-border" alt="¡La preinscripción está abierta!" title="¡La preinscripción está abierta!">
                      <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                      </h3>
                      <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
@@ -39,7 +39,7 @@
 
      <div class='container'>
          <div class="row justify-content-md-center">
-             <div class="col-sm-12" id="footer-image">
+             <div class="col-sm-12" id="footer-image" alt="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
                  <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                  </p>
              </div>

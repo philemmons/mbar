@@ -52,9 +52,9 @@ include_once 'header.inc'
 <main>
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" title="Beautiful coastline of Monterey Bay overlooking Lover's Point." alt="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!" alt="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h2>
                     <p class="mb-6 h2 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
@@ -196,7 +196,7 @@ include_once 'header.inc'
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title="Pacific Ocean sunset with waves washing on the shore.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore." title="Gorgeous, satin blue Pacific Ocean sunset with waves washing on the rocky shore.">
             </div>
         </div>
     </section>

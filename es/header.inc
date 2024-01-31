@@ -51,7 +51,7 @@
                 <p class="font-italic">Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer un compañerismo a tu alrededor, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte.</p>
             </div>
             <div class='col-sm-auto banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple" title="Gran dibujo de Micha C." />
+                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple" title="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple" />
 
             </div>
         </div>
