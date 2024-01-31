@@ -11,7 +11,7 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Home
+                    <a class="nav-link active" href="index.php">Home
                         <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">

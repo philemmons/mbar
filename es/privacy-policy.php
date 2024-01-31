@@ -11,8 +11,7 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php" aria-current="page">Hogar
-                        <span class="visually-hidden">(actual)</span></a>
+                    <a class="nav-link active" href="index.php">Hogar<span class="visually-hidden">(actual)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>

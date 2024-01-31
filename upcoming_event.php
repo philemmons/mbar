@@ -11,7 +11,7 @@ include_once 'header.inc'
           <div class="collapse.true navbar-collapse" id="collapsibleNavId">
                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                         <a class="nav-link" aria-current="page" href="index.php" aria-current="page">Home</a>
+                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
@@ -33,7 +33,7 @@ include_once 'header.inc'
                     <li class="nav-item dropdown">
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                          <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                              <a class="nav-link active" href="upcoming_event.php">Bingo Night<span class="visually-hidden">(current)</span></a>
+                              <a class="nav-link active" aria-current="page" href="upcoming_event.php">Bingo Night<span class="visually-hidden">(current)</span></a>
                               <a class="nav-link" href="logo_contest.php">Logo Contest</a>
                          </div>
                     </li>

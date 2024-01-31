@@ -199,7 +199,7 @@ function displayRegAdmin($registration)
       <div class="collapse.true navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="_login.php">Admin Panel<span class="visually-hidden">(current)</span></a>
+            <a class="nav-link active" aria-current="page" href="_admin.php">Admin Panel<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="regInsert.php">New Registration</a>

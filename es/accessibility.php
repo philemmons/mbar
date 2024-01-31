@@ -11,7 +11,7 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
+                    <a class="nav-link" href="index.php">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
@@ -80,25 +80,25 @@ include_once 'header.inc'
 
                     < class="mb-3 text-dark">montereybayarearoundup.org se esfuerza continuamente por superar las Pautas de accesibilidad al contenido web 2.0 de W3C WAI. Varios verificadores de sitios permiten a montereybayarearoundup.org mejorar su cumplimiento de las Pautas de accesibilidad al contenido web (WCAG 2.1).</p>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Descargo de responsabilidad</span>
-                    </h4>
+                        <h4 class="fw-bold text-primary">
+                            <span class="text-dark px-3 px-md-0">Descargo de responsabilidad</span>
+                        </h4>
 
-                    <p class="mb-3 text-dark">montereybayarearoundup.org continúa sus esfuerzos para mejorar constantemente la accesibilidad de su sitio y sus servicios en la creencia de que es nuestra obligación moral colectiva permitir un uso fluido, accesible y sin obstáculos también para aquellos de nosotros con discapacidades.</p>
+                        <p class="mb-3 text-dark">montereybayarearoundup.org continúa sus esfuerzos para mejorar constantemente la accesibilidad de su sitio y sus servicios en la creencia de que es nuestra obligación moral colectiva permitir un uso fluido, accesible y sin obstáculos también para aquellos de nosotros con discapacidades.</p>
 
-                    <p class="mb-3 text-dark">A pesar de nuestros esfuerzos para que todas las páginas y el contenido de montereybayarearoundup.org sean totalmente accesibles, es posible que algunos contenidos aún no se hayan adaptado completamente a los estándares de accesibilidad más estrictos. Esto puede deberse a no haber encontrado o identificado la solución tecnológica más adecuada.</p>
+                        <p class="mb-3 text-dark">A pesar de nuestros esfuerzos para que todas las páginas y el contenido de montereybayarearoundup.org sean totalmente accesibles, es posible que algunos contenidos aún no se hayan adaptado completamente a los estándares de accesibilidad más estrictos. Esto puede deberse a no haber encontrado o identificado la solución tecnológica más adecuada.</p>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Aquí para ti</span>
-                    </h4>
+                        <h4 class="fw-bold text-primary">
+                            <span class="text-dark px-3 px-md-0">Aquí para ti</span>
+                        </h4>
 
-                    <p class="mb-3 text-dark">Si tiene dificultades con algún contenido de montereybayarearoundup.org o necesita ayuda con cualquier parte de nuestro sitio, comuníquese con nosotros y estaremos encantados de ayudarle.</p>
+                        <p class="mb-3 text-dark">Si tiene dificultades con algún contenido de montereybayarearoundup.org o necesita ayuda con cualquier parte de nuestro sitio, comuníquese con nosotros y estaremos encantados de ayudarle.</p>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Contáctenos</span>
-                    </h4>
+                        <h4 class="fw-bold text-primary">
+                            <span class="text-dark px-3 px-md-0">Contáctenos</span>
+                        </h4>
 
-                    <p class="mb-3 text-dark">Si desea informar un problema de accesibilidad, tiene alguna pregunta o necesita ayuda, comuníquese con el servicio de atención al cliente de montereybayarearoundup.org de la siguiente manera: correo electrónico: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin con solicitud de ADA</a></p>
+                        <p class="mb-3 text-dark">Si desea informar un problema de accesibilidad, tiene alguna pregunta o necesita ayuda, comuníquese con el servicio de atención al cliente de montereybayarearoundup.org de la siguiente manera: correo electrónico: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin con solicitud de ADA</a></p>
 
                 </div>
             </div>

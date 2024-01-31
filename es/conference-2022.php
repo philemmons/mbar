@@ -11,7 +11,7 @@ include_once 'header.inc'
         <div class="collapse.true navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
+                    <a class="nav-link" href="index.php">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia<span class="visually-hidden">(actual)</span></button>
@@ -20,7 +20,7 @@ include_once 'header.inc'
                         <a class="dropdown-item" href="registration.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
-                        <a class="dropdown-item" aria-current="page" href="memories.php">Recuerdos</a>
+                        <a class="dropdown-item" aria-current="page" href="memories.php">Recuerdos<span class="visually-hidden">(Conferencia 2022, haga clic para regresar)</span></a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
