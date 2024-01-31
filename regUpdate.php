@@ -170,10 +170,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             <div class="collapse.true navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="_login.php">Admin Panel</a>
+                        <a class="nav-link" href="_login.php">Admin Panel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
+                        <a class="nav-link" href="regInsert.php">New Registration</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="regUpdate.php">Update Registration<span class="visually-hidden">(current)</span></a>

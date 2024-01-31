@@ -202,15 +202,15 @@ function displayRegAdmin($registration)
             <a class="nav-link active" aria-current="page" href="_login.php">Admin Panel<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="regInsert.php">New Registration</a>
+            <a class="nav-link" href="regInsert.php">New Registration</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="regUpdate.php">Update Registration</a>
+            <a class="nav-link" href="regUpdate.php">Update Registration</a>
           </li>
           <?php
           if (isset($_SESSION["status"])) {
             echo '<li class="nav-item" style="border-right: none;">';
-            echo '<form method ="POST" id="oneBtn" >';
+            echo '<form method ="POST" id="oneBtn">';
             echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
             echo '</form>';
             echo '</li>';
