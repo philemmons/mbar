@@ -81,7 +81,7 @@ if (isset($_POST['logout'])) {
   </section>
 
   <!-- Bottom Navbar -->
-  <nav class="navbar navbar-expand-lg mb-5">
+  <nav class="navbar navbar-expand-lg mb-5" role="navigation">
     <div class="container">
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
