@@ -53,7 +53,7 @@ include_once 'header.inc'
     <section class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" role= 'img' aria-label="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!" aria-label="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h2>
                     <p class="mb-6 h2 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>

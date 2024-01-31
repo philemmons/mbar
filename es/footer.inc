@@ -2,7 +2,7 @@
 <section class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
         <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-            <div class="p-3 text-center text-bg-light hero-text-border" alt="¡La preinscripción está abierta!" title="¡La preinscripción está abierta!">
+            <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                 <p class="h3 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                 </p>
                 <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
