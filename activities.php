@@ -68,7 +68,7 @@ include_once 'header.inc'
                 <figure class="figure">
                     <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
                     <figcaption class="figure-caption">
-                        <h2>Guest Speakers</h2>
+                        <h3>Guest Speakers</h3>
                     </figcaption>
                     <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
                     </p>

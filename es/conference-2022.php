@@ -14,7 +14,7 @@ include_once 'header.inc'
                     <a class="nav-link" href="index.php" aria-current="page">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle active" type="button" id="dropdownId" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia<span class="visually-hidden">(actual)</span></button>
+                    <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia<span class="visually-hidden">(actual)</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="registration.php">Registro</a>

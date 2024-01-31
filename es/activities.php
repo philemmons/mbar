@@ -68,7 +68,7 @@ include_once 'header.inc'
                 <figure class="figure">
                     <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Orador que comparte su experiencia, fortaleza y esperanza con nosotros.">
                     <figcaption class="figure-caption">
-                        <h2>Oradores Invitados</h2>
+                        <h3>Oradores Invitados</h3>
                     </figcaption>
                     <p>En las principales reuniones de oradores, nuestros oradores comparten su experiencia, fortaleza y esperanza. "Mostrar a otros que sufren cómo recibimos ayuda es precisamente lo que hace que la vida nos parezca tan valiosa ahora. Aférrate al pensamiento de que, en las manos de Dios, el pasado oscuro es la posesión más grande que tienes: la llave a la vida y felicidad para los demás." BB p124
                     </p>
