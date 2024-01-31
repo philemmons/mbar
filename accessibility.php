@@ -65,9 +65,9 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
-                    <h4 class="fw-bold text-primary">
+                    <h3 class="fw-bold text-primary">
                         <span class="text-dark px-3 px-md-0">MBAR's General Accessibility Statement</span>
-                    </h4>
+                    </h3>
                     <p class="mb-3 text-dark">montereybayarearoundup.org strives to ensure that its services are accessible to people with disabilities. montereybayarearoundup.org has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that every person has the right to live with dignity, equality, comfort and independence.</p>
                 </div>
             </div>

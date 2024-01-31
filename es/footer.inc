@@ -3,8 +3,8 @@
     <div class="row justify-content-center mb-5">
         <div class="col-xl-8 col-lg-8 col-md-12 py-4">
             <div class="p-3 text-center text-bg-light hero-text-border" alt="¡La preinscripción está abierta!" title="¡La preinscripción está abierta!">
-                <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                </h3>
+                <p class="h3 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                </p>
                 <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
                 <a href="registration.php" class="btn btn-primary me-2">Regístrate Ahora</a>
             </div>
@@ -22,10 +22,10 @@
             </div>
             <div class='col-sm-8 col-md-6 p-4'>
                 <h3>Nuestra Declaración de Responsabilidad:</h3>
-                <p class="h4">Yo soy responsable.<br>
+                <h4>Yo soy responsable.<br>
                     Cuando alguien, en cualquier lugar, pide ayuda, quiero que la mano de AA esté siempre ahí.<br>
                     Y de eso soy responsable.
-                </p>
+                </h4>
             </div>
         </div>
         <div class="row justify-content-md-center">

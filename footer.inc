@@ -3,8 +3,8 @@
     <div class="row justify-content-center mb-5">
         <div class="col-xl-8 col-lg-8 col-md-12 py-4">
             <div class="p-3 text-center text-bg-light hero-text-border" alt="Pre-Registration is open!" title="Pre-Registration is open!">
-                <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                </h3>
+                <p class="h3 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                </p>
                 <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
                 <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
             </div>
@@ -21,18 +21,18 @@
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple">
             </div>
             <div class='col-sm-8 col-md-6 p-4'>
-                <h3>Our Statement of Responsibility:</h3>
-                <p class="h4">I am responsible.<br>
+                <h4>Our Statement of Responsibility:</h4>
+                <h4>I am responsible.<br>
                     When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
                     And for that I am responsible.
-                </p>
+                </h4>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
-                <h3 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members."></a> Private Group</strong></h3>
+                <p class="h3 text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
+                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members."></a> Private Group</strong></p>
                 <hr>
             </div>
         </div>
