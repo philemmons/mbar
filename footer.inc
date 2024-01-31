@@ -21,17 +21,17 @@
              </div>
              <div class='col-sm-8 col-md-6 p-4'>
                  <h3>Our Statement of Responsibility:</h3>
-                 <h4>I am responsible.<br>
+                 <p class= "h4">I am responsible.<br>
                      When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
                      And for that I am responsible.
-                 </h4>
+                 </p>
              </div>
          </div>
          <div class="row justify-content-md-center">
              <div class="col-sm-12 col-md-10 shadow text-center">
                  <hr>
                  <h3 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                             <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members." ></a> Private Group</strong></h3>
+                    <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private AA members." ></a> Private Group</strong></h3>
                  <hr>
              </div>
          </div>
