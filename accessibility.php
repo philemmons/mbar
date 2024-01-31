@@ -98,7 +98,7 @@ include_once 'header.inc'
                         <span class="text-dark px-3 px-md-0">Contact Us</span>
                     </h4>
 
-                    <p class="mb-3 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org customer support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>">SysAdmin with ADA request</a></p>
+                    <p class="mb-3 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org customer support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin with ADA request</a></p>
 
                 </div>
             </div>
