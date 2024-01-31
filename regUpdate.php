@@ -155,7 +155,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h1 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Update Registration</span>
                     </h1>
-                    <h6> Welcome <?= ucwords($_SESSION['name']) ?></h6>
+                    <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                 </div>
             </div>
         </div>
