@@ -198,7 +198,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     <section class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">
-                <h6>Update Registration Info</h6>
+                <h3>Update Registration Info</h3>
                 <br>
 
                 <?php
@@ -543,7 +543,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-6">
 
                         <?php } else {  ?>
-                            <h6> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</h6>
+                            <p class= "h6"> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</p>
 
                             <div class="col-lg-12">
                             <?php } ?>

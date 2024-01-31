@@ -209,7 +209,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
             <?php } ?>
 
             <div class="col-xl-12 py-4">
-                <h6>New Registration Info</h6>
+                <h3>New Registration Info</h3>
                 <br>
 
                 <div role="form">

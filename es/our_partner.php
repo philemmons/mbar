@@ -68,8 +68,8 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">La Deuda de Gratitud de A.A. con Al-Anon</span>
-                    </h4>
+                    <h3 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">La Deuda de Gratitud de A.A. con Al-Anon</span>
+                    </h3>
                     <hr>
                     <p>La siguiente resolución de agradecimiento a la Comunidad de los Grupos de Familia Al-Anon fue aprobada unánimemente por la Conferencia de Servicios Generales de Alcohólicos Anónimos de 1969.
                         <br><br>

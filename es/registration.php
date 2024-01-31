@@ -54,8 +54,8 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Centro de Conferencias de Monterey en Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
-                    </h3>
+                    <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
+                    </h2>
                     <a href="#register-now" class="btn btn-primary me-2">Regístrese Ahora</a>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
@@ -107,7 +107,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="activities.php">∆ Bethlehem Lutheran Church</a></h3>
+                    <h4 class="card-title mb-3"><a href="activities.php">∆ Bethlehem Lutheran Church</a></h4>
                     <div class="col-md-12 db-5">
                         <p><img src="../images/icons/warning-sign.png" width="50" height="50" alt="Señal de advertencia triangular con un signo de exclamación."><strong>TENGA EN CUENTA:</strong> El Desayuno y la Cena se realizarán en<br>
                             <strong>Bethlehem Lutheran Church, ubicada en 800 Cass Street en Monterey.</strong><br>
@@ -117,7 +117,7 @@ include_once 'header.inc'
                     </div>
                     <br>
                     <hr>
-                    <h3 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h3>
+                    <h4 class="card-title mb-3"><a href="activities.php">Monterey Conference Center</a></h4>
                     <div class="col-md-12 db-5">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.0352026855912!2d-121.89496129999999!3d36.601461199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de422461f891b%3A0x20f8f64ee124f091!2sMonterey%20Conference%20Center!5e0!3m2!1ses!2sus!4v1705601249904!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -131,7 +131,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title text-center mb-3"><a href="#register-now">A.A. Convenciones: ¿Por qué tenemos que pagar?</a></h3>
+                    <h4 class="card-title text-center mb-3"><a href="#register-now">A.A. Convenciones: ¿Por qué tenemos que pagar?</a></h4>
                     <p>Hay muchos miembros de A.A. conferencias/convenciones celebradas en todo el mundo. Uno de los conceptos erróneos más comunes acerca de su reunión es que son miembros de A.A. reuniones y dado que no hay cuotas ni honorarios para A.A. membresía, no debería haber ningún costo por asistir. Las convenciones y conferencias son eventos especiales, no reuniones regulares de A.A. reuniones. Requieren meses de planificación, preparación y costes.
                     </p>
                     <p>Dado que la mayoría de los eventos se llevan a cabo en hoteles/centros de conferencias, hay un cargo por el uso de algunas instalaciones. Otros gastos incluyen viajes y alojamiento de los oradores, impresión de volantes, horarios, programas, correos, suministros y entretenimiento. Un gran evento requiere una cantidad sustancial de dinero.

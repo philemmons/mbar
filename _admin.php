@@ -230,11 +230,11 @@ function displayRegAdmin($registration)
         <div class="p-3 text-bg-light hero-text-border">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
-              <p class="accordion-header h2">
+              <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   <strong>Registration Totals</strong>
                 </button>
-              </p>
+              </h3>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 

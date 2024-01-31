@@ -65,14 +65,14 @@ include_once 'header.inc'
 	<section class="container shadow-wrap">
 		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h5 class="float-end"><a href="http://montereybayarearoundup.org">montereybayarearoundup.org Homepage</a>
-				</h5>
+				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org">montereybayarearoundup.org Homepage</a>
+				</h3>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h5>Last updated: 2023, December 28
+				<h4>Last updated: 2023, December 28
 					<br>
 					Total pages: 18
-				</h5>
+				</h4>
 			</div>
 		</div>
 
