@@ -196,7 +196,7 @@ include_once 'header.inc'
                 </p>
             </div>
             <div class="col-lg-4 text-center">
-                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa." title="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa.">
+                <img src="../images/coastal_wave.png" class="img-fluid shadow-wrap" alt="Preciosa puesta de sol azul satinado en el Océano Pacífico con olas bañando la costa rocosa." title="Puesta de sol en el Océano Pacífico con olas bañadas en la orilla.">
             </div>
         </div>
     </section>
