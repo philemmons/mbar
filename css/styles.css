@@ -54,7 +54,7 @@ body {
 }
 
 /**** footer ****/
-footer {
+.top-footer {
   border-top: 1px solid var(--color-3);
   padding: 1.5rem 0;
   background-color: var(--color-2);
