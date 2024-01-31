@@ -167,71 +167,73 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
-                    <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <div role="form">
+                        <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                        <div class="col-md-6">
-                            <label for="contact-fn" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
-                            <div class="invalid-feedback">
-                                Please enter your first name.
+                            <div class="col-md-6">
+                                <label for="contact-fn" class="form-label">First Name</label>
+                                <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
+                                <div class="invalid-feedback">
+                                    Please enter your first name.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <label for="contact-ln" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
-                            <div class="invalid-feedback">
-                                Please enter your last name.
+                            <div class="col-md-6">
+                                <label for="contact-ln" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
+                                <div class="invalid-feedback">
+                                    Please enter your last name.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <label for="contact-em" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="contact-em" id="contact-em" required>
-                            <div class="invalid-feedback">
-                                Please enter your email.
+                            <div class="col-md-6">
+                                <label for="contact-em" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="contact-em" id="contact-em" required>
+                                <div class="invalid-feedback">
+                                    Please enter your email.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <label for="contact-phone" class="form-label">Phone(Optional)</label>
-                            <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
-                            <div class="invalid-feedback">
-                                Please enter a valid phone number.
+                            <div class="col-md-6">
+                                <label for="contact-phone" class="form-label">Phone(Optional)</label>
+                                <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <div class="invalid-feedback">
+                                    Please enter a valid phone number.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <label for="contact-subj" class="form-label">Subject</label>
-                            <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
-                            <div class="invalid-feedback">
-                                Please enter a subject.
+                            <div class="col-md-12">
+                                <label for="contact-subj" class="form-label">Subject</label>
+                                <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
+                                <div class="invalid-feedback">
+                                    Please enter a subject.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <label for="contact-ta" class="form-label">Question, Feedback or Improvement</label>
-                            <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter your message.
+                            <div class="col-md-12">
+                                <label for="contact-ta" class="form-label">Question, Feedback or Improvement</label>
+                                <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your message.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id="reCaptcha-warning">
-                                Note: The form will reset if unchecked.
+                            <div class="col-md-12">
+                                <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                                <div id="reCaptcha-warning">
+                                    Note: The form will reset if unchecked.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
+                            <div class="col-md-6 text-center">
+                                <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
+                            <div class="col-md-6 text-center">
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 

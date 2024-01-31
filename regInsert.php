@@ -180,9 +180,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <?php
                     if (isset($_SESSION["status"])) {
                         echo '<li class="nav-item" style="border-right: none;">';
-                        echo '<form method ="POST" id="oneBtn" >';
+                        echo '<div role= "form">';
+                        echo '<form method ="POST" id="oneBtn">';
                         echo '<input type="submit" value="LogOut" class="nav-link log-input" name="logout"/>';
                         echo '</form>';
+                        echo '</div>';
                         echo '</li>';
                     }
                     ?>
@@ -210,343 +212,346 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 <h6>New Registration Info</h6>
                 <br>
 
-                <form method='POST' name="insertRegForm" class="row g-3 needs-validation" id="insertRegForm" novalidate>
+                <div role="form">
+                    <form method='POST' name="insertRegForm" class="row g-3 needs-validation" id="insertRegForm" novalidate>
 
-                    <div class="col-lg-1">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="ins-id" placeholder="Default - auto incremented" name="ins-id" disabled>
-                            <label for="ins-id">RegID</label>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required />
-                            <label for="ins-fn">First Name *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Enter first name.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-ln" id="ins-ln" placeholder="Enter last name" required>
-                            <label for="ins-ln" class="form-label">Last Name *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Enter last name.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5">
-                        <div class="form-floating">
-                            <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
-                            <label for="ins-em" class="form-label">Email *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Enter email.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="tel" class="form-control" name="ins-phone" id="ins-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="831.555.0714">
-                            <label for="ins-phone" class="form-label">Phone</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter phone number.
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-pm" id="ins-pm" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="venmo">Venmo</option>
-                                <option value="cash">Cash</option>
-                                <option value="check">Check</option>
-                                <option value="paypal">PayPal</option>
-                            </select>
-                            <label for="ins-pm" class="form-label">Payment Method *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Select one.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" disabled>
-                            <label for="ins-total">Total</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Total due is calculated.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value=0 required>
-                            <label for="ins-paid">Paid *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Enter paid amount.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-hhc" id="ins-hhc">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="5">$5</option>
-                                <option value="10">$10</option>
-                                <option value="20">$20</option>
-                                <option value="35">$35</option>
-                                <option value="45">$45</option>
-                                <option value="50">$50</option>
-                                <option value="100">$100</option>
-                                <option value="other">Other</option>
-                                <option value="no thank you">No thank you</option>
-                            </select>
-                            <label for="ins-hhc" class="form-label">Helping Hand</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter Contribution.
-                        </div>
-                    </div>
-
-                    <hr>
-                    <div class="col-lg-4">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-addr" id="ins-addr" placeholder="Enter mail address">
-                            <label for="ins-addr" class="form-label">Address</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter address.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-city" id="ins-city" placeholder="Enter city">
-                            <label for="ins-city" class="form-label">City</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter city.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-state" id="ins-state">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="AL">Alabama</option>
-                                <option value="AK">Alaska</option>
-                                <option value="AZ">Arizona</option>
-                                <option value="AR">Arkansas</option>
-                                <option value="CA">California</option>
-                                <option value="CO">Colorado</option>
-                                <option value="CT">Connecticut</option>
-                                <option value="DE">Delaware</option>
-                                <option value="DC">District of Columbia</option>
-                                <option value="FL">Florida</option>
-                                <option value="GA">Georgia</option>
-                                <option value="HI">Hawaii</option>
-                                <option value="ID">Idaho</option>
-                                <option value="IL">Illinois</option>
-                                <option value="IN">Indiana</option>
-                                <option value="IA">Iowa</option>
-                                <option value="KS">Kansas</option>
-                                <option value="KY">Kentucky</option>
-                                <option value="LA">Louisiana</option>
-                                <option value="ME">Maine</option>
-                                <option value="MD">Maryland</option>
-                                <option value="MA">Massachusetts</option>
-                                <option value="MI">Michigan</option>
-                                <option value="MN">Minnesota</option>
-                                <option value="MS">Mississippi</option>
-                                <option value="MO">Missouri</option>
-                                <option value="MT">Montana</option>
-                                <option value="NE">Nebraska</option>
-                                <option value="NV">Nevada</option>
-                                <option value="NH">New Hampshire</option>
-                                <option value="NJ">New Jersey</option>
-                                <option value="NM">New Mexico</option>
-                                <option value="NY">New York</option>
-                                <option value="NC">North Carolina</option>
-                                <option value="ND">North Dakota</option>
-                                <option value="OH">Ohio</option>
-                                <option value="OK">Oklahoma</option>
-                                <option value="OR">Oregon</option>
-                                <option value="PA">Pennsylvania</option>
-                                <option value="RI">Rhode Island</option>
-                                <option value="SC">South Carolina</option>
-                                <option value="SD">South Dakota</option>
-                                <option value="TN">Tennessee</option>
-                                <option value="TX">Texas</option>
-                                <option value="UT">Utah</option>
-                                <option value="VT">Vermont</option>
-                                <option value="VA">Virginia</option>
-                                <option value="WA">Washington</option>
-                                <option value="WV">West Virginia</option>
-                                <option value="WI">Wisconsin</option>
-                                <option value="WY">Wyoming</option>
-                            </select>
-                            <label for="ins-state" class="form-label">State</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Select one.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-zc" id="ins-zc" placeholder="Enter zip code">
-                            <label for=" ins-zc" class="form-label">Zip Code</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter zip code.
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-fs" id="ins-fs" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="a.a.">A.A.</option>
-                                <option value="al-anon">Al-Anon</option>
-                                <option value="double winner">Double Winner</option>
-                                <option value="other">Other</option>
-                            </select>
-                            <label for="ins-fs" class="form-label">Fellowship *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Enter Fellowship.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-hg" id="ins-hg" placeholder="Enter homegroups(s)">
-                            <label for="ins-hg" class="form-label">Homegroup(s)</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Enter Homegroup(s).
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-reg" id="ins-reg" onChange="optionSND(this)" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="before">Before</option>
-                                <option value="after">After</option>
-                            </select>
-                            <label for="ins-reg" class="form-label">Registration *</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Required - Please check one.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-snd" id="ins-snd">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="undecided">Undecided</option>
-                            </select>
-                            <label for="ins-snd" class="form-label">Saturday Night Dance</label>
-                        </div>
-                        <div class="invalid-feedback">
-                            Optional - Please select one.
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="col-lg-3">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-ebmb" id="ins-ebmb" onChange="optionEBMB(this)" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="undecided">Undecided</option>
-                            </select>
-                            <label for="ins-ebmb" class="form-label">Early Bird Meal Bundle *</label>
+                        <div class="col-lg-1">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="ins-id" placeholder="Default - auto incremented" name="ins-id" disabled>
+                                <label for="ins-id">RegID</label>
+                            </div>
                         </div>
 
-                        <div class="invalid-feedback">
-                            Required - Please select one.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-mtsd" id="ins-mtsd" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="undecided">Undecided</option>
-                            </select>
-                            <label for="ins-mtsd" class="form-label">Speaker's Dinner *</label>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-fn" id="ins-fn" placeholder="Enter first Name" required />
+                                <label for="ins-fn">First Name *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter first name.
+                            </div>
                         </div>
 
-                        <div class="invalid-feedback">
-                            Required - Please select one.
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-rucb" id="ins-rucb" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="undecided">Undecided</option>
-                            </select>
-                            <label for="ins-rucb" class="form-label">Continental Breakfast *</label>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-ln" id="ins-ln" placeholder="Enter last name" required>
+                                <label for="ins-ln" class="form-label">Last Name *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter last name.
+                            </div>
                         </div>
 
-                        <div class="invalid-feedback">
-                            Required - Please select one.
+                        <div class="col-lg-5">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
+                                <label for="ins-em" class="form-label">Email *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter email.
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3">
-                        <div class="form-floating">
-                            <select class="form-select" name="ins-ics" id="ins-ics" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
-                                <option value="undecided">Undecided</option>
-                            </select>
-                            <label for="ins-ics" class="form-label">Ice Cream Social *</label>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="tel" class="form-control" name="ins-phone" id="ins-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="831.555.0714">
+                                <label for="ins-phone" class="form-label">Phone</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter phone number.
+                            </div>
                         </div>
-                        <div class="invalid-feedback">
-                            Required - Please select one.
+
+                        <hr>
+
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-pm" id="ins-pm" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="venmo">Venmo</option>
+                                    <option value="cash">Cash</option>
+                                    <option value="check">Check</option>
+                                    <option value="paypal">PayPal</option>
+                                </select>
+                                <label for="ins-pm" class="form-label">Payment Method *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Select one.
+                            </div>
                         </div>
-                    </div>
 
-                    <hr>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" disabled>
+                                <label for="ins-total">Total</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Total due is calculated.
+                            </div>
+                        </div>
 
-                    <div class="col-lg-3 text-center">
-                        <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
-                    </div>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" name="ins-paid" id="ins-paid" placeholder="0" value=0 required>
+                                <label for="ins-paid">Paid *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter paid amount.
+                            </div>
+                        </div>
 
-                    <div class="col-lg-3 text-center">
-                        <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm">Reset Registration</button>
-                    </div>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-hhc" id="ins-hhc">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="5">$5</option>
+                                    <option value="10">$10</option>
+                                    <option value="20">$20</option>
+                                    <option value="35">$35</option>
+                                    <option value="45">$45</option>
+                                    <option value="50">$50</option>
+                                    <option value="100">$100</option>
+                                    <option value="other">Other</option>
+                                    <option value="no thank you">No thank you</option>
+                                </select>
+                                <label for="ins-hhc" class="form-label">Helping Hand</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter Contribution.
+                            </div>
+                        </div>
 
-                    <div class="col-lg-6">
-                        <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
-                    </div>
+                        <hr>
+                        <div class="col-lg-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-addr" id="ins-addr" placeholder="Enter mail address">
+                                <label for="ins-addr" class="form-label">Address</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter address.
+                            </div>
+                        </div>
 
-                </form>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-city" id="ins-city" placeholder="Enter city">
+                                <label for="ins-city" class="form-label">City</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter city.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-state" id="ins-state">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                </select>
+                                <label for="ins-state" class="form-label">State</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Select one.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-zc" id="ins-zc" placeholder="Enter zip code">
+                                <label for=" ins-zc" class="form-label">Zip Code</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter zip code.
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-fs" id="ins-fs" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="a.a.">A.A.</option>
+                                    <option value="al-anon">Al-Anon</option>
+                                    <option value="double winner">Double Winner</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="ins-fs" class="form-label">Fellowship *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter Fellowship.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="ins-hg" id="ins-hg" placeholder="Enter homegroups(s)">
+                                <label for="ins-hg" class="form-label">Homegroup(s)</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter Homegroup(s).
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-reg" id="ins-reg" onChange="optionSND(this)" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="before">Before</option>
+                                    <option value="after">After</option>
+                                </select>
+                                <label for="ins-reg" class="form-label">Registration *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Please check one.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-snd" id="ins-snd">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                    <option value="undecided">Undecided</option>
+                                </select>
+                                <label for="ins-snd" class="form-label">Saturday Night Dance</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Please select one.
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-ebmb" id="ins-ebmb" onChange="optionEBMB(this)" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                    <option value="undecided">Undecided</option>
+                                </select>
+                                <label for="ins-ebmb" class="form-label">Early Bird Meal Bundle *</label>
+                            </div>
+
+                            <div class="invalid-feedback">
+                                Required - Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-mtsd" id="ins-mtsd" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                    <option value="undecided">Undecided</option>
+                                </select>
+                                <label for="ins-mtsd" class="form-label">Speaker's Dinner *</label>
+                            </div>
+
+                            <div class="invalid-feedback">
+                                Required - Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-rucb" id="ins-rucb" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                    <option value="undecided">Undecided</option>
+                                </select>
+                                <label for="ins-rucb" class="form-label">Continental Breakfast *</label>
+                            </div>
+
+                            <div class="invalid-feedback">
+                                Required - Please select one.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="ins-ics" id="ins-ics" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                    <option value="undecided">Undecided</option>
+                                </select>
+                                <label for="ins-ics" class="form-label">Ice Cream Social *</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Please select one.
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="col-lg-3 text-center">
+                            <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
+                        </div>
+
+                        <div class="col-lg-3 text-center">
+                            <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm">Reset Registration</button>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
+                        </div>
+
+                    </form>
+                </div>
+
             </div>
         </div>
     </section>

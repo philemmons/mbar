@@ -167,75 +167,78 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Express your thoughts and feelings about MBAR.">
 
-                    <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <div role="form">
+                        <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                        <div class="col-md-6">
-                            <label for="fname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="fname" id="fname" required>
-                            <div class="invalid-feedback">
-                                Please enter your first name.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="lname" id="lname" required>
-                            <div class="invalid-feedback">
-                                Please enter your last name.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="mem-email" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="mem-email" id="mem-email" required>
-                            <div class="invalid-feedback">
-                                Please enter your email.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="mem-title" class="form-label">Message Title</label>
-                            <input type="text" class="form-control" name="mem-title" id="mem-title" required>
-                            <div class="invalid-feedback">
-                                Please enter a title.
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <label for="mem-ta" class="form-label">Message</label>
-                            <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter your message.
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
-                                <label class="form-check-label" for="invalidCheck">
-                                    Agree to terms and conditions
-                                </label>
+                            <div class="col-md-6">
+                                <label for="fname" class="form-label">First Name</label>
+                                <input type="text" class="form-control" name="fname" id="fname" required>
                                 <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                    Please enter your first name.
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id="reCaptcha-warning">
-                                Note: The form will reset if unchecked.
+                            <div class="col-md-6">
+                                <label for="lname" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" name="lname" id="lname" required>
+                                <div class="invalid-feedback">
+                                    Please enter your last name.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
+                            <div class="col-md-6">
+                                <label for="mem-email" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="mem-email" id="mem-email" required>
+                                <div class="invalid-feedback">
+                                    Please enter your email.
+                                </div>
+                            </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
+                            <div class="col-md-6">
+                                <label for="mem-title" class="form-label">Message Title</label>
+                                <input type="text" class="form-control" name="mem-title" id="mem-title" required>
+                                <div class="invalid-feedback">
+                                    Please enter a title.
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="mem-ta" class="form-label">Message</label>
+                                <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your message.
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                                <div id="reCaptcha-warning">
+                                    Note: The form will reset if unchecked.
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>

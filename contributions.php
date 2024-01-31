@@ -164,58 +164,61 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
-                    <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <div role="form">
+                        <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                        <div class="col-md-6">
-                            <label for="hand-em" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="hand-em" id="hand-em" required>
-                            <div class="invalid-feedback">
-                                Please enter your email.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="hand-ph" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" name="hand-ph" id="hand-ph" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
-                            <div class="invalid-feedback">
-                                Please enter a valid phone number.
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <label for="hand-am" class="form-label">Your Contribution</label>
-                            <div class="input-group has-validation">
-                                <span class="input-group-text" id="inputGroupPrepend">USD</span>
-                                <input type="text" class="form-control" name="hand-am" id="hand-am" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
+                            <div class="col-md-6">
+                                <label for="hand-em" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="hand-em" id="hand-em" required>
                                 <div class="invalid-feedback">
-                                    Please enter a dollar amount
+                                    Please enter your email.
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <label for="hand-ta" class="form-label">Message or Note to be included.</label>
-                            <textarea class="form-control" name="hand-ta" id="hand-ta" required></textarea>
-                            <div class="invalid-feedback">
-                                Please enter your message.
+                            <div class="col-md-6">
+                                <label for="hand-ph" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" name="hand-ph" id="hand-ph" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <div class="invalid-feedback">
+                                    Please enter a valid phone number.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id="reCaptcha-warning">
-                                Note: The form will reset if unchecked.
+                            <div class="col-md-12">
+                                <label for="hand-am" class="form-label">Your Contribution</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">USD</span>
+                                    <input type="text" class="form-control" name="hand-am" id="hand-am" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a dollar amount
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
+                            <div class="col-md-12">
+                                <label for="hand-ta" class="form-label">Message or Note to be included.</label>
+                                <textarea class="form-control" name="hand-ta" id="hand-ta" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your message.
+                                </div>
+                            </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
+                            <div class="col-md-12">
+                                <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                                <div id="reCaptcha-warning">
+                                    Note: The form will reset if unchecked.
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
 

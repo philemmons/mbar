@@ -214,309 +214,312 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
-                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <div role="form">
+                        <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                        <div class="col-md-6">
-                            <label for="reg-fn" class="form-label">First Name *</label>
-                            <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
-                            <div class="invalid-feedback">
-                                Required - Please enter your first name.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="reg-ln" class="form-label">Last Name or Initial *</label>
-                            <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
-                            <div class="invalid-feedback">
-                                Required - Please enter your last name or initial.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="reg-em" class="form-label">Email *</label>
-                            <input type="email" class="form-control" name="reg-em" id="reg-em" required>
-                            <div class="invalid-feedback">
-                                Required - Please enter your email.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="reg-phone" class="form-label">Phone with Area Code</label>
-                            <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
-                            <div class="invalid-feedback">
-                                Optional - Please enter a valid phone number.
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <label for="reg-addr" class="form-label">Mailing Address</label>
-                            <input type="text" class="form-control" name="reg-addr" id="reg-addr">
-                            <div class="invalid-feedback">
-                                Optional - Please enter your address.
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="reg-city" class="form-label">City</label>
-                            <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
-                            <div class="invalid-feedback">
-                                Optional - Please enter a city.
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <label for="reg-state" class="form-label">State</label>
-                            <select class="form-select" name="reg-state" id="reg-state">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="AL">Alabama</option>
-                                <option value="AK">Alaska</option>
-                                <option value="AZ">Arizona</option>
-                                <option value="AR">Arkansas</option>
-                                <option value="CA">California</option>
-                                <option value="CO">Colorado</option>
-                                <option value="CT">Connecticut</option>
-                                <option value="DE">Delaware</option>
-                                <option value="DC">District of Columbia</option>
-                                <option value="FL">Florida</option>
-                                <option value="GA">Georgia</option>
-                                <option value="HI">Hawaii</option>
-                                <option value="ID">Idaho</option>
-                                <option value="IL">Illinois</option>
-                                <option value="IN">Indiana</option>
-                                <option value="IA">Iowa</option>
-                                <option value="KS">Kansas</option>
-                                <option value="KY">Kentucky</option>
-                                <option value="LA">Louisiana</option>
-                                <option value="ME">Maine</option>
-                                <option value="MD">Maryland</option>
-                                <option value="MA">Massachusetts</option>
-                                <option value="MI">Michigan</option>
-                                <option value="MN">Minnesota</option>
-                                <option value="MS">Mississippi</option>
-                                <option value="MO">Missouri</option>
-                                <option value="MT">Montana</option>
-                                <option value="NE">Nebraska</option>
-                                <option value="NV">Nevada</option>
-                                <option value="NH">New Hampshire</option>
-                                <option value="NJ">New Jersey</option>
-                                <option value="NM">New Mexico</option>
-                                <option value="NY">New York</option>
-                                <option value="NC">North Carolina</option>
-                                <option value="ND">North Dakota</option>
-                                <option value="OH">Ohio</option>
-                                <option value="OK">Oklahoma</option>
-                                <option value="OR">Oregon</option>
-                                <option value="PA">Pennsylvania</option>
-                                <option value="RI">Rhode Island</option>
-                                <option value="SC">South Carolina</option>
-                                <option value="SD">South Dakota</option>
-                                <option value="TN">Tennessee</option>
-                                <option value="TX">Texas</option>
-                                <option value="UT">Utah</option>
-                                <option value="VT">Vermont</option>
-                                <option value="VA">Virginia</option>
-                                <option value="WA">Washington</option>
-                                <option value="WV">West Virginia</option>
-                                <option value="WI">Wisconsin</option>
-                                <option value="WY">Wyoming</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Optional - Please select your state.
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <label for="reg-zc" class="form-label">Zip Code</label>
-                            <input type="text" class="form-control" name="reg-zc" id="reg-zc">
-                            <div class="invalid-feedback">
-                                Optional - Please enter your zip code.
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <label for="reg-fs" class="form-label">Fellowship *</label>
-                            <select class="form-select" name="reg-fs" id="reg-fs" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="A.A.">A.A.</option>
-                                <option value="Al-Anon">Al-Anon</option>
-                                <option value="Double Winner">Double Winner</option>
-                                <option value="Other">Other</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please enter your Fellowship
-                            </div>
-                        </div>
-
-                        <div class="col-md-8">
-                            <label for="reg-hg" class="form-label">Homegroup(s)</label>
-                            <input type="text" class="form-control" name="reg-hg" id="reg-hg">
-                            <div class="invalid-feedback">
-                                Optional - Please enter your Homegroup(s)
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5">
-                            <p class="h5">REGISTRATION *</p>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
-                                <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
-                            </div>
-                            <div class="form-check mb-3">
-                                <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value="after" onChange="optionSND(this)" required>
-                                <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
+                            <div class="col-md-6">
+                                <label for="reg-fn" class="form-label">First Name *</label>
+                                <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                                 <div class="invalid-feedback">
-                                    Required - Please check one.
+                                    Required - Please enter your first name.
                                 </div>
                             </div>
-                            <ul>
-                                <li>Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
-                                <li>Saturday Night Dance is free with your paid registration.</li>
-                            </ul>
-                        </div>
 
-                        <div class="col-lg-7">
-                            <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
-                            <ul>
-                                <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
-                                </li>
-                                <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
-                                </li>
-                                <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
-                                </li>
-                            </ul>
-
-                            <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
-                            <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided" disabled>Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm)* - $25 </label>
-                            <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am)* - $10</label>
-                            <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm)* - $5</label>
-                            <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">Yes, please!</option>
-                                <option value="no">No thank you</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-lg-6">
-                            <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
-                            <select class="form-select" name="reg-snd" id="reg-snd">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="yes">I'll be wearing my dancing shoes!</option>
-                                <option value="no">I don't dance...LOL</option>
-                                <option value="undecided">Still deciding</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Optional - Please select one.
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
-                            <select class="form-select" name="reg-hhc" id="reg-hhc">
-                                <option selected disabled value="">Choose...</option>
-                                <option value="5">$5</option>
-                                <option value="10">$10</option>
-                                <option value="20">$20</option>
-                                <option value="35">$35</option>
-                                <option value="45">$45</option>
-                                <option value="50">$50</option>
-                                <option value="100">$100</option>
-                                <option value="other">Other</option>
-                                <option value="no thank you">No thank you</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Optional - Please enter your Contribution.
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <div class="col-md-6">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
-                                <label class="form-check-label" for="invalidCheck">
-                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
-                                </label>
+                            <div class="col-md-6">
+                                <label for="reg-ln" class="form-label">Last Name or Initial *</label>
+                                <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
                                 <div class="invalid-feedback">
-                                    Required - You must agree before submitting.
+                                    Required - Please enter your last name or initial.
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6">
-                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
-                            <select class="form-select" name="reg-pm" id="reg-pm" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="venmo">Venmo</option>
-                                <option value="cash">Cash</option>
-                                <option value="check">Check</option>
-                                <option value="paypal">PayPal</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Required - Please select one.
+                            <div class="col-md-6">
+                                <label for="reg-em" class="form-label">Email *</label>
+                                <input type="email" class="form-control" name="reg-em" id="reg-em" required>
+                                <div class="invalid-feedback">
+                                    Required - Please enter your email.
+                                </div>
                             </div>
-                        </div>
 
-
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id="reCaptcha-warning">
-                                Note: The form will reset if unchecked.
+                            <div class="col-md-6">
+                                <label for="reg-phone" class="form-label">Phone with Area Code</label>
+                                <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <div class="invalid-feedback">
+                                    Optional - Please enter a valid phone number.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
+                            <div class="col-md-12">
+                                <label for="reg-addr" class="form-label">Mailing Address</label>
+                                <input type="text" class="form-control" name="reg-addr" id="reg-addr">
+                                <div class="invalid-feedback">
+                                    Optional - Please enter your address.
+                                </div>
+                            </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
+                            <div class="col-md-6">
+                                <label for="reg-city" class="form-label">City</label>
+                                <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
+                                <div class="invalid-feedback">
+                                    Optional - Please enter a city.
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="reg-state" class="form-label">State</label>
+                                <select class="form-select" name="reg-state" id="reg-state">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Optional - Please select your state.
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="reg-zc" class="form-label">Zip Code</label>
+                                <input type="text" class="form-control" name="reg-zc" id="reg-zc">
+                                <div class="invalid-feedback">
+                                    Optional - Please enter your zip code.
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="reg-fs" class="form-label">Fellowship *</label>
+                                <select class="form-select" name="reg-fs" id="reg-fs" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="A.A.">A.A.</option>
+                                    <option value="Al-Anon">Al-Anon</option>
+                                    <option value="Double Winner">Double Winner</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please enter your Fellowship
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <label for="reg-hg" class="form-label">Homegroup(s)</label>
+                                <input type="text" class="form-control" name="reg-hg" id="reg-hg">
+                                <div class="invalid-feedback">
+                                    Optional - Please enter your Homegroup(s)
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5">
+                                <p class="h5">REGISTRATION *</p>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
+                                    <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value="after" onChange="optionSND(this)" required>
+                                    <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
+                                    <div class="invalid-feedback">
+                                        Required - Please check one.
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
+                                    <li>Saturday Night Dance is free with your paid registration.</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
+                                <ul>
+                                    <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
+                                    </li>
+                                    <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
+                                    </li>
+                                    <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
+                                    </li>
+                                </ul>
+
+                                <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
+                                <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided" disabled>Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please select one.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm)* - $25 </label>
+                                <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please select one.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am)* - $10</label>
+                                <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please select one.
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm)* - $5</label>
+                                <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">Yes, please!</option>
+                                    <option value="no">No thank you</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please select one.
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="col-lg-6">
+                                <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                                <select class="form-select" name="reg-snd" id="reg-snd">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="yes">I'll be wearing my dancing shoes!</option>
+                                    <option value="no">I don't dance...LOL</option>
+                                    <option value="undecided">Still deciding</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Optional - Please select one.
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
+                                <select class="form-select" name="reg-hhc" id="reg-hhc">
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="5">$5</option>
+                                    <option value="10">$10</option>
+                                    <option value="20">$20</option>
+                                    <option value="35">$35</option>
+                                    <option value="45">$45</option>
+                                    <option value="50">$50</option>
+                                    <option value="100">$100</option>
+                                    <option value="other">Other</option>
+                                    <option value="no thank you">No thank you</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Optional - Please enter your Contribution.
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        Required - You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                                <select class="form-select" name="reg-pm" id="reg-pm" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="venmo">Venmo</option>
+                                    <option value="cash">Cash</option>
+                                    <option value="check">Check</option>
+                                    <option value="paypal">PayPal</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Required - Please select one.
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                                <div id="reCaptcha-warning">
+                                    Note: The form will reset if unchecked.
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            </div>
+
+                            <div class="col-md-6 text-center">
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
