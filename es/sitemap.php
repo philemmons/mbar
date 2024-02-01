@@ -65,7 +65,7 @@ include_once 'header.inc'
 	<section class="container shadow-wrap">
 		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/">montereybayarearoundup.org/es/ Página Principal</a>
+				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/" class= "bb-link">montereybayarearoundup.org/es/ Página Principal</a>
 				</h3>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
@@ -83,7 +83,7 @@ include_once 'header.inc'
 						<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
 						<li class="no-bullet">
 							<ul class="level-1 list-group">
-								<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark bb-link">montereybayarearoundup.org/es/ <span class="lcount">18 Páginas</span></li>
+								<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">montereybayarearoundup.org/es/ <span class="lcount">18 Páginas</span></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Hogar</a></li>
 								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia 2024">Monterey Bay Area Roundup 2024 | Conferencia 2024</a></li>
