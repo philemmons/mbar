@@ -457,7 +457,7 @@ include_once 'header.inc'
                     </ul>
                     <br>
                     <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
-                        <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page.">
+                        <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."><span class="sr-only">(Abre una nueva ventana)<span>
                     </a>
                     <br><br>
                     See our local A.A. Central Office website (link above) for a current listing of meetings in the area, for after the conclusion of the conference.
@@ -519,7 +519,7 @@ include_once 'header.inc'
                     <h4 class="card-title mb-3 text-center">ADA ACCESSIBILITY</h4>
                     <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
                     </p>
-                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Abre una nueva ventana)<span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                     </p>
                     <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
                     </p>

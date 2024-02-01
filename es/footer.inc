@@ -32,7 +32,7 @@
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
                 <h3 class="text-center"><strong>Unirse <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                            <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupos privados de A.A. miembros."></a> Grupo Privado</strong></h3>
+                            <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupos privados de A.A. miembros."><span class="sr-only">(Abre una nueva ventana)<span></a> Grupo Privado</strong></h3>
                 <hr>
             </div>
         </div>

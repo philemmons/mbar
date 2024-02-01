@@ -168,37 +168,37 @@ include_once 'header.inc'
                 <div class="p-3 text-bg-light hero-text-border">
                     <figcaption class="figure-caption">
                         <h4 class="card-title text-center mb-3">EXPLORANDO MONTEREY y SUS ALREDEDORES</h4>
-                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)</a>
+                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)<span></a>
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa</a></p>
+                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Senderismo en Punta Lobos</a></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Acuario de la Bahía de Monterey</a></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Montar en bicicleta</a></p>
+                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Senderismo en Punta Lobos<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurantes</a></p>
+                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Acuario de la Bahía de Monterey<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmelo-Junto-Al-Mar</a></p>
+                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Montar en bicicleta<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurantes<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmelo-Junto-Al-Mar<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                     </div>
 
                     <div class="text-center pt-4">
-                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales</a></h4>
+                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales<span class="sr-only">(Abre una nueva ventana)<span></a></h4>
                         <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Intergrupo de la Bahía de Monterey de A.A. logo"></p>
                     </div>
                 </div>

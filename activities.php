@@ -171,33 +171,33 @@ include_once 'header.inc'
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast</a></p>
+                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos</a></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium</a></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling</a></p>
+                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants</a></p>
+                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea</a></p>
+                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea<span class="sr-only">(Abre una nueva ventana)<span></a></p>
                         </div>
                     </div>
 
                     <div class="text-center pt-4">
-                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings</a></h4>
+                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings<span class="sr-only">(Abre una nueva ventana)<span></a></h4>
                         <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
                     </div>
                 </div>

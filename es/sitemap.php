@@ -110,7 +110,7 @@ include_once 'header.inc'
 					<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
 
 					<div id="sitemap-footer">
-						Página creada con <a href="https://www.xml-sitemaps.com" class="bb-link" target="_blank">generador de mapas de sitio XML y HTML de Google</a> | Copyright &copia; 2005-2024 XML-Sitemaps.com
+						Página creada con <a href="https://www.xml-sitemaps.com" class="bb-link" target="_blank">generador de mapas de sitio XML y HTML de Google<span class="sr-only">(Abre una nueva ventana)<span></a> | Copyright &copia; 2005-2024 XML-Sitemaps.com
 					</div>
 				</div>
 			</div>

@@ -32,7 +32,7 @@
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
                 <p class="h3 text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."></a> Private Group</strong></p>
+                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Abre una nueva ventana)<span></a> Private Group</strong></p>
                 <hr>
             </div>
         </div>
