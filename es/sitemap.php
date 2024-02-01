@@ -35,7 +35,7 @@ include_once 'header.inc'
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownId">
 						<a class="nav-link" href="upcoming_event.php">Noche de Bingo</a>
-						<a class="nav-link" href="logo_contest.php">Concurso de Logotipos</a>
+						<a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
 					</div>
 				</li>
 				<li class="nav-item">
