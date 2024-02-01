@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation">
+<nav class="navbar navbar-expand-lg" role="navigation" aria-label="main navigation">
 	<div class="container">
 		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@ include_once 'header.inc'
 	<section class="container shadow-wrap">
 		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org" class= "list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Homepage">montereybayarearoundup.org Homepage</a>
+				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Homepage">montereybayarearoundup.org Homepage</a>
 				</h3>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">

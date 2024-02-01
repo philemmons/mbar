@@ -101,7 +101,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 </script>
 -->
 
-<nav class="navbar navbar-expand-lg" role="navigation">
+<nav class="navbar navbar-expand-lg" role="navigation" aria-label="main navigation">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -543,7 +543,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-6">
 
                         <?php } else {  ?>
-                            <p class= "h6"> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</p>
+                            <p class="h6"> Hello, there was no Registration selected which to update, and please select one from the Admin panel.</p>
 
                             <div class="col-lg-12">
                             <?php } ?>
