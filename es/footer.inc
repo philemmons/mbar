@@ -44,7 +44,7 @@
                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                 </p>
             </div>
-            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="navegación de pie de página">
+            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" role="navigation" aria-label="navegación de pie de página">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link nav-link-size" href="accessibility.php">Accesibilidad del sitio</a>
