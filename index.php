@@ -51,7 +51,7 @@ include_once 'header.inc'
 <main role="main">
     <!-- Hero Section -->
     <section class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" role= 'img' aria-label="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home" role='img' aria-label="Beautiful coastline of Monterey Bay overlooking Lover's Point.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
@@ -70,7 +70,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);"></i>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</a></p>
+                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</a></p>
                         <p class="card-text fw-bold">Check back soon for the next event!
                         </p>
                     </div>
@@ -83,7 +83,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="conference-2024.php">
-                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);"></i>Volunteers</a></p>
+                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers</a></p>
                         <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
                         </p>
                     </div>
@@ -102,7 +102,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="conference-2024.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);"></i>2024 Conference</a></p>
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference</a></p>
                         <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -115,7 +115,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="registration.php">
-                                <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);"></i>Registration</a></p>
+                                <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration</a></p>
                         <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -128,7 +128,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="activities.php">
-                                <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);"></i>Activities</a></p>
+                                <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities</a></p>
                         <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -143,7 +143,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="contact.php">
-                                <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);"></i>Committee</a></p>
+                                <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committee</a></p>
                         <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -156,7 +156,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);"></i>History</a></p>
+                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>History</a></p>
                         <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
                     </div>
                     <div class="card-footer text-center">
@@ -169,7 +169,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="contribution.php">
-                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);"></i>Contributions</a></p>
+                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Contributions</a></p>
                         <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
                     </div>
                     <div class="card-footer text-center">

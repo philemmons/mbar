@@ -250,7 +250,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>Conociendo gente maravillosa</a></p>
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conociendo gente maravillosa</a></p>
                         <p class="card-text">Conocí a las personas más maravillosas en MBAR 2019; ¡Verdaderamente feliz, alegre y libre! Gracias a todos por venir y compartir compañerismo con nosotros.</p>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ include_once 'header.inc'
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
                         <p class="card-title h6"><a href="registration.php">
-                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);"></i>El costo de la entrada: ¡no tiene precio!</a></p>
+                                <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>El costo de la entrada: ¡no tiene precio!</a></p>
                         <p class="card-text">¿Por qué tengo que pagar? ¿No es suficiente que sea voluntario? Esos fueron mis pensamientos en mi primer MBAR. Pero el costo de la entrada "no tiene precio"; los rostros alegres, los extraños que instantáneamente se convierten en amigos, dando mi tiempo, recibiendo mucho más amor del que jamás podría dar. "No tiene precio"</p>
                     </div>
                 </div>
