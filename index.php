@@ -129,7 +129,7 @@ include_once 'header.inc'
                     <div class="card-body">
                         <p class="card-title h6"><a href="activities.php">
                                 <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities</a></p>
-                        <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event.</strong>.</p>
+                        <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
