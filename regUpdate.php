@@ -406,7 +406,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                 Optional - Enter zip code.
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-fs" id="upd-fs" required>
@@ -528,11 +530,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <hr>
-                        <!-- Button trigger modal
-                        <div class="col-md-3">
-                            <button type="submit" name="submitUpdate" value="update" class="btn" data-bs-toggle="modal" data-bs-target="#updateModal">Update</btn>
-                        </div>
-                        -->
+
                         <div class="col-lg-3 text-center">
                             <button type="submit" class="btn btn-primary btn-sm" name="submitUpdate" value='update'>Update Registration</button>
                         </div>
@@ -540,6 +538,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         <div class="col-lg-3 text-center">
                             <button type="reset" name="reset" value="reset" class="btn btn-primary btn-sm"> Reset Registration</button>
                         </div>
+
                         <div class="col-lg-6">
 
                         <?php } else {  ?>
@@ -549,6 +548,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <?php } ?>
 
                             <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
+
                             </div>
 
                     </form>
@@ -573,6 +573,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             -->
 
     <?php include_once 'footer.inc' ?>
+
     <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
         (() => {
@@ -634,6 +635,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             document.getElementById(thisForm).reset();
         }
     </script>
+
     </body>
 
     </html>

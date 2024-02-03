@@ -241,6 +241,7 @@ include_once 'header.inc'
 
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -266,38 +267,38 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
+    </div>
 
 
+    <?php include_once 'footer.inc' ?>
 
-        <?php include_once 'footer.inc' ?>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
-        <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (() => {
-                'use strict'
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                const forms = document.querySelectorAll('.needs-validation')
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-                // Loop over them and prevent submission
-                Array.from(forms).forEach(form => {
-                    form.addEventListener('submit', event => {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script>
+        function resetFields() {
+            return confirm("Are you sure you want to reset all fields?");
+        }
+    </script>
 
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-            })()
-        </script>
-        <script>
-            function resetFields() {
-                return confirm("Are you sure you want to reset all fields?");
-            }
-        </script>
+    </body>
 
-        </body>
-
-        </html>
+    </html>

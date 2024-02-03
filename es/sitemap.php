@@ -115,9 +115,10 @@ include_once 'header.inc'
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<?php include_once 'footer.inc' ?>
+	
+	</body>
 
-		<?php include_once 'footer.inc' ?>
-		</body>
-
-		</html>
+	</html>
