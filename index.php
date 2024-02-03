@@ -183,7 +183,7 @@ include_once 'header.inc'
 </main>
 
 <!-- Part Three -->
-<article aria-label="about M.B.A.R.">
+<article>
     <div class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">

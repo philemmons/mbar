@@ -1,5 +1,5 @@
 <!-- Part Registration -->
-<article role="article" aria-label="enlace de registro de pie de página">
+<article aria-label="enlace de registro de pie de página">
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
