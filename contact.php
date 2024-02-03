@@ -49,7 +49,7 @@ include_once 'header.inc'
 </nav>
 
 <main role="main">
-    <!-- Hero Section -->
+    <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-contactUs" title="Please contact us with any questions, feedback, or improvements.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">

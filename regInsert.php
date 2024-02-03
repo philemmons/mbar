@@ -147,7 +147,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
 <main role="main">
 
-    <!-- Hero Section -->
+    <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-insert" title="Hiking in the Pfeiffer Big Sur and Julia Pfeiffer Burns State Parks.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">

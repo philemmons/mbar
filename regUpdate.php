@@ -148,7 +148,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
 <main role="main">
 
-    <!-- Hero Section -->
+    <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
