@@ -109,7 +109,7 @@ if (isset($_POST['logout'])) {
 
 
 
-  <!-- Section One -->
+  <!-- Part One -->
   <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-7 col-lg-7 col-md-12 py-4">

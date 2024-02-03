@@ -223,7 +223,7 @@ function displayRegAdmin($registration)
     </div>
   </nav>
 
-  <!-- Section One -->
+  <!-- Part One -->
   <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
@@ -342,7 +342,7 @@ function displayRegAdmin($registration)
     </div>
   </div>
 
-  <!-- Section Two -->
+  <!-- Part Two -->
   <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">

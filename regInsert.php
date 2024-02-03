@@ -194,7 +194,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     </nav>
 
 
-    <!-- Section One -->
+    <!-- Part One -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
 

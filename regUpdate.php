@@ -194,7 +194,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         </div>
     </nav>
 
-    <!-- Section One -->
+    <!-- Part One -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">

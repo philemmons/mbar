@@ -62,7 +62,7 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Section One -->
+    <!-- Part One -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
@@ -139,7 +139,7 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Section Two -->
+    <!-- Part Two -->
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">

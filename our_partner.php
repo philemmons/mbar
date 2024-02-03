@@ -63,7 +63,7 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Section One -->
+    <!-- Part One -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
@@ -86,7 +86,7 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Section Two -->
+    <!-- Part Two -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
@@ -107,7 +107,7 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Section Three -->
+    <!-- Part Three -->
     <div class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-4 text-center mb-1">
