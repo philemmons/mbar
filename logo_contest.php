@@ -50,7 +50,7 @@ include_once 'header.inc'
 
 <main role="main">
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Five past logo's as our banner.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Logo Contest 2024 winner and runner-ups.">
@@ -58,10 +58,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -75,10 +75,10 @@ include_once 'header.inc'
                 <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Two -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -87,7 +87,7 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <?php include_once 'footer.inc' ?>

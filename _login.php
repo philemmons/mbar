@@ -69,7 +69,7 @@ if (isset($_POST['logout'])) {
 <main role="main">
 
   <!-- Hero Section -->
-  <section class="container shadow-wrap">
+  <div class="container shadow-wrap">
     <div class="row justify-content-center py-6 bg-body-tertiary bg-img-login" title="Computer generated fractal with blue and orange colors.">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
@@ -78,7 +78,7 @@ if (isset($_POST['logout'])) {
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Bottom Navbar -->
   <nav class="navbar navbar-expand-lg mb-5" role="navigation">
@@ -110,7 +110,7 @@ if (isset($_POST['logout'])) {
 
 
   <!-- Section One -->
-  <section class="container shadow-wrap">
+  <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-7 col-lg-7 col-md-12 py-4">
         <div class="p-3 text-center text-bg-light hero-text-border" title="Please login to continue.">
@@ -127,46 +127,46 @@ if (isset($_POST['logout'])) {
           </div>
         </div>
       </div>
-  </section>
+    </div>
 
 
 
-  <!-- Modal -->
-  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-bg-light hero-text-border" id="loginModalLabel">
 
-          <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate>
+            <form method="POST" class="row g-1 needs-validation" name="loginForm" novalidate>
 
-            <label for="ittLM">Username</label>
-            <input type="text" class="form-control" name="formUN" id="ittLM" required>
-            <div class="invalid-feedback">
-              Required
-            </div>
+              <label for="ittLM">Username</label>
+              <input type="text" class="form-control" name="formUN" id="ittLM" required>
+              <div class="invalid-feedback">
+                Required
+              </div>
 
-            <label for="itpLM">Password</label>
-            <input type="password" class="form-control" name="formPW" id="itpLM" required>
-            <div class="invalid-feedback">
-              Required
-            </div>
+              <label for="itpLM">Password</label>
+              <input type="password" class="form-control" name="formPW" id="itpLM" required>
+              <div class="invalid-feedback">
+                Required
+              </div>
 
-            <div class="d-grid col-sm-5 mx-auto pt-3">
-              <input type="submit" name="login" value="Login" class="btn btn-primary">
-            </div>
+              <div class="d-grid col-sm-5 mx-auto pt-3">
+                <input type="submit" name="login" value="Login" class="btn btn-primary">
+              </div>
 
-            <div class="d-grid col-sm-5 mx-auto pt-3">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            </div>
-          </form>
+              <div class="d-grid col-sm-5 mx-auto pt-3">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </form>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <?php include_once 'footer.inc' ?>
+    <?php include_once 'footer.inc' ?>
 
-  </body>
+    </body>
 
-  </html>
+    </html>

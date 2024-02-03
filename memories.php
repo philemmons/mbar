@@ -50,7 +50,7 @@ include_once 'header.inc'
 
 <main role="main">
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Colorful trees during the fall.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
@@ -59,10 +59,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Memories are in the making.">
@@ -242,9 +242,9 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="container">
+    <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
@@ -265,39 +265,39 @@ include_once 'header.inc'
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
 
 
 
-    <?php include_once 'footer.inc' ?>
+        <?php include_once 'footer.inc' ?>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+                'use strict'
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                const forms = document.querySelectorAll('.needs-validation')
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+                // Loop over them and prevent submission
+                Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script>
-        function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
-        }
-    </script>
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+        <script>
+            function resetFields() {
+                return confirm("Are you sure you want to reset all fields?");
+            }
+        </script>
 
-    </body>
+        </body>
 
-    </html>
+        </html>

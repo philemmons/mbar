@@ -50,7 +50,7 @@ include_once 'header.inc'
 
 <main role="main">
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Archivo de la Conferencia MBAR 2022">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
@@ -59,10 +59,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="">
@@ -77,10 +77,10 @@ include_once 'header.inc'
                 <img class="img-fluid" src="../images/conference-room.png" alt="Sala de reuniones del Monterey Conference Center, sillas alineadas frente a un escenario y más allá de A.A. pancartas de conferencias.">
             </div>
         </div>
-    </section>
+    </div>
 
     <!--Section Two-->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -276,10 +276,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Three -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción para 2024 ya está abierta!">
@@ -312,10 +312,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Four -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
@@ -327,10 +327,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Five -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -348,10 +348,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Six -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -372,10 +372,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Seven -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
@@ -400,7 +400,7 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <?php include_once 'footer.inc' ?>

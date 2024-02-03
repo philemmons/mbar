@@ -50,7 +50,7 @@ include_once 'header.inc'
 
 <main role="main">
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
@@ -60,10 +60,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
@@ -80,10 +80,10 @@ include_once 'header.inc'
                 <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Two -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -101,11 +101,11 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Three -->
     <div id="map"></div>
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -126,10 +126,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Four -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
@@ -154,7 +154,7 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <?php include_once 'footer.inc' ?>

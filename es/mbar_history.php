@@ -50,7 +50,7 @@ include_once 'header.inc'
 
 <main role="main">
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Increíble Playa Estatal de Monterey">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Únete a nosotros en la comunión.">
@@ -60,10 +60,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
@@ -137,10 +137,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section Two -->
-    <section class="container">
+    <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
@@ -198,7 +198,7 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <?php include_once 'footer.inc' ?>

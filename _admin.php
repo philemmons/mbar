@@ -178,7 +178,7 @@ function displayRegAdmin($registration)
 
 <main role="main">
   <!-- Hero Section -->
-  <section class="container shadow-wrap">
+  <div class="container shadow-wrap">
     <div class="row justify-content-center py-6 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">
       <div class="col-xl-7 col-lg-7 col-md-12 py-5">
         <div class="p-3 text-center text-bg-light hero-text-border">
@@ -188,10 +188,10 @@ function displayRegAdmin($registration)
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Bottom Navbar -->
-  <nav class="navbar navbar-expand-lg mb-5" role="navigation" aria-label= "middle navigation">
+  <nav class="navbar navbar-expand-lg mb-5" role="navigation" aria-label="middle navigation">
     <div class="container">
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -224,7 +224,7 @@ function displayRegAdmin($registration)
   </nav>
 
   <!-- Section One -->
-  <section class="container shadow-wrap">
+  <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
@@ -340,10 +340,10 @@ function displayRegAdmin($registration)
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Section Two -->
-  <section class="container shadow-wrap">
+  <div class="container shadow-wrap">
     <div class="row justify-content-center mb-5">
       <div class="col-xl-12 py-4">
         <div class="p-3 text-bg-light hero-text-border">
@@ -388,7 +388,7 @@ function displayRegAdmin($registration)
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
 
   <?php include_once 'footer.inc' ?>

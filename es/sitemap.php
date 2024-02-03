@@ -51,7 +51,7 @@ include_once 'header.inc'
 
 <main role="main">
 	<!-- Hero Section -->
-	<section class="container shadow-wrap">
+	<div class="container shadow-wrap">
 		<div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-sitemap" title="Virtual network on a navy blue background.">
 			<div class="col-xl-7 col-lg-7 col-md-12 py-5">
 				<div class="p-3 text-center text-bg-light hero-text-border" title="HTML Site Map - assist with indexing">
@@ -60,9 +60,9 @@ include_once 'header.inc'
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section class="container shadow-wrap">
+	<div class="container shadow-wrap">
 		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Página Principal">montereybayarearoundup.org/es/ Página Principal</a>
@@ -114,10 +114,10 @@ include_once 'header.inc'
 					</div>
 				</div>
 			</div>
-	</section>
+		</div>
 
 
-	<?php include_once 'footer.inc' ?>
-	</body>
+		<?php include_once 'footer.inc' ?>
+		</body>
 
-	</html>
+		</html>

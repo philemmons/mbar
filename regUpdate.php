@@ -149,7 +149,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 <main role="main">
 
     <!-- Hero Section -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-update" title="Seychelles beach during a beautiful day by Chris Blaichch.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
@@ -159,10 +159,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand-lg mb-5" role="navigation" aria-label= "middle navigation">
+    <nav class="navbar navbar-expand-lg mb-5" role="navigation" aria-label="middle navigation">
         <div class="container">
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -195,7 +195,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     </nav>
 
     <!-- Section One -->
-    <section class="container shadow-wrap">
+    <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">
                 <h3>Update Registration Info</h3>
@@ -554,7 +554,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                     </form>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Modal
             <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
