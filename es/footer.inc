@@ -1,5 +1,5 @@
 <!-- Part Registration -->
-<article>
+<article aria-label="información de registro y enlace">
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">

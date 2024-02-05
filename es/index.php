@@ -64,15 +64,15 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <article>
+    <article aria-label="tarjetas de información">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge.</a></p>
-                            <p class="card-text fw-bold">Vuelva pronto para conocer el próximo evento!
+                            <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
+                            </p>
+                            <p class="card-text">Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge. <strong>Vuelva pronto para conocer el próximo evento!</strong>
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -83,8 +83,8 @@ include_once 'header.inc'
                 <div class="col-lg-6 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios</a></p>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
+                            </p>
                             <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
                             </p>
                         </div>
@@ -102,8 +102,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conferencia 2024</a></p>
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conferencia 2024
+                            </p>
                             <p class="card-text">Calendario de eventos durante nuestro reunirs de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -115,8 +115,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registro</a></p>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registro
+                            </p>
                             <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -128,8 +128,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades</a></p>
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
+                            </p>
                             <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -143,8 +143,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comité</a></p>
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comité
+                            </p>
                             <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir a nuestras reuniones mensuales.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -156,8 +156,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Historia</a></p>
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Historia
+                            </p>
                             <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -169,8 +169,8 @@ include_once 'header.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6">
-                                    <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Contribuciones</a></p>
+                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Contribuciones
+                            </p>
                             <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
                         </div>
                         <div class="card-footer text-center">
@@ -185,7 +185,7 @@ include_once 'header.inc'
 </main>
 
 <!-- Part Three -->
-<article>
+<article aria-label="definición de grupo">
     <div class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">
