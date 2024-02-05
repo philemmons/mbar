@@ -4,8 +4,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <p class="h3 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                    </p>
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    </h3>
                     <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
                     <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
@@ -22,17 +22,17 @@
             </div>
             <div class='col-sm-8 col-md-6 p-4'>
                 <h4>Our Statement of Responsibility:</h4>
-                <h4>I am responsible.<br>
+                <p class="h4">I am responsible.<br>
                     When anyone, anywhere, reaches out for help, I want the hand of A.A. always to be there.<br>
                     And for that I am responsible.
-                </h4>
+                </p>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
-                <p class="h3 text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Opens a new window)<span></a> Private Group</strong></p>
+                <h4 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
+                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Opens a new window)<span></a> Private Group</strong></h4>
                 <hr>
             </div>
         </div>
