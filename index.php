@@ -72,7 +72,7 @@ include_once 'header.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
-                            <p class="card-text">Thanks everyone for joining us in Bingo Night at the Moose Lodge. <strong>Check back soon for the next event!</strong>
+                            <p class="card-text"><strong>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</strong> Check back soon for the next event!
                             </p>
                         </div>
                         <div class="card-footer text-center">
