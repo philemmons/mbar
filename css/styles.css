@@ -271,11 +271,10 @@ nav {
 
 /**** card section two ****/
 
-.card-title>a {
+.card-title {
   color: var(--color-7);
   text-transform: uppercase;
   letter-spacing: 1px;
-  text-decoration: none;
 }
 
 /**** big book href ****/

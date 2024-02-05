@@ -63,123 +63,124 @@ include_once 'header.inc'
         </div>
     </div>
 
-    <!-- Part One -->
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-6 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="upcoming_event.php">
-                                <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</a></p>
-                        <p class="card-text fw-bold">Check back soon for the next event!
-                        </p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View more info here</a></small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="conference-2024.php">
-                                <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers</a></p>
-                        <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
-                        </p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Let us know if you are interested</a></small>
+    <article>
+        <!-- Part One -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Thanks everyone for joining us in Bingo Night at the Moose Lodge.</a></p>
+                            <p class="card-text fw-bold">Check back soon for the next event!
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View more info here</a></small>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Part Two -->
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="conference-2024.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference</a></p>
-                        <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="registration.php">
-                                <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration</a></p>
-                        <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="activities.php">
-                                <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities</a></p>
-                        <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
+                <div class="col-lg-6 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers</a></p>
+                            <p class="card-text">Most of us have found that volunteering to do service improves the quality of our recovery. In other words, you get what you give.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Let us know if you are interested</a></small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class=" row justify-content-center mb-5">
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="contact.php">
-                                <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committee</a></p>
-                        <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference</a></p>
+                            <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">See Archives of 2022</a></small>
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contact Us</a></small>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration</a></p>
+                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="registration.php" class="btn btn-primary">Pre-Registration is Live</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities</a></p>
+                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview</a></small>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>History</a></p>
-                        <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committee</a></p>
+                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Contact Us</a></small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="contribution.php">
-                                <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Contributions</a></p>
-                        <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>History</a></p>
+                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Our Past</a></small>
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6">
+                                    <i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Contributions</a></p>
+                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </article>
 </main>
 
 <!-- Part Three -->
