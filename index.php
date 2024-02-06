@@ -181,10 +181,9 @@ include_once 'header.inc'
             </div>
         </div>
     </article>
-</main>
 
 <!-- Part Three -->
-<article aria-label="group definition">
+<section aria-label="group definition">
     <div class="container mb-5 py-2 px-4">
         <div class="row">
             <div class="col-lg-8">
@@ -204,7 +203,7 @@ include_once 'header.inc'
             </div>
         </div>
     </div>
-</article>
+</section>
 
 
 <?php include_once 'footer.inc' ?>

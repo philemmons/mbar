@@ -1,18 +1,20 @@
 <!-- Part Registration -->
-<article aria-label="registration info and link">
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
-                    <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+    <article aria-label="registration info and link">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                        <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                        </h3>
+                        <p class="mb-6 h4 text-dark">Labor Day Weekend, August 31st and September 1st </p>
+                        <a href="registration.php" class="btn btn-primary me-2">Register Now</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</article>
+    </article>
+    
+</main>
 
 <footer role="contentinfo">
     <div class='container top-footer'>

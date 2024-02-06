@@ -182,8 +182,6 @@ include_once 'header.inc'
         </div>
     </article>
 
-</main>
-
 <!-- Part Three -->
 <article aria-label="definición de grupo">
     <div class="container mb-5 py-2 px-4">
