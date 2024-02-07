@@ -46,7 +46,7 @@
     <header class='container' role="banner">
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
-                <h1>MONTEREY BAY AREA ROUNDUP</h1>
+                <h1 class= "text-uppercase">Monterey Bay Area Roundup</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
                 <p class="font-italic">Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer un compañerismo a tu alrededor, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte.</p>
             </div>

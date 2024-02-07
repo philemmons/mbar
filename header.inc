@@ -17,7 +17,7 @@
 
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Monterey Bay Area Roundup 2024</title>
@@ -46,7 +46,7 @@
     <header class='container' role="banner">
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
-                <h1>MONTEREY BAY AREA ROUNDUP</h1>
+                <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
                 <p class="font-italic">To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.</p>
             </div>
