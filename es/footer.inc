@@ -1,23 +1,24 @@
 <!-- Part Registration -->
-    <article aria-label="información de registro y enlace">
-        <div class="container shadow-wrap">
-            <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                        <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
-                        </h3>
-                        <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
-                        <a href="registration.php" class="btn btn-primary me-2">Regístrate Ahora</a>
-                    </div>
+<article aria-label="información de registro y enlace">
+    <div class="container shadow-wrap">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
+                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
+                    </h3>
+                    <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
+                    <a href="registration.php" class="btn btn-primary me-2">Regístrate Ahora</a>
                 </div>
             </div>
         </div>
-    </article>
+    </div>
+</article>
 
 </main>
 
-<footer role="contentinfo">
-    <div class='container top-footer'>
+
+<div class='container top-footer'>
+    <aside role="complementary">
         <div class=" row justify-content-md-center">
             <div class='col-sm-4 banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
@@ -30,6 +31,9 @@
                 </p>
             </div>
         </div>
+    </aside>
+
+    <aside role="complementary">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
@@ -38,8 +42,10 @@
                 <hr>
             </div>
         </div>
-    </div>
+    </aside>
+</div>
 
+<footer role="contentinfo">
     <div class='container'>
         <div class="row justify-content-md-center">
             <div class="col-sm-12" id="footer-image" alt="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
