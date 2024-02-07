@@ -18,7 +18,7 @@
 
 
 <div class='container top-footer'>
-    <aside role="complementary">
+    <aside role="complementary" aria-label="declaración de responsabilidad">
         <div class=" row justify-content-md-center">
             <div class='col-sm-4 banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
@@ -33,7 +33,7 @@
         </div>
     </aside>
 
-    <aside role="complementary">
+    <aside role="complementary" aria-label="grupo privado de facebook">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
