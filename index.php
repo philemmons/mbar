@@ -63,8 +63,8 @@ include_once 'header.inc'
         </div>
     </div>
 
+    <!-- Part One -->
     <article aria-label="information cards">
-        <!-- Part One -->
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 mb-3 mb-lg-0 px-4">
@@ -109,76 +109,77 @@ include_once 'header.inc'
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">2022 Conference Schedule</a></small>
                         </div>
-                    </div </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
-                                </p>
-                                <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Register Now</a></small>
-                            </div>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities
-                                </p>
-                                <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
-                            </div>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
+                            </p>
+                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Register Now</a></small>
                         </div>
                     </div>
                 </div>
 
-                <div class=" row justify-content-center mb-5">
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
-                                </p>
-                                <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings too.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us</a></small>
-                            </div>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities
+                            </p>
+                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
-                                </p>
-                                <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
-                                </p>
-                                <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Contribution</a></small>
-                            </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
+                            </p>
+                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings too.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
+                            </p>
+                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
+                            </p>
+                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Contribution</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <!-- Part Three -->
