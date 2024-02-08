@@ -435,7 +435,6 @@ ul.level-1>li.ms-5 {
   left: 0.5em;
   right: auto;
   top: 0.5em;
-  width: 10em;
   opacity: 1;
   transition: transform 0.1875s ease-out;
   background-color: var(--color-11);
