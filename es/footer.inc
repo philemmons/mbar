@@ -14,7 +14,7 @@
     </div>
 </article>
 
-<a href="#toTop" class= "btn btn-primary back-to-top" id= "back-to-top-link"><i class="bi bi-arrow-up" aria-hidden="true"></i> Volver Arriba</a>
+<a href="#toTop" class= "btn btn-primary back-to-top" id= "back-to-top-link" title= "Volver Arriba" aria-label= "Volver Arriba"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
 
 </main>
 
