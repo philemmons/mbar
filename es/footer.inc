@@ -55,13 +55,13 @@
             <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" role="navigation" aria-label="menú de pie de página">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-size" href="accessibility.php">Accesibilidad del sitio</a>
+                        <a class="nav-link nav-link-size" href="accessibility.php">Accesibilidad del Sitio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-size" href="privacy-policy.php">Política de privacidad</a>
+                        <a class="nav-link nav-link-size" href="privacy-policy.php">Política de Privacidad</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                        <a class="nav-link nav-link-size" href="sitemap.php">Mapa del sitio</a>
+                        <a class="nav-link nav-link-size" href="sitemap.php">Mapa del Sitio</a>
                     </li>
                 </ul>
             </nav>
