@@ -54,7 +54,7 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">MBAR 2024 Pre-Registration is Live</span>
+                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h2>
                     <p class="mb-6 h2 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
