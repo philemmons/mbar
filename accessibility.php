@@ -61,49 +61,53 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
-                    <h3 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">MBAR's General Accessibility Statement</span>
-                    </h3>
-                    <p class="mb-3 text-dark">montereybayarearoundup.org strives to ensure that its services are accessible to people with disabilities. montereybayarearoundup.org has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that every person has the right to live with dignity, equality, comfort and independence.</p>
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-bg-light hero-text-border" title="Our belief of inclusiveness nurtures our desire for recovery">
+                        <section aria-label="accessibility statement">
+                            <h3 class="fw-bold text-primary">
+                                <span class="text-dark px-3 px-md-0">MBAR's General Accessibility Statement</span>
+                            </h3>
+                            <p class="mb-3 text-dark">montereybayarearoundup.org strives to ensure that its services are accessible to people with disabilities. montereybayarearoundup.org has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that every person has the right to live with dignity, equality, comfort and independence.</p>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-bg-light hero-text-border" title="">
+                        <section aria-label="accessibility method">
+                            <h4 class="fw-bold text-primary">
+                                <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
+                            </h4>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
-                    </h4>
+                            <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. Various site checkers allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
 
-                    <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. Various site checkers allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
+                            <h4 class="fw-bold text-primary">
+                                <span class="text-dark px-3 px-md-0">Disclaimer</span>
+                            </h4>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Disclaimer</span>
-                    </h4>
+                            <p class="mb-3 text-dark">montereybayarearoundup.org continues its efforts to constantly improve the accessibility of its site and services in the belief that it is our collective moral obligation to allow seamless, accessible and unhindered use also for those of us with disabilities.</p>
 
-                    <p class="mb-3 text-dark">montereybayarearoundup.org continues its efforts to constantly improve the accessibility of its site and services in the belief that it is our collective moral obligation to allow seamless, accessible and unhindered use also for those of us with disabilities.</p>
+                            <p class="mb-3 text-dark">Despite our efforts to make all pages and content on montereybayarearoundup.org fully accessible, some content may not have yet been fully adapted to the strictest accessibility standards. This may be a result of not having found or identified the most appropriate technological solution.</p>
 
-                    <p class="mb-3 text-dark">Despite our efforts to make all pages and content on montereybayarearoundup.org fully accessible, some content may not have yet been fully adapted to the strictest accessibility standards. This may be a result of not having found or identified the most appropriate technological solution.</p>
+                            <h4 class="fw-bold text-primary">
+                                <span class="text-dark px-3 px-md-0">Here For You</span>
+                            </h4>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Here For You</span>
-                    </h4>
+                            <p class="mb-3 text-dark">If you are experiencing any difficulty or frustration with any content on montereybayarearoundup.org or require assistance with any part of our site, please contact us, and we will be happy to assist.</p>
 
-                    <p class="mb-3 text-dark">If you are experiencing difficulty with any content on montereybayarearoundup.org or require assistance with any part of our site, please contact us, and we will be happy to assist.</p>
+                            <h4 class="fw-bold text-primary">
+                                <span class="text-dark px-3 px-md-0">Contact Us</span>
+                            </h4>
 
-                    <h4 class="fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Contact Us</span>
-                    </h4>
-
-                    <p class="mb-3 text-dark">If you wish to report an accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org customer support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin with ADA request</a></p>
-
+                            <p class="mb-3 text-dark">If you wish to report any accessibility issue, have any questions or need assistance, please contact montereybayarearoundup.org technical support as follows - Email: <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin with ADA request</a></p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <?php include_once 'footer.inc' ?>
     </body>
