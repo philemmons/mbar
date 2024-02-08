@@ -43,7 +43,7 @@
 </head>
 
 <body id="toTop">
-    <a href="#main-content" class="btn btn-warning btn-lg btn-skip" aria-label="Skip to main content">Skip to Content</a>
+    <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Go To Main Content">Go To Main Content</a>
     <header class='container' role="banner">
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
