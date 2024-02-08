@@ -9,6 +9,8 @@
   --color-7: #595959;
   --color-8: #8b8b8b;
 
+  --color-11: #113362;
+
   --error-color: #ff0019;
   --success-color: #0ece3b;
 
@@ -261,6 +263,7 @@ nav {
 .btn-primary {
   --bs-btn-bg: #0000ff;
   --bs-btn-hover-bg: #22aaff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
 
 /**** card section one ****/
@@ -420,4 +423,6 @@ ul.level-1>li.ms-5 {
   transition: opacity .5s linear;
   z-index: 11;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  background-color: var(--color-11);
+  font-size: 0.8rem;
 }

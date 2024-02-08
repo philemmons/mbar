@@ -14,7 +14,7 @@
     </div>
 </article>
 
-<a href="#toTop" class= "btn btn-primary back-to-top" id= "back-to-top-link"><i class="bi bi-arrow-up" style="font-size: 2rem;" aria-hidden="true"></i> Back To Top</a>
+<a href="#toTop" class= "btn btn-primary back-to-top" id= "back-to-top-link"><i class="bi bi-arrow-up" aria-hidden="true"></i> Back to Top</a>
 
 </main>
 
