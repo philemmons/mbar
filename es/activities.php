@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item active" aria-current="page" href="activities.php">Activities<span class="visually-hidden">(actual)</span></a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item" href="memories.php">Recuerdos</a>

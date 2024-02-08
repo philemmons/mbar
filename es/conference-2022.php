@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia<span class="visually-hidden">(actual)</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item" aria-current="page" href="memories.php">Recuerdos<span class="visually-hidden">(Conferencia 2022, haga clic para regresar)</span></a>
@@ -283,7 +283,7 @@ include_once 'header.inc'
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción para 2024 ya está abierta!">
-                    <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
+                    <a href="register-now.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
                         <img class="img-fluid" src="../images/button-reg-es.png" alt="Logotipo de nutria marina 2022 con texto de registro aquí.">
                     </a>
                 </div>

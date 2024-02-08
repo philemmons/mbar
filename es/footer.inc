@@ -7,7 +7,7 @@
                     <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Regístrate Ahora</a>
+                    <a href="register-now.php" class="btn btn-primary me-2">Regístrate Ahora</a>
                 </div>
             </div>
         </div>

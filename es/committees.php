@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item" href="memories.php">Recuerdos</a>
@@ -73,6 +73,7 @@ include_once 'header.inc'
 
             <div class="col-xl-11 col-lg-9 col-md-7 py-4">
                 <table class="table table-bordered">
+                    <caption>Funciones y miembros del Comité de Planificación 2019 a 2024</caption>
                     <thead class="table-dark">
                         <tr class="text-center">
                             <th>Comités</th>

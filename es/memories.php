@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item active" aria-current="page" href="memories.php">Recuerdos<span class="visually-hidden">(actual)</span></a>
@@ -259,7 +259,7 @@ include_once 'header.inc'
             <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <p class="card-title h6"><a href="registration.php">
+                        <p class="card-title h6"><a href="register-now.php">
                                 <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>El costo de la entrada: ¡no tiene precio!</a></p>
                         <p class="card-text">¿Por qué tengo que pagar? ¿No es suficiente que sea voluntario? Esos fueron mis pensamientos en mi primer MBAR. Pero el costo de la entrada "no tiene precio"; los rostros alegres, los extraños que instantáneamente se convierten en amigos, dando mi tiempo, recibiendo mucho más amor del que jamás podría dar. "No tiene precio"</p>
                     </div>

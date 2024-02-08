@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(current)</span></button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="registration.php">Registration</a>
+                        <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" aria-current="page" href="mbar_history.php">MBAR History<span class="visually-hidden">(2022 conference, click to go back)</span></a>
                         <a class="dropdown-item" href="memories.php">Memories</a>
@@ -282,7 +282,7 @@ include_once 'header.inc'
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
-                    <a href="registration.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
+                    <a href="register-now.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
                         <img class="img-fluid" src="../images/button-reg.png" alt="2022 sea otter logo with register here text.">
                     </a>
                 </div>

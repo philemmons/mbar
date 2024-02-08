@@ -17,7 +17,7 @@ include_once 'header.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item active" aria-current="page" href="conference-2024.php">MBAR 2024<span class="visually-hidden">(actual)</span></a>
-                        <a class="dropdown-item" href="registration.php">Registro</a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item" href="memories.php">Recuerdos</a>
@@ -72,7 +72,7 @@ include_once 'header.inc'
                         </span>
                     </h3>
                     <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
-                    <a href="registration.php" class="btn btn-primary me-2">Regístrese Ahora</a>
+                    <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
         </div>
