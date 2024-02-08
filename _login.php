@@ -66,7 +66,7 @@ if (isset($_POST['logout'])) {
   </div>
 </nav>
 
-<main role="main">
+<main role="main" id="main-content">
 
   <!-- Hero Part -->
   <div class="container shadow-wrap">

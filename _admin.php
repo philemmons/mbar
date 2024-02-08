@@ -176,7 +176,7 @@ function displayRegAdmin($registration)
   </div>
 </nav>
 
-<main role="main">
+<main role="main" id="main-content">
   <!-- Hero Part -->
   <div class="container shadow-wrap">
     <div class="row justify-content-center py-6 bg-body-tertiary bg-img-success" title="Succulent garden by the Bay">

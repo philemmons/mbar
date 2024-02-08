@@ -49,7 +49,7 @@ include_once 'header.inc'
      </div>
 </nav>
 
-<main role="main">
+<main role="main" id="main-content">
      <!-- Hero Part -->
      <div class="container shadow-wrap">
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">

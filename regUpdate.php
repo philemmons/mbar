@@ -146,7 +146,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     </div>
 </nav>
 
-<main role="main">
+<main role="main" id="main-content">
 
     <!-- Hero Part -->
     <div class="container shadow-wrap">
