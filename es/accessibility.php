@@ -26,7 +26,7 @@ include_once 'header.inc'
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-comités">
-                        <a class="dropdown-item" href="meetings.php">Reuniones</span></a>
+                        <a class="dropdown-item" href="meetings.php">Reuniones</a>
                         <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
@@ -54,7 +54,7 @@ include_once 'header.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-access" title="Accessibility workflow diagram with a laptop backdrop.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
-                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Declaración de accesibilidad</h1>
+                    <h2 class="display-6 fw-bold mb-3 text-primary"><span class="text-dark px-3 px-md-0">Declaración de accesibilidad</span></h2>
                 </div>
             </div>
         </div>
