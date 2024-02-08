@@ -62,104 +62,106 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row pt-4 mb-5">
-            <div class="col-lg-4 col-sm-12 col-12">
-                <figure class="figure">
-                    <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Orador que comparte su experiencia, fortaleza y esperanza con nosotros.">
-                    <figcaption class="figure-caption">
-                        <h3>Oradores Invitados</h3>
-                    </figcaption>
-                    <p>En las principales reuniones de oradores, nuestros oradores comparten su experiencia, fortaleza y esperanza. "Mostrar a otros que sufren cómo recibimos ayuda es precisamente lo que hace que la vida nos parezca tan valiosa ahora. Aférrate al pensamiento de que, en las manos de Dios, el pasado oscuro es la posesión más grande que tienes: la llave a la vida y felicidad para los demás." BB p124
-                    </p>
-                </figure>
-            </div>
-
-            <div class="col-lg-8 col-sm-12 col-12">
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
-                        </figure>
-                    </div>
-                    <div class="col-sm-6 col-12">
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row pt-4 mb-5">
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <figure class="figure">
+                        <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Orador que comparte su experiencia, fortaleza y esperanza con nosotros.">
                         <figcaption class="figure-caption">
-                            <h3>Cena de Conozca a los Oradores</h3>
+                            <h3>Oradores Invitados</h3>
                         </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
-                        <p>Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
+                        <p>En las principales reuniones de oradores, nuestros oradores comparten su experiencia, fortaleza y esperanza. "Mostrar a otros que sufren cómo recibimos ayuda es precisamente lo que hace que la vida nos parezca tan valiosa ahora. Aférrate al pensamiento de que, en las manos de Dios, el pasado oscuro es la posesión más grande que tienes: la llave a la vida y felicidad para los demás." BB p124
                         </p>
-                    </div>
+                    </figure>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/meeting-in-progress.png" class="figure-img img-fluid" alt="Personas en recuperación asisten a una reunión maratónica.">
-                        </figure>
+                <div class="col-lg-8 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Cena de Conozca a los Oradores</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                            <p>Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Reuniones Maratónicas</h3>
-                        </figcaption>
-                        <p>Durante la Conferencia MBAR, se llevarán a cabo reuniones abiertas a todos los miembros de A.A. Miembros en varias horas durante el día. No se llevarán a cabo reuniones maratónicas durante las reuniones de oradores principales de la Conferencia. No es necesario estar registrado en la conferencia para asistir a estas reuniones.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Únase a nosotros para un desayuno el domingo por la mañana.">
-                        </figure>
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/meeting-in-progress.png" class="figure-img img-fluid" alt="Personas en recuperación asisten a una reunión maratónica.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Reuniones Maratónicas</h3>
+                            </figcaption>
+                            <p>Durante la Conferencia MBAR, se llevarán a cabo reuniones abiertas a todos los miembros de A.A. Miembros en varias horas durante el día. No se llevarán a cabo reuniones maratónicas durante las reuniones de oradores principales de la Conferencia. No es necesario estar registrado en la conferencia para asistir a estas reuniones.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Desayuno Reunirse</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
-                        <p>Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-dance.png" class="figure-img img-fluid" alt="Silueta disco de los 80 de diversión y camaradería en el baile del Sábado por la noche.">
-                        </figure>
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Únase a nosotros para un desayuno el domingo por la mañana.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Desayuno Reunirse</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                            <p>Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Danza y Compañerismo</h3>
-                        </figcaption>
-                        <p>Después de la reunión de oradores principales el sábado por la noche, únase a nosotros para divertirse y tener compañerismo. Al fin y al cabo, "No somos gente triste. Si los recién llegados no vieran alegría o diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
-                        </p>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Cuatro sabores diferentes de helado en conos de waffle, dispuestos en forma de diamante.">
-                        </figure>
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-dance.png" class="figure-img img-fluid" alt="Silueta disco de los 80 de diversión y camaradería en el baile del Sábado por la noche.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Danza y Compañerismo</h3>
+                            </figcaption>
+                            <p>Después de la reunión de oradores principales el sábado por la noche, únase a nosotros para divertirse y tener compañerismo. Al fin y al cabo, "No somos gente triste. Si los recién llegados no vieran alegría o diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12 box-3">
-                        <figcaption class="figure-caption">
-                            <h3>Helado Social</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
-                        <p>¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
-                        </p>
-                        <p>Se llevará a cabo en la <strong>Stevenson Terrace</strong> del Centro de Conferencias.
-                        </p>
-                        <p><strong>Para obtener más información sobre la conferencia, recoja su programa en el mostrador de inscripción.</strong></p>
-                    </div>
-                </div>
 
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Cuatro sabores diferentes de helado en conos de waffle, dispuestos en forma de diamante.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12 box-3">
+                            <figcaption class="figure-caption">
+                                <h3>Helado Social</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a></p>
+                            <p>¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
+                            </p>
+                            <p>Se llevará a cabo en la <strong>Stevenson Terrace</strong> del Centro de Conferencias.
+                            </p>
+                            <p><strong>Para obtener más información sobre la conferencia, recoja su programa en el mostrador de inscripción.</strong></p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Two -->
     <div class="container shadow-wrap">
@@ -168,37 +170,37 @@ include_once 'header.inc'
                 <div class="p-3 text-bg-light hero-text-border">
                     <figcaption class="figure-caption">
                         <h4 class="card-title text-center mb-3">EXPLORANDO MONTEREY y SUS ALREDEDORES</h4>
-                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)<span></a>
+                        <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Senderismo en Punta Lobos<span class="sr-only">(Abre una nueva ventana)<span></a></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Acuario de la Bahía de Monterey<span class="sr-only">(Abre una nueva ventana)<span></a></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Montar en bicicleta<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Senderismo en Punta Lobos<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurantes<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Acuario de la Bahía de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmelo-Junto-Al-Mar<span class="sr-only">(Abre una nueva ventana)<span></a></p>
+                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Montar en bicicleta<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurantes<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmelo-Junto-Al-Mar<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         </div>
                     </div>
 
                     <div class="text-center pt-4">
-                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales<span class="sr-only">(Abre una nueva ventana)<span></a></h4>
+                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales<span class="sr-only">(Abre una nueva ventana)</span></a></h4>
                         <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Intergrupo de la Bahía de Monterey de A.A. logo"></p>
                     </div>
                 </div>

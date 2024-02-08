@@ -14,7 +14,7 @@
     </div>
 </article>
 
-<a href="#toTop" class= "btn btn-primary back-to-top" id= "back-to-top-link" title= "Back to Top" aria-label= "Back to Top"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+<a href="#toTop" class="btn btn-primary back-to-top" id="back-to-top-link" title="Back to Top" aria-label="Back to Top"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
 
 </main>
 
@@ -39,7 +39,7 @@
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
                 <h4 class="text-center"><strong>Join <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank">
-                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Opens a new window)<span></a> Private Group</strong></h4>
+                            <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Opens a new window)</span></a> Private Group</strong></h4>
                 <hr>
             </div>
         </div>
@@ -75,4 +75,4 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-<script src= "../js/backToTop.js"></script>
+<script src="../js/backToTop.js"></script>

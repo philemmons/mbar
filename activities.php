@@ -62,104 +62,107 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row pt-4 mb-5">
-            <div class="col-lg-4 col-sm-12 col-12">
-                <figure class="figure">
-                    <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
-                    <figcaption class="figure-caption">
-                        <h3>Guest Speakers</h3>
-                    </figcaption>
-                    <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
-                    </p>
-                </figure>
-            </div>
-
-            <div class="col-lg-8 col-sm-12 col-12">
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
-                        </figure>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Meet the Speakers Dinner</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                        <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
-                        </p>
-                    </div>
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row pt-4 mb-5">
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <figure class="figure">
+                        <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
+                        <section aria-label="Guest Speakers">
+                            <figcaption class="figure-caption">
+                                <h3>Guest Speakers</h3>
+                            </figcaption>
+                            <p>At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
+                            </p>
+                    </figure>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/meeting-in-progress.png" class="figure-img img-fluid" alt="Recovering people are attending a marathon meeting.">
-                        </figure>
+                <div class="col-lg-8 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-dinner.png" class="figure-img img-fluid" alt="Dinner with the speaker on Saturday night.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Meet the Speakers Dinner</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                            <p>Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Marathon Meetings</h3>
-                        </figcaption>
-                        <p>During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
-                        </p>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/meeting-in-progress.png" class="figure-img img-fluid" alt="Recovering people are attending a marathon meeting.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Marathon Meetings</h3>
+                            </figcaption>
+                            <p>During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Join us for a Sunday morning breakfast.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Roundup Breakfast</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                            <p>Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-dance.png" class="figure-img img-fluid" alt="A silhouette of fun and fellowship at the Saturday night dance.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12">
+                            <figcaption class="figure-caption">
+                                <h3>Dance and Fellowship</h3>
+                            </figcaption>
+                            <p>After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-12">
+                            <figure class="figure">
+                                <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12 box-3">
+                            <figcaption class="figure-caption">
+                                <h3>Ice Cream Social</h3>
+                            </figcaption>
+                            <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                            <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
+                            </p>
+                            <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
+
+                            <p><strong>For more conference info, pick up your program at the Registration desk.</strong></p>
+                        </div>
+                    </div>
+
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Join us for a Sunday morning breakfast.">
-                        </figure>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Roundup Breakfast</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                        <p>Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-dance.png" class="figure-img img-fluid" alt="A silhouette of fun and fellowship at the Saturday night dance.">
-                        </figure>
-                    </div>
-                    <div class="col-sm-6 col-12">
-                        <figcaption class="figure-caption">
-                            <h3>Dance and Fellowship</h3>
-                        </figcaption>
-                        <p>After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6 col-12">
-                        <figure class="figure">
-                            <img src="../images/con-ice-cream.png" class="figure-img img-fluid" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
-                        </figure>
-                    </div>
-                    <div class="col-sm-6 col-12 box-3">
-                        <figcaption class="figure-caption">
-                            <h3>Ice Cream Social</h3>
-                        </figcaption>
-                        <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                        <p>Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
-                        </p>
-                        <p>It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
-
-                        <p><strong>For more conference info, pick up your program at the Registration desk.</strong></p>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Two -->
     <div class="container shadow-wrap">
@@ -171,33 +174,33 @@ include_once 'header.inc'
                     </figcaption>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast<span class="sr-only">(Opens a new window)<span></a></p>
+                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos<span class="sr-only">(Opens a new window)<span></a></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium<span class="sr-only">(Opens a new window)<span></a></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling<span class="sr-only">(Opens a new window)<span></a></p>
+                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants<span class="sr-only">(Opens a new window)<span></a></p>
+                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea<span class="sr-only">(Opens a new window)<span></a></p>
+                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling<span class="sr-only">(Opens a new window)</span></a></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants<span class="sr-only">(Opens a new window)</span></a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
                     </div>
 
                     <div class="text-center pt-4">
-                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings<span class="sr-only">(Opens a new window)<span></a></h4>
+                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings<span class="sr-only">(Opens a new window)</span></a></h4>
                         <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
                     </div>
                 </div>
