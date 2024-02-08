@@ -438,6 +438,7 @@ ul.level-1>li.ms-5 {
   width: 10em;
   opacity: 1;
   transition: transform 0.1875s ease-out;
+  background-color: var(--color-11);
 }
 
 .btn-skip:not(:focus):not(:hover) {
