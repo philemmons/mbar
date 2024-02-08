@@ -26,7 +26,7 @@
   overflow: hidden;
   padding: 0;
   position: absolute;
-} 
+}
 
 /**** typography and spacing ****/
 body {
@@ -406,4 +406,18 @@ ul.level-1>li.ms-5 {
 /**** datatable ****/
 .dataTables_wrapper .dataTables_filter input {
   margin: 0 0 1rem 0.25rem !important;
+}
+
+/**** back to top ****/
+
+.back-to-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 16px;
+  right: 16px;
+  left: auto;
+  opacity: 0;
+  transition: opacity .5s linear;
+  z-index: 11;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
