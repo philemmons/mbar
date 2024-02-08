@@ -62,7 +62,7 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <article>
+    <article aria-label= "MBAR 's Special Events">
         <div class="container shadow-wrap">
             <div class="row pt-4 mb-5">
                 <div class="col-lg-4 col-sm-12 col-12">
@@ -165,54 +165,56 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Two -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-6 py-4">
-                <div class="p-3 text-bg-light hero-text-border">
-                    <figcaption class="figure-caption">
-                        <h4 class="card-title text-center mb-3">EXPLORING MONTEREY and SURROUNDING AREAS</h4>
-                    </figcaption>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast<span class="sr-only">(Opens a new window)</span></a></p>
+    <article aria-label= "Monterey and Surrounding Areas">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 py-4">
+                    <div class="p-3 text-bg-light hero-text-border">
+                        <figcaption class="figure-caption">
+                            <h4 class="card-title text-center mb-3 text-uppercase">Exploring Monterey and Surrounding Areas</h4>
+                        </figcaption>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visit the Coast<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Hiking at Point Lobos<span class="sr-only">(Opens a new window)</span></a></p>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium<span class="sr-only">(Opens a new window)</span></a></p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Monterey Bay Aquarium<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Bicycling<span class="sr-only">(Opens a new window)</span></a></p>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants<span class="sr-only">(Opens a new window)</span></a></p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurants<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmel-By-The-Sea<span class="sr-only">(Opens a new window)</span></a></p>
-                        </div>
-                    </div>
 
-                    <div class="text-center pt-4">
-                        <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings<span class="sr-only">(Opens a new window)</span></a></h4>
-                        <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
+                        <div class="text-center pt-4">
+                            <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Check out our local meetings<span class="sr-only">(Opens a new window)</span></a></h4>
+                            <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Intergroup of A.A. logo"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 py-4 text-center">
-                <figure class="figure">
-                    <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" title="Arial view of the Bixby Bridge at Big Sur along the coastline." alt="Arial view of the Bixby Bridge at Big Sur along the coastline.">
-                </figure>
-            </div>
+                <div class="col-lg-6 py-4 text-center">
+                    <figure class="figure">
+                        <img class="figure-img img-fluid" src="../images/bixby-bridge-sam-goodgame.png" title="Arial view of the Bixby Bridge at Big Sur along the coastline." alt="Arial view of the Bixby Bridge at Big Sur along the coastline.">
+                    </figure>
+                </div>
 
+            </div>
         </div>
-    </div>
+    </article>
 
 
     <?php include_once 'footer.inc' ?>
