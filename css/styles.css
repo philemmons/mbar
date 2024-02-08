@@ -422,6 +422,25 @@ ul.level-1>li.ms-5 {
   opacity: 0;
   transition: opacity .5s linear;
   z-index: 11;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
   background-color: var(--color-11);
+}
+
+/**** btn warning ****/
+
+.btn-skip{
+  font-weight: 900;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opa
+}
+
+.btn-skip:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
 }
