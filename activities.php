@@ -68,7 +68,6 @@ include_once 'header.inc'
                 <div class="col-lg-4 col-sm-12 col-12">
                     <figure class="figure">
                         <img src="../images/speaker-on-stage.png" class="figure-img img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
-                        <section aria-label="Guest Speakers">
                             <figcaption class="figure-caption">
                                 <h3>Guest Speakers</h3>
                             </figcaption>
