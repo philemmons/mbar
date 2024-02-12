@@ -33,7 +33,7 @@
 /**** typography and spacing ****/
 body {
   font-family: var(--ff-main);
-  line-height: 1.5 !important;
+  line-height: 1.5;
   background-color: var(--color-1);
   margin: auto;
   color: var(--color-5);
@@ -55,6 +55,10 @@ body {
 
 .container.shadow-wrap {
   background-color: var(--color-2);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5 !important;
 }
 
 /**** header ****/
