@@ -15,7 +15,7 @@ include_once 'header.inc'
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conference" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(current)</span></button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
@@ -66,7 +66,7 @@ include_once 'header.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <h3 class="text-center">Conference Services: <span class="text-uppercase">Keep It Simple</span></h3>
+                        <h3 class="card-title text-center">Conference Services: <span class="text-uppercase">Keep It Simple</span></h3>
                         <br>
                         <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                         </p>
