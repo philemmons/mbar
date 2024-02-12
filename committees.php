@@ -146,7 +146,7 @@ include_once 'header.inc'
                             <td>Olya O.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Alateen Chair</td>
+                            <td>Alateen Co-Chair</td>
                             <td>--</td>
                             <td>--</td>
                             <td>Concetta C./ Marge S.</td>
@@ -158,7 +158,7 @@ include_once 'header.inc'
                             <td>Joanie D.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Fundraising Chair</td>
+                            <td>Al-Anon Fundraising Co-Chair</td>
                             <td>--</td>
                             <td>--</td>
                             <td>Rachel G. / Amorina S.</td>
@@ -188,7 +188,7 @@ include_once 'header.inc'
                             <td>Dawn C.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Speaker Chair</td>
+                            <td>Al-Anon Speaker Co-Chair</td>
                             <td>Susan A.</td>
                             <td>Susan A.</td>
                             <td>Susan A. / Su C.</td>
@@ -344,14 +344,8 @@ include_once 'header.inc'
                         <tr class="table-primary">
                             <td>Social Media Co-Chair</td>
                             <td>--</td>
-                            <td>Chris T.</td>
-                            <td>Gina H.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Social Media Co-Chair</td>
-                            <td>--</td>
-                            <td>Victoria M.</td>
-                            <td>Sean B.</td>
+                            <td>Chris T. / Victoria M.</td>
+                            <td>Gina H. / Sean B.</td>
                         </tr>
                         <tr class="table-primary">
                             <td>Spanish Community</td>
