@@ -387,7 +387,7 @@ include_once 'header.inc'
                         <hr>
                         <br>
                         <strong>9:30pm</strong> - Fun and Fellowship Dance
-                        <br>
+                        <br><br>
                         <strong><span class="text-uppercase">ADA Accessibility</span>: MBAR 2019 will provide</strong>:
                         <ul>
                             <li><strong>2 ASL Interpreters</strong> - Saturday: 2.5h</li>
