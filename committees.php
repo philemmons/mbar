@@ -145,13 +145,31 @@ include_once 'header.inc'
                             <td>Jane H.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Co-Chair</td>
+                            <td>Al-Anon Meetings Chair</td>
+                            <td>Donna F.</td>
                             <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
+                            <td>Olya O.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Decorations</td>
+                            <td>Alateen</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>Concetta C./ Marge S.</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Catering/Food</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>Joanie D.</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Al-Anon Fundraising</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>Rachel G. / Amorina S.</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Al-Anon Greeters</td>
                             <td>--</td>
                             <td>--</td>
                             <td>--</td>
@@ -160,24 +178,6 @@ include_once 'header.inc'
                             <td>Al-Anon Literature</td>
                             <td>--</td>
                             <td>Dawn C.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Marathon Mtg. Chair</td>
-                            <td>Donna F.</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Raffle</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Recording Secretary</td>
-                            <td>--</td>
-                            <td>--</td>
                             <td>--</td>
                         </tr>
                         <tr class="table-warning">
@@ -190,25 +190,25 @@ include_once 'header.inc'
                             <td>Al-Anon Secretary</td>
                             <td>--</td>
                             <td>--</td>
-                            <td>--</td>
+                            <td>Dawn C.</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Speaker Chair</td>
                             <td>Susan A.</td>
                             <td>Susan A.</td>
-                            <td>Susan A.</td>
+                            <td>Susan A. / Su C.</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Al-Anon Tech Wizard</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>Julie H.</td>
                         </tr>
                         <tr class="table-warning">
                             <td>Al-Anon Treasurer</td>
                             <td>--</td>
                             <td>Thomas L.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Ateen</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
+                            <td>Thomas L.</td>
                         </tr>
                     </tbody>
                 </table>
