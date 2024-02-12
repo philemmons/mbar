@@ -66,7 +66,7 @@ include_once 'header.inc'
 
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Comité de Planificación Pasado y Presente</span>
+                    <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Comité de Planificación Pasado y Presente</span>
                     </h3>
                 </div>
             </div>
