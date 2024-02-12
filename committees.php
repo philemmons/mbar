@@ -74,7 +74,7 @@ include_once 'header.inc'
             </div>
 
             <div class="col-xl-11 col-lg-8 col-md-10 py-4">
-                <h3 class="h6 fw-bold">A.A. Steering Committee</h3>
+                <h3 class="fw-bold">A.A. Steering Committee</h3>
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class="small">2019 to 2024 A.A Steering Committee</caption>
                     <thead class="table-light">
@@ -120,7 +120,7 @@ include_once 'header.inc'
                     </tbody>
                 </table>
 
-                <h3 class="h6 fw-bold">Al-Anon Steering Committee</h3>
+                <h3 class="fw-bold">Al-Anon Steering Committee</h3>
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
                     <thead class="table-light">
@@ -208,7 +208,7 @@ include_once 'header.inc'
                     </tbody>
                 </table>
 
-                <h3 class="h6 fw-bold">Committee Chairs</h3>
+                <h3 class="fw-bold">Committee Chairs</h3>
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class="small">2019 to 2024 Committee Chairs</caption>
                     <thead class="table-light">
