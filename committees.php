@@ -76,7 +76,7 @@ include_once 'header.inc'
             <div class="col-xl-11 col-lg-9 col-md-7 py-4">
 
                 <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
-                    <caption>2019 to 2024 A.A Steering Committee</caption>
+                    <caption class= "small">2019 to 2024 A.A Steering Committee</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">A.A. Steering Committee</th>
@@ -124,7 +124,7 @@ include_once 'header.inc'
                 </table>
 
                 <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
-                    <caption>2019 to 2024 Al-Anon Steering Committee</caption>
+                    <caption class= "small">2019 to 2024 Al-Anon Steering Committee</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">Al-Anon Steering Committee</th>
@@ -151,7 +151,7 @@ include_once 'header.inc'
                             <td>Olya O.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Alateen</td>
+                            <td>Alateen Chair</td>
                             <td>--</td>
                             <td>--</td>
                             <td>Concetta C./ Marge S.</td>
@@ -163,7 +163,7 @@ include_once 'header.inc'
                             <td>Joanie D.</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Al-Anon Fundraising</td>
+                            <td>Al-Anon Fundraising Chair</td>
                             <td>--</td>
                             <td>--</td>
                             <td>Rachel G. / Amorina S.</td>
@@ -215,7 +215,7 @@ include_once 'header.inc'
 
 
                 <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
-                    <caption>2019 to 2024 Committee Chairs</caption>
+                    <caption class= "small">2019 to 2024 Committee Chairs</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">Committee Chairs</th>
