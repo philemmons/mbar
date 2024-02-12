@@ -115,7 +115,7 @@ hr {
 }
 
 .nav-link.nav-link-size {
-  color: var(--color-6);
+  color: var(--color-2);
 }
 
 nav {
@@ -168,6 +168,14 @@ nav {
   background-color: var(--color-7);
   color: var(--color-2);
 }
+
+/**** footer navbar ****/
+
+.navbar-footer:hover,
+.navbar:focus{
+  background-color: var(--color-5) !important;
+}
+
 
 /**** hero banner ****/
 
