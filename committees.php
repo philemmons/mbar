@@ -68,6 +68,7 @@ include_once 'header.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Past and Present Planning Committee's Roles and Members</span>
                     </h3>
+                    <p>Thank you all for your service and helping bring our local A.A and Al-Anon communities closer together.</p>
                 </div>
             </div>
             <article aria-label="MBAR's planning committee roles and members">
