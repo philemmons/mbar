@@ -77,7 +77,7 @@ include_once 'header.inc'
 
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 A.A Steering Committee</caption>
-                    <thead class="table-dark">
+                    <thead class="table-light">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">A.A. Steering Committee</th>
                         </tr>
@@ -89,7 +89,7 @@ include_once 'header.inc'
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody  class="table-group-divider">
                         <tr class="table-success">
                             <td>A.A. Chairperson</td>
                             <td>May H.</td>
@@ -125,7 +125,7 @@ include_once 'header.inc'
 
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 Al-Anon Steering Committee</caption>
-                    <thead class="table-dark">
+                    <thead class="table-light">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">Al-Anon Steering Committee</th>
                         </tr>
@@ -137,7 +137,7 @@ include_once 'header.inc'
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody  class="table-group-divider">
                         <tr class="table-warning">
                             <td>Al-Anon Chair</td>
                             <td>Thomas L.</td>
@@ -216,7 +216,7 @@ include_once 'header.inc'
 
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 Committee Chairs</caption>
-                    <thead class="table-dark">
+                    <thead class="table-light">
                         <tr class="filterRow">
                             <th colspan="4" scope="col">Committee Chairs</th>
                         </tr>
@@ -228,7 +228,7 @@ include_once 'header.inc'
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody  class="table-group-divider">
                         <tr class="table-primary">
                             <td>Registration Chair</td>
                             <td>Naomi B.</td>
