@@ -167,7 +167,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <div class="pt-3">
-                            <a href="../audio-transcript/2017/01 Track 1.txt" class="btn btn-info">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                            <a href="../audio-transcript/2017/01 Track 1.txt" class="btn btn-primary">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                         </div>
                     </div>
                     <div class="card-footer text-center">
