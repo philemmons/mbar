@@ -51,9 +51,9 @@ include_once 'header.inc'
 <main role="main" id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-committee" title="Please contact any of us with any questions, feedback, or concerns.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-committee" title="Comuníquese con cualquiera de nosotros si tiene alguna pregunta, comentario o inquietud.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Nos importa, realmente nos importa.">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">MBAR's<br>
                             Siervos de Confianza</span></h2>
                 </div>
@@ -61,342 +61,352 @@ include_once 'header.inc'
         </div>
     </div>
 
+
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-
-            <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Comité de Planificación Pasado y Presente</span>
+                    <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Funciones y miembros pasados ​​y presentes del Comité de Planificación</span>
                     </h3>
+                    <p>Gracias a todos por su servicio y por ayudar a acercar más a nuestras comunidades locales de A.A y Al-Anon.</p>
                 </div>
             </div>
+            <article aria-label="Funciones y miembros del comité de planificación de MBAR">
+                <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
+                    <section aria-label="Comité Directivo de A.A.">
+                        <h3 class="fw-bold">Comité Directivo de A.A.</h3>
+                        <table class="table table-bordered table-striped table-hover" summary="Comité directivo de A.A: la primera fila consta de cuatro columnas que son Roles, 2019, 2022 y 2024. La primera columna tiene cinco filas que tienen roles MBAR específicos. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre del miembro.">
+                            <caption class="small">2019 a 2024 Comité Directivo de A.A.</caption>
+                            <thead class="table-light">
+                                <tr class="text-center">
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
+                                </tr>
+                            </thead>
 
-            <div class="col-xl-11 col-lg-9 col-md-7 py-4">
-                <table class="table table-bordered">
-                    <caption>Funciones y miembros del Comité de Planificación 2019 a 2024</caption>
-                    <thead class="table-dark">
-                        <tr class="text-center">
-                            <th>Comités</th>
-                            <th>2019</th>
-                            <th>2022</th>
-                            <th>2024</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                    <thead class="filterHead">
-                        <tr class="filterRow">
-                            <th colspan="4" scope="col">A.A. Comité Directivo</th>
-                        </tr>
-                    </thead>
+                            <tbody class="table-group-divider">
+                                <tr class="table-success">
+                                    <th scope="row">Presidente de AA</th>
+                                    <td>May H.</td>
+                                    <td>Cindy A.</td>
+                                    <td>Chris T.</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <th scope="row">Copresidente de AA</th>
+                                    <td>--</td>
+                                    <td>Phil C. </td>
+                                    <td>Renee C.</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <th scope="row">Tesorero da A.A.</th>
+                                    <td>Cindy A.</td>
+                                    <td>Daylene A.</td>
+                                    <td>Carolyn H.</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <th scope="row">Co-Tesorero de A.A.</th>
+                                    <td>Cindy A.</td>
+                                    <td>Mona S.</td>
+                                    <td>Jean T.</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <th scope="row">Secretario de Grabación de A.A.</th>
+                                    <td>Andy V.</td>
+                                    <td>Andy V.</td>
+                                    <td>Roger M.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
 
-                    <tbody>
-                        <tr class="table-success">
-                            <td>A.A. Presidente</td>
-                            <td>May H.</td>
-                            <td>Cindy A.</td>
-                            <td>Chris T.</td>
-                        </tr>
-                        <tr class="table-success">
-                            <td>A.A. Copresidente</td>
-                            <td>--</td>
-                            <td>Phil C. </td>
-                            <td>Renee C.</td>
-                        </tr>
-                        <tr class="table-success">
-                            <td>A.A. Tesorero</td>
-                            <td>Cindy A.</td>
-                            <td>Daylene A.</td>
-                            <td>Carolyn H.</td>
-                        </tr>
-                        <tr class="table-success">
-                            <td>A.A. Co-tesorero</td>
-                            <td>Cindy A.</td>
-                            <td>Mona S.</td>
-                            <td>Jean T.</td>
-                        </tr>
-                        <tr class="table-success">
-                            <td>A.A. Secretario de grabación</td>
-                            <td>Andy V.</td>
-                            <td>Andy V.</td>
-                            <td>Roger M.</td>
-                        </tr>
-                    </tbody>
-                    <thead class="filterHead">
-                        <tr class="filterRow">
-                            <th colspan="4" scope="col">Al-Anon Comité Directivo</th>
-                        </tr>
-                    </thead>
+                    <section aria-label="Al-Anon Steering Committee">
+                        <h3 class="fw-bold">Al-Anon Steering Committee</h3>
+                        <table class="table table-bordered table-striped table-hover" summary="A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
+                            <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
+                            <thead class="table-light">
+                                <tr class="text-center">
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
+                                </tr>
+                            </thead>
 
-                    <tbody>
-                        <tr class="table-warning">
-                            <td>Al-Anon Presidente</td>
-                            <td>Thomas L.</td>
-                            <td>Sidney A.R.</td>
-                            <td>Jane H.</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Copresidente</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Decoraciones</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Literatura</td>
-                            <td>--</td>
-                            <td>Dawn C.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Reunión de Maratón Silla</td>
-                            <td>Donna F.</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Rifa</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Secretario de Grabación</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Presidente de Registro</td>
-                            <td>Debbie O.</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Secretario</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Presidente del Orador</td>
-                            <td>Susan A.</td>
-                            <td>Susan A.</td>
-                            <td>Susan A.</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Anon Tesorero</td>
-                            <td>--</td>
-                            <td>Thomas L.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>Al-Ateen</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                    </tbody>
+                            <tbody class="table-group-divider">
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Chair</th>
+                                    <td>Thomas L.</td>
+                                    <td>Sidney A.R.</td>
+                                    <td>Jane H.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Meetings Chair</th>
+                                    <td>Donna F.</td>
+                                    <td>--</td>
+                                    <td>Olya O.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Alateen Co-Chair</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Concetta C./ Marge S.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Catering/Food</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Joanie D.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Fundraising Co-Chair</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Rachel G. / Amorina S.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Greeters</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Literature</th>
+                                    <td>--</td>
+                                    <td>Dawn C.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Registration Chair</th>
+                                    <td>Debbie O.</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Secretary</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Dawn C.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Speaker Co-Chair</th>
+                                    <td>Susan A.</td>
+                                    <td>Susan A.</td>
+                                    <td>Susan A. / Su C.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Tech Wizard</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Julie H.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Treasurer</th>
+                                    <td>--</td>
+                                    <td>Thomas L.</td>
+                                    <td>Thomas L.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section aria-label="Committee Chairs">
+                        <h3 class="fw-bold">Committee Chairs</h3>
+                        <table class="table table-bordered table-striped table-hover" summary="Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
+                            <caption class="small">2019 to 2024 Committee Chairs</caption>
+                            <thead class="table-light">
+                                <tr class="text-center">
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
+                                </tr>
+                            </thead>
 
+                            <tbody class="table-group-divider">
+                                <tr class="table-primary">
+                                    <th scope="row">Registration Chair</th>
+                                    <td>Naomi B.</td>
+                                    <td>Naomi B.</td>
+                                    <td>Naomi B.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Activities</th>
+                                    <td>Samantha C.</td>
+                                    <td>--</td>
+                                    <td></td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">BBQ Chair</th>
+                                    <td>Joanie</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Breakfast Chair</th>
+                                    <td>Joanie</td>
+                                    <td>Renee N.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Dance Chair</th>
+                                    <td>--</td>
+                                    <td>Chris T.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Decorations Chair</th>
+                                    <td>Hilda P.</td>
+                                    <td>Hilda P.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Dinner Chair</th>
+                                    <td>Joanie</td>
+                                    <td>Aubrey</td>
+                                    <td>Aubrey</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Facilites Chair</th>
+                                    <td>Nick K.</td>
+                                    <td>Billy H.</td>
+                                    <td>Sally H.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">GSR Liaison</th>
+                                    <td>Teresa J.</td>
+                                    <td>--</td>
+                                    <td>Cole</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">H&amp;I Liaison</th>
+                                    <td>Michael R.</td>
+                                    <td>Michael R.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Hospitality</th>
+                                    <td>Phil C.</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Host</th>
+                                    <td>Phil C.</td>
+                                    <td>May H.</td>
+                                    <td>Cindy A.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Ice Cream Social</th>
+                                    <td>Joanie D.</td>
+                                    <td>Joanie D.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Literature Chair</th>
+                                    <td>Monica P.</td>
+                                    <td>May H.</td>
+                                    <td>May H.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Marathon Meetings Chair</th>
+                                    <td>Mark S.</td>
+                                    <td>Mark S.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Merchandise Chair</th>
+                                    <td>May H.</td>
+                                    <td>May H.</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Outreach Chair</th>
+                                    <td>--</td>
+                                    <td>Kathleen M.</td>
+                                    <td>Laura P.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Panel</th>
+                                    <td>--</td>
+                                    <td>Mary Grace</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Raffle Chair</th>
+                                    <td>Esther F.</td>
+                                    <td>Katherine J.</td>
+                                    <td>Katherine J.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Shuttle Service Chair</th>
+                                    <td>Chuck N.</td>
+                                    <td>Chuck N.</td>
+                                    <td></td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Social Media Co-Chair</th>
+                                    <td>--</td>
+                                    <td>Chris T. / Victoria M.</td>
+                                    <td>Gina H. / Sean B.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Spanish Community</th>
+                                    <td>--</td>
+                                    <td>Eric M.</td>
+                                    <td>Eric M.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Speaker Chair</th>
+                                    <td>Brady S.</td>
+                                    <td>Mark B.</td>
+                                    <td>Kathleen S.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Speaker Chair (Al-Anon)</th>
+                                    <td>--</td>
+                                    <td>Susan A.</td>
+                                    <td>Susan A.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">T-shirts Chair</th>
+                                    <td>---.</td>
+                                    <td>Charly F.</td>
+                                    <td>Jessica L.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Website Chair</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Phillip E.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Welcome &amp; Social Chair</th>
+                                    <td>---</td>
+                                    <td>Arthur T.</td>
+                                    <td>Arthur T.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Young People Chair</th>
+                                    <td>Samantha C.</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Zoom Meeting</th>
+                                    <td>--</td>
+                                    <td>Phillip E.</td>
+                                    <td>Phillip E.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
 
-                    <thead class="filterHead">
-                        <tr class="filterRow">
-                            <th colspan="4" scope="col">Presidentes de Comités</th>
-                        </tr>
-                    </thead>
+                </div>
+            </article>
 
-                    <tbody>
-                        <tr class="table-primary">
-                            <td>Presidente de Registro</td>
-                            <td>Naomi B.</td>
-                            <td>Naomi B.</td>
-                            <td>Naomi B.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Actividades</td>
-                            <td>Samantha C.</td>
-                            <td>--</td>
-                            <td></td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Barbacoa</td>
-                            <td>Joanie</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Desayuno</td>
-                            <td>Joanie</td>
-                            <td>Renee N.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Baile</td>
-                            <td>--</td>
-                            <td>Chris T.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla Decoraciones</td>
-                            <td>Hilda P.</td>
-                            <td>Hilda P.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Cena</td>
-                            <td>Joanie</td>
-                            <td>Aubrey</td>
-                            <td>Aubrey</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente de Instalaciones</td>
-                            <td>Nick K.</td>
-                            <td>Billy H.</td>
-                            <td>Sally H.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Enlace RSG</td>
-                            <td>Teresa J.</td>
-                            <td>--</td>
-                            <td>Cole</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Enlace de HeI</td>
-                            <td>Michael R.</td>
-                            <td>Michael R.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Hospitalidad</td>
-                            <td>Phil C.</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Anfitrión</td>
-                            <td>Phil C.</td>
-                            <td>May H.</td>
-                            <td>Cindy A.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Helado Social</td>
-                            <td>Joanie D.</td>
-                            <td>Joanie D.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Cátedra de Literatura</td>
-                            <td>Monica P.</td>
-                            <td>May H.</td>
-                            <td>May H.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente de Reuniones Maratonianas</td>
-                            <td>Mark S.</td>
-                            <td>Mark S.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente de Mercancía</td>
-                            <td>May H.</td>
-                            <td>May H.</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente de extensión</td>
-                            <td>--</td>
-                            <td>Kathleen M.</td>
-                            <td>Laura P.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Panel</td>
-                            <td>--</td>
-                            <td>Mary Grace</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Rifa</td>
-                            <td>Esther F.</td>
-                            <td>Katherine J.</td>
-                            <td>Katherine J.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Servicio de Transporte</td>
-                            <td>Chuck N.</td>
-                            <td>Chuck N.</td>
-                            <td></td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Copresidente de Redes Sociales</td>
-                            <td>--</td>
-                            <td>Chris T.</td>
-                            <td>Gina H.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Copresidente de Redes Sociales</td>
-                            <td>--</td>
-                            <td>Victoria M.</td>
-                            <td>Sean B.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Comunidad Española</td>
-                            <td>--</td>
-                            <td>Eric M.</td>
-                            <td>Eric M.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente del Orador</td>
-                            <td>Brady S.</td>
-                            <td>Mark B.</td>
-                            <td>Kathleen S.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente del Orador (Al-Anon)</td>
-                            <td>--</td>
-                            <td>Susan A.</td>
-                            <td>Susan A.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Camisetas Silla</td>
-                            <td>---.</td>
-                            <td>Charly F.</td>
-                            <td>Jessica L.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Presidente del Sitio Web</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>Phillip E.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Bienvenida y Silla Social</td>
-                            <td>---</td>
-                            <td>Arthur T.</td>
-                            <td>Arthur T.</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Silla de Jóvenes</td>
-                            <td>Samantha C.</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td>Reunión de Zoom</td>
-                            <td>--</td>
-                            <td>Phillip E.</td>
-                            <td>Phillip E.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
         </div>
     </div>
-
 
     <?php include_once 'footer.inc' ?>
     </body>

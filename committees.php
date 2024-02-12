@@ -53,7 +53,7 @@ include_once 'header.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-committee" title="Please contact any of us with any questions, feedback, or concerns.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="We care.">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="We care, we really do.">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">MBAR's<br>
                             Trusted Servants</span></h2>
                 </div>
@@ -79,40 +79,40 @@ include_once 'header.inc'
                             <caption class="small">2019 to 2024 A.A Steering Committee</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
-                                    <th scope= "col" class="col-4">Roles</th>
-                                    <th scope= "col" class="col-2">2019</th>
-                                    <th scope= "col" class="col-2">2022</th>
-                                    <th scope= "col" class="col-2">2024</th>
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
                                 </tr>
                             </thead>
 
                             <tbody class="table-group-divider">
                                 <tr class="table-success">
-                                    <th scope= "row">A.A. Chairperson</th>
+                                    <th scope="row">A.A. Chairperson</th>
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
                                     <td>Chris T.</td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th scope= "row">A.A. Co-Chair</th>
+                                    <th scope="row">A.A. Co-Chair</th>
                                     <td>--</td>
                                     <td>Phil C. </td>
                                     <td>Renee C.</td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th scope= "row">A.A. Treasurer</th>
+                                    <th scope="row">A.A. Treasurer</th>
                                     <td>Cindy A.</td>
                                     <td>Daylene A.</td>
                                     <td>Carolyn H.</td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th scope= "row">A.A. Co-Treasurer</th>
+                                    <th scope="row">A.A. Co-Treasurer</th>
                                     <td>Cindy A.</td>
                                     <td>Mona S.</td>
                                     <td>Jean T.</td>
                                 </tr>
                                 <tr class="table-success">
-                                    <th scope= "row">A.A. Recording Secretary</th>
+                                    <th scope="row">A.A. Recording Secretary</th>
                                     <td>Andy V.</td>
                                     <td>Andy V.</td>
                                     <td>Roger M.</td>
@@ -127,82 +127,82 @@ include_once 'header.inc'
                             <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
-                                    <th scope= "col" class="col-4">Roles</th>
-                                    <th scope= "col" class="col-2">2019</th>
-                                    <th scope= "col" class="col-2">2022</th>
-                                    <th scope= "col" class="col-2">2024</th>
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
                                 </tr>
                             </thead>
 
                             <tbody class="table-group-divider">
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Chair</th>
+                                    <th scope="row">Al-Anon Chair</th>
                                     <td>Thomas L.</td>
                                     <td>Sidney A.R.</td>
                                     <td>Jane H.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Meetings Chair</th>
+                                    <th scope="row">Al-Anon Meetings Chair</th>
                                     <td>Donna F.</td>
                                     <td>--</td>
                                     <td>Olya O.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Alateen Co-Chair</th>
+                                    <th scope="row">Alateen Co-Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Concetta C./ Marge S.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Catering/Food</th>
+                                    <th scope="row">Catering/Food</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Fundraising Co-Chair</th>
+                                    <th scope="row">Al-Anon Fundraising Co-Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Greeters</th>
+                                    <th scope="row">Al-Anon Greeters</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Literature</th>
+                                    <th scope="row">Al-Anon Literature</th>
                                     <td>--</td>
                                     <td>Dawn C.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Registration Chair</th>
+                                    <th scope="row">Al-Anon Registration Chair</th>
                                     <td>Debbie O.</td>
                                     <td>--</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Secretary</th>
+                                    <th scope="row">Al-Anon Secretary</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Dawn C.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Speaker Co-Chair</th>
+                                    <th scope="row">Al-Anon Speaker Co-Chair</th>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                     <td>Susan A. / Su C.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Tech Wizard</th>
+                                    <th scope="row">Al-Anon Tech Wizard</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Julie H.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope= "row">Al-Anon Treasurer</th>
+                                    <th scope="row">Al-Anon Treasurer</th>
                                     <td>--</td>
                                     <td>Thomas L.</td>
                                     <td>Thomas L.</td>
@@ -216,184 +216,184 @@ include_once 'header.inc'
                             <caption class="small">2019 to 2024 Committee Chairs</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
-                                    <th scope= "col" class="col-4">Roles</th>
-                                    <th scope= "col" class="col-2">2019</th>
-                                    <th scope= "col" class="col-2">2022</th>
-                                    <th scope= "col" class="col-2">2024</th>
+                                    <th scope="col" class="col-4">Roles</th>
+                                    <th scope="col" class="col-2">2019</th>
+                                    <th scope="col" class="col-2">2022</th>
+                                    <th scope="col" class="col-2">2024</th>
                                 </tr>
                             </thead>
 
                             <tbody class="table-group-divider">
                                 <tr class="table-primary">
-                                    <th scope= "row">Registration Chair</th>
+                                    <th scope="row">Registration Chair</th>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Activities</th>
+                                    <th scope="row">Activities</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td></td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">BBQ Chair</th>
+                                    <th scope="row">BBQ Chair</th>
                                     <td>Joanie</td>
                                     <td>--</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Breakfast Chair</th>
+                                    <th scope="row">Breakfast Chair</th>
                                     <td>Joanie</td>
                                     <td>Renee N.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Dance Chair</th>
+                                    <th scope="row">Dance Chair</th>
                                     <td>--</td>
                                     <td>Chris T.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Decorations Chair</th>
+                                    <th scope="row">Decorations Chair</th>
                                     <td>Hilda P.</td>
                                     <td>Hilda P.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Dinner Chair</th>
+                                    <th scope="row">Dinner Chair</th>
                                     <td>Joanie</td>
                                     <td>Aubrey</td>
                                     <td>Aubrey</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Facilites Chair</th>
+                                    <th scope="row">Facilites Chair</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
                                     <td>Sally H.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">GSR Liaison</th>
+                                    <th scope="row">GSR Liaison</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
                                     <td>Cole</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">H&amp;I Liaison</th>
+                                    <th scope="row">H&amp;I Liaison</th>
                                     <td>Michael R.</td>
                                     <td>Michael R.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Hospitality</th>
+                                    <th scope="row">Hospitality</th>
                                     <td>Phil C.</td>
                                     <td>--</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Host</th>
+                                    <th scope="row">Host</th>
                                     <td>Phil C.</td>
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Ice Cream Social</th>
+                                    <th scope="row">Ice Cream Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Literature Chair</th>
+                                    <th scope="row">Literature Chair</th>
                                     <td>Monica P.</td>
                                     <td>May H.</td>
                                     <td>May H.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Marathon Meetings Chair</th>
+                                    <th scope="row">Marathon Meetings Chair</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Merchandise Chair</th>
+                                    <th scope="row">Merchandise Chair</th>
                                     <td>May H.</td>
                                     <td>May H.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Outreach Chair</th>
+                                    <th scope="row">Outreach Chair</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Laura P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Panel</th>
+                                    <th scope="row">Panel</th>
                                     <td>--</td>
                                     <td>Mary Grace</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Raffle Chair</th>
+                                    <th scope="row">Raffle Chair</th>
                                     <td>Esther F.</td>
                                     <td>Katherine J.</td>
                                     <td>Katherine J.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Shuttle Service Chair</th>
+                                    <th scope="row">Shuttle Service Chair</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
                                     <td></td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Social Media Co-Chair</th>
+                                    <th scope="row">Social Media Co-Chair</th>
                                     <td>--</td>
                                     <td>Chris T. / Victoria M.</td>
                                     <td>Gina H. / Sean B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Spanish Community</th>
+                                    <th scope="row">Spanish Community</th>
                                     <td>--</td>
                                     <td>Eric M.</td>
                                     <td>Eric M.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Speaker Chair</th>
+                                    <th scope="row">Speaker Chair</th>
                                     <td>Brady S.</td>
                                     <td>Mark B.</td>
                                     <td>Kathleen S.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Speaker Chair (Al-Anon)</th>
+                                    <th scope="row">Speaker Chair (Al-Anon)</th>
                                     <td>--</td>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">T-shirts Chair</th>
+                                    <th scope="row">T-shirts Chair</th>
                                     <td>---.</td>
                                     <td>Charly F.</td>
                                     <td>Jessica L.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Website Chair</th>
+                                    <th scope="row">Website Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Phillip E.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Welcome &amp; Social Chair</th>
+                                    <th scope="row">Welcome &amp; Social Chair</th>
                                     <td>---</td>
                                     <td>Arthur T.</td>
                                     <td>Arthur T.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Young People Chair</th>
+                                    <th scope="row">Young People Chair</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope= "row">Zoom Meeting</th>
+                                    <th scope="row">Zoom Meeting</th>
                                     <td>--</td>
                                     <td>Phillip E.</td>
                                     <td>Phillip E.</td>
