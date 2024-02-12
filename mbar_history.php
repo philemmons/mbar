@@ -166,7 +166,7 @@ include_once 'header.inc'
                             <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
-                        <p></p>
+                        <button type= "button" class= "btn btn-primary 
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Sharing their experience, strength, and hope</small>
@@ -199,7 +199,6 @@ include_once 'header.inc'
             </div>
         </div>
     </div>
-
 
     <?php include_once 'footer.inc' ?>
     </body>
