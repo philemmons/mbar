@@ -75,7 +75,7 @@ include_once 'header.inc'
 
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-5  text-center px-5">
-                <h4 class="mb-6 text-dark">Below are MBAR's banners used over the years.
+                <h3 class="mb-6 text-dark">Below are MBAR's banners used over the years.
                     </>
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -144,8 +144,8 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Schedule of Events</a></h4>
+                        <p class="card-title h6">
+                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Schedule of Events</p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank">2022 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank">2019 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                     </div>
@@ -158,8 +158,8 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Audio Recording of Speakers</a></h4>
+                        <p class="card-title h6">
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Audio Recording of Speakers</p>
                         <p class="card-text">Paul O. from 2017</p>
                         <audio controls="">
                             <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
@@ -179,8 +179,8 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years</a></h4>
+                        <p class="card-title h6">
+                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years</p>
                         <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
                             <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Program</a>
                         </p>
