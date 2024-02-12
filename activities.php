@@ -175,7 +175,8 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Two -->
-    <article aria-label="Monterey and Surrounding Areas">
+    
+    <aside role= "complementary" aria-label="Monterey and Surrounding Areas">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 py-4">
@@ -223,7 +224,7 @@ include_once 'header.inc'
 
             </div>
         </div>
-    </article>
+    </aside>
 
 
     <?php include_once 'footer.inc' ?>
