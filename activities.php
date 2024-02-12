@@ -64,17 +64,17 @@ include_once 'header.inc'
     <!-- Part One -->
     <article aria-label="MBAR 's Special Events">
         <div class="container shadow-wrap">
-            <div class="row pt-4 mb-5">
+            <div class="row mb-5">
                 <div class="col-lg-4 col-sm-12 col-12">
-                    <div class="card border-0">
-                        <img src="../images/speaker-on-stage.png" class="img-fluid" alt="Speaker sharing their experience, strength, and hope with us.">
-                        <div class="card-body">
-                            <section class="card-title">
-                                <h3>Guest Speakers</h3>
-                            </section>
-                            <p class="card-text">At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
-                            </p>
-                        </div>
+                    <div class="card card-body border-0">
+                        <img src="../images/speaker-on-stage.png" class="img-fluid pb-3" alt="Speaker sharing their experience, strength, and hope with us.">
+
+                        <section class="card-title">
+                            <h3>Guest Speakers</h3>
+                        </section>
+                        <p class="card-text">At the main speaker meetings our Speakers share their experience, strength and hope. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
+                        </p>
+
                     </div>
                 </div>
 
@@ -82,11 +82,11 @@ include_once 'header.inc'
                     <div class="row">
                         <div class="col-sm-6 col-12">
 
-                            <img src="../images/con-dinner.png" class=" img-fluid" alt="Dinner with the speaker on Saturday night.">
+                            <img src="../images/con-dinner.png" class="img-fluid pb-3" alt="Dinner with the speaker on Saturday night.">
 
                         </div>
                         <div class="col-sm-6 col-12">
-                            <div class="card border-0">
+                            <div class="card card-body border-0">
                                 <section class="card-title">
                                     <h3>Meet the Speakers Dinner</h3>
                                 </section>
@@ -100,18 +100,18 @@ include_once 'header.inc'
                     <div class="row">
                         <div class="col-sm-6 col-12">
 
-                            <img src="../images/meeting-in-progress.png" class="img-fluid" alt="Recovering people are attending a marathon meeting.">
+                            <img src="../images/meeting-in-progress.png" class="img-fluid pb-3" alt="Recovering people are attending a marathon meeting.">
 
                         </div>
                         <div class="col-sm-6 col-12">
-                            <div class="card border-0">
-                                <div class="card-body">
-                                    <section class="card-title">
-                                        <h3>Marathon Meetings</h3>
-                                    </section>
-                                    <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
-                                    </p>
-                                </div>
+                            <div class="card card-body border-0">
+
+                                <section class="card-title">
+                                    <h3>Marathon Meetings</h3>
+                                </section>
+                                <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -119,19 +119,19 @@ include_once 'header.inc'
                     <div class="row">
                         <div class="col-sm-6 col-12">
 
-                            <img src="../images/con-breakfast.png" class="figure-img img-fluid" alt="Join us for a Sunday morning breakfast.">
+                            <img src="../images/con-breakfast.png" class="img-fluid  pb-3" alt="Join us for a Sunday morning breakfast.">
 
                         </div>
                         <div class="col-sm-6 col-12">
-                            <div class="card border-0">
-                                <div class="card-body">
-                                    <section class="card-title">
-                                        <h3>Roundup Breakfast</h3>
-                                    </section>
-                                    <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                    <p class="card-text">Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
-                                    </p>
-                                </div>
+                            <div class="card card-body border-0">
+
+                                <section class="card-title">
+                                    <h3>Roundup Breakfast</h3>
+                                </section>
+                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
+                                <p class="card-text">Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -139,18 +139,18 @@ include_once 'header.inc'
                     <div class="row">
                         <div class="col-sm-6 col-12">
 
-                            <img src="../images/con-dance.png" class="img-fluid" alt="A silhouette of fun and fellowship at the Saturday night dance.">
+                            <img src="../images/con-dance.png" class="img-fluid pb-3" alt="A silhouette of fun and fellowship at the Saturday night dance.">
 
                         </div>
                         <div class="col-sm-6 col-12">
-                            <div class="card border-0">
-                                <div class="card-body">
-                                    <section class="card-title">
-                                        <h3>Dance and Fellowship</h3>
-                                    </section>
-                                    <p class="card-text">After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
-                                    </p>
-                                </div>
+                            <div class="card card-body border-0">
+
+                                <section class="card-title">
+                                    <h3>Dance and Fellowship</h3>
+                                </section>
+                                <p class="card-text">After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -158,11 +158,11 @@ include_once 'header.inc'
                     <div class="row">
                         <div class="col-sm-6 col-12">
 
-                            <img src="../images/con-ice-cream.png" class="img-fluid" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
+                            <img src="../images/con-ice-cream.png" class="img-fluid pb-3" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
 
                         </div>
                         <div class="col-sm-6 col-12 box-3">
-                            <div class="card-body">
+                            <div class="card card-body border-0">
                                 <section class="card-title">
                                     <h3>Ice Cream Social</h3>
                                 </section>
