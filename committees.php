@@ -64,7 +64,7 @@ include_once 'header.inc'
 
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <section>
                         <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Past and Present Planning Committee's Roles and Members</span>
@@ -73,9 +73,9 @@ include_once 'header.inc'
                 </div>
             </div>
 
-            <div class="col-xl-11 col-lg-9 col-md-7 py-4">
+            <div class="col-xl-11 col-lg-8 col-md-10 py-4">
 
-                <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
+                <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 A.A Steering Committee</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
@@ -123,7 +123,7 @@ include_once 'header.inc'
                     </tbody>
                 </table>
 
-                <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
+                <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 Al-Anon Steering Committee</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
@@ -214,7 +214,7 @@ include_once 'header.inc'
                 </table>
 
 
-                <table class="table table-bordered" id="planning-committee-2024" summary="describe the data by rows and columns">
+                <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class= "small">2019 to 2024 Committee Chairs</caption>
                     <thead class="table-dark">
                         <tr class="filterRow">
