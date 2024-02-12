@@ -378,7 +378,6 @@ include_once 'header.inc'
                             Visión Para Ti: Stephanie
                             <br>
                             Oración Final
-                            <br>
                         </div>
                         <br>
                         <hr>
