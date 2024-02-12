@@ -115,36 +115,43 @@ include_once 'header.inc'
                         <span style="font-size: 15px; color: blue">Teresa J. Audio File</span>
                         <br>
                         <hr>
-                        <div style="column-count: 2">
-                            Secretary: Cindy A.
-                            <br>
-                            Preamble: Arthur T.
-                            <br>
-                            Traditions: Lisa
-                            <br>
-                            Chapter 3: Donna M.
-                            <br>
-                            How It Work: Brady S.
-                            <br>
-                            Vision For You: Kathy M.
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                Secretary: Cindy A.
+                                <br>
+                                Preamble: Arthur T.
+                                <br>
+                                Traditions: Lisa
+                            </div>
+
+                            <div class="col-sm-6">
+                                Chapter 3: Donna M.
+                                <br>
+                                How It Work: Brady S.
+                                <br>
+                                Vision For You: Kathy M.
+                            </div>
                         </div>
                         <br>
                         <strong> From 4:00pm - <span class="text-uppercase">A.A. Marathon Meeting Schedule</span></strong>
                         <br>
-                        <div style="column-count: 2">
-                            4:00pm - Chael R. (Salinas) Willingness
-                            <br>
-                            5:00pm - Patricia W. (Salinas) Acceptance
-                            <br>
-                            6:00pm - Saramae (Salinas) Quality vs Quantity
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                4:00pm - Chael R. (Salinas) Willingness
+                                <br>
+                                5:00pm - Patricia W. (Salinas) Acceptance
+                            </div>
+
+                            <div class="col-sm-6">
+                                6:00pm - Saramae (Salinas) Quality vs Quantity
+                            </div>
                         </div>
                         <br>
                         <strong>From 6:00pm - <span class="text-uppercase">Al-Anon Marathon Meeting Schedule</span></strong>
-                        <div style="column-count: 2">
-                            6:00pm Thursday ODAT
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                6:00pm Thursday ODAT
+                            </div>
                         </div>
                         <br>
                         <strong>6:30pm</strong> - Raffle Prize Drawing
@@ -176,38 +183,43 @@ include_once 'header.inc'
                         <span style="font-size: 15px; color: blue">Jane H. Audio File</span>
                         <br>
                         <hr>
-                        <div style="column-count: 2">
-                            Secretary - Thomas L.
-                            <br>
-                            Open with Serenity Prayer
-                            <br>
-                            Al-Anon Welcome
-                            <br>
-                            Al-Anon Preamble
-                            <br>
-                            Al-Anon Twelve Steps
-                            <br>
-                            Al-Anon Twelve Traditions
-                            <br>
-                            Al-Anon Safety Statement
-                            <br>
-                            Al-Anon Closing
-                            <br><br>
-                            Secretary - Ashley G.
-                            <br>
-                            Preamble: Laura
-                            <br>
-                            Traditions: Kim
-                            <br>
-                            Chapter 3: David
-                            <br>
-                            How It Works: Mare
-                            <br>
-                            Vision For You: Courtney C.
-                            <br>
-                            Closing Prayer
-                            <br><br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                Secretary - Thomas L.
+                                <br>
+                                Open with Serenity Prayer
+                                <br>
+                                Al-Anon Welcome
+                                <br>
+                                Al-Anon Preamble
+                                <br>
+                                Al-Anon Twelve Steps
+                                <br>
+                                Al-Anon Twelve Traditions
+                                <br>
+                                Al-Anon Safety Statement
+                            </div>
+
+                            <div class="col-sm-6">
+                                Al-Anon Closing
+                                <br><br>
+                                Secretary - Ashley G.
+                                <br>
+                                Preamble: Laura
+                                <br>
+                                Traditions: Kim
+                                <br>
+                                Chapter 3: David
+                                <br>
+                                How It Works: Mare
+                                <br>
+                                Vision For You: Courtney C.
+                                <br>
+                                Closing Prayer
+                            </div>
                         </div>
+
+                        <br><br>
                         <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: blue; font-weight: 600">One Man Band</span>
                         <br><br>
                         <strong><span class="text-uppercase">ADA Accessibility</span>: MBAR 2019 will provide</strong>:
@@ -232,56 +244,64 @@ include_once 'header.inc'
                         <p><strong>From 8:00am - <span class="text-uppercase">A.A. Marathon Meeting Schedule</span></strong>
                             <br>
                         </p>
-                        <div style="column-count: 2">
-                            8:00am Ron M. (Prunedale)
-                            <br>
-                            9:00am Jack F. (Salinas) Character Defect
-                            <br>
-                            10:00am Mike H. (Hollister)
-                            <br>
-                            11:00am Mark Y. (Salinas) How It Works
-                            <br>
-                            12:00pm Charlie A. (Salinas)
-                            <br>
-                            1:00pm Rob C. (Hollister)
-                            <br>
-                            2:00pm Michelle S. (Monterey)
-                            <br>
-                            3:00pm Jodi B. (Castroville) Twenty-Four-Hour-Living
-                            <br>
-                            4:00pm Jean T. (Monterey) Rigorous Honesty
-                            <br>
-                            5:00pm Dan S. (Marina)
-                            <br>
-                            6:00pm Wes M.
-                            <br>
-                            10:00pm Steve C.
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                8:00am Ron M. (Prunedale)
+                                <br>
+                                9:00am Jack F. (Salinas) Character Defect
+                                <br>
+                                10:00am Mike H. (Hollister)
+                                <br>
+                                11:00am Mark Y. (Salinas) How It Works
+                                <br>
+                                12:00pm Charlie A. (Salinas)
+                                <br>
+                                1:00pm Rob C. (Hollister)
+                            </div>
+
+                            <div class="col-sm-6">
+                                2:00pm Michelle S. (Monterey)
+                                <br>
+                                3:00pm Jodi B. (Castroville) Twenty-Four-Hour-Living
+                                <br>
+                                4:00pm Jean T. (Monterey) Rigorous Honesty
+                                <br>
+                                5:00pm Dan S. (Marina)
+                                <br>
+                                6:00pm Wes M.
+                                <br>
+                                10:00pm Steve C.
+                            </div>
                         </div>
+
                         <br><br>
                         <p>
                             <strong>From 8:00am - <span class="text-uppercase">Al-Anon Marathon Meeting Schedule</span></strong>
                         </p>
-                        <div style="column-count: 2">
-                            8:00am Monday Night Serenity
-                            <br>
-                            9:00am Friday Noon Carmel - Keep it Simple
-                            <br>
-                            10:00am Salinas Saturday - Step and Tradition
-                            <br>
-                            11:00am Marla M. - I am Enough
-                            <br>
-                            12:00pm Jem G. - Our Courage to Change
-                            <br>
-                            1:00pm Al-Ateen Panel
-                            <br>
-                            3:00pm Al-Ateen Meeting (Closed Meeting: Al-Ateen Members Only)
-                            <br>
-                            3:00pm Su B. - Family Recovery In Institutions
-                            <br>
-                            4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                8:00am Monday Night Serenity
+                                <br>
+                                9:00am Friday Noon Carmel - Keep it Simple
+                                <br>
+                                10:00am Salinas Saturday - Step and Tradition
+                                <br>
+                                11:00am Marla M. - I am Enough
+                                <br>
+                                12:00pm Jem G. - Our Courage to Change
+                            </div>
+
+                            <div class="col-sm-6">
+                                1:00pm Al-Ateen Panel
+                                <br>
+                                3:00pm Al-Ateen Meeting (Closed Meeting: Al-Ateen Members Only)
+                                <br>
+                                3:00pm Su B. - Family Recovery In Institutions
+                                <br>
+                                4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
+                            </div>
                         </div>
+
                         <br>
                         <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
                         <br><br>
@@ -343,24 +363,28 @@ include_once 'header.inc'
                         <br>
                         <span style="font-size: 15px; color: blue">Charlie H. Henderson Audio File</span>
                         <hr>
-                        <div style="column-count: 2">
-                            Secretary - May H.
-                            <br>
-                            Countdown: Michael R. and Naomi B.
-                            <br>
-                            Preamble: Kristen
-                            <br>
-                            Traditions: Jimmy B.
-                            <br>
-                            Chapter Three — More About Alcoholism: George F.
-                            <br>
-                            How It Works: Donna D.
-                            <br>
-                            Vision For You: Stephanie
-                            <br>
-                            Closing Prayer
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                Secretary - May H.
+                                <br>
+                                Countdown: Michael R. and Naomi B.
+                                <br>
+                                Preamble: Kristen
+                                <br>
+                                Traditions: Jimmy B.
+                            </div>
+
+                            <div class="col-sm-6">
+                                Chapter Three — More About Alcoholism: George F.
+                                <br>
+                                How It Works: Donna D.
+                                <br>
+                                Vision For You: Stephanie
+                                <br>
+                                Closing Prayer
+                            </div>
                         </div>
+
                         <br>
                         <hr>
                         <br>
@@ -407,24 +431,28 @@ include_once 'header.inc'
                         <br>
                         ASL Interpretation Provided
                         <br>
-                        <div style="column-count: 2">
-                            Secretary - Thomas L.
-                            <br>
-                            Open with Serenity Prayer
-                            <br>
-                            Al-Anon Welcome
-                            <br>
-                            Al-Anon Preamble
-                            <br>
-                            Al-Anon Twelve Steps
-                            <br>
-                            Al-Anon Twelve Traditions
-                            <br>
-                            Al-Anon Safety Statement
-                            <br>
-                            Al-Anon Closing
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                Secretary - Thomas L.
+                                <br>
+                                Open with Serenity Prayer
+                                <br>
+                                Al-Anon Welcome
+                                <br>
+                                Al-Anon Preamble
+                            </div>
+
+                            <div class="col-sm-6">
+                                Al-Anon Twelve Steps
+                                <br>
+                                Al-Anon Twelve Traditions
+                                <br>
+                                Al-Anon Safety Statement
+                                <br>
+                                Al-Anon Closing
+                            </div>
                         </div>
+
                         <br>
                         <hr>
                         <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
@@ -439,18 +467,22 @@ include_once 'header.inc'
                         <br>
                         <hr>
                         (ASL Interpretation Provided)<br>
-                        <div style="column-count: 2">
-                            Preamble
-                            <br>
-                            Traditions
-                            <br>
-                            Chapter Three — More About Alcoholism
-                            <br>
-                            How It Works
-                            <br>
-                            Vision For You
-                            <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                Preamble
+                                <br>
+                                Traditions
+                                <br>
+                                Chapter Three — More About Alcoholism
+                            </div>
+
+                            <div class="col-sm-6">
+                                How It Works
+                                <br>
+                                Vision For You
+                            </div>
                         </div>
+
                         <br>
                         <p><strong>12:00pm</strong> - Conference Ends — See You Next Time
                             <br>
