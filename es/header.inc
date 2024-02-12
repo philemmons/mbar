@@ -49,7 +49,7 @@
             <div class='col-sm-4 banner'>
                 <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
-                <p class="font-italic">Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer un compañerismo a tu alrededor, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte.</p>
+                <p>Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer un compañerismo a tu alrededor, tener una gran cantidad de amigos: <span class= "font-italic">esta es una experiencia que no debes perderte</span>.</p>
             </div>
             <div class='col-sm-auto banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple" title="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple">
