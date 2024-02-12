@@ -33,7 +33,7 @@
 /**** typography and spacing ****/
 body {
   font-family: var(--ff-main);
-  line-height: 1.5;
+  line-height: 1.5 !important;
   background-color: var(--color-1);
   margin: auto;
   color: var(--color-5);
