@@ -73,16 +73,16 @@ include_once 'header.inc'
                 </div>
             </div>
 
-            <div class="col-xl-11 col-lg-8 col-md-10 py-4">
+            <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                 <h3 class="fw-bold">A.A. Steering Committee</h3>
                 <table class="table table-bordered table-striped table-hover" id="planning-committee-2024" summary="describe the data by rows and columns">
                     <caption class="small">2019 to 2024 A.A Steering Committee</caption>
                     <thead class="table-light">
                         <tr class="text-center">
-                            <th>Roles</th>
-                            <th>2019</th>
-                            <th>2022</th>
-                            <th>2024</th>
+                            <th class="col-4">Roles</th>
+                            <th class="col-2">2019</th>
+                            <th class="col-2">2022</th>
+                            <th class="col-2">2024</th>
                         </tr>
                     </thead>
 
@@ -125,10 +125,10 @@ include_once 'header.inc'
                     <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
                     <thead class="table-light">
                         <tr class="text-center">
-                            <th>Roles</th>
-                            <th>2019</th>
-                            <th>2022</th>
-                            <th>2024</th>
+                            <th class="col-4">Roles</th>
+                            <th class="col-2">2019</th>
+                            <th class="col-2">2022</th>
+                            <th class="col-2">2024</th>
                         </tr>
                     </thead>
 
@@ -213,10 +213,10 @@ include_once 'header.inc'
                     <caption class="small">2019 to 2024 Committee Chairs</caption>
                     <thead class="table-light">
                         <tr class="text-center">
-                            <th>Roles</th>
-                            <th>2019</th>
-                            <th>2022</th>
-                            <th>2024</th>
+                            <th class="col-4">Roles</th>
+                            <th class="col-2">2019</th>
+                            <th class="col-2">2022</th>
+                            <th class="col-2">2024</th>
                         </tr>
                     </thead>
 
