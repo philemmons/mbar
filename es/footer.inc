@@ -50,7 +50,7 @@
 <footer role="contentinfo">
     <div class='container'>
         <div class="row justify-content-md-center">
-            <div class="col-sm-12" id="footer-image" alt="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
+            <div class="col-sm-12" id="footer-image" role=img aria-label="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                 </p>
             </div>
