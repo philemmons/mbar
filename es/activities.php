@@ -180,10 +180,10 @@ include_once 'header.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <figcaption class="figure-caption">
+                        <section class="card-title">
                             <h4 class="card-title text-center mb-3 text-uppercase">Explorando Monterey y Sus Alrededores</h4>
                             <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
-                        </figcaption>
+                        </section>
                         <div class="row">
                             <div class="col-sm-6">
                                 <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa<span class="sr-only">(Abre una nueva ventana)</span></a></p>
