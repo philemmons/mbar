@@ -166,6 +166,7 @@ include_once 'header.inc'
                             <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
+                        <p></p>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Sharing their experience, strength, and hope</small>
