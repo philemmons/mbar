@@ -112,7 +112,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Teresa J. Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Teresa J. Audio File</span>
                         <br>
                         <hr>
                         <div class="row">
@@ -169,7 +169,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Harry H. Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Harry H. Audio File</span>
                         <br>
                         <hr>
                         <strong>Al-Anon Speaker:</strong> Jane H. from Denver, CO
@@ -180,7 +180,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Jane H. Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Jane H. Audio File</span>
                         <br>
                         <hr>
                         <div class="row">
@@ -218,9 +218,8 @@ include_once 'header.inc'
                                 Closing Prayer
                             </div>
                         </div>
-
                         <br><br>
-                        <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: blue; font-weight: 600">One Man Band</span>
+                        <strong>9:30pm</strong> - Fun and Fellowship Event: <span style="color: #00f; font-weight: 600;">One Man Band</span>
                         <br><br>
                         <strong><span class="text-uppercase">ADA Accessibility</span>: MBAR 2019 will provide</strong>:
                         <ul>
@@ -273,7 +272,6 @@ include_once 'header.inc'
                                 10:00pm Steve C.
                             </div>
                         </div>
-
                         <br><br>
                         <p>
                             <strong>From 8:00am - <span class="text-uppercase">Al-Anon Marathon Meeting Schedule</span></strong>
@@ -301,7 +299,6 @@ include_once 'header.inc'
                                 4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
                             </div>
                         </div>
-
                         <br>
                         <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
                         <br>
@@ -314,7 +311,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue"> Doctors Opinion Panel Audio File</span>
+                        <span style="font-size: 15px; color: #00f;"> Doctors Opinion Panel Audio File</span>
                         <br>
                         <hr>
                         <strong>11:15am</strong> Emotional Sobriety Workshop: Sonny C. and Masa M.
@@ -325,7 +322,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Emotional Sobriety Workshop Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Emotional Sobriety Workshop Audio File</span>
                         <br>
                         <hr>
                         <strong>12:30pm</strong> The Many Paths to Spirituality Panel Meeting
@@ -338,7 +335,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Many Paths to Spirituality Panel Meeting Audio File</span>
                         <br>
                         <hr>
                         <strong>2:00pm</strong> - Ice Cream Social <strong>(Stevenson Terrace)</strong>
@@ -361,7 +358,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Charlie H. Henderson Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Charlie H. Henderson Audio File</span>
                         <hr>
                         <div class="row">
                             <div class="col-sm-6">
@@ -424,7 +421,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Louise M. Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Louise M. Audio File</span>
                         <br>
                         <hr>
                         (ASL Interpretation Provided)
@@ -450,10 +447,9 @@ include_once 'header.inc'
                                 Al-Anon Closing
                             </div>
                         </div>
-
                         <br>
                         <hr>
-                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B. (Clovis, CA)
+                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B. from Clovis, CA
                         <br>
                         <audio controls="">
                             <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
@@ -461,7 +457,7 @@ include_once 'header.inc'
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <span style="font-size: 15px; color: blue">Pat B. Audio File</span>
+                        <span style="font-size: 15px; color: #00f;">Pat B. Audio File</span>
                         <br>
                         <hr>
                         (ASL Interpretation Provided)
@@ -481,7 +477,6 @@ include_once 'header.inc'
                                 Vision For You
                             </div>
                         </div>
-
                         <br>
                         <p><strong>12:00pm</strong> - Conference Ends — See You Next Time
                             <br>
@@ -498,7 +493,7 @@ include_once 'header.inc'
                             <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."><span class="sr-only">(Opens a new window)<span>
                         </a>
                         <br><br>
-                        See our local A.A. Central Office website (link above) for a current listing of meetings in the area, for after the conclusion of the conference.
+                        Click on the logo above to see our local A.A. Central Office website for a current listing of meetings in the area for you after the conclusion of the conference.
                     </div>
                 </div>
             </div>
@@ -511,7 +506,7 @@ include_once 'header.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <h3 class="card-title mb-3 text-uppercase">WHY DO WE HAVE MBAR?</h3>
+                        <h3 class="card-title mb-3 text-uppercase">Why Do We Have MBAR?</h3>
                         <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                             <br>
                             <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
@@ -576,7 +571,7 @@ include_once 'header.inc'
                             <li>Saturday - 2.5 hours</li>
                             <li>Sunday - 3.0 hours</li>
                         </ul>
-                        <p style="font-style: italic;"><strong class="text-uppercase">PLease Note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                        <p style="font-style: italic;"><strong class="text-uppercase">Please Note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
                         </p>
                     </div>
                 </div>
