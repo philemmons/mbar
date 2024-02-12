@@ -166,8 +166,8 @@ include_once 'header.inc'
                             <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
-                        <div class="pt-3 text-center">
-                            <a href="../audio-transcript/2017/01 Track 1.txt" class="btn btn-primary">Opens to Transcript</a>
+                        <div class="pt-3">
+                            <a href="../audio-transcript/2017/01 Track 1.txt" class="btn btn-info">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                         </div>
                     </div>
                     <div class="card-footer text-center">
