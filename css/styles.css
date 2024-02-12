@@ -310,6 +310,11 @@ nav {
   font-weight: 600;
 }
 
+.bb-link:hover,
+.bb-link:focus{
+  text-decoration: underline;
+}
+
 /**** maps ****/
 
 .db-5 {
