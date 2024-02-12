@@ -64,11 +64,11 @@ include_once 'header.inc'
     <!-- Part One -->
     <article aria-label="MBAR 's Special Events">
         <div class="container shadow-wrap">
-            <div class="row mb-5">
+            <div class="row mb-5 py-2">
                 <div class="col-lg-4 col-sm-12 col-12">
-                    <div class="card card-body border-0">
-                        <img src="../images/speaker-on-stage.png" class="img-fluid pb-3" alt="Speaker sharing their experience, strength, and hope with us.">
 
+                    <img src="../images/speaker-on-stage.png" class="img-fluid py-3" alt="Speaker sharing their experience, strength, and hope with us.">
+                    <div class="card card-body border-0">
                         <section class="card-title">
                             <h3>Guest Speakers</h3>
                         </section>
@@ -80,30 +80,31 @@ include_once 'header.inc'
 
                 <div class="col-lg-8 col-sm-12 col-12">
                     <div class="row">
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-5 col-12">
 
-                            <img src="../images/con-dinner.png" class="img-fluid pb-3" alt="Dinner with the speaker on Saturday night.">
+                            <img src="../images/con-dinner.png" class="img-fluid py-3" alt="Dinner with the speaker on Saturday night.">
 
                         </div>
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
                                     <h3>Meet the Speakers Dinner</h3>
                                 </section>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p class="card-text">Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                    <br>
+                                    Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-5 col-12">
 
-                            <img src="../images/meeting-in-progress.png" class="img-fluid pb-3" alt="Recovering people are attending a marathon meeting.">
+                            <img src="../images/meeting-in-progress.png" class="img-fluid py-3" alt="Recovering people are attending a marathon meeting.">
 
                         </div>
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
 
                                 <section class="card-title">
@@ -117,19 +118,20 @@ include_once 'header.inc'
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-5 col-12">
 
-                            <img src="../images/con-breakfast.png" class="img-fluid  pb-3" alt="Join us for a Sunday morning breakfast.">
+                            <img src="../images/con-breakfast.png" class="img-fluid  py-3" alt="Join us for a Sunday morning breakfast.">
 
                         </div>
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
 
                                 <section class="card-title">
                                     <h3>Roundup Breakfast</h3>
                                 </section>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p class="card-text">Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                    <br>
+                                    Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
                                 </p>
 
                             </div>
@@ -137,12 +139,12 @@ include_once 'header.inc'
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-5 col-12">
 
-                            <img src="../images/con-dance.png" class="img-fluid pb-3" alt="A silhouette of fun and fellowship at the Saturday night dance.">
+                            <img src="../images/con-dance.png" class="img-fluid py-3" alt="A silhouette of fun and fellowship at the Saturday night dance.">
 
                         </div>
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
 
                                 <section class="card-title">
@@ -156,18 +158,20 @@ include_once 'header.inc'
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6 col-12">
+                        <div class="col-md-5 col-12">
 
-                            <img src="../images/con-ice-cream.png" class="img-fluid pb-3" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
+                            <img src="../images/con-ice-cream.png" class="img-fluid py-3" alt="Four different ice cream flavors on waffle cones, layout in a diamond formation.">
 
                         </div>
-                        <div class="col-sm-6 col-12 box-3">
-                            <div class="card card-body border-0">
+                        <div class="col-md-7 col-12 box-3">
+                            <div class="card card-body border-0 ">
                                 <section class="card-title">
                                     <h3>Ice Cream Social</h3>
                                 </section>
-                                <p><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a></p>
-                                <p class="card-text">Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
+
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                    <br>
+                                    Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
                                 </p>
                                 <p class="card-text">It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
 
