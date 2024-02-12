@@ -75,12 +75,12 @@ include_once 'header.inc'
                         <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                             <br>
                             <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</button><span class="sr-only">(Opens a new window)</span>
+                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89<span class="sr-only">(Opens a new window)</span></button>
                         </p>
                         <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                             <br>
                             <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</button><span class="sr-only">(Opens a new window)</span>
+                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152<span class="sr-only">(Opens a new window)</span></button>
                         </p>
                     </div>
                 </div>
@@ -510,12 +510,12 @@ include_once 'header.inc'
                         <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                             <br>
                             <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</button><span class="sr-only">(Opens a new window)</span>
+                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89<span class="sr-only">(Opens a new window)</span></button>
                         </p>
                         <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                             <br>
                             <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
-                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</button><span class="sr-only">(Opens a new window)</span>
+                            <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152<span class="sr-only">(Opens a new window)</span></button>
                         </p>
                     </div>
                 </div>
