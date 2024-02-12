@@ -123,7 +123,7 @@ include_once 'header.inc'
 
                     <section aria-label="Al-Anon Steering Committee">
                         <h3 class="fw-bold">Al-Anon Steering Committee</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
+                        <table class="table table-bordered table-striped table-hover" summary="Al-Anon steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
                             <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
@@ -327,7 +327,7 @@ include_once 'header.inc'
                                     <td>Laura P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Panel</th>
+                                    <th scope="row">Panel Chair</th>
                                     <td>--</td>
                                     <td>Mary Grace</td>
                                     <td>--</td>
@@ -354,7 +354,7 @@ include_once 'header.inc'
                                     <th scope="row">Spanish Community</th>
                                     <td>--</td>
                                     <td>Eric M.</td>
-                                    <td>Eric M.</td>
+                                    <td>Robert</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Speaker Chair</th>
