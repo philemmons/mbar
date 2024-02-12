@@ -226,7 +226,6 @@ include_once 'header.inc'
         </div>
     </aside>
 
-
     <?php include_once 'footer.inc' ?>
     </body>
 
