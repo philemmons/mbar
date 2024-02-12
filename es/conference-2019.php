@@ -269,9 +269,9 @@ include_once 'header.inc'
                         <br>
                         12:00pm Jem G. - Nuestro Coraje para Cambiar
                         <br>
-                        1:00pm Al-Ateen Panel
+                        1:00pm Alateen Panel
                         <br>
-                        3:00pm Al-Ateen Reunión (Reunión Cerrada: Solo Miembros de Al-Ateen)
+                        3:00pm Alateen Reunión (Reunión Cerrada: Solo Miembros de Alateen)
                         <br>
                         3:00pm Su B. - Recuperación Familiar En Instituciones
                         <br>

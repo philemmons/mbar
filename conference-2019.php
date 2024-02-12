@@ -161,7 +161,7 @@ include_once 'header.inc'
                         (ASL Interpretation Provided)
                         <br>
                         <hr>
-                        <strong>A.A. Speaker:</strong> Harry H., from Denver, CO
+                        <strong>A.A. Speaker:</strong> Harry H. from Denver, CO
                         <br><br>
                         <audio controls="">
                             <source src="audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
@@ -198,11 +198,11 @@ include_once 'header.inc'
                                 Al-Anon Twelve Traditions
                                 <br>
                                 Al-Anon Safety Statement
+                                <br>
+                                Al-Anon Closing
                             </div>
 
                             <div class="col-sm-6">
-                                Al-Anon Closing
-                                <br><br>
                                 Secretary - Ashley G.
                                 <br>
                                 Preamble: Laura
@@ -292,11 +292,11 @@ include_once 'header.inc'
                             </div>
 
                             <div class="col-sm-6">
-                                1:00pm Al-Ateen Panel
+                                1:00pm Alateen Panel
                                 <br>
-                                3:00pm Al-Ateen Meeting (Closed Meeting: Al-Ateen Members Only)
+                                3:00pm Alateen Meeting (Closed Meeting: Alateen Members Only)
                                 <br>
-                                3:00pm Su B. - Family Recovery In Institutions
+                                3:00pm Su B. - Family Recovery in Institutions
                                 <br>
                                 4:00pm Laurie B. and Guadalupe L.- Una Dia de la Vez - Spanish speaking
                             </div>
@@ -304,7 +304,7 @@ include_once 'header.inc'
 
                         <br>
                         <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
-                        <br><br>
+                        <br>
                         <hr>
                         <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
                         <br>
@@ -341,11 +341,11 @@ include_once 'header.inc'
                         <span style="font-size: 15px; color: blue">Many Paths to Spirituality Panel Meeting Audio File</span>
                         <br>
                         <hr>
-                        <strong>2:00pm</strong> - Ice Cream Social (Stevenson Terrace)
+                        <strong>2:00pm</strong> - Ice Cream Social <strong>(Stevenson Terrace)</strong>
                         <br>
                         <strong>4:00pm</strong> - Speed Fellowship
                         <br>
-                        <strong>5:00pm</strong> - Meet the Speakers Dinner (Bethlehem Lutheran Church Hall ∆)
+                        <strong>5:00pm</strong> - Meet the Speakers Dinner <strong>(Bethlehem Lutheran Church Hall ∆)</strong>
                         <br>
 
                         <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win
@@ -384,12 +384,10 @@ include_once 'header.inc'
                                 Closing Prayer
                             </div>
                         </div>
-
-                        <br>
                         <hr>
                         <br>
                         <strong>9:30pm</strong> - Fun and Fellowship Dance
-                        <br><br>
+                        <br>
                         <strong><span class="text-uppercase">ADA Accessibility</span>: MBAR 2019 will provide</strong>:
                         <ul>
                             <li><strong>2 ASL Interpreters</strong> - Saturday: 2.5h</li>
@@ -418,7 +416,7 @@ include_once 'header.inc'
                             8:00am GMHP Meditation Daily Reader
                         </p>
                         <hr>
-                        <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M., Sacramento, CA
+                        <strong>9:00am</strong> - <strong>Al-Anon Speaker:</strong> Louise M. (Sacramento, CA)
                         <br>
                         <audio controls="">
                             <source src="audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
@@ -427,9 +425,9 @@ include_once 'header.inc'
                         </audio>
                         <br>
                         <span style="font-size: 15px; color: blue">Louise M. Audio File</span>
-                        <hr>
                         <br>
-                        ASL Interpretation Provided
+                        <hr>
+                        (ASL Interpretation Provided)
                         <br>
                         <div class="row">
                             <div class="col-sm-6">
@@ -455,7 +453,7 @@ include_once 'header.inc'
 
                         <br>
                         <hr>
-                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B., Clovis, CA
+                        <strong>11:00am</strong> - <strong>A.A. Speaker:</strong> Pat B. (Clovis, CA)
                         <br>
                         <audio controls="">
                             <source src="audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
@@ -466,7 +464,8 @@ include_once 'header.inc'
                         <span style="font-size: 15px; color: blue">Pat B. Audio File</span>
                         <br>
                         <hr>
-                        (ASL Interpretation Provided)<br>
+                        (ASL Interpretation Provided)
+                        <br>
                         <div class="row">
                             <div class="col-sm-6">
                                 Preamble
