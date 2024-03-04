@@ -131,7 +131,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                        <a class="dropdown-item" href="upcoming_event.php">Bingo Night</a>
+                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Potluck</a>
                         <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                     </div>
                 </li>
