@@ -71,7 +71,7 @@ include_once 'header.inc'
 
                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <img class="img-fluid" src="../images/bingo-night.png" alt="Fun-ds & Fellowship - Bingo Night Fundraiser Flyer">
+                         <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
                     </div>
                </div>
           </div>
@@ -83,22 +83,40 @@ include_once 'header.inc'
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h3>
-                         <p class="mb-6 h5 text-dark">BINGO!
+                         <p class="mb-6 h5 text-dark">St. Patrick's
                               <br>
-                              "Fun-ds & Fellowship" Bingo Night Fundraiser
+                              Potluck and Speaker Meeting
                               <br>
-                              Join The Herd at The Moose for a night of Fellowship, Recovery, and Bingo! 🎉
+                              Join us in the "Funds and Fellowship"
                               <br><br>
-                              <strong>When:</strong> Friday — January 26, 2024, 6pm - 9pm
+                              <strong>When:</strong> Saturday — March 17, 2024
                               <br>
-                              <strong>Where:</strong> Moose Lodge — 555 Canyon Del Rey Blvd, Del Rey Oaks, CA
+                              <strong>Where:</strong> 437 Laureles Grade, Carmel Valley, CA
                               <br>
-                              <strong>Speaker:</strong> Elena B
+                              Doors Open at 4pm; Dine at 5pm
+                              <br>
+                              <strong>Speaker:</strong> Avil L. - Salinas CA at 6pm
                               <br><br>
-                              Hot Dogs — Beverages — Light Snacks — 50/50 Raffle and Bingo Prizes
+                              Corned Beef & Cabbage will be provided — Raffle Prizes and 50/50 Raffle
+                              <br><br>
+                              <strong>Potluck Suggestions:</strong> 1st Initial
+                              <br>
+                              A to C: Dessert
+                              <br>
+                              D to J: Hot Veggie Dish
+                              <br>
+                              K to O: Potato Dish
+                              <br>
+                              P to Z: Salad or Bread
+                              <br><br>
+                              <strong>Bring a chair and some friends of Bill
+                                   <br>
+                                   Wear your Green or previous MBAR gear!</strong>
+                              <br><br>
+                              In Lieu of the 7th tradition, we will be collecting contributions for 2024 MBAR!
                          </p>
                          <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, no link just design">
-                         <a href="" class="bb-link" onclick="window.open('pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
+                         <a href="" class="bb-link" onclick="window.open('pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">View and Download the Flyer</a>
                     </div>
                </div>
           </div>

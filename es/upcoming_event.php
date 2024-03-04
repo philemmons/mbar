@@ -73,7 +73,7 @@ include_once 'header.inc'
 
                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <img class="img-fluid" src="../images/bingo-night.png" alt="Fondos y Becas - Folleto de Recaudación de Fondos de la Noche de Bingo">
+                    <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la reunión compartida y de oradores de San Patricio">
                     </div>
                </div>
           </div>
@@ -100,7 +100,7 @@ include_once 'header.inc'
                               Perros calientes — Bebidas — Aperitivos Ligeros — Rifa 50/50 y Premios Bingo
                          </p>
                          <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                         <a href="" class="bb-link" onclick="window.open('../pdf/bingo-fundraiser-flyer.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
+                         <a href="" class="bb-link" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
                     </div>
                </div>
           </div>
