@@ -72,7 +72,7 @@ include_once 'header.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
-                            <p class="card-text"><strong>St. Patrick's Potluck & Speaker Meeting</strong> Corn Beef & Cabbage will be provided. Raffle Prizes and 50/50 Raffle. Bring a chair and some friends of Bill! Wear your green or previous MBAR gear!
+                            <p class="card-text"><strong>St. Patrick's Potluck & Speaker Meeting</strong>- Corn Beef & Cabbage will be provided. Raffle Prizes and 50/50 Raffle. Bring a chair and some friends of Bill! Wear your green or previous MBAR gear!
                             </p>
                         </div>
                         <div class="card-footer text-center">
