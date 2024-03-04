@@ -72,7 +72,7 @@ include_once 'header.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
                             </p>
-                            <p class="card-text"><strong>Gracias a todos por acompañarnos en la Noche de Bingo en Moose Lodge.</strong> Vuelva pronto para conocer el próximo evento!
+                            <p class="card-text"><strong>Comida compartida y reunión de oradores de San Patricio</strong> Se proporcionará carne de maíz y repollo. Premios de la Rifa y Rifa 50/50. ¡Trae una silla y algunos amigos de Bill! ¡Usa tu equipo MBAR verde o anterior!
                             </p>
                         </div>
                         <div class="card-footer text-center">
