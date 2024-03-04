@@ -87,7 +87,8 @@ include_once 'header.inc'
                     <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">2024 Minutes</span>
                     </h4>
                     <hr>
-                    <p>January minutes will be release second Saturday in February, so stay tuned.</p>
+                    <i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);"></i>
+                    <a href="" class="bb-link" onclick="window.open('../pdf/2024/01-13-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Open:01/13/2024</a> <br>
                 </div>
             </div>
         </div>
