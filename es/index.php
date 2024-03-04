@@ -72,7 +72,7 @@ include_once 'header.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
                             </p>
-                            <p class="card-text"><strong>Comida compartida y reunión de oradores de San Patricio</strong>- Se proporcionará carne de maíz y repollo. Premios de la Rifa y Rifa 50/50. ¡Trae una silla y algunos amigos de Bill! ¡Usa tu equipo MBAR verde o anterior!
+                            <p class="card-text"><strong>Comida compartida y reunión de oradores de San Patricio</strong> -Se proporcionará carne de maíz y repollo y Avil S. de Salinas compartirá su experiencia, fortaleza y esperanza con nosotros. Premios de la Rifa y Rifa 50/50. ¡Trae una silla y algunos amigos de Bill! ¡Usa tu equipo MBAR verde o anterior!
                             </p>
                         </div>
                         <div class="card-footer text-center">
