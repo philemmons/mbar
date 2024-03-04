@@ -85,19 +85,35 @@ include_once 'header.inc'
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                          <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presenta</a></h3>
-                         <p class="mb-6 h5 text-dark">¡BINGO!
+                         <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
                               <br>
-                              Noche de Bingo para recaudar fondos "Fondos y Becas"
-                              <br>
-                              ¡Únase a The Herd at The Moose para una noche de compañerismo, recuperación y bingo! 🎉
+                              Únete a nosotros en los "Fondos y Compañerismo""
                               <br><br>
-                              <strong>Cuándo:</strong> Viernes, 26 de Enero de 2024, de 6pm a 9pm.
+                              <strong>Cuándo:</strong> sábado — 17 de marzo de 2024
                               <br>
-                              <strong>Dónde:</strong> Moose Lodge - 555 Canyon Del Rey Blvd, Del Rey Oaks, CA
+                              <strong>Dónde:</strong> 437 Laureles Grade, Carmel Valley, CA
                               <br>
-                              <strong>Ponente:</strong> Elena B
+                              Las Puertas Abren a las 4 p. m.; Cenar a las 5pm
+                              <br>
+                              <strong>Ponente:</strong> Avil L. de Salinas, CA a las 6pm
                               <br><br>
-                              Perros calientes — Bebidas — Aperitivos Ligeros — Rifa 50/50 y Premios Bingo
+                              Se Proporcionará Carne en Conserva y Repollo: Premios de Rifa y Rifa 50/50
+                              <br><br>
+                              Sugerencias de comida compartida por la primera inicial:
+                              <br>
+                              A a C: Postre
+                              <br>
+                              D a J: Plato Vegetariano Caliente
+                              <br>
+                              K a O: Plato de Patatas
+                              <br>
+                              P a Z: Ensalada o Pan
+                              <br><br>
+                              <strong>¡Trae una silla y algunos amigos de Bill!</strong>
+                              <br>
+                              ¡Usa tu equipo MBAR verde o anterior!
+                              <br><br>
+                              <strong>Nota:</strong> ¡En lugar de la séptima tradición, recaudaremos contribuciones para 2024 MBAR!
                          </p>
                          <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
                          <a href="" class="bb-link" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
