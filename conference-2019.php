@@ -501,7 +501,7 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Five -->
-    <aside role="complementary" aria-label="Why we have MBAR explaination.">
+    <aside role="complementary" aria-label="Why we have MBAR explanation.">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">

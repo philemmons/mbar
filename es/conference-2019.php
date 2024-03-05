@@ -521,7 +521,7 @@ include_once 'header.inc'
     </aside>
 
     <!-- Part Six -->
-    <article aria-label="MBAR 2019 Google Map off site location">
+    <article aria-label="MBAR 2019 Google Map ubicación fuera del sitio">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -547,7 +547,7 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Seven -->
-    <aside role="complementary" aria-label="ADA accessibility and inclusion.">
+    <aside role="complementary" aria-label="Accesibilidad e inclusión de la ADA">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
