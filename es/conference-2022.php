@@ -337,12 +337,12 @@ include_once 'header.inc'
                     <h4 class="card-title mb-3"><a href="activities.php">¿POR QUÉ TENEMOS MBAR?</a></h4>
                     <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                         <br>
-                        <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
                         <a href="" class="bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89</a>
                     </p>
                     <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrará liberación del cuidado, el aburrimiento y la preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás.
                         <br>
-                        <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                         <a href="" class="bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152</a>
                     </p>
                 </div>

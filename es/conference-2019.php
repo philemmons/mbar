@@ -75,12 +75,12 @@ include_once 'header.inc'
                         </p>
                         <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                             <br>
-                            <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                            <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
                             <button type="button" class="btn btn-link bb-link" class="bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89<span class="sr-only">(Abre una nueva ventana)</span></button>
                         </p>
                         <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrará liberación del cuidado, el aburrimiento y la preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás.
                             <br>
-                            <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                            <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <button type="button" class="btn btn-link bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152<span class="sr-only">(Abre una nueva ventana)</span></button>
                         </p>
                     </div>
@@ -506,12 +506,12 @@ include_once 'header.inc'
                         <h4 class="card-title mb-3 text-uppercase">¿Por qué tenemos MBAR?</h4>
                         <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                             <br>
-                            <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                            <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
                             <button type="button" class="btn btn-link bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89<span class="sr-only">(Abre una nueva ventana)</span></button>
                         </p>
                         <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrarás liberación de preocupaciones, aburrimiento y preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también.
                             <br>
-                            <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                            <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <button type="button" class="btn btn-link bb-link" onclick="window.open('../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152<span class="sr-only">(Abre una nueva ventana)</span></button>
                         </p>
                     </div>

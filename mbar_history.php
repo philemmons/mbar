@@ -76,64 +76,64 @@ include_once 'header.inc'
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-5  text-center px-5">
                 <h3 class="mb-6 text-dark">Below are MBAR's banners used over the years.
-                    </>
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
-                            </div>
+                </h3>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-item">
+                            <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
+                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -184,16 +184,16 @@ include_once 'header.inc'
                         <p class="card-title h6">
                             <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years
                         </p>
-                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
                             <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Program</a>
                         </p>
-                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
                             <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Program</a>
                         </p>
-                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
                             <a href="" class="bb-link" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Program</a>
                         </p>
-                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, no link just design">
+                        <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
                             <a href="" class="bb-link" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Program</a>
                         </p>
                     </div>

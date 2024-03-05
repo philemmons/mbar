@@ -76,9 +76,9 @@ include_once 'header.inc'
 
         <div class="row justify-content-center py-4 mb-5">
             <div class="col-sm-5  text-center px-5">
-                <h4 class="mb-6 text-dark">A continuación se muestran los carteles de MBAR utilizados a lo largo de los años.
-                </h4>
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <h3 class="mb-6 text-dark">A continuación se muestran los carteles de MBAR utilizados a lo largo de los años.
+                </h3>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
@@ -126,11 +126,11 @@ include_once 'header.inc'
                             <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previo</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Próximo</span>
                     </button>
@@ -145,8 +145,8 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados</a></h4>
+                        <p class="card-title h6"><a href="mbar_history.php">
+                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados</a></p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                     </div>
@@ -159,14 +159,17 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:</a></h4>
+                        <p class="card-title h6"><a href="conference-2021.php">
+                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:</a></p>
                         <p class="card-text">Paul O. de 2017</p>
                         <audio controls="">
                             <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
                             <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
                             Su navegador no soporta el elemento de audio.
                         </audio>
+                        <div class="pt-3">
+                            <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        </div>
                     </div>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary">Compartiendo su experiencia, fortaleza y esperanza.</small>
@@ -177,18 +180,18 @@ include_once 'header.inc'
             <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                 <div class="card h-100 shadow-wrap">
                     <div class="card-body">
-                        <h4 class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años</a></h4>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <p class="card-title h6"><a href="conference-2021.php">
+                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años</a></p>
+                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
                         </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
                         </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
                         </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
+                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
                             <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
                         </p>
                     </div>
