@@ -63,148 +63,164 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
-                    <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Mantenlo Simple".</span>
-                    </h3>
-                    <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas que enfrentan los desafíos más difíciles y a avanzar hacia un futuro más fuerte y resiliente.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center py-4 mb-5">
-            <div class="col-sm-5  text-center px-5">
-                <h3 class="mb-6 text-dark">A continuación se muestran los carteles de MBAR utilizados a lo largo de los años.
-                </h3>
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
-                        </div>
+    <article aria-label="Logotipos pasados">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
+                        <section aria-label="Lema y propósito de MBAR">
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Mantenlo Simple".</span>
+                            </h3>
+                            <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas que enfrentan los desafíos más difíciles y a avanzar hacia un futuro más fuerte y resiliente.</p>
+                        </section>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previo</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center py-4 mb-5">
+                <div class="col-sm-5  text-center px-5">
+                    <section aria-label="Mostrar logotipos anteriores con carrusel">
+                        <h3 class="mb-6 text-dark">A continuación se muestran los carteles de MBAR utilizados a lo largo de los años.
+                        </h3>
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previo</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Two -->
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="mbar_history.php">
-                                <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados</a></p>
-                        <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
-                        <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary">Consulte la programación de MBAR de nuestros eventos anteriores.</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:</a></p>
-                        <p class="card-text">Paul O. de 2017</p>
-                        <audio controls="">
-                            <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
-                            <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+    <article aria-label="Horarios anteriores, orador y volantes">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <section aria-label="Horarios 2019 y 2022">
+                                <h3 class="card-title h6">
+                                    <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados
+                                </h3>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            </section>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary">Consulte la programación de MBAR de nuestros eventos anteriores.</small>
                         </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary">Compartiendo su experiencia, fortaleza y esperanza.</small>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <section aria-label="Orador 2017">
+                                <h3 class="card-title h6">
+                                    <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:
+                                </h3>
+                                <p class="card-text">Paul O. de 2017</p>
+                                <audio controls="">
+                                    <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
+                                    <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                                <div class="pt-3">
+                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary">Compartiendo su experiencia, fortaleza y esperanza.</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                <div class="card h-100 shadow-wrap">
-                    <div class="card-body">
-                        <p class="card-title h6"><a href="conference-2021.php">
-                                <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años</a></p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                            <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
-                        </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                            <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
-                        </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                            <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
-                        </p>
-                        <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                            <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
-                        </p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <small class="text-body-secondary">Los oradores e invitados provienen de todo Estados Unidos.</small>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <section aria-label="Volantes anteriores">
+                                <h3 class="card-title h6">
+                                    <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años
+                                </h3>
+                                <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
+                                </p>
+                                <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
+                                </p>
+                                <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
+                                </p>
+                                <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
+                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
+                                </p>
+                            </section>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary">Los oradores e invitados provienen de todo Estados Unidos.</small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <?php include_once 'footer.inc' ?>
-    </body>
+        <?php include_once 'footer.inc' ?>
+        </body>
 
-    </html>
+        </html>
