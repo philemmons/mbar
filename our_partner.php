@@ -64,69 +64,77 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3  text-bg-light hero-text-border">
-                    <h3 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
-                    </h3>
-                    <hr>
-                    <p>The following resolution of gratitude to the Fellowship of the Al-Anon Family Groups was unanimously approved by the 1969 General Service Conference of Alcoholics Anonymous.
-                        <br><br>
-                        The delegates of this, the 19th General Service Conference of Alcoholics Anonymous, meeting in official session in New York City, this 25th day of April, 1969, do hereby declare:
-                        <br><br>
-                        WHEREAS, it is the desire of this Conference to confirm the relationship between Alcoholics Anonymous and the Al-Anon Family Groups, and
-                        <br><br>
-                        WHEREAS, it is the further desire of this Conference to acknowledge A.A.'s debt of gratitude to the Al-Anon Family Groups, therefore,
-                        <br><br>
-                        BE IT RESOLVED, that Alcoholics Anonymous recognizes the special relationship which it enjoys with the Al-Anon Family Groups, a separate but similar fellowship. And be it further resolved that Alcoholics Anonymous wishes to recognize, and hereby does recognize, the great contribution which the Al-Anon Family Groups have made and are making in assisting the families of alcoholics everywhere.
-                    </p>
+    <article aria-label="Al-Anon partner">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                    <div class="p-3  text-bg-light hero-text-border">
+                        <section aria-label="Debt of gratitude">
+                            <h3 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">A.A.'s Debt of Gratitude to Al-Anon</span>
+                            </h3>
+                            <hr>
+                            <p>The following resolution of gratitude to the Fellowship of the Al-Anon Family Groups was unanimously approved by the 1969 General Service Conference of Alcoholics Anonymous.
+                                <br><br>
+                                The delegates of this, the 19th General Service Conference of Alcoholics Anonymous, meeting in official session in New York City, this 25th day of April, 1969, do hereby declare:
+                                <br><br>
+                                <span class="text-uppercase">Whereas</span>, it is the desire of this Conference to confirm the relationship between Alcoholics Anonymous and the Al-Anon Family Groups, and
+                                <br><br>
+                                <span class="text-uppercase">Whereas</span>, it is the further desire of this Conference to acknowledge A.A.'s debt of gratitude to the Al-Anon Family Groups, therefore,
+                                <br><br>
+                                <span class="text-uppercase">Be it resolved</span>, that Alcoholics Anonymous recognizes the special relationship which it enjoys with the Al-Anon Family Groups, a separate but similar fellowship. And be it further resolved that Alcoholics Anonymous wishes to recognize, and hereby does recognize, the great contribution which the Al-Anon Family Groups have made and are making in assisting the families of alcoholics everywhere.
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Part Two -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3  text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics<br>Lois's Story(1995)</span>
-                    </h4>
-                    <hr>
-                    <p>According to Lois W. — "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could."
-                        <br><br>
-                        "This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes."
-                        <br><br>
-                        "My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes."
-                        <br><br>
-                        "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
-                    </p>
+        <!-- Part Two -->
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                    <div class="p-3  text-bg-light hero-text-border">
+                        <section aria-label="Lois's story">
+                            <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">How Al-Anon Works for Families and Friends of Alcoholics<br>Lois's Story(1995)</span>
+                            </h4>
+                            <hr>
+                            <p>According to Lois W. — "After a while I began to wonder why I was not as happy as I ought to be, since the one thing I had been yearning for all my married life [Bill's sobriety] had come to pass. Then one Sunday, Bill asked me if I was ready to go to the meeting with him. To my own astonishment as well as his, I burst forth with, 'Damn your old meetings!' and threw a shoe as hard as I could."
+                                <br><br>
+                                "This surprising display of temper over nothing pulled me up short and made me start to analyze my own attitudes."
+                                <br><br>
+                                "My life's purpose of sobering up Bill, which had made me feel desperately needed, had vanished. I decided to strive for my own spiritual growth. I used the same principles as he did to learn how to change my attitudes."
+                                <br><br>
+                                "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Part Three -->
-    <div class="container mb-5 py-2 px-4">
-        <div class="row">
-            <div class="col-lg-4 text-center mb-1">
-                <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Al-Anon quotes fitting together are the triangle with a transparent background." title="Al-Anon quotes fitting together are the triangle with a transparent background.">
-            </div>
+        <!-- Part Three -->
+        <div class="container mb-5 py-2 px-4">
+            <div class="row">
+                <div class="col-lg-4 text-center mb-1">
+                    <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Al-Anon quotes fitting together are the triangle with a transparent background." title="Al-Anon quotes fitting together are the triangle with a transparent background.">
+                </div>
 
-            <div class="col-lg-8">
-                <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
-                </h4>
-                <hr>
-                <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
-                    <br><br>
-                    Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
-                    <br><br>
-                    Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
-                </p>
+                <div class="col-lg-8">
+                    <section aria-label="Al-Anon preamble">
+                        <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Al-Anon: Who We Are</span>
+                        </h4>
+                        <hr>
+                        <p>Al-Anon Family Groups are a fellowship of relatives and friends of alcoholics who share their experience, strength, and hope in order to solve their common problems. We believe alcoholism is a family illness and that changed attitudes can aid recovery.
+                            <br><br>
+                            Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
+                            <br><br>
+                            Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
+                        </p>
+                    </section>
+                </div>
             </div>
         </div>
-    </div>
+    </article>
 
 
     <?php include_once 'footer.inc' ?>
