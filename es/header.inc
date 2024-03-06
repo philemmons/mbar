@@ -44,7 +44,7 @@
 
 <body id="toTop">
     <a href="#main-content" class="btn btn-primary btn-skip" aria-label="Ir al Contenido Principal">Ir al Contenido Principal</a>
-    <header class='container' role="banner">
+    <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
                 <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>

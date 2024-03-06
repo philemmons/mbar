@@ -19,7 +19,7 @@
 </main>
 
 <div class='container top-footer'>
-    <aside role="complementary" aria-label="responsibility statement">
+    <aside aria-label="responsibility statement">
         <div class="row justify-content-md-center">
             <div class='col-sm-4 banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple">
@@ -34,7 +34,7 @@
         </div>
     </aside>
 
-    <aside role="complementary" aria-label="private facebook group">
+    <aside aria-label="private facebook group">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
@@ -46,14 +46,14 @@
     </aside>
 </div>
 
-<footer role="contentinfo">
+<footer>
     <div class='container'>
         <div class="row justify-content-md-center">
             <div class="col-sm-12" id="footer-image" role=img aria-label="A road through rolling hills, covered with flowers, with a sunset backdrop.">
                 <p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
                 </p>
             </div>
-            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" role="navigation" aria-label="footer menu">
+            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link nav-link-size" href="accessibility.php">Site Accessibility</a>

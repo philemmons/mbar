@@ -20,7 +20,7 @@
 
 
 <div class='container top-footer'>
-    <aside role="complementary" aria-label="declaración de responsabilidad">
+    <aside aria-label="declaración de responsabilidad">
         <div class=" row justify-content-md-center">
             <div class='col-sm-4 banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
@@ -35,7 +35,7 @@
         </div>
     </aside>
 
-    <aside role="complementary" aria-label="grupo privado de facebook">
+    <aside aria-label="grupo privado de facebook">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
@@ -47,14 +47,14 @@
     </aside>
 </div>
 
-<footer role="contentinfo">
+<footer>
     <div class='container'>
         <div class="row justify-content-md-center">
             <div class="col-sm-12" id="footer-image" role=img aria-label="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                 </p>
             </div>
-            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" role="navigation" aria-label="menú de pie de página">
+            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="menú de pie de página">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link nav-link-size" href="accessibility.php">Accesibilidad del Sitio</a>

@@ -234,11 +234,9 @@ function goMain()
      $record = $statement->fetch(PDO::FETCH_ASSOC);
 
      if (empty($record)) { //wrong credentials
-          echo '<div role="form">';
           echo "<form method='POST' action='_login.php'>";
           echo "<br><span style='color:red'><h4>Wrong username or password.</h4></span>";
           echo "</form>";
-          echo '</div>';
      } else {
           $_SESSION["name"] = $record['firstName'] . " " . $record['lastName'];
           $_SESSION["username"]  = $record['userName'];

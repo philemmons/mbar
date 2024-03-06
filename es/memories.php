@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation" aria-label="navegación principal">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ include_once 'header.inc'
     </div>
 </nav>
 
-<main role="main" id="main-content">
+<main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Árboles coloridos durante el otoño.">
@@ -167,77 +167,75 @@ include_once 'header.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border" title="Exprese sus pensamientos y sentimientos sobre MBAR.">
 
-                    <div role="form">
-                        <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                            <div class="col-md-6">
-                                <label for="fname" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" name="fname" id="fname" required>
+                        <div class="col-md-6">
+                            <label for="fname" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" name="fname" id="fname" required>
+                            <div class="invalid-feedback">
+                                Por favor, introduzca su nombre de pila.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="lname" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" name="lname" id="lname" required>
+                            <div class="invalid-feedback">
+                                Por favor ingrese su apellido.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mem-email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" name="mem-email" id="mem-email" required>
+                            <div class="invalid-feedback">
+                                Por favor introduzca su correo electrónico.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="mem-title" class="form-label">Título del Mensaje</label>
+                            <input type="text" class="form-control" name="mem-title" id="mem-title" required>
+                            <div class="invalid-feedback">
+                                Por favor introduce un título.
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="mem-ta" class="form-label">Mensaje</label>
+                            <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
+                            <div class="invalid-feedback">
+                                Por favor ingrese su mensaje.
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Aceptar términos y condiciones
+                                </label>
                                 <div class="invalid-feedback">
-                                    Por favor, introduzca su nombre de pila.
+                                    Debes aceptar antes de enviar.
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-md-6">
-                                <label for="lname" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" name="lname" id="lname" required>
-                                <div class="invalid-feedback">
-                                    Por favor ingrese su apellido.
-                                </div>
+                        <div class="col-md-12">
+                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                            <div id="reCaptcha-warning">
+                                Nota: El formulario se restablecerá si no está marcado.
                             </div>
+                        </div>
 
-                            <div class="col-md-6">
-                                <label for="mem-email" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" name="mem-email" id="mem-email" required>
-                                <div class="invalid-feedback">
-                                    Por favor introduzca su correo electrónico.
-                                </div>
-                            </div>
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
+                        </div>
 
-                            <div class="col-md-6">
-                                <label for="mem-title" class="form-label">Título del Mensaje</label>
-                                <input type="text" class="form-control" name="mem-title" id="mem-title" required>
-                                <div class="invalid-feedback">
-                                    Por favor introduce un título.
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <label for="mem-ta" class="form-label">Mensaje</label>
-                                <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
-                                <div class="invalid-feedback">
-                                    Por favor ingrese su mensaje.
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
-                                    <label class="form-check-label" for="invalidCheck">
-                                        Aceptar términos y condiciones
-                                    </label>
-                                    <div class="invalid-feedback">
-                                        Debes aceptar antes de enviar.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                                <div id="reCaptcha-warning">
-                                    Nota: El formulario se restablecerá si no está marcado.
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 text-center">
-                                <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
-                            </div>
-
-                            <div class="col-md-6 text-center">
-                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
-                            </div>
-                        </form>
-                    </div>
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
+                        </div>
+                    </form>
 
                 </div>
             </div>

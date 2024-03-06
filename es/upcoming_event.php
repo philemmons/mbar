@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation" aria-label="navegación principal">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
      <div class="container">
           <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ include_once 'header.inc'
      </div>
 </nav>
 
-<main role="main" id="main-content">
+<main id="main-content">
      <!-- Hero Part -->
      <div class="container shadow-wrap">
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
@@ -84,7 +84,7 @@ include_once 'header.inc'
           <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h3 class="card-title mb-3"><a href="activities.php" class= "bb-link">Monterey Bay Area Roundup presenta</a></h3>
+                         <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presenta</a></h3>
                          <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
                               <br>
                               Únete a nosotros en los "Fondos y Compañerismo""

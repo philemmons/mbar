@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation" aria-label="navegación principal">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ include_once 'header.inc'
     </div>
 </nav>
 
-<main role="main" id="main-content">
+<main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Archivo de la Conferencia MBAR 2022">
@@ -498,7 +498,7 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Five -->
-    <aside role="complementary" aria-label="Por qué tenemos una explicación de MBAR.">
+    <aside aria-label="Por qué tenemos una explicación de MBAR.">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -522,7 +522,7 @@ include_once 'header.inc'
 
     <!-- Part Six -->
     <article aria-label="MBAR 2019 Google Map ubicación fuera del sitio">
-    <div class="container shadow-wrap">
+        <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
@@ -549,7 +549,7 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Seven -->
-    <aside role="complementary" aria-label="Accesibilidad e inclusión de la ADA">
+    <aside aria-label="Accesibilidad e inclusión de la ADA">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">

@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation" aria-label="navegación principal">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ include_once 'header.inc'
     </div>
 </nav>
 
-<main role="main" id="main-content">
+<main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-helpingHands" title="Nosotros estamos honrando la séptima tradición.">
@@ -69,7 +69,7 @@ include_once 'header.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="">
                         <section>
-                        <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h3>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h3>
                         </section>
                     </div>
                 </div>

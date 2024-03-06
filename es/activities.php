@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" role="navigation" aria-label="navegación principal">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ include_once 'header.inc'
     </div>
 </nav>
 
-<main role="main" id="main-content">
+<main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Hermoso mosaico de azulejos de Monterey en el Centro de Conferencias que inspira actividades de compañerismo.">
@@ -175,7 +175,7 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Two -->
-    <aside role="complementary" aria-label="responsibility statement"> aria-label="Monterey y Sus Alrededores">
+    <aside aria-label="responsibility statement"> aria-label="Monterey y Sus Alrededores">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 py-4">
