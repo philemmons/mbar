@@ -63,62 +63,65 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h3>
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="">
+                        <section>
+                        <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h3>
+                        </section>
+                    </div>
                 </div>
-            </div>
 
-            <?php
+                <?php
 
-            /**
-             * https://www.codexworld.com/new-google-recaptcha-with-php/
-             */
+                /**
+                 * https://www.codexworld.com/new-google-recaptcha-with-php/
+                 */
 
-            // Google reCAPTCHA API keys settings 
-            $secretKey  = getenv('g-secret-key');
+                // Google reCAPTCHA API keys settings 
+                $secretKey  = getenv('g-secret-key');
 
-            // Email settings 
-            $recipientEmail = getenv('mbar-reg-email');
+                // Email settings 
+                $recipientEmail = getenv('mbar-reg-email');
 
-            // If the form is submitted 
-            $postData = $statusMsg = '';
-            $status = 'error';
+                // If the form is submitted 
+                $postData = $statusMsg = '';
+                $status = 'error';
 
-            if (isset($_POST['submit'])) {
-                $postData = $_POST;
+                if (isset($_POST['submit'])) {
+                    $postData = $_POST;
 
-                // Validate form input fields 
-                if (
-                    !empty($_POST['hand-em']) &&
-                    !empty($_POST['hand-ph']) &&
-                    !empty($_POST['hand-am']) &&
-                    !empty($_POST['hand-ta'])
-                ) {
+                    // Validate form input fields 
+                    if (
+                        !empty($_POST['hand-em']) &&
+                        !empty($_POST['hand-ph']) &&
+                        !empty($_POST['hand-am']) &&
+                        !empty($_POST['hand-ta'])
+                    ) {
 
-                    // Validate reCAPTCHA checkbox 
-                    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+                        // Validate reCAPTCHA checkbox 
+                        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-                        // Verify the reCAPTCHA API response 
-                        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+                            // Verify the reCAPTCHA API response 
+                            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
 
-                        // Decode JSON data of API response 
-                        $responseData = json_decode($verifyResponse);
+                            // Decode JSON data of API response 
+                            $responseData = json_decode($verifyResponse);
 
-                        // If the reCAPTCHA API response is valid 
-                        if ($responseData->success) {
-                            // Retrieve value from the form input fields 
-                            $email = !empty($_POST['hand-em']) ? htmlspecialchars($_POST['hand-em']) : '';
-                            $phone = !empty($_POST['hand-ph']) ? htmlspecialchars($_POST['hand-ph']) : '';
-                            $amount = !empty($_POST['hand-am']) ? htmlspecialchars($_POST['hand-am']) : '';
-                            $mainMessage = !empty($_POST['hand-ta']) ? htmlspecialchars($_POST['hand-ta']) : '';
+                            // If the reCAPTCHA API response is valid 
+                            if ($responseData->success) {
+                                // Retrieve value from the form input fields 
+                                $email = !empty($_POST['hand-em']) ? htmlspecialchars($_POST['hand-em']) : '';
+                                $phone = !empty($_POST['hand-ph']) ? htmlspecialchars($_POST['hand-ph']) : '';
+                                $amount = !empty($_POST['hand-am']) ? htmlspecialchars($_POST['hand-am']) : '';
+                                $mainMessage = !empty($_POST['hand-ta']) ? htmlspecialchars($_POST['hand-ta']) : '';
 
-                            // Send email notification to the site admin 
-                            $to = $recipientEmail;
-                            $subject = 'Helping Hand Submitted';
-                            $htmlContent = " 
+                                // Send email notification to the site admin 
+                                $to = $recipientEmail;
+                                $subject = 'Helping Hand Submitted';
+                                $htmlContent = " 
                     <h4>Helping Hand Form - ES</h4> 
                     <p><b>Name: </b> Anonymous Donor </p> 
                     <p><b>Email: </b>" . $email . "</p> 
@@ -127,45 +130,44 @@ include_once 'header.inc'
                     <p><b>Message: </b>" . $mainMessage . "</p> 
                 ";
 
-                            // Always set content-type when sending HTML email 
-                            $headers = "MIME-Version: 1.0" . "\r\n";
-                            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                            // More headers 
-                            $headers .= 'From:Anonymous Donor<' . $email . '>' . "\r\n";
+                                // Always set content-type when sending HTML email 
+                                $headers = "MIME-Version: 1.0" . "\r\n";
+                                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                                // More headers 
+                                $headers .= 'From:Anonymous Donor<' . $email . '>' . "\r\n";
 
-                            // Send email 
-                            mail($to, $subject, $htmlContent, $headers);
+                                // Send email 
+                                mail($to, $subject, $htmlContent, $headers);
 
-                            $status = 'success';
-                            $statusMsg = 'Muchas gracias. Nos pondremos en contacto contigo para ver cómo hacer tu Aporte.';
-                            $postData = '';
+                                $status = 'success';
+                                $statusMsg = 'Muchas gracias. Nos pondremos en contacto contigo para ver cómo hacer tu Aporte.';
+                                $postData = '';
+                            } else {
+                                $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
+                            }
                         } else {
-                            $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
+                            $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                         }
                     } else {
-                        $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
+                        $statusMsg = 'Por favor complete todos los campos obligatorios.';
                     }
-                } else {
-                    $statusMsg = 'Por favor complete todos los campos obligatorios.';
                 }
-            }
 
-            ?>
+                ?>
 
-            <div id="hand-us"></div>
-            <?php if (!empty($statusMsg)) { ?>
-                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
-                        <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                <div id="hand-us"></div>
+                <?php if (!empty($statusMsg)) { ?>
+                    <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                        <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
+                            <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                        </div>
                     </div>
-                </div>
-            <?php } ?>
+                <?php } ?>
 
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
-                    <div role="form">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
+
                         <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
-
                             <div class="col-md-6">
                                 <label for="hand-em" class="form-label">Correo electrónico</label>
                                 <input type="email" class="form-control" name="hand-em" id="hand-em" required>
@@ -216,19 +218,18 @@ include_once 'header.inc'
                                 <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Restablecer Formulario</button>
                             </div>
                         </form>
+
                     </div>
-
                 </div>
-            </div>
 
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">De acuerdo con la Séptima Tradición de autofinanciamiento de A.A., aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <p class="mb-6 h5 text-dark">De acuerdo con la Séptima Tradición de autofinanciamiento de A.A., aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </article>
 
 
     <?php include_once 'footer.inc' ?>
