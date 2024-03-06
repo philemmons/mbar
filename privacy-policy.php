@@ -63,11 +63,11 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <article aria-label="Privacy and Terms of Use">
+    <article aria-label="Privacy and Terms of Use">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-                    <div class="p-3 text-bg-light hero-text-border" title="Website Privacy Policy">
+                    <div class="p-3 text-bg-light hero-text-border text-center" title="Website Privacy Policy">
                         <section aria-label="User Data Privacy">
                             <h3 class="mb-6 h4 text-dark">Website Privacy Policy of Monterey Bay Area Roundup</h3>
                         </section>
@@ -129,9 +129,13 @@ include_once 'header.inc'
                         </p>
                     </div>
                 </div>
-            </article>
+            </div>
+        </div>
+    </article>
 
-            <article aria-label="Terms of Service">
+    <article aria-label="Terms of Service">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border" title="POLICIES">
                         <strong>TERMS OF USE AND POLICIES.</strong>
@@ -535,9 +539,10 @@ include_once 'header.inc'
                         <strong>These policies were last amended 12.25.23</strong>
                     </div>
                 </div>
-            </article>
+
+            </div>
         </div>
-    </div>
+    </article>
 
 
     <?php include_once 'footer.inc' ?>

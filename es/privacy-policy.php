@@ -62,9 +62,9 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <article aria-label="Privacidad y términos de uso">
+    <article aria-label="Privacidad y términos de uso">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                     <div class="p-3 text-bg-light hero-text-border" title="Política de privacidad del sitio web">
                         <section aria-label="Privacidad de los datos del usuario">
@@ -127,9 +127,13 @@ include_once 'header.inc'
                         </p>
                     </div>
                 </div>
-            </article>
+            </div>
+        </div>
+    </article>
 
-            <article aria-label="Términos de Servicio">
+    <article aria-label="Términos de Servicio">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border" title="POLÍTICAS">
                         <strong>TÉRMINOS DE USO Y POLÍTICAS.</strong>
@@ -534,9 +538,9 @@ include_once 'header.inc'
                         <strong>Estas políticas se modificaron por última vez el 25.12.23</strong>
                     </div>
                 </div>
-            </article>
+            </div>
         </div>
-    </div>
+    </article>
 
 
     <?php include_once 'footer.inc' ?>
