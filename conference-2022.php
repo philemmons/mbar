@@ -333,7 +333,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="card-title mb-3 text-uppercase"><a href="activities.php">Why do we have MBAR?</a></h4>
+                    <h4 class="card-title mb-3 text-uppercase">Why do we have MBAR?</h4>
                     <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                         <br>
                         <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, followed by link">

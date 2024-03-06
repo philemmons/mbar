@@ -82,7 +82,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="#register-now">Descarga el Formulario de Inscripción</a></h3>
+                    <h3 class="card-title mb-3"><a href="#register-now" class= "bb-link">Descarga el Formulario de Inscripción</a></h3>
                     <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                     </p>
                     <p>MONTEREY BAY AREA ROUNDUP<br>
@@ -133,7 +133,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h4 class="card-title text-center mb-3"><a href="#register-now">A.A. Convenciones: ¿Por qué tenemos que pagar?</a></h4>
+                    <h4 class="card-title text-center mb-3"><a href="#register-now" class= "bb-link">A.A. Convenciones: ¿Por qué tenemos que pagar?</a></h4>
                     <p>Hay muchos miembros de A.A. conferencias/convenciones celebradas en todo el mundo. Uno de los conceptos erróneos más comunes acerca de su reunión es que son miembros de A.A. reuniones y dado que no hay cuotas ni honorarios para A.A. membresía, no debería haber ningún costo por asistir. Las convenciones y conferencias son eventos especiales, no reuniones regulares de A.A. reuniones. Requieren meses de planificación, preparación y costes.
                     </p>
                     <p>Dado que la mayoría de los eventos se llevan a cabo en hoteles/centros de conferencias, hay un cargo por el uso de algunas instalaciones. Otros gastos incluyen viajes y alojamiento de los oradores, impresión de volantes, horarios, programas, correos, suministros y entretenimiento. Un gran evento requiere una cantidad sustancial de dinero.

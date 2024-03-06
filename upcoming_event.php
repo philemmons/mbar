@@ -82,7 +82,7 @@ include_once 'header.inc'
           <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presents</a></h3>
+                         <h3 class="card-title mb-3"><a href="activities.php" class= "bb-link">Monterey Bay Area Roundup presents</a></h3>
                          <p class="mb-6 h5 text-dark">☘️<strong>St. Patrick's Potluck and Speaker Meeting</strong>☘️
                               <br>
                               Join us in the "Funds and Fellowship"

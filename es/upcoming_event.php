@@ -84,7 +84,7 @@ include_once 'header.inc'
           <div class="row justify-content-center mb-5">
                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h3 class="card-title mb-3"><a href="activities.php">Monterey Bay Area Roundup presenta</a></h3>
+                         <h3 class="card-title mb-3"><a href="activities.php" class= "bb-link">Monterey Bay Area Roundup presenta</a></h3>
                          <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
                               <br>
                               Únete a nosotros en los "Fondos y Compañerismo""

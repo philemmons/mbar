@@ -81,7 +81,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3"><a href="#register-now">Download the Registration Form</a></h3>
+                    <h3 class="card-title mb-3"><a href="#register-now" class= "bb-link">Download the Registration Form</a></h3>
                     <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                     </p>
                     <p>MONTEREY BAY AREA ROUNDUP<br>
@@ -132,7 +132,7 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-bg-light hero-text-border">
-                    <h4 class="card-title text-center mb-3"><a href="#register-now">A.A. Conventions: Why do we have to pay?</a></h4>
+                    <h4 class="card-title text-center mb-3"><a href="#register-now" class= "bb-link">A.A. Conventions: Why do we have to pay?</a></h4>
                     <p>There are many A.A. conferences/conventions held around the world. One of the most common misconceptions of their gathering is that they are A.A. meetings and since there are no dues or fees for A.A. membership, there should be no fees to attend. Conventions and conferences are special events, not regular A.A. meetings. They require months of planning, preparation and costs.
                     </p>
                     <p>Since most events are held in hotels/conference centers, there is a charge for the use of some facilities. Other expenses include travel and lodging for the speakers, printing of fliers, schedules, programs, postage, supplies and entertainment. A large event requires a substantial amount of money.
