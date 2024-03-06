@@ -61,12 +61,14 @@ include_once 'header.inc'
 			</div>
 		</div>
 	</div>
-
+<article>
 	<div class="container shadow-wrap">
 		<div class="row justify-content-center" id="top">
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+			<section aria-label="inicio del mapa del sitio">
 				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Página Principal">montereybayarearoundup.org/es/ Página Principal</a>
 				</h3>
+				</section>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 				<h4>Última Actualización: 2023, 28 de Diciembre
@@ -78,7 +80,7 @@ include_once 'header.inc'
 
 		<div class="row justify-content-center mb-5">
 			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-5">
-				<div class="p-3 text-bg-light hero-text-border" title="">
+				<div class="p-3 text-bg-light hero-text-border" title="Mapa del sitio XML para montereybayarearoundup.org">
 					<ul class="level-0 list-group ms-3">
 						<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
 						<li class="no-bullet">
@@ -116,6 +118,7 @@ include_once 'header.inc'
 			</div>
 		</div>
 	</div>
+	</article>
 
 	<?php include_once 'footer.inc' ?>
 
