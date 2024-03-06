@@ -61,33 +61,39 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
-                    </h3>
-                    <p class="mb-6 h5 text-dark">Great job Micha!</p>
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label= "Logo winner">
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D is MBAR's Logo Contest winner for 2024.</span>
+                            </h3>
+                            <p class="mb-6 h5 text-dark">Great job Micha!</p>
+                        </section>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-sm-12 col-12 text-center px-3 py-4">
-                <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
-            </div>
-        </div>
-    </div>
-
-    <!-- Part Two -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
-                        We hope you enjoyed this contest as much as we did.</p>
+                <div class="col-sm-12 col-12 text-center px-3 py-4">
+                    <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Part Two -->
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label= "Gratitude">
+                            <h4 class="mb-6 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
+                                We hope you enjoyed this contest as much as we did.</h4>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
 
 
     <?php include_once 'footer.inc' ?>

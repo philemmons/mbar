@@ -61,13 +61,16 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
+    <article>
     <div class="container shadow-wrap">
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
+                <section aria-label= "Ganador del logo">
                     <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D es el ganador del Concurso de Logotipos de MBAR para 2024.</span>
                     </h3>
                     <p class="mb-6 h5 text-dark">Gran trabajo Micha!</p>
+</section>
                 </div>
             </div>
 
@@ -82,13 +85,15 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h4 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.<br>
-                        Esperamos que hayas disfrutado de este concurso tanto como nosotros.</p>
+                <section aria-label= "Gratitud">
+                    <h4 class="mb-6 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.<br>
+                        Esperamos que hayas disfrutado de este concurso tanto como nosotros.</h4>
+</section>
                 </div>
             </div>
         </div>
     </div>
-
+    </article>
 
     <?php include_once 'footer.inc' ?>
     </body>
