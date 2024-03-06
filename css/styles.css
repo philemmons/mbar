@@ -476,3 +476,8 @@ ul.level-1>li.ms-5 {
 .text-body-secondary{
   color: var(--color-7) !important;
 }
+
+/**** iframe ****/
+iframe{
+  width: 100%;
+}
