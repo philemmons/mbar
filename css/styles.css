@@ -481,7 +481,3 @@ ul.level-1>li.ms-5 {
 iframe{
   width: 100%;
 }
-
-.hold-iframe{
-  background:url(../images/loader.gif) center center no-repeat;
-}
