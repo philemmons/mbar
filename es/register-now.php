@@ -76,7 +76,6 @@ include_once 'header.inc'
             </div>
         </div>
     </div>
-    </div>
 
     <!-- Part Two -->
     <div class="container shadow-wrap">
