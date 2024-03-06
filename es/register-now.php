@@ -70,7 +70,7 @@ include_once 'header.inc'
             <div class="col-xl-8 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <div style="height: 50rem;">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" id="reg-form" title="Formulario de inscripción al MBAR 2024 a través de formularios de Google.">Cargando…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ouc-DIkpARsMa5rmX7HmLy2dwejBr79fDQ9aqUbR--DDQQ/viewform?embedded=true" id="reg-form" title="Formulario de inscripción al MBAR 2024 a través de formularios de Google."></iframe>
                     </div>
                 </div>
             </div>
