@@ -86,8 +86,8 @@ include_once 'header.inc'
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                 <section aria-label= "Gratitud">
-                    <h4 class="mb-6 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.<br>
-                        Esperamos que hayas disfrutado de este concurso tanto como nosotros.</h4>
+                    <h3 class="mb-6 h4 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.<br>
+                        Esperamos que hayas disfrutado de este concurso tanto como nosotros.</h3>
 </section>
                 </div>
             </div>
