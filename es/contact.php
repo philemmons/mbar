@@ -62,66 +62,69 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
-                    <h3 class="h5 mb-6"><span class="text-dark px-3 px-md-0">Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora porque nos importa.<br>Realmente nos importa.</span>
-                    </h3>
+    <article>
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Los recuerdos están en proceso.">
+                        <section>
+                            <h3 class="h5 mb-6"><span class="text-dark px-3 px-md-0">Comuníquese con nosotros si tiene alguna pregunta, comentario o mejora porque nos importa.<br>Realmente nos importa.</span>
+                            </h3>
+                        </section>
+                    </div>
                 </div>
-            </div>
 
-            <?php
+                <?php
 
-            /**
-             * https://www.codexworld.com/new-google-recaptcha-with-php/
-             */
+                /**
+                 * https://www.codexworld.com/new-google-recaptcha-with-php/
+                 */
 
-            // Google reCAPTCHA API keys settings 
-            $secretKey  = getenv('g-secret-key');
+                // Google reCAPTCHA API keys settings 
+                $secretKey  = getenv('g-secret-key');
 
-            // Email settings 
-            $recipientEmail = getenv('mbar-chair-email');
+                // Email settings 
+                $recipientEmail = getenv('mbar-chair-email');
 
-            // If the form is submitted 
-            $postData = $statusMsg = '';
-            $status = 'error';
+                // If the form is submitted 
+                $postData = $statusMsg = '';
+                $status = 'error';
 
-            if (isset($_POST['submit'])) {
-                $postData = $_POST;
+                if (isset($_POST['submit'])) {
+                    $postData = $_POST;
 
-                // Validate form input fields
-                if (
-                    !empty($_POST['contact-fn']) &&
-                    !empty($_POST['contact-ln']) &&
-                    !empty($_POST['contact-em']) &&
-                    !empty($_POST['contact-subj']) &&
-                    !empty($_POST['contact-ta'])
-                ) {
+                    // Validate form input fields
+                    if (
+                        !empty($_POST['contact-fn']) &&
+                        !empty($_POST['contact-ln']) &&
+                        !empty($_POST['contact-em']) &&
+                        !empty($_POST['contact-subj']) &&
+                        !empty($_POST['contact-ta'])
+                    ) {
 
-                    // Validate reCAPTCHA checkbox 
-                    if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
+                        // Validate reCAPTCHA checkbox 
+                        if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-                        // Verify the reCAPTCHA API response 
-                        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
+                            // Verify the reCAPTCHA API response 
+                            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
 
-                        // Decode JSON data of API response 
-                        $responseData = json_decode($verifyResponse);
+                            // Decode JSON data of API response 
+                            $responseData = json_decode($verifyResponse);
 
-                        // If the reCAPTCHA API response is valid 
-                        if ($responseData->success) {
-                            // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['contact-fn']) ? htmlspecialchars($_POST['contact-fn']) : '';
-                            $lastName = !empty($_POST['contact-ln']) ? htmlspecialchars($_POST['contact-ln']) : '';
-                            $email = !empty($_POST['contact-em']) ? htmlspecialchars($_POST['contact-em']) : '';
-                            $phone = !empty($_POST['contact-phone']) ? htmlspecialchars($_POST['contact-phone']) : '';
-                            $contactSubj = !empty($_POST['contact-subj']) ? htmlspecialchars($_POST['contact-subj']) : '';
-                            $contactMess = !empty($_POST['contact-ta']) ? htmlspecialchars($_POST['contact-ta']) : '';
+                            // If the reCAPTCHA API response is valid 
+                            if ($responseData->success) {
+                                // Retrieve value from the form input fields 
+                                $firstName = !empty($_POST['contact-fn']) ? htmlspecialchars($_POST['contact-fn']) : '';
+                                $lastName = !empty($_POST['contact-ln']) ? htmlspecialchars($_POST['contact-ln']) : '';
+                                $email = !empty($_POST['contact-em']) ? htmlspecialchars($_POST['contact-em']) : '';
+                                $phone = !empty($_POST['contact-phone']) ? htmlspecialchars($_POST['contact-phone']) : '';
+                                $contactSubj = !empty($_POST['contact-subj']) ? htmlspecialchars($_POST['contact-subj']) : '';
+                                $contactMess = !empty($_POST['contact-ta']) ? htmlspecialchars($_POST['contact-ta']) : '';
 
-                            // Send email notification to the site admin 
-                            $to = $recipientEmail;
-                            $subject = 'Contact Us Submitted';
-                            $htmlContent = " 
+                                // Send email notification to the site admin 
+                                $to = $recipientEmail;
+                                $subject = 'Contact Us Submitted';
+                                $htmlContent = " 
                     <h4>Contact Us Form - ES</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
@@ -130,44 +133,42 @@ include_once 'header.inc'
                     <p><b>Message: </b>" . $contactMess . "</p> 
                 ";
 
-                            // Always set content-type when sending HTML email 
-                            $headers = "MIME-Version: 1.0" . "\r\n";
-                            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                            // More headers 
-                            $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
+                                // Always set content-type when sending HTML email 
+                                $headers = "MIME-Version: 1.0" . "\r\n";
+                                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                                // More headers 
+                                $headers .= 'From:' . $firstName . ' ' . $lastName . '<' . $email . '>' . "\r\n";
 
-                            // Send email 
-                            mail($to, $subject, $htmlContent, $headers);
+                                // Send email 
+                                mail($to, $subject, $htmlContent, $headers);
 
-                            $status = 'success';
-                            $statusMsg = 'Gracias, su mensaje fue enviado y espere hasta 48 horas para responder.';
-                            $postData = '';
+                                $status = 'success';
+                                $statusMsg = 'Gracias, su mensaje fue enviado y espere hasta 48 horas para responder.';
+                                $postData = '';
+                            } else {
+                                $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
+                            }
                         } else {
-                            $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
+                            $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                         }
                     } else {
-                        $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
+                        $statusMsg = 'Por favor complete todos los campos obligatorios.';
                     }
-                } else {
-                    $statusMsg = 'Por favor complete todos los campos obligatorios.';
                 }
-            }
 
-            ?>
+                ?>
 
-            <div id="contact-us"></div>
-            <?php if (!empty($statusMsg)) { ?>
-                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
-                        <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                <div id="contact-us"></div>
+                <?php if (!empty($statusMsg)) { ?>
+                    <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                        <div class="p-3 text-center text-bg-light hero-text-border" title="Extendiéndose la mano unos a otros.">
+                            <p class="mb-6 h5 status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                        </div>
                     </div>
-                </div>
-            <?php } ?>
+                <?php } ?>
 
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-bg-light hero-text-border" title="Estamos dispuestos a escuchar.">
-
-                    <div role="form">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-bg-light hero-text-border" title="Estamos dispuestos a escuchar.">
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                             <div class="col-md-6">
@@ -234,19 +235,16 @@ include_once 'header.inc'
                             </div>
                         </form>
                     </div>
-
                 </div>
-            </div>
 
-            <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <p class="mb-6 h5 text-dark">Permítanos hasta 48 horas para responder y, si necesita ayuda antes, envíenos un correo electrónico <?php echo getenv('mbar-chair-email'); ?> </p>
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <p class="mb-6 h5 text-dark">Permítanos hasta 48 horas para responder y, si necesita ayuda antes, envíenos un correo electrónico <?php echo getenv('mbar-chair-email'); ?> </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
+    </article>
 
     <?php include_once 'footer.inc' ?>
 
