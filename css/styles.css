@@ -156,8 +156,8 @@ nav {
   border: inset 1px var(--color-5);
 }
 
-.dropdown-menu{
-  margin-top: 0;
+.dropdown-menu.show{
+  margin-top: 0 !important;
   border-radius: 0;
 }
 
