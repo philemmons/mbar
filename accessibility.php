@@ -81,7 +81,7 @@ include_once 'header.inc'
                                 <span class="text-dark px-3 px-md-0">Accessibility on montereybayarearoundup.org</span>
                             </h3>
 
-                            <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.0. Various site checkers allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
+                            <p class="mb-3 text-dark">montereybayarearoundup.org continuously strives to exceed W3C WAI Web Content Accessibility Guidelines 2.1. Various site checkers allows montereybayarearoundup.org to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.2).</p>
 
                             <h4 class="fw-bold text-primary">
                                 <span class="text-dark px-3 px-md-0">Disclaimer</span>

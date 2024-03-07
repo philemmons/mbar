@@ -76,14 +76,14 @@ include_once 'header.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border" title="INTRODUCCIÓN">
                         <p>FECHA EFECTIVA: <?php echo date("Y"); ?>
-                            <br><br>
+                            <br>
                             <strong>INTRODUCCIÓN.</strong>
                             <br>
                         </p>
                         <p>montereybayarearoundup.org (en adelante "nosotros", "nosotros" o "Compañía") se toma muy en serio la privacidad del usuario porque sabemos que su privacidad en la web es muy importante para usted. Nos comprometemos a respetar los derechos de privacidad de nuestros clientes, visitantes y otros usuarios del sitio web de la empresa ("el Sitio"). Creamos esta Política de privacidad del sitio web ("Política de privacidad del sitio") para brindarle confianza al visitar y utilizar el Sitio, y para demostrar nuestro compromiso con las prácticas de información justas y la protección de la privacidad. Esta Política de privacidad del sitio solo se aplica al Sitio, y no a otros sitios web de terceros a los que pueda acceder desde el Sitio, cada uno de los cuales puede tener prácticas y políticas de recopilación, almacenamiento y uso de datos que difieren materialmente de esta. Política de privacidad del sitio. Si elige proporcionarnos información de identificación personal, la usaremos y la divulgaremos como se describe en esta Política de privacidad del sitio. Esta Política de privacidad del sitio se incorpora a nuestros Términos de uso por referencia. Este Sitio no está dirigido a niños de 17 años o menos. Por lo tanto, no recopilaremos intencionalmente información sobre ningún usuario menor de 18 años.
-                            <br><br>
-                        <h3><strong>PRÁCTICAS DE RECOPILACIÓN DE INFORMACIÓN DEL SITIO.</strong></h3>
                         <br>
+                        <h3><strong>PRÁCTICAS DE RECOPILACIÓN DE INFORMACIÓN DEL SITIO.</strong></h3>
+                        
                         Tipos de información recopilada:
                         <br>
                         (a) Datos de tráfico recopilados. Realizamos un seguimiento y recopilamos automáticamente las siguientes categorías de información cuando visita nuestro Sitio: (1) direcciones IP; (2) servidores de dominio; (3) tipos de computadoras que acceden al Sitio; y (4) tipos de navegadores web utilizados para acceder al Sitio (colectivamente "Datos de tráfico"). Los datos de tráfico son información anónima que no lo identifica personalmente pero que es útil con fines de marketing o para mejorar su experiencia en el Sitio. Podemos utilizar cookies y obtener ciertos tipos de información cuando su navegador web accede a montereybayarearoundup.org. Las "cookies" son pequeños fragmentos de información que su navegador almacena en el disco duro de su computadora. Nuestro sitio puede utilizar cookies para almacenar información pertinente del usuario durante una sesión para acelerar la navegación y realizar un seguimiento de los elementos. La parte de "ayuda" de la barra de herramientas de la mayoría de los navegadores le indicará cómo evitar que su navegador acepte nuevas cookies, cómo hacer que el navegador le notifique cuando reciba nuevas cookies y cómo desactivarlas por completo. Tenga en cuenta que si elige desactivar la función "cookie", su experiencia en el Sitio puede verse disminuida y algunas funciones pueden no funcionar como estaban previstas.
@@ -140,7 +140,6 @@ include_once 'header.inc'
                         <section aria-label="USO Y POLÍTICAS">
                             <h3><strong>TÉRMINOS DE USO Y POLÍTICAS.</strong>
                             </h3>
-                            <br><br>
                             General montereybayarearoundup.org ('SITIO o MBAR ') actúa como un mercado, un intermediario entre compradores y vendedores de entradas ("VENDEDORES DE ENTRADAS") para facilitar la compra y venta de entradas para eventos y, como tal, no participa directamente en la venta de entradas. transacción de venta entre los compradores y los VENDEDORES DE ENTRADAS. TODAS LAS VENTAS SON FINALES. Como los boletos vendidos a través del SITIO a menudo se obtienen a través del mercado secundario y los precios los determina el vendedor de boletos individual, los precios de los boletos pueden estar por encima o por debajo del valor nominal. Los boletos vendidos a través del SITIO son de un tercero; por lo tanto, el nombre del comprador no estará impreso en los boletos. Tenga en cuenta que el nombre que figura en las entradas no afecta la capacidad del comprador para acceder al evento. Al usar o visitar este SITIO o comprar boletos de cualquier manera en el SITIO, el USUARIO acepta expresamente cumplir y estar sujeto a estos Términos y Políticas, así como a todas las leyes, ordenanzas y regulaciones aplicables.
                             <br>
                             TODAS LAS VENTAS SON FINALES; no hay cancelaciones, devoluciones ni cambios.

@@ -78,14 +78,13 @@ include_once 'header.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border" title="INTRODUCTION">
                         <p>EFFECTIVE DATE: <?php echo date("Y"); ?>
-                            <br><br>
+                            <br>
                             <strong>INTRODUCTION.</strong>
                             <br>
                         </p>
                         <p>montereybayarearoundup.org (hereinafter "us," "we," or "Company") takes user privacy very seriously because we know that your privacy on the web is very important to you. We are committed to respecting the privacy rights of our customers, visitors, and other users of the Company Website ("the Site"). We created this Website Privacy Policy ("Site Privacy Policy") to give you confidence as you visit and use the Site, and to demonstrate our commitment to fair information practices and the protection of privacy. This Site Privacy Policy is only applicable to the Site, and not to any other third party websites that you may be able to access from the Site, each of which may have data collection, storage, and use practices and policies that differ materially from this Site Privacy Policy. If you choose to provide personally identifying information to us, we will use it and disclose it as described in this Site Privacy Policy. This Site Privacy Policy is incorporated into our Terms of Use by reference. This Site is not directed at children 17 years of age or younger. We, therefore, will not intentionally collect information about any user under the age of 18.
-                            <br><br>
-                        <h3><strong>SITE INFORMATION COLLECTION PRACTICES.</strong></h3>
                         <br>
+                        <h3><strong>SITE INFORMATION COLLECTION PRACTICES.</strong></h3>
                         Types of Information Collected:
                         <br>
                         (a) Traffic Data Collected. We automatically track and collect the following categories of information when you visit our Site: (1) IP addresses; (2) domain servers; (3) types of computers accessing the Site; and (4) types of web browsers used to access the Site (collectively "Traffic Data"). Traffic Data is anonymous information that does not personally identify you but is helpful for marketing purposes or for improving your experience on the Site. We may use cookies and obtain certain types of information when your web browser accesses montereybayarearoundup.org. "Cookies" are small pieces of information that are stored by your browser on your computer's hard drive. Our site may use cookies to store pertinent user information during a session to speed navigation and keep track of items. The "help" portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive new cookies and how to disable cookies altogether. Note that if you choose to disable the "cookie" function, your experience at the Site may be diminished and some features may not work as they were intended.
@@ -142,7 +141,6 @@ include_once 'header.inc'
                         <section aria-label="Use and policies">
                             <h3><strong>TERMS OF USE AND POLICIES.</strong>
                             </h3>
-                            <br><br>
                             General montereybayarearoundup.org ('SITE or MBAR ') acts as a marketplace, an intermediary between buyers and ticket sellers ('TICKET SELLERS') to facilitate the purchase and sale of event tickets, and as such is not directly involved in the actual ticket sale transaction between the buyers and TICKET SELLERS. ALL SALES ARE FINAL. As tickets sold through SITE are often obtained through the secondary market and prices are determined by the individual ticket seller, the prices for tickets may be above or below face value. Tickets sold through SITE are from a third party; therefore, the buyer's name will not be printed on the tickets. Please note that the name on the tickets does not affect the buyer's ability to access the event. By using or visiting this SITE or purchasing tickets in any manner from the SITE, USER expressly agree to abide and be bound by these Terms and Policies, as well as all applicable laws, ordinances and regulations.
                             <br>
                             ALL SALES ARE FINAL; there are no cancellations, returns, or exchanges.
