@@ -156,7 +156,10 @@ nav {
   border: inset 1px var(--color-5);
 }
 
-
+.dropdown-menu{
+  margin-top: 0;
+  border-radius: 0;
+}
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
