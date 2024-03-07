@@ -161,6 +161,10 @@ nav {
   border-radius: 0;
 }
 
+.nav-item.dropdown .dropdown-menu:hover{
+  display: block;
+}
+
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
 .navbar-nav>li>div>a:hover,
