@@ -138,10 +138,6 @@ nav {
   .navbar-nav .nav-item {
     border-right: solid 1px var(--color-6);
   }
-
-  .dropdown-menu {
-    display: block;
-  }
 }
 
 .navbar {
