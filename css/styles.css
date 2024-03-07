@@ -159,13 +159,13 @@ nav {
   background-color: var(--color-1);
   border: inset 1px var(--color-5);
 }
-
+/* 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
- /* opacity: 1; */
+ opacity: 1; 
 }
-
+*/
 .dropdown-menu {
   /*  opacity: 0; */
   transition: all 0.6s;
