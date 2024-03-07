@@ -110,7 +110,7 @@ hr {
   padding-top: 1rem;
 }
 
-/**** navbar ****/
+/**** navbar 
 
 .navbar-nav .nav-link,
 .navbar-nav .dropdown-item {
@@ -179,6 +179,8 @@ nav {
   background-color: var(--color-7);
   color: var(--color-2);
 }
+
+****/
 
 /**** footer navbar ****/
 
