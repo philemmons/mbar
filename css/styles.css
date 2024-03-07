@@ -138,7 +138,6 @@ nav {
   .navbar-nav .nav-item {
     border-right: solid 1px var(--color-6);
   }
-
 }
 
 .navbar {
@@ -156,6 +155,7 @@ nav {
   background-color: var(--color-1);
   border: inset 1px var(--color-5);
 }
+
 
 
 .navbar-nav>li>a:hover,
