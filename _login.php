@@ -26,7 +26,7 @@ if (isset($_POST['logout'])) {
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="index.php">Home</a>
@@ -86,7 +86,7 @@ if (isset($_POST['logout'])) {
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
           <li class="nav-item" <?php echo (!isset($_SESSION["status"])) ? 'style="border-right: none;"' : ''; ?>>
             <a class="nav-link active" aria-current="page" href="_login.php">Admin<span class="visually-hidden">(current)</span></a>

@@ -8,7 +8,7 @@ include_once 'header.inc'
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" href="index.php">Hogar<span class="visually-hidden">(actual)</span></a>
@@ -81,9 +81,9 @@ include_once 'header.inc'
                             <br>
                         </p>
                         <p>montereybayarearoundup.org (en adelante "nosotros", "nosotros" o "Compañía") se toma muy en serio la privacidad del usuario porque sabemos que su privacidad en la web es muy importante para usted. Nos comprometemos a respetar los derechos de privacidad de nuestros clientes, visitantes y otros usuarios del sitio web de la empresa ("el Sitio"). Creamos esta Política de privacidad del sitio web ("Política de privacidad del sitio") para brindarle confianza al visitar y utilizar el Sitio, y para demostrar nuestro compromiso con las prácticas de información justas y la protección de la privacidad. Esta Política de privacidad del sitio solo se aplica al Sitio, y no a otros sitios web de terceros a los que pueda acceder desde el Sitio, cada uno de los cuales puede tener prácticas y políticas de recopilación, almacenamiento y uso de datos que difieren materialmente de esta. Política de privacidad del sitio. Si elige proporcionarnos información de identificación personal, la usaremos y la divulgaremos como se describe en esta Política de privacidad del sitio. Esta Política de privacidad del sitio se incorpora a nuestros Términos de uso por referencia. Este Sitio no está dirigido a niños de 17 años o menos. Por lo tanto, no recopilaremos intencionalmente información sobre ningún usuario menor de 18 años.
-                        <br>
+                            <br>
                         <h3><strong>PRÁCTICAS DE RECOPILACIÓN DE INFORMACIÓN DEL SITIO.</strong></h3>
-                        
+
                         Tipos de información recopilada:
                         <br>
                         (a) Datos de tráfico recopilados. Realizamos un seguimiento y recopilamos automáticamente las siguientes categorías de información cuando visita nuestro Sitio: (1) direcciones IP; (2) servidores de dominio; (3) tipos de computadoras que acceden al Sitio; y (4) tipos de navegadores web utilizados para acceder al Sitio (colectivamente "Datos de tráfico"). Los datos de tráfico son información anónima que no lo identifica personalmente pero que es útil con fines de marketing o para mejorar su experiencia en el Sitio. Podemos utilizar cookies y obtener ciertos tipos de información cuando su navegador web accede a montereybayarearoundup.org. Las "cookies" son pequeños fragmentos de información que su navegador almacena en el disco duro de su computadora. Nuestro sitio puede utilizar cookies para almacenar información pertinente del usuario durante una sesión para acelerar la navegación y realizar un seguimiento de los elementos. La parte de "ayuda" de la barra de herramientas de la mayoría de los navegadores le indicará cómo evitar que su navegador acepte nuevas cookies, cómo hacer que el navegador le notifique cuando reciba nuevas cookies y cómo desactivarlas por completo. Tenga en cuenta que si elige desactivar la función "cookie", su experiencia en el Sitio puede verse disminuida y algunas funciones pueden no funcionar como estaban previstas.

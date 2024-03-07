@@ -8,7 +8,7 @@ include_once 'header.inc'
 		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse.true navbar-collapse" id="collapsibleNavId">
+		<div class="collapse navbar-collapse" id="collapsibleNavId">
 			<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
 				<li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="index.php">Hogar
@@ -61,63 +61,63 @@ include_once 'header.inc'
 			</div>
 		</div>
 	</div>
-<article>
-	<div class="container shadow-wrap">
-		<div class="row justify-content-center" id="top">
-			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-			<section aria-label="inicio del mapa del sitio">
-				<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Página Principal">montereybayarearoundup.org/es/ Página Principal</a>
-				</h3>
-				</section>
+	<article>
+		<div class="container shadow-wrap">
+			<div class="row justify-content-center" id="top">
+				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+					<section aria-label="inicio del mapa del sitio">
+						<h3 class="h5 float-end"><a href="http://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Página Principal">montereybayarearoundup.org/es/ Página Principal</a>
+						</h3>
+					</section>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
+					<h4>Última Actualización: 2023, 28 de Diciembre
+						<br>
+						Páginas Totales: 18
+					</h4>
+				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-				<h4>Última Actualización: 2023, 28 de Diciembre
-					<br>
-					Páginas Totales: 18
-				</h4>
-			</div>
-		</div>
 
-		<div class="row justify-content-center mb-5">
-			<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-5">
-				<div class="p-3 text-bg-light hero-text-border" title="Mapa del sitio XML para montereybayarearoundup.org">
-					<ul class="level-0 list-group ms-3">
-						<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
-						<li class="no-bullet">
-							<ul class="level-1 list-group">
-								<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">montereybayarearoundup.org/es/ <span class="lcount">18 Páginas</span></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Hogar</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia 2024">Monterey Bay Area Roundup 2024 | Conferencia 2024</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/register-now.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registro">Monterey Bay Area Roundup 2024 | Registro</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/activities.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Actividades">Monterey Bay Area Roundup 2024 | Actividades</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/mbar_history.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Historia del MBAR">Monterey Bay Area Roundup 2024 | Historia del MBAR</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/memories.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Recuerdos">Monterey Bay Area Roundup 2024 | Recuerdos</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/meetings.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Reuniones">Monterey Bay Area Roundup 2024 | Reuniones</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/committees.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 |Comités">Monterey Bay Area Roundup 2024 | Comités</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Próximos Eventos">Monterey Bay Area Roundup 2024 | Próximos Eventos</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/logo_contest.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Concurso de Logotipos">Monterey Bay Area Roundup 2024 | Concurso de Logotipos</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/contact.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contacta con Nosotros">Monterey Bay Area Roundup 2024 | Contacta con Nosotros</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/contributions.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contribuciones">Monterey Bay Area Roundup 2024 | Contribuciones</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2022.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2022">Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2022</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/accessibility.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Accesibilidad">Monterey Bay Area Roundup 2024 | Accesibilidad</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/privacy-policy.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Política de Privacidad">Monterey Bay Area Roundup 2024 | Política de Privacidad</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/sitemap.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Mapa del Sitio">Monterey Bay Area Roundup 2024 | Mapa del Sitio</a></li>
-								<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2019">Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2019</a></li>
-							</ul>
+			<div class="row justify-content-center mb-5">
+				<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-5">
+					<div class="p-3 text-bg-light hero-text-border" title="Mapa del sitio XML para montereybayarearoundup.org">
+						<ul class="level-0 list-group ms-3">
+							<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
+							<li class="no-bullet">
+								<ul class="level-1 list-group">
+									<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">montereybayarearoundup.org/es/ <span class="lcount">18 Páginas</span></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Hogar</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia 2024">Monterey Bay Area Roundup 2024 | Conferencia 2024</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/register-now.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registro">Monterey Bay Area Roundup 2024 | Registro</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/activities.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Actividades">Monterey Bay Area Roundup 2024 | Actividades</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/mbar_history.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Historia del MBAR">Monterey Bay Area Roundup 2024 | Historia del MBAR</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/memories.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Recuerdos">Monterey Bay Area Roundup 2024 | Recuerdos</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/meetings.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Reuniones">Monterey Bay Area Roundup 2024 | Reuniones</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/committees.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 |Comités">Monterey Bay Area Roundup 2024 | Comités</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Próximos Eventos">Monterey Bay Area Roundup 2024 | Próximos Eventos</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/logo_contest.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Concurso de Logotipos">Monterey Bay Area Roundup 2024 | Concurso de Logotipos</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/contact.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contacta con Nosotros">Monterey Bay Area Roundup 2024 | Contacta con Nosotros</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/contributions.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contribuciones">Monterey Bay Area Roundup 2024 | Contribuciones</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2022.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2022">Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2022</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/accessibility.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Accesibilidad">Monterey Bay Area Roundup 2024 | Accesibilidad</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/privacy-policy.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Política de Privacidad">Monterey Bay Area Roundup 2024 | Política de Privacidad</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/sitemap.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Mapa del Sitio">Monterey Bay Area Roundup 2024 | Mapa del Sitio</a></li>
+									<li class="ms-5"><a href="https://montereybayarearoundup.org/es/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2019">Monterey Bay Area Roundup 2024 | Conferencia de Archivo 2019</a></li>
+								</ul>
+							</li>
+						</ul>
 						</li>
-					</ul>
-					</li>
-					</ul>
-					<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
+						</ul>
+						<!-- Please note: You are not allowed to remove the copyright notice below. Thank you! www.xml-sitemaps.com -->
 
-					<div id="sitemap-footer">
-						Página creada con <a href="https://www.xml-sitemaps.com" class="bb-link" target="_blank">generador de mapas de sitio XML y HTML de Google<span class="sr-only">(Abre una nueva ventana)</span></a> | Copyright &copia; 2005-2024 XML-Sitemaps.com
+						<div id="sitemap-footer">
+							Página creada con <a href="https://www.xml-sitemaps.com" class="bb-link" target="_blank">generador de mapas de sitio XML y HTML de Google<span class="sr-only">(Abre una nueva ventana)</span></a> | Copyright &copia; 2005-2024 XML-Sitemaps.com
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</article>
 
 	<?php include_once 'footer.inc' ?>

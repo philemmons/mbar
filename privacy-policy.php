@@ -8,7 +8,7 @@ include_once 'header.inc'
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse.true navbar-collapse" id="collapsibleNavId">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" href="index.php">Home
@@ -83,7 +83,7 @@ include_once 'header.inc'
                             <br>
                         </p>
                         <p>montereybayarearoundup.org (hereinafter "us," "we," or "Company") takes user privacy very seriously because we know that your privacy on the web is very important to you. We are committed to respecting the privacy rights of our customers, visitors, and other users of the Company Website ("the Site"). We created this Website Privacy Policy ("Site Privacy Policy") to give you confidence as you visit and use the Site, and to demonstrate our commitment to fair information practices and the protection of privacy. This Site Privacy Policy is only applicable to the Site, and not to any other third party websites that you may be able to access from the Site, each of which may have data collection, storage, and use practices and policies that differ materially from this Site Privacy Policy. If you choose to provide personally identifying information to us, we will use it and disclose it as described in this Site Privacy Policy. This Site Privacy Policy is incorporated into our Terms of Use by reference. This Site is not directed at children 17 years of age or younger. We, therefore, will not intentionally collect information about any user under the age of 18.
-                        <br>
+                            <br>
                         <h3><strong>SITE INFORMATION COLLECTION PRACTICES.</strong></h3>
                         Types of Information Collected:
                         <br>
