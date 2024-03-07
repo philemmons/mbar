@@ -161,7 +161,7 @@ nav {
   border-radius: 0;
 }
 
-.nav-item.dropdown:hover{
+.nav-link.dropdown-toggle:hover{
   display: block;
 }
 
