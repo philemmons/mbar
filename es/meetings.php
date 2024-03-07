@@ -14,7 +14,7 @@ include_once 'header.inc'
                     <a class="nav-link" href="index.php">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="register-now.php">Registro</a>
@@ -24,14 +24,14 @@ include_once 'header.inc'
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-comités">
                         <a class="dropdown-item active" aria-current="page" href="meetings.php">Reuniones<span class="visually-hidden">(actual)</span></a>
                         <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-hover="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
                         <a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
                         <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
