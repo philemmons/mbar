@@ -102,13 +102,13 @@ include_once 'header.inc'
                                     Speaker: <strong>Reggie W., Los Angeles, CA</strong>
                                 </div>
 
-                                <div class="col-sm-2 ">
+                                <div class="col-sm-2 cell-color">
                                     50/50 Raffle
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     Zoom Meeting ID: <strong>851-8969-3046</strong>
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     Zoom Meeting Password: <strong>338999</strong>
                                 </div>
                             </div>
@@ -125,10 +125,10 @@ include_once 'header.inc'
                                 </div>
                                 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     9:00am
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 cell-color">
                                     Al-Anon Marathon Meetings (English/Spanish)
                                 </div>
 
@@ -158,10 +158,10 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     11:00am
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 cell-color">
                                     A.A. Marathon Meetings Begin
                                 </div>
 
@@ -230,13 +230,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     9:30pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     Dance
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     (Immediately Following Raffle)
                                 </div>
                             </div>
@@ -256,10 +256,10 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     8:00am
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 cell-color">
                                     A.A. Marathon Meetings Begin
                                 </div>
 
@@ -272,13 +272,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     10:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     A.A. Spanish Speaking Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     Speaker: <strong>TBA</strong>
                                 </div>
 
@@ -355,13 +355,13 @@ include_once 'header.inc'
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     8:00pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     Fellowship and Music
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 cell-color">
                                     (Immediately Following Raffle)
                                 </div>
 
