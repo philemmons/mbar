@@ -91,7 +91,7 @@ include_once 'header.inc'
 
                         <section aria-label="Friday's events">
                             <h3 class= "white-on-black py-2 mt-2">Friday Night, September 2nd</h3>
-                            <div class="row g-0">
+                            <div class="row g-0 mb-4">
                                 <div class="col-sm-2">
                                     8:00pm
                                 </div>
@@ -116,7 +116,7 @@ include_once 'header.inc'
 
                         <section aria-label="Saturday's events">
                             <h3 class= "white-on-black py-2 mt-2">Saturday, September 3rd</h3>
-                            <div class="row g-0">
+                            <div class="row g-0 mb-4">
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
@@ -259,7 +259,7 @@ include_once 'header.inc'
 
                         <section aria-label="Sunday's events">
                             <h3 class= "white-on-black py-2 mt-2">Sunday, September 4th</h3>
-                            <div class="row g-0">
+                            <div class="row g-0 mb-4">
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
