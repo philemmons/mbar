@@ -531,10 +531,9 @@ include_once 'header.inc'
                             </p>
                             <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
                             </p>
-                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2024 will provide two ASL Interpreters on these days:</strong>
+                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2022 will provide two ASL Interpreters on these days:</strong>
                             </p>
                             <ul>
-                                <li>Friday - 2.5 hours</li>
                                 <li>Saturday - 2.5 hours</li>
                                 <li>Sunday - 3.0 hours</li>
                             </ul>
