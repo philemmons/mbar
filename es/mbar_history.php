@@ -180,7 +180,7 @@ include_once 'header.inc'
                                     Su navegador no soporta el elemento de audio.
                                 </audio>
                                 <div class="pt-3">
-                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary btn-sm">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </section>
                         </div>
