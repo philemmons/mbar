@@ -479,7 +479,7 @@ iframe{
   background-color: var(--color-5);
 }
 
-.row.g-2 [class^="col"]{
+.row.g-0 [class^="col"]{
   border: 1px solid var(--color-5);
 }
 
