@@ -107,13 +107,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>Los Madrugadores A.A. Vocero :</strong> Teresa J. de Monterey, CA
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Teresa J 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Teresa-J-Monterey.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Teresa-J-Monterey.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Teresa J 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Teresa J. Archivo de Audio</span>
@@ -168,13 +172,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>A.A. Orador:</strong> Harry H., de Denver, CO
                         <br><br>
-                        <audio controls="">
-                            <source src="../audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Harry H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Harry-H-Denver.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Harry-H-Denver.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Harry H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Harry H. Archivo de Audio</span>
@@ -182,13 +190,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>Al-Anon Orador:</strong> Jane H. de Denver, CO
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Al-Anon Jane H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Jane-H-Denver.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Jane-H-Denver.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Al-Anon Jane H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Jane H. Archivo de Audio</span>
@@ -316,13 +328,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>10:00pm</strong> Panel de Opinión de Médicos: Jerry C. y Sheila C.
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Doctors Opinion Panel - Dr Sheila C and Dr Jerry C 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Doctors-Opinion-Panel.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Doctors-Opinion-Panel.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Doctors Opinion Panel - Dr Sheila C and Dr Jerry C 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;"> Panel de Opinión de Médicos Archivo de Audio</span>
@@ -330,13 +346,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>11:15am</strong> Taller de Sobriedad Emocional: Sonny C. y Masa M.
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Emotional Sobriety Workshop - Sonny C and Masa M 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Emotional-Sobriety-Workshop.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Emotional=Sobriety=Workshop.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Emotional Sobriety Workshop - Sonny C and Masa M 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Taller de Sobriedad Emocional Archivo de Audio</span>
@@ -346,13 +366,17 @@ include_once 'header.inc'
                         <br>
                         <span style="margin-left: 100px">Miembro del jurado:</span> Jean T., Maggie W., y Carrie H. (Monterey, CA)
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
-                            <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/The Many Paths to Spirituality Panel - Jean T and Cari H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/The-Many-Paths-to-Spirituality-Panel.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/The Many Paths to Spirituality Panel - Jean T and Cari H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Reunión del Panel Muchos Caminos Hacia la Espiritualidad Archivo de Audio</span>
@@ -372,13 +396,17 @@ include_once 'header.inc'
                         <hr>
                         <span style="margin-left: 100px"><strong>A.A. Orador:</strong> Charlie H. Henderson, NV</span>
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Charlie H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Charlie-H-Henderson.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Charlie-H-Henderson.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Charlie H 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Charlie H. Henderson Archivo de Audio</span>
@@ -433,13 +461,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>9:00am</strong> - <strong>Al-Anon Orador:</strong> Louise M., Sacramento, CA
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Al-Anon Louise M 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Louise-M-Sacramento.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Louise-M-Sacramento.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Al-Anon Louise M 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Louise M. Archivo de Audio</span>
@@ -472,13 +504,17 @@ include_once 'header.inc'
                         <hr>
                         <strong>11:00am</strong> - <strong>A.A. Orador: </strong> Pat B. de Clovis, CA
                         <br>
-                        <audio controls="">
-                            <source src="../audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
-                            <source src="../audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
-                            Su navegador no soporta el elemento de audio.
-                        </audio>
-                        <div class="pt-3">
-                            <a href="../audio-transcript/2019/Pat B 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <audio controls="">
+                                    <source src="../audio/2019/Pat-B-Clovis.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Pat-B-Clovis.mp3" type="audio/mpeg">
+                                    Su navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="../audio-transcript/2019/Pat B 2019.txt" class="btn btn-primary btn-sm">Abre Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                            </div>
                         </div>
                         <br>
                         <span style="font-size: 15px; color: #00f;">Pat B. Archivo de Audio</span>
