@@ -61,221 +61,349 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="">
-                    <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h3></span>
-                    </h3>
-                    <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+    <article aria-label="2022 event introduction">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule"">
+                    <section aria-label= " Introduction">
+                        <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h3></span>
+                        </h3>
+                        <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-sm-12 col-12 text-center px-3 py-4">
+                    <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
-            <div class="col-sm-12 col-12 text-center px-3 py-4">
-                <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
-            </div>
-        </div>
-    </div>
+    </article>
 
     <!-- Part Two-->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover table-sm">
-                            <thead class="table-dark">
-                                <th colspan="3">
-                                    <h3>Friday Night, September 2nd</h3>
-                                </th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>8:00pm</td>
-                                    <td><i class="bi bi-camera-video-fill"> </i>A.A. Zoom Meeting</td>
-                                    <td>Speaker: <strong>Reggie W., Los Angeles, CA</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>50/50 Raffle</td>
-                                    <td>Zoom Meeting ID: <strong>851-8969-3046</strong></td>
-                                    <td>Zoom Meeting Password: <strong>338999</strong></td>
-                                </tr>
-                            </tbody>
+    <article aria-label="MBAR 2022 Schedule">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
 
-                            <thead class="table-dark">
-                                <th colspan="3">
-                                    <h3>Saturday, September 3rd</h3>
-                                </th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>8:00am</td>
-                                    <td>Registration Opens</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>9:00am</td>
-                                    <td>Al-Anon Marathon Meetings (English/Spanish)</td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>10:00am</td>
-                                    <td>Kick-Off A.A. Meeting </td>
-                                    <td>Speaker: <strong>Arthur T., Carmel, CA</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
-                                            <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10:00am</td>
-                                    <td>A.A. Meeting Spanish Speaking</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>11:00am</td>
-                                    <td>A.A. Marathon Meetings Begin</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>11:30am</td>
-                                    <td>A.A. Old-Timers' Panel</td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>2:00pm</td>
-                                    <td>A.A. / Al-Anon Speaker Meeting</td>
-                                    <td>Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5:00pm</td>
-                                    <td>Meet the Speakers Dinner</td>
-                                    <td><strong>Bethlehem Lutheran Church ∆</strong></td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>7:30pm</td>
-                                    <td>A.A. Speaker Meeting </td>
-                                    <td>Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8:30pm</td>
-                                    <td>Prize Raffle and 50/50 Drawing</td>
-                                    <td>(Immediately Following Speaker Meeting)</td>
-                                </tr>
-                                <tr>
-                                    <td>9:30pm</td>
-                                    <td>Dance</td>
-                                    <td>(Immediately Following Raffle)</td>
-                                </tr>
-                            </tbody>
+                        <section aria-label="Friday's events">
+                            <h3>Friday Night, September 2nd</h3>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    8:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>Reggie W., Los Angeles, CA</strong>
+                                </div>
 
-                            <thead class="table-dark">
-                                <th colspan="3">
-                                    <h3>Sunday, September 4th</h3>
-                                </th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>8:00am</td>
-                                    <td>Continental Round-Up Breakfast</td>
-                                    <td><strong>Bethlehem Lutheran Church ∆</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>8:00am</td>
-                                    <td>A.A. Marathon Meetings Begin</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>9:00am</td>
-                                    <td>Al-Anon Marathon Meetings (English/Spanish)</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>10:00am</td>
-                                    <td>A.A. Spanish Speaking Meeting </td>
-                                    <td>Speaker: <strong>TBA</strong></td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>11:00am</td>
-                                    <td>Al-Anon Speaker Meeting </td>
-                                    <td>Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>1:30am</td>
-                                    <td>Al-Anon Family Panel</td>
-                                    <td>Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3:00pm</td>
-                                    <td>Ice Cream Social</td>
-                                    <td><strong>(2nd Floor Terrace)</strong></td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <td>5:00pm</td>
-                                    <td>A.A.Speaker Meeting</td>
-                                    <td>Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
-                                        <audio controls="">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
-                                            <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
-                                            Your browser does not support the audio element.
-                                        </audio>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6:30pm</td>
-                                    <td>Raffle Drawing</td>
-                                    <td>(Immediately Following Speaker Meeting)</td>
-                                </tr>
-                                <tr>
-                                    <td>8:00pm</td>
-                                    <td>Fellowship and Music</td>
-                                    <td>(Immediately Following Raffle)</td>
-                                </tr>
-                                <tr>
-                                    <td>9:00pm</td>
-                                    <td>Conference Ends</td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                <div class="col-sm-2">
+                                    50/50 Raffle
+                                </div>
+                                <div class="col-sm-5">
+                                    Zoom Meeting ID: <strong>851-8969-3046</strong>
+                                </div>
+                                <div class="col-sm-5">
+                                    Zoom Meeting Password: <strong>338999</strong>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section aria-label="Saturday's events">
+                            <h3>Saturday, September 3rd</h3>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Registration Opens
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Al-Anon Marathon Meetings (English/Spanish)
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    10:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Kick-Off A.A. Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>Arthur T., Carmel, CA</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
+                                        <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    10:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Meeting Spanish Speaking
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    11:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Marathon Meetings Begin
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    11:30am
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Old-Timers' Panel
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    2:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. / Al-Anon Speaker Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
+                                        <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    5:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Meet the Speakers Dinner
+                                </div>
+                                <div class="col-sm-5">
+                                    <strong>Bethlehem Lutheran Church ∆</strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    7:30pm
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Speaker Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
+                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    8:30pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Prize Raffle and 50/50 Drawing
+                                </div>
+                                <div class="col-sm-5">
+                                    (Immediately Following Speaker Meeting)
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:30pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Dance
+                                </div>
+                                <div class="col-sm-5">
+                                    (Immediately Following Raffle)
+                                </div>
+                            </div>
+                        </section>
+
+                        <section aria-label="Sunday's events">
+                            <h3>Sunday, September 4th</h3>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Continental Round-Up Breakfast
+                                </div>
+                                <div class="col-sm-5">
+                                    <strong>Bethlehem Lutheran Church ∆</strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Marathon Meetings Begin
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Al-Anon Marathon Meetings (English/Spanish)
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+                                <div class="col-sm-2">
+                                    10:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A. Spanish Speaking Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>TBA</strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    11:00am
+                                </div>
+                                <div class="col-sm-5">
+                                    Al-Anon Speaker Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
+                                        <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    1:30am
+                                </div>
+                                <div class="col-sm-5">
+                                    Al-Anon Family Panel
+                                </div>
+                                <div class="col-sm-5">
+                                    Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
+                                        <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    3:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Ice Cream Social
+                                </div>
+                                <div class="col-sm-5">
+                                    (2nd Floor Terrace)
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    5:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    A.A.Speaker Meeting
+                                </div>
+                                <div class="col-sm-5">
+                                    Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
+                                    <audio controls="">
+                                        <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
+                                        <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    6:30pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Raffle Drawing
+                                </div>
+                                <div class="col-sm-5">
+                                    (Immediately Following Speaker Meeting)
+                                </div>
+
+                                <div class="col-sm-2">
+                                    8:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Fellowship and Music
+                                </div>
+                                <div class="col-sm-5">
+                                    (Immediately Following Raffle)
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:00pm
+                                </div>
+                                <div class="col-sm-5">
+                                    Conference Ends
+                                </div>
+                                <div class="col-sm-5">
+                                    ---
+                                </div>
+
+                            </div>
+                        </section>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Three -->
     <div class="container shadow-wrap">
@@ -292,10 +420,11 @@ include_once 'header.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
-                    <p>CHECK IN AT REGISTRATION DESK TO OBTAIN YOUR REGISTRATION PACKET CONTAINING YOUR NAME BADGE, PROGRAM, LIST OF ALL MARATHON MEETING TIMES, AND ANY TICKETS FOR MEALS OR EVENTS YOU MAY HAVE PURCHASED.
+                    <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events you may have purchased.
                         <br><br>
-                        FOR MORE INFORMATION WHILE AT THE EVENT, QUESTIONS CONCERNING THE EVENT, OR LOST AND FOUND ITEMS, PLEASE GO TO THE REGISTRATION DESK.
-                        <br><br>
+                        For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
+                    </p>
+                    <p>
                         Δ Location of Event is different than conference site
                         <br><br>
                         <strong>Host of MBAR 2022:</strong> May H. - MBAR Steering Committee
@@ -314,94 +443,109 @@ include_once 'header.inc'
     </div>
 
     <!-- Part Four -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border">
-                    <h3 class="card-title mb-3 text-center">Conference Services: KEEP IT SIMPLE</h3>
-                    <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
-                    </p>
-                    <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
-                    </p>
+    <article aria-label="Conference Services">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-bg-light hero-text-border">
+                        <section aria-label="Describe services">
+                            <h3 class="card-title mb-3 text-center">Conference Services: <span class="text-uppercase">Keep it Simple</span></h3>
+                            <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
+                            </p>
+                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Five -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="card-title mb-3 text-uppercase">Why do we have MBAR?</h4>
-                    <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
-                        <br>
-                        <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, followed by link">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89</a>
-                    </p>
-                    <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
-                        <br>
-                        <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
-                        <a href="" class="bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152</a>
-                    </p>
+    <aside aria-label="Why we have MBAR explanation.">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label="Why MBAR?">
+                            <h3 class="card-title mb-3 text-uppercase">Why Do We Have MBAR?</h3>
+                            <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
+                                <br>
+                                <img src="images/icons/pdf-logo.png" width="25" height="25" alt="Adobe PDF icon, followed by link">
+                                <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89<span class="sr-only">(Opens a new window)</span></button>
+                            </p>
+                            <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                                <br>
+                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
+                                <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152<span class="sr-only">(Opens a new window)</span></button>
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </aside>
 
     <!-- Part Six -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <section aria-label="Event locations">
-                        <h4 class="card-title mb-3"><a href="https://www.google.com/maps/dir//Bethlehem+Lutheran+Church+800+Cass+St+Monterey,+CA+93940/@36.5939841,-121.8958073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de425e4f48de1:0xc2ec674814c2393f!2m2!1d-121.8958736!2d36.5940092?entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map">Bethlehem Lutheran Church<span class="sr-only">(Opens a new window)</span></a></h4>
-                        <div class="col-md-12 db-5">
-                            <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong class="text-uppercase">Please note:</strong> Breakfast and Dinner will be held at<br>
-                                <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
-                                (It is a little over one mile from the Conference Center.)
-                            </p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25626.756836816734!2d-121.91606218727391!3d36.59400863899273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem%20Lutheran%20Church!5e0!3m2!1sen!2sus!4v1704873760536!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bethlehem Lutheran Church" aria-hidden="true"></iframe>
-                        </div>
-                        <br>
-                        <hr>
-                        <h4 class="card-title mb-3"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map">Monterey Conference Center<span class="sr-only">(Opens a new window)</span></a></h4>
-                        <div class="col-md-12 db-5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.0350279920303!2d-121.89983220605843!3d36.601465407473455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de422461f891b%3A0x20f8f64ee124f091!2sMonterey%20Conference%20Center!5e0!3m2!1sen!2sus!4v1704873971870!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Monterey Conference Center" aria-hidden="true"></iframe>
-                        </div>
-                    </section>
+    <div id="map"></div>
+    <article aria-label="MBAR 2022 Google Map off site location">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label="Event locations">
+                            <h4 class="card-title mb-3"><a href="https://www.google.com/maps/dir//Bethlehem+Lutheran+Church+800+Cass+St+Monterey,+CA+93940/@36.5939841,-121.8958073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de425e4f48de1:0xc2ec674814c2393f!2m2!1d-121.8958736!2d36.5940092?entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map">Bethlehem Lutheran Church<span class="sr-only">(Opens a new window)</span></a></h4>
+                            <div class="col-md-12 db-5">
+                                <p><img src="images/icons/warning-sign.png" width="50" height="50" alt="Triangular warning sign with an exclamation point."><strong class="text-uppercase">Please note:</strong> Breakfast and Dinner will be held at<br>
+                                    <strong>Bethlehem Lutheran Church, located at 800 Cass Street in Monterey.</strong><br>
+                                    (It is a little over one mile from the Conference Center.)
+                                </p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25626.756836816734!2d-121.91606218727391!3d36.59400863899273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de425e4f48de1%3A0xc2ec674814c2393f!2sBethlehem%20Lutheran%20Church!5e0!3m2!1sen!2sus!4v1704873760536!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bethlehem Lutheran Church" aria-hidden="true"></iframe>
+                            </div>
+                            <br>
+                            <hr>
+                            <h4 class="card-title mb-3"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map">Monterey Conference Center<span class="sr-only">(Opens a new window)</span></a></h4>
+                            <div class="col-md-12 db-5">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.0350279920303!2d-121.89983220605843!3d36.601465407473455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de422461f891b%3A0x20f8f64ee124f091!2sMonterey%20Conference%20Center!5e0!3m2!1sen!2sus!4v1704873971870!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Monterey Conference Center" aria-hidden="true"></iframe>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
 
     <!-- Part Seven -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border">
-                    <h4 class="card-title mb-3 text-center text-uppercase">ADA Accessibility</h4>
-                    <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
-                    </p>
-                    <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Opens a new window)</span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
-                    </p>
-                    <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
-                    </p>
-                    <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
-                    </p>
-                    <p><strong>ADA Accessibility - MBAR 2022 will provide two ASL Interpreters on these days:</strong>
-                    </p>
-                    <ul>
-                        <li>Friday - 2.5 hours</li>
-                        <li>Saturday - 2.5 hours</li>
-                        <li>Sunday - 3.0 hours</li>
-                    </ul>
-                    <p style="font-style: italic;"><strong>PLEASE NOTE:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
-                    </p>
+    <aside aria-label="ADA accessibility and inclusion.">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-bg-light hero-text-border">
+                        <section aria-label="Event unity">
+                            <h4 class="card-title mb-3 text-center text-uppercase">ADA Accessibility</h4>
+                            <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
+                            </p>
+                            <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Opens a new window)</span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                            </p>
+                            <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
+                            </p>
+                            <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
+                            </p>
+                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2024 will provide two ASL Interpreters on these days:</strong>
+                            </p>
+                            <ul>
+                                <li>Friday - 2.5 hours</li>
+                                <li>Saturday - 2.5 hours</li>
+                                <li>Sunday - 3.0 hours</li>
+                            </ul>
+                            <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </aside>
 
 
     <?php include_once 'footer.inc' ?>
