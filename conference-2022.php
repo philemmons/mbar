@@ -102,7 +102,7 @@ include_once 'header.inc'
                                     Speaker: <strong>Reggie W., Los Angeles, CA</strong>
                                 </div>
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 ">
                                     50/50 Raffle
                                 </div>
                                 <div class="col-sm-5">
@@ -120,32 +120,26 @@ include_once 'header.inc'
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     Registration Opens
                                 </div>
-                                <div class="col-sm-5">
-                                    ---
-                                </div>
-
+                                
 
                                 <div class="col-sm-2">
                                     9:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     Al-Anon Marathon Meetings (English/Spanish)
                                 </div>
-                                <div class="col-sm-5">
-                                    ---
-                                </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     10:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Kick-Off A.A. Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Arthur T., Carmel, CA</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
@@ -159,43 +153,34 @@ include_once 'header.inc'
                                 <div class="col-sm-2">
                                     10:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     A.A. Meeting Spanish Speaking
-                                </div>
-                                <div class="col-sm-5">
-                                    ---
                                 </div>
 
 
                                 <div class="col-sm-2">
                                     11:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     A.A. Marathon Meetings Begin
-                                </div>
-                                <div class="col-sm-5">
-                                    ---
                                 </div>
 
 
                                 <div class="col-sm-2">
                                     11:30am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     A.A. Old-Timers' Panel
                                 </div>
-                                <div class="col-sm-5">
-                                    ---
-                                </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     2:00pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     A.A. / Al-Anon Speaker Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
@@ -217,13 +202,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     7:30pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     A.A. Speaker Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
@@ -274,23 +259,18 @@ include_once 'header.inc'
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     A.A. Marathon Meetings Begin
-                                </div>
-                                <div class="col-sm-5">
-                                    ---
                                 </div>
 
 
                                 <div class="col-sm-2">
                                     9:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     Al-Anon Marathon Meetings (English/Spanish)
                                 </div>
-                                <div class="col-sm-5">
-                                    ---
-                                </div>
+
 
                                 <div class="col-sm-2">
                                     10:00am
@@ -303,13 +283,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     11:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
@@ -320,13 +300,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     1:30am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Al-Anon Family Panel
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
@@ -348,13 +328,13 @@ include_once 'header.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     5:00pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     A.A.Speaker Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
                                     <audio controls="">
                                         <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
@@ -389,13 +369,9 @@ include_once 'header.inc'
                                 <div class="col-sm-2">
                                     9:00pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     Conference Ends
                                 </div>
-                                <div class="col-sm-5">
-                                    ---
-                                </div>
-
                             </div>
                         </section>
 

@@ -484,4 +484,10 @@ iframe{
   padding: 0.5rem 0.25rem;
 }
 
+.feature-speaker{
+  background-color: 	var(--bs-primary-bg-subtle);
+}
 
+.cell-color{
+  background-color: var(--color-6);
+}
