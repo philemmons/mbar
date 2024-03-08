@@ -89,9 +89,9 @@ include_once 'header.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
-                        <section aria-label="Friday's events">
-                            <h3 class= "white-on-black py-2 mt-2">Friday Night, September 2nd</h3>
-                            <div class="row g-2">
+                        <div class="row g-2">
+                            <section aria-label="Friday's events">
+                                <h3 class="white-on-black py-2 mt-2">Friday Night, September 2nd</h3>
                                 <div class="col-sm-2">
                                     8:00pm
                                 </div>
@@ -102,6 +102,7 @@ include_once 'header.inc'
                                     Speaker: <strong>Reggie W., Los Angeles, CA</strong>
                                 </div>
 
+                                
                                 <div class="col-sm-2">
                                     50/50 Raffle
                                 </div>
@@ -111,12 +112,13 @@ include_once 'header.inc'
                                 <div class="col-sm-5">
                                     Zoom Meeting Password: <strong>338999</strong>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
 
-                        <section aria-label="Saturday's events">
-                            <h3 class= "white-on-black py-2 mt-2">Saturday, September 3rd</h3>
-                            <div class="row g-2">
+
+                        <div class="row g-2">
+                            <section aria-label="Saturday's events">
+                                <h3 class="white-on-black py-2 mt-2">Saturday, September 3rd</h3>
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
@@ -254,12 +256,13 @@ include_once 'header.inc'
                                 <div class="col-sm-5">
                                     (Immediately Following Raffle)
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
 
-                        <section aria-label="Sunday's events">
-                            <h3 class= "white-on-black py-2 mt-2">Sunday, September 4th</h3>
-                            <div class="row g-2">
+
+                        <div class="row g-2">
+                            <section aria-label="Sunday's events">
+                                <h3 class="white-on-black py-2 mt-2">Sunday, September 4th</h3>
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
@@ -395,9 +398,8 @@ include_once 'header.inc'
                                 <div class="col-sm-5">
                                     ---
                                 </div>
-
-                            </div>
-                        </section>
+                            </section>
+                        </div>
 
                     </div>
                 </div>
