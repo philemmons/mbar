@@ -471,3 +471,12 @@ ul.level-1>li.ms-5 {
 iframe{
   width: 100%;
 }
+
+/**** 2022 con ****/
+
+.white-on-black{
+  color: var(--color-2);
+  background-color: var(--color-5);
+}
+
+
