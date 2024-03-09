@@ -63,64 +63,70 @@ include_once 'header.inc'
      </div>
 
      <!-- Part One -->
-     <div class="container shadow-wrap">
-          <div class="row justify-content-center mb-5">
-               <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                         <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
+     <article aria-label="Evento actual">
+          <div class="container shadow-wrap">
+               <div class="row justify-content-center mb-5">
+                    <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                         <div class="p-3 text-center text-bg-light hero-text-border">
+                              <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
+                         </div>
                     </div>
-               </div>
 
-               <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                         <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la reunión compartida y de oradores de San Patricio">
+                    <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
+                         <div class="p-3 text-center text-bg-light hero-text-border">
+                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la reunión compartida y de oradores de San Patricio">
+                         </div>
                     </div>
                </div>
           </div>
-     </div>
+     </article>
 
      <!-- Part Two -->
-     <div class="container shadow-wrap">
-          <div class="row justify-content-center mb-5">
-               <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                         <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presenta</a></h3>
-                         <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
-                              <br>
-                              Únete a nosotros en los "Fondos y Compañerismo""
-                              <br><br>
-                              <strong>Cuándo:</strong> sábado — 17 de marzo de 2024
-                              <br>
-                              <strong>Dónde:</strong> 437 Laureles Grade, Carmel Valley, CA
-                              <br>
-                              Las Puertas Abren a las 4 p. m.; Cenar a las 5pm
-                              <br>
-                              <strong>Ponente:</strong> Avil L. de Salinas, CA a las 6pm
-                              <br><br>
-                              Se Proporcionará Carne en Conserva y Repollo: Premios de Rifa y Rifa 50/50
-                              <br><br>
-                              Sugerencias de comida compartida por la primera inicial:
-                              <br>
-                              A a C: Postre
-                              <br>
-                              D a J: Plato Vegetariano Caliente
-                              <br>
-                              K a O: Plato de Patatas
-                              <br>
-                              P a Z: Ensalada o Pan
-                              <br><br>
-                              <strong>¡Trae una silla y algunos amigos de Bill!</strong>
-                              <br>
-                              ¡Usa tu equipo MBAR verde o anterior!
-                              <br><br>
-                              <strong>Nota:</strong> ¡En lugar de la séptima tradición, recaudaremos contribuciones para 2024 MBAR!
-                         </p>
-                         <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
-                         <a href="" class="bb-link" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
+     <article aria-label="Detalles del evento">
+          <div class="container shadow-wrap">
+               <div class="row justify-content-center mb-5">
+                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                         <div class="p-3 text-center text-bg-light hero-text-border">
+                              <section aria-label="Encabezado del Evento">
+                                   <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presenta</a></h3>
+                                   <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
+                                        <br>
+                                        Únete a nosotros en los "Fondos y Compañerismo""
+                                        <br><br>
+                                        <strong>Cuándo:</strong> sábado — 17 de marzo de 2024
+                                        <br>
+                                        <strong>Dónde:</strong> 437 Laureles Grade, Carmel Valley, CA
+                                        <br>
+                                        Las Puertas Abren a las 4 p. m.; Cenar a las 5pm
+                                        <br>
+                                        <strong>Ponente:</strong> Avil L. de Salinas, CA a las 6pm
+                                        <br><br>
+                                        Se Proporcionará Carne en Conserva y Repollo: Premios de Rifa y Rifa 50/50
+                                        <br><br>
+                                        Sugerencias de comida compartida por la primera inicial:
+                                        <br>
+                                        A a C: Postre
+                                        <br>
+                                        D a J: Plato Vegetariano Caliente
+                                        <br>
+                                        K a O: Plato de Patatas
+                                        <br>
+                                        P a Z: Ensalada o Pan
+                                        <br><br>
+                                        <strong>¡Trae una silla y algunos amigos de Bill!</strong>
+                                        <br>
+                                        ¡Usa tu equipo MBAR verde o anterior!
+                                        <br><br>
+                                        <strong>Nota:</strong> ¡En lugar de la séptima tradición, recaudaremos contribuciones para 2024 MBAR!
+                                   </p>
+                                   <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
+                                   <a href="" class="bb-link" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
+                              </section>
+                         </div>
                     </div>
                </div>
           </div>
-     </div>
+     </article>
 
 
      <?php include_once 'footer.inc' ?>

@@ -71,6 +71,7 @@ include_once 'header.inc'
                     <p>Thank you all for your service and helping bring our local A.A and Al-Anon communities closer together.</p>
                 </div>
             </div>
+
             <article aria-label="MBAR's planning committee roles and members">
                 <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                     <section aria-label="A.A. Steering Committee">
@@ -210,6 +211,7 @@ include_once 'header.inc'
                             </tbody>
                         </table>
                     </section>
+
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
                         <table class="table table-bordered table-striped table-hover" summary="Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">

@@ -61,7 +61,7 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <article>
+    <article aria-label="Información del ganador">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 pt-4">

@@ -62,7 +62,7 @@ include_once 'header.inc'
 		</div>
 	</div>
 
-	<article>
+	<article aria-label="Site Map">
 		<div class="container shadow-wrap">
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">

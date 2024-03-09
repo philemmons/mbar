@@ -71,6 +71,7 @@ include_once 'header.inc'
                     <p>Gracias a todos por su servicio y por ayudar a acercar más a nuestras comunidades locales de A.A y Al-Anon.</p>
                 </div>
             </div>
+
             <article aria-label="Funciones y miembros del comité de planificación de MBAR">
                 <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                     <section aria-label="Comité Directivo de A.A.">
@@ -210,6 +211,7 @@ include_once 'header.inc'
                             </tbody>
                         </table>
                     </section>
+
                     <section aria-label="Presidentes de comités">
                         <h3 class="fw-bold">Presidentes de comités</h3>
                         <table class="table table-bordered table-striped table-hover" summary="Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.">

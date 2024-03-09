@@ -131,7 +131,7 @@ include_once 'header.inc'
                             <br><br>
                             Al-Anon tiene un solo propósito: ayudar a las familias de alcohólicos. Hacemos esto practicando los Doce Pasos, dando la bienvenida y brindando consuelo a las familias de alcohólicos, y brindando comprensión y aliento al alcohólico.
                         </p>
-                        <section>
+                    </section>
                 </div>
             </div>
         </div>
