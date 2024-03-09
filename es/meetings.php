@@ -24,8 +24,9 @@ include_once 'header.inc'
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-comités">
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-quienes-somos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-quienes-somos">
+                        <a class="dropdown-item active" href="our_partner.php">Nuestro Compañero</a>
                         <a class="dropdown-item active" aria-current="page" href="meetings.php">Reuniones<span class="visually-hidden">(actual)</span></a>
                         <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>

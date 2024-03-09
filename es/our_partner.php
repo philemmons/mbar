@@ -23,12 +23,10 @@ include_once 'header.inc'
                         <a class="dropdown-item" href="memories.php">Recuerdos</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="our_partner.php" aria-current="page">Our Partner<span class="visually-hidden">(actual)</span></a>
-                </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-comités">
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-quienes-somos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-quienes-somos">
+                        <a class="dropdown-item active" href="our_partner.php" aria-current="page">Nuestro Compañero<span class="visually-hidden">(actual)</span></a>
                         <a class="dropdown-item" href="meetings.php">Reuniones</a>
                         <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>

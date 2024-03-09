@@ -11,7 +11,7 @@ include_once 'header.inc'
 		<div class="collapse navbar-collapse" id="collapsibleNavId">
 			<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
 				<li class="nav-item">
-					<a class="nav-link href=" index.php">Hogar</a>
+					<a class="nav-link" href="index.php">Hogar</a>
 				</li>
 				<li class="nav-item dropdown">
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
@@ -24,8 +24,9 @@ include_once 'header.inc'
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<button class="nav-link dropdown-toggle" type="button" id="dropdown-comités" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comités</button>
-					<div class="dropdown-menu" aria-labelledby="dropdown-comités">
+					<button class="nav-link dropdown-toggle" type="button" id="dropdown-quienes-somos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</button>
+					<div class="dropdown-menu" aria-labelledby="dropdown-quienes-somos">
+						<a class="dropdown-item active" href="our_partner.php">Nuestro Compañero</a>
 						<a class="dropdown-item" href="meetings.php">Reuniones</a>
 						<a class="dropdown-item" href="committees.php">Comités</a>
 					</div>
@@ -33,7 +34,7 @@ include_once 'header.inc'
 				<li class="nav-item dropdown">
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
 					<div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
-						<a class="nav-link" href="upcoming_event.php">Noche de Bingo</a>
+						<a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
 						<a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
 					</div>
 				</li>
