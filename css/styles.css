@@ -147,7 +147,7 @@ nav {
 .nav-link.active,
 .dropdown-item.active {
   font-weight: 600;
-  color: var(--color-5);
+  color: var(--color-5) !important;
   background-color: var(--color-2);
 }
 
