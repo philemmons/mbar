@@ -95,7 +95,7 @@ include_once 'header.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="¿Por qué MBAR?">
-                            <h4 class="card-title mb-3 text-uppercase"><a href="activities.php">¿Por qué tenemos MBAR?</a></h4>
+                            <h4 class="card-title mb-3 text-uppercase">¿Por qué tenemos MBAR?</h4>
                             <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                                 <br>
                                 <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, sin enlace, solo diseño">
