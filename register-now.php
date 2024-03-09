@@ -90,10 +90,10 @@ include_once 'header.inc'
                         <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Payment Methods</span>
                         </h3>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6">
                                 <img src="../images/venmo qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
                             </div>
-                            <div class="col-sm-12">
+                            <div class="col-sm-6">
                                 <img src="../images/paypal qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                             </div>
                         </div>
