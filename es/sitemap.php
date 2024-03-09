@@ -11,8 +11,7 @@ include_once 'header.inc'
 		<div class="collapse navbar-collapse" id="collapsibleNavId">
 			<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.php">Hogar
-						<span class="visually-hidden">(actual)</span></a>
+					<a class="nav-link href=" index.php">Hogar</a>
 				</li>
 				<li class="nav-item dropdown">
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
@@ -186,7 +185,7 @@ include_once 'header.inc'
 						<a class="nav-link nav-link-size" href="privacy-policy.php">Política de Privacidad</a>
 					</li>
 					<li class="nav-item" style="border-right: none;">
-						<a class="nav-link nav-link-size" href="sitemap.php" aria-current="page">Mapa del Sitio</a>
+						<a class="nav-link nav-link-size active" href="sitemap.php" aria-current="page">Mapa del Sitio<span class="visually-hidden">(actual)</span></a>
 					</li>
 				</ul>
 			</nav>
