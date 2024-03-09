@@ -64,7 +64,7 @@ include_once 'header.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="Event registration, reason, location, and unity">
+    <article aria-label="Registro de eventos, motivo, ubicación y unidad.">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
@@ -86,8 +86,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
+    </article>
 
-        <!-- Part Two -->
+    <!-- Part Two -->
+    <aside aria-label="Por qué tenemos una explicación de MBAR">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -109,9 +111,11 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
+    </aside>
 
-        <!-- Part Three -->
-        <div id="map"></div>
+    <!-- Part Three -->
+    <div id="map"></div>
+    <article aria-label="Ubicación externa del mapa de Google de MBAR 2024">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -136,8 +140,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
+    </article>
 
-        <!-- Part Four -->
+    <!-- Part Four -->
+    <aside aria-label="Accesibilidad e inclusión de la ADA">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -165,9 +171,10 @@ include_once 'header.inc'
                 </div>
             </div>
         </div>
+    </aside>
 
 
-        <?php include_once 'footer.inc' ?>
-        </body>
+    <?php include_once 'footer.inc' ?>
+    </body>
 
-        </html>
+    </html>

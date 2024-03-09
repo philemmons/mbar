@@ -47,7 +47,7 @@ include_once 'header.inc'
         </div>
     </div>
 </nav>
-
+ 
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
