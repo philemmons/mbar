@@ -47,7 +47,7 @@ include_once 'header.inc'
         </div>
     </div>
 </nav>
- 
+
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
@@ -114,7 +114,7 @@ include_once 'header.inc'
 
     <!-- Part Three -->
     <div id="map"></div>
-    <article aria-label="MBAR 2024 Google Map off site location">
+    <article aria-label="MBAR 2024 Google Map">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
