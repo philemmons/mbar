@@ -388,40 +388,45 @@ include_once 'header.inc'
     </article>
 
     <!-- Part Three -->
-    <div class="container shadow-wrap">
-        <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
-                    <a href="register-now.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
-                        <img class="img-fluid" src="../images/button-reg.png" alt="2022 sea otter logo with register here text.">
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <div class="row justify-content-center mb-5">
-            <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
-                    <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events you may have purchased.
-                        <br><br>
-                        For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
-                    </p>
-                    <p>
-                        Δ Location of Event is different than conference site
-                        <br><br>
-                        <strong>Host of MBAR 2022:</strong> May H. - MBAR Steering Committee
-                        <br>
-                        <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
-                        <br>
-                        <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
-                    </p>
-                    <hr>
-                    <p>See our local A.A. Central Office website
-                        <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" title="M.B.I.A.A meeting schedule.">www.aamonterey.org<span class="sr-only">(Opens a new window)</span></a> for a current listing of meetings in the area.
-                    </p>
+    <div class="container shadow-wrap">
+        <aside aria-label="Pre-registration">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
+                        <a href="register-now.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
+                            <img class="img-fluid" src="../images/button-reg.png" alt="2022 sea otter logo with register here text.">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </aside>
+
+        <aside aria-label="Check-in info">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
+                        <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events you may have purchased.
+                            <br><br>
+                            For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
+                        </p>
+                        <p>
+                            Δ Location of Event is different than conference site
+                            <br><br>
+                            <strong>Host of MBAR 2022:</strong> May H. - MBAR Steering Committee
+                            <br>
+                            <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
+                            <br>
+                            <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
+                        </p>
+                        <hr>
+                        <p>See our local A.A. Central Office website
+                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" title="M.B.I.A.A meeting schedule.">www.aamonterey.org<span class="sr-only">(Opens a new window)</span></a> for a current listing of meetings in the area.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </aside>
     </div>
 
     <!-- Part Four -->

@@ -89,7 +89,7 @@ include_once 'header.inc'
             </div>
         </div>
     </article>
-
+ 
     <!-- Part Two -->
     <article aria-label="MBAR 2019 Friday Schedule">
         <div class="container shadow-wrap">
