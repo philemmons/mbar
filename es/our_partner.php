@@ -92,7 +92,7 @@ include_once 'header.inc'
         <!-- Part Two -->
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3  text-bg-light hero-text-border">
                         <section aria-label="la historia de Lois">
                             <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Cómo Funciona Al-Anon para las Familias y Amigos de Alcohólicos<br>La Historia de Lois (1995)</span>
