@@ -179,7 +179,7 @@ include_once 'header.inc'
                                     Your browser does not support the audio element.
                                 </audio>
                                 <div class="pt-3">
-                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </section>
                         </div>

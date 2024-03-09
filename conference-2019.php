@@ -118,7 +118,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Teresa J 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Teresa J 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Teresa J. Audio File</span>
@@ -181,7 +181,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Harry H 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Harry H 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Harry H. Audio File</span>
@@ -198,7 +198,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Al-Anon Jane H 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Al-Anon Jane H 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Jane H. Audio File</span>
@@ -337,7 +337,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Doctors Opinion Panel - Dr Sheila C and Dr Jerry C 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Doctors Opinion Panel - Dr Sheila C and Dr Jerry C 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;"> Doctors Opinion Panel Audio File</span>
@@ -354,7 +354,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Emotional Sobriety Workshop - Sonny C and Masa M 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Emotional Sobriety Workshop - Sonny C and Masa M 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Emotional Sobriety Workshop Audio File</span>
@@ -373,7 +373,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/The Many Paths to Spirituality Panel - Jean T and Cari H 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/The Many Paths to Spirituality Panel - Jean T and Cari H 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Many Paths to Spirituality Panel Meeting Audio File</span>
@@ -402,7 +402,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Charlie H 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Charlie H 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Charlie H. Henderson Audio File</span>
@@ -473,7 +473,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Al-Anon Louise M 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Al-Anon Louise M 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Louise M. Audio File</span>
@@ -515,7 +515,7 @@ include_once 'header.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="../audio-transcript/2019/Pat B 2019.txt" class="btn btn-primary btn-sm">Opens Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2019/Pat B 2019.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Pat B. Audio File</span>
