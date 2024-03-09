@@ -89,11 +89,12 @@ include_once 'header.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Payment Methods</span>
                         </h3>
+                        <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 py-3">
                                 <img src="../images/venmo qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 py-3">
                                 <img src="../images/paypal qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                             </div>
                         </div>
