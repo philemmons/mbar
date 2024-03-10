@@ -92,11 +92,13 @@ include_once 'header.inc'
                         <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
                         <div class="row">
                             <div class="col-sm-6 py-3">
-                                <img src="../images/venmo qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
                             </div>
                             <div class="col-sm-6 py-3">
-                                <img src="../images/paypal qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                             </div>
+                            <p class="card-title mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Direct link to PayPal">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
+                            <p class="card-title mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
                     </div>
 

@@ -80,6 +80,31 @@ include_once 'header.inc'
         </div>
     </article>
 
+    <!-- Part Payment -->
+    <article aria-label="Método de pago">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div id="payment-now"></div>
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
+                        <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Métodos de Pago</span>
+                        </h3>
+                        <p>Por favor agregue su nombre de registro en el pago. Si paga por más de una persona, agregue sus nombres en la sección de notas.</p>
+                        <div class="row">
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
     <!-- Part Two -->
     <article aria-label="Formulario de registro en PDF">
         <div class="container shadow-wrap">
