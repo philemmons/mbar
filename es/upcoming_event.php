@@ -120,7 +120,7 @@ include_once 'header.inc'
                                         <strong>Nota:</strong> ¡En lugar de la séptima tradición, recaudaremos contribuciones para 2024 MBAR!
                                    </p>
                                    <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF, seguido del enlace">
-                                   <a href="" class="bb-link" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</a>
+                                   <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Ver y Descargar el Folleto</button>
                               </section>
                          </div>
                     </div>

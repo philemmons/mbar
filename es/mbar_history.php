@@ -199,16 +199,16 @@ include_once 'header.inc'
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años
                                 </h3>
                                 <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</a>
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Programa</button>
                                 </p>
                                 <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</a>
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Programa</button>
                                 </p>
                                 <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</a>
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Programa</button>
                                 </p>
                                 <p class="card-text"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, seguido del enlace">
-                                    <a href="" class="bb-link" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</a>
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Programa</button>
                                 </p>
                             </section>
                         </div>
