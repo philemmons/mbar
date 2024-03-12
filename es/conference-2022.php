@@ -145,9 +145,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Orador: <strong>Arthur T., Carmel, CA</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
-                                        <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
                                         <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
@@ -188,10 +187,9 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Orador: <strong>Mary N., Orange, CA</strong><br>A.A. Orador: <strong>Guillermo N., Orange, CA</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
-                                        <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
@@ -218,7 +216,7 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Orador: <strong>Rocky S., Phoenix, AZ</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
@@ -301,10 +299,9 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Orador: <strong>Robin K. Marina, CA</strong><br>Orador: <strong>Terril K. Marina, CA</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
-                                        <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
@@ -320,10 +317,9 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Miembro del Jurado: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
-                                        <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
@@ -350,10 +346,9 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Orador: <strong>Chris T., Del Rey Oaks, CA</strong><br>
-                                    <audio controls=">
+                                    <audio controls="">
                                         <source src=" ../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
-                                        <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
