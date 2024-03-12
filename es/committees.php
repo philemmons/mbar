@@ -79,8 +79,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                     <section aria-label="Comité Directivo de A.A.">
                         <h3 class="fw-bold">Comité Directivo de A.A.</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="Comité directivo de A.A: la primera fila consta de cuatro columnas que son Roles, 2019, 2022 y 2024. La primera columna tiene cinco filas que tienen roles MBAR específicos. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre del miembro.">
-                            <caption class="small">2019 a 2024 Comité Directivo de A.A.</caption>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
+                            <caption class="small" id="tableOne">Comité directivo de A.A: la primera fila consta de cuatro columnas que son Roles, 2019, 2022 y 2024. La primera columna tiene cinco filas que tienen roles MBAR específicos. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre del miembro.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -127,8 +127,8 @@ include_once 'header-bottom.inc'
 
                     <section aria-label="Comité Directivo de Al-Anon">
                         <h3 class="fw-bold">Comité Directivo de Al-Anon</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="Al-Anon steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
-                            <caption class="small">2019 a 2024 Comité Directivo de Al-Anon</caption>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
+                            <caption class="small" id="tableTwo">Comité Directivo de Al-Anon: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 12 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -217,8 +217,8 @@ include_once 'header-bottom.inc'
 
                     <section aria-label="Presidentes de comités">
                         <h3 class="fw-bold">Presidentes de comités</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.">
-                            <caption class="small">Presidentes de comités de 2019 a 2024</caption>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
+                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>

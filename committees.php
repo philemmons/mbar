@@ -79,8 +79,9 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                     <section aria-label="A.A. Steering Committee">
                         <h3 class="fw-bold">A.A. Steering Committee</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has five rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name.">
-                            <caption class="small">2019 to 2024 A.A Steering Committee</caption>
+                        <p id="aa-steering"></p>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
+                            <caption class="small" id="tableOne">A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has five rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -127,8 +128,8 @@ include_once 'header-bottom.inc'
 
                     <section aria-label="Al-Anon Steering Committee">
                         <h3 class="fw-bold">Al-Anon Steering Committee</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="Al-Anon steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
-                            <caption class="small">2019 to 2024 Al-Anon Steering Committee</caption>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
+                            <caption class="small" id="tableTwo">Al-Anon steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -217,8 +218,8 @@ include_once 'header-bottom.inc'
 
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
-                        <table class="table table-bordered table-striped table-hover" summary="Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row  with the specific role column for the members name. There may be more than one name per role.">
-                            <caption class="small">2019 to 2024 Committee Chairs</caption>
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
+                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
