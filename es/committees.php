@@ -75,8 +75,8 @@ include_once 'header-bottom.inc'
                 </div>
             </div>
 
-            <article aria-label="Funciones y miembros del comité de planificación de MBAR">
-                <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
+            <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
+                <article aria-label="Funciones y miembros del comité de planificación de MBAR">
                     <section aria-label="Comité Directivo de A.A.">
                         <h3 class="fw-bold">Comité Directivo de A.A.</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
@@ -407,8 +407,8 @@ include_once 'header-bottom.inc'
                         </table>
                     </section>
 
-                </div>
-            </article>
+                </article>
+            </div>
 
         </div>
     </div>
