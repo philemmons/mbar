@@ -252,7 +252,7 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><a href="conference-2019.php">
+                            <p class="card-title h6"><a href="conference-2019.php" class="bb-link">
                                     <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Meeting Wonderful People</a></p>
                             <p class="card-text">I met the most wonderful people at MBAR 2019; truly happy, joyous, and free! Thank you all for coming and sharing fellowship with us.</p>
                         </div>
@@ -262,7 +262,7 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><a href="register-now.php">
+                            <p class="card-title h6"><a href="register-now.php" class="bb-link">
                                     <i class="bi bi-person me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>The Cost of Admission: Priceless!</a></p>
                             <p class="card-text">Why do I have to pay? Isn't it enough that I am volunteering?! Those were my thoughts at my first MBAR. But the cost of admission is "Priceless"; the cheery faces, strangers who instantly become friends, giving my time, receiving so much more love than I could ever give. "Priceless"</p>
                         </div>
