@@ -552,7 +552,7 @@ include_once 'header-bottom.inc'
                             </ul>
                             <br>
                             <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
-                                <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Logotipo del Intergrupo de Alcohólicos Anónimos del Área de la Bahía de Monterey, haga clic para regresar a la página aamonterey.org."><span class="sr-only">(Abre una nueva ventana)<span></a>
+                                <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Logotipo del Intergrupo de Alcohólicos Anónimos del Área de la Bahía de Monterey, haga clic para regresar a la página aamonterey.org."><span class="sr-only">(Abre una nueva ventana)</span></a>
                             <br><br>
                             Haga clic en el logotipo de arriba para ver nuestro grupo local de A.A. Visite el sitio web de la Oficina Central para obtener una lista actualizada de las reuniones en el área después de la conclusión de la conferencia.
                         </section>
