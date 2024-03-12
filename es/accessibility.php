@@ -81,7 +81,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border" title="">
                         <section aria-label="método de accesibilidad">
                             <h3 class="fw-bold text-primary">
-                                <span class="text-dark px-3 px-md-0">Accesibilidad en montereybayarearoundup.org</span>
+                                <span class="text-dark px-3 px-md-0">Accesibilidad e Inclusión</span>
                             </h3>
 
                             <p class="mb-3 text-dark">montereybayarearoundup.org se esfuerza continuamente por superar las Pautas de accesibilidad al contenido web 2.1 de W3C WAI. Varios verificadores de sitios permiten a montereybayarearoundup.org mejorar su cumplimiento de las Pautas de accesibilidad al contenido web (WCAG 2.2).</p>
