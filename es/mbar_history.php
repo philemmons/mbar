@@ -178,8 +178,8 @@ include_once 'header-bottom.inc'
                                 </h3>
                                 <p class="card-text">Paul O. de 2017</p>
                                 <audio controls="">
-                                    <source src="../audio/PaulO2017/01 Track 1.ogg" type="audio/ogg">
-                                    <source src="../audio/PaulO2017/01 Track 1.mp3" type="audio/mpeg">
+                                    <source src="../audio/2017/Paul-O.ogg" type="audio/ogg">
+                                    <source src="../audio/2017/Paul-O.mp3" type="audio/mpeg">
                                     Su navegador no soporta el elemento de audio.
                                 </audio>
                                 <div class="pt-3">
