@@ -199,17 +199,17 @@ include_once 'header-bottom.inc'
                                 <h3 class="card-title h6">
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years
                                 </h3>
-                                <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
-                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2015 Program</button>
+                                <p class="card-text">
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link"> 2015 Program</button>
                                 </p>
-                                <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
-                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2014 Program</button>
+                                <p class="card-text">
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link"> 2014 Program</button>
                                 </p>
-                                <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
-                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">2003 Program</button>
+                                <p class="card-text">
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link"> 2003 Program</button>
                                 </p>
-                                <p class="card-text"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link">
-                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">1997 Program</button>
+                                <p class="card-text">
+                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon, followed by link"> 1997 Program</button>
                                 </p>
                             </section>
                         </div>
