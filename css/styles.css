@@ -12,6 +12,7 @@
 
   --color-11: #113362;
   --color-12: #0000ff;
+  --color-13: #d5e5f5;
 
   --error-color: #ff0019;
   --success-color: #0ece3b;
@@ -488,7 +489,7 @@ iframe {
 }
 
 .feature-speaker {
-  background-color: var(--bs-primary-bg-subtle);
+  background-color: var(--color-13);
 }
 
 .cell-color {
