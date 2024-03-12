@@ -217,9 +217,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     Orador: <strong>Rocky S., Phoenix, AZ</strong><br>
                                     <audio controls="">
-                                        <source src=" ../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
-                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
-                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
+                                        <source src=" ../audio/2022/Rocky-S_From_PhoenixAZ-MBAR-2022.ogg" type="audio/ogg">
+                                        <source src="../audio/2022/Rocky-S_From_PhoenixAZ-MBAR-2022.mp3" type="audio/mpeg">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
