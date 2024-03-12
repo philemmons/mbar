@@ -89,8 +89,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Gratitude">
-                            <h3 class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.<br>
-                                We hope you enjoyed this contest as much as we did.</h3>
+                            <h3 class="mb-6 h4 text-dark">Thank you to all who participated and really appreciate your creativity.</h3>
+                            <p class="h5"> We hope you enjoyed this contest as much as we did.</p>
                         </section>
                     </div>
                 </div>
