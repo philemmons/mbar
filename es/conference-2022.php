@@ -151,6 +151,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Arthur T 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
@@ -193,6 +194,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Al-Anon Mary N and Guillermo N 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
@@ -222,6 +224,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Rocky S 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
@@ -304,6 +307,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Al-Anon Robin K and Terrill K 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
@@ -322,6 +326,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Al-Anon -  Michele M Pete C Dawn C Joe P 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
@@ -351,6 +356,7 @@ include_once 'header-bottom.inc'
                                         <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
+                                    <br>
                                     <a href="../audio-transcript/2022/Chris T 2022.txt" class="btn btn-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
