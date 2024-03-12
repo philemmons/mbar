@@ -79,7 +79,6 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-11 col-lg-8 table-responsive-md py-4">
                     <section aria-label="A.A. Steering Committee">
                         <h3 class="fw-bold">A.A. Steering Committee</h3>
-                        <p id="aa-steering"></p>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
                             <caption class="small" id="tableOne">A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has five rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name.</caption>
                             <thead class="table-light">
