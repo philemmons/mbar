@@ -151,7 +151,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Arthur T 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Arthur-T-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -194,7 +194,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon Mary N and Guillermo N 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -224,7 +224,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Rocky S 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Rocky-S-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -307,7 +307,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon Robin K and Terrill K 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -326,7 +326,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon -  Michele M Pete C Dawn C Joe P 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -356,7 +356,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Chris T 2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="../audio-transcript/2022/Chris-T-2022.txt" class="btn btn-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
