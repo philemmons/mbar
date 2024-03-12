@@ -158,7 +158,7 @@ nav {
   border: inset 1px var(--color-5);
 }
 
-.dropdown-menu.show{
+.dropdown-menu.show {
   margin-top: 0 !important;
   border-radius: 0;
 }
@@ -275,7 +275,7 @@ nav {
 }
 
 .btn-primary {
-  --bs-btn-bg: #var(--color-12);;
+  --bs-btn-bg: var(--color-12);
   --bs-btn-hover-bg: #22aaff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
@@ -298,12 +298,12 @@ nav {
 
 .bb-link {
   text-decoration: none;
-  color: #var(--color-12);;
+  color: var(--color-12);
   font-weight: bold;
 }
 
 .bb-link:hover,
-.bb-link:focus{
+.bb-link:focus {
   text-decoration: underline;
 }
 
@@ -466,38 +466,38 @@ ul.level-1>li.ms-5 {
 
 /**** mbar history ****/
 
-.text-body-secondary{
+.text-body-secondary {
   color: var(--color-7) !important;
 }
 
 /**** iframe ****/
-iframe{
+iframe {
   width: 100%;
 }
 
 /**** 2022 con ****/
 
-.white-on-black{
+.white-on-black {
   color: var(--color-2);
   background-color: var(--color-5);
 }
 
-.row.g-0.mb-4 [class^="col"]{
+.row.g-0.mb-4 [class^="col"] {
   border: 1px solid var(--color-5);
   padding: 0.5rem 0.25rem;
 }
 
-.feature-speaker{
-  background-color: 	var(--bs-primary-bg-subtle);
+.feature-speaker {
+  background-color: var(--bs-primary-bg-subtle);
 }
 
-.cell-color{
+.cell-color {
   background-color: var(--color-3);
 }
 
 /**** tables ****/
 
-caption{
+caption {
   color: var(--color-7) !important;
 }
 
