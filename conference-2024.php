@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR -  </title>";
+echo "<title>MBAR - 2024 Conference </title>";
 include_once 'header-bottom.inc'
 ?>
 
