@@ -1,6 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc'
+include_once 'header-top.inc';
+echo "<title>MBAR - Historia </title>";
+include_once 'header-bottom.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="navegación principal">

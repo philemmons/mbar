@@ -1,6 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header.inc'
+include_once 'header-top.inc';
+echo "<title>MBAR - Actividades </title>";
+include_once 'header-bottom.inc'
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="navegación principal">
@@ -18,7 +20,7 @@ include_once 'header.inc'
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="register-now.php">Registro</a>
-                        <a class="dropdown-item active" aria-current="page" href="activities.php">Activities<span class="visually-hidden">(actual)</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="activities.php">Actividades<span class="visually-hidden">(actual)</span></a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
                         <a class="dropdown-item" href="memories.php">Recuerdos</a>
                     </div>

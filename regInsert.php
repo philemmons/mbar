@@ -6,7 +6,9 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
     header("Location: _login.php");
 }
 
-include_once 'header.inc';
+include_once 'header-top.inc';
+echo "<title>MBAR - Reg Insert </title>";
+include_once 'header-bottom.inc';
 include_once 'source/php_source.php';
 include_once 'source/dbConnection.php';
 
