@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
                 <div id="payment-now"></div>
                 <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
-                        <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Payment Methods</span>
+                        <h3 class="fw-bold text-dark px-3 px-md-0">Payment Methods
                         </h3>
                         <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
                         <div class="row">

@@ -68,11 +68,11 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule"">
-                    <section aria-label= " Introduction">
-                        <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation</h3></span>
-                        </h3>
-                        <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule">
+                        <section aria-label=" Introduction">
+                            <h3 class="fw-bold text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation
+                            </h3>
+                            <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
                         </section>
                     </div>
                 </div>
@@ -144,8 +144,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Arthur T., Carmel, CA</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22_01.wav" type="audio/wav">
                                         <source src="../audio/2022/ArthurTFromCarmelCA-MBAR2022-09-03-22.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
@@ -187,8 +187,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker: <strong>Mary N., Orange, CA</strong><br>A.A. Speaker: <strong>Guillermo N., Orange, CA</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Mary-N_(Al-Anon)_Guillermo-N.wav" type="audio/wav">
                                         Your browser does not support the audio element.
@@ -217,8 +217,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Rocky S., Phoenix, AZ</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Rocky S_From_PhoenixAZ-MBAR 2022.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
@@ -300,8 +300,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Robin K. Marina, CA</strong><br>Speaker: <strong>Terril K. Marina, CA</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Al-Anon-Speaker-Meeting_Robin-K_Terrill-K_01.wav" type="audio/wav">
                                         Your browser does not support the audio element.
@@ -319,8 +319,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Panelist: <strong>Michele M. / Pete C. and Dawn C. / Joe P.</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Al-Anon_Family_Panel-Michele-M_Pete-C_Dawn-C_Joe-P_01.wav" type="audio/wav">
                                         Your browser does not support the audio element.
@@ -349,8 +349,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Chris T., Del Rey Oaks, CA</strong><br>
-                                    <audio controls="">
-                                        <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
+                                    <audio controls=">
+                                        <source src=" ../audio/2022/Chris-T_From-Del-Rey-Oaks_01.ogg" type="audio/ogg">
                                         <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks.mp3" type="audio/mpeg">
                                         <source src="../audio/2022/Chris-T_From-Del-Rey-Oaks_01.wav" type="audio/wav">
                                         Your browser does not support the audio element.

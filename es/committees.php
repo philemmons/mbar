@@ -69,7 +69,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h3 class="fw-bold"><span class="text-dark px-3 px-md-0">Funciones y miembros pasados ​​y presentes del Comité de Planificación</span>
+                    <h3 class="fw-bold text-dark px-3 px-md-0">Funciones y miembros pasados ​​y presentes del Comité de Planificación
                     </h3>
                     <p>Gracias a todos por su servicio y por ayudar a acercar más a nuestras comunidades locales de A.A y Al-Anon.</p>
                 </div>
