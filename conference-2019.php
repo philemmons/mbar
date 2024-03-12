@@ -554,8 +554,7 @@ include_once 'header-bottom.inc'
                             </ul>
                             <br>
                             <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
-                                <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."><span class="sr-only">(Opens a new window)<span>
-                            </a>
+                                <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Monterey Bay Area Intergroup Alcoholics Anonymous logo, click to go back to aamonterey.org page."><span class="sr-only">(Opens a new window)<span></a>
                             <br><br>
                             Click on the logo above to see our local A.A. Central Office website for a current listing of meetings in the area for you after the conclusion of the conference.
                         </section>
