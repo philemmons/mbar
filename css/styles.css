@@ -492,3 +492,9 @@ iframe{
 .cell-color{
   background-color: var(--color-3);
 }
+
+/**** tables ****/
+
+caption{
+  color: var(--color-7) !important;
+}
