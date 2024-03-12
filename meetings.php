@@ -93,7 +93,9 @@ include_once 'header-bottom.inc'
                         <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0"><i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);" aria-hidden="true"></i>2024 Minutes</span>
                         </h4>
                         <hr>
-                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2024/01-13-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Opens a PDF: 01/13/2024</button>
+                        <div class="d-grid gap-3">
+                            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2024/01-13-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Opens a PDF: 01/13/2024</button>
+                        </div>
                     </div>
                 </div>
             </div>
