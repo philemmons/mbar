@@ -131,7 +131,7 @@ include_once 'header-bottom.inc'
                             Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
                         </p>
                         <p class="text-center">
-                            <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary btn-sm" target="_blank">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
+                            <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
                         </p>
                     </section>
                 </div>
