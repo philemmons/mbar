@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                             <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte la acción de la Conferencia de 2022.</p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de conferencias 2022</a></small>
+                            <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de Conferencias 2022</a></small>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ include_once 'header-bottom.inc'
                             <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista previa de Nestras Actividades</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
                         </div>
                     </div>
                 </div>
