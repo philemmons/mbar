@@ -106,6 +106,9 @@ include_once 'header-bottom.inc'
                                 <br><br>
                                 "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
                             </p>
+                            <p class="text-center">
+                                <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -129,9 +132,6 @@ include_once 'header-bottom.inc'
                             Al-Anon is not allied with any sect, denomination, political entity, organization, or institution; does not engage in any controversy; neither endorses nor opposes any cause. There are no dues for membership. Al-Anon is self-supporting through its own voluntary contributions.
                             <br><br>
                             Al-Anon has but one purpose: to help families of alcoholics. We do this by practicing the Twelve Steps, by welcoming and giving comfort to families of alcoholics, and by giving understanding and encouragement to the alcoholic.
-                        </p>
-                        <p class="text-center">
-                            <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
                         </p>
                     </section>
                 </div>
