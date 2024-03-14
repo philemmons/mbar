@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
     <article aria-label="information cards">
         <div class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-6 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
@@ -83,7 +83,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
@@ -93,6 +93,19 @@ include_once 'header-bottom.inc'
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us If You Are Interested</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
+                            </p>
+                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community. 
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup/es/" class="btn btn-primary" target= "_blank">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
                         </div>
                     </div>
                 </div>
