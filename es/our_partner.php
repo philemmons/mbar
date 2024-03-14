@@ -105,7 +105,8 @@ include_once 'header-bottom.inc'
                                     "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
                                     <br><br>
                                     "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
-                                    <br><br>
+                                </p>
+                                <p class="text-center">
                                     <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary btn-sm" target="_blank">Visita Al-Anon de Monterrey<span class="sr-only">(Se abre en una ventana nueva)</span><a>
                                 </p>
                         </section>
