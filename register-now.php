@@ -95,9 +95,11 @@ include_once 'header-bottom.inc'
                         <div class="row">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
+                                <p class= "text-center"><?php echo getenv('mbar-venmo') ?></p>
                             </div>
                             <div class="col-sm-6 py-3">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                <p class= "text-center"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
                             <p>The links below provide payment instructions.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
@@ -127,7 +129,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
                             </p>
-                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR 2024 Registration Form</button>
+                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/mbar-register-form-en.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR 2024 Registration Form</button>
                             </p>
                             <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
                             </p>

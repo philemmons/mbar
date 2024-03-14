@@ -95,9 +95,11 @@ include_once 'header-bottom.inc'
                         <div class="row">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
+                                <p class= "text-center"><?php echo getenv('mbar-venmo') ?></p>
                             </div>
                             <div class="col-sm-6 py-3">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
+                                <p class= "text-center"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
                             <p>Los enlaces siguientes proporcionan instrucciones de pago.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Enlace directo a Venmo">¿Cómo puedo enviar un pago o solicitar dinero con Venmo?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
@@ -127,7 +129,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p>O envíe el formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
                             </p>
-                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/mbar-register-form.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</button>
+                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/formulario-registro-mbar-es.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</button>
                             </p>
                             <p>Si tiene alguna pregunta, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Comité Directivo</a>
                             </p>
