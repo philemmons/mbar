@@ -221,155 +221,158 @@ include_once 'header-bottom.inc'
 
                         <fieldset>
                             <legend>Personal Information</legend>
-                            <div class="col-md-4">
-                                <label for="reg-fn" class="form-label">First Name *</label>
-                                <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
-                                <div class="invalid-feedback">
-                                    Required - Please enter your first name.
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="reg-fn" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
+                                    <div class="invalid-feedback">
+                                        Required - Please enter your first name.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-4">
-                                <label for="reg-ln" class="form-label">Last Name or Initial *</label>
-                                <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
-                                <div class="invalid-feedback">
-                                    Required - Please enter your last name or initial.
+                                <div class="col-md-4">
+                                    <label for="reg-ln" class="form-label">Last Name or Initial *</label>
+                                    <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
+                                    <div class="invalid-feedback">
+                                        Required - Please enter your last name or initial.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-4">
-                                <label for="reg-" class="form-label">Last Name or Initial *</label>
-                                <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
-                                <div class="invalid-feedback">
-                                    Required - Please enter your last name or initial.
+                                <div class="col-md-4">
+                                    <label for="reg-" class="form-label">Last Name or Initial *</label>
+                                    <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
+                                    <div class="invalid-feedback">
+                                        Required - Please enter your last name or initial.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <label for="reg-em" class="form-label">Email *</label>
-                                <input type="email" class="form-control" name="reg-em" id="reg-em" required>
-                                <div class="invalid-feedback">
-                                    Required - Please enter your email.
+                                <div class="col-md-6">
+                                    <label for="reg-em" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" name="reg-em" id="reg-em" required>
+                                    <div class="invalid-feedback">
+                                        Required - Please enter your email.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <label for="reg-phone" class="form-label">Phone with Area Code</label>
-                                <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
-                                <div class="invalid-feedback">
-                                    Optional - Please enter a valid phone number.
+                                <div class="col-md-6">
+                                    <label for="reg-phone" class="form-label">Phone with Area Code</label>
+                                    <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                    <div class="invalid-feedback">
+                                        Optional - Please enter a valid phone number.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-12">
-                                <label for="reg-addr" class="form-label">Mailing Address</label>
-                                <input type="text" class="form-control" name="reg-addr" id="reg-addr">
-                                <div class="invalid-feedback">
-                                    Optional - Please enter your address.
+                                <div class="col-md-12">
+                                    <label for="reg-addr" class="form-label">Mailing Address</label>
+                                    <input type="text" class="form-control" name="reg-addr" id="reg-addr">
+                                    <div class="invalid-feedback">
+                                        Optional - Please enter your address.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <label for="reg-city" class="form-label">City</label>
-                                <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
-                                <div class="invalid-feedback">
-                                    Optional - Please enter a city.
+                                <div class="col-md-6">
+                                    <label for="reg-city" class="form-label">City</label>
+                                    <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
+                                    <div class="invalid-feedback">
+                                        Optional - Please enter a city.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3">
-                                <label for="reg-state" class="form-label">State</label>
-                                <select class="form-select" name="reg-state" id="reg-state">
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="AL">Alabama</option>
-                                    <option value="AK">Alaska</option>
-                                    <option value="AZ">Arizona</option>
-                                    <option value="AR">Arkansas</option>
-                                    <option value="CA">California</option>
-                                    <option value="CO">Colorado</option>
-                                    <option value="CT">Connecticut</option>
-                                    <option value="DE">Delaware</option>
-                                    <option value="DC">District of Columbia</option>
-                                    <option value="FL">Florida</option>
-                                    <option value="GA">Georgia</option>
-                                    <option value="HI">Hawaii</option>
-                                    <option value="ID">Idaho</option>
-                                    <option value="IL">Illinois</option>
-                                    <option value="IN">Indiana</option>
-                                    <option value="IA">Iowa</option>
-                                    <option value="KS">Kansas</option>
-                                    <option value="KY">Kentucky</option>
-                                    <option value="LA">Louisiana</option>
-                                    <option value="ME">Maine</option>
-                                    <option value="MD">Maryland</option>
-                                    <option value="MA">Massachusetts</option>
-                                    <option value="MI">Michigan</option>
-                                    <option value="MN">Minnesota</option>
-                                    <option value="MS">Mississippi</option>
-                                    <option value="MO">Missouri</option>
-                                    <option value="MT">Montana</option>
-                                    <option value="NE">Nebraska</option>
-                                    <option value="NV">Nevada</option>
-                                    <option value="NH">New Hampshire</option>
-                                    <option value="NJ">New Jersey</option>
-                                    <option value="NM">New Mexico</option>
-                                    <option value="NY">New York</option>
-                                    <option value="NC">North Carolina</option>
-                                    <option value="ND">North Dakota</option>
-                                    <option value="OH">Ohio</option>
-                                    <option value="OK">Oklahoma</option>
-                                    <option value="OR">Oregon</option>
-                                    <option value="PA">Pennsylvania</option>
-                                    <option value="RI">Rhode Island</option>
-                                    <option value="SC">South Carolina</option>
-                                    <option value="SD">South Dakota</option>
-                                    <option value="TN">Tennessee</option>
-                                    <option value="TX">Texas</option>
-                                    <option value="UT">Utah</option>
-                                    <option value="VT">Vermont</option>
-                                    <option value="VA">Virginia</option>
-                                    <option value="WA">Washington</option>
-                                    <option value="WV">West Virginia</option>
-                                    <option value="WI">Wisconsin</option>
-                                    <option value="WY">Wyoming</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Optional - Please select your state.
+                                <div class="col-md-3">
+                                    <label for="reg-state" class="form-label">State</label>
+                                    <select class="form-select" name="reg-state" id="reg-state">
+                                        <option selected disabled value="">Choose...</option>
+                                        <option value="AL">Alabama</option>
+                                        <option value="AK">Alaska</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="AR">Arkansas</option>
+                                        <option value="CA">California</option>
+                                        <option value="CO">Colorado</option>
+                                        <option value="CT">Connecticut</option>
+                                        <option value="DE">Delaware</option>
+                                        <option value="DC">District of Columbia</option>
+                                        <option value="FL">Florida</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="ID">Idaho</option>
+                                        <option value="IL">Illinois</option>
+                                        <option value="IN">Indiana</option>
+                                        <option value="IA">Iowa</option>
+                                        <option value="KS">Kansas</option>
+                                        <option value="KY">Kentucky</option>
+                                        <option value="LA">Louisiana</option>
+                                        <option value="ME">Maine</option>
+                                        <option value="MD">Maryland</option>
+                                        <option value="MA">Massachusetts</option>
+                                        <option value="MI">Michigan</option>
+                                        <option value="MN">Minnesota</option>
+                                        <option value="MS">Mississippi</option>
+                                        <option value="MO">Missouri</option>
+                                        <option value="MT">Montana</option>
+                                        <option value="NE">Nebraska</option>
+                                        <option value="NV">Nevada</option>
+                                        <option value="NH">New Hampshire</option>
+                                        <option value="NJ">New Jersey</option>
+                                        <option value="NM">New Mexico</option>
+                                        <option value="NY">New York</option>
+                                        <option value="NC">North Carolina</option>
+                                        <option value="ND">North Dakota</option>
+                                        <option value="OH">Ohio</option>
+                                        <option value="OK">Oklahoma</option>
+                                        <option value="OR">Oregon</option>
+                                        <option value="PA">Pennsylvania</option>
+                                        <option value="RI">Rhode Island</option>
+                                        <option value="SC">South Carolina</option>
+                                        <option value="SD">South Dakota</option>
+                                        <option value="TN">Tennessee</option>
+                                        <option value="TX">Texas</option>
+                                        <option value="UT">Utah</option>
+                                        <option value="VT">Vermont</option>
+                                        <option value="VA">Virginia</option>
+                                        <option value="WA">Washington</option>
+                                        <option value="WV">West Virginia</option>
+                                        <option value="WI">Wisconsin</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Optional - Please select your state.
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3">
-                                <label for="reg-zc" class="form-label">Zip Code</label>
-                                <input type="text" class="form-control" name="reg-zc" id="reg-zc">
-                                <div class="invalid-feedback">
-                                    Optional - Please enter your zip code.
+                                <div class="col-md-3">
+                                    <label for="reg-zc" class="form-label">Zip Code</label>
+                                    <input type="text" class="form-control" name="reg-zc" id="reg-zc">
+                                    <div class="invalid-feedback">
+                                        Optional - Please enter your zip code.
+                                    </div>
                                 </div>
                             </div>
                         </fieldset>
 
                         <fieldset>
                             <legend>Recovery Information</legend>
-                            <div class="col-md-4">
-                                <label for="reg-fs" class="form-label">Fellowship *</label>
-                                <select class="form-select" name="reg-fs" id="reg-fs" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="A.A.">A.A.</option>
-                                    <option value="Al-Anon">Al-Anon</option>
-                                    <option value="Double Winner">Double Winner</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Required - Please enter your Fellowship
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="reg-fs" class="form-label">Fellowship *</label>
+                                    <select class="form-select" name="reg-fs" id="reg-fs" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option value="A.A.">A.A.</option>
+                                        <option value="Al-Anon">Al-Anon</option>
+                                        <option value="Double Winner">Double Winner</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Required - Please enter your Fellowship
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-8">
-                                <label for="reg-hg" class="form-label">Homegroup(s)</label>
-                                <input type="text" class="form-control" name="reg-hg" id="reg-hg">
-                                <div class="invalid-feedback">
-                                    Optional - Please enter your Homegroup(s)
+                                <div class="col-md-8">
+                                    <label for="reg-hg" class="form-label">Homegroup(s)</label>
+                                    <input type="text" class="form-control" name="reg-hg" id="reg-hg">
+                                    <div class="invalid-feedback">
+                                        Optional - Please enter your Homegroup(s)
+                                    </div>
                                 </div>
-                            </div>
                         </fieldset>
 
                         <fieldset>
@@ -489,57 +492,59 @@ include_once 'header-bottom.inc'
                                     Optional - Please enter your Contribution.
                                 </div>
                             </div>
-                        </fieldset>
-
-                        <fieldset>
-                            <legend>Terms of Services</legend>
-
-                            <div class="col-md-6">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
-                                    <label class="form-check-label" for="invalidCheck">
-                                        I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
-                                    </label>
-                                    <div class="invalid-feedback">
-                                        Required - You must agree before submitting.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
-                                <select class="form-select" name="reg-pm" id="reg-pm" required>
-                                    <option selected disabled value="">Choose...</option>
-                                    <option value="venmo">Venmo</option>
-                                    <option value="cash">Cash</option>
-                                    <option value="check">Check</option>
-                                    <option value="paypal">PayPal</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Required - Please select one.
-                                </div>
-                            </div>
-                        </fieldset>
-
-                        <div class="col-md-12">
-                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                            <div id="reCaptcha-warning">
-                                <strong>Note: The form will reset if unchecked.</strong>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
-                        </div>
-                    </form>
-
                 </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Terms of Services</legend>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
+                                </label>
+                                <div class="invalid-feedback">
+                                    Required - You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                            <select class="form-select" name="reg-pm" id="reg-pm" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="venmo">Venmo</option>
+                                <option value="cash">Cash</option>
+                                <option value="check">Check</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Required - Please select one.
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="col-md-12">
+                    <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                    <div id="reCaptcha-warning">
+                        <strong>Note: The form will reset if unchecked.</strong>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                </div>
+                </form>
+
             </div>
         </div>
+    </div>
     </div>
 
 
