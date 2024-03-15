@@ -95,11 +95,11 @@ include_once 'header-bottom.inc'
                         <div class="row">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
-                                <p class= "text-center"><?php echo getenv('mbar-venmo') ?></p>
+                                <p class= "text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                             </div>
                             <div class="col-sm-6 py-3">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
-                                <p class= "text-center"><?php echo getenv('mbar-treas-email') ?></p>
+                                <p class= "text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
                             <p>Los enlaces siguientes proporcionan instrucciones de pago.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Enlace directo a Venmo">¿Cómo puedo enviar un pago o solicitar dinero con Venmo?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
