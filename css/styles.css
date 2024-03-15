@@ -419,6 +419,12 @@ ul.level-1>li.ms-5 {
   font-weight: bolder;
 }
 
+/* https://stackoverflow.com/questions/70536735/override-bootstrap-5-fieldset-style */
+
+fieldset, legend {
+  all: revert;
+}
+
 /**** admin ****/
 
 #oneBtn {

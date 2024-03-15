@@ -215,11 +215,11 @@ include_once 'header-bottom.inc'
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
+                <div class="p-3" title="We are willing to listen.">
 
                     <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
-                        <fieldset>
+                        <fieldset class= "text-bg-light">
                             <legend>Personal Information</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
@@ -349,11 +349,11 @@ include_once 'header-bottom.inc'
                             </div>
                         </fieldset>
 
-                        <fieldset>
-                            <legend>Recovery Information</legend>
+                        <fieldset class= "text-bg-light">
+                            <legend>Fellowship Information</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
-                                    <label for="reg-fs" class="form-label">Fellowship *</label>
+                                    <label for="reg-fs" class="form-label">Program *</label>
                                     <select class="form-select" name="reg-fs" id="reg-fs" required>
                                         <option selected disabled value="">Choose...</option>
                                         <option value="A.A.">A.A.</option>
@@ -376,11 +376,11 @@ include_once 'header-bottom.inc'
                             </div>
                         </fieldset>
 
-                        <fieldset>
+                        <fieldset class= "text-bg-light">
                             <legend>Registration and Activities</legend>
                             <div class="row justify-content-center">
                                 <div class="col-lg-5">
-                                    <p class="h5">REGISTRATION *</p>
+                                    <p class="h5">Registration</p>
                                     <div class="form-check">
                                         <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
                                         <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
@@ -399,7 +399,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-7">
-                                    <p class="h5">PRE-REGISTRATION FOR MEALS IS CURRENTLY REQUIRED</p>
+                                    <p class="h5">Pre-Registration for meals is currently required.</p>
                                     <ul>
                                         <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
                                         </li>
@@ -497,7 +497,7 @@ include_once 'header-bottom.inc'
                             </div>
                         </fieldset>
 
-                        <fieldset>
+                        <fieldset class= "text-bg-light">
                             <legend>Terms of Services</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-6">
@@ -513,7 +513,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="reg-pm" class="form-label">Payment Method - <strong>Registration incomplete until paid</strong> - Payment options below</label>
+                                    <label for="reg-pm" class="form-label">Payment Method Options Below</label>
                                     <select class="form-select" name="reg-pm" id="reg-pm" required>
                                         <option selected disabled value="">Choose...</option>
                                         <option value="venmo">Venmo</option>
@@ -531,7 +531,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-12">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div id="reCaptcha-warning">
-                                <strong>Note: The form will reset if unchecked.</strong>
+                                <strong>Note</strong>: The form will reset if unchecked.
                             </div>
                         </div>
 
@@ -591,7 +591,7 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Download the Registration Form</a></h3>
                             <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                             </p>
-                            <p>MONTEREY BAY AREA ROUNDUP<br>
+                            <p>Monterey Bay Area Round-Up<br>
                                 Att: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
