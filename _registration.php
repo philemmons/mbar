@@ -221,7 +221,7 @@ include_once 'header-bottom.inc'
 
                         <fieldset>
                             <legend>Personal Information</legend>
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-md-4">
                                     <label for="reg-fn" class="form-label">First Name *</label>
                                     <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc'
 
                         <fieldset>
                             <legend>Recovery Information</legend>
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-md-4">
                                     <label for="reg-fs" class="form-label">Fellowship *</label>
                                     <select class="form-select" name="reg-fs" id="reg-fs" required>
@@ -378,7 +378,7 @@ include_once 'header-bottom.inc'
 
                         <fieldset>
                             <legend>Registration and Activities</legend>
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-lg-5">
                                     <p class="h5">REGISTRATION *</p>
                                     <div class="form-check">
@@ -499,7 +499,7 @@ include_once 'header-bottom.inc'
 
                         <fieldset>
                             <legend>Terms of Services</legend>
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-md-6">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
@@ -560,7 +560,7 @@ include_once 'header-bottom.inc'
                         <h3 class="fw-bold text-dark px-3 px-md-0">Payment Methods
                         </h3>
                         <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
