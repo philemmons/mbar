@@ -526,6 +526,38 @@ include_once 'header-bottom.inc'
         </div>
     </div>
 
+
+    <!-- Part Payment -->
+    <article aria-label="Payment method">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div id="payment-now"></div>
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
+                        <h3 class="fw-bold text-dark px-3 px-md-0">Payment Methods
+                        </h3>
+                        <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
+                        <div class="row">
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
+                            </div>
+                            <p>The links below provide payment instructions.</p>
+                            <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
+                            <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
     <!-- Part Two -->
     <article aria-label="PDF registration form">
         <div class=" container shadow-wrap">

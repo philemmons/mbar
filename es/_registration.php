@@ -526,6 +526,38 @@ include_once 'header-bottom.inc'
         </div>
     </div>
 
+
+    <!-- Part Payment -->
+    <article aria-label="Método de pago">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div id="payment-now"></div>
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
+                        <h3 class="fw-bold text-dark px-3 px-md-0">Métodos de Pago
+                        </h3>
+                        <p>Por favor agregue su nombre de registro en el pago. Si paga por más de una persona, agregue sus nombres en la sección de notas.</p>
+                        <div class="row">
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
+                            </div>
+                            <p>Los enlaces siguientes proporcionan instrucciones de pago.</p>
+                            <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Enlace directo a Venmo">¿Cómo puedo enviar un pago o solicitar dinero con Venmo?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" title="Enlace directo a PayPal">¿Cómo envío pagos con PayPal?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
     <!-- Part Two -->
     <article aria-label="Formulario de registro en PDF">
         <div class="container shadow-wrap">
