@@ -435,6 +435,11 @@ legend {
   margin: 0.5rem 0rem;
 }
 
+::placeholder{
+  opacity: 0.5;
+  font-style: italic;
+}
+
 /**** admin ****/
 
 #oneBtn {

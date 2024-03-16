@@ -222,7 +222,7 @@ include_once 'header-bottom.inc'
                         <legend>Personal Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fn" class="form-label">First Name *</label>
+                                <label for="reg-fn" class="form-label">First Name (Required)</label>
                                 <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                                 <div class="invalid-feedback">
                                     Required - Please enter your first name.
@@ -230,7 +230,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-ln" class="form-label">Last Name or Initial *</label>
+                                <label for="reg-ln" class="form-label">Last Name or Initial (Required)</label>
                                 <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
                                 <div class="invalid-feedback">
                                     Required - Please enter your last name or initial.
@@ -238,15 +238,15 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-" class="form-label">Last Name or Initial *</label>
-                                <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
+                                <label for="reg-bn" class="form-label">Name to Appear on Badge</label>
+                                <input type="text" class="form-control" name="reg-bn" id="reg-bn">
                                 <div class="invalid-feedback">
-                                    Required - Please enter your last name or initial.
+                                    Optional - Please enter your name to appear on badge.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-em" class="form-label">Email *</label>
+                                <label for="reg-em" class="form-label">Email (Required)</label>
                                 <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                                 <div class="invalid-feedback">
                                     Required - Please enter your email.
@@ -352,7 +352,7 @@ include_once 'header-bottom.inc'
                         <legend>Fellowship Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fs" class="form-label">Program *</label>
+                                <label for="reg-fs" class="form-label">Program (Required)</label>
                                 <select class="form-select" name="reg-fs" id="reg-fs" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="A.A.">A.A.</option>
@@ -379,7 +379,7 @@ include_once 'header-bottom.inc'
                         <legend>Registration and Activities</legend>
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
-                                <p class="h5">Registration</p>
+                                <p class="h5">Registration (Required)</p>
                                 <div class="form-check">
                                     <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
                                     <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
@@ -503,7 +503,7 @@ include_once 'header-bottom.inc'
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
                                     <label class="form-check-label" for="invalidCheck">
-                                        I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>
+                                        I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
                                     </label>
                                     <div class="invalid-feedback">
                                         Required - You must agree before submitting.
@@ -512,7 +512,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-pm" class="form-label">Payment Method Options Below</label>
+                                <label for="reg-pm" class="form-label">Payment Method Options Below(Required)</label>
                                 <select class="form-select" name="reg-pm" id="reg-pm" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="venmo">Venmo</option>
@@ -559,7 +559,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                     <h3 class="card-title mb-3">Payment Methods
                         </h3>
-                        <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
+                        <p>Please add your registration name in the payment. If you are paying for more than one person, you must add their names in the note section.</p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
