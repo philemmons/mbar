@@ -71,7 +71,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
-                    <h3 class="card-title text-center mb-3"><a href="#register-now">Registration MBAR 2024</a></h3>
+                    <h3 class="card-title text-center mb-3">Registration 2024</h3>
                     <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.</p>
                 </div>
             </div>
@@ -218,7 +218,7 @@ include_once 'header-bottom.inc'
 
                 <form action="_registration.php" method="POST" class="needs-validation" id="myForm" novalidate>
 
-                    <fieldset class="text-bg-light">
+                    <fieldset class="text-bg-light pb-3 mb-3">
                         <legend>Personal Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
@@ -348,7 +348,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </fieldset>
 
-                    <fieldset class="text-bg-light">
+                    <fieldset class="text-bg-light pb-3 mb-3">
                         <legend>Fellowship Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
@@ -375,7 +375,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </fieldset>
 
-                    <fieldset class="text-bg-light">
+                    <fieldset class="text-bg-light pb-3 mb-3">
                         <legend>Registration and Activities</legend>
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
@@ -496,7 +496,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </fieldset>
 
-                    <fieldset class="text-bg-light">
+                    <fieldset class="text-bg-light pb-3 mb-3">
                         <legend>Terms of Services</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-6">
