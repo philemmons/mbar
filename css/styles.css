@@ -436,7 +436,7 @@ legend {
 }
 
 ::placeholder{
-  opacity: 0.3;
+  opacity: 0.25;
   font-style: italic;
 }
 
