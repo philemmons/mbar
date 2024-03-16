@@ -71,8 +71,8 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center mb-5">
             <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                 <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
-                    <h3 class="card-title text-center mb-3"><a href="#register-now">Welcome to MBAR 2024</a></h3>
-                    <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 - Sept 1, 2024.</p>
+                    <h3 class="card-title text-center mb-3"><a href="#register-now">Registration MBAR 2024</a></h3>
+                    <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.</p>
                 </div>
             </div>
 
@@ -217,7 +217,7 @@ include_once 'header-bottom.inc'
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                 <div class="p-3" title="We are willing to listen.">
 
-                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="_registration.php" method="POST" class="needs-validation" id="myForm" novalidate>
 
                         <fieldset class= "text-bg-light">
                             <legend>Personal Information</legend>
