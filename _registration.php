@@ -440,7 +440,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am to 9:30am) - $10</label>
+                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
                                 <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
