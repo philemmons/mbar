@@ -527,19 +527,21 @@ include_once 'header-bottom.inc'
                         </div>
                     </fieldset>
 
-                    <div class="col-md-12">
-                        <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
-                        <div id="reCaptcha-warning">
-                            <strong>Note</strong>: The form will reset if unchecked.
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
+                            <div id="reCaptcha-warning">
+                                <strong>Note</strong>: The form will reset if unchecked.
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 text-center">
-                        <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
-                    </div>
+                        <div class="col-md-6 text-center">
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                        </div>
 
-                    <div class="col-md-6 text-center">
-                        <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                        <div class="col-md-6 text-center">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                        </div>
                     </div>
                 </form>
 
