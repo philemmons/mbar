@@ -536,11 +536,11 @@ include_once 'header-bottom.inc'
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                            <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit Form</button>
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary btn-lg" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
                     </div>
                 </form>
@@ -588,7 +588,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Download pdf form">
-                            <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Download the Registration Form</a></h3>
+                            <h3 class="card-title mb-3">Download the Registration Form</h3>
                             <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                             </p>
                             <p>Monterey Bay Area Round-Up<br>
