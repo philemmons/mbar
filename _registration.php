@@ -215,9 +215,9 @@ include_once 'header-bottom.inc'
             <?php } ?>
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                <div class="p-3" title="We are willing to listen.">
+                
 
-                    <form action="_registration.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                    <form action="_registration.php" method="POST" class="needs-validation" id="myForm" novalidate>
 
                         <fieldset class= "text-bg-light">
                             <legend>Personal Information</legend>
@@ -544,7 +544,6 @@ include_once 'header-bottom.inc'
                         </div>
                     </form>
 
-                </div>
             </div>
         </div>
     </div>
