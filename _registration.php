@@ -695,9 +695,9 @@ include_once 'header-bottom.inc'
             // Update live region based on user's choice
             var liveRegion = document.getElementById('aria-live');
             if (confirmed) {
-                liveRegion.textContent = "(The form has been reset)";
+                liveRegion.textContent = "(The Form Has Been Reset)";
             } else {
-                liveRegion.textContent = "(Form reset cancelled)";
+                liveRegion.textContent = "(Reset Form Cancelled)";
             }
 
             return confirmed;
