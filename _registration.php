@@ -221,7 +221,7 @@ include_once 'header-bottom.inc'
 
                     <fieldset class="text-bg-light mb-3">
                         <legend>Personal Information</legend>
-                        <div class="row justify-content-center py-3">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="reg-fn" class="form-label">First Name *</label>
                                 <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc'
 
                     <fieldset class="text-bg-light mb-3">
                         <legend>Fellowship Information</legend>
-                        <div class="row justify-content-center py-3">
+                        <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <label for="reg-fs" class="form-label">Program *</label>
                                 <select class="form-select" name="reg-fs" id="reg-fs" required>
@@ -378,7 +378,7 @@ include_once 'header-bottom.inc'
 
                     <fieldset class="text-bg-light mb-3">
                         <legend>Registration and Activities</legend>
-                        <div class="row justify-content-center py-3">
+                        <div class="row justify-content-center">
                             <div class="col-lg-5">
                                 <p class="h5">Registration</p>
                                 <div class="form-check">
@@ -499,7 +499,7 @@ include_once 'header-bottom.inc'
 
                     <fieldset class="text-bg-light mb-3">
                         <legend>Terms of Services</legend>
-                        <div class="row justify-content-center py-3">
+                        <div class="row justify-content-center">
                             <div class="col-md-6">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
