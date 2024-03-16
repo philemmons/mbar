@@ -130,6 +130,7 @@ include_once 'header-bottom.inc'
                             // Retrieve value from the form input fields
                             $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn'], ENT_QUOTES) : '';
                             $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln'], ENT_QUOTES) : '';
+                            $badgeName = !empty($_POST['reg-bn']) ? htmlspecialchars($_POST['reg-bn'], ENT_QUOTES) : '';
                             $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em'], ENT_QUOTES) : '';
                             $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone'], ENT_QUOTES) : '';
                             $address = !empty($_POST['reg-addr']) ? htmlspecialchars($_POST['reg-addr'], ENT_QUOTES) : '';
@@ -156,6 +157,7 @@ include_once 'header-bottom.inc'
                             $htmlContent = " 
                     <h4>Registration Form - EN</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
+                    <p><b>Name: </b>" . $badgeName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
                     <p><b>Address: </b>" . $address . "</p> 

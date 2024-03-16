@@ -37,6 +37,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             SET 
                 firstname = :firstName,
                 lastname = :lastName,
+                badgename = :badgeName,
                 email = :email,
                 phone = :phone,
                 address = :address,
@@ -54,7 +55,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 helpinghand = :hhc,
                 payment = :pm,
                 total = $total,
-                paid = :paid
+                paid = :paid,
+                verification = :verify
             WHERE id = :reg_id";
 
 
@@ -63,6 +65,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
+    $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['upd-bn'], ENT_QUOTES));
     $nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
     $nPara[':phone'] = strtolower(htmlspecialchars($_POST['upd-phone'], ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['upd-addr'], ENT_QUOTES));
@@ -80,6 +83,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
+    $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -237,7 +241,17 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-5">
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="upd-bn" id="upd-bn" placeholder="Enter BN" value="<?= $regInfo['badgename'] ?>">
+                                <label for="upd-bn" class="form-label">Badge Name</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter badge name.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required>
                                 <label for="upd-em" class="form-label">Email</label>
@@ -292,6 +306,16 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                             <div class="invalid-feedback">
                                 Required - Enter paid amount.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="upd-vc" id="upd-vc" placeholder="Enter VC" value="<?= $regInfo['verification'] ?>">
+                                <label for="upd-vc" class="form-label">Verification</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional - Enter verification code.
                             </div>
                         </div>
 

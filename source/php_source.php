@@ -10,10 +10,11 @@ $dbConn = getDBConnection();
  */
 function regFormData($total)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
+     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
 
      $firstName = isset($_POST['reg-fn']) ? strtolower(htmlspecialchars($_POST['reg-fn'], ENT_QUOTES)) : '';
      $lastName = isset($_POST['reg-ln']) ? strtolower(htmlspecialchars($_POST['reg-ln'], ENT_QUOTES)) : '';
+     $badgeName = isset($_POST['reg-bn']) ? strtolower(htmlspecialchars($_POST['reg-bn'], ENT_QUOTES)) : '';
      $email = isset($_POST['reg-em']) ? strtolower(htmlspecialchars($_POST['reg-em'], ENT_QUOTES)) : '';
      $phone = isset($_POST['reg-phone']) ? strtolower(htmlspecialchars($_POST['reg-phone'], ENT_QUOTES)) : '';
      $address = isset($_POST['reg-addr']) ? strtolower(htmlspecialchars($_POST['reg-addr'], ENT_QUOTES)) : '';
@@ -151,7 +152,7 @@ function getRegData($table)
 
 function saveData($total)
 {
-     global $firstName, $lastName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
+     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
@@ -159,6 +160,7 @@ function saveData($total)
           $sql = "INSERT INTO registration (
                     firstname,
                     lastname,
+                    badgename,
                     email,
                     phone,
                     address,
@@ -178,11 +180,12 @@ function saveData($total)
                     payment,
                     total
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total
                 )";
 
           $nPara[':firstName'] = $firstName;
           $nPara[':lastName'] = $lastName;
+          $nPara[':badgeName'] = $badgeName;
           $nPara[':email'] = $email;
           $nPara[':phone'] = $phone;
           $nPara[':address'] = $address;

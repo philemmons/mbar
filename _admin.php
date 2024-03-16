@@ -83,6 +83,7 @@ function displayRegAdmin($registration)
     echo "<tr>";
     echo "<td>" . $eachReg['firstname'] . "</td>";
     echo "<td>" . $eachReg['lastname'] . "</td>";
+    echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "<td>" . $eachReg['email'] . "</td>";
 
     echo "<td>
@@ -100,6 +101,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['payment'] . "</td>";
     echo "<td>" . $eachReg['total'] . "</td>";
     echo "<td>" . $eachReg['paid'] . "</td>";
+    echo "<td>" . $eachReg['verification'] . "</td>";
     echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $eachReg['result'] . "</td>";
     echo "<td>" . $eachReg['phone'] . "</td>";
@@ -356,12 +358,14 @@ function displayRegAdmin($registration)
               <tr>
                 <th>First</th>
                 <th>Last</th>
+                <th>Badge Name</th>
                 <th>Email</th>
                 <th>Alter</th>
                 <th>Remove</th>
                 <th>Payment</th>
                 <th>Due</th>
                 <th>Paid</th>
+                <th>Verification</th>
                 <th>Help-Hand</th>
                 <th>Date</th>
                 <th>Phone</th>
