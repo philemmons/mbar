@@ -425,6 +425,10 @@ fieldset, legend {
   all: revert;
 }
 
+.form-label {
+  margin: 0.5rem 0rem;
+}
+
 /**** admin ****/
 
 #oneBtn {
