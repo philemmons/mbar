@@ -528,19 +528,19 @@ include_once 'header-bottom.inc'
                     </fieldset>
 
                     <div class="row justify-content-center">
-                        <div class="col-md-12">
+                        <div class="col-md-12 mb-3">
                             <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                             <div id="reCaptcha-warning">
                                 <strong>Note</strong>: The form will reset if unchecked.
                             </div>
                         </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit Form</button>
+                        <div class="col-md-6 text-center mb-3">
+                            <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
                         </div>
 
-                        <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary btn-lg" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                        <div class="col-md-6 text-center mb-3">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
                         </div>
                     </div>
                 </form>
@@ -557,7 +557,7 @@ include_once 'header-bottom.inc'
                 <div id="payment-now"></div>
                 <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
-                        <h3 class="fw-bold text-dark px-3 px-md-0">Payment Methods
+                    <h3 class="card-title mb-3">Payment Methods
                         </h3>
                         <p>Please add your registration name in the payment. If you are paying for more than one person, please add their names in the note section.</p>
                         <div class="row justify-content-center">
