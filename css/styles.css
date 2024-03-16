@@ -421,8 +421,14 @@ ul.level-1>li.ms-5 {
 
 /* https://stackoverflow.com/questions/70536735/override-bootstrap-5-fieldset-style */
 
-fieldset, legend {
+fieldset {
   all: revert;
+}
+
+legend {
+  float: none;
+  width: unset ;
+  padding: unset;
 }
 
 .form-label {
