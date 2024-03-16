@@ -227,7 +227,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-fn" class="form-label">First Name (Required)</label>
                                 <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                                 <div class="invalid-feedback">
-                                    Required - Please enter your first name.
+                                    Required, please enter your first name.
                                 </div>
                             </div>
 
@@ -235,7 +235,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-ln" class="form-label">Last Name or Initial (Required)</label>
                                 <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
                                 <div class="invalid-feedback">
-                                    Required - Please enter your last name or initial.
+                                    Required, please enter your last name or initial.
                                 </div>
                             </div>
 
@@ -243,7 +243,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-bn" class="form-label">Name to Appear on Badge</label>
                                 <input type="text" class="form-control" name="reg-bn" id="reg-bn">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter your name to appear on badge.
+                                    Optional, please enter your name to appear on badge.
                                 </div>
                             </div>
 
@@ -251,7 +251,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-em" class="form-label">Email (Required)</label>
                                 <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                                 <div class="invalid-feedback">
-                                    Required - Please enter your email.
+                                    Required, please enter your email.
                                 </div>
                             </div>
 
@@ -259,7 +259,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-phone" class="form-label">Phone with Area Code</label>
                                 <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter a valid phone number.
+                                    Optional, please enter a valid phone number.
                                 </div>
                             </div>
 
@@ -267,7 +267,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-addr" class="form-label">Mailing Address</label>
                                 <input type="text" class="form-control" name="reg-addr" id="reg-addr">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter your address.
+                                    Optional, please enter your address.
                                 </div>
                             </div>
 
@@ -275,7 +275,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-city" class="form-label">City</label>
                                 <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter a city.
+                                    Optional, please enter a city.
                                 </div>
                             </div>
 
@@ -336,7 +336,7 @@ include_once 'header-bottom.inc'
                                     <option value="WY">Wyoming</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Optional - Please select your state.
+                                    Optional, please select your state.
                                 </div>
                             </div>
 
@@ -344,7 +344,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-zc" class="form-label">Zip Code</label>
                                 <input type="text" class="form-control" name="reg-zc" id="reg-zc">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter your zip code.
+                                    Optional, please enter your zip code.
                                 </div>
                             </div>
                         </div>
@@ -363,7 +363,7 @@ include_once 'header-bottom.inc'
                                     <option value="Other">Other</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please enter your Fellowship
+                                    Required, please enter your Fellowship
                                 </div>
                             </div>
 
@@ -371,7 +371,7 @@ include_once 'header-bottom.inc'
                                 <label for="reg-hg" class="form-label">Homegroup(s)</label>
                                 <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                                 <div class="invalid-feedback">
-                                    Optional - Please enter your Homegroup(s)
+                                    Optional, please enter your Homegroup(s)
                                 </div>
                             </div>
                         </div>
@@ -390,7 +390,7 @@ include_once 'header-bottom.inc'
                                     <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value="after" onChange="optionSND(this)" required>
                                     <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
                                     <div class="invalid-feedback">
-                                        Required - Please check one.
+                                        Required, please check one.
                                     </div>
                                 </div>
                                 <ul>
@@ -399,7 +399,7 @@ include_once 'header-bottom.inc'
                                 </ul>
                             </div>
 
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 pb-3">
                                 <p class="h5">Pre-Registration for meals is currently required.</p>
                                 <ul>
                                     <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -410,7 +410,7 @@ include_once 'header-bottom.inc'
                                     </li>
                                 </ul>
 
-                                <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social)* - $35 </label>
+                                <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
                                 <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -418,7 +418,7 @@ include_once 'header-bottom.inc'
                                     <option value="undecided" disabled>Still deciding</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please select one.
+                                    Required, please select one.
                                 </div>
                             </div>
 
@@ -427,7 +427,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm)* - $25 </label>
+                                <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
                                 <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -435,12 +435,12 @@ include_once 'header-bottom.inc'
                                     <option value="undecided">Still deciding</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please select one.
+                                    Required, please select one.
                                 </div>
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am - 9:30am)* - $10</label>
+                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday Morning @ 8:00am to 9:30am) - $10</label>
                                 <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -448,12 +448,12 @@ include_once 'header-bottom.inc'
                                     <option value="undecided">Still deciding</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please select one.
+                                    Required, please select one.
                                 </div>
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm - 4:00pm)* - $5</label>
+                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
                                 <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -461,7 +461,7 @@ include_once 'header-bottom.inc'
                                     <option value="undecided">Still deciding</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please select one.
+                                    Required, please select one.
                                 </div>
                             </div>
 
@@ -474,11 +474,11 @@ include_once 'header-bottom.inc'
                                     <option value="undecided">Still deciding</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Optional - Please select one.
+                                    Optional, please select one.
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="reg-hhc" class="form-label">Helping Hand Contribution - Please consider making a contribution to ensure all who desire to attend are able.</label>
+                                <label for="reg-hhc" class="form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
                                 <select class="form-select" name="reg-hhc" id="reg-hhc">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="5">$5</option>
@@ -492,7 +492,7 @@ include_once 'header-bottom.inc'
                                     <option value="no thank you">No thank you</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Optional - Please enter your Contribution.
+                                    Optional, please enter your Contribution.
                                 </div>
                             </div>
                         </div>
@@ -523,7 +523,7 @@ include_once 'header-bottom.inc'
                                     <option value="paypal">PayPal</option>
                                 </select>
                                 <div class="invalid-feedback">
-                                    Required - Please select one.
+                                    Required, please select one.
                                 </div>
                             </div>
                         </div>
