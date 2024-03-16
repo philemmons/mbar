@@ -216,7 +216,7 @@ include_once 'header-bottom.inc'
 
             <div class="col-xl-10 col-lg-10 col-md-12 py-4">
 
-                <form action="_registration.php" method="POST" class="needs-validation" id="myForm" novalidate>
+                <form action="_registration.php" method="POST" class="needs-validation" id="myForm" aria-label="Registration Form" novalidate>
 
                     <fieldset class="text-bg-light pb-3 mb-3">
                         <legend>Personal Information</legend>
@@ -540,7 +540,7 @@ include_once 'header-bottom.inc'
                         </div>
 
                         <div class="col-md-6 text-center mb-3">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button>
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();">Reset Form</button><span id="aria-live" role="alert" aria-live="assertive" aria-atomic="true"></span>
                         </div>
                     </div>
                 </form>
@@ -557,7 +557,7 @@ include_once 'header-bottom.inc'
                 <div id="payment-now"></div>
                 <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
-                    <h3 class="card-title mb-3">Payment Methods
+                        <h3 class="card-title mb-3">Payment Methods
                         </h3>
                         <p>Please add your registration name in the payment. If you are paying for more than one person, you must add their names in the note section.</p>
                         <div class="row justify-content-center">
@@ -683,8 +683,22 @@ include_once 'header-bottom.inc'
         })()
     </script>
     <script>
+        // Function to display confirmation message and update live region
         function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
+            // Display confirmation dialog
+            var confirmMessage = "Are you sure you want to reset all fields?"
+            var confirmed = window.confirm(confirmMessage);
+
+            // Update live region based on user's choice
+            var liveRegion = document.getElementById('aria-live');
+            if (confirmed) {
+                liveRegion.textContent = "The form has been reset.";
+            } else {
+                liveRegion.textContent = "Form reset cancelled.";
+            }
+
+            return confirmed;
+
         }
     </script>
     <script>
