@@ -150,6 +150,16 @@ function getRegData($table)
      return preExeFetNOPARA($sql);
 }
 
+/*
+*@input: Name of the database table - registration
+*@output: Name to appear, homegroup and fellowship of the user by ascending badge name.
+*/
+function getBadgeData($table)
+{
+     $sql = "SELECT  firstname, lastname, badgename, homegroup, fellowship FROM " . $table . " ORDER BY badgename ASC";
+     return preExeFetNOPARA($sql);
+}
+
 function saveData($total)
 {
      global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
