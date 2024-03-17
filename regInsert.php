@@ -319,10 +319,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <input type="text" class="form-control" name="ins-vc" id="ins-vc" placeholder="TBD">
-                            <label for="ins-vc" class="form-label">Verification</label>
+                            <label for="ins-vc" class="form-label">Trans ID</label>
                         </div>
                         <div class="invalid-feedback">
-                            Optional - Enter verification code.
+                            Optional - Enter transaction ID.
                         </div>
                     </div>
 

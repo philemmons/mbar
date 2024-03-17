@@ -364,7 +364,7 @@ function displayRegAdmin($registration)
                 <th>Payment</th>
                 <th>Due</th>
                 <th>Paid</th>
-                <th>Verification</th>
+                <th>Tran ID</th>
                 <th>Help-Hand</th>
                 <th>Date</th>
                 <th>Phone</th>
