@@ -20,7 +20,7 @@ if (count($regArray) > 0) {
     $f = fopen('php://memory', 'w');
 
     // Set column headers 
-    $fields = array('First', 'Last', 'Badge Name', 'Home Group', 'Fellowship');
+    $fields = array('Badge Name', 'Home Group', 'Fellowship');
 
     fputcsv($f, $fields, $delimiter);
 
@@ -28,11 +28,9 @@ if (count($regArray) > 0) {
     foreach ($regArray as $eachReg) {
 
         $lineData = array(
-            $eachReg['firstname'],
-            $eachReg['lastname'],
-            $eachReg['badgename'],
-            $eachReg['homegroup'],
-            $eachReg['fellowship']
+            $eachReg['BName'],
+            $eachReg['HGroup'],
+            $eachReg['FShip']
         );
 
         fputcsv($f, $lineData, $delimiter);

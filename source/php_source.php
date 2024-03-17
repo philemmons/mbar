@@ -156,7 +156,7 @@ function getRegData($table)
 */
 function getBadgeData($table)
 {
-     $sql = "SELECT CONCAT( UPPER(SUBSTRING(t1.bName, 1, 1)), SUBSTRING(bName, 2, LENGTH(t1.bName)) ) AS N, UPPER(t1.homegroup) AS HG, UPPER(t1.fellowship) AS FS 
+     $sql = "SELECT CONCAT( UPPER(SUBSTRING(t1.bName, 1, 1)), SUBSTRING(bName, 2, LENGTH(t1.bName)) ) AS BName, UPPER(t1.homegroup) AS HGroup, UPPER(t1.fellowship) AS FShip 
      FROM ( 
           SELECT IF( badgename IS NULL OR badgename LIKE '', CONCAT( firstname, ' ', UPPER(SUBSTRING(lastname, 1, 1)), '.' ), badgename ) AS bName, homegroup, fellowship 
           FROM " . $table . "
