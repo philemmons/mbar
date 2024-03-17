@@ -358,7 +358,6 @@ function displayRegAdmin($registration)
               <tr>
                 <th>First</th>
                 <th>Last</th>
-                <th>Badge Name</th>
                 <th>Email</th>
                 <th>Alter</th>
                 <th>Remove</th>
@@ -382,6 +381,7 @@ function displayRegAdmin($registration)
                 <th>Ice Cream</th>
                 <th>Dance</th>
                 <th>TOS</th>
+                <th>Badge Name</th>
               </tr>
             </thead>
             <tbody>
