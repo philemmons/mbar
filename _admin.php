@@ -244,7 +244,7 @@ function displayRegAdmin($registration)
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                      <a href="exportData.php" target='_blank' class="btn btn-primary btn-sm">Export All Data as CSV File</a>
+                      <a href="exportData.php" target='_blank' class="btn btn-primary btn-sm">CSV Export All Data</a>
                     </div>
                     <div class="col-sm-3">
                       Attendee's: <?php echo getZeroPara();
@@ -263,7 +263,7 @@ function displayRegAdmin($registration)
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                    <a href="exportBadge.php" target='_blank' class="btn btn-primary btn-sm">Export Badge Data as CSV File</a>
+                    <a href="exportBadge.php" target='_blank' class="btn btn-primary btn-sm">CSV Export Badge Data</a>
                     </div>
                     <div class='col-sm-3'>
                       Amount Due: <?php echo getOnePara('total');
