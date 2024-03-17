@@ -83,7 +83,6 @@ function displayRegAdmin($registration)
     echo "<tr>";
     echo "<td>" . $eachReg['firstname'] . "</td>";
     echo "<td>" . $eachReg['lastname'] . "</td>";
-    echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "<td>" . $eachReg['email'] . "</td>";
 
     echo "<td>
@@ -118,6 +117,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['icecream'] . "</td>";
     echo "<td>" . $eachReg['dance'] . "</td>";
     echo "<td>" . $eachReg['tos'] . "</td>";
+    echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "</tr>";
   }
 }

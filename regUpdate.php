@@ -340,7 +340,15 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
+                        <div class="col-lg-1">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="upd-dt" placeholder="Default" name="upd-dt" value="<?= $regInfo['datetime'] ?>" disabled>
+                                <label for="upd-dt">Date</label>
+                            </div>
+                        </div>
+
                         <hr>
+
                         <div class="col-lg-4">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-addr" id="upd-addr" placeholder="Enter MA" value="<?= $regInfo['address'] ?>">

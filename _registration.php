@@ -157,7 +157,7 @@ include_once 'header-bottom.inc'
                             $htmlContent = " 
                     <h4>Registration Form - EN</h4> 
                     <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
-                    <p><b>Name: </b>" . $badgeName . "</p> 
+                    <p><b>Badge Name: </b>" . $badgeName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
                     <p><b>Phone: </b>" . $phone . "</p> 
                     <p><b>Address: </b>" . $address . "</p> 
