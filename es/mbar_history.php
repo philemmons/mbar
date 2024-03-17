@@ -159,8 +159,8 @@ include_once 'header-bottom.inc'
                                 <h3 class="card-title h6">
                                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados
                                 </h3>
-                                <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
-                                <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p class="card-text"> <a href="https://monterey.bayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p class="card-text"> <a href="https://monterey.bayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </section>
                         </div>
                         <div class="card-footer text-center">

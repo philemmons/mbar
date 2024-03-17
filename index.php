@@ -101,11 +101,11 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
                             </p>
-                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community. 
+                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/es/" class="btn btn-primary" target= "_blank">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://monterey.bayarearoundup.org/es/" class="btn btn-primary" target="_blank">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
                         </div>
                     </div>
                 </div>

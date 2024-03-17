@@ -105,7 +105,7 @@ include_once 'header-bottom.inc'
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://monterey.bayarearoundup.org/" class="btn btn-primary" target="_blank">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
                         </div>
                     </div>
                 </div </div>

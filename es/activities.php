@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Cena de Conozca a los Oradores</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
                                 </p>
@@ -126,7 +126,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Desayuno Resumen</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
                                 </p>
@@ -161,7 +161,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Helado Social</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     ¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
                                 </p>
