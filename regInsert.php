@@ -40,6 +40,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $sql = "INSERT INTO registration (
                 firstname,
                 lastname,
+                badgename,
                 email,
                 phone,
                 address,
@@ -58,9 +59,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 payment,
                 total,
                 paid,
-                tos
+                tos,
+                verification
                 ) VALUES (
-                    :firstName, :lastName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc
                 )";
 
     //echo $sql . '<br>';
@@ -68,6 +70,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['ins-ln'], ENT_QUOTES));
+    $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['ins-bn'], ENT_QUOTES));
     $nPara[':email'] = strtolower(htmlspecialchars($_POST['ins-em'], ENT_QUOTES));
     $nPara[':phone'] = strtolower(htmlspecialchars($_POST['ins-phone'], ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['ins-addr'], ENT_QUOTES));
@@ -85,6 +88,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES));
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
+    $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
 
     // print_r($nPara); die;
 
@@ -244,7 +248,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-bn" id="ins-bn" placeholder="Enter badge name">
+                            <label for="ins-bn" class="form-label">Badge Name</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional - Enter badge name.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
                         <div class="form-floating">
                             <input type="email" class="form-control" name="ins-em" id="ins-em" placeholder="Enter email" required>
                             <label for="ins-em" class="form-label">Email *</label>
@@ -284,7 +298,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" disabled>
+                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" value= "Auto" disabled>
                             <label for="ins-total">Total</label>
                         </div>
                         <div class="invalid-feedback">
@@ -299,6 +313,16 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                         <div class="invalid-feedback">
                             Required - Enter paid amount.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-vc" id="ins-vc" placeholder="TBD">
+                            <label for="ins-vc" class="form-label">Verification</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional - Enter verification code.
                         </div>
                     </div>
 
@@ -323,7 +347,18 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" name="ins-dt" id="ins-dt" placeholder="Automatic" value="Auto" disabled>
+                            <label for="ins-dt">Reg Date</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Date time is automatic
+                        </div>
+                    </div>
+
                     <hr>
+
                     <div class="col-lg-4">
                         <div class="form-floating">
                             <input type="text" class="form-control" name="ins-addr" id="ins-addr" placeholder="Enter mail address">
