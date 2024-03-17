@@ -289,7 +289,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-1">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
                                 <label for="upd-total">Total</label>
@@ -299,7 +299,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-1">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <input type="number" class="form-control" name="upd-paid" id="upd-paid" placeholder="Enter PA" value="<?= $regInfo['paid'] ?>">
                                 <label for="upd-paid">Paid</label>
@@ -319,7 +319,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-1">
+                        <div class="col-lg-2">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-hhc" id="upd-hhc">
                                     <option value="<?= $regInfo['helpinghand'] ?>" selected> <?php echo $regInfo['helpinghand'] ?></option>
