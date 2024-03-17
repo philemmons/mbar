@@ -311,7 +311,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-vc" id="upd-vc" placeholder="Enter VC" value="<?= $regInfo['verification'] ?>">
+                                <input type="text" class="form-control" name="upd-vc" id="upd-vc" placeholder="Enter Code" value="<?= $regInfo['verification'] ?>">
                                 <label for="upd-vc" class="form-label">Verification</label>
                             </div>
                             <div class="invalid-feedback">

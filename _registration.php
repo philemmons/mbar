@@ -224,7 +224,7 @@ include_once 'header-bottom.inc'
                         <legend>Personal Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fn" class="form-label">First Name (Required)</label>
+                                <label for="reg-fn" class="reg-form-label">First Name (Required)</label>
                                 <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your first name.
@@ -232,7 +232,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-ln" class="form-label">Last Name or Initial (Required)</label>
+                                <label for="reg-ln" class="reg-form-label">Last Name or Initial (Required)</label>
                                 <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your last name or initial.
@@ -240,7 +240,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-bn" class="form-label">Name to Appear on Badge</label>
+                                <label for="reg-bn" class="reg-form-label">Name to Appear on Badge</label>
                                 <input type="text" class="form-control" name="reg-bn" id="reg-bn">
                                 <div class="invalid-feedback">
                                     Optional, please enter your name to appear on badge.
@@ -248,7 +248,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-em" class="form-label">Email (Required)</label>
+                                <label for="reg-em" class="reg-form-label">Email (Required)</label>
                                 <input type="email" class="form-control" name="reg-em" id="reg-em" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your email.
@@ -256,7 +256,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-phone" class="form-label">Phone with Area Code</label>
+                                <label for="reg-phone" class="reg-form-label">Phone with Area Code</label>
                                 <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
                                     Optional, please enter a valid phone number.
@@ -264,7 +264,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-12">
-                                <label for="reg-addr" class="form-label">Mailing Address</label>
+                                <label for="reg-addr" class="reg-form-label">Mailing Address</label>
                                 <input type="text" class="form-control" name="reg-addr" id="reg-addr">
                                 <div class="invalid-feedback">
                                     Optional, please enter your address.
@@ -272,7 +272,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-city" class="form-label">City</label>
+                                <label for="reg-city" class="reg-form-label">City</label>
                                 <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
                                 <div class="invalid-feedback">
                                     Optional, please enter a city.
@@ -280,7 +280,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-3">
-                                <label for="reg-state" class="form-label">State</label>
+                                <label for="reg-state" class="reg-form-label">State</label>
                                 <select class="form-select" name="reg-state" id="reg-state">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="AL">Alabama</option>
@@ -341,7 +341,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-3">
-                                <label for="reg-zc" class="form-label">Zip Code</label>
+                                <label for="reg-zc" class="reg-form-label">Zip Code</label>
                                 <input type="text" class="form-control" name="reg-zc" id="reg-zc">
                                 <div class="invalid-feedback">
                                     Optional, please enter your zip code.
@@ -354,7 +354,7 @@ include_once 'header-bottom.inc'
                         <legend>Fellowship Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fs" class="form-label">Program (Required)</label>
+                                <label for="reg-fs" class="reg-form-label">Program (Required)</label>
                                 <select class="form-select" name="reg-fs" id="reg-fs" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="A.A.">A.A.</option>
@@ -368,7 +368,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-8">
-                                <label for="reg-hg" class="form-label">Homegroup(s)</label>
+                                <label for="reg-hg" class="reg-form-label">Homegroup(s)</label>
                                 <input type="text" class="form-control" name="reg-hg" id="reg-hg">
                                 <div class="invalid-feedback">
                                     Optional, please enter your Homegroup(s)
@@ -410,7 +410,7 @@ include_once 'header-bottom.inc'
                                     </li>
                                 </ul>
 
-                                <label for="reg-ebmb" class="form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
+                                <label for="reg-ebmb" class="reg-form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
                                 <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -427,7 +427,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-mtsd" class="form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
+                                <label for="reg-mtsd" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
                                 <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -440,7 +440,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-rucb" class="form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
+                                <label for="reg-rucb" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
                                 <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -453,7 +453,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-ics" class="form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
+                                <label for="reg-ics" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
                                 <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
@@ -466,7 +466,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-6">
-                                <label for="reg-snd" class="form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                                <label for="reg-snd" class="reg-form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                                 <select class="form-select" name="reg-snd" id="reg-snd">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">I'll be wearing my dancing shoes!</option>
@@ -478,7 +478,7 @@ include_once 'header-bottom.inc'
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="reg-hhc" class="form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
+                                <label for="reg-hhc" class="reg-form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
                                 <select class="form-select" name="reg-hhc" id="reg-hhc">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="5">$5</option>
@@ -514,7 +514,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-pm" class="form-label">Payment Method Options Below(Required)</label>
+                                <label for="reg-pm" class="reg-form-label">Payment Method Options Below(Required)</label>
                                 <select class="form-select" name="reg-pm" id="reg-pm" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="venmo">Venmo</option>

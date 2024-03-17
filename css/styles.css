@@ -431,12 +431,12 @@ legend {
   padding: unset;
 }
 
-.form-label {
+.reg-form-label {
   margin: 0.5rem 0rem;
 }
 
 ::placeholder{
-  opacity: 0.25;
+  color: var(--color-13);
   font-style: italic;
 }
 
