@@ -20,7 +20,7 @@ if (count($regArray) > 0) {
     $f = fopen('php://memory', 'w');
 
     // Set column headers 
-    $fields = array('First', 'Last', 'Email', 'Payment', 'Due', 'Paid', 'Date', 'Phone', 'Address', 'City', 'State', 'Zip Code', 'Fellowship', 'Home Group', 'Reg Type', 'EBMB', 'Dinner', 'BreakFast', 'Ice Cream', 'Dance', 'Help-Hand', 'TOS');
+    $fields = array('First', 'Last', 'Badge Name', 'Email', 'Payment', 'Due', 'Paid', 'Date', 'Phone', 'Address', 'City', 'State', 'Zip Code', 'Fellowship', 'Home Group', 'Reg Type', 'EBMB', 'Dinner', 'BreakFast', 'Ice Cream', 'Dance', 'Help-Hand', 'TOS', 'Verification');
 
     fputcsv($f, $fields, $delimiter);
 
@@ -30,6 +30,7 @@ if (count($regArray) > 0) {
         $lineData = array(
             $eachReg['firstname'],
             $eachReg['lastname'],
+            $eachReg['badgename'],
             $eachReg['email'],
             $eachReg['payment'],
             $eachReg['total'],
@@ -49,7 +50,8 @@ if (count($regArray) > 0) {
             $eachReg['icecream'],
             $eachReg['dance'],
             $eachReg['helpinghand'],
-            $eachReg['tos']
+            $eachReg['tos'],
+            $eachReg['verification'],
         );
         fputcsv($f, $lineData, $delimiter);
     }
