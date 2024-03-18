@@ -234,8 +234,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6 text-center">
-                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="Reset Form">Reset Form</button>
-                                <div class="sr-only" id="Reset Form" role="alert" aria-live="assertive" aria-atomic="true">
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
+                                <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
                                     <p>(A pop up will confirm your choices)</p>
                                 </div>
                             </div>
@@ -289,7 +289,7 @@ include_once 'header-bottom.inc'
             var confirmed = window.confirm(confirmMessage);
 
             // Update live region based on user's choice
-            var liveRegion = document.getElementById('aria-live');
+            var liveRegion = document.getElementById('reset');
             if (confirmed) {
                 liveRegion.textContent = "(The Form Has Been Reset)";
             } else {

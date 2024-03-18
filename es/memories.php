@@ -236,8 +236,8 @@ include_once 'header-bottom.inc'
                         </div>
 
                         <div class="col-md-6 text-center">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="Restablecer Formulario">Restablecer Formulario</button>
-                            <div class="sr-only" id="Restablecer Formulario" role="alert" aria-live="assertive" aria-atomic="true">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Restablecer Formulario</button>
+                            <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
                                 <p>(Una ventana emergente confirmará sus elecciones)</p>
                             </div>
                         </div>
@@ -301,6 +301,25 @@ include_once 'header-bottom.inc'
     <script>
         function resetFields() {
             return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
+        }
+    </script>
+    <script>
+        // Function to display confirmation message and update live region
+        function resetFields() {
+            // Display confirmation dialog
+            var confirmMessage = "Are you sure you want to reset all fields?"
+            var confirmed = window.confirm(confirmMessage);
+
+            // Update live region based on user's choice
+            var liveRegion = document.getElementById('reset');
+            if (confirmed) {
+                liveRegion.textContent = "(El formulario ha sido reiniciado)";
+            } else {
+                liveRegion.textContent = "(Restablecer formulario cancelado)";
+            }
+
+            return confirmed;
+
         }
     </script>
 
