@@ -26,7 +26,7 @@ $status = $statusMsg = '';
 
 if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
-    $fPhone = preg_replace('/[^0-9]/', '', $_POST['upd-phone']);
+    $fPhone = preg_replace('/[^0-9]/', '', $_POST['ins-phone']);
 
     $register = !empty($_POST['ins-reg']) ? htmlspecialchars($_POST['ins-reg'], ENT_QUOTES) : '';
     $ebmb = !empty($_POST['ins-ebmb']) ? htmlspecialchars($_POST['ins-ebmb'], ENT_QUOTES) : '';
