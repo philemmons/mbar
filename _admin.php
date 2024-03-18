@@ -80,6 +80,9 @@ function displayTot($tot)
 function displayRegAdmin($registration)
 {
   foreach ($registration as $eachReg) {
+
+    $fPhone = formatPhone($eachReg['phone']);
+
     echo "<tr>";
     echo "<td>" . $eachReg['firstname'] . "</td>";
     echo "<td>" . $eachReg['lastname'] . "</td>";
@@ -103,7 +106,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['verification'] . "</td>";
     echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $eachReg['result'] . "</td>";
-    echo "<td>" . $eachReg['phone'] . "</td>";
+    echo "<td>" . $fPhone . "</td>";
     echo "<td>" . $eachReg['address'] . "</td>";
     echo "<td>" . $eachReg['city'] . "</td>";
     echo "<td>" . $eachReg['state'] . "</td>";

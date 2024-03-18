@@ -24,6 +24,8 @@ if (isset($_POST['logout'])) {
 
 if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" form
 
+    $fPhone = preg_replace('/[^0-9]/', '', $_POST['upd-phone']);
+
     $register = !empty($_POST['upd-reg']) ? htmlspecialchars($_POST['upd-reg'], ENT_QUOTES) : '';
     $ebmb = !empty($_POST['upd-ebmb']) ? htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES) : '';
     $mtsd = !empty($_POST['upd-mtsd']) ? htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES) : '';
@@ -67,7 +69,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
     $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['upd-bn'], ENT_QUOTES));
     $nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
-    $nPara[':phone'] = strtolower(htmlspecialchars($_POST['upd-phone'], ENT_QUOTES));
+    $nPara[':phone'] = strtolower(htmlspecialchars($fPhone, ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['upd-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['upd-city'], ENT_QUOTES));
     $nPara[':state'] = strtolower(htmlspecialchars($_POST['upd-state'], ENT_QUOTES));
@@ -263,7 +265,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= $regInfo['phone'] ?>">
+                                <input type="tel" class="form-control" name="upd-phone" id="upd-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="Enter PH" value="<?= formatPhone($regInfo['phone']); ?>">
                                 <label for="upd-phone" class="form-label">Phone</label>
                             </div>
                             <div class="invalid-feedback">

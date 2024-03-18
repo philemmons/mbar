@@ -26,6 +26,8 @@ $status = $statusMsg = '';
 
 if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
+    $fPhone = preg_replace('/[^0-9]/', '', $_POST['upd-phone']);
+
     $register = !empty($_POST['ins-reg']) ? htmlspecialchars($_POST['ins-reg'], ENT_QUOTES) : '';
     $ebmb = !empty($_POST['ins-ebmb']) ? htmlspecialchars($_POST['ins-ebmb'], ENT_QUOTES) : '';
     $mtsd = !empty($_POST['ins-mtsd']) ? htmlspecialchars($_POST['ins-mtsd'], ENT_QUOTES) : '';
@@ -72,7 +74,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['ins-ln'], ENT_QUOTES));
     $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['ins-bn'], ENT_QUOTES));
     $nPara[':email'] = strtolower(htmlspecialchars($_POST['ins-em'], ENT_QUOTES));
-    $nPara[':phone'] = strtolower(htmlspecialchars($_POST['ins-phone'], ENT_QUOTES));
+    $nPara[':phone'] = strtolower(htmlspecialchars($fPhone, ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['ins-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['ins-city'], ENT_QUOTES));
     $nPara[':state'] = strtolower(htmlspecialchars($_POST['ins-state'], ENT_QUOTES));
