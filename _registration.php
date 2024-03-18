@@ -399,7 +399,7 @@ include_once 'header-bottom.inc'
                                 </ul>
                             </div>
 
-                            <div class="col-lg-7 pb-3">
+                            <div class="col-lg-7 pb-4">
                                 <p class="h5">Pre-Registration for meals is currently required.</p>
                                 <ul>
                                     <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
@@ -452,7 +452,7 @@ include_once 'header-bottom.inc'
                                 </div>
                             </div>
 
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 pb-4">
                                 <label for="reg-ics" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
                                 <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
