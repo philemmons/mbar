@@ -287,14 +287,14 @@ function formatPhone($phoneNumber) {
          $nextThree = substr($phoneNumber, -7, 3);
          $lastFour = substr($phoneNumber, -4, 4);
  
-         $phoneNumber = '+'.$countryCode.' ('.$areaCode.') '.$nextThree.'-'.$lastFour;
+         $phoneNumber = '+'.$countryCode.' ('.$areaCode.')'.$nextThree.'-'.$lastFour;
      }
      else if(strlen($phoneNumber) == 10) {
          $areaCode = substr($phoneNumber, 0, 3);
          $nextThree = substr($phoneNumber, 3, 3);
          $lastFour = substr($phoneNumber, 6, 4);
  
-         $phoneNumber = '('.$areaCode.') '.$nextThree.'-'.$lastFour;
+         $phoneNumber = '('.$areaCode.')'.$nextThree.'-'.$lastFour;
      }
      else if(strlen($phoneNumber) == 7) {
          $nextThree = substr($phoneNumber, 0, 3);
