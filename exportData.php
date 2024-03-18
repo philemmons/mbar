@@ -36,7 +36,7 @@ if (count($regArray) > 0) {
             $eachReg['total'],
             $eachReg['paid'],
             $eachReg['result'],
-            $eachReg['phone'],
+            formatPhone($eachReg['phone']),
             $eachReg['address'],
             $eachReg['city'],
             $eachReg['state'],
