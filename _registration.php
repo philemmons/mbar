@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
 
             // Email settings
             $recipientEmail = getenv('mbar-to-email');
-            $bccEmail = getenv('mbar-bcc-emails');
+            $bccEmails = getenv('mbar-bcc-emails');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
