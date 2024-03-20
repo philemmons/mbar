@@ -1,8 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - Contact Us </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/contact.php" />';
+echo "<br><title>MBAR - Contact Us </title>";
+echo '<br><link rel="canonical" href= "https://monterey.bayarearoundup.org/contact.php" />';
 include_once 'header-bottom.inc'
 ?>
 

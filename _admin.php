@@ -7,7 +7,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 }
 
 include_once 'header-top.inc';
-echo "<title>MBAR - Admin </title>";
+echo "<br><title>MBAR - Admin </title>";
 include_once 'header-bottom.inc';
 include_once 'source/php_source.php';
 
@@ -266,7 +266,7 @@ function displayRegAdmin($registration)
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
-                    <a href="exportBadge.php" target='_blank' class="btn btn-primary btn-sm">CSV Export Badge Data</a>
+                      <a href="exportBadge.php" target='_blank' class="btn btn-primary btn-sm">CSV Export Badge Data</a>
                     </div>
                     <div class='col-sm-3'>
                       Amount Due: <?php echo getOnePara('total');
