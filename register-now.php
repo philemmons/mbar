@@ -2,6 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Registration </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -95,11 +96,11 @@ include_once 'header-bottom.inc'
                         <div class="row">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
-                                <p class= "text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                                <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                             </div>
                             <div class="col-sm-6 py-3">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
-                                <p class= "text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
+                                <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
                             <p>The links below provide payment instructions.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>

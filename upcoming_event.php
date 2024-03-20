@@ -2,6 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Upcoming Events </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -72,7 +73,7 @@ include_once 'header-bottom.inc'
                               <p class="mb-6 h5 text-dark">Check back for various events leading up to the 2024 Conference!</p>
                          </div>
                     </div>
-<!--
+                    <!--
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">

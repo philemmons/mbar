@@ -2,6 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Registration </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -543,8 +544,8 @@ include_once 'header-bottom.inc'
                         </div>
 
                         <div class="col-md-6 text-center mb-3">
-                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset" >Reset Form</button>
-                            <div class= "sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
+                            <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
+                            <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
                                 <p>(A pop up will confirm your choices)</p>
                             </div>
                         </div>

@@ -8,6 +8,7 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 
 include_once 'header-top.inc';
 echo "<title>MBAR - Reg Insert </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/" />';
 include_once 'header-bottom.inc';
 include_once 'source/php_source.php';
 include_once 'source/dbConnection.php';
@@ -300,7 +301,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" value= "Auto" disabled>
+                            <input type="number" class="form-control" name="ins-total" id="ins-total" placeholder="Automatic" value="Auto" disabled>
                             <label for="ins-total">Total</label>
                         </div>
                         <div class="invalid-feedback">
