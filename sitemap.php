@@ -70,15 +70,15 @@ include_once 'header-bottom.inc'
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 					<section aria-label="sitemap-start">
-						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org Homepage</a>
+						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org Homepage</a>
 						</h3>
 					</section>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<h4>Last updated: 2024, March 17
+					<p class="h4">Last updated: 2024, March 17
 						<br>
 						Total pages: 35
-					</h4>
+					</p>
 				</div>
 			</div>
 
@@ -87,102 +87,106 @@ include_once 'header-bottom.inc'
 				<div class="col-xl-10 col-lg-10 col-md-12 py-4 olt-5">
 					<div class="p-3 text-bg-light hero-text-border" title="XML sitemap for monterey.bayarearoundup.org">
 
-						<ul class="level-0 list-group ms-3">
-							<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">/</li>
-							<li class="no-bullet">
+						<ul class="level-0">
+							<li class="lhead">https:/</li>
+							<li>
+								<ul class="level-1">
+									<li class="lhead">/ </li>
+									<li>
+										<ul class="level-2">
+											<li class="lhead">monterey.bayarearoundup.org/ <span class="lcount">19 pages</span></li>
 
-								<ul class="level-1 list-group">
-									<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">https://monterey.bayarearoundup.org/ <span class="lcount">19 pages</span></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/index.php" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/index.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2024.php" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/conference-2024.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/register-now.php" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/register-now.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/activities.php" title="Monterey Bay Area Roundup 2024 | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/activities.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/mbar_history.php" title="Monterey Bay Area Roundup 2024 | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/mbar_history.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/memories.php" title="Monterey Bay Area Roundup 2024 | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/memories.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/our_partner.php" title="Monterey Bay Area Roundup 2024 | Our Partner">Monterey Bay Area Roundup 2024 | Our Partner</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/our_partner.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Our Partner">Monterey Bay Area Roundup 2024 | Our Partner</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/meetings.php" title="Monterey Bay Area Roundup 2024 | Meetings">Monterey Bay Area Roundup 2024 | Meetings</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/meetings.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Meetings">Monterey Bay Area Roundup 2024 | Meetings</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/committees.php" title="Monterey Bay Area Roundup 2024 | Committees">Monterey Bay Area Roundup 2024 | Committees</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/committees.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Committees">Monterey Bay Area Roundup 2024 | Committees</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/upcoming_event.php" title="Monterey Bay Area Roundup 2024 | Upcoming Events">Monterey Bay Area Roundup 2024 | Upcoming Events</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/upcoming_event.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Upcoming Events">Monterey Bay Area Roundup 2024 | Upcoming Events</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/logo_contest.php" title="Monterey Bay Area Roundup 2024 | Logo Contest">Monterey Bay Area Roundup 2024 | Logo Contest</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/logo_contest.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Logo Contest">Monterey Bay Area Roundup 2024 | Logo Contest</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contact.php" title="Monterey Bay Area Roundup 2024 | Contact Us">Monterey Bay Area Roundup 2024 | Contact Us</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/contact.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contact Us">Monterey Bay Area Roundup 2024 | Contact Us</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contributions.php" title="Monterey Bay Area Roundup 2024 | Contributions">Monterey Bay Area Roundup 2024 | Contributions</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/contributions.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Contributions">Monterey Bay Area Roundup 2024 | Contributions</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2022.php" title="Monterey Bay Area Roundup 2024 | 2022 Conference">Monterey Bay Area Roundup 2024 | 2022 Conference</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/conference-2022.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | 2022 Conference">Monterey Bay Area Roundup 2024 | 2022 Conference</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/accessibility.php" title="Monterey Bay Area Roundup 2024 | Accessibility">Monterey Bay Area Roundup 2024 | Accessibility</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/accessibility.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Accessibility">Monterey Bay Area Roundup 2024 | Accessibility</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/privacy-policy.php" title="Monterey Bay Area Roundup 2024 | Privacy Policy and Terms">Monterey Bay Area Roundup 2024 | Privacy Policy and Terms</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/privacy-policy.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Privacy Policy and Terms">Monterey Bay Area Roundup 2024 | Privacy Policy and Terms</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/sitemap.php" title="Monterey Bay Area Roundup 2024 | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/sitemap.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2019.php" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
 
-									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
+											<li>
+												<ul class="level-3">
 
-									<li class="no-bullet">
-										<ul class="level-2 list-group">
+													<li class="lhead">audio-transcript/ </li>
+													<li>
+														<ul class="level-4">
 
-											<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">audio-transcript/ </li>
-											<li class="no-bullet">
-												<ul class="level-3 list-group">
+															<li class="lhead">2017/ <span class="lcount">1 pages</span></li>
 
-													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2017/ <span class="lcount">1 pages</span></li>
+															<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/audio-transcript/2017/Paul-O-2017.txt" title="audio-transcript/2017/Paul-O-2017.txt">audio-transcript/2017/Paul-O-2017.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2017/Paul-O-2017.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2017/Paul-O-2017.txt">audio-transcript/2017/Paul-O-2017.txt</a></li>
+														</ul>
+														<ul class="level-4">
 
-												</ul>
-												<ul class="level-3 list-group">
+															<li class="lhead">2019/ <span class="lcount">9 pages</span></li>
 
-													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2019/ <span class="lcount">9 pages</span></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Teresa-J-2019.txt" title="audio-transcript/2019/Teresa-J-2019.txt">audio-transcript/2019/Teresa-J-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Teresa-J-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Teresa-J-2019.txt">audio-transcript/2019/Teresa-J-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Harry-H-2019.txt" title="audio-transcript/2019/Harry-H-2019.txt">audio-transcript/2019/Harry-H-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Harry-H-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Harry-H-2019.txt">audio-transcript/2019/Harry-H-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Jane-H-2019.txt" title="audio-transcript/2019/Al-Anon-Jane-H-2019.txt">audio-transcript/2019/Al-Anon-Jane-H-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Jane-H-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Al-Anon-Jane-H-2019.txt">audio-transcript/2019/Al-Anon-Jane-H-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt" title="audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt">audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt">audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt" title="audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt">audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt">audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt" title="audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt">audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt">audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Charlie-H-2019.txt" title="audio-transcript/2019/Charlie-H-2019.txt">audio-transcript/2019/Charlie-H-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Charlie-H-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Charlie-H-2019.txt">audio-transcript/2019/Charlie-H-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Louise-M-2019.txt" title="audio-transcript/2019/Al-Anon-Louise-M-2019.txt">audio-transcript/2019/Al-Anon-Louise-M-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Louise-M-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Al-Anon-Louise-M-2019.txt">audio-transcript/2019/Al-Anon-Louise-M-2019.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Pat-B-2019.txt" title="audio-transcript/2019/Pat-B-2019.txt">audio-transcript/2019/Pat-B-2019.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Pat-B-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Pat-B-2019.txt">audio-transcript/2019/Pat-B-2019.txt</a></li>
+														</ul>
+														<ul class="level-4">
 
-												</ul>
-												<ul class="level-3 list-group">
+															<li class="lhead">2022/ <span class="lcount">6 pages</span></li>
 
-													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2022/ <span class="lcount">6 pages</span></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Arthur-T-2022.txt" title="audio-transcript/2022/Arthur-T-2022.txt">audio-transcript/2022/Arthur-T-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Arthur-T-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Arthur-T-2022.txt">audio-transcript/2022/Arthur-T-2022.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt" title="audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt">audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt">audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Rocky-S-2022.txt" title="audio-transcript/2022/Rocky-S-2022.txt">audio-transcript/2022/Rocky-S-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Rocky-S-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Rocky-S-2022.txt">audio-transcript/2022/Rocky-S-2022.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt" title="audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt">audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt">audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" title="audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt">audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt">audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt</a></li>
+															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Chris-T-2022.txt" title="audio-transcript/2022/Chris-T-2022.txt">audio-transcript/2022/Chris-T-2022.txt</a></li>
 
-													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Chris-T-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Chris-T-2022.txt">audio-transcript/2022/Chris-T-2022.txt</a></li>
-
+														</ul>
+													</li>
 												</ul>
 											</li>
 										</ul>
