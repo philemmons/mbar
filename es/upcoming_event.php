@@ -68,7 +68,7 @@ include_once 'header-bottom.inc'
      <article aria-label="Evento actual">
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
-                    <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                    <div class="col-xl-8 col-lg-8 col-md-10 p4-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
                          </div>
