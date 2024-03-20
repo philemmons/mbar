@@ -8,8 +8,8 @@ if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'
 
 include_once 'header-top.inc';
 echo "<title>MBAR - Reg Update </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/" />';
 include_once 'header-bottom.inc';
+
 include_once 'source/php_source.php';
 include_once 'source/dbConnection.php';
 
