@@ -387,7 +387,9 @@ audio {
   margin: .15rem;
 }
 
-ul.level-1>li.ms-5 {
+ul.level-1>li.ms-5,
+ul.level-2>li.ms-5,
+ul.level-3>li.ms-5 {
   border-radius: 1rem 3rem !important;
   margin: .15rem;
 }

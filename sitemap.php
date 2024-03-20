@@ -135,18 +135,18 @@ include_once 'header-bottom.inc'
 									<li>
 										<ul class="level-2">
 
-											<li class="lhead">audio-transcript/ </li>
+											<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">audio-transcript/ </li>
 											<li>
 												<ul class="level-3">
 
-													<li class="lhead">2017/ <span class="lcount">1 pages</span></li>
+													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2017/ <span class="lcount">1 pages</span></li>
 
 													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2017/Paul-O-2017.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2017/Paul-O-2017.txt">audio-transcript/2017/Paul-O-2017.txt</a></li>
 
 												</ul>
 												<ul class="level-3">
 
-													<li class="lhead">2019/ <span class="lcount">9 pages</span></li>
+													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2019/ <span class="lcount">9 pages</span></li>
 
 													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Teresa-J-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Teresa-J-2019.txt">audio-transcript/2019/Teresa-J-2019.txt</a></li>
 
@@ -169,7 +169,7 @@ include_once 'header-bottom.inc'
 												</ul>
 												<ul class="level-3">
 
-													<li class="lhead">2022/ <span class="lcount">6 pages</span></li>
+													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2022/ <span class="lcount">6 pages</span></li>
 
 													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Arthur-T-2022.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2022/Arthur-T-2022.txt">audio-transcript/2022/Arthur-T-2022.txt</a></li>
 
