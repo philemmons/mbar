@@ -133,7 +133,7 @@ include_once 'header-bottom.inc'
 									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
 
 									<li>
-										<ul class="level-2">
+										<ul class="level-2 list-group">
 
 											<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">audio-transcript/ </li>
 											<li>
@@ -144,7 +144,7 @@ include_once 'header-bottom.inc'
 													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2017/Paul-O-2017.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2017/Paul-O-2017.txt">audio-transcript/2017/Paul-O-2017.txt</a></li>
 
 												</ul>
-												<ul class="level-3">
+												<ul class="level-3 list-group">
 
 													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2019/ <span class="lcount">9 pages</span></li>
 
@@ -167,7 +167,7 @@ include_once 'header-bottom.inc'
 													<li class="ms-5"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Pat-B-2019.txt" class="list-group-item list-group-item-action list-group-item-info" title="audio-transcript/2019/Pat-B-2019.txt">audio-transcript/2019/Pat-B-2019.txt</a></li>
 
 												</ul>
-												<ul class="level-3">
+												<ul class="level-3 list-group">
 
 													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2022/ <span class="lcount">6 pages</span></li>
 
