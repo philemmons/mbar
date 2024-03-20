@@ -59,7 +59,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">La Pre-Inscripción está Activa</span>
                     </h2>
-                    <p class="mb-6 h2 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
+                    <p class="mb-6 h3 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
     <article aria-label="tarjetas de información">
         <div class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-10 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
@@ -155,7 +155,7 @@ include_once 'header-bottom.inc'
                 </div>
 
                 <div class=" row justify-content-center mb-5">
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                         <div class="card h-100 shadow-wrap">
                             <div class="card-body">
                                 <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comités
@@ -168,7 +168,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                         <div class="card h-100 shadow-wrap">
                             <div class="card-body">
                                 <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
@@ -181,7 +181,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="col-lg-10 mb-3 mb-lg-0 px-4">
                         <div class="card h-100 shadow-wrap">
                             <div class="card-body">
                                 <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas

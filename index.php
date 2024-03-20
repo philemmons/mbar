@@ -59,7 +59,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h2>
-                    <p class="mb-6 h2 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
+                    <p class="mb-6 h3 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
     <article aria-label="information cards">
         <div class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-10 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
@@ -156,7 +156,7 @@ include_once 'header-bottom.inc'
             </div>
 
             <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
@@ -169,7 +169,7 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
@@ -182,7 +182,7 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
