@@ -73,12 +73,13 @@ include_once 'header-bottom.inc'
                               <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
                          </div>
                     </div>
-
+<!--
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la reunión compartida y de oradores de San Patricio">
                          </div>
                     </div>
+-->
                </div>
           </div>
      </article>
