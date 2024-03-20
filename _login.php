@@ -120,7 +120,7 @@ if (isset($_POST['logout'])) {
           </h3>
           <div class="d-grid col-sm-8 mx-auto p-2">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
             <?php
             if (isset($_POST['login'])) {
               goMain();
