@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 					<section aria-label="sitemap-start">
-						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org Homepage</a>
+						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org<br>Homepage</a>
 						</h3>
 					</section>
 				</div>
