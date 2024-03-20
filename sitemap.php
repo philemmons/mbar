@@ -132,12 +132,12 @@ include_once 'header-bottom.inc'
 
 									<li class="ms-5"><a href="https://monterey.bayarearoundup.org/conference-2019.php" class="list-group-item list-group-item-action list-group-item-info" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
 
-									<li>
+									<li class="no-bullet">
 										<ul class="level-2 list-group">
 
 											<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">audio-transcript/ </li>
-											<li>
-												<ul class="level-3">
+											<li class="no-bullet">
+												<ul class="level-3 list-group">
 
 													<li class="lhead no-bullet list-group-item list-group-item-action list-group-item-dark">2017/ <span class="lcount">1 pages</span></li>
 
