@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
 
             // Email settings
             $recipientEmail = getenv('mbar-to-email');
-            $bccEmails = getenv('mbar-bcc-emails');
+            $bccEmail = getenv('mbar-bcc-email');
 
             // If the form is submitted 
             $postData = $statusMsg = '';
@@ -185,7 +185,7 @@ include_once 'header-bottom.inc'
                             // More headers 
                             $headers .= 'From: MBAR Registration Chair<' . $recipientEmail . '>' . "\r\n";
 
-                            $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmails . "\r\n";
+                            $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
                             // Send email 
                             mail($to, $subject, $htmlContent, $headers);
