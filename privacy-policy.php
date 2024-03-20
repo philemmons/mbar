@@ -1,8 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<br><title>MBAR - Privacy Policies and Terms </title>";
-echo '<br><link rel="canonical" href= "https://monterey.bayarearoundup.org/privacy-policy.php" />';
+echo "<title>MBAR - Privacy Policies and Terms </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/privacy-policy.php" />';
 include_once 'header-bottom.inc'
 ?>
 
