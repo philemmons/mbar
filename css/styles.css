@@ -388,30 +388,31 @@ ul[class^="level-"] {
   list-style: none;
 }
 
-ul[class^="level-"]>.lhead
- {
+ul[class^="level-"]>.lhead {
   background: #f0f0f0;
   border-radius: 1rem 3rem !important;
   margin: 0.5rem;
   padding: 0.5rem 1rem;
 }
 
-li ul[class^="level-"]{
-margin-left: .5rem;
-}
-
-.lcount {
-padding: 0px 10px;
+li ul[class^="level-"] {
+  margin-left: .5rem;
 }
 
 .lpage {
-padding: 5px;
+  background: #f0f0f0;
+  border-radius: 1rem 3rem !important;
+  padding: 0.5rem 1 rem;
+  margin: 0.5rem;
+}
+
+.lcount {
+  padding: 0px 10px;
 }
 
 .last-page {
-border: none;
+  border: none;
 }
-
 
 #sitemap-footer {
   padding: 1.5rem;
@@ -444,7 +445,7 @@ fieldset {
 
 legend {
   float: none;
-  width: unset ;
+  width: unset;
   padding: unset;
 }
 
@@ -452,7 +453,7 @@ legend {
   margin: 0.5rem 0rem;
 }
 
-::placeholder{
+::placeholder {
   color: var(--color-13);
   font-style: italic;
 }
