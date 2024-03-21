@@ -136,11 +136,11 @@ include_once 'header-bottom.inc'
                             </div>
                             <button class="btn btn-primary btn-sm mt-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previo</span>
+                                <span class="sr-only">Previo</span>
                             </button>
                             <button class="btn btn-primary btn-sm mt-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Próximo</span>
+                                <span class="sr-only">Próximo</span>
                             </button>
                         </div>
                     </section>
