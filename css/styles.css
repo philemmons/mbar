@@ -15,6 +15,7 @@
   --color-13: #ddeeff;
 
   --color-21:#9eeaf9;
+  --color-22: #0000c3;
 
   --error-color: #ff0019;
   --success-color: #009b00;
@@ -75,6 +76,11 @@ h4,
 h5,
 h6 {
   line-height: 1.5 !important;
+}
+
+a {
+  color: var(--color-22);
+  text-decoration: underline;
 }
 
 /**** header ****/
@@ -300,14 +306,13 @@ nav {
 /**** big book href ****/
 
 .bb-link {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-12);
-  font-weight: bold;
 }
 
 .bb-link:hover,
 .bb-link:focus {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 /**** maps ****/
@@ -408,8 +413,8 @@ li ul[class^="level-"] {
   margin: 0.5rem 3rem;
 }
 
-.lpage:focus,
-.lpage:hover {
+.lpage:focus>a,
+.lpage:hover>a {
   z-index: 1;
   font-weight: bold;
   color: var(--color-5);
