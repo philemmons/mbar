@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Sitemap </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/sitemaps.php" />';
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/sitemap.php" />';
 include_once 'header-bottom.inc'
 ?>
 
