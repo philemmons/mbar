@@ -75,7 +75,7 @@ include_once 'header-bottom.inc'
 					</section>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<p class="h4">Last updated: 2024, March 17
+					<p class="h4 text-black">Last updated: 2024, March 17
 						<br>
 						Total pages: 35
 					</p>
