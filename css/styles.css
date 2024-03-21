@@ -388,8 +388,7 @@ ul[class^="level-"] {
   list-style: none;
 }
 
-ul[class^="level-"]>li,
-li ul[class^="level-"]
+ul[class^="level-"]>li
  {
   background: #f0f0f0;
   border-radius: 1rem 3rem !important;
@@ -397,6 +396,9 @@ li ul[class^="level-"]
   padding: .25rem;
 }
 
+li ul[class^="level-"]{
+margin-left: 20px;
+}
 .lcount {
 padding: 0px 10px;
 }
@@ -425,6 +427,7 @@ border: none;
   /* over lap top */
   margin-top: -5rem;
 }
+
 
 /**** registration form ****/
 
