@@ -378,14 +378,8 @@ audio {
   color: var(--success-color);
 }
 
-/**** sitemap ****/
 
-.lhead {
-  background: #f0f0f0;
-  border-radius: 1rem 3rem !important;
-  margin: .15rem;
-  padding: .25rem
-}
+/**** sitemap ****/
 
 
 ul[class^="level-"] {
@@ -394,16 +388,14 @@ ul[class^="level-"] {
   list-style: none;
 }
 
-ul[class^="level-"]>li
+ul[class^="level-"]>li,
+li ul[class^="level-"]
  {
+  background: #f0f0f0;
   border-radius: 1rem 3rem !important;
-  margin: .15rem;
+  margin: .5rem;
+  padding: .25rem;
 }
-
-li ul[class^="level-"]{
-margin-left: 20px;
-}
-
 
 .lcount {
 padding: 0px 10px;
@@ -432,10 +424,6 @@ border: none;
 .olt-5 {
   /* over lap top */
   margin-top: -5rem;
-}
-
-.no-bullet {
-  list-style-type: none;
 }
 
 /**** registration form ****/
