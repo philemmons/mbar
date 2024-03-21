@@ -527,6 +527,16 @@ legend {
   color: var(--color-7) !important;
 }
 
+.carousel-control-next,
+.carousel-control-prev{
+  opacity: 1.0 !important;
+}
+
+.carousel-control-next:focus, 
+.carousel-control-prev:focus{
+  box-shadow: 0 0 8px 2px var(--color-22);
+}
+
 /**** iframe ****/
 iframe {
   width: 100%;
