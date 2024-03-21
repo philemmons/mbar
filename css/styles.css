@@ -388,17 +388,18 @@ ul[class^="level-"] {
   list-style: none;
 }
 
-ul[class^="level-"]>li
+ul[class^="level-"]>.lhead
  {
   background: #f0f0f0;
   border-radius: 1rem 3rem !important;
-  margin: .5rem;
-  padding: .25rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 li ul[class^="level-"]{
-margin-left: 20px;
+margin-left: .5rem;
 }
+
 .lcount {
 padding: 0px 10px;
 }
