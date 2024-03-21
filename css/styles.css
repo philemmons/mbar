@@ -14,6 +14,8 @@
   --color-12: #0000ff;
   --color-13: #ddeeff;
 
+  --color-21:#9eeaf9;
+
   --error-color: #ff0019;
   --success-color: #009b00;
 
@@ -412,7 +414,7 @@ li ul[class^="level-"] {
   font-weight: bold;
   color: var(--color-5);
   text-decoration: none;
-  background-color: var(--bs-btn-hover-bg);
+  background-color: var(--color-21);
 }
 
 .lcount {
