@@ -391,7 +391,7 @@ ul[class^="level-"] {
 ul[class^="level-"]>.lhead {
   background: #f0f0f0;
   border-radius: 1rem 3rem !important;
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 1rem;
   padding: 0.5rem 1rem;
 }
 
@@ -403,7 +403,16 @@ li ul[class^="level-"] {
   background: #cff4fc;
   border-radius: 1rem 3rem !important;
   padding: 0.5rem 1rem;
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 3rem;
+}
+
+.lpage:focus,
+.lpage:hover {
+  z-index: 1;
+  font-weight: bold;
+  color: var(--bs-list-group-action-hover-color);
+  text-decoration: none;
+  background-color: var(--bs-list-group-action-hover-bg);
 }
 
 .lcount {
