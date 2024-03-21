@@ -306,13 +306,14 @@ nav {
 /**** big book href ****/
 
 .bb-link {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--color-12);
+  font-weight: bold;
 }
 
 .bb-link:hover,
 .bb-link:focus {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 /**** maps ****/
@@ -418,6 +419,7 @@ li ul[class^="level-"] {
   z-index: 1;
   font-weight: bold;
   color: var(--color-5);
+  text-decoration: none;
   background-color: var(--color-21);
 }
 
