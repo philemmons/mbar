@@ -82,7 +82,7 @@ include_once 'header-bottom.inc'
             </div>
 
             <div class="row justify-content-center py-4 mb-5">
-                <div class="col-sm-5  text-center px-5">
+                <div class="col-xl-4 col-lg-5 col-sm-8 text-center">
                     <section aria-label="Mostrar logotipos anteriores con carrusel">
                         <h3 class="mb-6 text-dark">A continuación se muestran los carteles de MBAR utilizados a lo largo de los años.
                         </h3>
@@ -134,12 +134,12 @@ include_once 'header-bottom.inc'
                                     <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
                                 </div>
                             </div>
-                            <button class="btn btn-primary btn-sm mt-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <button class="btn btn-primary btn-lg mt-3 me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <i class="bi bi-chevron-double-left" aria-hidden="true"></i>
                                 <span class="sr-only">Previo</span>
                             </button>
-                            <button class="btn btn-primary btn-sm mt-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <button class="btn btn-primary btn-lg mt-3 ms-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <i class="bi bi-chevron-double-right" aria-hidden="true"></i>
                                 <span class="sr-only">Próximo</span>
                             </button>
                         </div>

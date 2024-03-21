@@ -81,7 +81,7 @@ include_once 'header-bottom.inc'
             </div>
 
             <div class="row justify-content-center py-4 mb-5">
-                <div class="col-sm-5  text-center px-5">
+                <div class="col-xl-4 col-lg-5 col-sm-8 text-center">
                     <section aria-label="Display past logos with carousel">
                         <h3 class="mb-6 text-dark">Below are MBAR's banners used over the years.
                         </h3>
