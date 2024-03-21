@@ -532,8 +532,8 @@ legend {
   opacity: 1.0 !important;
 }
 
-.carousel-control-next:focus, 
-.carousel-control-prev:focus{
+.carousel-control-next-icon:focus, 
+.carousel-control-prev-icon:focus{
   box-shadow: 0 0 8px 2px var(--color-22);
 }
 
