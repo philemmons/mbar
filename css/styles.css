@@ -81,6 +81,7 @@ h6 {
 a {
   color: var(--color-22);
   text-decoration: underline;
+  text-underline-position: under;
 }
 
 /**** header ****/
@@ -306,15 +307,15 @@ nav {
 /**** big book href ****/
 
 .bb-link {
-  text-decoration: none;
   color: var(--color-12);
-  font-weight: bold;
 }
 
+/*
 .bb-link:hover,
 .bb-link:focus {
   text-decoration: underline;
 }
+*/
 
 /**** maps ****/
 
