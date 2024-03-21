@@ -183,7 +183,7 @@ include_once 'header-bottom.inc'
 
 															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" title="audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt">audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Chris-T-2022.txt" title="audio-transcript/2022/Chris-T-2022.txt">audio-transcript/2022/Chris-T-2022.txt</a></li>
+															<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Chris-T-2022.txt" title="audio-transcript/2022/Chris-T-2022.txt">audio-transcript/2022/Chris-T-2022.txt</a></li>
 
 														</ul>
 													</li>
