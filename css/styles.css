@@ -410,9 +410,9 @@ li ul[class^="level-"] {
 .lpage:hover {
   z-index: 1;
   font-weight: bold;
-  color: var(--bs-list-group-action-hover-color);
+  color: var(--color-5);
   text-decoration: none;
-  background-color: var(--bs-list-group-action-hover-bg);
+  background-color: var(--bs-btn-hover-bg);
 }
 
 .lcount {
