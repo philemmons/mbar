@@ -404,6 +404,8 @@ li ul[class^="level-"] {
   border-radius: 1rem 3rem !important;
   padding: 0.5rem 1rem;
   margin: 1rem 0.5rem;
+  color: var(--color-12);
+  font-weight: bold;
 }
 
 .lcount {
