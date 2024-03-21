@@ -413,12 +413,11 @@ li ul[class^="level-"] {
   margin: 0.5rem 3rem;
 }
 
-.lpage:focus>a,
-.lpage:hover>a {
+.lpage:focus,
+.lpage:hover {
   z-index: 1;
   font-weight: bold;
   color: var(--color-5);
-  text-decoration: none;
   background-color: var(--color-21);
 }
 
