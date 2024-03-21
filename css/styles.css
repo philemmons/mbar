@@ -308,6 +308,7 @@ nav {
 
 .bb-link {
   color: var(--color-12);
+  font-weight: bold;
 }
 
 /*
