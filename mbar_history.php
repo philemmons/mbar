@@ -186,7 +186,7 @@ include_once 'header-bottom.inc'
                                     Your browser does not support the audio element.
                                 </audio>
                                 <div class="d-grid gap-2 pt-3">
-                                    <a href="../audio-transcript/2017/Paul-O-2017.txt" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2017-paul-o.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </section>
                         </div>
