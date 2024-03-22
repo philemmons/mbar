@@ -151,7 +151,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/arthur-t.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-arthur.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -193,7 +193,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/mary-n-and-guillermo-n.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-mary-guillermo.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -222,7 +222,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/rocky-s.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-rocky.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -304,7 +304,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/robin-k-and-terrill-k.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-robin-terrill.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -322,7 +322,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/michele-m-pete-C-dawn-c-joe-p.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-michele-pete-dawn-joe.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc'
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="../2022/chris-t.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2022-chris.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
