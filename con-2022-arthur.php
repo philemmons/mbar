@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2017 A.A. Authur T. </title>";
+echo "<title>2022 A.A. Authur T. </title>";
 echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2022-arthur.php" />';
 include_once 'header-bottom.inc'
 ?>
