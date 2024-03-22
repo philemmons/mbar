@@ -94,7 +94,7 @@ include_once 'header-bottom.inc'
 									<li class="lhead">/ </li>
 									<li>
 										<ul class="level-2">
-											<li class="lhead">monterey.bayarearoundup.org/ <span class="lcount">19 paginas</span></li>
+											<li class="lhead">monterey.bayarearoundup.org/ <span class="lcount">35 paginas</span></li>
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
 
