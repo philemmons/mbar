@@ -25,10 +25,9 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Transcript Paul O. 2017">
-                            <h3 class="card-title text-center">Transcript Paul O.2017</h3>
-                            <p>Below is a raw transcript from the audio recording by Paul O. in 2017.
-                                <br><br>
-                                Good evening. My name is Paul and I'm actually a very mild alcoholic. Things that Max said were grossly exaggerated. Truth is that at the time she was talking about I wasn't even an alcoholic. I didn't become an alcoholic until I'd been coming to these meetings for seven months. It wasn't funny. It was a change in my life dramatically.
+                            <h3 class="card-title text-center">Below is a raw transcript from the audio recording by Paul O. in 2017.<span class="sr-only">(Click to go back)</span>
+                            </h3>
+                            <p>Good evening. My name is Paul and I'm actually a very mild alcoholic. Things that Max said were grossly exaggerated. Truth is that at the time she was talking about I wasn't even an alcoholic. I didn't become an alcoholic until I'd been coming to these meetings for seven months. It wasn't funny. It was a change in my life dramatically.
                                 <br><br>
                                 I'm glad to be here. I've had a wonderful weekend already and it's just now getting started for the rest of you. Denny and Phyllis were our host and hostess and we've had a wonderful time and really enjoyed it.Everybody should have a chance to be hosted by them at least once in your life. I had a great meeting this morning at seven o'clock and I'm just delighted with that. Looking forward to a great weekend and particularly looking forward to Earl's talk tomorrow night. Stand up and wave to the people. I know you love that. Come on. Come on. Too bad you can't see the blush that I can see. I just made a terrible blunder. One of the things I've learned early in AA is that you never smart mouth anybody who is going to follow you to the podium.
                                 <br><br>
