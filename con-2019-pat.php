@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Pat B. in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Pat B. in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Hi everybody, my name is Pat B. I'm from Clovis, California. Or at least I was. I moved. My speaker tape had me listed from Clovis and I recently moved to Madera Ranchos. So if anybody knows where that's at, if anybody's from Madera Ranchos.
                             </p>

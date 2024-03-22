@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Jean T. and Cari H., The Many Paths to Spirituality Panel, in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Jean T. and Cari H., The Many Paths to Spirituality Panel, in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Hi everybody, my name is Dean, I'm an alcoholic. Hi, I'm Dean. It's really good to be here and I want to thank you for asking me to do this. Spirituality for me is such, well, for me I am a big believer in what it says in the big book that this is a spiritual program. And so when I hear people struggling with their spirituality as they come into the rooms, I always want to reach out to them because this is a spiritual program, but there are so many ways that you can develop your spirituality and alcoholics anonymous. So I'll start with that.
                             </p>

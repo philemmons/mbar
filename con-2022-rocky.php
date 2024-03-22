@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Rocky S. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Rocky S. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Wow. Hi, y'all. My name is Rocky and I'm an alcoholic. First off, I want to say congratulations to those with birthdays from 25 to 29. You're not lost. I know you're here.
                             </p>

@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Mary N. and Guillermo N. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Mary N. and Guillermo N. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
 
                             <p>I am Mary. I am a grateful member of Alonon and it is my recovery date in Alonon. I remember 12 1993 and I am grateful for that. First of all, I would like to thank my dear friend Susie in the corner back there and the committee who asked us to participate. I am pretty emotional and every time I see her I want to cry. But there are no tissues up here so I will suck it up.

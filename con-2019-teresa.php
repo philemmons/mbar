@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Teresa J. in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Teresa J. in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Hi everyone, my name is Teresa and I am a grateful member of Alcoholics Anonymous. And thank you Cindy. Thank you for everyone who has helped to put this event together. It's always a great time to come together as a group to share experience, strength and hope and have some fellowship and have some fun and maybe a little bit of laughter, a few tears, some arguments, disagreements, you know, all kinds of things can happen over the course of a few days when you get a bunch of alcoholics together. And then the Alleons. It is a privilege to be up here.
                             </p>

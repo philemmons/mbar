@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Chris T. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Chris T. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>I'm going to move this out of the way. Hi everybody, my name is Chris and I'm an alcoholic. I want to thank the Embark Committee and volunteers and everyone that helped put on this weekend. It's been a lot of fun. A lot of memories have been made. My fellowship is grown from all the people I've got to meet.
                             </p>

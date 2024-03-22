@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Robin K. and Terrill K. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Robin K. and Terrill K. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>I'm just going to do my own thing. Okay, thank you. Thank you. I need all the help I can get out here. I'm sort of an old guy. My brain doesn't work that well.
                             </p>

@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Dr.Sheila C. and Dr.Jerry C., Doctors Opinion Panel, in 2019<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Dr.Sheila C. and Dr.Jerry C., Doctors Opinion Panel, in 2019<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Hello, my name is Samantha and I am an alcoholic. Welcome to Enbarr. We are, this is Money Pah has been granted the privilege to do some speaker meetings here at Enbarr this year, so we're really excited about that. Today we're going to have the doctor's opinion. So let's have a moment of silence for those still suffering in and out of the rooms. God grant me the serenity to accept the things I cannot change, the courage to change the things I can and the wisdom to know the difference.
                             </p>

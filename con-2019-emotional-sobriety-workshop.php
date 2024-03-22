@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Sonny C. and Masa M., Emotional Sobriety Workshop, in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Sonny C. and Masa M., Emotional Sobriety Workshop, in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Good morning. My name is Joe and I'm an alcoholic. Good morning. And I would like to welcome you all to Embar and our emotional sobriety panel. I can't even speak today. That's my new word.
                             </p>

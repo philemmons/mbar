@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Authur T. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Authur T. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>My name is Arthur, I'm an alcoholic. And you know, part of my story is I was a flight attendant. So I just want you to know that ethics signs are right behind you. The lavatories are through the door and to the left. And there is a water station directly at the back of the room. I just wanted to get that straight.
                             </p>

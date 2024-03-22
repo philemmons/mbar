@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Michele M., Pete C., Dawn C., and Joe P. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Michele M., Pete C., Dawn C., and Joe P. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Thank you, Natalie. And at this time, I'm going to have the panel introduce themselves. They're supposed to speak ballpark around 15 minutes. If they don't, we have nicknamed this meeting, we're going with the flow. So whatever they feel like. Just remember they're doing this, stretching themselves, as we heard earlier, this is how you get better to stretch.
                             </p>

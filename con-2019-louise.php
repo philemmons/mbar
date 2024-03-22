@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Louise M. in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Louise M. in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Oh, good, because I'm so sure. So my name is Louise, and I'm very, very grateful Alana and I am very grateful for Susan for inviting me here, and especially Sue B for being my host. She's driven me places where I needed to be. And I even made a McDonald run for me this morning. So I'm very, very grateful. And I know when yesterday I think it was, I was thinking Sunday morning, 9 o'clock.
                             </p>

@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Jane H. in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Jane H. in 2019.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Thank you, Thomas. Kathy, I'm going to ask you please to time. We're supposed to talk for 45 minutes. I don't know if that's possible, but if you could give me a five minute warning in the event I go there. First of all, I would like to thank Embarr. I would like to thank AA, and I would most especially, please don't get mad at me, like to thank Good Morning Carmilla.
                             </p>
