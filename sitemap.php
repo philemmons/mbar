@@ -132,7 +132,7 @@ include_once 'header-bottom.inc'
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/sitemap.php" title="Monterey Bay Area Roundup 2024 | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
 
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-paul-o.php" title="Monterey Bay Area Roundup 2024 | Paul O.from 2017">Monterey Bay Area Roundup 2024 | Paul O.from 2017</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2017-paul-o.php" title="Monterey Bay Area Roundup 2024 | Paul O.from 2017">Monterey Bay Area Roundup 2024 | Paul O. from 2017</a></li>
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2019.php" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
 
