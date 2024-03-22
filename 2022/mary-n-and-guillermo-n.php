@@ -1,9 +1,9 @@
 <?php
 session_start();  //start or resume an existing session
-include_once 'header-top.inc';
+include_once '../header-top.inc';
 echo "<title>MBAR - 2017 Paul O. </title>";
 echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2017-paul-o.php" />';
-include_once 'header-bottom.inc'
+include_once '../header-bottom.inc'
 ?>
 
 <main id="main-content">
@@ -389,7 +389,7 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
-    <?php include_once 'footer.inc' ?>
+    <?php include_once '../footer.inc' ?>
     </body>
 
     </html>
