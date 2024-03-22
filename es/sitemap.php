@@ -70,12 +70,12 @@ include_once 'header-bottom.inc'
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 					<section aria-label="sitemap-start">
-						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org<br>Página Principal</a>
+						<h3 class="h5 float-end"><a href="https://monterey.bayarearoundup.org/es/" title="Monterey Bay Area Roundup 2024 Homepage">monterey.bayarearoundup.org/es/<br>Página Principal</a>
 						</h3>
 					</section>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<p class="h4 text-black">Última actualización: 2024, 17 de Marzo
+					<p class="h4 text-black">Última actualización: 2024, 22 de Marzo
 						<br>
 						Páginas totales: 35
 					</p>
@@ -134,61 +134,35 @@ include_once 'header-bottom.inc'
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/conference-2019.php" title="Monterey Bay Area Roundup 2024 | Conferencia 2019">Monterey Bay Area Roundup 2024 | Conferencia 2019</a></li>
 
-											<li>
-												<ul class="level-3">
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-arthur.php" title="Monterey Bay Area Roundup 2022 | Arthur T.">Monterey Bay Area Roundup 2022 | Arthur T.</a></li>
 
-													<li class="lhead">transcripción de audio/ </li>
-													<li>
-														<ul class="level-4">
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-mary-guillermo.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Mary N. y Guillermo N.">Monterey Bay Area Roundup 2022 | Al-Anon Mary N. y Guillermo N.</a></li>
 
-															<li class="lhead">2017/ <span class="lcount">1 paginas</span></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-rocky.php" title="Monterey Bay Area Roundup 2022 | Rocky S.">Monterey Bay Area Roundup 2022 | Rocky S.</a></li>
 
-															<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/audio-transcript/2017/Paul-O-2017.txt" title="transcripción de audio/2017/Paul-O-2017.txt">transcripción de audio/2017/Paul-O-2017.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-robin-terrill.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Robin K. y Terrill K.">Monterey Bay Area Roundup 2022 | Al-Anon Robin K. y Terrill K.</a></li>
 
-														</ul>
-														<ul class="level-4">
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-michele-pete-dawn-joe.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Michele M., Pete C., Dawn C., y Joe P.">Monterey Bay Area Roundup 2022 | Al-Anon Michele M., Pete C., Dawn C., y Joe P.</a></li>
 
-															<li class="lhead">2019/ <span class="lcount">9 paginas</span></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-chris.php" title="Monterey Bay Area Roundup 2022 | Chris T.">Monterey Bay Area Roundup 2022 | Chris T.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Teresa-J-2019.txt" title="transcripción de audio/2019/Teresa-J-2019.txt">transcripción de audio/2019/Teresa-J-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-teresa.php" title="Monterey Bay Area Roundup 2019 | Teresa J.">Monterey Bay Area Roundup 2019 | Teresa J.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Harry-H-2019.txt" title="transcripción de audio/2019/Harry-H-2019.txt">transcripción de audio/2019/Harry-H-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-harry.php" title="Monterey Bay Area Roundup 2019 | Harry H.">Monterey Bay Area Roundup 2019 | Harry H.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Jane-H-2019.txt" title="transcripción de audio/2019/Al-Anon-Jane-H-2019.txt">transcripción de audio/2019/Al-Anon-Jane-H-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-jane.php" title="Monterey Bay Area Roundup 2019 | Al-Anon Jane H.">Monterey Bay Area Roundup 2019 | Al-Anon Jane H.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt" title="transcripción de audio/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt">transcripción de audio/2019/Doctors-Opinion-Panel-Dr-Sheila-C-and-Dr-Jerry-C-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-doctors-opinion-panel.php" title="Monterey Bay Area Roundup 2019 | Panel de Opinión de Médicos con Dr. Sheila C. y Dr. Jerry C.">Monterey Bay Area Roundup 2019 | Panel de Opinión de Médicos con Dr. Sheila C. y Dr. Jerry C.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt" title="transcripción de audio/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt">transcripción de audio/2019/Emotional-Sobriety-Workshop-Sonny-C-and-Masa-M-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-emotional-sobriety-workshop.php" title="Monterey Bay Area Roundup 2019 | Taller de Sobriedad Emocional con Sonny C. Y Masa M.">Monterey Bay Area Roundup 2019 | Taller de Sobriedad Emocional con Sonny C. y Masa M.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt" title="transcripción de audio/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt">transcripción de audio/2019/The-Many-Paths-to-Spirituality-Panel-Jean-T-and-Cari-H-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-many-paths-spirituality-panel.php" title="Monterey Bay Area Roundup 2019 | Panel Los Muchos Caminos Hacia la Espiritualidad con Jean T. and Cari H.">Panel Los Muchos Caminos Hacia la Espiritualidad con Jean T. y Cari H.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Charlie-H-2019.txt" title="transcripción de audio/2019/Charlie-H-2019.txt">transcripción de audio/2019/Charlie-H-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-charlie.php" title="Monterey Bay Area Roundup 2019 | Charlie H.">Monterey Bay Area Roundup 2019 | Charlie H.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Al-Anon-Louise-M-2019.txt" title="transcripción de audio/2019/Al-Anon-Louise-M-2019.txt">transcripción de audio/2019/Al-Anon-Louise-M-2019.txt</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-louise.php" title="Monterey Bay Area Roundup 2019 | Al-Anon Louise M.">Monterey Bay Area Roundup 2019 | Al-Anon Louise M.</a></li>
 
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2019/Pat-B-2019.txt" title="transcripción de audio/2019/Pat-B-2019.txt">transcripción de audio/2019/Pat-B-2019.txt</a></li>
-
-														</ul>
-														<ul class="level-4">
-
-															<li class="lhead">2022/ <span class="lcount">6 paginas</span></li>
-
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Arthur-T-2022.txt" title="transcripción de audio/2022/Arthur-T-2022.txt">transcripción de audio/2022/Arthur-T-2022.txt</a></li>
-
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt" title="transcripción de audio/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt">transcripción de audio/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt</a></li>
-
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Rocky-S-2022.txt" title="transcripción de audio/2022/Rocky-S-2022.txt">transcripción de audio/2022/Rocky-S-2022.txt</a></li>
-
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt" title="transcripción de audio/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt">transcripción de audio/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt</a></li>
-
-															<li class="lpage"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" title="transcripción de audio/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt">transcripción de audio/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt</a></li>
-
-															<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/audio-transcript/2022/Chris-T-2022.txt" title="transcripción de audio/2022/Chris-T-2022.txt">transcripción de audio/2022/Chris-T-2022.txt</a></li>
-
-														</ul>
-													</li>
-												</ul>
-											</li>
+											<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/con-2019-pat.php" title="Monterey Bay Area Roundup 2019 | Pat B.">Monterey Bay Area Roundup 2019 | Pat B.</a></li>
 										</ul>
 									</li>
 								</ul>
