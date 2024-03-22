@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2017 Paul O. </title>";
+echo "<title>2017 Paul O. </title>";
 echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2017-paul-o.php" />';
 include_once 'header-bottom.inc'
 ?>
@@ -24,7 +24,7 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Transcript Paul O. 2017">
+                        <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Paul O. in 2017.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p class= "indent">Good evening. My name is Paul and I'm actually a very mild alcoholic. Things that Max said were grossly exaggerated. Truth is that at the time she was talking about I wasn't even an alcoholic. I didn't become an alcoholic until I'd been coming to these meetings for seven months. It wasn't funny. It was a change in my life dramatically.

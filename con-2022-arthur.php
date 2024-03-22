@@ -1,8 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2017 Paul O. </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2017-paul-o.php" />';
+echo "<title>2017 A.A. Authur T. </title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2022-arthur.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -19,12 +19,12 @@ include_once 'header-bottom.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="Transcript-One">
+    <article aria-label="Transcript-Two">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Transcript Authur T. 2022">
+                        <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Authur T. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>My name is Arthur, I'm an alcoholic. And you know, part of my story is I was a flight attendant. So I just want you to know that ethics signs are right behind you. The lavatories are through the door and to the left. And there is a water station directly at the back of the room. I just wanted to get that straight.

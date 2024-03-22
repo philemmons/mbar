@@ -1,8 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2017 Paul O. </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2017-paul-o.php" />';
+echo "<title>2022 A.A. Chris T.</title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2022-chris.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -19,12 +19,12 @@ include_once 'header-bottom.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="Transcript-Two">
+    <article aria-label="Transcript-Three">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Transcript Chris T. 2022">
+                        <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Chris T. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>I'm going to move this out of the way. Hi everybody, my name is Chris and I'm an alcoholic. I want to thank the Embark Committee and volunteers and everyone that helped put on this weekend. It's been a lot of fun. A lot of memories have been made. My fellowship is grown from all the people I've got to meet.

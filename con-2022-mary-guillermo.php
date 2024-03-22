@@ -1,8 +1,8 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2017 Paul O. </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2017-paul-o.php" />';
+echo "<title>2022 Al-Anon Mary N. and Guillermo N.</title>";
+echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2022-mary-guillermo.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -19,12 +19,12 @@ include_once 'header-bottom.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="Transcript-Three">
+    <article aria-label="Transcript-Four">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Transcript Paul O. 2017">
+                        <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by Al-Anon Mary N. and Guillermo N. in 2022.<span class="sr-only">(Click to go back)</span>
                             </h3>
 
