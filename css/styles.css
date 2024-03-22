@@ -570,3 +570,7 @@ caption {
   color: var(--color-12);
   border-color: var(--color-12);
 }
+
+.indent{
+  text-indent: 2rem;
+}
