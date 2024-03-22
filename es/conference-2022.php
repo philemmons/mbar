@@ -152,7 +152,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Arthur-T-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-arthur.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
@@ -194,7 +194,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon-Mary-N-and-Guillermo-N-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-mary-guillermo.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
@@ -223,7 +223,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Rocky-S-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-rocky.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
@@ -305,7 +305,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon-Robin-K-and-Terrill-K-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-robin-terrill.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
@@ -323,7 +323,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Al-Anon-Michele-M-Pete-C-Dawn-C-Joe-P-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-michele-pete-dawn-joe.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
@@ -352,7 +352,7 @@ include_once 'header-bottom.inc'
                                         Su navegador no soporta el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="../audio-transcript/2022/Chris-T-2022.txt" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2022-chris.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
 
 
