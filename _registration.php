@@ -562,7 +562,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div id="payment-now"></div>
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="card-title mb-3">Payment Methods
                         </h3>
