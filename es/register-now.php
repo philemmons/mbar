@@ -125,7 +125,7 @@ include_once 'header-bottom.inc'
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
                             <p>MONTEREY BAY AREA ROUNDUP<br>
-                                Att: Naomi B.<br>
+                                Attn: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
                             </p>
