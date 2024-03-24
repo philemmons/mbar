@@ -158,7 +158,7 @@ include_once 'header-bottom.inc'
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-emotional-sobriety-workshop.php" title="Monterey Bay Area Roundup 2019 | Emotional Sobriety Workshop with Sonny C. and Masa M.">Monterey Bay Area Roundup 2019 | Emotional Sobriety Workshop with Sonny C. and Masa M.</a></li>
 
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-many-paths-spirituality-panel.php" title="Monterey Bay Area Roundup 2019 | The Many Paths to Spirituality Panel with Jean T. and Cari H.">The Many Paths to Spirituality Panel with Jean T. and Cari H.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-many-paths-spirituality-panel.php" title="Monterey Bay Area Roundup 2019 | The Many Paths to Spirituality Panel with Jean T. and Cari H.">Monterey Bay Area Roundup 2019 | The Many Paths to Spirituality Panel with Jean T. and Cari H.</a></li>
 
 											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-charlie.php" title="Monterey Bay Area Roundup 2019 | Charlie H.">Monterey Bay Area Roundup 2019 | Charlie H.</a></li>
 
