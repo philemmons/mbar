@@ -557,7 +557,7 @@ include_once 'header-bottom.inc'
         </div>
     </div>
 
-
+    
     <!-- Part Payment -->
     <article aria-label="Método de pago">
         <div class="container shadow-wrap">
