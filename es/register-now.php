@@ -92,7 +92,8 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="fw-bold text-dark px-3 px-md-0">Métodos de Pago
                         </h3>
-                        <p>Por favor agregue su nombre de registro en el pago. Si paga por más de una persona, agregue sus nombres en la sección de notas.</p>
+                        <p>Agregue su nombre de registro en el pago. Si paga por <strong>más</strong> de una persona, agregue su(s) nombre(s) en la sección de notas. Los códigos QR a continuación requieren las aplicaciones móviles. Si necesita ayuda para realizar un pago, envíe un correo electrónico a <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>.
+                        </p>
                         <div class="row">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
