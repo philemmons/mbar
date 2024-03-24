@@ -605,7 +605,7 @@ include_once 'header-bottom.inc'
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
                             </p>
-                            <p>O envíe el formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
+                            <p>O envíe su formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
                             </p>
                             <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/mbar-register-form-en.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</button>
                             </p>

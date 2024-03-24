@@ -114,6 +114,7 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
+
     <!-- Part Two -->
     <article aria-label="PDF registration form">
         <div class=" container shadow-wrap">
@@ -121,19 +122,19 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Download pdf form">
-                            <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Download the Registration Form</a></h3>
+                            <h3 class="card-title mb-3">Download the Registration Form</h3>
                             <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                             </p>
-                            <p>MONTEREY BAY AREA ROUNDUP<br>
+                            <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
                                 Attn: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
                             </p>
-                            <p>OR email the completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
+                            <p>Or email your completed form to our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
                             </p>
-                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/mbar-register-form-en.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR 2024 Registration Form</button>
+                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/mbar-register-form-en.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">MBAR 2024 Registration Form</button>
                             </p>
-                            <p>If you have any question, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
+                            <p>If you have any questions, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
                             </p>
                         </section>
                     </div>

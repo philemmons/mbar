@@ -124,14 +124,14 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Descarga el Formulario de Inscripción</a></h3>
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
-                            <p>MONTEREY BAY AREA ROUNDUP<br>
+                            <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
                                 Attn: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
                             </p>
-                            <p>O envíe el formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
+                            <p>O envíe su formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
                             </p>
-                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/formulario-registro-mbar-es.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</button>
+                            <p><button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/mbar-register-form-en.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</button>
                             </p>
                             <p>Si tiene alguna pregunta, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Comité Directivo</a>
                             </p>
