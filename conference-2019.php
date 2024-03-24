@@ -17,12 +17,12 @@ include_once 'header-bottom.inc'
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle active" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference<span class="visually-hidden">(current)</span></button>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" aria-current="page" href="mbar_history.php">MBAR History<span class="visually-hidden">(2019 conference, click to go back)</span></a>
+                        <a class="dropdown-item  active" aria-current="page" href="mbar_history.php">MBAR History<span class="visually-hidden">(2019 conference, click to go back)</span></a>
                         <a class="dropdown-item" href="memories.php">Memories</a>
                     </div>
                 </li>
