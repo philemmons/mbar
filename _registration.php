@@ -258,8 +258,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="myPhone" class="reg-form-label">Phone with Area Code</label>
-                                <input type="tel" class="form-control" name="myPhone" id="myPhone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <label for="myPhone" class="reg-form-label">Phone with Area Code (xxx.xxx.xxxx)</label>
+                                <input type="tel" class="form-control" name="myPhone" id="myPhone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
                                 <div class="invalid-feedback">
                                     Optional, please enter a valid phone number.
                                 </div>
@@ -566,7 +566,8 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="card-title mb-3">Payment Methods
                         </h3>
-                        <p>Please add your registration name in the payment. If you are paying for more than one person, you must add their names in the note section.</p>
+                        <p>Please add your registration name in the payment. If you are paying for <strong>more</strong> than one person, add their name(s) in the note section. The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>.
+                        </p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-3">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
@@ -576,7 +577,7 @@ include_once 'header-bottom.inc'
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
-                            <p>The links below provide payment instructions.</p>
+                            <p>The links below provide general payment instructions.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
                             <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
                         </div>
