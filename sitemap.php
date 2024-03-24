@@ -94,77 +94,86 @@ include_once 'header-bottom.inc'
 									<li class="lhead">/ </li>
 									<li>
 										<ul class="level-2">
+
 											<li class="lhead">monterey.bayarearoundup.org/ <span class="lcount">35 pages</span></li>
 
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/" title="Monterey Bay Area Roundup 2024">Monterey Bay Area Roundup 2024</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/" title="MBAR - Home ">MBAR - Home </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2024.php" title="MBAR - 2024 Conference ">MBAR - 2024 Conference </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/register-now.php" title="MBAR - Registration ">MBAR - Registration </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/activities.php" title="MBAR - Activities ">MBAR - Activities </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/mbar_history.php" title="MBAR - History ">MBAR - History </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/memories.php" title="MBAR - Memories ">MBAR - Memories </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/our_partner.php" title="MBAR - Our Partner ">MBAR - Our Partner </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/meetings.php" title="MBAR - Meetings ">MBAR - Meetings </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/committees.php" title="MBAR - Committees ">MBAR - Committees </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/upcoming_event.php" title="MBAR - Upcoming Events ">MBAR - Upcoming Events </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/logo_contest.php" title="MBAR - Logo Contest ">MBAR - Logo Contest </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contact.php" title="MBAR - Contact Us ">MBAR - Contact Us </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contributions.php" title="MBAR - Contributions ">MBAR - Contributions </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2022.php" title="MBAR - 2022 Conference ">MBAR - 2022 Conference </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/accessibility.php" title="MBAR - Accessibility">MBAR - Accessibility</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/privacy-policy.php" title="MBAR - Privacy Policies and Terms ">MBAR - Privacy Policies and Terms </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/sitemap.php" title="MBAR - Sitemap ">MBAR - Sitemap </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2019.php" title="MBAR - 2019 Conference ">MBAR - 2019 Conference </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2017-paul-o.php" title="2017 Paul O. ">2017 Paul O. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-arthur.php" title="2022 A.A. Authur T. ">2022 A.A. Authur T. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-mary-guillermo.php" title="2022 Al-Anon Mary N. and Guillermo N.">2022 Al-Anon Mary N. and Guillermo N.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-rocky.php" title="2022 A.A. Rocky S.">2022 A.A. Rocky S.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-robin-terrill.php" title="2022 Al-Anon Robin K. and Terrill K.">2022 Al-Anon Robin K. and Terrill K.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-michele-pete-dawn-joe.php" title="2022 Al-Anon Michele M., Pete C., Dawn C., and Joe P.">2022 Al-Anon Michele M., Pete C., Dawn C., and Joe P.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-chris.php" title="2022 A.A. Chris T.">2022 A.A. Chris T.</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-teresa.php" title="2019 A.A Teresa J. ">2019 A.A Teresa J. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-harry.php" title="2019 A.A. Harry H. ">2019 A.A. Harry H. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-jane.php" title="2019 Al-Anon Jane H. ">2019 Al-Anon Jane H. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-doctors-opinion-panel.php" title="2019  Doctors Opinion Panel">2019 Doctors Opinion Panel</a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-emotional-sobriety-workshop.php" title="2019 Emotional Sobriety Workshop ">2019 Emotional Sobriety Workshop </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-many-paths-spirituality-panel.php" title="2019 The Many Paths to Spirituality Panel ">2019 The Many Paths to Spirituality Panel </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-charlie.php" title="2019 A.A. Charlie H. ">2019 A.A. Charlie H. </a></li>
+											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-louise.php" title="2019 Al-Anon Louise M.">2019 Al-Anon Louise M.</a></li>
+											<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/con-2019-pat.php" title="2019 A.A. Pat B. ">2019 A.A. Pat B. </a></li>
+											<li>
+												<ul class="level-3">
 
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/index.php" title="Monterey Bay Area Roundup 2024 | Home">Monterey Bay Area Roundup 2024 | Home</a></li>
+													<li class="lhead">es/ <span class="lcount">35 pages</span></li>
 
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2024.php" title="Monterey Bay Area Roundup 2024 | Conference 2024">Monterey Bay Area Roundup 2024 | Conference 2024</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/register-now.php" title="Monterey Bay Area Roundup 2024 | Registration">Monterey Bay Area Roundup 2024 | Registration</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/activities.php" title="Monterey Bay Area Roundup 2024 | Activities">Monterey Bay Area Roundup 2024 | Activities</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/mbar_history.php" title="Monterey Bay Area Roundup 2024 | MBAR History">Monterey Bay Area Roundup 2024 | MBAR History</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/memories.php" title="Monterey Bay Area Roundup 2024 | Memories">Monterey Bay Area Roundup 2024 | Memories</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/our_partner.php" title="Monterey Bay Area Roundup 2024 | Our Partner">Monterey Bay Area Roundup 2024 | Our Partner</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/meetings.php" title="Monterey Bay Area Roundup 2024 | Meetings">Monterey Bay Area Roundup 2024 | Meetings</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/committees.php" title="Monterey Bay Area Roundup 2024 | Committees">Monterey Bay Area Roundup 2024 | Committees</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/upcoming_event.php" title="Monterey Bay Area Roundup 2024 | Upcoming Events">Monterey Bay Area Roundup 2024 | Upcoming Events</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/logo_contest.php" title="Monterey Bay Area Roundup 2024 | Logo Contest">Monterey Bay Area Roundup 2024 | Logo Contest</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contact.php" title="Monterey Bay Area Roundup 2024 | Contact Us">Monterey Bay Area Roundup 2024 | Contact Us</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/contributions.php" title="Monterey Bay Area Roundup 2024 | Contributions">Monterey Bay Area Roundup 2024 | Contributions</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2022.php" title="Monterey Bay Area Roundup 2024 | 2022 Conference">Monterey Bay Area Roundup 2024 | 2022 Conference</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/accessibility.php" title="Monterey Bay Area Roundup 2024 | Accessibility">Monterey Bay Area Roundup 2024 | Accessibility</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/privacy-policy.php" title="Monterey Bay Area Roundup 2024 | Privacy Policy and Terms">Monterey Bay Area Roundup 2024 | Privacy Policy and Terms</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/sitemap.php" title="Monterey Bay Area Roundup 2024 | Sitemap">Monterey Bay Area Roundup 2024 | Sitemap</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2017-paul-o.php" title="Monterey Bay Area Roundup 2024 | Paul O.from 2017">Monterey Bay Area Roundup 2024 | Paul O. from 2017</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/conference-2019.php" title="Monterey Bay Area Roundup 2024 | 2019 Conference">Monterey Bay Area Roundup 2024 | 2019 Conference</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-arthur.php" title="Monterey Bay Area Roundup 2022 | Arthur T.">Monterey Bay Area Roundup 2022 | Arthur T.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-mary-guillermo.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Mary N. and Guillermo N.">Monterey Bay Area Roundup 2022 | Al-Anon Mary N. and Guillermo N.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-rocky.php" title="Monterey Bay Area Roundup 2022 | Rocky S.">Monterey Bay Area Roundup 2022 | Rocky S.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-robin-terrill.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Robin K. and Terrill K.">Monterey Bay Area Roundup 2022 | Al-Anon Robin K. and Terrill K.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-michele-pete-dawn-joe.php" title="Monterey Bay Area Roundup 2022 | Al-Anon Michele M., Pete C., Dawn C., and Joe P.">Monterey Bay Area Roundup 2022 | Al-Anon Michele M., Pete C., Dawn C., and Joe P.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2022-chris.php" title="Monterey Bay Area Roundup 2022 | Chris T.">Monterey Bay Area Roundup 2022 | Chris T.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-teresa.php" title="Monterey Bay Area Roundup 2019 | Teresa J.">Monterey Bay Area Roundup 2019 | Teresa J.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-harry.php" title="Monterey Bay Area Roundup 2019 | Harry H.">Monterey Bay Area Roundup 2019 | Harry H.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-jane.php" title="Monterey Bay Area Roundup 2019 | Al-Anon Jane H.">Monterey Bay Area Roundup 2019 | Al-Anon Jane H.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-doctors-opinion-panel.php" title="Monterey Bay Area Roundup 2019 | Doctors Opinion Panel with Dr. Sheila C. and Dr. Jerry C.">Monterey Bay Area Roundup 2019 | Doctors Opinion Panel with Dr. Sheila C. and Dr. Jerry C.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-emotional-sobriety-workshop.php" title="Monterey Bay Area Roundup 2019 | Emotional Sobriety Workshop with Sonny C. and Masa M.">Monterey Bay Area Roundup 2019 | Emotional Sobriety Workshop with Sonny C. and Masa M.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-many-paths-spirituality-panel.php" title="Monterey Bay Area Roundup 2019 | The Many Paths to Spirituality Panel with Jean T. and Cari H.">Monterey Bay Area Roundup 2019 | The Many Paths to Spirituality Panel with Jean T. and Cari H.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-charlie.php" title="Monterey Bay Area Roundup 2019 | Charlie H.">Monterey Bay Area Roundup 2019 | Charlie H.</a></li>
-
-											<li class="lpage"><a href="https://monterey.bayarearoundup.org/con-2019-louise.php" title="Monterey Bay Area Roundup 2019 | Al-Anon Louise M.">Monterey Bay Area Roundup 2019 | Al-Anon Louise M.</a></li>
-
-											<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/con-2019-pat.php" title="Monterey Bay Area Roundup 2019 | Pat B.">Monterey Bay Area Roundup 2019 | Pat B.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/" title="MBAR - Home ">MBAR - Home </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/index.php" title="MBAR - Home ">MBAR - Home </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/conference-2024.php" title="MBAR - 2024 Conferencia ">MBAR - 2024 Conferencia </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/register-now.php" title="MBAR - Registro ">MBAR - Registro </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/activities.php" title="MBAR - Actividades ">MBAR - Actividades </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/mbar_history.php" title="MBAR - Historia ">MBAR - Historia </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/memories.php" title="MBAR - Recuerdos ">MBAR - Recuerdos </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/our_partner.php" title="MBAR - Nuestro Compañero ">MBAR - Nuestro Compañero </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/meetings.php" title="MBAR - Reuniones ">MBAR - Reuniones </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/committees.php" title="MBAR - Comités ">MBAR - Comités </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/upcoming_event.php" title="MBAR - Próximos Eventos ">MBAR - Próximos Eventos </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/logo_contest.php" title="MBAR - Concurso de Logotipos ">MBAR - Concurso de Logotipos </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/contact.php" title="MBAR - Contacto ">MBAR - Contacto </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/contributions.php" title="MBAR - Concurso de Logotipos ">MBAR - Concurso de Logotipos </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/conference-2022.php" title="MBAR - 2022 Conferencia ">MBAR - 2022 Conferencia </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/accessibility.php" title="MBAR - Accesibilidad del Sitio">MBAR - Accesibilidad del Sitio</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/privacy-policy.php" title="MBAR - Política de Privacidad ">MBAR - Política de Privacidad </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/sitemap.php" title="MBAR - Mapa del Sitio ">MBAR - Mapa del Sitio </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/conference-2019.php" title="MBAR - 2019 Conferencia ">MBAR - 2019 Conferencia </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2017-paul-o.php" title="2017 Paul O. ">2017 Paul O. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-arthur.php" title="2022 A.A. Authur T. ">2022 A.A. Authur T. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-mary-guillermo.php" title="2022 Al-Anon Mary N. and Guillermo N.">2022 Al-Anon Mary N. and Guillermo N.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-rocky.php" title="2022 A.A. Rocky S.">2022 A.A. Rocky S.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-robin-terrill.php" title="2022 Al-Anon Robin K. and Terrill K.">2022 Al-Anon Robin K. and Terrill K.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-michele-pete-dawn-joe.php" title="2022 Al-Anon Michele M., Pete C., Dawn C., and Joe P.">2022 Al-Anon Michele M., Pete C., Dawn C., and Joe P.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2022-chris.php" title="2022 A.A. Chris T.">2022 A.A. Chris T.</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-teresa.php" title="2019 A.A Teresa J. ">2019 A.A Teresa J. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-harry.php" title="2019 A.A. Harry H. ">2019 A.A. Harry H. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-jane.php" title="2019 Al-Anon Jane H. ">2019 Al-Anon Jane H. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-doctors-opinion-panel.php" title="2019  Doctors Opinion Panel">2019 Doctors Opinion Panel</a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-emotional-sobriety-workshop.php" title="2019 Emotional Sobriety Workshop ">2019 Emotional Sobriety Workshop </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-many-paths-spirituality-panel.php" title="2019 The Many Paths to Spirituality Panel ">2019 The Many Paths to Spirituality Panel </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-charlie.php" title="2019 A.A. Charlie H. ">2019 A.A. Charlie H. </a></li>
+													<li class="lpage"><a href="https://monterey.bayarearoundup.org/es/con-2019-louise.php" title="2019 Al-Anon Louise M.">2019 Al-Anon Louise M.</a></li>
+													<li class="lpage last-page"><a href="https://monterey.bayarearoundup.org/es/con-2019-pat.php" title="2019 A.A. Pat B. ">2019 A.A. Pat B. </a></li>
+												</ul>
+											</li>
 										</ul>
 									</li>
 								</ul>
