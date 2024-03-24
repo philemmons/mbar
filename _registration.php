@@ -105,17 +105,17 @@ include_once 'header-bottom.inc'
 
                 // Validate form required input fields
                 if (
-                    !empty($_POST['reg-fn']) &&
-                    !empty($_POST['reg-ln']) &&
-                    !empty($_POST['reg-em']) &&
-                    !empty($_POST['reg-fs']) &&
-                    !empty($_POST['radio-stacked']) &&
-                    !empty($_POST['reg-ebmb']) &&
-                    !empty($_POST['reg-mtsd']) &&
-                    !empty($_POST['reg-rucb']) &&
-                    !empty($_POST['reg-ics']) &&
-                    !empty($_POST['reg-cBox']) &&
-                    !empty($_POST['reg-pm'])
+                    !empty($_POST['firstName']) &&
+                    !empty($_POST['lastName']) &&
+                    !empty($_POST['myEmail']) &&
+                    !empty($_POST['myFellowship']) &&
+                    !empty($_POST['myRegistration']) &&
+                    !empty($_POST['earlyBirdMealBundle']) &&
+                    !empty($_POST['meetTheSpeakerDinner']) &&
+                    !empty($_POST['roundupContinentalBreakfast']) &&
+                    !empty($_POST['iceCreamSocial']) &&
+                    !empty($_POST['paymentCheckBox']) &&
+                    !empty($_POST['paymentMethod'])
                 ) {
 
                     // Validate reCAPTCHA checkbox 
@@ -130,26 +130,26 @@ include_once 'header-bottom.inc'
                         // If the reCAPTCHA API response is valid
                         if ($responseData->success) {
                             // Retrieve value from the form input fields
-                            $firstName = !empty($_POST['reg-fn']) ? htmlspecialchars($_POST['reg-fn'], ENT_QUOTES) : '';
-                            $lastName = !empty($_POST['reg-ln']) ? htmlspecialchars($_POST['reg-ln'], ENT_QUOTES) : '';
-                            $badgeName = !empty($_POST['reg-bn']) ? htmlspecialchars($_POST['reg-bn'], ENT_QUOTES) : '';
-                            $email = !empty($_POST['reg-em']) ? htmlspecialchars($_POST['reg-em'], ENT_QUOTES) : '';
-                            $phone = !empty($_POST['reg-phone']) ? htmlspecialchars($_POST['reg-phone'], ENT_QUOTES) : '';
-                            $address = !empty($_POST['reg-addr']) ? htmlspecialchars($_POST['reg-addr'], ENT_QUOTES) : '';
-                            $city = !empty($_POST['reg-city']) ? htmlspecialchars($_POST['reg-city'], ENT_QUOTES) : '';
-                            $state = !empty($_POST['reg-state']) ? htmlspecialchars($_POST['reg-state'], ENT_QUOTES) : '';
-                            $zc = !empty($_POST['reg-zc']) ? htmlspecialchars($_POST['reg-zc'], ENT_QUOTES) : '';
-                            $fs = !empty($_POST['reg-fs']) ? htmlspecialchars($_POST['reg-fs'], ENT_QUOTES) : '';
-                            $hg = !empty($_POST['reg-hg']) ? htmlspecialchars($_POST['reg-hg'], ENT_QUOTES) : '';
-                            $register = !empty($_POST['radio-stacked']) ? htmlspecialchars($_POST['radio-stacked'], ENT_QUOTES) : '';
-                            $ebmb = !empty($_POST['reg-ebmb']) ? htmlspecialchars($_POST['reg-ebmb'], ENT_QUOTES) : '';
-                            $mtsd = !empty($_POST['reg-mtsd']) ? htmlspecialchars($_POST['reg-mtsd'], ENT_QUOTES) : '';
-                            $rucb = !empty($_POST['reg-rucb']) ? htmlspecialchars($_POST['reg-rucb'], ENT_QUOTES) : '';
-                            $ics = !empty($_POST['reg-ics']) ? htmlspecialchars($_POST['reg-ics'], ENT_QUOTES) : '';
-                            $snd = !empty($_POST['reg-snd']) ? htmlspecialchars($_POST['reg-snd'], ENT_QUOTES) : '';
-                            $hhc = !empty($_POST['reg-hhc']) ? htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES) : '';
-                            $cBox = !empty($_POST['reg-cBox']) ? htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES) : '';
-                            $pm = !empty($_POST['reg-pm']) ? htmlspecialchars($_POST['reg-pm'], ENT_QUOTES) : '';
+                            $firstName = !empty($_POST['firstName']) ? htmlspecialchars($_POST['firstName'], ENT_QUOTES) : '';
+                            $lastName = !empty($_POST['lastName']) ? htmlspecialchars($_POST['lastName'], ENT_QUOTES) : '';
+                            $badgeName = !empty($_POST['badgeName']) ? htmlspecialchars($_POST['badgeName'], ENT_QUOTES) : '';
+                            $email = !empty($_POST['myEmail']) ? htmlspecialchars($_POST['myEmail'], ENT_QUOTES) : '';
+                            $phone = !empty($_POST['myPhone']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
+                            $address = !empty($_POST['myAddress']) ? htmlspecialchars($_POST['myAddress'], ENT_QUOTES) : '';
+                            $city = !empty($_POST['myCity']) ? htmlspecialchars($_POST['myCity'], ENT_QUOTES) : '';
+                            $state = !empty($_POST['myState']) ? htmlspecialchars($_POST['myState'], ENT_QUOTES) : '';
+                            $zc = !empty($_POST['myZipcode']) ? htmlspecialchars($_POST['myZipcode'], ENT_QUOTES) : '';
+                            $fs = !empty($_POST['myFellowship']) ? htmlspecialchars($_POST['myFellowship'], ENT_QUOTES) : '';
+                            $hg = !empty($_POST['myHomegroup']) ? htmlspecialchars($_POST['myHomegroup'], ENT_QUOTES) : '';
+                            $register = !empty($_POST['myRegistration']) ? htmlspecialchars($_POST['myRegistration'], ENT_QUOTES) : '';
+                            $ebmb = !empty($_POST['earlyBirdMealBundle']) ? htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES) : '';
+                            $mtsd = !empty($_POST['meetTheSpeakerDinner']) ? htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES) : '';
+                            $rucb = !empty($_POST['roundupContinentalBreakfast']) ? htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES) : '';
+                            $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
+                            $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
+                            $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
+                            $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
+                            $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
                             $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
 
 
@@ -226,64 +226,64 @@ include_once 'header-bottom.inc'
                         <legend>Personal Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fn" class="reg-form-label">First Name (Required)</label>
-                                <input type="text" class="form-control" name="reg-fn" id="reg-fn" required>
+                                <label for="firstName" class="reg-form-label">First Name (Required)</label>
+                                <input type="text" class="form-control" name="firstName" id="firstName" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your first name.
                                 </div>
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-ln" class="reg-form-label">Last Name or Initial (Required)</label>
-                                <input type="text" class="form-control" name="reg-ln" id="reg-ln" required>
+                                <label for="lastName" class="reg-form-label">Last Name or Initial (Required)</label>
+                                <input type="text" class="form-control" name="lastName" id="lastName" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your last name or initial.
                                 </div>
                             </div>
 
                             <div class="col-md-4">
-                                <label for="reg-bn" class="reg-form-label">Name to Appear on Badge</label>
-                                <input type="text" class="form-control" name="reg-bn" id="reg-bn">
+                                <label for="badgeName" class="reg-form-label">Name to Appear on Badge</label>
+                                <input type="text" class="form-control" name="badgeName" id="badgeName">
                                 <div class="invalid-feedback">
                                     Optional, please enter your name to appear on badge.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-em" class="reg-form-label">Email (Required)</label>
-                                <input type="email" class="form-control" name="reg-em" id="reg-em" required>
+                                <label for="myEmail" class="reg-form-label">Email (Required)</label>
+                                <input type="email" class="form-control" name="myEmail" id="myEmail" required>
                                 <div class="invalid-feedback">
                                     Required, please enter your email.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-phone" class="reg-form-label">Phone with Area Code</label>
-                                <input type="tel" class="form-control" name="reg-phone" id="reg-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <label for="myPhone" class="reg-form-label">Phone with Area Code</label>
+                                <input type="tel" class="form-control" name="myPhone" id="myPhone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
                                     Optional, please enter a valid phone number.
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="reg-addr" class="reg-form-label">Mailing Address</label>
-                                <input type="text" class="form-control" name="reg-addr" id="reg-addr">
+                                <label for="myAddress" class="reg-form-label">Mailing Address</label>
+                                <input type="text" class="form-control" name="myAddress" id="myAddress">
                                 <div class="invalid-feedback">
                                     Optional, please enter your address.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-city" class="reg-form-label">City</label>
-                                <input type="text" class="form-control" name="reg-city" id="reg-city" placeholder="Monterey">
+                                <label for="myCity" class="reg-form-label">City</label>
+                                <input type="text" class="form-control" name="myCity" id="myCity" placeholder="Monterey">
                                 <div class="invalid-feedback">
                                     Optional, please enter a city.
                                 </div>
                             </div>
 
                             <div class="col-md-3">
-                                <label for="reg-state" class="reg-form-label">State</label>
-                                <select class="form-select" name="reg-state" id="reg-state">
+                                <label for="myState" class="reg-form-label">State</label>
+                                <select class="form-select" name="myState" id="myState">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="AL">Alabama</option>
                                     <option value="AK">Alaska</option>
@@ -343,8 +343,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-3">
-                                <label for="reg-zc" class="reg-form-label">Zip Code</label>
-                                <input type="text" class="form-control" name="reg-zc" id="reg-zc">
+                                <label for="myZipcode" class="reg-form-label">Zip Code</label>
+                                <input type="text" class="form-control" name="myZipcode" id="myZipcode">
                                 <div class="invalid-feedback">
                                     Optional, please enter your zip code.
                                 </div>
@@ -356,8 +356,8 @@ include_once 'header-bottom.inc'
                         <legend>Fellowship Information</legend>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
-                                <label for="reg-fs" class="reg-form-label">Program (Required)</label>
-                                <select class="form-select" name="reg-fs" id="reg-fs" required>
+                                <label for="myFellowship" class="reg-form-label">Program (Required)</label>
+                                <select class="form-select" name="myFellowship" id="myFellowship" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="A.A.">A.A.</option>
                                     <option value="Al-Anon">Al-Anon</option>
@@ -370,8 +370,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-8">
-                                <label for="reg-hg" class="reg-form-label">Homegroup(s)</label>
-                                <input type="text" class="form-control" name="reg-hg" id="reg-hg">
+                                <label for="myHomegroup" class="reg-form-label">Homegroup(s)</label>
+                                <input type="text" class="form-control" name="myHomegroup" id="myHomegroup">
                                 <div class="invalid-feedback">
                                     Optional, please enter your Homegroup(s)
                                 </div>
@@ -385,12 +385,12 @@ include_once 'header-bottom.inc'
                             <div class="col-lg-5">
                                 <p class="h5">Registration (Required)</p>
                                 <div class="form-check">
-                                    <input type="radio" class="form-check-input" id="reg-early" name="radio-stacked" value="before" onChange="optionSND(this)" required>
-                                    <label class="form-check-label" for="reg-early">Early Registration (Before July 31, 2024) - $45</label>
+                                    <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="before" onChange="optionSND(this)" required>
+                                    <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
                                 </div>
                                 <div class="form-check mb-3">
-                                    <input type="radio" class="form-check-input" id="reg-late" name="radio-stacked" value="after" onChange="optionSND(this)" required>
-                                    <label class="form-check-label" for="reg-late">Registration (After July 31, 2024) - $50</label>
+                                    <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" onChange="optionSND(this)" required>
+                                    <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $50</label>
                                     <div class="invalid-feedback">
                                         Required, please check one.
                                     </div>
@@ -412,8 +412,8 @@ include_once 'header-bottom.inc'
                                     </li>
                                 </ul>
 
-                                <label for="reg-ebmb" class="reg-form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
-                                <select class="form-select" name="reg-ebmb" id="reg-ebmb" onChange="optionEBMB(this)" required>
+                                <label for="earlyBirdMealBundle" class="reg-form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
+                                <select class="form-select" name="earlyBirdMealBundle" id="earlyBirdMealBundle" onChange="optionEBMB(this)" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
                                     <option value="no">No thank you</option>
@@ -429,8 +429,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-mtsd" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
-                                <select class="form-select" name="reg-mtsd" id="reg-mtsd" onChange="optionCHANGE()" required>
+                                <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
+                                <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
                                     <option value="no">No thank you</option>
@@ -442,8 +442,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4">
-                                <label for="reg-rucb" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
-                                <select class="form-select" name="reg-rucb" id="reg-rucb" onChange="optionCHANGE()" required>
+                                <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
+                                <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
                                     <option value="no">No thank you</option>
@@ -455,8 +455,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-4 pb-4">
-                                <label for="reg-ics" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
-                                <select class="form-select" name="reg-ics" id="reg-ics" onChange="optionCHANGE()" required>
+                                <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
+                                <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" onChange="optionCHANGE()" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">Yes, please!</option>
                                     <option value="no">No thank you</option>
@@ -468,8 +468,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-lg-6">
-                                <label for="reg-snd" class="reg-form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
-                                <select class="form-select" name="reg-snd" id="reg-snd">
+                                <label for="saturdayNightDance" class="reg-form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                                <select class="form-select" name="saturdayNightDance" id="saturdayNightDance">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="yes">I'll be wearing my dancing shoes!</option>
                                     <option value="no">I don't dance...LOL</option>
@@ -480,8 +480,8 @@ include_once 'header-bottom.inc'
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <label for="reg-hhc" class="reg-form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
-                                <select class="form-select" name="reg-hhc" id="reg-hhc">
+                                <label for="helpingHandContribution" class="reg-form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
+                                <select class="form-select" name="helpingHandContribution" id="helpingHandContribution">
                                     <option selected disabled value="">Choose...</option>
                                     <option value="5">$5</option>
                                     <option value="10">$10</option>
@@ -505,8 +505,8 @@ include_once 'header-bottom.inc'
                         <div class="row justify-content-center">
                             <div class="col-md-6">
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" name="reg-cBox" id="invalidCheck" value="1" required>
-                                    <label class="form-check-label" for="invalidCheck">
+                                    <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
+                                    <label class="form-check-label" for="paymentCheckBox" aria-desc>
                                         I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
                                     </label>
                                     <div class="invalid-feedback">
@@ -516,8 +516,8 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="reg-pm" class="reg-form-label">Payment Method Options Below(Required)</label>
-                                <select class="form-select" name="reg-pm" id="reg-pm" required>
+                                <label for="paymentMethod" class="reg-form-label">Payment Method Options Below(Required)</label>
+                                <select class="form-select" name="paymentMethod" id="paymentMethod" required>
                                     <option selected disabled value="">Choose...</option>
                                     <option value="venmo">Venmo</option>
                                     <option value="cash">Cash</option>
@@ -714,7 +714,7 @@ include_once 'header-bottom.inc'
          */
         function optionEBMB($obj) {
 
-            let myArr = ['reg-mtsd', 'reg-rucb', 'reg-ics'];
+            let myArr = ['meetTheSpeakerDinner', 'roundupContinentalBreakfast', 'iceCreamSocial'];
 
             myArr.forEach(function($key) {
                 if ($obj.value == "yes" || $obj.value == "undecided")
@@ -726,7 +726,7 @@ include_once 'header-bottom.inc'
         }
 
         function optionSND($obj) {
-            let snd = document.getElementById("reg-snd");
+            let snd = document.getElementById("saturdayNightDance");
             if ($obj.checked)
                 snd.value = "yes";
             else
@@ -734,10 +734,10 @@ include_once 'header-bottom.inc'
         }
 
         function optionCHANGE() {
-            let ebmb = document.getElementById('reg-ebmb');
-            let mtsd = document.getElementById('reg-mtsd');
-            let rucb = document.getElementById('reg-rucb');
-            let ics = document.getElementById('reg-ics');
+            let ebmb = document.getElementById('earlyBirdMealBundle');
+            let mtsd = document.getElementById('meetTheSpeakerDinner');
+            let rucb = document.getElementById('roundupContinentalBreakfast');
+            let ics = document.getElementById('iceCreamSocial');
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";

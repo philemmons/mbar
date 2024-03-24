@@ -12,26 +12,26 @@ function regFormData($total)
 {
      global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
 
-     $firstName = isset($_POST['reg-fn']) ? strtolower(htmlspecialchars($_POST['reg-fn'], ENT_QUOTES)) : '';
-     $lastName = isset($_POST['reg-ln']) ? strtolower(htmlspecialchars($_POST['reg-ln'], ENT_QUOTES)) : '';
-     $badgeName = isset($_POST['reg-bn']) ? strtolower(htmlspecialchars($_POST['reg-bn'], ENT_QUOTES)) : '';
-     $email = isset($_POST['reg-em']) ? strtolower(htmlspecialchars($_POST['reg-em'], ENT_QUOTES)) : '';
-     $phone = isset($_POST['reg-phone']) ? strtolower(htmlspecialchars($_POST['reg-phone'], ENT_QUOTES)) : '';
-     $address = isset($_POST['reg-addr']) ? strtolower(htmlspecialchars($_POST['reg-addr'], ENT_QUOTES)) : '';
-     $city = isset($_POST['reg-city']) ? strtolower(htmlspecialchars($_POST['reg-city'], ENT_QUOTES)) : '';
-     $state = isset($_POST['reg-state']) ? strtolower(htmlspecialchars($_POST['reg-state'], ENT_QUOTES)) : '';
-     $zc = isset($_POST['reg-zc']) ? strtolower(htmlspecialchars($_POST['reg-zc'], ENT_QUOTES)) : '';
-     $fs = isset($_POST['reg-fs']) ? strtolower(htmlspecialchars($_POST['reg-fs'], ENT_QUOTES)) : '';
-     $hg = isset($_POST['reg-hg']) ? strtolower(htmlspecialchars($_POST['reg-hg'], ENT_QUOTES)) : '';
-     $register = isset($_POST['radio-stacked']) ? strtolower(htmlspecialchars($_POST['radio-stacked'], ENT_QUOTES)) : '';
-     $ebmb = isset($_POST['reg-ebmb']) ? strtolower(htmlspecialchars($_POST['reg-ebmb'], ENT_QUOTES)) : '';
-     $mtsd = isset($_POST['reg-mtsd']) ? strtolower(htmlspecialchars($_POST['reg-mtsd'], ENT_QUOTES)) : '';
-     $rucb = isset($_POST['reg-rucb']) ? strtolower(htmlspecialchars($_POST['reg-rucb'], ENT_QUOTES)) : '';
-     $ics = isset($_POST['reg-ics']) ? strtolower(htmlspecialchars($_POST['reg-ics'], ENT_QUOTES)) : '';
-     $snd = isset($_POST['reg-snd']) ? strtolower(htmlspecialchars($_POST['reg-snd'], ENT_QUOTES)) : '';
-     $hhc = isset($_POST['reg-hhc']) ? strtolower(htmlspecialchars($_POST['reg-hhc'], ENT_QUOTES)) : '';
-     $cBox = isset($_POST['reg-cBox']) ? strtolower(htmlspecialchars($_POST['reg-cBox'], ENT_QUOTES)) : '';
-     $pm = isset($_POST['reg-pm']) ? strtolower(htmlspecialchars($_POST['reg-pm'], ENT_QUOTES)) : '';
+     $firstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
+     $lastName = isset($_POST['lastName']) ? strtolower(htmlspecialchars($_POST['lastName'], ENT_QUOTES)) : '';
+     $badgeName = isset($_POST['badgeName']) ? strtolower(htmlspecialchars($_POST['badgeName'], ENT_QUOTES)) : '';
+     $email = isset($_POST['myEmail']) ? strtolower(htmlspecialchars($_POST['myEmail'], ENT_QUOTES)) : '';
+     $phone = isset($_POST['myPhone']) ? strtolower(htmlspecialchars($_POST['myPhone'], ENT_QUOTES)) : '';
+     $address = isset($_POST['myAddress']) ? strtolower(htmlspecialchars($_POST['myAddress'], ENT_QUOTES)) : '';
+     $city = isset($_POST['myCity']) ? strtolower(htmlspecialchars($_POST['myCity'], ENT_QUOTES)) : '';
+     $state = isset($_POST['myState']) ? strtolower(htmlspecialchars($_POST['myState'], ENT_QUOTES)) : '';
+     $zc = isset($_POST['myZipcode']) ? strtolower(htmlspecialchars($_POST['myZipcode'], ENT_QUOTES)) : '';
+     $fs = isset($_POST['myFellowship']) ? strtolower(htmlspecialchars($_POST['myFellowship'], ENT_QUOTES)) : '';
+     $hg = isset($_POST['myHomegroup']) ? strtolower(htmlspecialchars($_POST['myHomegroup'], ENT_QUOTES)) : '';
+     $register = isset($_POST['myRegistration']) ? strtolower(htmlspecialchars($_POST['myRegistration'], ENT_QUOTES)) : '';
+     $ebmb = isset($_POST['earlyBirdMealBundle']) ? strtolower(htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES)) : '';
+     $mtsd = isset($_POST['meetTheSpeakerDinner']) ? strtolower(htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES)) : '';
+     $rucb = isset($_POST['roundupContinentalBreakfast']) ? strtolower(htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES)) : '';
+     $ics = isset($_POST['iceCreamSocial']) ? strtolower(htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES)) : '';
+     $snd = isset($_POST['saturdayNightDance']) ? strtolower(htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES)) : '';
+     $hhc = isset($_POST['helpingHandContribution']) ? strtolower(htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES)) : '';
+     $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
+     $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
 
      saveData($total);
 }
@@ -278,33 +278,32 @@ function getRegInfo($regID)
 }
 
 
-function formatPhone($phoneNumber) {
-     $phoneNumber = preg_replace('/[^0-9]/','',$phoneNumber);
- 
-     if(strlen($phoneNumber) > 10) {
-         $countryCode = substr($phoneNumber, 0, strlen($phoneNumber)-10);
-         $areaCode = substr($phoneNumber, -10, 3);
-         $nextThree = substr($phoneNumber, -7, 3);
-         $lastFour = substr($phoneNumber, -4, 4);
- 
-         $phoneNumber = '+'.$countryCode.' ('.$areaCode.')'.$nextThree.'-'.$lastFour;
+function formatPhone($phoneNumber)
+{
+     $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
+
+     if (strlen($phoneNumber) > 10) {
+          $countryCode = substr($phoneNumber, 0, strlen($phoneNumber) - 10);
+          $areaCode = substr($phoneNumber, -10, 3);
+          $nextThree = substr($phoneNumber, -7, 3);
+          $lastFour = substr($phoneNumber, -4, 4);
+
+          $phoneNumber = '+' . $countryCode . ' (' . $areaCode . ')' . $nextThree . '-' . $lastFour;
+     } else if (strlen($phoneNumber) == 10) {
+          $areaCode = substr($phoneNumber, 0, 3);
+          $nextThree = substr($phoneNumber, 3, 3);
+          $lastFour = substr($phoneNumber, 6, 4);
+
+          $phoneNumber = '(' . $areaCode . ')' . $nextThree . '-' . $lastFour;
+     } else if (strlen($phoneNumber) == 7) {
+          $nextThree = substr($phoneNumber, 0, 3);
+          $lastFour = substr($phoneNumber, 3, 4);
+
+          $phoneNumber = $nextThree . '-' . $lastFour;
      }
-     else if(strlen($phoneNumber) == 10) {
-         $areaCode = substr($phoneNumber, 0, 3);
-         $nextThree = substr($phoneNumber, 3, 3);
-         $lastFour = substr($phoneNumber, 6, 4);
- 
-         $phoneNumber = '('.$areaCode.')'.$nextThree.'-'.$lastFour;
-     }
-     else if(strlen($phoneNumber) == 7) {
-         $nextThree = substr($phoneNumber, 0, 3);
-         $lastFour = substr($phoneNumber, 3, 4);
- 
-         $phoneNumber = $nextThree.'-'.$lastFour;
-     }
- 
+
      return $phoneNumber;
- }
+}
 
 
 
