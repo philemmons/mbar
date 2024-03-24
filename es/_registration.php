@@ -599,8 +599,8 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Descarga el Formulario de Inscripción</a></h3>
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
-                            <p>MONTEREY BAY AREA ROUNDUP<br>
-                                Att: Naomi B.<br>
+                            <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
+                                Attn: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942
                             </p>
