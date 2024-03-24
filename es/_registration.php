@@ -563,18 +563,18 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div id="payment-now"></div>
-                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="fw-bold text-dark px-3 px-md-0">Métodos de Pago
                         </h3>
                         <p>Agregue su nombre de registro en el pago. Si paga por <strong>más</strong> de una persona, agregue su(s) nombre(s) en la sección de notas. Los códigos QR a continuación requieren las aplicaciones móviles. Si necesita ayuda para realizar un pago, envíe un correo electrónico a <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>.
                         </p>
                         <div class="row">
-                            <div class="col-sm-6 py-3">
+                            <div class="col-sm-6 py-5">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                             </div>
-                            <div class="col-sm-6 py-3">
+                            <div class="col-sm-6 py-5">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
