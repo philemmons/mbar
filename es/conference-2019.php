@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-teresa.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-teresa.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Teresa J. Archivo de Audio</span>
@@ -187,7 +187,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-harry.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-harry.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Harry H. Archivo de Audio</span>
@@ -204,7 +204,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-jane.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-jane.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Jane H. Archivo de Audio</span>
@@ -343,7 +343,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-doctors-opinion-panel.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-doctors-opinion-panel.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;"> Panel de Opinión de Médicos Archivo de Audio</span>
@@ -360,7 +360,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-emotional-sobriety-workshop.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-emotional-sobriety-workshop.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Taller de Sobriedad Emocional Archivo de Audio</span>
@@ -379,7 +379,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-many-paths-spirituality-panel.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-many-paths-spirituality-panel.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Reunión del Panel Muchos Caminos Hacia la Espiritualidad Archivo de Audio</span>
@@ -408,7 +408,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-charlie.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-charlie.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Charlie H. Henderson Archivo de Audio</span>
@@ -475,7 +475,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-louise.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-louise.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Louise M. Archivo de Audio</span>
@@ -517,7 +517,7 @@ include_once 'header-bottom.inc'
                                     </audio>
                                 </div>
                                 <div class="col-sm-6">
-                                <a href="con-2019-pat.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-pat.php" class="btn btn-outline-primary btn-sm">Leer Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </div>
                             <span style="font-size: 15px; color: #00f;">Pat B. Archivo de Audio</span>
@@ -552,7 +552,7 @@ include_once 'header-bottom.inc'
                                 </li>
                             </ul>
                             <br>
-                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">
+                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer">
                                 <img class="img-fluid" src="../images/mbiaa-logo.png" alt="Logotipo del Intergrupo de Alcohólicos Anónimos del Área de la Bahía de Monterey, haga clic para regresar a la página aamonterey.org."><span class="sr-only">(Abre una nueva ventana)</span></a>
                             <br><br>
                             Haga clic en el logotipo de arriba para ver nuestro grupo local de A.A. Visite el sitio web de la Oficina Central para obtener una lista actualizada de las reuniones en el área después de la conclusión de la conferencia.
@@ -627,7 +627,7 @@ include_once 'header-bottom.inc'
                             <h4 class="card-title mb-3 text-center text-uppercase">Accesibilidad ADA</h4>
                             <p>Nuestro equipo está comprometido a garantizar el éxito de su evento. Analice cualquier área que no esté cubierta en este documento con su Administrador de Eventos o Nuestro Personal. Estas políticas, reglas y regulaciones generales están sujetas a cambios.
                             </p>
-                            <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank"><strong>La política de cumplimiento de la ADA del Monterey Conference Center</strong><span class="sr-only">(Abre una nueva ventana)</span></a> - El Centro de Conferencias de Monterey (MCC) cumple con la ADA. De acuerdo con la ADA, somos responsables de las adaptaciones asociadas con el acceso permanente a las instalaciones, como, entre otras, rampas para sillas de ruedas, estándares de ascensores, estándares de ancho de puertas y accesibilidad a los baños.
+                            <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow"><strong>La política de cumplimiento de la ADA del Monterey Conference Center</strong><span class="sr-only">(Abre una nueva ventana)</span></a> - El Centro de Conferencias de Monterey (MCC) cumple con la ADA. De acuerdo con la ADA, somos responsables de las adaptaciones asociadas con el acceso permanente a las instalaciones, como, entre otras, rampas para sillas de ruedas, estándares de ascensores, estándares de ancho de puertas y accesibilidad a los baños.
                             </p>
                             <p>Es responsabilidad del cliente o inquilino adaptarse a los requisitos de accesibilidad no permanente e incorporar dispositivos de asistencia visual, intérpretes y accesibilidad temporal a asientos si es necesario.
                             </p>

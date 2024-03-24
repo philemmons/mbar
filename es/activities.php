@@ -186,37 +186,37 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section class="card-title">
                             <h4 class="card-title text-center mb-3 text-uppercase">Explorando Monterey y Sus Alrededores</h4>
-                            <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
+                            <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
                         </section>
                         <div class="row">
                             <div class="col-sm-6">
-                                <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank">Visita la Costa<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p><a href="https://www.seemonterey.com/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Visita la Costa<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
                             <div class="col-sm-6">
-                                <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank">Senderismo en Punta Lobos<span class="sr-only">(Abre una nueva ventana)</span></a></p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank">Acuario de la Bahía de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Montar en bicicleta<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p><a href="https://www.parks.ca.gov/?page_id=571" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Senderismo en Punta Lobos<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-sm-6">
-                                <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank">Restaurantes<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p><a href="https://www.montereybayaquarium.org/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Acuario de la Bahía de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
                             <div class="col-sm-6">
-                                <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank">Carmelo-Junto-Al-Mar<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                                <p><a href="https://www.yelp.com/search?find_desc=Bicycle+rental&find_loc=Monterey%2C+CA" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Montar en bicicleta<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><a href="https://www.yelp.com/search?find_desc=Restaurants&amp;find_loc=Monterey%2C+CA" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Restaurantes<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p><a href="https://www.carmelcalifornia.com/carmel-beach/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">Carmelo-Junto-Al-Mar<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
                         </div>
 
                         <div class="text-center pt-4">
-                            <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank">Consulte nuestras reuniones locales<span class="sr-only">(Abre una nueva ventana)</span></a></h4>
+                            <h4><a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer">Consulte nuestras reuniones locales<span class="sr-only">(Abre una nueva ventana)</span></a></h4>
                             <p><img class="img-fluid" src="../images/mbiaa-logo.png" alt="Intergrupo de la Bahía de Monterey de A.A. logo"></p>
                         </div>
                     </div>

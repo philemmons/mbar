@@ -108,7 +108,7 @@ include_once 'header-bottom.inc'
                                 "We began to learn... that the partner of the alcoholic also needed to live by a spiritual program."
                             </p>
                             <p class="text-center">
-                                <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
+                                <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Visit Al-Anon of Monterey<span class="sr-only">(Opens a new window)</span><a>
                             </p>
                         </section>
                     </div>

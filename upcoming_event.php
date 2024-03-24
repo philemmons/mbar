@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <section aria-label="Event header">
                                    <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presents</a></h3>
-                                   <p class="mb-6 h5 text-dark">☘️<strong>St. Patrick's Potluck and Speaker Meeting</strong>☘️
+                                   <p class="mb-6 h5 text-dark"><span aria-hidden='true'>☘️</span><strong>St. Patrick's Potluck and Speaker Meeting</strong><span aria-hidden='true'>☘️</span>
                                         <br>
                                         Join us in the "Funds and Fellowship"
                                         <br><br>

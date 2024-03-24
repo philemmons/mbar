@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <section aria-label="Encabezado del Evento">
                                    <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presenta</a></h3>
-                                   <p class="mb-6 h5 text-dark">☘️<strong>Comida Compartida y Reunión de Oradores de San Patricio</strong>☘️
+                                   <p class="mb-6 h5 text-dark"><span aria-hidden='true'>☘️</span><strong>Comida Compartida y Reunión de Oradores de San Patricio</strong><span aria-hidden='true'>☘️</span>
                                         <br>
                                         Únete a nosotros en los "Fondos y Compañerismo""
                                         <br><br>
