@@ -567,7 +567,11 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="fw-bold text-dark px-3 px-md-0">Métodos de Pago
                         </h3>
-                        <p>Agregue su nombre de registro en el pago. Si paga por <strong>más</strong> de una persona, agregue su(s) nombre(s) en la sección de notas. Los códigos QR a continuación requieren las aplicaciones móviles. Si necesita ayuda para realizar un pago, envíe un correo electrónico a <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>.
+                        <p><strong>Agregue su nombre de registro en el pago. Si paga por <i>más</i> de una persona, agregue su(s) nombre(s) en la sección de notas.</strong>
+                        </p>
+                        <p class="bb-link">Recuerde: Su pago completa su registro!
+                        </p>
+                        <p>Los códigos QR a continuación requieren las aplicaciones móviles. Si necesita ayuda para realizar un pago, envíe un correo electrónico a <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador del Sistema</a>.
                         </p>
                         <div class="row">
                             <div class="col-sm-6 py-5">

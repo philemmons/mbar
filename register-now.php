@@ -92,7 +92,11 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Payment Methods">
                         <h3 class="fw-bold text-dark px-3 px-md-0">Payment Methods
                         </h3>
-                        <p>Please add your registration name in the payment. If you are paying for <strong>more</strong> than one person, add their name(s) in the note section. The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>.
+                        <p><strong>Please add your registration name in the payment. If you are paying for <i>more</i> than one person, add their name(s) in the note section.</strong>
+                        </p>
+                        <p class="bb-link">Remember: Your payment completes your registration!
+                        </p>
+                        <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">System Admin</a>.
                         </p>
                         <div class="row">
                             <div class="col-sm-6 py-5">
