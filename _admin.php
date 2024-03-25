@@ -44,7 +44,7 @@ function getOnePara($alpha)
   return displayTot($tot);
 }
 
-
+ 
 function getTwoPara($alpha, $beta)
 {
   global $dbConn;
@@ -84,6 +84,7 @@ function displayRegAdmin($registration)
     $fPhone = formatPhone($eachReg['phone']);
 
     echo "<tr>";
+    echo "<td>" . $eachReg['result'] . "</td>";
     echo "<td>" . $eachReg['firstname'] . "</td>";
     echo "<td>" . $eachReg['lastname'] . "</td>";
     echo "<td>" . $eachReg['email'] . "</td>";
@@ -105,7 +106,6 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['paid'] . "</td>";
     echo "<td>" . $eachReg['verification'] . "</td>";
     echo "<td>" . $eachReg['helpinghand'] . "</td>";
-    echo "<td>" . $eachReg['result'] . "</td>";
     echo "<td>" . $fPhone . "</td>";
     echo "<td>" . $eachReg['address'] . "</td>";
     echo "<td>" . $eachReg['city'] . "</td>";
@@ -359,6 +359,7 @@ function displayRegAdmin($registration)
             <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
             <thead class='table-dark text-center'>
               <tr>
+                <th>Date</th>
                 <th>First</th>
                 <th>Last</th>
                 <th>Email</th>
@@ -369,7 +370,6 @@ function displayRegAdmin($registration)
                 <th>Paid</th>
                 <th>Tran ID</th>
                 <th>Help-Hand</th>
-                <th>Date</th>
                 <th>Phone</th>
                 <th>Address</th>
                 <th>City</th>

@@ -146,7 +146,8 @@ function getUserInfo($email)
 */
 function getRegData($table)
 {
-     $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
+     $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY id DESC";
+     // $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result ASC";
      return preExeFetNOPARA($sql);
 }
 
