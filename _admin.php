@@ -410,7 +410,8 @@ function displayRegAdmin($registration)
   <script>
     //https://datatables.net/reference/option
     new DataTable('#adminDisplay', {
-      responsive: true
+      responsive: true,
+      order: [[0, 'desc']]
     });
   </script>
 
