@@ -315,39 +315,36 @@ function displayRegAdmin($registration)
                   <fieldset pb-3 mb-3>
                     <legend>Activity Breakdown</legend>
 
-                  <div class='row py-2'>
-                    <div class='col-sm-3'>
-                      Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                    <div class='row py-2'>
+                      <div class='col-sm-3'>
+                        Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                        <br><br>
+                        Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                        <br><br>
+                        Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
+                        <br><br>
+                        Total Dance: <?php echo (getZeroPara() - getTwoPara('dance', 'no')); ?>
+                      </div>
                     </div>
-                    <div class="col-sm-3">
-                      Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Total Dance: <?php echo (getZeroPara() - getTwoPara('dance', 'no')); ?>
-                    </div>
-                  </div>
 
 
-                  <div class='row py-2'>
-                    <div class='col-sm-2'>
-                      Total Meal Bundles: <?php echo getTwoPara('ebmb', 'yes'); ?>
+                    <div class='row py-2'>
+                      <div class='col-sm-2'>
+                        Meal Bundle Only: <?php echo getTwoPara('ebmb', 'yes'); ?>
+                      </div>
+                      <div class="col-sm-2">
+                        Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
+                      </div>
+                      <div class='col-sm-2'>
+                        Breakfast Only: <?php echo getTwoPara('breakfast', 'yes'); ?>
+                      </div>
+                      <div class='col-sm-2'>
+                        Ice Cream Only: <?php echo getTwoPara('icecream', 'yes'); ?>
+                      </div>
+                      <div class='col-sm-2'>
+                        Dance Only: <?php echo getTwoPara('dance', 'yes'); ?>
+                      </div>
                     </div>
-                    <div class="col-sm-2">
-                      Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
-                    </div>
-                    <div class='col-sm-2'>
-                      Breakfast Only: <?php echo getTwoPara('breakfast', 'yes'); ?>
-                    </div>
-                    <div class='col-sm-2'>
-                      Ice Cream Only: <?php echo getTwoPara('icecream', 'yes'); ?>
-                    </div>
-                    <div class='col-sm-2'>
-                      Dance Only: <?php echo getTwoPara('dance', 'yes'); ?>
-                    </div>
-                  </div>
 
                   </fieldset>
 
