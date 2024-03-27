@@ -196,6 +196,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         <div class="row justify-content-center mb-5">
             <div class="col-xl-12 py-4">
                 <h3>Update Registration Info</h3>
+                <p>Currently, the first name, last name, email, pre-registration type, and reg date text fields are NOT updatable by request. Let me know if they need to be changed.
+                </p>
                 <br>
 
                 <?php
@@ -507,7 +509,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-ebmb" id="upd-ebmb" onChange="optionEBMB(this)" required >
+                                <select class="form-select" name="upd-ebmb" id="upd-ebmb" onChange="optionEBMB(this)" required>
                                     <option value="<?= $regInfo['ebmb'] ?>" selected> <?php echo $regInfo['ebmb'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
