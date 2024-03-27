@@ -21,6 +21,18 @@ if (isset($_POST['logout'])) {
 
 /**** registration totals ****/
 
+
+/**** event pricing ****/
+
+$preregPrice= 45.0;
+$regPrice= 50.0;
+$ebmbPrice= 35.0;
+$mtsdPrice= 25.0;
+$rucbPrice= 10.0;
+$icsPrice= 5.0;
+$sndPrice= 5.0;
+
+
 function getZeroPara()
 {
   global $dbConn;
@@ -268,6 +280,8 @@ function displayRegAdmin($registration)
                   </div>
 
 
+                  <fieldset>
+                    <legend>Pre Registration Info</legend>
                   <div class='row pb-3'>
                     <div class="col-sm-4">
                       Total Registrations: <?php echo getZeroPara(); ?>
@@ -279,7 +293,9 @@ function displayRegAdmin($registration)
                       After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
                     </div>
                   </div>
+                  </fieldset>
 
+                  <br>
 
                   <fieldset>
                     <legend>Revenue Breakdown</legend>
@@ -324,12 +340,27 @@ function displayRegAdmin($registration)
                         # of PayPal: <?php echo getTwoPara('payment', 'paypal'); ?>
                       </div>
                     </div>
+
+                    <div class='row pb-3'>
+                      <div class="col-sm-3">
+                        Dinner Only: $<?php echo (getTwoPara('speakerdinner', 'yes')* $mtsdPrice); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Breakfast Only: $<?php echo (getTwoPara('breakfast', 'yes')* $rucbPrice); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Ice Cream Only: $<?php echo (getTwoPara('icecream', 'yes')* $icsPrice); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Meal Bundle Only: $<?php echo (getTwoPara('ebmb', 'yes')* $ebmbPrice); ?>.00
+                      </div>
+                    </div>
                   </fieldset>
 
                   <br>
 
                   <fieldset>
-                    <legend>Activity Breakdown</legend>
+                    <legend>Activity Details</legend>
                     <div class='row pb-3'>
                       <div class='col-sm-3'>
                         Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
@@ -364,7 +395,7 @@ function displayRegAdmin($registration)
                   <br>
 
                   <fieldset>
-                    <legend>Fellowship Breakdown</legend>
+                    <legend>Fellowship Stats</legend>
                     <div class='row pb-3'>
                       <div class="col-sm-3">
                         AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
@@ -396,16 +427,16 @@ function displayRegAdmin($registration)
                   <br>
 
                   <fieldset>
-                    <legend>Dance Breakdown</legend>
+                    <legend>Dance Dance Dance</legend>
                     <div class='row pb-3'>
                       <div class="col-sm-4">
                         I'll be wearing my dancing shoes: <?php echo getTwoPara('dance', 'yes'); ?>
                       </div>
                       <div class='col-sm-4'>
-                        I would rather be knitting: <?php echo getTwoPara('dance', 'no'); ?>
+                        Undecided: <?php echo getTwoPara('dance', 'undecided'); ?>
                       </div>
                       <div class='col-sm-4'>
-                        Undecided: <?php echo getTwoPara('dance', 'undecided'); ?>
+                        I would rather be knitting: <?php echo getTwoPara('dance', 'no'); ?>
                       </div>
                     </div>
                   </fieldset>
