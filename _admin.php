@@ -379,13 +379,34 @@ function displayRegAdmin($registration)
                         Other: <?php echo getTwoPara('fellowship', 'other'); ?>
                       </div>
                       <div class='col-sm-3'>
-                        Other: <?php echo getTwoPara('fellowship', 'other'); ?>
+                        English: <?php echo getTwoPara('lang', 'en'); ?>
                       </div>
                       <div class='col-sm-3'>
-                        Other: <?php echo getTwoPara('fellowship', 'other'); ?>
+                        Spanish: <?php echo getTwoPara('lang', 'es'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Other Language: <?php echo getTwoPara('lang', 'other'); ?>
                       </div>
                     </div>
                   </fieldset>
+
+                  <br>
+
+                  <fieldset>
+                    <legend>Dance Breakdown</legend>
+                    <div class='row py-2'>
+                      <div class="col-sm-4">
+                        I'll be wearing my dancing shoes: <?php echo getTwoPara('dance', 'yes'); ?>
+                      </div>
+                      <div class='col-sm-4'>
+                        I would rather be knitting: <?php echo getTwoPara('dance', 'no'); ?>
+                      </div>
+                      <div class='col-sm-4'>
+                        Undecided: <?php echo getTwoPara('dance', 'undecided'); ?>
+                      </div>
+                    </div>
+                  </fieldset>
+
 
                 </div>
               </div>
