@@ -61,8 +61,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             WHERE id = :reg_id";
 
 
-
-
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
     //$nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
     //$nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
@@ -472,8 +470,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="form-floating">
                                 <select class="form-select" name="upd-lang" id="upd-lang" required>
                                     <option value="<?= $regInfo['lang'] ?>" selected> <?php echo $regInfo['lang'] ?></option>
-                                    <option value="en">english(en)</option>
-                                    <option value="es">spanish(es)</option>
+                                    <option value="en">English(EN)</option>
+                                    <option value="es">Spanish(ES)</option>
+                                    <option value="other">Other</option>
                                 </select>
                                 <label for="upd-lang" class="form-label">Language</label>
                             </div>
