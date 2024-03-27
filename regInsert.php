@@ -492,8 +492,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="form-floating">
                             <select class="form-select" name="ins-lang" id="ins-lang" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option value="en">English</option>
-                                <option value="es">Spanish</option>
+                                <option value="en">english(en)</option>
+                                <option value="es">spanish(sp)</option>
                             </select>
                             <label for="ins-lang" class="form-label">Language *</label>
                         </div>

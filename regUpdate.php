@@ -472,8 +472,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="form-floating">
                                 <select class="form-select" name="upd-lang" id="upd-lang" required>
                                     <option value="<?= $regInfo['lang'] ?>" selected> <?php echo $regInfo['lang'] ?></option>
-                                    <option value="en">English</option>
-                                    <option value="es">Spanish</option>
+                                    <option value="en">english(en)</option>
+                                    <option value="es">spanish(es)</option>
                                 </select>
                                 <label for="upd-lang" class="form-label">Language</label>
                             </div>

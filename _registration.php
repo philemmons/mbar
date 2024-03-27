@@ -151,6 +151,7 @@ include_once 'header-bottom.inc'
                             $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                             $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
                             $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+                            // Change lang variable as needed based on lang reg form
                             $lang = 'en';
 
 
