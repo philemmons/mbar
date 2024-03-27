@@ -151,6 +151,7 @@ include_once 'header-bottom.inc'
                             $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                             $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
                             $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+                            $lang = 'en';
 
 
                             // Send email notification to the site admin 
@@ -195,7 +196,7 @@ include_once 'header-bottom.inc'
                             $statusMsg = 'Your pre-registration was sent, and it will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
                             $postData = '';
 
-                            regFormData($total);
+                            regFormData($total, $lang);
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
                         }

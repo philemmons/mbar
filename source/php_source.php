@@ -8,9 +8,9 @@ $dbConn = getDBConnection();
  * @input: register form fields
  * @output variables assigned are converted to HTML predefined entities, including quotes, and lowercase
  */
-function regFormData($total)
+function regFormData($total, $lang)
 {
-     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
+     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
 
      $firstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
      $lastName = isset($_POST['lastName']) ? strtolower(htmlspecialchars($_POST['lastName'], ENT_QUOTES)) : '';
@@ -33,7 +33,7 @@ function regFormData($total)
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
 
-     saveData($total);
+     saveData($total, $lang);
 }
 
 
@@ -166,9 +166,9 @@ function getBadgeData($table)
      return preExeFetNOPARA($sql);
 }
 
-function saveData($total)
+function saveData($total, $lang)
 {
-     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total;
+     global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
@@ -194,9 +194,10 @@ function saveData($total)
                     helpinghand,
                     tos,
                     payment,
-                    total
+                    total,
+                    lang
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, $lang
                 )";
 
           $nPara[':firstName'] = $firstName;
@@ -305,35 +306,3 @@ function formatPhone($phoneNumber)
 
      return $phoneNumber;
 }
-
-
-
-/**
- * 
- * https://stackoverflow.com/questions/518795/dynamically-display-a-csv-file-as-an-html-table-on-a-web-page
- * 
- * function jj_readcsv($filename, $header = false)
-{
-    $handle = fopen($filename, "r");
-    echo '<div class="table-responsive"><table class="table table-sm table-striped table-bordered table-hover">';
-    //display header row if true
-    if ($header) {
-        $csvcontents = fgetcsv($handle);
-        echo '<tr>';
-        foreach ($csvcontents as $headercolumn) {
-            echo "<th>$headercolumn</th>";
-        }
-        echo '</tr>';
-    }
-    // displaying contents
-    while ($csvcontents = fgetcsv($handle)) {
-        echo '<tr>';
-        foreach ($csvcontents as $column) {
-            echo "<td style='width:1px; white-space:nowrap;'>$column</td>";
-        }
-        echo '</tr>';
-    }
-    echo '</table></div>';
-    fclose($handle);
-}
- */

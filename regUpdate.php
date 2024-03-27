@@ -56,7 +56,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 total = $total,
                 paid = :paid,
                 verification = :verify,
-                onfile = :of
+                onfile = :of,
+                lang = :lang
             WHERE id = :reg_id";
 
 
@@ -85,6 +86,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
     $nPara[':of'] = strtolower(htmlspecialchars($_POST['upd-of'], ENT_QUOTES));
+    $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -466,7 +468,21 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-5">
+                        <div class="col-lg-2">
+                            <div class="form-floating">
+                                <select class="form-select" name="upd-lang" id="upd-lang" required>
+                                    <option value="<?= $regInfo['lang'] ?>" selected> <?php echo $regInfo['lang'] ?></option>
+                                    <option value="en">English</option>
+                                    <option value="es">Spanish</option>
+                                </select>
+                                <label for="upd-lang" class="form-label">Language</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required - Enter language.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="upd-hg" id="upd-hg" placeholder="Enter HO" value="<?= $regInfo['homegroup'] ?>">
                                 <label for="upd-hg" class="form-label">Homegroup(s)</label>

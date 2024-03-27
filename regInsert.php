@@ -64,9 +64,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 paid,
                 tos,
                 verification,
-                onfile
+                onfile,
+                lang
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :of
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :of, :lang
                 )";
 
     //echo $sql . '<br>';
@@ -94,6 +95,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
     $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
     $nPara[':of'] = strtolower(htmlspecialchars($_POST['ins-of'], ENT_QUOTES));
+    $nPara[':lang'] = strtolower(htmlspecialchars($_POST['ins-lang'], ENT_QUOTES));
 
     // print_r($nPara); die;
 
@@ -486,7 +488,21 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-lang" id="ins-lang" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                            </select>
+                            <label for="ins-lang" class="form-label">Language *</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Required - Enter Language.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
                         <div class="form-floating">
                             <input type="text" class="form-control" name="ins-hg" id="ins-hg" placeholder="Enter homegroups(s)">
                             <label for="ins-hg" class="form-label">Homegroup(s)</label>

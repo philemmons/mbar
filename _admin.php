@@ -279,7 +279,7 @@ function displayRegAdmin($registration)
                     </div>
                   </div>
 
-                  
+
                   <fieldset>
                     <legend>Revenue Breakdown</legend>
                     <div class='row py-2'>
@@ -329,7 +329,6 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Activity Breakdown</legend>
-
                     <div class='row py-2'>
                       <div class='col-sm-3'>
                         Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
@@ -359,23 +358,33 @@ function displayRegAdmin($registration)
                         Meal Bundle Only: <?php echo getTwoPara('ebmb', 'yes'); ?>
                       </div>
                     </div>
-
                   </fieldset>
 
-                  <div class='row py-2'>
-                    <div class="col-sm-3">
-                      AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
+                  <br>
+
+                  <fieldset>
+                    <legend>Fellowship Breakdown</legend>
+                    <div class='row py-2'>
+                      <div class="col-sm-3">
+                        AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Both: <?php echo getTwoPara('fellowship', 'double winner'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Other: <?php echo getTwoPara('fellowship', 'other'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Other: <?php echo getTwoPara('fellowship', 'other'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        Other: <?php echo getTwoPara('fellowship', 'other'); ?>
+                      </div>
                     </div>
-                    <div class='col-sm-3'>
-                      Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Both: <?php echo getTwoPara('fellowship', 'double winner'); ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Other: <?php echo getTwoPara('fellowship', 'other'); ?>
-                    </div>
-                  </div>
+                  </fieldset>
 
                 </div>
               </div>
@@ -416,6 +425,7 @@ function displayRegAdmin($registration)
                 <th>Zip Code</th>
                 <th>Fellowship</th>
                 <th>Home Group</th>
+                <th>Language</th>
                 <th>Reg Type</th>
                 <th>EBMB</th>
                 <th>Dinner</th>
