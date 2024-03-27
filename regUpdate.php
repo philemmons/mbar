@@ -38,10 +38,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     $sql = "UPDATE registration
             SET 
-                firstname = :firstName,
-                lastname = :lastName,
                 badgename = :badgeName,
-                email = :email,
                 phone = :phone,
                 address = :address,
                 city = :city,
@@ -49,7 +46,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 zipcode = :zc,
                 fellowship = :fs,
                 homegroup = :hg,
-                registration = :register,
                 ebmb = :ebmb,
                 speakerdinner = :mtsd,
                 breakfast = :rucb,
@@ -67,10 +63,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
 
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
-    $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
-    $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
+    //$nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
+    //$nPara[':lastName'] = strtolower(htmlspecialchars($_POST['upd-ln'], ENT_QUOTES));
     $nPara[':badgeName'] = strtolower(htmlspecialchars($_POST['upd-bn'], ENT_QUOTES));
-    $nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
+    //$nPara[':email'] = strtolower(htmlspecialchars($_POST['upd-em'], ENT_QUOTES));
     $nPara[':phone'] = strtolower(htmlspecialchars($fPhone, ENT_QUOTES));
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['upd-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['upd-city'], ENT_QUOTES));
@@ -78,7 +74,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':zc'] = strtolower(htmlspecialchars($_POST['upd-zc'], ENT_QUOTES));
     $nPara[':fs'] = strtolower(htmlspecialchars($_POST['upd-fs'], ENT_QUOTES));
     $nPara[':hg'] = strtolower(htmlspecialchars($_POST['upd-hg'], ENT_QUOTES));
-    $nPara[':register'] = strtolower(htmlspecialchars($_POST['upd-reg'], ENT_QUOTES));
+    //$nPara[':register'] = strtolower(htmlspecialchars($_POST['upd-reg'], ENT_QUOTES));
     $nPara[':ebmb'] = strtolower(htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES));
     $nPara[':mtsd'] = strtolower(htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES));
     $nPara[':rucb'] = strtolower(htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES));
@@ -97,20 +93,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     //sleep(5); // pause the modal
 
-} //eof if
+}
 
 ?>
-
-<!--<script src='js/jsFinal.js'></script>
-
-<script>
-    $(document).ready(function() {
-        $("#conName").change(function() {
-            notBlank("#conName");
-        });
-    }); //documentReady
-</script>
--->
 
 <nav class="navbar navbar-expand-lg" aria-label="main navigation">
     <div class="container">
@@ -228,7 +213,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required disabled>
+                                <input type="text" class="form-control" name="upd-fn" id="upd-fn" placeholder="Enter FN" value="<?= $regInfo['firstname'] ?>" required>
                                 <label for="upd-fn">First Name</label>
                             </div>
                             <div class="invalid-feedback">
@@ -238,7 +223,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $regInfo['lastname'] ?>" required disabled>
+                                <input type="text" class="form-control" name="upd-ln" id="upd-ln" placeholder="Enter LN" value="<?= $regInfo['lastname'] ?>" required>
                                 <label for="upd-ln" class="form-label">Last Name</label>
                             </div>
                             <div class="invalid-feedback">
@@ -258,7 +243,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required disabled>
+                                <input type="email" class="form-control" name="upd-em" id="upd-em" placeholder="Enter EM" value="<?= $regInfo['email'] ?>" required>
                                 <label for="upd-em" class="form-label">Email</label>
                             </div>
                             <div class="invalid-feedback">
@@ -296,7 +281,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>" disabled>
+                                <input type="number" class="form-control" name="upd-total" id="upd-total" placeholder="Enter TO" value="<?= $regInfo['total'] ?>">
                                 <label for="upd-total">Total</label>
                             </div>
                             <div class="invalid-feedback">
@@ -465,7 +450,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-fs" id="upd-fs" required disabled>
+                                <select class="form-select" name="upd-fs" id="upd-fs" required>
                                     <option value="<?= $regInfo['fellowship'] ?>" selected> <?php echo $regInfo['fellowship'] ?></option>
                                     <option value="a.a.">A.A.</option>
                                     <option value="al-anon">Al-Anon</option>
@@ -491,7 +476,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-reg" id="upd-reg" onChange="optionSND(this)" required disabled>
+                                <select class="form-select" name="upd-reg" id="upd-reg" onChange="optionSND(this)" required>
                                     <option value="<?= $regInfo['registration'] ?>" selected> <?php echo $regInfo['registration'] ?></option>
                                     <option value="before">Before</option>
                                     <option value="after">After</option>
@@ -522,7 +507,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-ebmb" id="upd-ebmb" onChange="optionEBMB(this)" required disabled>
+                                <select class="form-select" name="upd-ebmb" id="upd-ebmb" onChange="optionEBMB(this)" required >
                                     <option value="<?= $regInfo['ebmb'] ?>" selected> <?php echo $regInfo['ebmb'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
@@ -538,7 +523,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-mtsd" id="upd-mtsd" onChange="optionCHANGE()" required disabled>
+                                <select class="form-select" name="upd-mtsd" id="upd-mtsd" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['speakerdinner'] ?>" selected> <?php echo $regInfo['speakerdinner'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
@@ -554,7 +539,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-rucb" id="upd-rucb" onChange="optionCHANGE()" required disabled>
+                                <select class="form-select" name="upd-rucb" id="upd-rucb" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['breakfast'] ?>" selected> <?php echo $regInfo['breakfast'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
@@ -570,7 +555,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-ics" id="upd-ics" onChange="optionCHANGE()" required disabled>
+                                <select class="form-select" name="upd-ics" id="upd-ics" onChange="optionCHANGE()" required>
                                     <option value="<?= $regInfo['icecream'] ?>" selected> <?php echo $regInfo['icecream'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
