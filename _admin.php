@@ -29,7 +29,7 @@ function getZeroPara()
   //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   //print_r($tot);
-  return displayTot($tot);
+  return $tot[0]['result'];
 }
 
 
@@ -41,10 +41,10 @@ function getOnePara($alpha)
   //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   //print_r($tot);
-  return displayTot($tot);
+  return $tot[0]['result'];
 }
 
- 
+
 function getTwoPara($alpha, $beta)
 {
   global $dbConn;
@@ -53,7 +53,7 @@ function getTwoPara($alpha, $beta)
   //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   //print_r($tot);
-  return displayTot($tot);
+  return $tot[0]['result'];
 }
 
 function getHelpHand()
@@ -64,7 +64,7 @@ function getHelpHand()
   //echo $sql . '<br>';
   $tot =  preExeFetNOPARA($sql);
   //print_r($tot);
-  return displayTot($tot);
+  return $tot[0]['result'];
 }
 
 function displayTot($tot)
@@ -240,103 +240,114 @@ function displayRegAdmin($registration)
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <strong>Registration Totals</strong>
+                  <strong>Online Registration Summary</strong>
                 </button>
               </h3>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 
                   <div class='row py-2'>
-                    <div class='col-sm-3'>
-                      <a href="exportData.php" target='_blank' class="btn btn-primary btn-sm">CSV Export All Data</a>
+                    <div class="col-sm-6">
+                      <a href="exportData.php" target='_blank' class="btn btn-primary">CSV Export All Data</a>
                     </div>
-                    <div class="col-sm-3">
-                      Attendee's: <?php echo getZeroPara();
-                                  ?>
-                    </div>
-                    <div class="col-sm-3">
-                      Pre-Reg: <?php echo getTwoPara('registration', 'before');
-                                ?>
-                    </div>
-
-                    <div class='col-sm-3'>
-                      Post-Reg: <?php echo getTwoPara('registration', 'after');
-                                ?>
+                    <div class="col-sm-6">
+                      <a href="exportBadge.php" target='_blank' class="btn btn-primary">CSV Export Badge Data</a>
                     </div>
                   </div>
 
+
                   <div class='row py-2'>
-                    <div class='col-sm-3'>
-                      <a href="exportBadge.php" target='_blank' class="btn btn-primary btn-sm">CSV Export Badge Data</a>
+                    <div class="col-sm-4">
+                      Total Registrations: <?php echo getZeroPara(); ?>
                     </div>
-                    <div class='col-sm-3'>
-                      Amount Due: <?php echo getOnePara('total');
-                                  ?>
+                    <div class="col-sm-4">
+                      Before 7-1-24: <?php echo getTwoPara('registration', 'before'); ?>
                     </div>
-                    <div class='col-sm-3'>
-                      Amount Paid: <?php echo getOnePara('paid');
-                                    ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      Helping Hands: <?php echo getHelpHand();
-                                      ?>
+                    <div class='col-sm-4'>
+                      After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
                     </div>
                   </div>
 
+                  <hr>
+
                   <div class='row py-2'>
-                    <div class='col-sm-3'>
-                      Cash: <?php echo getTwoPara('payment', 'cash');
-                            ?>
+                    <div class='col-sm-4'>
+                      Total Amount Due: $<?php echo getOnePara('total'); ?>.00
                     </div>
-                    <div class="col-sm-3">
-                      Check: <?php echo getTwoPara('payment', 'check');
-                              ?>
+                    <div class='col-sm-4'>
+                      Total Amount Paid: $<?php echo getOnePara('paid'); ?>.00
                     </div>
-                    <div class='col-sm-3'>
-                      Venmo: <?php echo getTwoPara('payment', 'venmo');
-                              ?>
-                    </div>
-                    <div class='col-sm-3'>
-                      PayPal: <?php echo getTwoPara('payment', 'paypal');
-                              ?>
+                    <div class='col-sm-4'>
+                      Total Helping Hands: $<?php echo getHelpHand(); ?>.00
                     </div>
                   </div>
 
+
                   <div class='row py-2'>
+                    <fieldset>
+                      <legend>Totals</legend>
                     <div class='col-sm-3'>
-                      EBMB: <?php echo getTwoPara('ebmb', 'yes');
-                            ?>
+                     Cash: $<?php echo getTwoPara('payment', 'cash'); ?>.00
                     </div>
                     <div class="col-sm-3">
-                      MTSD: <?php echo getTwoPara('speakerdinner', 'yes');
-                            ?>
+                      Check: $<?php echo getTwoPara('payment', 'check'); ?>.00
                     </div>
                     <div class='col-sm-3'>
-                      RUCB: <?php echo getTwoPara('breakfast', 'yes');
-                            ?>
+                      Venmo: $<?php echo getTwoPara('payment', 'venmo'); ?>.00
                     </div>
                     <div class='col-sm-3'>
-                      ICS: <?php echo getTwoPara('icecream', 'yes');
-                            ?>
+                      PayPal: $<?php echo getTwoPara('payment', 'paypal'); ?>.00
+                    </div>
+                    </fieldset>
+                  </div>
+
+                  <hr>
+
+                  <div class='row py-2'>
+                    <div class='col-sm-3'>
+                      Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                    </div>
+                    <div class="col-sm-3">
+                     Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                     Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                     Total Dance: <?php ?>
+                    </div>
+                  </div>
+                  
+
+                  <div class='row py-2'>
+                    <div class='col-sm-3'>
+                      Total Meal Bundles: <?php echo getTwoPara('ebmb', 'yes'); ?>
+                    </div>
+                    <div class="col-sm-3">
+                      Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Breakfast Only: <?php echo getTwoPara('breakfast', 'yes'); ?>
+                    </div>
+                    <div class='col-sm-3'>
+                      Ice Cream Only: <?php echo getTwoPara('icecream', 'yes'); ?>
                     </div>
                   </div>
 
+                  <hr>
+
                   <div class='row py-2'>
                     <div class="col-sm-3">
-                      AA: <?php echo getTwoPara('fellowship', 'a.a.');
-                          ?>
+                      AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon');
-                                ?>
+                      Al-Anon: <?php echo getTwoPara('fellowship', 'al-anon'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Both: <?php echo getTwoPara('fellowship', 'double winner');
-                            ?>
+                      Both: <?php echo getTwoPara('fellowship', 'double winner'); ?>
                     </div>
                     <div class='col-sm-3'>
-                      Other: <?php echo getTwoPara('fellowship', 'other');
-                              ?>
+                      Other: <?php echo getTwoPara('fellowship', 'other'); ?>
                     </div>
                   </div>
 
@@ -413,7 +424,9 @@ function displayRegAdmin($registration)
     //https://datatables.net/reference/option
     new DataTable('#adminDisplay', {
       responsive: true,
-      order: [[0, 'desc']]
+      order: [
+        [0, 'desc']
+      ]
     });
   </script>
 
