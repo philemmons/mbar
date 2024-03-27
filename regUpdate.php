@@ -75,7 +75,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':address'] = strtolower(htmlspecialchars($_POST['upd-addr'], ENT_QUOTES));
     $nPara[':city'] = strtolower(htmlspecialchars($_POST['upd-city'], ENT_QUOTES));
     $nPara[':state'] = strtolower(htmlspecialchars($_POST['upd-state'], ENT_QUOTES));
-    $nPara[':of'] = strtolower(htmlspecialchars($_POST['upd-onfile'], ENT_QUOTES));
+    $nPara[':zc'] = strtolower(htmlspecialchars($_POST['upd-zc'], ENT_QUOTES));
     $nPara[':fs'] = strtolower(htmlspecialchars($_POST['upd-fs'], ENT_QUOTES));
     $nPara[':hg'] = strtolower(htmlspecialchars($_POST['upd-hg'], ENT_QUOTES));
     $nPara[':register'] = strtolower(htmlspecialchars($_POST['upd-reg'], ENT_QUOTES));
@@ -88,7 +88,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
-    $nPara[':zc'] = strtolower(htmlspecialchars($_POST['upd-zc'], ENT_QUOTES));
+    $nPara[':of'] = strtolower(htmlspecialchars($_POST['upd-of'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -449,13 +449,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-onfile" id="upd-onfile">
+                                <select class="form-select" name="upd-of" id="upd-of">
                                     <option value="<?= $regInfo['onfile'] ?>" selected> <?php echo $regInfo['onfile'] ?></option>
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
                                 </select>
+                                <label for="upd-of" class="form-label">OnFile</label>
                             </div>
-                            <label for="upd-onfile" class="form-label">OnFile</label>
                             <div class="invalid-feedback">
                                 Optional - Select one.
                             </div>
