@@ -124,6 +124,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['state'] . "</td>";
     echo "<td>" . $eachReg['zipcode'] . "</td>";
     echo "<td>" . $eachReg['fellowship'] . "</td>";
+    echo "<td>" . $eachReg['lang'] . "</td>";
     echo "<td>" . $eachReg['homegroup'] . "</td>";
     echo "<td>" . $eachReg['registration'] . "</td>";
     echo "<td>" . $eachReg['ebmb'] . "</td>";
@@ -424,8 +425,8 @@ function displayRegAdmin($registration)
                 <th>State</th>
                 <th>Zip Code</th>
                 <th>Fellowship</th>
-                <th>Home Group</th>
                 <th>Language</th>
+                <th>Home Group</th>
                 <th>Reg Type</th>
                 <th>EBMB</th>
                 <th>Dinner</th>
