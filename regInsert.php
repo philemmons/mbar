@@ -334,7 +334,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-hhc" id="ins-hhc">
-                                <option selected disabled value="">Choose...</option>
                                 <option value="5">$5</option>
                                 <option value="10">$10</option>
                                 <option value="20">$20</option>
@@ -343,7 +342,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value="50">$50</option>
                                 <option value="100">$100</option>
                                 <option value="other">Other</option>
-                                <option value="no thank you">No thank you</option>
+                                <option value="no thank you" selected>No thank you</option>
                             </select>
                             <label for="ins-hhc" class="form-label">Helping Hand</label>
                         </div>
@@ -387,12 +386,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-state" id="ins-state">
-                                <option selected disabled value="">Choose...</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
                                 <option value="AR">Arkansas</option>
-                                <option value="CA">California</option>
+                                <option value="CA" selected>California</option>
                                 <option value="CO">Colorado</option>
                                 <option value="CT">Connecticut</option>
                                 <option value="DE">Delaware</option>
@@ -460,9 +458,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-of" id="ins-of">
-                                <option selected disabled value="">Choose...</option>
                                 <option value="yes">Yes</option>
-                                <option value="no">No</option>
+                                <option selected value="no">No</option>
                             </select>
                             <label for="ins-of" class="form-label">OnFile</label>
                         </div>
