@@ -294,7 +294,7 @@ function displayRegAdmin($registration)
                   </div>
 
 
-                  <fieldset pb-3 mb-3>
+                  <fieldset>
                     <legend>Revenue Breakdown</legend>
                     <div class='row py-2'>
                       <div class='col-sm-3'>
@@ -312,37 +312,38 @@ function displayRegAdmin($registration)
                     </div>
                   </fieldset>
 
-                  <fieldset pb-3 mb-3>
+                  <br><br>
+
+                  <fieldset>
                     <legend>Activity Breakdown</legend>
 
                     <div class='row py-2'>
                       <div class='col-sm-3'>
                         Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
-                        <br><br>
+                      </div>
+                      <div class="col-sm-3">
                         Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
-                        <br><br>
+                      </div>
+                      <div class='col-sm-3'>
                         Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
-                        <br><br>
+                      </div>
+                      <div class='col-sm-3'>
                         Total Dance: <?php echo (getZeroPara() - getTwoPara('dance', 'no')); ?>
                       </div>
                     </div>
 
-
                     <div class='row py-2'>
-                      <div class='col-sm-2'>
-                        Meal Bundle Only: <?php echo getTwoPara('ebmb', 'yes'); ?>
-                      </div>
-                      <div class="col-sm-2">
+                      <div class="col-sm-3">
                         Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
                       </div>
-                      <div class='col-sm-2'>
+                      <div class='col-sm-3'>
                         Breakfast Only: <?php echo getTwoPara('breakfast', 'yes'); ?>
                       </div>
-                      <div class='col-sm-2'>
+                      <div class='col-sm-3'>
                         Ice Cream Only: <?php echo getTwoPara('icecream', 'yes'); ?>
                       </div>
-                      <div class='col-sm-2'>
-                        Dance Only: <?php echo getTwoPara('dance', 'yes'); ?>
+                      <div class='col-sm-3'>
+                        Meal Bundle Only: <?php echo getTwoPara('ebmb', 'yes'); ?>
                       </div>
                     </div>
 
