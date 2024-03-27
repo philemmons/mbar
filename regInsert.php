@@ -517,7 +517,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="form-floating">
                             <select class="form-select" name="ins-reg" id="ins-reg" onChange="optionSND(this)" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option value="before">Before</option>
+                                <option value="ebr">EBR</option>
                                 <option value="after">After</option>
                             </select>
                             <label for="ins-reg" class="form-label">Registration *</label>
@@ -667,7 +667,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
         function optionSND($obj) {
             let snd = document.getElementById("ins-snd");
-            if ($obj.value == 'before' || $obj.value == 'after')
+            if ($obj.value == 'ebr' || $obj.value == 'after')
                 snd.value = "yes";
         }
 

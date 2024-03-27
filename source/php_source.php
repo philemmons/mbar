@@ -41,7 +41,7 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
 {
      $amount = 0.00;
 
-     if ($register == "before") {
+     if ($register == "ebr") {
           $amount += 45.0;
      } else {
           $amount += 50.0;

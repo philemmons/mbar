@@ -388,7 +388,7 @@ include_once 'header-bottom.inc'
                             <div class="col-lg-5">
                                 <p class="h5">Registration (Required)</p>
                                 <div class="form-check">
-                                    <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="before" onChange="optionSND(this)" required>
+                                    <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
                                     <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
                                 </div>
                                 <div class="form-check mb-3">

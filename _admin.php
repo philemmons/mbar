@@ -287,7 +287,7 @@ function displayRegAdmin($registration)
                       Total Registrations: <?php echo getZeroPara(); ?>
                     </div>
                     <div class="col-sm-4">
-                      Before 7-1-24: <?php echo getTwoPara('registration', 'before'); ?>
+                      Early Bird Reg 7-1-24: <?php echo getTwoPara('registration', 'ebr'); ?>
                     </div>
                     <div class='col-sm-4'>
                       After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
@@ -358,7 +358,7 @@ function displayRegAdmin($registration)
 
                     <div class='row pb-3'>
                       <div class="col-sm-3">
-                        Pre Reg: $<?php echo (getTwoPara('registration', 'before')* $preregPrice); ?>.00
+                        Pre Reg: $<?php echo (getTwoPara('registration', 'ebr')* $preregPrice); ?>.00
                       </div>
                       <div class='col-sm-3'>
                         Normal Reg: $<?php echo (getTwoPara('registration', 'after')* $regPrice); ?>.00
