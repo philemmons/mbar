@@ -279,23 +279,21 @@ function displayRegAdmin($registration)
                     </div>
                   </div>
 
-                  <hr>
-
-                  <div class='row py-2'>
-                    <div class='col-sm-4'>
-                      Total Amount Due: $<?php echo getOnePara('total'); ?>.00
-                    </div>
-                    <div class='col-sm-4'>
-                      Total Amount Paid: $<?php echo getOnePara('paid'); ?>.00
-                    </div>
-                    <div class='col-sm-4'>
-                      Total Helping Hands: $<?php echo getHelpHand(); ?>.00
-                    </div>
-                  </div>
-
-
+                  
                   <fieldset>
                     <legend>Revenue Breakdown</legend>
+                    <div class='row py-2'>
+                      <div class='col-sm-3'>
+                        Total Amount Due: $<?php echo getOnePara('total'); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Total Amount Paid: $<?php echo getOnePara('paid'); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Total Helping Hands: $<?php echo getHelpHand(); ?>.00
+                      </div>
+                    </div>
+
                     <div class='row py-2'>
                       <div class='col-sm-3'>
                         Cash: $<?php echo getTwoParaSum('payment', 'cash'); ?>.00
@@ -310,9 +308,24 @@ function displayRegAdmin($registration)
                         PayPal: $<?php echo getTwoParaSum('payment', 'paypal'); ?>.00
                       </div>
                     </div>
+
+                    <div class='row py-2'>
+                      <div class='col-sm-3'>
+                        # of Cash: <?php echo getTwoPara('payment', 'cash'); ?>
+                      </div>
+                      <div class="col-sm-3">
+                        # of Check: <?php echo getTwoPara('payment', 'check'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        # of Venmo: <?php echo getTwoPara('payment', 'venmo'); ?>
+                      </div>
+                      <div class='col-sm-3'>
+                        # of PayPal: <?php echo getTwoPara('payment', 'paypal'); ?>
+                      </div>
+                    </div>
                   </fieldset>
 
-                  <br><br>
+                  <br>
 
                   <fieldset>
                     <legend>Activity Breakdown</legend>
