@@ -96,6 +96,10 @@ include_once 'header-bottom.inc'
             $recipientEmail = getenv('mbar-to-email');
             $bccEmail = getenv('mbar-bcc-email');
 
+            // Change lang variable as needed based on lang reg form
+            $lang = 'en';
+
+
             // If the form is submitted 
             $postData = $statusMsg = '';
             $status = 'error';
@@ -151,9 +155,6 @@ include_once 'header-bottom.inc'
                             $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                             $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
                             $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
-                            // Change lang variable as needed based on lang reg form
-                            $lang = 'en';
-
 
                             // Send email notification to the site admin 
                             $to = $email;

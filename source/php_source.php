@@ -197,10 +197,9 @@ function saveData($total, $lang)
                     total,
                     lang
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, $lang
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, :lang
                 )";
 
-echo $sql; die();
 
           $nPara[':firstName'] = $firstName;
           $nPara[':lastName'] = $lastName;
@@ -222,6 +221,7 @@ echo $sql; die();
           $nPara[':hhc'] = $hhc;
           $nPara[':cBox'] = $cBox;
           $nPara[':pm'] = $pm;
+          $nPara[':lang'] = $lang;
 
           $stmt = $dbConn->prepare($sql);
           $stmt->execute($nPara);
