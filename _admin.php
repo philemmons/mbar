@@ -104,6 +104,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['payment'] . "</td>";
     echo "<td>" . $eachReg['total'] . "</td>";
     echo "<td>" . $eachReg['paid'] . "</td>";
+    echo "<td>" . $eachReg['onfile'] . "</td>";
     echo "<td>" . $eachReg['verification'] . "</td>";
     echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $fPhone . "</td>";
@@ -368,6 +369,7 @@ function displayRegAdmin($registration)
                 <th>Payment</th>
                 <th>Due</th>
                 <th>Paid</th>
+                <th>On File</th>
                 <th>Tran ID</th>
                 <th>Help-Hand</th>
                 <th>Phone</th>

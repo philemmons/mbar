@@ -63,9 +63,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 total,
                 paid,
                 tos,
-                verification
+                verification,
+                onfile
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :of
                 )";
 
     //echo $sql . '<br>';
@@ -92,6 +93,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
     $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
+    $nPara[':of'] = strtolower(htmlspecialchars($_POST['ins-of'], ENT_QUOTES));
 
     // print_r($nPara); die;
 
@@ -454,7 +456,23 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             Optional - Enter zip code.
                         </div>
                     </div>
+
+                    <div class="col-lg-2">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-of" id="ins-of">
+                                <option selected disabled value="">Choose...</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+                        <label for="ins-of" class="form-label">OnFile</label>
+                        <div class="invalid-feedback">
+                            Optional - Select one.
+                        </div>
+                    </div>
+
                     <hr>
+
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-fs" id="ins-fs" required>
