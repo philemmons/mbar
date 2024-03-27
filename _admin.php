@@ -56,6 +56,17 @@ function getTwoPara($alpha, $beta)
   return $tot[0]['result'];
 }
 
+function getTwoParaSum($alpha, $beta)
+{
+  global $dbConn;
+
+  $sql = "SELECT sum(total) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+  //echo $sql . '<br>';
+  $tot =  preExeFetNOPARA($sql);
+  //print_r($tot);
+  return $tot[0]['result'];
+}
+
 function getHelpHand()
 {
   global $dbConn;
@@ -281,22 +292,22 @@ function displayRegAdmin($registration)
                       Total Helping Hands: $<?php echo getHelpHand(); ?>.00
                     </div>
                   </div>
-                  
+
 
                   <fieldset text-bg-light pb-3 mb-3>
                     <legend>Totals</legend>
                     <div class='row py-2'>
                       <div class='col-sm-3'>
-                        Cash: $<?php echo getTwoPara('payment', 'cash'); ?>.00
+                        Cash: $<?php echo getTwoParaSum('payment', 'cash'); ?>.00
                       </div>
                       <div class="col-sm-3">
-                        Check: $<?php echo getTwoPara('payment', 'check'); ?>.00
+                        Check: $<?php echo getTwoParaSum('payment', 'check'); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        Venmo: $<?php echo getTwoPara('payment', 'venmo'); ?>.00
+                        Venmo: $<?php echo getTwoParaSum('payment', 'venmo'); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        PayPal: $<?php echo getTwoPara('payment', 'paypal'); ?>.00
+                        PayPal: $<?php echo getTwoParaSum('payment', 'paypal'); ?>.00
                       </div>
                     </div>
                   </fieldset>
