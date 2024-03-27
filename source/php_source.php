@@ -200,6 +200,8 @@ function saveData($total, $lang)
                     :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, $lang
                 )";
 
+echo $sql; die();
+
           $nPara[':firstName'] = $firstName;
           $nPara[':lastName'] = $lastName;
           $nPara[':badgeName'] = $badgeName;
