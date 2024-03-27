@@ -284,7 +284,7 @@ function displayRegAdmin($registration)
 
 
                   <div class='row py-2'>
-                    <fieldset>
+                    <fieldset text-bg-light pb-3 mb-3>
                       <legend>Totals</legend>
                     <div class='col-sm-3'>
                      Cash: $<?php echo getTwoPara('payment', 'cash'); ?>.00
