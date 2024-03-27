@@ -281,25 +281,25 @@ function displayRegAdmin($registration)
                       Total Helping Hands: $<?php echo getHelpHand(); ?>.00
                     </div>
                   </div>
+                  
 
-
-                  <div class='row py-2'>
-                    <fieldset text-bg-light pb-3 mb-3>
-                      <legend>Totals</legend>
-                    <div class='col-sm-3'>
-                     Cash: $<?php echo getTwoPara('payment', 'cash'); ?>.00
+                  <fieldset text-bg-light pb-3 mb-3>
+                    <legend>Totals</legend>
+                    <div class='row py-2'>
+                      <div class='col-sm-3'>
+                        Cash: $<?php echo getTwoPara('payment', 'cash'); ?>.00
+                      </div>
+                      <div class="col-sm-3">
+                        Check: $<?php echo getTwoPara('payment', 'check'); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Venmo: $<?php echo getTwoPara('payment', 'venmo'); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        PayPal: $<?php echo getTwoPara('payment', 'paypal'); ?>.00
+                      </div>
                     </div>
-                    <div class="col-sm-3">
-                      Check: $<?php echo getTwoPara('payment', 'check'); ?>.00
-                    </div>
-                    <div class='col-sm-3'>
-                      Venmo: $<?php echo getTwoPara('payment', 'venmo'); ?>.00
-                    </div>
-                    <div class='col-sm-3'>
-                      PayPal: $<?php echo getTwoPara('payment', 'paypal'); ?>.00
-                    </div>
-                    </fieldset>
-                  </div>
+                  </fieldset>
 
                   <hr>
 
@@ -308,16 +308,16 @@ function displayRegAdmin($registration)
                       Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
                     </div>
                     <div class="col-sm-3">
-                     Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
+                      Total Breakfast: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
                     </div>
                     <div class='col-sm-3'>
-                     Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
+                      Total ICS: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('breakfast', 'yes')); ?>
                     </div>
                     <div class='col-sm-3'>
-                     Total Dance: <?php ?>
+                      Total Dance: <?php ?>
                     </div>
                   </div>
-                  
+
 
                   <div class='row py-2'>
                     <div class='col-sm-3'>
