@@ -268,7 +268,7 @@ function displayRegAdmin($registration)
                   </div>
 
 
-                  <div class='row py-2'>
+                  <div class='row pb-3'>
                     <div class="col-sm-4">
                       Total Registrations: <?php echo getZeroPara(); ?>
                     </div>
@@ -283,7 +283,7 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Revenue Breakdown</legend>
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class='col-sm-3'>
                         Total Amount Due: $<?php echo getOnePara('total'); ?>.00
                       </div>
@@ -295,7 +295,7 @@ function displayRegAdmin($registration)
                       </div>
                     </div>
 
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class='col-sm-3'>
                         Cash: $<?php echo getTwoParaSum('payment', 'cash'); ?>.00
                       </div>
@@ -310,7 +310,7 @@ function displayRegAdmin($registration)
                       </div>
                     </div>
 
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class='col-sm-3'>
                         # of Cash: <?php echo getTwoPara('payment', 'cash'); ?>
                       </div>
@@ -330,7 +330,7 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Activity Breakdown</legend>
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class='col-sm-3'>
                         Total Dinners: <?php echo (getTwoPara('ebmb', 'yes') + getTwoPara('speakerdinner', 'yes')); ?>
                       </div>
@@ -345,7 +345,7 @@ function displayRegAdmin($registration)
                       </div>
                     </div>
 
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class="col-sm-3">
                         Dinner Only: <?php echo getTwoPara('speakerdinner', 'yes'); ?>
                       </div>
@@ -365,7 +365,7 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Fellowship Breakdown</legend>
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class="col-sm-3">
                         AA: <?php echo getTwoPara('fellowship', 'a.a.'); ?>
                       </div>
@@ -378,6 +378,9 @@ function displayRegAdmin($registration)
                       <div class='col-sm-3'>
                         Other: <?php echo getTwoPara('fellowship', 'other'); ?>
                       </div>
+                    </div>
+
+                    <div class='row pb-3'>
                       <div class='col-sm-3'>
                         English: <?php echo getTwoPara('lang', 'en'); ?>
                       </div>
@@ -394,7 +397,7 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Dance Breakdown</legend>
-                    <div class='row py-2'>
+                    <div class='row pb-3'>
                       <div class="col-sm-4">
                         I'll be wearing my dancing shoes: <?php echo getTwoPara('dance', 'yes'); ?>
                       </div>
