@@ -464,8 +464,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
                             </select>
+                            <label for="ins-of" class="form-label">OnFile</label>
                         </div>
-                        <label for="ins-of" class="form-label">OnFile</label>
                         <div class="invalid-feedback">
                             Optional - Select one.
                         </div>
