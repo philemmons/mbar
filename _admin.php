@@ -355,6 +355,17 @@ function displayRegAdmin($registration)
                         Meal Bundle Only: $<?php echo (getTwoPara('ebmb', 'yes')* $ebmbPrice); ?>.00
                       </div>
                     </div>
+
+                    <div class='row pb-3'>
+                      <div class="col-sm-3">
+                        Pre Reg: $<?php echo (getTwoPara('registration', 'before')* $preregPrice); ?>.00
+                      </div>
+                      <div class='col-sm-3'>
+                        Normal Reg: $<?php echo (getTwoPara('registration', 'after')* $regPrice); ?>.00
+                      </div>
+                    </div>
+
+
                   </fieldset>
 
                   <br>
