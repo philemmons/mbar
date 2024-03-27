@@ -106,7 +106,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['paid'] . "</td>";
     echo "<td>" . $eachReg['onfile'] . "</td>";
     echo "<td>" . $eachReg['verification'] . "</td>";
-    echo "<td>" . $eachReg['helpinghand'] . "</td>";
+    echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "<td>" . $fPhone . "</td>";
     echo "<td>" . $eachReg['address'] . "</td>";
     echo "<td>" . $eachReg['city'] . "</td>";
@@ -120,8 +120,8 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['breakfast'] . "</td>";
     echo "<td>" . $eachReg['icecream'] . "</td>";
     echo "<td>" . $eachReg['dance'] . "</td>";
+    echo "<td>" . $eachReg['helpinghand'] . "</td>";
     echo "<td>" . $eachReg['tos'] . "</td>";
-    echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "</tr>";
   }
 }
@@ -371,7 +371,7 @@ function displayRegAdmin($registration)
                 <th>Paid</th>
                 <th>On File</th>
                 <th>Tran ID</th>
-                <th>Help-Hand</th>
+                <th>Badge Name</th>
                 <th>Phone</th>
                 <th>Address</th>
                 <th>City</th>
@@ -385,8 +385,8 @@ function displayRegAdmin($registration)
                 <th>BreakFast</th>
                 <th>Ice Cream</th>
                 <th>Dance</th>
+                <th>Help-Hand</th>
                 <th>TOS</th>
-                <th>Badge Name</th>
               </tr>
             </thead>
             <tbody>
