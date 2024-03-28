@@ -144,10 +144,10 @@ function getUserInfo($email)
 *@input: Name of the database table - registration
 *@output: all contents of registration table for the user by ascending date with TBA values last
 */
-function getRegData($table)
+function getRegData($table, $upDown)
 {
      //$sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY id DESC";
-     $sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY result IS NULL , result DESC";
+     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " ORDER BY result IS NULL , result ". $upDown;
      return preExeFetNOPARA($sql);
 }
 

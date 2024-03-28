@@ -505,7 +505,7 @@ function displayRegAdmin($registration)
             </thead>
             <tbody>
               <?php
-              $registration = getRegData("registration");
+              $registration = getRegData("registration","desc");
               displayRegAdmin($registration);
               ?>
             </tbody>

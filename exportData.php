@@ -10,7 +10,7 @@ include_once 'source/dbConnection.php';
 include_once 'source/php_source.php';
 
 // Fetch records from database 
-$regArray = getRegData('registration');
+$regArray = getRegData('registration', 'asc');
 
 if (count($regArray) > 0) {
     $delimiter = ",";
