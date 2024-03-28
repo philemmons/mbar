@@ -308,3 +308,17 @@ function formatPhone($phoneNumber)
 
      return $phoneNumber;
 }
+
+function oneOrBlank($yun){
+
+     if($yun == "yes") return 1;
+     return "";
+}
+
+function caseFellowship($aado){
+
+     if($aado == "a.a.") return "AA";
+     if($aado == "al-anon") return "Al-Anon";
+     if($aado == "double winner") return "Double Winner";
+     if($aado == "other") return "Other";
+}

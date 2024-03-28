@@ -20,7 +20,34 @@ if (count($regArray) > 0) {
     $f = fopen('php://memory', 'w');
 
     // Set column headers 
-    $fields = array('First', 'Last', 'Badge Name', 'Email', 'Payment', 'Due', 'Paid', 'Date', 'Phone', 'Address', 'City', 'State', 'Zip Code', 'Fellowship', 'Home Group', 'Reg Type', 'EBMB', 'Dinner', 'BreakFast', 'Ice Cream', 'Dance', 'Help-Hand', 'TOS', 'Verification');
+    $fields = array(
+        'Date',
+        'LAST Name',
+        'FIRST name',
+        'Badge name',
+        'Telephone Num',
+        'Email',
+        'Street Address',
+        'City',
+        'State',
+        'Zip Code',
+        'Fellowship',
+        'Language',
+        'Home Group',
+        'Amount Paid',
+        'How Many',
+        'Register Type',
+        'Register Price',
+        'Meal Bundle',
+        'Dinner Only',
+        'Breakfast Only',
+        'Ice Cream Only',
+        'Dance Only',
+        'Helping Hand',
+        'Amount Due',
+        'Total Payments',
+        'PAYMENT',
+    );
 
     fputcsv($f, $fields, $delimiter);
 
@@ -28,30 +55,61 @@ if (count($regArray) > 0) {
     foreach ($regArray as $eachReg) {
 
         $lineData = array(
-            $eachReg['firstname'],
-            $eachReg['lastname'],
-            $eachReg['badgename'],
-            $eachReg['email'],
-            $eachReg['payment'],
-            $eachReg['total'],
-            $eachReg['paid'],
             $eachReg['result'],
+
+            ucfirst($eachReg['lastname']),
+
+            ucfirst($eachReg['firstname']),
+         
+            mb_convert_case($eachReg['badgename'], MB_CASE_TITLE,'utf-8'),
+
             formatPhone($eachReg['phone']),
-            $eachReg['address'],
-            $eachReg['city'],
-            $eachReg['state'],
+
+            $eachReg['email'],
+
+            mb_convert_case($eachReg['address'], MB_CASE_TITLE,'utf-8'),
+
+            ucfirst($eachReg['city']),
+
+            strtoupper($eachReg['state']),
+
             $eachReg['zipcode'],
+
             $eachReg['fellowship'],
+
+            strtoupper($eachReg['lang']),
+
             $eachReg['homegroup'],
-            $eachReg['registration'],
-            $eachReg['ebmb'],
-            $eachReg['speakerdinner'],
-            $eachReg['breakfast'],
-            $eachReg['icecream'],
-            $eachReg['dance'],
+
+            $eachReg['paid'],
+
+            NULL,
+
+            $eachReg['payment'],
+
+            $eachReg['total'],
+
+            strtoupper($eachReg['registration']),
+
+            NULL,
+
+            oneOrBlank($eachReg['ebmb']),
+
+            oneOrBlank($eachReg['speakerdinner']),
+
+            oneOrBlank($eachReg['breakfast']),
+
+            oneOrBlank($eachReg['icecream']),
+
+            oneOrBlank($eachReg['dance']),
+
             $eachReg['helpinghand'],
-            $eachReg['tos'],
-            $eachReg['verification'],
+
+            NULL,
+
+            NULL,
+
+            $eachReg['verification']
         );
         fputcsv($f, $lineData, $delimiter);
     }
