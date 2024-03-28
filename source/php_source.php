@@ -322,3 +322,9 @@ function caseFellowship($aado){
      if($aado == "double winner") return "Double Winner";
      if($aado == "other") return "Other";
 }
+
+function noThankYou($nty){
+
+     if($nty == "no thank you") return "";
+     return $nty;
+}

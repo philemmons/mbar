@@ -101,7 +101,7 @@ if (count($regArray) > 0) {
 
             oneOrBlank($eachReg['dance']),
 
-            $eachReg['helpinghand'],
+            noThankYou($eachReg['helpinghand']),
 
             NULL,
 
