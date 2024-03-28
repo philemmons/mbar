@@ -47,6 +47,8 @@ if (count($regArray) > 0) {
         'Amount Due',
         'Total Payments',
         'PAYMENT',
+        'Due=Paid',
+        'NOTES'
     );
 
     fputcsv($f, $fields, $delimiter);
@@ -69,25 +71,21 @@ if (count($regArray) > 0) {
 
             mb_convert_case($eachReg['address'], MB_CASE_TITLE,'utf-8'),
 
-            ucfirst($eachReg['city']),
+            mb_convert_case($eachReg['city'], MB_CASE_TITLE,'utf-8'),
 
             strtoupper($eachReg['state']),
 
             $eachReg['zipcode'],
 
-            $eachReg['fellowship'],
+            caseFellowship($eachReg['fellowship']),
 
             strtoupper($eachReg['lang']),
 
-            $eachReg['homegroup'],
+            mb_convert_case($eachReg['homegroup'], MB_CASE_TITLE,'utf-8'),
 
             $eachReg['paid'],
 
             NULL,
-
-            $eachReg['payment'],
-
-            $eachReg['total'],
 
             strtoupper($eachReg['registration']),
 
@@ -106,6 +104,10 @@ if (count($regArray) > 0) {
             $eachReg['helpinghand'],
 
             NULL,
+
+            NULL,
+
+            $eachReg['payment'],
 
             NULL,
 
