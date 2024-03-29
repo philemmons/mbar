@@ -609,7 +609,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Descargar formulario pdf">
-                            <h3 class="card-title mb-3"><a href="#register-now" class="bb-link">Descarga el Formulario de Inscripción</a></h3>
+                            <h3 class="card-title mb-3">Descarga el Formulario de Inscripción</h3>
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
                             <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
