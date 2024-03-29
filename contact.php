@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
 
                 // Email settings 
                 $recipientEmail = getenv('mbar-chair-email');
-
+echo "---> email should appear here-->". getenv('mbar-chair-email'); die();
                 // If the form is submitted 
                 $postData = $statusMsg = '';
                 $status = 'error';
