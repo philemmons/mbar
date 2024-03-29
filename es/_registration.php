@@ -97,6 +97,10 @@ include_once 'header-bottom.inc'
             $recipientEmail = getenv('mbar-to-email');
             $bccEmail = getenv('mbar-bcc-email');
 
+            // Change lang variable as needed based on lang reg form
+            $lang = 'en';
+
+
             // If the form is submitted 
             $postData = $statusMsg = '';
             $status = 'error';
@@ -153,7 +157,6 @@ include_once 'header-bottom.inc'
                             $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
                             $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
 
-
                             // Send email notification to the site admin 
                             $to = $email;
                             $subject = 'Registration Form Submitted';
@@ -196,7 +199,7 @@ include_once 'header-bottom.inc'
                             $statusMsg = 'Your pre-registration was sent, and it will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
                             $postData = '';
 
-                            regFormData($total);
+                            regFormData($total, $lang);
                         } else {
                             $statusMsg = 'reCaptcha verification failed, please try again.';
                         }
@@ -386,7 +389,7 @@ include_once 'header-bottom.inc'
                             <div class="col-lg-5">
                                 <p class="h5">Registration (Required)</p>
                                 <div class="form-check">
-                                    <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="before" onChange="optionSND(this)" required>
+                                    <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
                                     <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
                                 </div>
                                 <div class="form-check mb-3">
@@ -507,7 +510,7 @@ include_once 'header-bottom.inc'
                             <div class="col-md-6">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
-                                    <label class="form-check-label" for="paymentCheckBox">
+                                    <label class="form-check-label" for="paymentCheckBox" aria-desc>
                                         I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
                                     </label>
                                     <div class="invalid-feedback">
@@ -557,7 +560,7 @@ include_once 'header-bottom.inc'
         </div>
     </div>
 
-    
+
     <!-- Part Payment -->
     <article aria-label="Método de pago">
         <div class="container shadow-wrap">
