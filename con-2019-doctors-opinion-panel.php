@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2019  Doctors Opinion Panel</title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2019-doctors-opinion-panel.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-doctors-opinion-panel.php" />';
 include_once 'header-bottom.inc'
 ?>
 

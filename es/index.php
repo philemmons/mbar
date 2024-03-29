@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Home </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/es/index.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/index.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -106,7 +106,7 @@ include_once 'header-bottom.inc'
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://monterey.bayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
                         </div>
                     </div>
                 </div </div>

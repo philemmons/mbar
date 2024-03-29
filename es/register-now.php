@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Registro </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/es/register-now.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/register-now.php" />';
 include_once 'header-bottom.inc'
 ?>
 

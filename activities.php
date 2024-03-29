@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Activities </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/activities.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/activities.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Meet the Speakers Dinner</h3>
                                 </section>
-                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
                                     Join us for a delicious dinner and meet the speakers <strong>at the Bethlehem Lutheran Church Hall</strong> in the back of the building.
                                 </p>
@@ -127,7 +127,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Roundup Breakfast</h3>
                                 </section>
-                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
                                     Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
                                 </p>
@@ -162,7 +162,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Ice Cream Social</h3>
                                 </section>
-                                <p class="card-text"><a href="https://monterey.bayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
                                     Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
                                 </p>

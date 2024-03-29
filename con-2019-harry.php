@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2019 A.A. Harry H. </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/con-2019-harry.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-harry.php" />';
 include_once 'header-bottom.inc'
 ?>
 

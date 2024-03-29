@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - History </title>";
-echo '<link rel="canonical" href= "https://monterey.bayarearoundup.org/mbar_history.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/mbar_history.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -162,8 +162,8 @@ include_once 'header-bottom.inc'
                                 <h3 class="card-title h6">
                                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Schedule of Events
                                 </h3>
-                                <p class="card-text"> <a href="https://monterey.bayarearoundup.org/conference-2022.php" class="bb-link" target="_blank" rel="noopener noreferrer">2022 Conference<span class="sr-only">(Opens a new window)</span></a></p>
-                                <p class="card-text"> <a href="https://monterey.bayarearoundup.org/conference-2019.php" class="bb-link" target="_blank" rel="noopener noreferrer">2019 Conference<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank" rel="noopener noreferrer">2022 Conference<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank" rel="noopener noreferrer">2019 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                             </section>
                         </div>
                         <div class="card-footer text-center">
