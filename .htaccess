@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^monterey\.bayarearoundup\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.monterey\.bayarearoundup\.org$
+RewriteRule ^/?$ "https\:\/\/montereybayarearoundup\.org\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^montereybayarearoundup\.org\.philemmons\.dev$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.montereybayarearoundup\.org\.philemmons\.dev$
+RewriteRule ^/?$ "https\:\/\/montereybayarearoundup\.org\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^monterey\.bayarearoundup\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.monterey\.bayarearoundup\.org$
+RewriteRule ^register\-now\.php$ "https\:\/\/montereybayarearoundup\.org\/register\-now\.php" [R=301,L]
+
