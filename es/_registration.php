@@ -84,7 +84,7 @@ include_once 'header-bottom.inc'
 
                 <?php
 
-                include_once 'source/php_source.php';
+                include_once '../source/php_source.php';
 
 
                 /**
