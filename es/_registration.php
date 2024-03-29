@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registration 2024</h3>
-                            <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.</p>
+                            <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024.</p>
                             <section>
                     </div>
                 </div>
@@ -163,36 +163,36 @@ include_once 'header-bottom.inc'
 
                                 // Send email notification to the site admin 
                                 $to = $email;
-                                $subject = 'Registration Form Submitted';
+                                $subject = 'Formulario de Registro Enviado';
                                 $htmlContent = " 
-                    <h4>Registration Form - EN</h4> 
-                    <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
-                    <p><b>Badge Name: </b>" . $badgeName . "</p> 
+                    <h4>Formulario de Inscripción - Spanish</h4> 
+                    <p><b>Nombre: </b>" . $firstName . " " . $lastName . "</p> 
+                    <p><b>Placa de Identificación: </b>" . $badgeName . "</p> 
                     <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Phone: </b>" . $phone . "</p> 
-                    <p><b>Address: </b>" . $address . "</p> 
-                    <p><b>City: </b>" . $city . "</p> 
+                    <p><b>Teléfono: </b>" . $phone . "</p> 
+                    <p><b>Dirección: </b>" . $address . "</p> 
+                    <p><b>Ciudad: </b>" . $city . "</p> 
                     <p><b>State: </b>" . $state . "</p> 
-                    <p><b>Zip Code: </b>" . $zc . "</p> 
-                    <p><b>Fellowship: </b>" . $fs . "</p> 
-                    <p><b>Homegroup: </b>" . $hg . "</p> 
-                    <p><b>Registration: </b>" . $register . "</p> 
-                    <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "</p> 
-                    <p><b>Meet the Speaker Dinner: </b>" . $mtsd . "</p> 
-                    <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
-                    <p><b>Ice Cream Social: </b>" . $ics . "</p> 
-                    <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
-                    <p><b>Helping Hand Contribution: </b>" . $hhc . "</p> 
-                    <p><b>Current Total: </b>$" . $total . ".00</p> 
-                    <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
-                    <p><b>Payment Method: </b>" . $pm . "</p> 
+                    <p><b>Estado: </b>" . $zc . "</p> 
+                    <p><b>Compañerismo: </b>" . $fs . "</p> 
+                    <p><b>Grupo en el Hogar: </b>" . $hg . "</p> 
+                    <p><b>Registro: </b>" . $register . "</p> 
+                    <p><b>Paquete de Comida Para Madrugadores: </b>" . $ebmb . "</p> 
+                    <p><b>Conozca a la Cena de Oradores: </b>" . $mtsd . "</p> 
+                    <p><b>Redondeo Continuación Desayuno: </b>" . $rucb . "</p> 
+                    <p><b>Helado Social: </b>" . $ics . "</p> 
+                    <p><b>Baile del Sábado por la Noche: </b>" . $snd . "</p> 
+                    <p><b>Contribución de Mano Amiga: </b>" . $hhc . "</p> 
+                    <p><b>Total Actual: </b>$" . $total . ".00</p> 
+                    <p><b>Estuve de acuerdo con los ToS y entiendo que el registro está incompleto hasta que se pague: </b>" . $cBox . "</p> 
+                    <p><b>Método de Pago: </b>" . $pm . "</p> 
                 ";
 
                                 // Always set content-type when sending HTML email 
                                 $headers = "MIME-Version: 1.0" . "\r\n";
                                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                                 // More headers 
-                                $headers .= 'From: MBAR Registration Chair<' . $recipientEmail . '>' . "\r\n";
+                                $headers .= 'De: Presidente de Registro de MBAR<' . $recipientEmail . '>' . "\r\n";
 
                                 $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
@@ -200,18 +200,18 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Your pre-registration was sent, and it will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.';
+                                $statusMsg = 'Su preinscripción fue enviada y le ayudará con la planificación y preparación del evento. ¡Gracias! Se le ha enviado por correo electrónico una copia de su formulario de registro.';
                                 $postData = '';
 
                                 regFormData($total, $lang);
                             } else {
-                                $statusMsg = 'reCaptcha verification failed, please try again.';
+                                $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
                             }
                         } else {
-                            $statusMsg = 'Please check the reCAPTCHA checkbox.';
+                            $statusMsg = 'Marque la casilla de verificación reCAPTCHA.';
                         }
                     } else {
-                        $statusMsg = 'Please fill all the mandatory fields.';
+                        $statusMsg = 'Por favor complete todos los campos obligatorios.';
                     }
                 }
 
@@ -228,71 +228,71 @@ include_once 'header-bottom.inc'
 
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
 
-                    <form action="_registration.php" method="POST" class="needs-validation" id="myForm" aria-label="Registration Form" novalidate>
+                    <form action="_registration.php" method="POST" class="needs-validation" id="myForm" aria-label="Formulario de inscripción" novalidate>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Personal Information</legend>
+                            <legend>Informacion Personal</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
-                                    <label for="firstName" class="reg-form-label">First Name (Required)</label>
+                                    <label for="firstName" class="reg-form-label">Primer nombre (requerido)</label>
                                     <input type="text" class="form-control" name="firstName" id="firstName" required>
                                     <div class="invalid-feedback">
-                                        Required, please enter your first name.
+                                        Requerido, por favor ingrese su nombre.
                                     </div>
                                 </div>
 
                                 <div class="col-md-4">
-                                    <label for="lastName" class="reg-form-label">Last Name or Initial (Required)</label>
+                                    <label for="lastName" class="reg-form-label">Apellido o Inicial (Obligatorio)</label>
                                     <input type="text" class="form-control" name="lastName" id="lastName" required>
                                     <div class="invalid-feedback">
-                                        Required, please enter your last name or initial.
+                                        Requerido, por favor ingrese su apellido o inicial.
                                     </div>
                                 </div>
 
                                 <div class="col-md-4">
-                                    <label for="badgeName" class="reg-form-label">Name to Appear on Badge</label>
+                                    <label for="badgeName" class="reg-form-label">Nombre que aparecerá en la insignia</label>
                                     <input type="text" class="form-control" name="badgeName" id="badgeName">
                                     <div class="invalid-feedback">
-                                        Optional, please enter your name to appear on badge.
+                                        Opcional, ingrese su nombre para que aparezca en la insignia.
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="myEmail" class="reg-form-label">Email (Required)</label>
+                                    <label for="myEmail" class="reg-form-label">Correo electronico (requerido)</label>
                                     <input type="email" class="form-control" name="myEmail" id="myEmail" required>
                                     <div class="invalid-feedback">
-                                        Required, please enter your email.
+                                        Requerido, por favor ingrese su correo electrónico.
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="myPhone" class="reg-form-label">Phone with Area Code (xxx.xxx.xxxx)</label>
+                                    <label for="myPhone" class="reg-form-label">Teléfono con código de área (xxx.xxx.xxxx)</label>
                                     <input type="tel" class="form-control" name="myPhone" id="myPhone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
                                     <div class="invalid-feedback">
-                                        Optional, please enter a valid phone number.
+                                        Opcional, ingrese un número de teléfono válido.
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <label for="myAddress" class="reg-form-label">Mailing Address</label>
+                                    <label for="myAddress" class="reg-form-label">Dirección de Envio</label>
                                     <input type="text" class="form-control" name="myAddress" id="myAddress">
                                     <div class="invalid-feedback">
-                                        Optional, please enter your address.
+                                        Opcional, ingrese su dirección.
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="myCity" class="reg-form-label">City</label>
+                                    <label for="myCity" class="reg-form-label">Ciudad</label>
                                     <input type="text" class="form-control" name="myCity" id="myCity" placeholder="Monterey">
                                     <div class="invalid-feedback">
-                                        Optional, please enter a city.
+                                        Opcional, ingrese una ciudad.
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
-                                    <label for="myState" class="reg-form-label">State</label>
+                                    <label for="myState" class="reg-form-label">Estado</label>
                                     <select class="form-select" name="myState" id="myState">
-                                        <option selected disabled value="">Choose...</option>
+                                        <option selected disabled value="">Elegir...</option>
                                         <option value="AL">Alabama</option>
                                         <option value="AK">Alaska</option>
                                         <option value="AZ">Arizona</option>
@@ -301,196 +301,196 @@ include_once 'header-bottom.inc'
                                         <option value="CO">Colorado</option>
                                         <option value="CT">Connecticut</option>
                                         <option value="DE">Delaware</option>
-                                        <option value="DC">District of Columbia</option>
+                                        <option value="DC">Distrito de Columbia</option>
                                         <option value="FL">Florida</option>
                                         <option value="GA">Georgia</option>
-                                        <option value="HI">Hawaii</option>
+                                        <option value="HI">Hawai</option>
                                         <option value="ID">Idaho</option>
                                         <option value="IL">Illinois</option>
                                         <option value="IN">Indiana</option>
                                         <option value="IA">Iowa</option>
                                         <option value="KS">Kansas</option>
                                         <option value="KY">Kentucky</option>
-                                        <option value="LA">Louisiana</option>
+                                        <option value="LA">Luisiana</option>
                                         <option value="ME">Maine</option>
                                         <option value="MD">Maryland</option>
                                         <option value="MA">Massachusetts</option>
                                         <option value="MI">Michigan</option>
                                         <option value="MN">Minnesota</option>
-                                        <option value="MS">Mississippi</option>
-                                        <option value="MO">Missouri</option>
+                                        <option value="MS">Misisipí</option>
+                                        <option value="MO">Misuri</option>
                                         <option value="MT">Montana</option>
                                         <option value="NE">Nebraska</option>
                                         <option value="NV">Nevada</option>
-                                        <option value="NH">New Hampshire</option>
-                                        <option value="NJ">New Jersey</option>
-                                        <option value="NM">New Mexico</option>
-                                        <option value="NY">New York</option>
-                                        <option value="NC">North Carolina</option>
-                                        <option value="ND">North Dakota</option>
+                                        <option value="NH">Nueva Hampshire</option>
+                                        <option value="NJ">Nueva Jersey</option>
+                                        <option value="NM">Nueva Mexico</option>
+                                        <option value="NY">Nueva York</option>
+                                        <option value="NC">Carolina del Norte</option>
+                                        <option value="ND">Dakota del Norte</option>
                                         <option value="OH">Ohio</option>
                                         <option value="OK">Oklahoma</option>
-                                        <option value="OR">Oregon</option>
+                                        <option value="OR">Oregón</option>
                                         <option value="PA">Pennsylvania</option>
                                         <option value="RI">Rhode Island</option>
-                                        <option value="SC">South Carolina</option>
-                                        <option value="SD">South Dakota</option>
+                                        <option value="SC">Carolina del Sur</option>
+                                        <option value="SD">Dakota del Sur</option>
                                         <option value="TN">Tennessee</option>
                                         <option value="TX">Texas</option>
                                         <option value="UT">Utah</option>
                                         <option value="VT">Vermont</option>
                                         <option value="VA">Virginia</option>
                                         <option value="WA">Washington</option>
-                                        <option value="WV">West Virginia</option>
+                                        <option value="WV">Virginia del Oeste</option>
                                         <option value="WI">Wisconsin</option>
                                         <option value="WY">Wyoming</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Optional, please select your state.
+                                        Opcional, seleccione su estado.
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
-                                    <label for="myZipcode" class="reg-form-label">Zip Code</label>
+                                    <label for="myZipcode" class="reg-form-label">Código postal</label>
                                     <input type="text" class="form-control" name="myZipcode" id="myZipcode">
                                     <div class="invalid-feedback">
-                                        Optional, please enter your zip code.
+                                        Opcional, ingrese su código postal.
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Fellowship Information</legend>
+                            <legend>Información de Becas</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
-                                    <label for="myFellowship" class="reg-form-label">Program (Required)</label>
+                                    <label for="myFellowship" class="reg-form-label">Programa (requerido)</label>
                                     <select class="form-select" name="myFellowship" id="myFellowship" required>
-                                        <option selected disabled value="">Choose...</option>
+                                        <option selected disabled value="">Elegir...</option>
                                         <option value="A.A.">A.A.</option>
                                         <option value="Al-Anon">Al-Anon</option>
-                                        <option value="Double Winner">Double Winner</option>
-                                        <option value="Other">Other</option>
+                                        <option value="Double Winner">Ganador Doble</option>
+                                        <option value="Other">Otro</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please enter your Fellowship
+                                        Requerido, por favor ingresa tu Beca
                                     </div>
                                 </div>
 
                                 <div class="col-md-8">
-                                    <label for="myHomegroup" class="reg-form-label">Homegroup(s)</label>
+                                    <label for="myHomegroup" class="reg-form-label">Grupos en el Hogar</label>
                                     <input type="text" class="form-control" name="myHomegroup" id="myHomegroup">
                                     <div class="invalid-feedback">
-                                        Optional, please enter your Homegroup(s)
+                                        Opcional, ingrese su(s) Grupo(s) en el Hogar
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Registration and Activities</legend>
+                            <legend>Inscripciones y Actividades</legend>
                             <div class="row justify-content-center">
                                 <div class="col-lg-5">
-                                    <p class="h5">Registration (Required)</p>
+                                    <p class="h5">Registro (Requerido)</p>
                                     <div class="form-check">
                                         <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
+                                        <label class="form-check-label" for="early-registration">Inscripción Anticipada (Antes del 31 de Julio de 2024) - $45</label>
                                     </div>
                                     <div class="form-check mb-3">
                                         <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $50</label>
+                                        <label class="form-check-label" for="normal-registration">Registro (Después del 31 de Julio de 2024) - $50</label>
                                         <div class="invalid-feedback">
-                                            Required, please check one.
+                                            Requerido, por favor marque uno.
                                         </div>
                                     </div>
                                     <ul>
-                                        <li>Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
-                                        <li>Saturday Night Dance is free with your paid registration.</li>
+                                        <li>Regístrese antes del 31 de julio y $1.00 de su registro se destinará al sorteo 50/50 que se realizará el sábado por la noche.</li>
+                                        <li>Saturday Night Dance es gratis con tu registro pago.</li>
                                     </ul>
                                 </div>
 
                                 <div class="col-lg-7 pb-4">
-                                    <p class="h5">Pre-Registration for meals is currently required.</p>
+                                    <p class="h5">Actualmente se requiere inscripción previa para las comidas.</p>
                                     <ul>
-                                        <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
+                                        <li>El Comité MBAR recomienda el paquete de comidas para madrugadores, que incluye un ahorro de $5 con respecto a la opción a la carta.
                                         </li>
-                                        <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
+                                        <li>Desayuno y cena continental en la Iglesia Luterana Bethlehem, 800 Cass Street, Monterey
                                         </li>
-                                        <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
+                                        <li>Ice Cream Social se llevará a cabo en el Centro de Conferencias en Stevenson Terrace
                                         </li>
                                     </ul>
 
-                                    <label for="earlyBirdMealBundle" class="reg-form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
+                                    <label for="earlyBirdMealBundle" class="reg-form-label">Paquete de comidas para madrugadores (Cena, Desayuno y Evento Social con Helado) - $35 </label>
                                     <select class="form-select" name="earlyBirdMealBundle" id="earlyBirdMealBundle" onChange="optionEBMB(this)" required>
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">Yes, please!</option>
-                                        <option value="no">No thank you</option>
-                                        <option value="undecided" disabled>Still deciding</option>
+                                        <option selected disabled value="">Elegir...</option>
+                                        <option value="yes">¡Sí, por favor!</option>
+                                        <option value="no">No Gracias</option>
+                                        <option value="undecided" disabled>Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please select one.
+                                        Requerido, por favor seleccione uno.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12">
-                                    <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
+                                    <p class="h5"> Opciones de comidas a la carta: si prefiere comprar comidas individualmente, seleccione entre las siguientes opciones.</p>
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
+                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Cena con el orador (Sábado por la Noche a las 5:00pm) - $25</label>
                                     <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">Yes, please!</option>
-                                        <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected disabled value="">Elige...</option>
+                                        <option value="yes">¡Sí, por favor!</option>
+                                        <option value="no">No Gracias</option>
+                                        <option value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please select one.
+                                        Requerido, por favor seleccione uno.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Desayuno continental redondo (Domingo de 8:00am a 9:30am) - $10</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">Yes, please!</option>
-                                        <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected disabled value="">Elige...</option>
+                                        <option value="yes">¡Sí, por favor!</option>
+                                        <option value="no">No Gracias</option>
+                                        <option value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please select one.
+                                        Requerido, por favor seleccione uno.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 pb-4">
-                                    <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
+                                    <label for="iceCreamSocial" class="reg-form-label">Social de Helados (Domingo por la tarde de 3:00pm a 4:00pm) - $5</label>
                                     <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">Yes, please!</option>
-                                        <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected disabled value="">Elige...</option>
+                                        <option value="yes">¡Sí, por favor!</option>
+                                        <option value="no">No Gracias</option>
+                                        <option value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please select one.
+                                        Requerido, por favor seleccione uno.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <label for="saturdayNightDance" class="reg-form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
+                                    <label for="saturdayNightDance" class="reg-form-label">Baile del Sábado por la Noche en el centro de conferencias (GRATIS con inscripción paga o $5 en la puerta)</label>
                                     <select class="form-select" name="saturdayNightDance" id="saturdayNightDance">
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">I'll be wearing my dancing shoes!</option>
-                                        <option value="no">I don't dance...LOL</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected disabled value="">Elige...</option>
+                                        <option value="yes">¡Usaré mis zapatos de baile!</option>
+                                        <option value="no">No bailo...JaJa</option>
+                                        <option value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Optional, please select one.
+                                        Opcional, seleccione uno.
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <label for="helpingHandContribution" class="reg-form-label">Helping Hand Contribution, please consider making a contribution to ensure all who desire to attend are able.</label>
+                                    <label for="helpingHandContribution" class="reg-form-label">Contribución de mano amiga, considere hacer una contribución para garantizar que todos los que deseen asistir puedan hacerlo.</label>
                                     <select class="form-select" name="helpingHandContribution" id="helpingHandContribution">
-                                        <option selected disabled value="">Choose...</option>
+                                        <option selected disabled value="">Elige...</option>
                                         <option value="5">$5</option>
                                         <option value="10">$10</option>
                                         <option value="20">$20</option>
@@ -498,42 +498,42 @@ include_once 'header-bottom.inc'
                                         <option value="45">$45</option>
                                         <option value="50">$50</option>
                                         <option value="100">$100</option>
-                                        <option value="other">Other</option>
-                                        <option value="no thank you">No thank you</option>
+                                        <option value="other">Otro</option>
+                                        <option value="no thank you">No gracias</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Optional, please enter your Contribution.
+                                        Opcional, ingrese su contribución.
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Terms of Services</legend>
+                            <legend>Términos de Servicios</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-6">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
                                         <label class="form-check-label" for="paymentCheckBox" aria-desc>
-                                            I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
+                                            Acepto los términos de servicio Y <strong>entiendo que el registro está incompleto hasta que se pague.</strong>(Requerido)
                                         </label>
                                         <div class="invalid-feedback">
-                                            Required - You must agree before submitting.
+                                            Obligatorio: debe aceptar antes de enviar.
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="paymentMethod" class="reg-form-label">Payment Method Options Below(Required)</label>
+                                    <label for="paymentMethod" class="reg-form-label">Opciones de métodos de pago a continuación (Obligatorio)</label>
                                     <select class="form-select" name="paymentMethod" id="paymentMethod" required>
-                                        <option selected disabled value="">Choose...</option>
+                                        <option selected disabled value="">Elige...</option>
                                         <option value="venmo">Venmo</option>
-                                        <option value="cash">Cash</option>
-                                        <option value="check">Check</option>
+                                        <option value="cash">Dinero</option>
+                                        <option value="check">Controlar</option>
                                         <option value="paypal">PayPal</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Required, please select one.
+                                        Requerido, por favor seleccione uno.
                                     </div>
                                 </div>
                             </div>
@@ -543,18 +543,18 @@ include_once 'header-bottom.inc'
                             <div class="col-md-12 mb-3">
                                 <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                                 <div id="reCaptcha-warning">
-                                    <strong>Note</strong>: The form will reset if unchecked.
+                                    <strong>Nota</strong>: El formulario se restablecerá si no está marcado.
                                 </div>
                             </div>
 
                             <div class="col-md-6 text-center mb-3">
-                                <button type="submit" class="btn btn-primary" name="submit">Submit Form</button>
+                                <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
                             </div>
 
                             <div class="col-md-6 text-center mb-3">
-                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Restablecer Formulario</button>
                                 <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                    <p>(A pop up will confirm your choices)</p>
+                                    <p>(Una ventana emergente confirmará sus elecciones)</p>
                                 </div>
                             </div>
                         </div>
