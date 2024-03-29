@@ -74,8 +74,10 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
-                        <h3 class="card-title text-center mb-3">Registration 2024</h3>
-                        <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.</p>
+                        <section aria-label="Registration-Intro">
+                            <h3 class="card-title text-center mb-3">Registration 2024</h3>
+                            <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.</p>
+                        </section>
                     </div>
                 </div>
 
