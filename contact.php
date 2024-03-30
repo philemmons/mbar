@@ -65,13 +65,6 @@ include_once 'header-bottom.inc'
         </div>
     </div>
 
-    <?php
-    // Assuming MYVAR isn't defined yet.
-echo getenv("MYVAR").'<br>'; // returns false
-putenv("MYVAR=foobar");
-echo getenv("MYVAR").'<br>'; // returns true
-
-?>
     <!-- Part One -->
     <article aria-label="Contact Us">
         <div class="container shadow-wrap">
