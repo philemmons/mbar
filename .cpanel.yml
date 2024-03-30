@@ -3,7 +3,7 @@
 ### https://dev.to/eunit/how-to-automatically-deploy-from-github-git-to-cpanel-d36 ###
 ### ALL FILES ###
 ### https://ridbay.medium.com/how-to-deploy-your-github-repositories-to-cpanel-the-easier-way-16ec6e6cc7ee ###
-----
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/vjwszppa/mbar/
