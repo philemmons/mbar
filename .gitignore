@@ -2,3 +2,4 @@ audio/
 error_log
 robots.txt
 .htaccess
+cgi-bin/
