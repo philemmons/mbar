@@ -6,5 +6,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/montgatp/mbar/
+    - export DEPLOYPATH=/home/montgatp/public_html/
     - /bin/cp -R * $DEPLOYPATH
