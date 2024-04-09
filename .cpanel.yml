@@ -6,5 +6,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vjwszppa/mbar/
+    - export DEPLOYPATH=/home/montgatp/mbar/
     - /bin/cp -R * $DEPLOYPATH
