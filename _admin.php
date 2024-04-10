@@ -264,7 +264,7 @@ function displayRegAdmin($registration)
             <div class="accordion-item">
               <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <strong>Online Registration Summary</strong>
+                  <strong>Online Registration Summary (Click to Collapse)</strong>
                 </button>
               </h3>
               <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
