@@ -97,7 +97,7 @@ include_once 'header-bottom.inc'
                 $secretKey  = getenv('g-secret-key');
 
                 // Email settings
-                $recipientEmail = getenv('mbar-to-email');
+                $recipientEmail = getenv('mbar-reg-email');
                 $bccEmail = getenv('mbar-bcc-email');
 
                 // Change lang variable as needed based on lang reg form
