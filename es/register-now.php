@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Registro </title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/_registration.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/register-now.php" />';
 include_once 'header-bottom.inc'
 ?>
 
@@ -228,7 +228,7 @@ include_once 'header-bottom.inc'
 
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
 
-                    <form action="_registration.php" method="POST" class="needs-validation" id="myForm" aria-label="Formulario de inscripción" novalidate>
+                    <form action="register-now.php" method="POST" class="needs-validation" id="myForm" aria-label="Formulario de inscripción" novalidate>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>Informacion Personal</legend>
