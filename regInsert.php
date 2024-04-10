@@ -325,7 +325,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <input type="text" class="form-control" name="ins-vc" id="ins-vc" placeholder="TBD">
+                            <input type="text" class="form-control" name="ins-vc" id="ins-vc" value="TBD">
                             <label for="ins-vc" class="form-label">Trans ID</label>
                         </div>
                         <div class="invalid-feedback">

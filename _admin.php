@@ -267,7 +267,7 @@ function displayRegAdmin($registration)
                   <strong>Online Registration Summary</strong>
                 </button>
               </h3>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 
                   <div class='row pt-2 pb-5 text center'>
