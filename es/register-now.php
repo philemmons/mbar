@@ -98,7 +98,7 @@ include_once 'header-bottom.inc'
                 $secretKey  = getenv('g-secret-key');
 
                 // Email settings
-                $recipientEmail = getenv('mbar-reg-email');
+                $recipientEmail = getenv('mbar-to-email');
                 $bccEmail = getenv('mbar-bcc-email');
 
                 // Change lang variable as needed based on lang reg form
@@ -192,7 +192,7 @@ include_once 'header-bottom.inc'
                                 $headers = "MIME-Version: 1.0" . "\r\n";
                                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                                 // More headers 
-                                $headers .= 'De: Presidente de Registro de MBAR<' . $recipientEmail . '>' . "\r\n";
+                                $headers .= 'De: Administrador de Sistemas MBAR<' . $recipientEmail . '>' . "\r\n";
 
                                 $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
