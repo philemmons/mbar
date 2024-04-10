@@ -194,7 +194,7 @@ include_once 'header-bottom.inc'
                                 $headers .= 'From: MBAR Registration Chair<' . $recipientEmail . '>' . "\r\n";
 
                                 $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
-
+echo $headers; die();
                                 // Send email 
                                 mail($to, $subject, $htmlContent, $headers);
 
