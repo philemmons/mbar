@@ -470,21 +470,23 @@ function displayRegAdmin($registration)
                 <div class="p-3 text-bg-light hero-text-border">
 
                     <form method='POST' name='regStatus' id='regStatus'>
-                        <div class="col-auto">
-                            <div class="input-group">
-
-                                <label for="regType" class="reg-form-label">Registration Status</label>
-                                <select class="form-select" name="regType">
-                                    <option value="all" selected>All</option>
-                                    <option value="no">Incomplete</option>
-                                    <option value="yes">Archive</option>
-                                </select>
+                        <fieldset class="text-bg-light pb-3 mb-3">
+                            <legend>Registration</legend>
+                            <div class="col-auto">
+                                <div class="input-group">
+                                    <label for="regType" class="reg-form-label">Registration Status</label>
+                                    <select class="form-select" name="regType">
+                                        <option value="all" selected>All</option>
+                                        <option value="no">Incomplete</option>
+                                        <option value="yes">Archive</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-auto">
-                            <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
-                        </div>
+                            <div class="col-auto">
+                                <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
+                            </div>
+                        </fieldset>
                     </form>
 
                     <table class="table table-hover display nowrap" style="width:100%;" id="adminDisplay">
