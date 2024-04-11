@@ -271,10 +271,10 @@ function displayRegAdmin($registration)
                                 <div class="accordion-body">
 
                                     <div class='row text-center'>
-                                        <div class="col-sm-6 pt-2 pb-5">
+                                        <div class="col-sm-6 pt-2 pb-4">
                                             <a href="exportData.php" target='_blank' class="btn btn-primary">CSV Export All Data</a>
                                         </div>
-                                        <div class="col-sm-6 pt-2 pb-5">
+                                        <div class="col-sm-6 pt-2 pb-4">
                                             <a href="exportBadge.php" target='_blank' class="btn btn-primary">CSV Export Badge Data</a>
                                         </div>
                                     </div>
@@ -474,7 +474,7 @@ function displayRegAdmin($registration)
                             <div class="col-sm-3">
                                 <div class="input-group">
                                     <label for="regType" class="reg-form-label px-2">Registration Status</label>
-                                    <select class="form-control" name="regType">
+                                    <select class="form-select" name="regType">
                                         <option value="all" selected>All</option>
                                         <option value="no">Incomplete</option>
                                         <option value="yes">Archive</option>
