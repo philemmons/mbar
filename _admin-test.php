@@ -470,12 +470,11 @@ function displayRegAdmin($registration)
                 <div class="p-3 text-bg-light hero-text-border">
 
                     <form method='POST' name='regStatus' id='regStatus'>
-                        <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Registration</legend>
-                            <div class="col-auto">
+                    <div class="row justify-content-center py-4">
+                            <div class="col-sm-3">
                                 <div class="input-group">
                                     <label for="regType" class="reg-form-label">Registration Status</label>
-                                    <select class="form-select" name="regType">
+                                    <select class="form-control" name="regType">
                                         <option value="all" selected>All</option>
                                         <option value="no">Incomplete</option>
                                         <option value="yes">Archive</option>
@@ -483,10 +482,10 @@ function displayRegAdmin($registration)
                                 </div>
                             </div>
 
-                            <div class="col-auto">
+                            <div class="col-sm-3">
                                 <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
                             </div>
-                        </fieldset>
+                </div>
                     </form>
 
                     <table class="table table-hover display nowrap" style="width:100%;" id="adminDisplay">
