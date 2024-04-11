@@ -133,7 +133,7 @@ function getUserInfo($email)
      global $dbConn, $nPara;
 
      $nPara[':dEmail'] = $email;
-     $sql = "SELECT * FROM registration WHERE id = :dEmail ";
+     $sql = "SELECT * FROM registration WHERE email like :dEmail ";
      $stmt = $dbConn->prepare($sql);
      $stmt->execute($nPara);
      $record = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -158,7 +158,7 @@ function getRegData($table, $upDown)
 function getRegType($table, $regType)
 {
      global $nPara;
-     $nPara[':regType'] = $$regType;
+     $nPara[':regType'] = $regType;
 
      $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE onfile LIKE :regType";
      //echo $sql; die();
