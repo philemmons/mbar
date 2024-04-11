@@ -488,9 +488,7 @@ function displayRegAdmin($registration)
 
                             <?php if (!empty($statusMsg)) { ?>
                                 <div class="col-sm-3 mx-auto">
-                                    <div title="Online Registration Status Message.">
-                                        <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
-                                    </div>
+                                    <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
                                 </div>
                             <?php } ?>
 
