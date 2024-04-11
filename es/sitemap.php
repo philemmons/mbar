@@ -91,7 +91,7 @@ include_once 'header-bottom.inc'
 							<li class="lhead">https:/</li>
 							<li>
 								<ul class="level-1">
-									<li class="lhead">&#39;</li>
+									<li class="lhead">/ </li>
 									<li>
 										<ul class="level-2">
 
