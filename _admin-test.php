@@ -32,6 +32,8 @@ $rucbPrice = 10.0;
 $icsPrice = 5.0;
 $sndPrice = 5.0;
 
+$statusMsg = "Displaying All";
+
 
 function getZeroPara()
 {
@@ -485,6 +487,16 @@ function displayRegAdmin($registration)
                             <div class="col-sm-3">
                                 <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
                             </div>
+
+                            <?php if (!empty($statusMsg)) { ?>
+                                <div class="col-sm-3 mx-auto">
+                                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online Registration Status Message.">
+                                        <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
+                                    </div>
+                                </div>
+                            <?php } ?>
+
+
                         </div>
                     </form>
 
@@ -529,13 +541,14 @@ function displayRegAdmin($registration)
 
                                 if ($_POST['regType'] == 'incomplete') {
                                     $registration = getRegType("registration", "incomplete");
+                                    $statusMsg = "Displaying Incomplete";
                                 } else {
                                     $registration = getRegType("registration", "complete");
+                                    $statusMsg = "Displaying Archived";
                                 }
                             } else {
                                 $registration = getRegData("registration", "desc");
                             }
-
 
                             displayRegAdmin($registration);
                             ?>
