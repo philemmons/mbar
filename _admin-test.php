@@ -479,8 +479,8 @@ function displayRegAdmin($registration)
                 <div class="p-3 text-bg-light hero-text-border">
 
                     <form method='POST' name='regStatus' id='regStatus'>
-                        <div class="row py-4">
-                            <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-3 pt-3">
                                 <div class="input-group">
                                     <label for="regType" class="reg-form-label px-2">Registration Status</label>
                                     <select class="form-select" name="regType">
@@ -491,15 +491,13 @@ function displayRegAdmin($registration)
                                 </div>
                             </div>
 
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 pt-3">
                                 <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
                             </div>
 
                             <?php if (!empty($statusMsg)) { ?>
-                                <div class="col-sm-3 mx-auto">
-                                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online Registration Status Message.">
-                                        <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
-                                    </div>
+                                <div class="col-sm-3 mx-auto py-3">
+                                        <p class="h5 text-center"><?php echo $statusMsg; ?></p>
                                 </div>
                             <?php } ?>
 
@@ -544,7 +542,7 @@ function displayRegAdmin($registration)
                         </thead>
                         <tbody>
                             <?php
-                            
+
                             if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
                                 if ($_POST['regType'] == 'incomplete') {
                                     $registration = getRegType("registration", "incomplete");                              
