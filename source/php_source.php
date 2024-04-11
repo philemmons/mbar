@@ -152,6 +152,17 @@ function getRegData($table, $upDown)
 }
 
 /*
+*@input: Name of the database table - registration; Name of the registration status - yes/no
+*@output: all contents of registration table for the user based on registration status
+*/
+function getRegType($table, $regType)
+{
+     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE onfile LIKE ". $regType;
+     return preExeFetNOPARA($sql);
+}
+
+
+/*
 *@input: Name of the database table - registration
 *@output: Name to appear, homegroup and fellowship of the user by ascending badge name.
 */
