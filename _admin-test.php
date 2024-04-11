@@ -477,7 +477,7 @@ function displayRegAdmin($registration)
                                     <select class="form-select" name="regType">
                                         <option value="all" selected>All</option>
                                         <option value="incomplete">Incomplete</option>
-                                        <option value="complete">Archive</option>
+                                        <option value="complete">Complete</option>
                                     </select>
                                 </div>
                             </div>
@@ -502,7 +502,7 @@ function displayRegAdmin($registration)
                                 <th>Payment</th>
                                 <th>Due</th>
                                 <th>Paid</th>
-                                <th>On File</th>
+                                <th>Status</th>
                                 <th>Tran ID</th>
                                 <th>Badge Name</th>
                                 <th>Phone</th>
@@ -527,10 +527,10 @@ function displayRegAdmin($registration)
                             <?php
                             if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
 
-                                if ($_POST['regType'] == 'no') {
-                                    $registration = getRegType("registration", "no");
+                                if ($_POST['regType'] == 'incomplete') {
+                                    $registration = getRegType("registration", "incomplete");
                                 } else {
-                                    $registration = getRegType("registration", "yes");
+                                    $registration = getRegType("registration", "complete");
                                 }
                             } else {
                                 $registration = getRegData("registration", "desc");
