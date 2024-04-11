@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2022 Al-Anon Michele M., Pete C., Dawn C., and Joe P.</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2022-michele-pete-dawn-joe.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2022-michele-pete-dawn-joe.php" />';
 include_once 'header-bottom.inc'
 ?>
 
