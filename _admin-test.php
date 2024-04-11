@@ -497,7 +497,7 @@ function displayRegAdmin($registration)
 
                             <?php if (!empty($statusMsg)) { ?>
                                 <div class="col-sm-3 mx-auto py-3">
-                                        <p class="h5 text-center bold"><?php echo $statusMsg; ?></p>
+                                        <p class="h5 text-center fw-bold"><?php echo $statusMsg; ?></p>
                                 </div>
                             <?php } ?>
 
