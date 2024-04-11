@@ -32,6 +32,8 @@ $rucbPrice = 10.0;
 $icsPrice = 5.0;
 $sndPrice = 5.0;
 
+$statusMsg = '';
+
 
 function getZeroPara()
 {
@@ -488,9 +490,12 @@ function displayRegAdmin($registration)
 
                             <?php if (!empty($statusMsg)) { ?>
                                 <div class="col-sm-3 mx-auto">
-                                    <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
+                                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online Registration Status Message.">
+                                        <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
+                                    </div>
                                 </div>
                             <?php } ?>
+
 
                         </div>
                     </form>
