@@ -91,9 +91,9 @@ include_once 'header-bottom.inc'
 							<li class="lhead">https:/</li>
 							<li>
 								<ul class="level-1">
-									<li class="lhead">/ </li>
+									<li class="lhead">&#39;</li>
 									<li>
-										<<ul class="level-2">
+										<ul class="level-2">
 
 									<li class="lhead">montereybayarearoundup.org/ <span class="lcount">35 pages</span></li>
 
