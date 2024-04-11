@@ -470,7 +470,7 @@ function displayRegAdmin($registration)
                 <div class="p-3 text-bg-light hero-text-border">
 
                     <form method='POST' name='regStatus' id='regStatus'>
-                    <div class="row justify-content-center py-4">
+                        <div class="row justify-content-center py-4">
                             <div class="col-sm-3">
                                 <div class="input-group">
                                     <label for="regType" class="reg-form-label">Registration Status</label>
@@ -485,7 +485,7 @@ function displayRegAdmin($registration)
                             <div class="col-sm-3">
                                 <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
                             </div>
-                </div>
+                        </div>
                     </form>
 
                     <table class="table table-hover display nowrap" style="width:100%;" id="adminDisplay">
