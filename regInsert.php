@@ -460,8 +460,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-2">
                         <div class="form-floating">
                             <select class="form-select" name="ins-rs" id="ins-rs">
-                                <option value="yes">Yes</option>
-                                <option selected value="no">No</option>
+                                <option value="complete">Complete</option>
+                                <option selected value="incomplete">Incomplete</option>
                             </select>
                             <label for="ins-rs" class="form-label">Status</label>
                         </div>
