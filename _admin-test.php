@@ -32,8 +32,6 @@ $rucbPrice = 10.0;
 $icsPrice = 5.0;
 $sndPrice = 5.0;
 
-$statusMsg = "Displaying All";
-
 
 function getZeroPara()
 {
