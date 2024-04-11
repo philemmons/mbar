@@ -264,10 +264,10 @@ function displayRegAdmin($registration)
                         <div class="accordion-item">
                             <h3 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <strong>Online Registration Summary (Click to Collapse)</strong>
+                                    <strong>Online Registration Summary (Click to Display)</strong>
                                 </button>
                             </h3>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
 
                                     <div class='row pt-2 pb-5 text center'>
@@ -470,10 +470,10 @@ function displayRegAdmin($registration)
                 <div class="p-3 text-bg-light hero-text-border">
 
                     <form method='POST' name='regStatus' id='regStatus'>
-                        <div class="row justify-content-center py-4">
+                        <div class="row py-4">
                             <div class="col-sm-3">
                                 <div class="input-group">
-                                    <label for="regType" class="reg-form-label">Registration Status</label>
+                                    <label for="regType" class="reg-form-label px-2">Registration Status</label>
                                     <select class="form-control" name="regType">
                                         <option value="all" selected>All</option>
                                         <option value="no">Incomplete</option>
