@@ -490,12 +490,11 @@ function displayRegAdmin($registration)
 
                             <?php if (!empty($statusMsg)) { ?>
                                 <div class="col-sm-3 mx-auto">
-                                    <div class="p-3 text-center text-bg-light hero-text-border" title="Online Registration Status Message.">
+                                    <div title="Online Registration Status Message.">
                                         <p class="mb-6 h5 status-msg"><?php echo $statusMsg; ?></p>
                                     </div>
                                 </div>
                             <?php } ?>
-
 
                         </div>
                     </form>
@@ -541,13 +540,14 @@ function displayRegAdmin($registration)
 
                                 if ($_POST['regType'] == 'incomplete') {
                                     $registration = getRegType("registration", "incomplete");
-                                    $statusMsg = "Displaying Incomplete";
+                                    $statusMsg = "Incomplete Registrations";
                                 } else {
                                     $registration = getRegType("registration", "complete");
-                                    $statusMsg = "Displaying Archived";
+                                    $statusMsg = "Archived Registrations";
                                 }
                             } else {
                                 $registration = getRegData("registration", "desc");
+                                $statusMsg = "All Registrations";
                             }
 
                             displayRegAdmin($registration);
