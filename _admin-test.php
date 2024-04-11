@@ -32,8 +32,15 @@ $rucbPrice = 10.0;
 $icsPrice = 5.0;
 $sndPrice = 5.0;
 
-$statusMsg = '';
-
+if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
+    if ($_POST['regType'] == 'incomplete') {
+        $statusMsg = "Incomplete Registrations";
+    } else {
+        $statusMsg = "Archived Registrations";
+    }
+} else {
+    $statusMsg = "All Registrations";
+}
 
 function getZeroPara()
 {
@@ -537,18 +544,15 @@ function displayRegAdmin($registration)
                         </thead>
                         <tbody>
                             <?php
+                            
                             if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
-
                                 if ($_POST['regType'] == 'incomplete') {
-                                    $registration = getRegType("registration", "incomplete");
-                                    $statusMsg = "Incomplete Registrations";
+                                    $registration = getRegType("registration", "incomplete");                              
                                 } else {
                                     $registration = getRegType("registration", "complete");
-                                    $statusMsg = "Archived Registrations";
                                 }
                             } else {
                                 $registration = getRegData("registration", "desc");
-                                $statusMsg = "All Registrations";
                             }
 
                             displayRegAdmin($registration);
