@@ -147,7 +147,7 @@ function getUserInfo($email)
 function getRegData($table, $upDown)
 {
      //$sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY id DESC";
-     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " ORDER BY result IS NULL , result ". $upDown;
+     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " ORDER BY result IS NULL , result " . $upDown;
      return preExeFetNOPARA($sql);
 }
 
@@ -160,7 +160,7 @@ function getRegType($table, $regType)
      global $nPara;
      $nPara[':regType'] = $regType;
 
-     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE onfile LIKE :regType";
+     $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE rstatus LIKE :regType";
      //echo $sql; die();
      return preExeFet($sql);
 }
@@ -324,22 +324,25 @@ function formatPhone($phoneNumber)
      return $phoneNumber;
 }
 
-function oneOrBlank($yun){
+function oneOrBlank($yun)
+{
 
-     if($yun == "yes") return 1;
+     if ($yun == "yes") return 1;
      return "";
 }
 
-function caseFellowship($aado){
+function caseFellowship($aado)
+{
 
-     if($aado == "a.a.") return "AA";
-     if($aado == "al-anon") return "Al-Anon";
-     if($aado == "double winner") return "Double Winner";
-     if($aado == "other") return "Other";
+     if ($aado == "a.a.") return "AA";
+     if ($aado == "al-anon") return "Al-Anon";
+     if ($aado == "double winner") return "Double Winner";
+     if ($aado == "other") return "Other";
 }
 
-function noThankYou($nty){
+function noThankYou($nty)
+{
 
-     if($nty == "no thank you") return "";
+     if ($nty == "no thank you") return "";
      return $nty;
 }

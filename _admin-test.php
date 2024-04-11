@@ -127,7 +127,7 @@ function displayRegAdmin($registration)
         echo "<td>" . $eachReg['payment'] . "</td>";
         echo "<td>" . $eachReg['total'] . "</td>";
         echo "<td>" . $eachReg['paid'] . "</td>";
-        echo "<td>" . $eachReg['onfile'] . "</td>";
+        echo "<td>" . $eachReg['rstatus'] . "</td>";
         echo "<td>" . $eachReg['verification'] . "</td>";
         echo "<td>" . $eachReg['badgename'] . "</td>";
         echo "<td>" . $fPhone . "</td>";
@@ -476,8 +476,8 @@ function displayRegAdmin($registration)
                                     <label for="regType" class="reg-form-label px-2">Registration Status</label>
                                     <select class="form-select" name="regType">
                                         <option value="all" selected>All</option>
-                                        <option value="no">Incomplete</option>
-                                        <option value="yes">Archive</option>
+                                        <option value="incomplete">Incomplete</option>
+                                        <option value="complete">Archive</option>
                                     </select>
                                 </div>
                             </div>

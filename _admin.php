@@ -24,13 +24,13 @@ if (isset($_POST['logout'])) {
 
 /**** event pricing ****/
 
-$preregPrice= 45.0;
-$regPrice= 50.0;
-$ebmbPrice= 35.0;
-$mtsdPrice= 25.0;
-$rucbPrice= 10.0;
-$icsPrice= 5.0;
-$sndPrice= 5.0;
+$preregPrice = 45.0;
+$regPrice = 50.0;
+$ebmbPrice = 35.0;
+$mtsdPrice = 25.0;
+$rucbPrice = 10.0;
+$icsPrice = 5.0;
+$sndPrice = 5.0;
 
 
 function getZeroPara()
@@ -127,7 +127,7 @@ function displayRegAdmin($registration)
     echo "<td>" . $eachReg['payment'] . "</td>";
     echo "<td>" . $eachReg['total'] . "</td>";
     echo "<td>" . $eachReg['paid'] . "</td>";
-    echo "<td>" . $eachReg['onfile'] . "</td>";
+    echo "<td>" . $eachReg['rstatus'] . "</td>";
     echo "<td>" . $eachReg['verification'] . "</td>";
     echo "<td>" . $eachReg['badgename'] . "</td>";
     echo "<td>" . $fPhone . "</td>";
@@ -282,17 +282,17 @@ function displayRegAdmin($registration)
 
                   <fieldset>
                     <legend>Pre Registration Info</legend>
-                  <div class='row pb-3'>
-                    <div class="col-sm-4">
-                      Total Registrations: <?php echo getZeroPara(); ?>
+                    <div class='row pb-3'>
+                      <div class="col-sm-4">
+                        Total Registrations: <?php echo getZeroPara(); ?>
+                      </div>
+                      <div class="col-sm-4">
+                        Early Bird Reg 7-1-24: <?php echo getTwoPara('registration', 'ebr'); ?>
+                      </div>
+                      <div class='col-sm-4'>
+                        After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
+                      </div>
                     </div>
-                    <div class="col-sm-4">
-                      Early Bird Reg 7-1-24: <?php echo getTwoPara('registration', 'ebr'); ?>
-                    </div>
-                    <div class='col-sm-4'>
-                      After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
-                    </div>
-                  </div>
                   </fieldset>
 
                   <br>
@@ -343,25 +343,25 @@ function displayRegAdmin($registration)
 
                     <div class='row pb-3'>
                       <div class="col-sm-3">
-                        Dinner Only: $<?php echo (getTwoPara('speakerdinner', 'yes')* $mtsdPrice); ?>.00
+                        Dinner Only: $<?php echo (getTwoPara('speakerdinner', 'yes') * $mtsdPrice); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        Breakfast Only: $<?php echo (getTwoPara('breakfast', 'yes')* $rucbPrice); ?>.00
+                        Breakfast Only: $<?php echo (getTwoPara('breakfast', 'yes') * $rucbPrice); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        Ice Cream Only: $<?php echo (getTwoPara('icecream', 'yes')* $icsPrice); ?>.00
+                        Ice Cream Only: $<?php echo (getTwoPara('icecream', 'yes') * $icsPrice); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        Meal Bundle Only: $<?php echo (getTwoPara('ebmb', 'yes')* $ebmbPrice); ?>.00
+                        Meal Bundle Only: $<?php echo (getTwoPara('ebmb', 'yes') * $ebmbPrice); ?>.00
                       </div>
                     </div>
 
                     <div class='row pb-3'>
                       <div class="col-sm-3">
-                        Pre Reg: $<?php echo (getTwoPara('registration', 'ebr')* $preregPrice); ?>.00
+                        Pre Reg: $<?php echo (getTwoPara('registration', 'ebr') * $preregPrice); ?>.00
                       </div>
                       <div class='col-sm-3'>
-                        Normal Reg: $<?php echo (getTwoPara('registration', 'after')* $regPrice); ?>.00
+                        Normal Reg: $<?php echo (getTwoPara('registration', 'after') * $regPrice); ?>.00
                       </div>
                     </div>
 
@@ -505,7 +505,7 @@ function displayRegAdmin($registration)
             </thead>
             <tbody>
               <?php
-              $registration = getRegData("registration","desc");
+              $registration = getRegData("registration", "desc");
               displayRegAdmin($registration);
               ?>
             </tbody>

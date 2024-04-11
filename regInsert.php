@@ -64,10 +64,10 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 paid,
                 tos,
                 verification,
-                onfile,
+                rstatus,
                 lang
                 ) VALUES (
-                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :of, :lang
+                    :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :rs, :lang
                 )";
 
     //echo $sql . '<br>';
@@ -94,7 +94,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
     $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
-    $nPara[':of'] = strtolower(htmlspecialchars($_POST['ins-of'], ENT_QUOTES));
+    $nPara[':rs'] = strtolower(htmlspecialchars($_POST['ins-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['ins-lang'], ENT_QUOTES));
 
     // print_r($nPara); die;
@@ -459,11 +459,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-2">
                         <div class="form-floating">
-                            <select class="form-select" name="ins-of" id="ins-of">
+                            <select class="form-select" name="ins-rs" id="ins-rs">
                                 <option value="yes">Yes</option>
                                 <option selected value="no">No</option>
                             </select>
-                            <label for="ins-of" class="form-label">OnFile</label>
+                            <label for="ins-rs" class="form-label">Status</label>
                         </div>
                         <div class="invalid-feedback">
                             Optional - Select one.

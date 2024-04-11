@@ -56,7 +56,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 total = $total,
                 paid = :paid,
                 verification = :verify,
-                onfile = :of,
+                rstatus = :rs,
                 lang = :lang
             WHERE id = :reg_id";
 
@@ -83,7 +83,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
-    $nPara[':of'] = strtolower(htmlspecialchars($_POST['upd-of'], ENT_QUOTES));
+    $nPara[':rs'] = strtolower(htmlspecialchars($_POST['upd-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
@@ -436,12 +436,12 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-2">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-of" id="upd-of">
-                                    <option value="<?= $regInfo['onfile'] ?>" selected> <?php echo $regInfo['onfile'] ?></option>
-                                    <option value="yes">Yes</option>
-                                    <option value="no">No</option>
+                                <select class="form-select" name="upd-rs" id="upd-rs">
+                                    <option value="<?= $regInfo['rstatus'] ?>" selected> <?php echo $regInfo['rstatus'] ?></option>
+                                    <option value="complete">Complete</option>
+                                    <option value="incomplete">Incomplete</option>
                                 </select>
-                                <label for="upd-of" class="form-label">OnFile</label>
+                                <label for="upd-rs" class="form-label">Status</label>
                             </div>
                             <div class="invalid-feedback">
                                 Optional - Select one.
