@@ -158,7 +158,7 @@ function getRegData($table, $upDown)
 function getRegType($table, $regType)
 {
      $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE onfile LIKE ". $regType;
-     echo $sql; die();
+     //echo $sql; die();
      return preExeFetNOPARA($sql);
 }
 
