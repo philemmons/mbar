@@ -47,7 +47,7 @@ if (count($regArray) > 0) {
         'Amount Due',
         'Total Payments',
         'PAYMENT',
-        'Due=Paid',
+        'Status',
         'NOTES'
     );
 
@@ -109,7 +109,7 @@ if (count($regArray) > 0) {
 
             $eachReg['payment'],
 
-            NULL,
+            $eachReg['rstatus'],
 
             $eachReg['verification']
         );
