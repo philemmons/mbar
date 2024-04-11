@@ -148,7 +148,6 @@ function getRegData($table, $upDown)
 {
      //$sql = "SELECT *, DATE_FORMAT(datetime, '%m-%d-%y') AS result FROM " . $table . " ORDER BY id DESC";
      $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " ORDER BY result IS NULL , result ". $upDown;
-     echo $sql; die();
      return preExeFetNOPARA($sql);
 }
 
@@ -159,6 +158,7 @@ function getRegData($table, $upDown)
 function getRegType($table, $regType)
 {
      $sql = "SELECT *, DATE(datetime) AS result FROM " . $table . " WHERE onfile LIKE ". $regType;
+     echo $sql; die();
      return preExeFetNOPARA($sql);
 }
 
