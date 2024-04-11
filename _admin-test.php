@@ -270,11 +270,11 @@ function displayRegAdmin($registration)
                             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
 
-                                    <div class='row pt-2 pb-5 text center'>
-                                        <div class="col-sm-6">
+                                    <div class='row text-center'>
+                                        <div class="col-sm-6 pt-2 pb-5">
                                             <a href="exportData.php" target='_blank' class="btn btn-primary">CSV Export All Data</a>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 pt-2 pb-5">
                                             <a href="exportBadge.php" target='_blank' class="btn btn-primary">CSV Export Badge Data</a>
                                         </div>
                                     </div>
