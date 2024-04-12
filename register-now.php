@@ -513,7 +513,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-6">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
-                                        <label class="form-check-label" for="paymentCheckBox" aria-desc>
+                                        <label class="form-check-label" for="paymentCheckBox">
                                             I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
                                         </label>
                                         <div class="invalid-feedback">
