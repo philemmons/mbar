@@ -239,7 +239,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Reset Form</button>
                             <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                <p>(A pop up will confirm your choices)</p>
+                                <p>(A pop up will confirm your reset)</p>
                             </div>
                     </form>
 

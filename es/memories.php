@@ -239,7 +239,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-6 text-center">
                             <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Restablecer Formulario</button>
                             <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                <p>(Una ventana emergente confirmará sus elecciones)</p>
+                                <p>(Una ventana emergente confirmará su descanso)</p>
                             </div>
                         </div>
                     </form>
