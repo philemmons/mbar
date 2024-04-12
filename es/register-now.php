@@ -392,6 +392,7 @@ include_once 'header-bottom.inc'
                             <div class="row justify-content-center">
                                 <div class="col-lg-5">
                                     <p class="h5">Registro (Requerido)</p>
+                                    <span class="sr-only">(Utilice las teclas de flecha para hacer su elección)</span>
                                     <div class="form-check">
                                         <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
                                         <label class="form-check-label" for="early-registration">Inscripción Anticipada (Antes del 31 de Julio de 2024) - $45</label>
@@ -516,6 +517,7 @@ include_once 'header-bottom.inc'
                                         <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
                                         <label class="form-check-label" for="paymentCheckBox">
                                             Acepto los términos de servicio Y <strong>entiendo que el registro está incompleto hasta que se pague.</strong>(Requerido)
+                                            <span class="sr-only">(Pulsa la barra espaciadora para aceptar)</span>
                                         </label>
                                         <div class="invalid-feedback">
                                             Obligatorio: debe aceptar antes de enviar.

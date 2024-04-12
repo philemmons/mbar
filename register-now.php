@@ -391,6 +391,7 @@ include_once 'header-bottom.inc'
                             <div class="row justify-content-center">
                                 <div class="col-lg-5">
                                     <p class="h5">Registration (Required)</p>
+                                    <span class="sr-only">(Use the arrow keys to make your choice)</span>
                                     <div class="form-check">
                                         <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
                                         <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
@@ -515,6 +516,7 @@ include_once 'header-bottom.inc'
                                         <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
                                         <label class="form-check-label" for="paymentCheckBox">
                                             I agree to terms of service AND <strong>understand registration is incomplete until paid.</strong>(Required)
+                                            <span class="sr-only">(Press the space bar to accept)</span>
                                         </label>
                                         <div class="invalid-feedback">
                                             Required - You must agree before submitting.
