@@ -96,6 +96,10 @@ include_once 'header-bottom.inc'
                         <hr>
                         <div class="d-grid gap-3">
                             <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2024/01-13-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Opens a PDF: 01/13/2024</button>
+
+                            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2024/02-10-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Opens a PDF: 02/10/2024</button>
+                            
+                            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2024/03-09-24.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Opens a PDF: 03/09/2024</button>
                         </div>
                     </div>
                 </div>
