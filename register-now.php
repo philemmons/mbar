@@ -110,7 +110,7 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
-if(!isset($_POST['littleBee'])){
+if(isset($_POST['littleBee'])){
     echo 'BEE: '. $_POST['littleBee'];   
 }          
 
