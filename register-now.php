@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
-                        empty($_POST['littleBee'])
+                        empty($_POST['beeName'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
