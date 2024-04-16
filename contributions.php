@@ -189,7 +189,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="col-md-6">
-                                <label for="helpHand-phone" class="form-label">Phone</label>
+                                <label for="helpHand-phone" class="form-label">Phone with Area Code (xxx.xxx.xxxx)</label>
                                 <input type="tel" class="form-control" name="helpHand-phone" id="helpHand-phone" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
                                     Optional, please enter a valid phone number.
