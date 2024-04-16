@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
-                        empty($_POST['verifyEmail'])
+                        empty($_POST['littleBee'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -211,7 +211,7 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Please fill all the mandatory fields.';
-                        if (!empty($_POST['verifyEmail'])) {
+                        if (!empty($_POST['beeName'])) {
                             $statusMsg = 'Are you a bot?';
                         }
                     }
@@ -236,6 +236,9 @@ include_once 'header-bottom.inc'
                             <legend>Personal Information</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
+                                    <label for="beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
+                                    <input type="text" name="beeName" id="beeName" style="display:none">
+
                                     <label for="firstName" class="reg-form-label">First Name (Required)</label>
                                     <input type="text" class="form-control" name="firstName" id="firstName" required>
                                     <div class="invalid-feedback">
@@ -265,9 +268,6 @@ include_once 'header-bottom.inc'
                                     <div class="invalid-feedback">
                                         Required, please enter your email.
                                     </div>
-
-                                    <label for="verifyEmail" aria-hidden="true" class="visually-hidden">Verify Email<input type="radio" name="verifyEmail" id="verifyEmail" style="display:none"></label>
-
                                 </div>
 
                                 <div class="col-md-6">
