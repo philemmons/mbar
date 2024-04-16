@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
-                        $_POST['littleBee'] != 1
+                        !isset($_POST['littleBee'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -211,7 +211,7 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Please fill all the mandatory fields.';
-                        if($_POST['littleBee'] == 1){
+                        if(isset($_POST['littleBee']) && ($_POST['littleBee'] == 1)){
                             $statusMsg ='Are you a bot?';
                         }
                     }
