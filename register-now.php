@@ -111,7 +111,8 @@ include_once 'header-bottom.inc'
                     $postData = $_POST;
 
 if(!isset($_POST['littleBee'])){
-    echo 'BEE: '. $_POST['littleBee'];             
+    echo 'BEE: '. $_POST['littleBee'];   
+}          
 
 // Validate form required input fields
                     if (
