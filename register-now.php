@@ -236,8 +236,8 @@ include_once 'header-bottom.inc'
                             <legend>Personal Information</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
-                                    <label for="beeName" aria-hidden="true" class="">Sunflower Name</label>
-                                    <input type="text" name="beeName" id="beeName" style="">
+                                    <label for="beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
+                                    <input type="text" name="beeName" id="beeName" style="display:none">
 
                                     <label for="firstName" class="reg-form-label">First Name (Required)</label>
                                     <input type="text" class="form-control" name="firstName" id="firstName" required>
