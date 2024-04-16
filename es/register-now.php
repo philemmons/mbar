@@ -125,7 +125,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
-                        !isset($_POST['littleBee'])
+                        empty($_POST['beeName'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -213,8 +213,8 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Por favor complete todos los campos obligatorios.';
-                        if(isset($_POST['littleBee']) && ($_POST['littleBee'] == 1)){
-                            $statusMsg ='¿Eres un bot?';
+                        if (!empty($_POST['beeName'])) {
+                            $statusMsg = '¿Eres un bot?';
                         }
                     }
                 }
@@ -238,6 +238,9 @@ include_once 'header-bottom.inc'
                             <legend>Informacion Personal</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
+                                    <label for="beeName" aria-hidden="true" class="visually-hidden">Nombre del Girasol</label>
+                                    <input type="text" name="beeName" id="beeName" style="display:none">
+
                                     <label for="firstName" class="reg-form-label">Primer nombre (requerido)</label>
                                     <input type="text" class="form-control" name="firstName" id="firstName" required>
                                     <div class="invalid-feedback">
@@ -267,9 +270,6 @@ include_once 'header-bottom.inc'
                                     <div class="invalid-feedback">
                                         Requerido, por favor ingrese su correo electrónico.
                                     </div>
-
-                                    <label for="littleBee" aria-hidden="true" class="visually-hidden">Girasol<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
-
                                 </div>
 
                                 <div class="col-md-6">

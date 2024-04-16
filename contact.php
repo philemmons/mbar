@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
 
                 // Email settings 
                 $recipientEmail = getenv('mbar-chair-email');
-//echo "---> email should appear here-->". getenv('mbar-chair-email'); die();
+                //echo "---> email should appear here-->". getenv('mbar-chair-email'); die();
                 // If the form is submitted 
                 $postData = $statusMsg = '';
                 $status = 'error';
@@ -99,11 +99,12 @@ include_once 'header-bottom.inc'
 
                     // Validate form input fields
                     if (
-                        !empty($_POST['contact-fn']) &&
-                        !empty($_POST['contact-ln']) &&
-                        !empty($_POST['contact-em']) &&
-                        !empty($_POST['contact-subj']) &&
-                        !empty($_POST['contact-ta'])
+                        !empty($_POST['contact-firstName']) &&
+                        !empty($_POST['contact-lastName']) &&
+                        !empty($_POST['contact-email']) &&
+                        !empty($_POST['contact-subject']) &&
+                        !empty($_POST['contact-textArea']) &&
+                        empty($_POST['contact-beeName'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -118,12 +119,12 @@ include_once 'header-bottom.inc'
                             // If the reCAPTCHA API response is valid 
                             if ($responseData->success) {
                                 // Retrieve value from the form input fields 
-                                $firstName = !empty($_POST['contact-fn']) ? htmlspecialchars($_POST['contact-fn']) : '';
-                                $lastName = !empty($_POST['contact-ln']) ? htmlspecialchars($_POST['contact-ln']) : '';
-                                $email = !empty($_POST['contact-em']) ? htmlspecialchars($_POST['contact-em']) : '';
+                                $firstName = !empty($_POST['contact-firstName']) ? htmlspecialchars($_POST['contact-firstName']) : '';
+                                $lastName = !empty($_POST['contact-lastName']) ? htmlspecialchars($_POST['contact-lastName']) : '';
+                                $email = !empty($_POST['contact-email']) ? htmlspecialchars($_POST['contact-email']) : '';
                                 $phone = !empty($_POST['contact-phone']) ? htmlspecialchars($_POST['contact-phone']) : '';
-                                $contactSubj = !empty($_POST['contact-subj']) ? htmlspecialchars($_POST['contact-subj']) : '';
-                                $contactMess = !empty($_POST['contact-ta']) ? htmlspecialchars($_POST['contact-ta']) : '';
+                                $contactSubj = !empty($_POST['contact-subject']) ? htmlspecialchars($_POST['contact-subject']) : '';
+                                $contactMess = !empty($_POST['contact-textArea']) ? htmlspecialchars($_POST['contact-textArea']) : '';
 
                                 // Send email notification to the site admin 
                                 $to = $recipientEmail;
@@ -157,6 +158,9 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Please fill all the mandatory fields.';
+                        if (!empty($_POST['contact-beeName'])) {
+                            $statusMsg = 'Are you a bot?';
+                        }
                     }
                 }
 
@@ -176,53 +180,53 @@ include_once 'header-bottom.inc'
 
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
                             <div class="col-md-6">
-                                <label for="contact-fn" class="form-label">First Name</label>
-                                <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
+                                <label for="contact-beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
+                                <input type="text" name="contact-beeName" id="contact-beeName" style="display:none">
+
+                                <label for="contact-firstName" class="form-label">First Name (Required)</label>
+                                <input type="text" class="form-control" name="contact-firstName" id="contact-firstName" required>
                                 <div class="invalid-feedback">
                                     Please enter your first name.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-ln" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
+                                <label for="contact-lastName" class="form-label">Last Name (Required)</label>
+                                <input type="text" class="form-control" name="contact-lastName" id="contact-lastName" required>
                                 <div class="invalid-feedback">
-                                    Please enter your last name.
+                                    Required, please enter your last name.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-em" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="contact-em" id="contact-em" required>
+                                <label for="contact-email" class="form-label">Email (Required)</label>
+                                <input type="email" class="form-control" name="contact-email" id="contact-email" required>
                                 <div class="invalid-feedback">
-                                    Please enter your email.
+                                    Required, please enter your email.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-phone" class="form-label">Phone(Optional)</label>
+                                <label for="contact-phone" class="form-label">Phone with Area Code (xxx.xxx.xxxx)</label>
                                 <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
-                                    Please enter a valid phone number.
+                                    Optional, please enter a valid phone number.
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="contact-subj" class="form-label">Subject</label>
-                                <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
+                                <label for="contact-subject" class="form-label">Subject (Required)</label>
+                                <input type="text" class="form-control" name="contact-subject" id="contact-subject" required>
                                 <div class="invalid-feedback">
-                                    Please enter a subject.
+                                    Required, please enter a subject.
                                 </div>
-
-                                <label for="littleBee" aria-hidden="true" class="visually-hidden">Sunflower<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
-                                
                             </div>
 
                             <div class="col-md-12">
-                                <label for="contact-ta" class="form-label">Question, Feedback or Improvement</label>
-                                <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
+                                <label for="contact-textArea" class="form-label">Question, Feedback or Improvement (Required)</label>
+                                <textarea class="form-control" name="contact-textArea" id="contact-textArea" required></textarea>
                                 <div class="invalid-feedback">
-                                    Please enter your message.
+                                    Required, please enter your message.
                                 </div>
                             </div>
 
