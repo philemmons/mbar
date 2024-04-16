@@ -99,10 +99,11 @@ include_once 'header-bottom.inc'
 
                     // Validate form input fields 
                     if (
-                        !empty($_POST['hand-em']) &&
-                        !empty($_POST['hand-ph']) &&
-                        !empty($_POST['hand-am']) &&
-                        !empty($_POST['hand-ta'])
+                        !empty($_POST['helpHand-email']) &&
+                        !empty($_POST['helpHand-phone']) &&
+                        !empty($_POST['helpHand-amount']) &&
+                        !empty($_POST['helpHand-textArea']) &&
+                        empty($_POST['helpHand-beeName'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -117,10 +118,10 @@ include_once 'header-bottom.inc'
                             // If the reCAPTCHA API response is valid 
                             if ($responseData->success) {
                                 // Retrieve value from the form input fields 
-                                $email = !empty($_POST['hand-em']) ? htmlspecialchars($_POST['hand-em']) : '';
-                                $phone = !empty($_POST['hand-ph']) ? htmlspecialchars($_POST['hand-ph']) : '';
-                                $amount = !empty($_POST['hand-am']) ? htmlspecialchars($_POST['hand-am']) : '';
-                                $mainMessage = !empty($_POST['hand-ta']) ? htmlspecialchars($_POST['hand-ta']) : '';
+                                $email = !empty($_POST['helpHand-email']) ? htmlspecialchars($_POST['helpHand-email']) : '';
+                                $phone = !empty($_POST['helpHand-phone']) ? htmlspecialchars($_POST['helpHand-phone']) : '';
+                                $amount = !empty($_POST['helpHand-amount']) ? htmlspecialchars($_POST['helpHand-amount']) : '';
+                                $mainMessage = !empty($_POST['helpHand-textArea']) ? htmlspecialchars($_POST['helpHand-textArea']) : '';
 
                                 // Send email notification to the site admin 
                                 $to = $recipientEmail;
@@ -154,6 +155,9 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Por favor complete todos los campos obligatorios.';
+                        if (!empty($_POST['helpHand-beeName'])) {
+                            $statusMsg = '¿Eres un bot?';
+                        }
                     }
                 }
 
@@ -173,37 +177,40 @@ include_once 'header-bottom.inc'
 
                         <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
                             <div class="col-md-6">
-                                <label for="hand-em" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" name="hand-em" id="hand-em" required>
+                                <label for="helpHand-beeName" aria-hidden="true" class="visually-hidden">Nombre del Girasol</label>
+                                <input type="text" name="helpHand-beeName" id="helpHand-beeName" style="display:none">
+
+                                <label for="helpHand-email" class="form-label">Correo Electrónico (Requerido)</label>
+                                <input type="email" class="form-control" name="helpHand-email" id="helpHand-email" required>
                                 <div class="invalid-feedback">
-                                    Por favor introduzca su correo electrónico.
+                                    Requerido, por favor introduzca su correo electrónico.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="hand-ph" class="form-label">Teléfono</label>
-                                <input type="tel" class="form-control" name="hand-ph" id="hand-ph" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
+                                <label for="helpHand-phone" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" name="helpHand-phone" id="helpHand-phone" required pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
-                                    Por favor ingrese un número de teléfono válido.
+                                    Opcional, ingrese un número de teléfono válido.
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="hand-am" class="form-label">Tu Contribución</label>
+                                <label for="helpHand-amount" class="form-label">Tu Contribución (requerido)</label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text" id="inputGroupPrepend">USD</span>
-                                    <input type="text" class="form-control" name="hand-am" id="hand-am" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
+                                    <input type="text" class="form-control" name="helpHand-amount" id="helpHand-amount" aria-describedby="inputGroupPrepend" placeholder="0.00" required>
                                     <div class="invalid-feedback">
-                                        Por favor ingrese una cantidad en dólares.
+                                        Requerido, por favor ingrese una cantidad en dólares.
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="hand-ta" class="form-label">Mensaje o Nota a incluir.</label>
-                                <textarea class="form-control" name="hand-ta" id="hand-ta" required></textarea>
+                                <label for="helpHand-textArea" class="form-label">Mensaje o Nota a incluir (Requerido)</label>
+                                <textarea class="form-control" name="helpHand-textArea" id="helpHand-textArea" required></textarea>
                                 <div class="invalid-feedback">
-                                    Por favor ingrese su mensaje.
+                                    Requerido, por favor ingrese su mensaje.
                                 </div>
                             </div>
 

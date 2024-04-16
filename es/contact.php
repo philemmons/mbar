@@ -99,11 +99,12 @@ include_once 'header-bottom.inc'
 
                     // Validate form input fields
                     if (
-                        !empty($_POST['contact-fn']) &&
-                        !empty($_POST['contact-ln']) &&
-                        !empty($_POST['contact-em']) &&
-                        !empty($_POST['contact-subj']) &&
-                        !empty($_POST['contact-ta'])
+                        !empty($_POST['contact-firstName']) &&
+                        !empty($_POST['contact-lastName']) &&
+                        !empty($_POST['contact-email']) &&
+                        !empty($_POST['contact-subject']) &&
+                        !empty($_POST['contact-textArea']) &&
+                        empty($_POST['contact-beeName'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -118,12 +119,12 @@ include_once 'header-bottom.inc'
                             // If the reCAPTCHA API response is valid 
                             if ($responseData->success) {
                                 // Retrieve value from the form input fields 
-                                $firstName = !empty($_POST['contact-fn']) ? htmlspecialchars($_POST['contact-fn']) : '';
-                                $lastName = !empty($_POST['contact-ln']) ? htmlspecialchars($_POST['contact-ln']) : '';
-                                $email = !empty($_POST['contact-em']) ? htmlspecialchars($_POST['contact-em']) : '';
+                                $firstName = !empty($_POST['contact-firstName']) ? htmlspecialchars($_POST['contact-firstName']) : '';
+                                $lastName = !empty($_POST['contact-lastName']) ? htmlspecialchars($_POST['contact-lastName']) : '';
+                                $email = !empty($_POST['contact-email']) ? htmlspecialchars($_POST['contact-email']) : '';
                                 $phone = !empty($_POST['contact-phone']) ? htmlspecialchars($_POST['contact-phone']) : '';
-                                $contactSubj = !empty($_POST['contact-subj']) ? htmlspecialchars($_POST['contact-subj']) : '';
-                                $contactMess = !empty($_POST['contact-ta']) ? htmlspecialchars($_POST['contact-ta']) : '';
+                                $contactSubj = !empty($_POST['contact-subject']) ? htmlspecialchars($_POST['contact-subject']) : '';
+                                $contactMess = !empty($_POST['contact-textArea']) ? htmlspecialchars($_POST['contact-textArea']) : '';
 
                                 // Send email notification to the site admin 
                                 $to = $recipientEmail;
@@ -157,6 +158,9 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Por favor complete todos los campos obligatorios.';
+                        if (!empty($_POST['contact-beeName'])) {
+                            $statusMsg = '¿Eres un bot?';
+                        }
                     }
                 }
 
@@ -176,50 +180,53 @@ include_once 'header-bottom.inc'
                         <form action="contact.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                             <div class="col-md-6">
-                                <label for="contact-fn" class="form-label">Nombre de pila</label>
-                                <input type="text" class="form-control" name="contact-fn" id="contact-fn" required>
+                                <label for="contact-beeName" aria-hidden="true" class="visually-hidden">Nombre del Girasol</label>
+                                <input type="text" name="contact-beeName" id="contact-beeName" style="display:none">
+
+                                <label for="contact-firstName" class="form-label">Nombre de pila (requerido)</label>
+                                <input type="text" class="form-control" name="contact-firstName" id="contact-firstName" required>
                                 <div class="invalid-feedback">
-                                    Por favor, introduzca su nombre de pila.
+                                    Requerido, por favor, introduzca su nombre de pila.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-ln" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" name="contact-ln" id="contact-ln" required>
+                                <label for="contact-lastName" class="form-label">Apellido (requerido)</label>
+                                <input type="text" class="form-control" name="contact-lastName" id="contact-lastName" required>
                                 <div class="invalid-feedback">
-                                    Por favor ingrese su apellido.
+                                    Requerido, por favor ingrese su apellido.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-em" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" name="contact-em" id="contact-em" required>
+                                <label for="contact-email" class="form-label">Correo electrónico (requerido)</label>
+                                <input type="email" class="form-control" name="contact-email" id="contact-email" required>
                                 <div class="invalid-feedback">
-                                    Por favor introduzca su correo electrónico.
+                                    Requerido, por favor introduzca su correo electrónico.
                                 </div>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="contact-phone" class="form-label">Teléfono (Opcional)</label>
+                                <label for="contact-phone" class="form-label">Teléfono con código de área (xxx.xxx.xxxx)</label>
                                 <input type="tel" class="form-control" name="contact-phone" id="contact-phone" pattern="^(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" placeholder="555.867.5309">
                                 <div class="invalid-feedback">
-                                    Por favor ingrese un número de teléfono válido.
+                                    Opcional, ingrese un número de teléfono válido.
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="contact-subj" class="form-label">Sujeto</label>
-                                <input type="text" class="form-control" name="contact-subj" id="contact-subj" required>
+                                <label for="contact-subject" class="form-label">Sujeto</label>
+                                <input type="text" class="form-control" name="contact-subject" id="contact-subject" required>
                                 <div class="invalid-feedback">
-                                    Por favor ingrese un asunto.
+                                    Requerido, por favor ingrese un asunto.
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <label for="contact-ta" class="form-label">Pregunta, comentario o mejora</label>
-                                <textarea class="form-control" name="contact-ta" id="contact-ta" required></textarea>
+                                <label for="contact-textArea" class="form-label">Pregunta, comentario o mejora (requerido)</label>
+                                <textarea class="form-control" name="contact-textArea" id="contact-textArea" required></textarea>
                                 <div class="invalid-feedback">
-                                    Por favor ingrese su mensaje.
+                                    Requerido, por favor ingrese su mensaje.
                                 </div>
                             </div>
 
