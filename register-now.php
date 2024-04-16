@@ -110,11 +110,11 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
-if(isset($_POST['littleBee'])){
-    echo 'BEE: '. $_POST['littleBee'];   
-}          
+                    if (isset($_POST['littleBee'])) {
+                        echo 'BEE: ' . $_POST['littleBee'];
+                    }
 
-// Validate form required input fields
+                    // Validate form required input fields
                     if (
                         !empty($_POST['firstName']) &&
                         !empty($_POST['lastName']) &&
@@ -127,7 +127,7 @@ if(isset($_POST['littleBee'])){
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
-                        !isset($_POST['littleBee'])
+                        empty($_POST['littleBee'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -198,7 +198,7 @@ if(isset($_POST['littleBee'])){
                                 $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
 
                                 $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
-                                
+
                                 // Send email 
                                 mail($to, $subject, $htmlContent, $headers);
 
@@ -215,8 +215,8 @@ if(isset($_POST['littleBee'])){
                         }
                     } else {
                         $statusMsg = 'Please fill all the mandatory fields.';
-                        if(isset($_POST['littleBee']) && ($_POST['littleBee'] == 1)){
-                            $statusMsg ='Are you a bot?';
+                        if (isset($_POST['littleBee']) && ($_POST['littleBee'] == 1)) {
+                            $statusMsg = 'Are you a bot?';
                         }
                     }
                 }
@@ -240,6 +240,8 @@ if(isset($_POST['littleBee'])){
                             <legend>Personal Information</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-4">
+                                    <label for="littleBee" aria-hidden="true" class="visually-hidden">Sunflower<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
+
                                     <label for="firstName" class="reg-form-label">First Name (Required)</label>
                                     <input type="text" class="form-control" name="firstName" id="firstName" required>
                                     <div class="invalid-feedback">
@@ -269,9 +271,6 @@ if(isset($_POST['littleBee'])){
                                     <div class="invalid-feedback">
                                         Required, please enter your email.
                                     </div>
-
-                                    <label for="littleBee" aria-hidden="true" class="visually-hidden">Sunflower<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
-
                                 </div>
 
                                 <div class="col-md-6">
