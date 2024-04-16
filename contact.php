@@ -213,6 +213,9 @@ include_once 'header-bottom.inc'
                                 <div class="invalid-feedback">
                                     Please enter a subject.
                                 </div>
+
+                                <label for="littleBee" aria-hidden="true" class="visually-hidden">Sunflower<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
+                                
                             </div>
 
                             <div class="col-md-12">
