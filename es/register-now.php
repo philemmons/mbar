@@ -124,7 +124,8 @@ include_once 'header-bottom.inc'
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['paymentCheckBox']) &&
-                        !empty($_POST['paymentMethod'])
+                        !empty($_POST['paymentMethod']) &&
+                        !isset($_POST['littleBee'])
                     ) {
 
                         // Validate reCAPTCHA checkbox 
@@ -212,6 +213,9 @@ include_once 'header-bottom.inc'
                         }
                     } else {
                         $statusMsg = 'Por favor complete todos los campos obligatorios.';
+                        if(isset($_POST['littleBee']) && ($_POST['littleBee'] == 1)){
+                            $statusMsg ='¿Eres un bot?';
+                        }
                     }
                 }
 
@@ -263,6 +267,9 @@ include_once 'header-bottom.inc'
                                     <div class="invalid-feedback">
                                         Requerido, por favor ingrese su correo electrónico.
                                     </div>
+
+                                    <label for="littleBee" aria-hidden="true" class="visually-hidden">Girasol<input type="radio" name="littleBee" id="littleBee" style="display:none" value="1"></label>
+
                                 </div>
 
                                 <div class="col-md-6">
