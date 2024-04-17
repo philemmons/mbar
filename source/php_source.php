@@ -11,6 +11,7 @@ $dbConn = getDBConnection();
 function regFormData($total, $lang)
 {
      global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
+     //$tsq, $tss, $tsg;
 
      $firstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
      $lastName = isset($_POST['lastName']) ? strtolower(htmlspecialchars($_POST['lastName'], ENT_QUOTES)) : '';
@@ -30,6 +31,11 @@ function regFormData($total, $lang)
      $ics = isset($_POST['iceCreamSocial']) ? strtolower(htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES)) : '';
      $snd = isset($_POST['saturdayNightDance']) ? strtolower(htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES)) : '';
      $hhc = isset($_POST['helpingHandContribution']) ? strtolower(htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES)) : '';
+     /*
+     $tsq = isset($_POST['shirtQuantity']) ? strtolower(htmlspecialchars($_POST['shirtQuantity'], ENT_QUOTES)) : '';
+     $tss = isset($_POST['shirtSize']) ? strtolower(htmlspecialchars($_POST['shirtSize'], ENT_QUOTES)) : '';
+     $tsg = isset($_POST['shirtGender']) ? strtolower(htmlspecialchars($_POST['shirtGender'], ENT_QUOTES)) : '';
+     */
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
 
@@ -38,6 +44,7 @@ function regFormData($total, $lang)
 
 
 function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
+//function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
 {
      $amount = 0.00;
 
@@ -88,7 +95,13 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
           default:
                $amount += 0.0;
      }
-
+/*
+     if ($tss == "XX-Large" || $tss == "3X-Large") {
+          $amount += (31.0 * $tsq);
+     } else {
+          $amount += (26.0 * $tsq);
+     }
+*/
      return $amount;
 }
 

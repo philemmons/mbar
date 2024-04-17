@@ -547,7 +547,7 @@ include_once 'header-bottom.inc'
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    <p class="pt-3">If change your mind for now, select zero quantity, and continue your register.
+                                    <p class="pt-3">If change your mind for now, select zero quantity, and continue your registration.
                                     </p>
 
                                     <div class="row">
@@ -859,6 +859,9 @@ include_once 'header-bottom.inc'
             if (sQua.value == "0") {
                 sSiz.value = "none";
                 sGen.value = "none";
+            } else {
+                sSiz.setAttribute("required", true);
+                sGen.setAttribute("required", true);
             }
         }
     </script>
