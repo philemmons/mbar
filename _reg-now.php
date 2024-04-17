@@ -541,7 +541,7 @@ include_once 'header-bottom.inc'
                                         <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
                                         </li>
 
-                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house. 
+                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
                                         </li>
 
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
@@ -583,8 +583,8 @@ include_once 'header-bottom.inc'
                                             <label for="shirtGender" class="reg-form-label">Style</label>
                                             <select class="form-select" name="shirtGender" id="shirtGender">
                                                 <option selected disabled value="">Choose...</option>
-                                                <option value="men">Men</option>
-                                                <option value="women">Women</option>
+                                                <option value="men">Men's</option>
+                                                <option value="women">Women's</option>
                                             </select>
                                             <div class="invalid-feedback">
                                                 Optional, please enter your style
@@ -595,11 +595,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="myHomegroup" class="reg-form-label">Homegroup(s)</label>
-                                    <input type="text" class="form-control" name="myHomegroup" id="myHomegroup">
-                                    <div class="invalid-feedback">
-                                        Optional, please enter your Homegroup(s)
-                                    </div>
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
                                 </div>
                             </div>
                         </fieldset>
