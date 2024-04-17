@@ -98,11 +98,12 @@ include_once 'header-bottom.inc'
 
                 // Validate form input fields 
                 if (
-                    !empty($_POST['fname']) &&
-                    !empty($_POST['lname']) &&
-                    !empty($_POST['mem-email']) &&
-                    !empty($_POST['mem-title']) &&
-                    !empty($_POST['mem-ta'])
+                    !empty($_POST['memories-firstName']) &&
+                    !empty($_POST['memories-lastName']) &&
+                    !empty($_POST['memories-email']) &&
+                    !empty($_POST['memories-titles']) &&
+                    !empty($_POST['memories-textarea']) &&
+                    empty($_POST['beeName'])
                 ) {
 
                     // Validate reCAPTCHA checkbox 
@@ -117,11 +118,11 @@ include_once 'header-bottom.inc'
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['fname']) ? htmlspecialchars($_POST['fname']) : '';
-                            $lastName = !empty($_POST['lname']) ? htmlspecialchars($_POST['lname']) : '';
-                            $email = !empty($_POST['mem-email']) ? htmlspecialchars($_POST['mem-email']) : '';
-                            $messageTitle = !empty($_POST['mem-title']) ? htmlspecialchars($_POST['mem-title']) : '';
-                            $mainMessage = !empty($_POST['mem-ta']) ? htmlspecialchars($_POST['mem-ta']) : '';
+                            $firstName = !empty($_POST['memories-firstName']) ? htmlspecialchars($_POST['memories-firstName']) : '';
+                            $lastName = !empty($_POST['memories-lastName']) ? htmlspecialchars($_POST['memories-lastName']) : '';
+                            $email = !empty($_POST['memories-email']) ? htmlspecialchars($_POST['memories-email']) : '';
+                            $messageTitle = !empty($_POST['memories-titles']) ? htmlspecialchars($_POST['memories-titles']) : '';
+                            $mainMessage = !empty($_POST['memories-textarea']) ? htmlspecialchars($_POST['memories-textarea']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -154,6 +155,9 @@ include_once 'header-bottom.inc'
                     }
                 } else {
                     $statusMsg = 'Please fill all the mandatory fields.';
+                    if (!empty($_POST['beeName'])) {
+                        $statusMsg = 'Are you a bot?';
+                    }
                 }
             }
 
@@ -174,42 +178,45 @@ include_once 'header-bottom.inc'
                     <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="fname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="fname" id="fname" required>
+                            <label for="beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
+                            <input type="text" name="beeName" id="beeName" style="display:none">
+
+                            <label for="memories-firstName" class="form-label">First Name (Required)</label>
+                            <input type="text" class="form-control" name="memories-firstName" id="memories-firstName" required>
                             <div class="invalid-feedback">
-                                Please enter your first name.
+                            Required, please enter your first name.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="lname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="lname" id="lname" required>
+                            <label for="memories-lastName" class="form-label">Last Name (Required)</label>
+                            <input type="text" class="form-control" name="memories-lastName" id="memories-lastName" required>
                             <div class="invalid-feedback">
-                                Please enter your last name.
+                            Required, please enter your last name.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-email" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="mem-email" id="mem-email" required>
+                            <label for="memories-email" class="form-label">Email (Required)</label>
+                            <input type="email" class="form-control" name="memories-email" id="memories-email" required>
                             <div class="invalid-feedback">
-                                Please enter your email.
+                            Required, please enter your email.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-title" class="form-label">Message Title</label>
-                            <input type="text" class="form-control" name="mem-title" id="mem-title" required>
+                            <label for="memories-titles" class="form-label">Message Title (Required)</label>
+                            <input type="text" class="form-control" name="memories-titles" id="memories-titles" required>
                             <div class="invalid-feedback">
-                                Please enter a title.
+                            Required, please enter a title.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="mem-ta" class="form-label">Message</label>
-                            <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
+                            <label for="memories-textarea" class="form-label">Message (Required)</label>
+                            <textarea class="form-control" name="memories-textarea" id="memories-textarea" required></textarea>
                             <div class="invalid-feedback">
-                                Please enter your message.
+                            Required, please enter your message.
                             </div>
                         </div>
 
@@ -217,10 +224,10 @@ include_once 'header-bottom.inc'
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Agree to terms and conditions
+                                    Agree to terms and conditions  (Required)
                                 </label>
                                 <div class="invalid-feedback">
-                                    You must agree before submitting.
+                                    Required - You must agree before submitting.
                                 </div>
                             </div>
                         </div>

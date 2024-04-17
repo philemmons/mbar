@@ -249,7 +249,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-4">
-                                    <label for="lastName" class="reg-form-label">Apellido o Inicial (Obligatorio)</label>
+                                    <label for="lastName" class="reg-form-label">Apellido o Inicial (requerido)</label>
                                     <input type="text" class="form-control" name="lastName" id="lastName" required>
                                     <div class="invalid-feedback">
                                         Requerido, por favor ingrese su apellido o inicial.
@@ -714,7 +714,7 @@ include_once 'header-bottom.inc'
     </script>
     <script>
         function resetFields() {
-            return confirm("Are you sure you want to reset all fields?");
+            return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
         }
     </script>
     <script>

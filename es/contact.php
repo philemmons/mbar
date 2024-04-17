@@ -292,7 +292,7 @@ include_once 'header-bottom.inc'
         // Function to display confirmation message and update live region
         function resetFields() {
             // Display confirmation dialog
-            var confirmMessage = "Are you sure you want to reset all fields?"
+            var confirmMessage = "¿Estás seguro de que quieres restablecer todos los campos?"
             var confirmed = window.confirm(confirmMessage);
 
             // Update live region based on user's choice

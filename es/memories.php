@@ -98,11 +98,12 @@ include_once 'header-bottom.inc'
 
                 // Validate form input fields 
                 if (
-                    !empty($_POST['fname']) &&
-                    !empty($_POST['lname']) &&
-                    !empty($_POST['mem-email']) &&
-                    !empty($_POST['mem-title']) &&
-                    !empty($_POST['mem-ta'])
+                    !empty($_POST['memory-firstName']) &&
+                    !empty($_POST['memory-lastName']) &&
+                    !empty($_POST['memory-email']) &&
+                    !empty($_POST['memory-title']) &&
+                    !empty($_POST['memory-textarea']) &&
+                    empty($_POST['memory-beeName'])
                 ) {
 
                     // Validate reCAPTCHA checkbox 
@@ -117,11 +118,11 @@ include_once 'header-bottom.inc'
                         // If the reCAPTCHA API response is valid 
                         if ($responseData->success) {
                             // Retrieve value from the form input fields 
-                            $firstName = !empty($_POST['fname']) ? htmlspecialchars($_POST['fname']) : '';
-                            $lastName = !empty($_POST['lname']) ? htmlspecialchars($_POST['lname']) : '';
-                            $email = !empty($_POST['mem-email']) ? htmlspecialchars($_POST['mem-email']) : '';
-                            $messageTitle = !empty($_POST['mem-title']) ? htmlspecialchars($_POST['mem-title']) : '';
-                            $mainMessage = !empty($_POST['mem-ta']) ? htmlspecialchars($_POST['mem-ta']) : '';
+                            $firstName = !empty($_POST['memory-firstName']) ? htmlspecialchars($_POST['memory-firstName']) : '';
+                            $lastName = !empty($_POST['memory-lastName']) ? htmlspecialchars($_POST['memory-lastName']) : '';
+                            $email = !empty($_POST['memory-email']) ? htmlspecialchars($_POST['memory-email']) : '';
+                            $messageTitle = !empty($_POST['memory-title']) ? htmlspecialchars($_POST['memory-title']) : '';
+                            $mainMessage = !empty($_POST['memory-textarea']) ? htmlspecialchars($_POST['memory-textarea']) : '';
 
                             // Send email notification to the site admin 
                             $to = $recipientEmail;
@@ -154,6 +155,9 @@ include_once 'header-bottom.inc'
                     }
                 } else {
                     $statusMsg = 'Por favor complete todos los campos obligatorios.';
+                    if (!empty($_POST['memory-beeName'])) {
+                        $statusMsg = '¿Eres un bot?';
+                    }
                 }
             }
 
@@ -174,42 +178,45 @@ include_once 'header-bottom.inc'
                     <form action="memories.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
 
                         <div class="col-md-6">
-                            <label for="fname" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" name="fname" id="fname" required>
+                            <label for="memory-beeName" aria-hidden="true" class="visually-hidden">Nombre del Girasol</label>
+                            <input type="text" name="memory-beeName" id="memory-beeName" style="display:none">
+
+                            <label for="memory-firstName" class="form-label">Primer nombre (requerido)</label>
+                            <input type="text" class="form-control" name="memory-firstName" id="memory-firstName" required>
                             <div class="invalid-feedback">
-                                Por favor, introduzca su nombre de pila.
+                                Requerido, por favor, introduzca su nombre de pila.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="lname" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" name="lname" id="lname" required>
+                            <label for="memory-lastName" class="form-label">Apellido o Inicial (requerido)</label>
+                            <input type="text" class="form-control" name="memory-lastName" id="memory-lastName" required>
                             <div class="invalid-feedback">
-                                Por favor ingrese su apellido.
+                                Requerido, por favor ingrese su apellido.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" name="mem-email" id="mem-email" required>
+                            <label for="memory-email" class="form-label">Correo electronico (requerido)</label>
+                            <input type="email" class="form-control" name="memory-email" id="memory-email" required>
                             <div class="invalid-feedback">
-                                Por favor introduzca su correo electrónico.
+                                Requerido, por favor introduzca su correo electrónico.
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="mem-title" class="form-label">Título del Mensaje</label>
-                            <input type="text" class="form-control" name="mem-title" id="mem-title" required>
+                            <label for="memory-title" class="form-label">Título del Mensaje (requerido)</label>
+                            <input type="text" class="form-control" name="memory-title" id="memory-title" required>
                             <div class="invalid-feedback">
-                                Por favor introduce un título.
+                                Requerido, por favor introduce un título.
                             </div>
                         </div>
 
                         <div class="col-md-12">
-                            <label for="mem-ta" class="form-label">Mensaje</label>
-                            <textarea class="form-control" name="mem-ta" id="mem-ta" required></textarea>
+                            <label for="memory-textarea" class="form-label">Mensaje (requerido)</label>
+                            <textarea class="form-control" name="memory-textarea" id="memory-textarea" required></textarea>
                             <div class="invalid-feedback">
-                                Por favor ingrese su mensaje.
+                                Requerido, por favor ingrese su mensaje.
                             </div>
                         </div>
 
@@ -308,7 +315,7 @@ include_once 'header-bottom.inc'
         // Function to display confirmation message and update live region
         function resetFields() {
             // Display confirmation dialog
-            var confirmMessage = "Are you sure you want to reset all fields?"
+            var confirmMessage = "¿Estás seguro de que quieres restablecer todos los campos?"
             var confirmed = window.confirm(confirmMessage);
 
             // Update live region based on user's choice
