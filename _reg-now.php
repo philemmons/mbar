@@ -535,7 +535,7 @@ include_once 'header-bottom.inc'
                         <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
-                                <div class="col-md-6">
+                                <div class="col-md-8">
                                     <p class="h5">Pre-order your online gear until July 31st.</p>
                                     <ul>
                                         <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
