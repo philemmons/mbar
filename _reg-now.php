@@ -548,8 +548,8 @@ include_once 'header-bottom.inc'
                                         </li>
                                     </ul>
                                     <div class="row">
-                                        <div class="col-sm-4">
-                                            <label for="shirtQuantity" class="reg-form-label">Tee Shirt Quantity</label>
+                                        <div class="col-sm-2">
+                                            <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity">
                                                 <option selected disabled value="">Choose...</option>
                                                 <option value="1">1</option>
@@ -563,8 +563,8 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-4">
-                                            <label for="shirtSize" class="reg-form-label">Tee Shirt Size</label>
+                                        <div class="col-sm-2">
+                                            <label for="shirtSize" class="reg-form-label">Size</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize">
                                                 <option selected disabled value="">Choose...</option>
                                                 <option value="sm">Small</option>
@@ -579,8 +579,8 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-4">
-                                            <label for="shirtGender" class="reg-form-label">Tee Shirt Style</label>
+                                        <div class="col-sm-2">
+                                            <label for="shirtGender" class="reg-form-label">Style</label>
                                             <select class="form-select" name="shirtGender" id="shirtGender">
                                                 <option selected disabled value="">Choose...</option>
                                                 <option value="men">Men</option>
