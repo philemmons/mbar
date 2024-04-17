@@ -548,10 +548,10 @@ include_once 'header-bottom.inc'
                                         </li>
                                     </ul>
                                     <div class="row">
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-2">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity">
-                                                <option selected disabled value="">Choose...</option>
+                                                <option selected disabled value="0">0</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
@@ -563,7 +563,7 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-4">
                                             <label for="shirtSize" class="reg-form-label">Size</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize">
                                                 <option selected disabled value="">Choose...</option>
