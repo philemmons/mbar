@@ -535,7 +535,7 @@ include_once 'header-bottom.inc'
                         <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
-                                <div class="col-md-7">
+                                <div class="col-md-6">
                                     <p class="h5">Pre-order your online gear until July 31st.</p>
                                     <ul>
                                         <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
@@ -548,7 +548,7 @@ include_once 'header-bottom.inc'
                                         </li>
                                     </ul>
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-3">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity">
                                                 <option selected disabled value="">Choose...</option>
@@ -563,7 +563,7 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-3">
                                             <label for="shirtSize" class="reg-form-label">Size</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize">
                                                 <option selected disabled value="">Choose...</option>
@@ -579,7 +579,7 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-2">
+                                        <div class="col-sm-3">
                                             <label for="shirtGender" class="reg-form-label">Style</label>
                                             <select class="form-select" name="shirtGender" id="shirtGender">
                                                 <option selected disabled value="">Choose...</option>
