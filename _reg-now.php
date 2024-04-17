@@ -535,7 +535,7 @@ include_once 'header-bottom.inc'
                         <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>MBAR 2024 Merchandise</legend>
                             <div class="row justify-content-center">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <p class="h5">Pre-order your online gear until July 31st.</p>
                                     <ul>
                                         <li>$26 for sizes Small to X-Large, and $31.00 for sizes XX-Large and 3X-Large
@@ -589,7 +589,7 @@ include_once 'header-bottom.inc'
 
                                 </div>
 
-                                <div class="col-md-8">
+                                <div class="col-md-6">
                                     <label for="myHomegroup" class="reg-form-label">Homegroup(s)</label>
                                     <input type="text" class="form-control" name="myHomegroup" id="myHomegroup">
                                     <div class="invalid-feedback">
