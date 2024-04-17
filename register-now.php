@@ -740,8 +740,6 @@ include_once 'header-bottom.inc'
             myArr.forEach(function($key) {
                 if ($obj.value == "yes" || $obj.value == "undecided")
                     document.getElementById($key).value = "no";
-                //else
-                //document.getElementById($key).value = "";
             });
 
         }
@@ -762,8 +760,6 @@ include_once 'header-bottom.inc'
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
-            //else
-            //ebmb.value = "";
         }
     </script>
     </body>

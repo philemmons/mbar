@@ -551,7 +551,7 @@ include_once 'header-bottom.inc'
                                         <div class="col-sm-2">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity">
-                                                <option selected disabled value="0">0</option>
+                                                <option selected value="0">0</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
@@ -826,8 +826,6 @@ include_once 'header-bottom.inc'
             myArr.forEach(function($key) {
                 if ($obj.value == "yes" || $obj.value == "undecided")
                     document.getElementById($key).value = "no";
-                //else
-                //document.getElementById($key).value = "";
             });
 
         }
@@ -848,8 +846,16 @@ include_once 'header-bottom.inc'
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
-            //else
-            //ebmb.value = "";
+        }
+
+        function optionCHANGE() {
+            let sQua = document.getElementById('shirtQuantity');
+            let sSiz = document.getElementById('shirtSize');
+            let sGen = document.getElementById('shirtGender');
+          
+            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
+                ebmb.value = "no";
+
         }
     </script>
     </body>
