@@ -860,8 +860,8 @@ include_once 'header-bottom.inc'
                 sSiz.value = "none";
                 sGen.value = "none";
             } else {
-                sSiz.setAttribute("required", true);
-                sGen.setAttribute("required", true);
+                sSiz.setAttribute("required", "");
+                sGen.setAttribute("required", "");
             }
         }
     </script>
