@@ -533,60 +533,65 @@ include_once 'header-bottom.inc'
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>MBAR 2024 Merchandise</legend>
+                            <legend>Merchandise</legend>
                             <div class="row justify-content-center">
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <p class="h5">Pre-order your online gear until July 31st.</p>
                                     <ul>
-                                        <li>$26 for sizes Small to X-Large, and $31.00 for sizes XX-Large and 3X-Large
+                                        <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
                                         </li>
 
-                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
+                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house. 
                                         </li>
 
-                                        <li>100% Cotton, Solid Navy Blue, White and Gold Logo
-                                        </li>
-
-                                        <li>Lightweight, Classic fit, Double-needle short sleeve and bottom hem
+                                        <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    <label for="shirtQuantity" class="reg-form-label">Tee Shirt Quantity</label>
-                                    <select class="form-select" name="shirtQuantity" id="shirtQuantity">
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Optional, please enter your quantity
-                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <label for="shirtQuantity" class="reg-form-label">Tee Shirt Quantity</label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity">
+                                                <option selected disabled value="">Choose...</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Optional, please enter your quantity
+                                            </div>
+                                        </div>
 
-                                    <label for="shirtSize" class="reg-form-label">Tee Shirt Size</label>
-                                    <select class="form-select" name="shirtSize" id="shirtSize">
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="sm">Small</option>
-                                        <option value="med">Medium</option>
-                                        <option value="lg">Large</option>
-                                        <option value="xl">X-Large</option>
-                                        <option value="xxl">XX-Large</option>
-                                        <option value="3xl">3X-Large</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Optional, please enter your size
-                                    </div>
+                                        <div class="col-sm-4">
+                                            <label for="shirtSize" class="reg-form-label">Tee Shirt Size</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize">
+                                                <option selected disabled value="">Choose...</option>
+                                                <option value="sm">Small</option>
+                                                <option value="med">Medium</option>
+                                                <option value="lg">Large</option>
+                                                <option value="xl">X-Large</option>
+                                                <option value="xxl">XX-Large</option>
+                                                <option value="3xl">3X-Large</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Optional, please enter your size
+                                            </div>
+                                        </div>
 
-                                    <label for="shirtGender" class="reg-form-label">Tee Shirt Style</label>
-                                    <select class="form-select" name="shirtGender" id="shirtGender">
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="men">Men</option>
-                                        <option value="women">Women</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Optional, please enter your style
-                                    </div>
+                                        <div class="col-sm-4">
+                                            <label for="shirtGender" class="reg-form-label">Tee Shirt Style</label>
+                                            <select class="form-select" name="shirtGender" id="shirtGender">
+                                                <option selected disabled value="">Choose...</option>
+                                                <option value="men">Men</option>
+                                                <option value="women">Women</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Optional, please enter your style
+                                            </div>
+                                        </div>
 
+                                    </div>
                                 </div>
 
                                 <div class="col-md-6">
