@@ -35,6 +35,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+    //getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
     $sql = "UPDATE registration
             SET 
@@ -60,6 +61,12 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 lang = :lang
             WHERE id = :reg_id";
 
+    /*
+    teequan = :tsq,
+    teesize = :tss,
+    teegender = :tsg,
+    */
+
 
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
     //$nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
@@ -80,6 +87,11 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':ics'] = strtolower(htmlspecialchars($_POST['upd-ics'], ENT_QUOTES));
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
+    /*
+    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES));
+    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['upd-tss'], ENT_QUOTES));
+    $nPara[':tsg'] = strtolower(htmlspecialchars($_POST['upd-tsg'], ENT_QUOTES));
+    */
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
@@ -90,9 +102,6 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $stmt->execute($nPara);
 
     $nPara = array();
-
-    //sleep(5); // pause the modal
-
 }
 
 ?>
@@ -586,7 +595,61 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <hr>
+                        <!--
+                        <div class="col-lg-3">
+                            <div class="form-floating">
+                                <select class="form-select" name="upd-tsq" id="upd-tsq" onChange="optionSHIRT()" required>
+                                    <option value="<?= $regInfo['teequan'] ?>" selected> <?php echo $regInfo['teequan'] ?></option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <label for="upd-tsq" class="form-label">Tee Quantity</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Required, please enter your quantity
+                            </div>
+                        </div>
 
+                        <div class="col-lg-5">
+                            <div class="form-floating">
+                                <select class="form-select" name="upd-tss" id="upd-tss">
+                                    <<option value="<?= $regInfo['teesize'] ?>" selected> <?php echo $regInfo['teesize'] ?></option>
+                                        <option value="none">None</option>
+                                        <option value="sm">Small</option>
+                                        <option value="med">Medium</option>
+                                        <option value="lg">Large</option>
+                                        <option value="xl">X-Large</option>
+                                        <option value="xxl">XX-Large</option>
+                                        <option value="3xl">3X-Large</option>
+                                </select>
+                                <label for="upd-tss" class="form-label">Tee Size</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional, please enter your size
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="form-floating">
+                                <select class="form-select" name="upd-tsg" id="upd-tsg">
+                                    <option value="<?= $regInfo['teegender'] ?>" selected> <?php echo $regInfo['teegender'] ?></option>
+                                    <option value="none">None</option>
+                                    <option value="men">Men's</option>
+                                    <option value="women">Women's</option>
+                                </select>
+                                <label for="upd-tsg" class="form-label">Tee Style</label>
+                            </div>
+                            <div class="invalid-feedback">
+                                Optional, please enter your style
+                            </div>
+                        </div>
+
+                        <hr>
+-->
                         <div class="col-lg-3 text-center">
                             <button type="submit" class="btn btn-primary btn-sm" name="submitUpdate" value='update'>Update Registration</button>
                         </div>
@@ -606,27 +669,11 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <a href="_admin.php" class="btn btn-primary btn-sm" style="float:right;">Return to Admin</a>
 
                             </div>
-
+                        </div>
                     </form>
             </div>
         </div>
     </div>
-
-    <!-- Modal
-            <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-body" style="text-align: center">
-                            <h3>Update</h3>
-                            <img src='img/complete.png' alt='complete word with red border with a brick like texture.' >
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
 
     <?php include_once 'footer.inc' ?>
 
@@ -684,6 +731,17 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 ebmb.value = "no";
             //else
             //ebmb.value = "";
+        }
+
+        function optionSHIRT() {
+            let sQua = document.getElementById('upd-tsq');
+            let sSiz = document.getElementById('upd-tss');
+            let sGen = document.getElementById('upd-tsg');
+
+            if (sQua.value == "0") {
+                sSiz.value = "none";
+                sGen.value = "none";
+            }
         }
     </script>
     <script>

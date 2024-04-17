@@ -95,13 +95,20 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc)
           default:
                $amount += 0.0;
      }
-/*
-     if ($tss == "XX-Large" || $tss == "3X-Large") {
-          $amount += (31.0 * $tsq);
-     } else {
-          $amount += (26.0 * $tsq);
+
+     /*
+     switch ($tss) {
+          case "xxl" || "3xl":
+               $amount += (31.0 * $tsq);
+               break;
+          case "sm" || "med" || "lg" || "xl":
+               $amount += (26.0 * $tsq);
+               break;
+          default:
+               $amount += 0.0;
      }
-*/
+     */
+
      return $amount;
 }
 
@@ -197,6 +204,7 @@ function getBadgeData($table)
 function saveData($total, $lang)
 {
      global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang;
+     //$tsq, $tss, $tsg;
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {
@@ -227,8 +235,17 @@ function saveData($total, $lang)
                 ) VALUES (
                     :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :cBox, :pm, $total, :lang
                 )";
+/*
+teequan,
+teesize,
+teegender,
 
+:tsq, :tss, :tsg,
 
+$nPara[':tsq'] =$tsq
+$nPara[':tss'] =$tss
+$nPara[':tsg'] =$tsg
+*/
           $nPara[':firstName'] = $firstName;
           $nPara[':lastName'] = $lastName;
           $nPara[':badgeName'] = $badgeName;

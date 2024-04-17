@@ -37,6 +37,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $hhc = !empty($_POST['ins-hhc']) ? htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES) : '';
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+    //getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+
     $tos = 1;
 
 
@@ -69,9 +71,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 ) VALUES (
                     :firstName, :lastName, :badgeName, :email, :phone, :address, :city, :state, :zc, :fs, :hg, :register, :ebmb, :mtsd, :rucb, :ics, :snd, :hhc, :pm, $total, :paid, $tos, :vc, :rs, :lang
                 )";
-
-    //echo $sql . '<br>';
-
+    /*
+    teequan = :tsq,
+    teesize = :tss,
+    teegender = :tsg,
+    */
 
     $nPara[':firstName'] = strtolower(htmlspecialchars($_POST['ins-fn'], ENT_QUOTES));
     $nPara[':lastName'] = strtolower(htmlspecialchars($_POST['ins-ln'], ENT_QUOTES));
@@ -91,6 +95,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':ics'] = strtolower(htmlspecialchars($_POST['ins-ics'], ENT_QUOTES));
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['ins-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES));
+    /*
+    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES));
+    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['ins-tss'], ENT_QUOTES));
+    $nPara[':tsg'] = strtolower(htmlspecialchars($_POST['ins-tsg'], ENT_QUOTES));
+    */
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
     $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
@@ -608,7 +617,58 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     </div>
 
                     <hr>
+<!--
+                    <div class="col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>
+                                <option selected value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <label for="ins-tsq" class="form-label">Quantity</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Required, please enter your quantity
+                        </div>
+                    </div>
 
+                    <div class="col-lg-5">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tss" id="ins-tss">
+                                <option selected disabled value="none">Choose...</option>
+                                <option value="sm">Small</option>
+                                <option value="med">Medium</option>
+                                <option value="lg">Large</option>
+                                <option value="xl">X-Large</option>
+                                <option value="xxl">XX-Large</option>
+                                <option value="3xl">3X-Large</option>
+                            </select>
+                            <label for="ins-tss" class="form-label">Size</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional, please enter your size
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="form-floating">
+                            <select class="form-select" name="ins-tsg" id="ins-tsg">
+                                <option selected disabled value="none">Choose...</option>
+                                <option value="men">Men's</option>
+                                <option value="women">Women's</option>
+                            </select>
+                            <label for="ins-tsg" class="form-label">Style</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Optional, please enter your style
+                        </div>
+                    </div>
+
+                    <hr>
+            -->
                     <div class="col-lg-3 text-center">
                         <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
                     </div>
@@ -659,8 +719,6 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
             myArr.forEach(function($key) {
                 if ($obj.value == "yes" || $obj.value == "undecided")
                     document.getElementById($key).value = "no";
-                //else
-                //document.getElementById($key).value = "";
             });
 
         }
@@ -679,8 +737,17 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
-            //else
-            //ebmb.value = "";
+        }
+
+        function optionSHIRT() {
+            let sQua = document.getElementById('ins-tsq');
+            let sSiz = document.getElementById('ins-tss');
+            let sGen = document.getElementById('ins-tsg');
+
+            if (sQua.value == "0") {
+                sSiz.value = "none";
+                sGen.value = "none";
+            }
         }
     </script>
     </body>

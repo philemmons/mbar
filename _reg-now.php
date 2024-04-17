@@ -202,7 +202,7 @@ include_once 'header-bottom.inc'
                                 /*
                     <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
                     <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
-                    <p><b>Tee Shirt Gender: </b>" . $tsg . "</p> 
+                    <p><b>Tee Shirt Style: </b>" . $tsg . "</p> 
                 */
 
                                 // Always set content-type when sending HTML email 
@@ -859,9 +859,6 @@ include_once 'header-bottom.inc'
             if (sQua.value == "0") {
                 sSiz.value = "none";
                 sGen.value = "none";
-            } else {
-                sSiz.setAttribute("required", "");
-                sGen.setAttribute("required", "");
             }
         }
     </script>
