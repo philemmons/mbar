@@ -541,13 +541,13 @@ include_once 'header-bottom.inc'
                                         <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
                                         </li>
 
-                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house. Limited quantities on merchandise will be available at the event.
+                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
                                         </li>
 
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    <p class="pt-3">If change your mind for now, select zero quantity, and continue your registration.
+                                    <p class="pt-3">Limited quantity of tee shirts will be on sale at conference.  If you do not want one at this time, select zero quantity, and continue on to complete registration.
                                     </p>
 
                                     <div class="row">
