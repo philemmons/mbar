@@ -546,12 +546,12 @@ include_once 'header-bottom.inc'
 
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
-
-                                        <li>If change your mind for now, select zero quantity, and continue your register.
-                                        </li>
                                     </ul>
+                                    <p class="pt-3">If change your mind for now, select zero quantity, and continue your register.
+                                    </p>
+
                                     <div class="row">
-                                        <div class="col-sm-2">
+                                        <div class="col-md-3">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
                                                 <option selected value="0">0</option>
@@ -566,7 +566,7 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-4">
+                                        <div class="col-md-5">
                                             <label for="shirtSize" class="reg-form-label">Size</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize">
                                                 <option selected disabled value="none">Choose...</option>
@@ -582,7 +582,7 @@ include_once 'header-bottom.inc'
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-3">
+                                        <div class="col-md-4">
                                             <label for="shirtGender" class="reg-form-label">Style</label>
                                             <select class="form-select" name="shirtGender" id="shirtGender">
                                                 <option selected disabled value="none">Choose...</option>
@@ -597,7 +597,7 @@ include_once 'header-bottom.inc'
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-4 pt-3">
                                     <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
                                 </div>
                             </div>
@@ -855,8 +855,8 @@ include_once 'header-bottom.inc'
             let sQua = document.getElementById('shirtQuantity');
             let sSiz = document.getElementById('shirtSize');
             let sGen = document.getElementById('shirtGender');
-          
-            if (sQua.value == "0" ){
+
+            if (sQua.value == "0") {
                 sSiz.value = "none";
                 sGen.value = "none";
             }
