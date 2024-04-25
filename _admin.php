@@ -245,7 +245,7 @@ function displayRegAdmin($registration)
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="_admin-test.php">Admin Test Panel<span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active" aria-current="page" href="_admin.php">Admin Panel<span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="regInsert.php">New Registration</a>
@@ -472,34 +472,42 @@ function displayRegAdmin($registration)
                                         <legend>Merchandise</legend>
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                Total Shirts Ordered: <?php //echo getONePara('teequan'); ?>
+                                                Total Shirts Ordered: <?php //echo getONePara('teequan'); 
+                                                                        ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                Total Shirt Sales: <?php //echo getTwoPara('', ''); ?>
+                                                Total Shirt Sales: <?php //echo getTwoPara('', ''); 
+                                                                    ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # SM Shirts: <?php //echo getTwoPara('teesize', 'sm'); ?>
+                                                # SM Shirts: <?php //echo getTwoPara('teesize', 'sm'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # MED Shirts: <?php //echo getTwoPara('teesize', 'med'); ?>
+                                                # MED Shirts: <?php //echo getTwoPara('teesize', 'med'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # LG Shirts: <?php //echo getTwoPara('teesize', 'lg'); ?>
+                                                # LG Shirts: <?php //echo getTwoPara('teesize', 'lg'); 
+                                                                ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # XL Shirts: <?php //echo getTwoPara('teesize', 'xl'); ?>
+                                                # XL Shirts: <?php //echo getTwoPara('teesize', 'xl'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # XXL Shirts: <?php //echo getTwoPara('teesize', 'xxl'); ?>
+                                                # XXL Shirts: <?php //echo getTwoPara('teesize', 'xxl'); 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php //echo getTwoPara('teesize', '3xl'); ?>
+                                                # 3XL Shirts: <?php //echo getTwoPara('teesize', '3xl'); 
+                                                                ?>
                                             </div>
                                         </div>
 
