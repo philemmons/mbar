@@ -33,6 +33,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $rucb = !empty($_POST['upd-rucb']) ? htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES) : '';
     $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
+    $tsq = !empty($_POST['upd-tsq']) ? htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES) : '';
+    $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['upd-tss'], ENT_QUOTES) : '';
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
