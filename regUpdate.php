@@ -617,7 +617,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-5">
+                        <div class="col-lg-3">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-tss" id="upd-tss">
                                     <<option value="<?= $regInfo['teesize'] ?>" selected> <?php echo $regInfo['teesize'] ?></option>
