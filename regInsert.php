@@ -632,7 +632,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value=14>14</option>
                                 <option value=15>15</option>
                             </select>
-                            <label for="ins-tsq" class="form-label">T-Shirt Quantity</label>
+                            <label for="ins-tsq" class="form-label">T-Shirt Quantity*</label>
                         </div>
                         <div class="invalid-feedback">
                             Required, please enter your quantity
@@ -651,7 +651,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value="xxl">XX-Large</option>
                                 <option value="3xl">3X-Large</option>
                             </select>
-                            <label for="ins-tss" class="form-label">T-Shirt Size</label>
+                            <label for="ins-tss" class="form-label">T-Shirt Size*</label>
                         </div>
                         <div class="invalid-feedback">
                             Required, please enter your size
