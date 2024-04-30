@@ -614,7 +614,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>
-                                <option selected value=0>None</option>
+                            <option selected disabled value="">Choose...</option>
                                 <option value=0>0</option>
                                 <option value=1>1</option>
                                 <option value=2>2</option>
@@ -642,7 +642,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tss" id="ins-tss" required>
-                                <option selected disabled value="none">Choose...</option>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="none">None</option> 
                                 <option value="sm">Small</option>
                                 <option value="med">Medium</option>
                                 <option value="lg">Large</option>

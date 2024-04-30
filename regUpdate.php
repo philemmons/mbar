@@ -593,7 +593,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             <div class="form-floating">
                                 <select class="form-select" name="upd-tsq" id="upd-tsq" onChange="optionSHIRT()" required>
                                     <option value="<?= $regInfo['teequan'] ?>" selected> <?php echo $regInfo['teequan'] ?></option>
-                                    <option value=0>0</option>
+                                    <option value=0>Zero</option>
                                     <option value=1>1</option>
                                     <option value=2>2</option>
                                     <option value=3>3</option>

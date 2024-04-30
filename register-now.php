@@ -544,7 +544,8 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-3">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity (Required)</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option selected value=0>0</option>
+                                                <option selected disabled value="none">Choose...</option>
+                                                <option value=0>0</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
