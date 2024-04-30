@@ -121,6 +121,8 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
+                        !empty($_POST['teeShirtQuantity']) &&
+                        !empty($_POST['teeShirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
                         empty($_POST['beeName'])
@@ -156,10 +158,14 @@ include_once 'header-bottom.inc'
                                 $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
                                 $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
                                 $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
+                                $tsq = !empty($_POST['teeShirtQuantity']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
+                                $tss = !empty($_POST['teeShirtSize']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
-                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
-
+                                
+                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+                                
+                        
                                 // Send email notification to the site admin 
                                 $to = $email;
                                 $subject = 'Registration Form Submitted';
@@ -182,6 +188,8 @@ include_once 'header-bottom.inc'
                     <p><b>Ice Cream Social: </b>" . $ics . "</p> 
                     <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
                     <p><b>Helping Hand Contribution: </b>" . $hhc . "</p> 
+                    <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
+                    <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
                     <p><b>Current Total: </b>$" . $total . ".00</p> 
                     <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p> 
@@ -515,6 +523,74 @@ include_once 'header-bottom.inc'
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
+                            <legend>Merchandise</legend>
+                            <div class="row justify-content-center">
+                                <div class="col-md-8">
+                                    <p class="h5">Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>
+                                    <ul>
+                                        <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
+                                        </li>
+
+                                        <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
+                                        </li>
+
+                                        <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
+                                        </li>
+                                    </ul>
+                                    <p class="pt-3">Limited quantity of tee shirts will be on sale at conference. If you do not want one at this time, select zero quantity, and continue on to complete registration.
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="shirtQuantity" class="reg-form-label">Quantity</label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
+                                                <option selected value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Optional, please enter your quantity
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <label for="shirtSize" class="reg-form-label">Size</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize">
+                                                <option selected disabled value="none">Choose...</option>
+                                                <option value="sm">Small</option>
+                                                <option value="med">Medium</option>
+                                                <option value="lg">Large</option>
+                                                <option value="xl">X-Large</option>
+                                                <option value="xxl">XX-Large</option>
+                                                <option value="3xl">3X-Large</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Optional, please enter your size
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 pt-3">
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>Terms of Services</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-6">
@@ -760,6 +836,15 @@ include_once 'header-bottom.inc'
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
+        }
+
+        function optionSHIRT() {
+            let sQua = document.getElementById('shirtQuantity');
+            let sSiz = document.getElementById('shirtSize');
+
+            if (sQua.value == "0") {
+                sSiz.value = "none";
+            }
         }
     </script>
     </body>

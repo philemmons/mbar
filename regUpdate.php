@@ -34,8 +34,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
 
-    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
-    //getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
     $sql = "UPDATE registration
             SET 
@@ -58,15 +57,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                 paid = :paid,
                 verification = :verify,
                 rstatus = :rs,
-                lang = :lang
+                lang = :lang,
+                teequan = :tsq,
+                teesize = :tss
             WHERE id = :reg_id";
-
-    /*
-    teequan = :tsq,
-    teesize = :tss,
-    teegender = :tsg,
-    */
-
 
     $nPara[':reg_id'] = htmlspecialchars($_GET['id'], ENT_QUOTES);
     //$nPara[':firstName'] = strtolower(htmlspecialchars($_POST['upd-fn'], ENT_QUOTES));
@@ -87,16 +81,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':ics'] = strtolower(htmlspecialchars($_POST['upd-ics'], ENT_QUOTES));
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
     $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
-    /*
-    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES));
-    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['upd-tss'], ENT_QUOTES));
-    $nPara[':tsg'] = strtolower(htmlspecialchars($_POST['upd-tsg'], ENT_QUOTES));
-    */
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['upd-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
+    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES));
+    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['upd-tss'], ENT_QUOTES));
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);
@@ -595,7 +586,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                         </div>
 
                         <hr>
-                        <!--
+
                         <div class="col-lg-3">
                             <div class="form-floating">
                                 <select class="form-select" name="upd-tsq" id="upd-tsq" onChange="optionSHIRT()" required>
@@ -606,6 +597,16 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                     <option value="3">3</option>
                                     <option value="4">4</option>
                                     <option value="5">5</option>
+                                    <option value="6">0</option>
+                                    <option value="7">1</option>
+                                    <option value="8">2</option>
+                                    <option value="9">3</option>
+                                    <option value="10">4</option>
+                                    <option value="11">5</option>
+                                    <option value="12">1</option>
+                                    <option value="13">2</option>
+                                    <option value="14">3</option>
+                                    <option value="15">4</option>
                                 </select>
                                 <label for="upd-tsq" class="form-label">Tee Quantity</label>
                             </div>
@@ -633,23 +634,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
-                            <div class="form-floating">
-                                <select class="form-select" name="upd-tsg" id="upd-tsg">
-                                    <option value="<?= $regInfo['teegender'] ?>" selected> <?php echo $regInfo['teegender'] ?></option>
-                                    <option value="none">None</option>
-                                    <option value="men">Men's</option>
-                                    <option value="women">Women's</option>
-                                </select>
-                                <label for="upd-tsg" class="form-label">Tee Style</label>
-                            </div>
-                            <div class="invalid-feedback">
-                                Optional, please enter your style
-                            </div>
-                        </div>
-
                         <hr>
--->
+
                         <div class="col-lg-3 text-center">
                             <button type="submit" class="btn btn-primary btn-sm" name="submitUpdate" value='update'>Update Registration</button>
                         </div>
@@ -736,11 +722,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
         function optionSHIRT() {
             let sQua = document.getElementById('upd-tsq');
             let sSiz = document.getElementById('upd-tss');
-            let sGen = document.getElementById('upd-tsg');
 
             if (sQua.value == "0") {
                 sSiz.value = "none";
-                sGen.value = "none";
             }
         }
     </script>
