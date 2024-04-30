@@ -585,7 +585,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-4 pt-3">
-                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail l-box" alt="Navy blue tee shirt with gold and white logo.">
                                 </div>
                             </div>
                         </fieldset>
