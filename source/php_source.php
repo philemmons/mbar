@@ -95,10 +95,14 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
      $tsqInt = intval($tsq);
 
      switch ($tss) {
-          case ("xxl" || "3xl"):
+          case "xxl":
+          case "3xl":
                $amount += (31.0 * $tsqInt);
                break;
-          case ("sm" || "med" || "lg" || "xl"):
+          case "sm":
+          case "med":
+          case "lg":
+          case "xl":
                $amount += (26.0 * $tsqInt);
                break;
           default:
