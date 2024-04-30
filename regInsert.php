@@ -641,7 +641,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
 
                     <div class="col-lg-3">
                         <div class="form-floating">
-                            <select class="form-select" name="ins-tss" id="ins-tss">
+                            <select class="form-select" name="ins-tss" id="ins-tss" required>
                                 <option selected disabled value="none">Choose...</option>
                                 <option value="sm">Small</option>
                                 <option value="med">Medium</option>
@@ -653,7 +653,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                             <label for="ins-tss" class="form-label">Size</label>
                         </div>
                         <div class="invalid-feedback">
-                            Optional, please enter your size
+                            Required, please enter your size
                         </div>
                     </div>
 

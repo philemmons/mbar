@@ -619,7 +619,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
                         <div class="col-lg-3">
                             <div class="form-floating">
-                                <select class="form-select" name="upd-tss" id="upd-tss">
+                                <select class="form-select" name="upd-tss" id="upd-tss" required>
                                     <<option value="<?= $regInfo['teesize'] ?>" selected> <?php echo $regInfo['teesize'] ?></option>
                                         <option value="none">None</option>
                                         <option value="sm">Small</option>
@@ -629,10 +629,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                         <option value="xxl">XX-Large</option>
                                         <option value="3xl">3X-Large</option>
                                 </select>
-                                <label for="upd-tss" class="form-label">Tee Size</label>
+                                <label for="upd-tss" class="form-label">Tee Size (Required)</label>
                             </div>
                             <div class="invalid-feedback">
-                                Optional, please enter your size
+                                Required, please enter your size
                             </div>
                         </div>
 

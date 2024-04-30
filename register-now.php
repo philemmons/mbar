@@ -542,8 +542,8 @@ include_once 'header-bottom.inc'
 
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <label for="shirtQuantity" class="reg-form-label">Quantity</label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
+                                            <label for="shirtQuantity" class="reg-form-label">Quantity (Required)</label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
                                                 <option selected value=0>0</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
@@ -562,13 +562,13 @@ include_once 'header-bottom.inc'
                                                 <option value=15>15</option>
                                             </select>
                                             <div class="invalid-feedback">
-                                                Optional, please enter your quantity
+                                                Required, please enter your quantity
                                             </div>
                                         </div>
 
                                         <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Size</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize">
+                                            <label for="shirtSize" class="reg-form-label">Size (Required)</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize" required>
                                                 <option selected disabled value="none">Choose...</option>
                                                 <option value="sm">Small</option>
                                                 <option value="med">Medium</option>
@@ -578,7 +578,7 @@ include_once 'header-bottom.inc'
                                                 <option value="3xl">3X-Large</option>
                                             </select>
                                             <div class="invalid-feedback">
-                                                Optional, please enter your size
+                                                Required, please enter your size
                                             </div>
                                         </div>
                                     </div>
