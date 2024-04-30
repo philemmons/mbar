@@ -537,7 +537,7 @@ include_once 'header-bottom.inc'
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    <p class="pt-3">Limited quantity of tee shirts will be on sale at conference. If you do not want one at this time, select zero quantity, and continue on to complete registration.
+                                    <p class="pt-3">Limited quantity of tee shirts will be on sale at conference. If you do not want one at this time, select zero quantity, and continue completing your registration.
                                     </p>
 
                                     <div class="row">
