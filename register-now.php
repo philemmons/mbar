@@ -544,7 +544,7 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-3">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity (Required)</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option selected disabled value="none">Choose...</option>
+                                                <option selected disabled value="">Choose...</option>
                                                 <option value=0>0</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
@@ -570,7 +570,8 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-5">
                                             <label for="shirtSize" class="reg-form-label">Size (Required)</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize" required>
-                                                <option selected disabled value="none">Choose...</option>
+                                                <option selected disabled value="">Choose...</option>
+                                                
                                                 <option value="sm">Small</option>
                                                 <option value="med">Medium</option>
                                                 <option value="lg">Large</option>

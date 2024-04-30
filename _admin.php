@@ -484,32 +484,32 @@ function displayRegAdmin($registration)
                                                                         ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                Total Shirt Sales: $<?php echo (( ($sm + $med + $lg + $xl) * $smlxlPrice) + ( ($xxl + $_3xl) * $xxl3xlPrice)); ?>.00
+                                                Total Shirt Sales: $<?php //echo (( ($sm + $med + $lg + $xl) * $smlxlPrice) + ( ($xxl + $_3xl) * $xxl3xlPrice)); ?>.00
                                                                     
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # SM Shirts: <?php echo $sm; ?>
+                                                # SM Shirts: <?php //echo $sm; ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # MED Shirts: <?php echo $med; ?> 
+                                                # MED Shirts: <?php //echo $med; ?> 
                                             </div>
                                             <div class='col-sm-4'>
-                                                # LG Shirts: <?php echo $lg; ?>
+                                                # LG Shirts: <?php //echo $lg; ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # XL Shirts: <?php echo $xl; ?>
+                                                # XL Shirts: <?php //echo $xl; ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # XXL Shirts: <?php echo $xxl; ?>
+                                                # XXL Shirts: <?php //echo $xxl; ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php echo $_3xl; ?>
+                                                # 3XL Shirts: <?php //echo $_3xl; ?>
                                             </div>
                                         </div>
 
