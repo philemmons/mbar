@@ -162,10 +162,10 @@ include_once 'header-bottom.inc'
                                 $tss = !empty($_POST['teeShirtSize']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
-                                
+
                                 $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
-                                
-                        
+
+
                                 // Send email notification to the site admin 
                                 $to = $email;
                                 $subject = 'Registration Form Submitted';
@@ -544,22 +544,22 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-3">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
-                                                <option selected value="0">0</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                                <option value="11">11</option>
-                                                <option value="12">12</option>
-                                                <option value="13">13</option>
-                                                <option value="14">14</option>
-                                                <option value="15">15</option>
+                                                <option selected value=0>0</option>
+                                                <option value=1>1</option>
+                                                <option value=2>2</option>
+                                                <option value=3>3</option>
+                                                <option value=4>4</option>
+                                                <option value=5>5</option>
+                                                <option value=6>6</option>
+                                                <option value=7>7</option>
+                                                <option value=8>8</option>
+                                                <option value=9>9</option>
+                                                <option value=10>10</option>
+                                                <option value=11>11</option>
+                                                <option value=12>12</option>
+                                                <option value=13>13</option>
+                                                <option value=14>14</option>
+                                                <option value=15>15</option>
                                             </select>
                                             <div class="invalid-feedback">
                                                 Optional, please enter your quantity

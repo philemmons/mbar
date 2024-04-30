@@ -614,23 +614,23 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>
-                                <option selected value="0">0</option>
-                                <option value="0">Zero</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value="15">15</option>
+                                <option selected value=0>None</option>
+                                <option value=0>0</option>
+                                <option value=1>1</option>
+                                <option value=2>2</option>
+                                <option value=3>3</option>
+                                <option value=4>4</option>
+                                <option value=5>5</option>
+                                <option value=6>6</option>
+                                <option value=7>7</option>
+                                <option value=8>8</option>
+                                <option value=9>9</option>
+                                <option value=10>10</option>
+                                <option value=11>11</option>
+                                <option value=12>12</option>
+                                <option value=13>13</option>
+                                <option value=14>14</option>
+                                <option value=15>15</option>
                             </select>
                             <label for="ins-tsq" class="form-label">Quantity</label>
                         </div>
@@ -658,7 +658,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     </div>
 
                     <hr>
-        
+
                     <div class="col-lg-3 text-center">
                         <button type="submit" class="btn btn-primary btn-sm" name="submitInsert" value='update'>Submit Registration</button>
                     </div>
