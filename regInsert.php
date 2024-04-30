@@ -639,7 +639,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tss" id="ins-tss">
                                 <option selected disabled value="none">Choose...</option>
