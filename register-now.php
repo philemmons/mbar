@@ -571,7 +571,7 @@ include_once 'header-bottom.inc'
                                             <label for="shirtSize" class="reg-form-label">Size (Required)</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize" required>
                                                 <option selected disabled value="">Choose...</option>
-                                                
+                                                <option value="none">None</option>
                                                 <option value="sm">Small</option>
                                                 <option value="med">Medium</option>
                                                 <option value="lg">Large</option>
