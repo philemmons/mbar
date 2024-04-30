@@ -43,6 +43,7 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
 {
      $amount = 0.00;
 
+
      if ($register == "ebr") {
           $amount += 45.0;
      } else {
@@ -91,12 +92,15 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
                $amount += 0.0;
      }
 
+     $tsqInt = intval($tsq);
+
      switch ($tss) {
+
           case "xxl" || "3xl":
-               $amount += (31.0 * $tsq);
+               $amount += (31.0 * $tsqInt);
                break;
           case "sm" || "med" || "lg" || "xl":
-               $amount += (26.0 * $tsq);
+               $amount += (26.0 * $tsqInt);
                break;
           default:
                $amount += 0.0;

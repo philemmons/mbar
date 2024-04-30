@@ -121,8 +121,8 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
-                        !empty($_POST['teeShirtQuantity']) &&
-                        !empty($_POST['teeShirtSize']) &&
+                        !empty($_POST['shirtQuantity']) &&
+                        !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
                         empty($_POST['beeName'])
@@ -158,8 +158,8 @@ include_once 'header-bottom.inc'
                                 $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
                                 $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
                                 $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
-                                $tsq = !empty($_POST['teeShirtQuantity']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
-                                $tss = !empty($_POST['teeShirtSize']) ? htmlspecialchars($_POST['myPhone'], ENT_QUOTES) : '';
+                                $tsq = !empty($_POST['shirtQuantity']) ? htmlspecialchars($_POST['shirtQuantity'], ENT_QUOTES) : '';
+                                $tss = !empty($_POST['shirtSize']) ? htmlspecialchars($_POST['shirtSize'], ENT_QUOTES) : '';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
