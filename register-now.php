@@ -585,7 +585,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-4 pt-3">
-                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail l-box" alt="Navy blue tee shirt with gold and white logo.">
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
                                 </div>
                             </div>
                         </fieldset>
@@ -846,29 +846,6 @@ include_once 'header-bottom.inc'
                 sSiz.value = "none";
             }
         }
-    </script>
-    <script>
-        const lightbox = document.createElement('div')
-        lightbox.id = 'lightbox'
-        document.body.appendChild(lightbox)
-
-        const images = document.querySelectorAll('.l-box')
-        images.forEach(image => {
-            image.addEventListener('click', e => {
-                lightbox.classList.add('active')
-                const img = document.createElement('img')
-                img.src = image.src
-                while (lightbox.firstChild) {
-                    lightbox.removeChild(lightbox.firstChild)
-                }
-                lightbox.appendChild(img)
-            })
-        })
-
-        lightbox.addEventListener('click', e => {
-            if (e.target !== e.currentTarget) return
-            lightbox.classList.remove('active')
-        })
     </script>
 
     </body>
