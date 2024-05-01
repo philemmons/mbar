@@ -37,9 +37,10 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['upd-tss'], ENT_QUOTES) : '';
 
     $tsq = tShirtQuanCheck($tss, $tsq);
+    echo $tsq.'<br>';
     $tss = tShirtSizeCheck($tss, $tsq);
 
-    
+
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
