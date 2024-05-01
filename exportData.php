@@ -44,6 +44,8 @@ if (count($regArray) > 0) {
         'Ice Cream Only',
         'Dance Only',
         'Helping Hand',
+        'T-Shirt Size',
+        'T-Shirt Quantity',
         'Amount Due',
         'Total Payments',
         'PAYMENT',
@@ -102,6 +104,10 @@ if (count($regArray) > 0) {
             oneOrBlank($eachReg['dance']),
 
             noThankYou($eachReg['helpinghand']),
+
+            $eachReg['teesize'],
+
+            $eachReg['teequan'],
 
             NULL,
 
