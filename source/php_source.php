@@ -207,6 +207,7 @@ function getBadgeData($table)
 function saveData($total, $lang)
 {
      global $firstName, $lastName, $badgeName, $email, $phone, $address, $city, $state, $zc, $fs, $hg, $register, $ebmb, $mtsd, $rucb, $ics, $snd, $hhc, $cBox, $pm, $total, $lang, $tsq, $tss;
+
      global $dbConn, $nPara;
 
      if (isset($_POST['submit'])) {

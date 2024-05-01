@@ -35,8 +35,8 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $rucb = !empty($_POST['ins-rucb']) ? htmlspecialchars($_POST['ins-rucb'], ENT_QUOTES) : '';
     $ics = !empty($_POST['ins-ics']) ? htmlspecialchars($_POST['ins-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['ins-hhc']) ? htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES) : '';
-    $tsq = !empty($_POST['upd-tsq']) ? htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES) : '';
-    $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['ins-tss'], ENT_QUOTES) : '';
+    $tsq = !empty($_POST['ins-tsq']) ? htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES) : '';
+    $tss = !empty($_POST['ins-tss']) ? htmlspecialchars($_POST['ins-tss'], ENT_QUOTES) : '';
 
     $tsq = tShirtQuanCheck($tss, $tsq);
     $tss = tShirtSizeCheck($tss, $tsq);
