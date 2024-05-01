@@ -169,6 +169,8 @@ include_once 'header-bottom.inc'
                             </ul>
                             <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
                             </p>
+                            <p class= 'sr-only'>(This is the above text without italics)><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            </p>
                         </section>
                     </div>
                 </div>

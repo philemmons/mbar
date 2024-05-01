@@ -28,7 +28,7 @@
             <div class='col-sm-4 banner'>
                 <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
-                <p>To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — <span class= "font-italic">this is an experience you must not miss</span>.</p>
+                <p>To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — <span class= "font-italic">this is an experience you must not miss</span>.<span class='sr-only'>(This is plain text)  - this is an experience you must not miss.</span></p>
             </div>
             <div class='col-sm-auto banner'>
                 <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep It Simple." title="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep It Simple.">

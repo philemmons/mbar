@@ -531,6 +531,8 @@ include_once 'header-bottom.inc'
                             </ul>
                             <p style="font-style: italic;"><strong class="text-uppercase">Tenga en Cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicación.
                             </p>
+                            <p class='sr-only'>(Este es el texto anterior sin cursiva.)<strong class="text-uppercase">Tenga en Cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicación.
+                            </p>
                         </section>
                     </div>
                 </div>
