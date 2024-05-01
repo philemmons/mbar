@@ -32,7 +32,7 @@ $rucbPrice = 10.0;
 $icsPrice = 5.0;
 $sndPrice = 5.0;
 
-$smlxlPrice= 26.0;
+$smlxlPrice = 26.0;
 $xxl3xlPrice = 31.0;
 
 if (isset($_POST['filterForm']) && ($_POST['regType'] != 'all')) {
@@ -185,7 +185,7 @@ function displayRegAdmin($registration)
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
@@ -471,45 +471,52 @@ function displayRegAdmin($registration)
                                     <fieldset>
                                         <legend>Merchandise</legend>
                                         <?php
-                                            $sm = getTwoPara('teesize', 'sm'); 
-                                            $med = getTwoPara('teesize', 'med');
-                                            $lg = getTwoPara('teesize', 'lg');
-                                            $xl = getTwoPara('teesize', 'xl');
-                                            $xxl = getTwoPara('teesize', 'xxl');
-                                            $_3xl = getTwoPara('teesize', '3xl');
+                                        $sm = getTwoPara('teesize', 'sm');
+                                        $med = getTwoPara('teesize', 'med');
+                                        $lg = getTwoPara('teesize', 'lg');
+                                        $xl = getTwoPara('teesize', 'xl');
+                                        $xxl = getTwoPara('teesize', 'xxl');
+                                        $_3xl = getTwoPara('teesize', '3xl');
                                         ?>
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                Total Shirts Ordered: <?php echo getONePara('teequan'); 
+                                                Total Shirts Ordered: <?php echo getONePara('teequan');
                                                                         ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                Total Shirt Sales: $<?php //echo (( ($sm + $med + $lg + $xl) * $smlxlPrice) + ( ($xxl + $_3xl) * $xxl3xlPrice)); ?>.00
-                                                                    
+                                                Total Shirt Sales: $<?php //echo (( ($sm + $med + $lg + $xl) * $smlxlPrice) + ( ($xxl + $_3xl) * $xxl3xlPrice)); 
+                                                                    ?>.00
+
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # SM Shirts: <?php //echo $sm; ?>
+                                                # SM Shirts: <?php //echo $sm; 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # MED Shirts: <?php //echo $med; ?> 
+                                                # MED Shirts: <?php //echo $med; 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # LG Shirts: <?php //echo $lg; ?>
+                                                # LG Shirts: <?php //echo $lg; 
+                                                                ?>
                                             </div>
                                         </div>
 
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
-                                                # XL Shirts: <?php //echo $xl; ?>
+                                                # XL Shirts: <?php //echo $xl; 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # XXL Shirts: <?php //echo $xxl; ?>
+                                                # XXL Shirts: <?php //echo $xxl; 
+                                                                ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php //echo $_3xl; ?>
+                                                # 3XL Shirts: <?php //echo $_3xl; 
+                                                                ?>
                                             </div>
                                         </div>
 

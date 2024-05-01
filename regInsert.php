@@ -128,7 +128,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
@@ -619,7 +619,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                     <div class="col-lg-3">
                         <div class="form-floating">
                             <select class="form-select" name="ins-tsq" id="ins-tsq" onChange="optionSHIRT()" required>
-                            <option selected disabled value="">Choose...</option>
+                                <option selected disabled value="">Choose...</option>
                                 <option value=0>0</option>
                                 <option value=1>1</option>
                                 <option value=2>2</option>
@@ -648,7 +648,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                         <div class="form-floating">
                             <select class="form-select" name="ins-tss" id="ins-tss" required>
                                 <option selected disabled value="">Choose...</option>
-                                <option value="none">None</option> 
+                                <option value="none">None</option>
                                 <option value="sm">Small</option>
                                 <option value="med">Medium</option>
                                 <option value="lg">Large</option>

@@ -14,7 +14,7 @@ include_once 'header-bottom.inc'
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
@@ -184,7 +184,7 @@ include_once 'header-bottom.inc'
                             <label for="memories-firstName" class="form-label">First Name (Required)</label>
                             <input type="text" class="form-control" name="memories-firstName" id="memories-firstName" required>
                             <div class="invalid-feedback">
-                            Required, please enter your first name.
+                                Required, please enter your first name.
                             </div>
                         </div>
 
@@ -192,7 +192,7 @@ include_once 'header-bottom.inc'
                             <label for="memories-lastName" class="form-label">Last Name (Required)</label>
                             <input type="text" class="form-control" name="memories-lastName" id="memories-lastName" required>
                             <div class="invalid-feedback">
-                            Required, please enter your last name.
+                                Required, please enter your last name.
                             </div>
                         </div>
 
@@ -200,7 +200,7 @@ include_once 'header-bottom.inc'
                             <label for="memories-email" class="form-label">Email (Required)</label>
                             <input type="email" class="form-control" name="memories-email" id="memories-email" required>
                             <div class="invalid-feedback">
-                            Required, please enter your email.
+                                Required, please enter your email.
                             </div>
                         </div>
 
@@ -208,7 +208,7 @@ include_once 'header-bottom.inc'
                             <label for="memories-titles" class="form-label">Message Title (Required)</label>
                             <input type="text" class="form-control" name="memories-titles" id="memories-titles" required>
                             <div class="invalid-feedback">
-                            Required, please enter a title.
+                                Required, please enter a title.
                             </div>
                         </div>
 
@@ -216,7 +216,7 @@ include_once 'header-bottom.inc'
                             <label for="memories-textarea" class="form-label">Message (Required)</label>
                             <textarea class="form-control" name="memories-textarea" id="memories-textarea" required></textarea>
                             <div class="invalid-feedback">
-                            Required, please enter your message.
+                                Required, please enter your message.
                             </div>
                         </div>
 
@@ -224,7 +224,7 @@ include_once 'header-bottom.inc'
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Agree to terms and conditions  (Required)
+                                    Agree to terms and conditions (Required)
                                 </label>
                                 <div class="invalid-feedback">
                                     Required - You must agree before submitting.
