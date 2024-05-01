@@ -372,7 +372,7 @@ function noThankYou($nty)
 }
 
 function tShirtQuanCheck($size, $quan){
-echo 'size:'. $size. '<br> quan: '. $quan; die();
+echo 'size:'. gettype($size). '<br> quan: '. gettype($quan); die();
      if ($size == "none") return "0";
      return $quan;
 }
