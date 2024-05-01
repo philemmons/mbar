@@ -39,6 +39,8 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $tsq = tShirtQuanCheck($tss, $tsq);
     $tss = tShirtSizeCheck($tss, $tsq);
 
+    
+
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
     $sql = "UPDATE registration
