@@ -38,7 +38,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
     $tsq = tShirtQuanCheck($tss, $tsq);
     echo gettype($_POST['upd-tsq']).'<br>';
-    echo $tsq.'<br>;
+    echo $tsq.'<br>';
     $tss = tShirtSizeCheck($tss, $tsq);
 
 
