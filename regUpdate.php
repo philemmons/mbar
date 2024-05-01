@@ -33,7 +33,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $rucb = !empty($_POST['upd-rucb']) ? htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES) : '';
     $ics = !empty($_POST['upd-ics']) ? htmlspecialchars($_POST['upd-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['upd-hhc']) ? htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES) : '';
-    $tsq = !empty($_POST['upd-tsq']) ? htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES) : '';
+    $tsq = strlen($_POST['upd-tsq']) > 0 ? htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES) : '';
     $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['upd-tss'], ENT_QUOTES) : '';
 
     $tsq = tShirtQuanCheck($tss, $tsq);
