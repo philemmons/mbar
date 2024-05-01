@@ -36,6 +36,9 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $tsq = !empty($_POST['upd-tsq']) ? htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES) : '';
     $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['upd-tss'], ENT_QUOTES) : '';
 
+    $tsq = tShirtQuanCheck($tss, $tsq);
+    $tss = tShirtSizeCheck($tss, $tsq);
+
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
     $sql = "UPDATE registration
@@ -76,20 +79,20 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
     $nPara[':zc'] = strtolower(htmlspecialchars($_POST['upd-zc'], ENT_QUOTES));
     $nPara[':fs'] = strtolower(htmlspecialchars($_POST['upd-fs'], ENT_QUOTES));
     $nPara[':hg'] = strtolower(htmlspecialchars($_POST['upd-hg'], ENT_QUOTES));
-    //$nPara[':register'] = strtolower(htmlspecialchars($_POST['upd-reg'], ENT_QUOTES));
-    $nPara[':ebmb'] = strtolower(htmlspecialchars($_POST['upd-ebmb'], ENT_QUOTES));
-    $nPara[':mtsd'] = strtolower(htmlspecialchars($_POST['upd-mtsd'], ENT_QUOTES));
-    $nPara[':rucb'] = strtolower(htmlspecialchars($_POST['upd-rucb'], ENT_QUOTES));
-    $nPara[':ics'] = strtolower(htmlspecialchars($_POST['upd-ics'], ENT_QUOTES));
+    //$nPara[':register'] = strtolower($register);
+    $nPara[':ebmb'] = strtolower($ebmb);
+    $nPara[':mtsd'] = strtolower($mtsd);
+    $nPara[':rucb'] = strtolower($rucb);
+    $nPara[':ics'] = strtolower($ics);
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['upd-snd'], ENT_QUOTES));
-    $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['upd-hhc'], ENT_QUOTES));
+    $nPara[':hhc'] = strtolower($hhc);
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['upd-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['upd-paid'], ENT_QUOTES);
     $nPara[':verify'] = strtolower(htmlspecialchars($_POST['upd-vc'], ENT_QUOTES));
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['upd-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['upd-lang'], ENT_QUOTES));
-    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['upd-tsq'], ENT_QUOTES));
-    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['upd-tss'], ENT_QUOTES));
+    $nPara[':tsq'] = strtolower($tsq);
+    $nPara[':tss'] = strtolower($tss);
 
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($nPara);

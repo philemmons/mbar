@@ -35,6 +35,9 @@ function regFormData($total, $lang)
      $cBox = isset($_POST['paymentCheckBox']) ? strtolower(htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES)) : '';
      $pm = isset($_POST['paymentMethod']) ? strtolower(htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES)) : '';
 
+     $tsq = tShirtQuanCheck($tss, $tsq);
+     $tss = tShirtSizeCheck($tss, $tsq);
+
      saveData($total, $lang);
 }
 
@@ -349,14 +352,12 @@ function formatPhone($phoneNumber)
 
 function oneOrBlank($yun)
 {
-
      if ($yun == "yes") return 1;
      return "";
 }
 
 function caseFellowship($aado)
 {
-
      if ($aado == "a.a.") return "AA";
      if ($aado == "al-anon") return "Al-Anon";
      if ($aado == "double winner") return "Double Winner";
@@ -365,7 +366,17 @@ function caseFellowship($aado)
 
 function noThankYou($nty)
 {
-
      if ($nty == "no thank you") return "";
      return $nty;
 }
+
+function tShirtQuanCheck($size, $quan){
+     if ($size == "none") return "0";
+     return $quan;
+}
+
+function tShirtSizeCheck($size, $quan){
+     if ($quan == "0") return "none";
+     return $size;
+}
+

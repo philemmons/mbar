@@ -35,6 +35,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $rucb = !empty($_POST['ins-rucb']) ? htmlspecialchars($_POST['ins-rucb'], ENT_QUOTES) : '';
     $ics = !empty($_POST['ins-ics']) ? htmlspecialchars($_POST['ins-ics'], ENT_QUOTES) : '';
     $hhc = !empty($_POST['ins-hhc']) ? htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES) : '';
+    $tsq = !empty($_POST['upd-tsq']) ? htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES) : '';
+    $tss = !empty($_POST['upd-tss']) ? htmlspecialchars($_POST['ins-tss'], ENT_QUOTES) : '';
+
+    $tsq = tShirtQuanCheck($tss, $tsq);
+    $tss = tShirtSizeCheck($tss, $tsq);
 
     $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
@@ -84,20 +89,20 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
     $nPara[':zc'] = strtolower(htmlspecialchars($_POST['ins-zc'], ENT_QUOTES));
     $nPara[':fs'] = strtolower(htmlspecialchars($_POST['ins-fs'], ENT_QUOTES));
     $nPara[':hg'] = strtolower(htmlspecialchars($_POST['ins-hg'], ENT_QUOTES));
-    $nPara[':register'] = strtolower(htmlspecialchars($_POST['ins-reg'], ENT_QUOTES));
-    $nPara[':ebmb'] = strtolower(htmlspecialchars($_POST['ins-ebmb'], ENT_QUOTES));
-    $nPara[':mtsd'] = strtolower(htmlspecialchars($_POST['ins-mtsd'], ENT_QUOTES));
-    $nPara[':rucb'] = strtolower(htmlspecialchars($_POST['ins-rucb'], ENT_QUOTES));
-    $nPara[':ics'] = strtolower(htmlspecialchars($_POST['ins-ics'], ENT_QUOTES));
+    $nPara[':register'] = strtolower($register);
+    $nPara[':ebmb'] = strtolower($ebmb);
+    $nPara[':mtsd'] = strtolower($mtsd);
+    $nPara[':rucb'] = strtolower($rucb);
+    $nPara[':ics'] = strtolower($ics);
     $nPara[':snd'] = strtolower(htmlspecialchars($_POST['ins-snd'], ENT_QUOTES));
-    $nPara[':hhc'] = strtolower(htmlspecialchars($_POST['ins-hhc'], ENT_QUOTES));
+    $nPara[':hhc'] = strtolower($hhc);
     $nPara[':pm'] = strtolower(htmlspecialchars($_POST['ins-pm'], ENT_QUOTES));
     $nPara[':paid'] = htmlspecialchars($_POST['ins-paid'], ENT_QUOTES);
     $nPara[':vc'] = strtolower(htmlspecialchars($_POST['ins-vc'], ENT_QUOTES));
     $nPara[':rs'] = strtolower(htmlspecialchars($_POST['ins-rs'], ENT_QUOTES));
     $nPara[':lang'] = strtolower(htmlspecialchars($_POST['ins-lang'], ENT_QUOTES));
-    $nPara[':tsq'] = strtolower(htmlspecialchars($_POST['ins-tsq'], ENT_QUOTES));
-    $nPara[':tss'] = strtolower(htmlspecialchars($_POST['ins-tss'], ENT_QUOTES));
+    $nPara[':tsq'] = strtolower($tsq);
+    $nPara[':tss'] = strtolower($tss);
 
     // print_r($nPara); die;
 

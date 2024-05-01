@@ -163,6 +163,9 @@ include_once 'header-bottom.inc'
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
+                                $tsq = tShirtQuanCheck($tss, $tsq);
+                                $tss = tShirtSizeCheck($tss, $tsq);
+
                                 $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
 
