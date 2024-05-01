@@ -123,6 +123,8 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
+                        strlen($_POST['shirtQuantity']) > 0 &&
+                        !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
                         empty($_POST['beeName'])
@@ -137,6 +139,7 @@ include_once 'header-bottom.inc'
                             // Decode JSON data of API response 
                             $responseData = json_decode($verifyResponse);
 
+                            // If the reCAPTCHA API response is valid
                             // If the reCAPTCHA API response is valid
                             if ($responseData->success) {
                                 // Retrieve value from the form input fields
@@ -158,9 +161,15 @@ include_once 'header-bottom.inc'
                                 $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
                                 $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
                                 $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
+                                $tsq = strlen($_POST['shirtQuantity']) > 0 ? htmlspecialchars($_POST['shirtQuantity'], ENT_QUOTES) : '';
+                                $tss = !empty($_POST['shirtSize']) ? htmlspecialchars($_POST['shirtSize'], ENT_QUOTES) : '';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
-                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc);
+
+                                $tsq = tShirtQuanCheck($tss, $tsq);
+                                $tss = tShirtSizeCheck($tss, $tsq);
+
+                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
                                 // Send email notification to the site admin 
                                 $to = $email;
@@ -184,7 +193,9 @@ include_once 'header-bottom.inc'
                     <p><b>Helado Social: </b>" . $ics . "</p> 
                     <p><b>Baile del Sábado por la Noche: </b>" . $snd . "</p> 
                     <p><b>Contribución de Mano Amiga: </b>" . $hhc . "</p> 
-                    <p><b>Total Actual: </b>$" . $total . ".00</p> 
+                    <p><b>Cantidad de Camisetas : </b>" . $tsq . "</p> 
+                    <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
+                    <p><b>Talla de Camiseta: </b>$" . $total . ".00</p> 
                     <p><b>Estuve de acuerdo con los ToS y entiendo que el registro está incompleto hasta que se pague: </b>" . $cBox . "</p> 
                     <p><b>Método de Pago: </b>" . $pm . "</p> 
                 ";
@@ -221,7 +232,7 @@ include_once 'header-bottom.inc'
 
                 ?>
 
- 
+
                 <?php if (!empty($statusMsg)) { ?>
                     <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form message.">
@@ -517,6 +528,76 @@ include_once 'header-bottom.inc'
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
+                            <legend>Merchandise</legend>
+                            <div class="row justify-content-center">
+                                <div class="col-md-8">
+                                    <p class="h5">Reserva tu Camiseta Conmemorativa 2024 hasta el 31 de Julio.</p>
+                                    <ul>
+                                        <li>$26 para las tallas Pequeño a XL y $31 para las tallas XX-Grande y 3X-Grande
+                                        </li>
+
+                                        <li>¡MBAR! Use esta ropa favorita de MBAR para el gran evento o simplemente para pasar el rato en la casa.
+                                        </li>
+
+                                        <li>100% Algodón, Logotipo Azul Marino Sólido, Blanco y Dorado, Ligero, Ajuste Clásico, Manga Corta y Dobladillo Inferior con Doble Aguja
+                                        </li>
+                                    </ul>
+                                    <p class="pt-3">Se venderá una cantidad limitada de camisetas en la conferencia. Si no desea uno en este momento, seleccione cantidad cero y continúe completando su registro.
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="shirtQuantity" class="reg-form-label">Qcantidad (Requerido)</label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
+                                                <option selected disabled value="">Elegir...</option>
+                                                <option value=0>0</option>
+                                                <option value=1>1</option>
+                                                <option value=2>2</option>
+                                                <option value=3>3</option>
+                                                <option value=4>4</option>
+                                                <option value=5>5</option>
+                                                <option value=6>6</option>
+                                                <option value=7>7</option>
+                                                <option value=8>8</option>
+                                                <option value=9>9</option>
+                                                <option value=10>10</option>
+                                                <option value=11>11</option>
+                                                <option value=12>12</option>
+                                                <option value=13>13</option>
+                                                <option value=14>14</option>
+                                                <option value=15>15</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Requerido, por favor ingrese su cantidad
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <label for="shirtSize" class="reg-form-label">Tamaño (Requerido)</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize" required>
+                                                <option selected disabled value="">Elegir...</option>
+                                                <option value="none">Ninguno</option>
+                                                <option value="sm">Pequeño</option>
+                                                <option value="med">Medio</option>
+                                                <option value="lg">Grande</option>
+                                                <option value="xl">XL</option>
+                                                <option value="xxl">XX-Grande</option>
+                                                <option value="3xl">3XL-Grande</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Requerido, por favor ingresa tu talla
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 pt-3">
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="text-bg-light pb-3 mb-3">
                             <legend>Términos de Servicios</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-6">
@@ -748,6 +829,15 @@ include_once 'header-bottom.inc'
 
             if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
                 ebmb.value = "no";
+        }
+
+        function optionSHIRT() {
+            let sQua = document.getElementById('shirtQuantity');
+            let sSiz = document.getElementById('shirtSize');
+
+            if (sQua.value == "0") {
+                sSiz.value = "none";
+            }
         }
     </script>
     </body>

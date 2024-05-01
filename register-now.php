@@ -531,7 +531,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-8">
                                     <p class="h5">Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>
                                     <ul>
-                                        <li>$26 for size Small to X-Large and $31.00 for size XX-Large and 3X-Large
+                                        <li>$26 for size Small to X-Large and $31 for size XX-Large and 3X-Large
                                         </li>
 
                                         <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
