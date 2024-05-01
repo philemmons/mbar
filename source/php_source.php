@@ -377,7 +377,7 @@ function tShirtQuanCheck($size, $quan){
 }
 
 function tShirtSizeCheck($size, $quan){
-echo 'size:'. gettype($size). '<br> quan: '. gettype($quan); die();
+echo 'size:'. $size. '<br> quan: '. $quan; die();
 
      if ($quan == "0") return "none";
      return $size;
