@@ -46,6 +46,7 @@ if (count($regArray) > 0) {
         'Helping Hand',
         'T-Shirt Size',
         'T-Shirt Quantity',
+        'Merch Total',
         'Amount Due',
         'Total Payments',
         'PAYMENT',
@@ -108,6 +109,8 @@ if (count($regArray) > 0) {
             $eachReg['teesize'],
 
             $eachReg['teequan'],
+
+            NULL,
 
             NULL,
 
