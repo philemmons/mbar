@@ -663,7 +663,8 @@ function displayTeeShirt($sqlTable)
         });
 
         new DataTable('#shirtDisplay', {
-            responsive: true
+            responsive: true,
+            columnDefs: [{ orderable: false, targets: 0 }]
         });
     </script>
 
