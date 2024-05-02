@@ -197,7 +197,7 @@ function displayTeeShirt($sqlTable)
         echo "<tr>";
         echo "<td>" . $row['size'] . "</td>";
         echo "<td>" . $row['cnt'] . "</td>";
-        echo "<tr>";
+        echo "</tr>";
     }
 }
 
@@ -521,9 +521,7 @@ function displayTeeShirt($sqlTable)
                                                                         ?>
                                             </div>
                                             
-                                            <hr>
-                                            
-                                            <div class='col-sm-10'>
+                                            <div class='col-sm-3'>
                                                 <table class="table table-hover display nowrap" style="width:100%;" id="shirtDisplay">
                                                     <caption>Tee Shirt Quantity by Size</caption>
                                                     <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
