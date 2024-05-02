@@ -516,12 +516,7 @@ function displayTeeShirt($sqlTable)
                                         //$_3xl = getTwoPara('teesize', '3xl');
                                         ?>
                                         <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                Total Shirts Ordered: <?php echo getONePara('teequan');
-                                                                        ?>
-                                            </div>
-                                            
-                                            <div class='col-sm-3'>
+                                            <div class='col-sm-5'>
                                                 <table class="table table-hover display nowrap" style="width:100%;" id="shirtDisplay">
                                                     <caption>Tee Shirt Quantity by Size</caption>
                                                     <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
@@ -539,6 +534,12 @@ function displayTeeShirt($sqlTable)
                                                     </tbody>
                                                 </table>
                                             </div>
+
+                                            <div class="col-sm-4">
+                                                Total Shirts Ordered: <?php echo getONePara('teequan');
+                                                                        ?>
+                                            </div>
+                                            
                                         </div>
                                     </fieldset>
 
