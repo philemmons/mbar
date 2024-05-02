@@ -520,34 +520,29 @@ function displayTeeShirt($sqlTable)
                                                 Total Shirts Ordered: <?php echo getONePara('teequan');
                                                                         ?>
                                             </div>
-                                            <div class='col-sm-4'>
-                                                Total Shirt Sales: $<?php //echo (( ($sm + $med + $lg + $xl) * $smlxlPrice) + ( ($xxl + $_3xl) * $xxl3xlPrice)); 
-                                                                    ?>.00
-
+                                            
+                                            <hr>
+                                            
+                                            <div class='col-sm-10'>
+                                                <table class="table table-hover display nowrap" style="width:100%;" id="shirtDisplay">
+                                                    <caption>Tee Shirt Quantity by Size</caption>
+                                                    <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
+                                                    <thead class='table-dark text-center'>
+                                                        <tr>
+                                                            <th>Size</th>
+                                                            <th>Quantity</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php
+                                                        $teeResults = getTwoParaSpecificSum();
+                                                        displayTeeShirt($teeResults);
+                                                        ?>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
-
-                                        <div class="row pb-3">
-                                            <table class="table table-hover display nowrap" style="width:100%;" id="shirtDisplay">
-                                                <caption>Tee Shirt Quantity by Size</caption>
-                                                <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
-                                                <thead class='table-dark text-center'>
-                                                    <tr>
-                                                        <th>Size</th>
-                                                        <th>Quantity</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <?php
-                                                    $teeResults = getTwoParaSpecificSum();
-                                                    displayTeeShirt($teeResults);
-                                                    ?>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
                                     </fieldset>
-
 
                                 </div>
                             </div>
@@ -669,7 +664,7 @@ function displayTeeShirt($sqlTable)
         });
 
         new DataTable('#shirtDisplay', {
-            responsive: true,
+            responsive: true
         });
     </script>
 
