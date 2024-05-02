@@ -162,7 +162,7 @@ include_once 'header-bottom.inc'
                                                 <li>Happy New Year- I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference. We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a 1 hr. time frame to allow for a good balance between service and life obligations. Your attendance and participation is appreciated and I am more than grateful for the efforts of all.</li>
                                                 <li> We are needing the following chairs filled:
                                                     <ul>
-                                                        <li>Outreach<li>
+                                                        <li>Outreach</li>
                                                         <li>Events</li>
                                                     </ul>
 
