@@ -129,7 +129,7 @@ include_once 'header-bottom.inc'
                                     </button>
                                 </h4>
                                 <div id="january2024" class="accordion-collapse collapse" data-bs-parent="#accordion2024">
-                                    <div class="accordion-body  text-bg-light">
+                                    <div class="accordion-body">
                                         <p class="text-center">
                                             MBAR 2022 Committee Notes
                                             <br>Zoom ID 831 4306 2293 Password 2024
