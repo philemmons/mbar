@@ -539,7 +539,7 @@ function displayTeeShirt($sqlTable)
                                                 Total Shirts Ordered: <?php echo getONePara('teequan');
                                                                         ?>
                                             </div>
-                                            
+
                                         </div>
                                     </fieldset>
 
@@ -664,7 +664,7 @@ function displayTeeShirt($sqlTable)
 
         new DataTable('#shirtDisplay', {
             responsive: true,
-            columnDefs: [{ orderable: false, targets: 0 }]
+            order: []
         });
     </script>
 
