@@ -125,12 +125,66 @@ include_once 'header-bottom.inc'
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">
-                                        Accordion Item #3
+                                        January 2024
                                     </button>
                                 </h4>
                                 <div id="january2024" class="accordion-collapse collapse" data-bs-parent="#accordion2024">
-                                    <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div class="accordion-body  text-bg-light">
+                                        <p class="text-center">
+                                            MBAR 2022 Committee Notes
+                                            <br>Zoom ID 831 4306 2293 Password 2024
+                                            <br>Saturday January 13, 2024, 10am
+                                            <br><a href='/' class="bb-link"> https://montereybayarearoundup.org</a>
+                                        </p>
+                                        <ol>
+                                            <li>Chairperson's Call to Order 10:00</li>
+                                            <li>Reading of the 12 Traditions Jean</li>
+                                            <li>New attendees, put your phone numbers and email addresses in the chat.</li>
+                                            <ul>
+                                                <li>Andy</li>
+                                                <li>Jill</li>
+                                                <li>Dawn -- Al-Anon</li>
+                                                <li>Jane -- Al-Anon</li>
+                                            </ul>
+
+                                            <li>Are there any A.A. or Al-Anon anniversaries since our last meeting?</li>
+                                            <ul>
+                                                <li>Phillip 17 years</li>
+                                            </ul>
+
+                                            <li>Approve/Amend Minutes from the last meeting.
+                                                <ul>
+                                                    <li>Approved.</li>
+                                                </ul>
+
+                                            <li>Chairperson's Report: Chris T.</li>
+                                            <ul>
+                                                <li>Happy New Year- I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference. We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a 1 hr. time frame to allow for a good balance between service and life obligations. Your attendance and participation is appreciated and I am more than grateful for the efforts of all.</li>
+                                                <li> We are needing the following chairs filled:
+                                                    <ul>
+                                                        <li>Outreach<li>
+                                                        <li>Events</li>
+                                                    </ul>
+
+                                                <li>Treasurer's Report: Carolyn/Jean T</li>
+                                                <ul>
+                                                    <li>Conference Center Deposit - $5k paid.</li>
+                                                    <li>Mailbox renewed.</li>
+                                                    <li>Business License renewed.</li>
+                                                    <li>Current balance $18,400</li>
+                                                    <li>Paid deposit at Bethlehem Lutheran Church</li>
+                                                    <li>One registration received</li>
+                                                </ul>
+
+                                                <li>Seventh Tradition:</li>
+                                                <ul>
+                                                    <li>You can make a 7th Tradition contribution:</li>
+                                                    <li> PayPal at mbartreasurer@gmail.com OR by sending a check to:</li>
+                                                    <li>MBAR PO Box 1462</li>
+                                                </ul>
+                                            </ul>
+                                        </ol>
+
                                     </div>
                                 </div>
                             </div>
