@@ -91,6 +91,34 @@ function getTwoParaSum($alpha, $beta)
     return $tot[0]['result'];
 }
 
+function getTwoParaSpecificSum()
+{
+    global $dbConn;
+    $createInsertTemp  = "CREATE TEMPORARY TABLE t1(
+    size ENUM('none', 'sm', 'med', 'lg', 'xl', 'xxl', '3xl'),
+    amount INT );
+    INSERT INTO t1
+    VALUES('none', 0),('sm', 0),('med', 0),('lg', 0),('xl', 0),('xxl', 0),('3xl', 0);";
+
+    preExeFetNOPARA($createInsertTemp);
+
+    $sql = "SELECT t1.size, IFNULL(t2.c, 0) as cnt FROM t1
+        LEFT JOIN(
+            SELECT teesize, SUM(teequan) AS c FROM registration GROUP BY teesize
+        ) AS t2
+        ON t1.size = t2.teesize;";
+
+    //echo $sql . '<br>';
+    $tot =  preExeFetNOPARA($sql);
+    //print_r($tot);
+
+    $dropTable = "DROP TABLE t1;";
+
+    preExeFetNOPARA($dropTable);
+
+    return $tot;
+}
+
 function getHelpHand()
 {
     global $dbConn;
@@ -115,7 +143,6 @@ function displayTot($tot)
 function displayRegAdmin($registration)
 {
     foreach ($registration as $eachReg) {
-
         $fPhone = formatPhone($eachReg['phone']);
 
         echo "<tr>";
@@ -161,6 +188,16 @@ function displayRegAdmin($registration)
         echo "<td>" . $eachReg['teesize'] . "</td>";
         echo "<td>" . $eachReg['tos'] . "</td>";
         echo "</tr>";
+    }
+}
+
+function displayTeeShirt($sqlTable)
+{
+    foreach ($sqlTable as $row) {
+        echo "<tr>";
+        echo "<td>" . $row['size'] . "</td>";
+        echo "<td>" . $row['cnt'] . "</td>";
+        echo "<tr>";
     }
 }
 
@@ -471,12 +508,12 @@ function displayRegAdmin($registration)
                                     <fieldset>
                                         <legend>Merchandise</legend>
                                         <?php
-                                        $sm = getTwoPara('teesize', 'sm');
-                                        $med = getTwoPara('teesize', 'med');
-                                        $lg = getTwoPara('teesize', 'lg');
-                                        $xl = getTwoPara('teesize', 'xl');
-                                        $xxl = getTwoPara('teesize', 'xxl');
-                                        $_3xl = getTwoPara('teesize', '3xl');
+                                        //$sm = getTwoPara('teesize', 'sm');
+                                        //$med = getTwoPara('teesize', 'med');
+                                        //$lg = getTwoPara('teesize', 'lg');
+                                        //$xl = getTwoPara('teesize', 'xl');
+                                        //$xxl = getTwoPara('teesize', 'xxl');
+                                        //$_3xl = getTwoPara('teesize', '3xl');
                                         ?>
                                         <div class="row pb-3">
                                             <div class="col-sm-4">
@@ -491,33 +528,22 @@ function displayRegAdmin($registration)
                                         </div>
 
                                         <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                # SM Shirts: <?php //echo $sm; 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # MED Shirts: <?php //echo $med; 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # LG Shirts: <?php //echo $lg; 
-                                                                ?>
-                                            </div>
-                                        </div>
-
-                                        <div class="row pb-3">
-                                            <div class="col-sm-4">
-                                                # XL Shirts: <?php //echo $xl; 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # XXL Shirts: <?php //echo $xxl; 
-                                                                ?>
-                                            </div>
-                                            <div class='col-sm-4'>
-                                                # 3XL Shirts: <?php //echo $_3xl; 
-                                                                ?>
-                                            </div>
+                                            <table class="table table-hover display nowrap" style="width:100%;" id="shirtDisplay">
+                                                <caption>Tee Shirt Quantity by Size</caption>
+                                                <!--https://www.w3schools.com/bootstrap/bootstrap_tables.asp-->
+                                                <thead class='table-dark text-center'>
+                                                    <tr>
+                                                        <th>Size</th>
+                                                        <th>Quantity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <?php
+                                                    $teeResults = getTwoParaSpecificSum();
+                                                    displayTeeShirt($teeResults);
+                                                    ?>
+                                                </tbody>
+                                            </table>
                                         </div>
 
                                     </fieldset>
@@ -640,6 +666,10 @@ function displayRegAdmin($registration)
             order: [
                 [0, 'desc']
             ]
+        });
+
+        new DataTable('#shirtDisplay', {
+            responsive: true,
         });
     </script>
 
