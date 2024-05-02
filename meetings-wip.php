@@ -90,7 +90,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                    <div class="p-3  text-bg-light hero-text-border">
+                    <div class="p-3  text-bg-light">
                         <h4 class="fw-bold mb-3 text-center"><span class="text-dark px-3 px-md-0"><i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);" aria-hidden="true"></i>2024 Meeting Minutes</span>
                         </h4>
                         <hr>
@@ -137,14 +137,14 @@ include_once 'header-bottom.inc'
                                             <br><a href='/' class="bb-link"> https://montereybayarearoundup.org</a>
                                         </p>
                                         <ol>
-                                            <li>Chairperson's Call to Order 10:00</li>
-                                            <li>Reading of the 12 Traditions Jean</li>
+                                            <li>Chairperson's Call to Order 10:00am</li>
+                                            <li>Reading of the 12 Traditions: Jean</li>
                                             <li>New attendees, put your phone numbers and email addresses in the chat.</li>
                                             <ul>
                                                 <li>Andy</li>
                                                 <li>Jill</li>
-                                                <li>Dawn -- Al-Anon</li>
-                                                <li>Jane -- Al-Anon</li>
+                                                <li>Dawn: Al-Anon</li>
+                                                <li>Jane: Al-Anon</li>
                                             </ul>
 
                                             <li>Are there any A.A. or Al-Anon anniversaries since our last meeting?</li>
@@ -165,24 +165,25 @@ include_once 'header-bottom.inc'
                                                         <li>Outreach</li>
                                                         <li>Events</li>
                                                     </ul>
-
-                                                <li>Treasurer's Report: Carolyn/Jean T</li>
-                                                <ul>
-                                                    <li>Conference Center Deposit - $5k paid.</li>
-                                                    <li>Mailbox renewed.</li>
-                                                    <li>Business License renewed.</li>
-                                                    <li>Current balance $18,400</li>
-                                                    <li>Paid deposit at Bethlehem Lutheran Church</li>
-                                                    <li>One registration received</li>
-                                                </ul>
-
-                                                <li>Seventh Tradition:</li>
-                                                <ul>
-                                                    <li>You can make a 7th Tradition contribution:</li>
-                                                    <li> PayPal at mbartreasurer@gmail.com OR by sending a check to:</li>
-                                                    <li>MBAR PO Box 1462</li>
-                                                </ul>
                                             </ul>
+
+                                            <li>Treasurer's Report: Carolyn/Jean T</li>
+                                            <ul>
+                                                <li>Conference Center Deposit - $5k paid.</li>
+                                                <li>Mailbox renewed.</li>
+                                                <li>Business License renewed.</li>
+                                                <li>Current balance $18,400</li>
+                                                <li>Paid deposit at Bethlehem Lutheran Church</li>
+                                                <li>One registration received</li>
+                                            </ul>
+
+                                            <li>Seventh Tradition:</li>
+                                            <ul>
+                                                <li>You can make a 7th Tradition contribution:</li>
+                                                <li> PayPal at mbartreasurer@gmail.com OR by sending a check to:</li>
+                                                <li>MBAR PO Box 1462</li>
+                                            </ul>
+                                            
                                         </ol>
 
                                     </div>
