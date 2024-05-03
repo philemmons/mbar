@@ -54,7 +54,7 @@
                 <li>You can make a 7th Tradition contribution:</li>
                 <li>PayPal at mbartreasurer@gmail.com or by sending a check to:</li>
                 <ul>
-                    <li>MBAR Box 1462</li>
+                    <li>MBAR PO Box 1462</li>
                     <li>Monterey, CA 93942</li>
                 </ul>
 
