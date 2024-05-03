@@ -582,3 +582,11 @@ caption {
 .indent{
   text-indent: 2rem;
 }
+
+/**** accordion class ***/
+
+.accordion-button:hover,
+.accordion-button:active{
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
