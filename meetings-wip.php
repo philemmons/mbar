@@ -124,7 +124,7 @@ include_once 'header-bottom.inc'
                             </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">
                                         <strong>January 2024</strong>
                                     </button>
                                 </h4>
