@@ -14,7 +14,7 @@
   --color-12: #0000ff;
   --color-13: #ddeeff;
 
-  --color-21:#9eeaf9;
+  --color-21: #9eeaf9;
   --color-22: #0000c3;
 
   --error-color: #ff0019;
@@ -282,7 +282,7 @@ nav {
   background-image: url("../images/pfeiffer-big-sur.png");
 }
 
-.bg-img-audio-trans{
+.bg-img-audio-trans {
   background-image: url("../images/bg-img-audio-trans.png");
 }
 
@@ -579,14 +579,15 @@ caption {
   border-width: medium;
 }
 
-.indent{
+.indent {
   text-indent: 2rem;
 }
 
 /**** accordion class ***/
 
 .accordion-button:hover,
-.accordion-button:active{
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
+.accordion-button:active,
+.accordion-button:focus {
+  text-decoration: underline !important;
+  text-underline-offset: 0.25em !important;
 }
