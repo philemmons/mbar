@@ -74,8 +74,8 @@ include_once 'header-bottom.inc'
                 </div>
                 <div class="col-md-8 col-sm-6 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Meeting schedule">
-                            <h3 class="card-title text-center mb-3 px-3"><em>The second Saturday of each month
+                        <section aria-label="Monthly meeting schedule">
+                            <h3 class="card-title text-center mb-3 px-5"><em>The second Saturday of each month
                                 at 10:00am PST</em></h3>
                         </section>
                         <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
