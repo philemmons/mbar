@@ -141,28 +141,24 @@
                         <li>Set up and cleanup</li>
                         <ul>
                             <li>Start setup at 4:30</li>
-                            <ul>
-
-                                <li>Volunteers:</li>
-
-                                <ul>
-                                    <li>Conor - Food Set Up/Clean UP</li>
-                                    <li>Carolyn - Set Up/Prizes</li>
-                                    <li>Kathleen - Set Up/Clean Up/Food</li>
-                                    <li>Sean - Food/Coffee</li>
-                                    <li>Cindy - Entry</li>
-                                    <li>Arthur - Entry</li>
-                                    <li>Cole - 7th Tradition/Clean Up</li>
-                                    <li>Samantha - Clean Up/Prizes</li>
-                                    <li>Karen - Raffle</li>
-                                    <li>Rene - 7th Tradition/Raffle</li>
-                                    <li>Janet - Food/7th Tradition</li>
-                                    <li>Robert - Entry/Clean UP</li>
-                                    <li>Katherine - Raffle/Prizes</li>
-                                </ul>
-                            </ul>
                         </ul>
 
+                        <li>Volunteers:</li>
+                        <ul>
+                            <li>Conor - Food Set Up/Clean UP</li>
+                            <li>Carolyn - Set Up/Prizes</li>
+                            <li>Kathleen - Set Up/Clean Up/Food</li>
+                            <li>Sean - Food/Coffee</li>
+                            <li>Cindy - Entry</li>
+                            <li>Arthur - Entry</li>
+                            <li>Cole - 7th Tradition/Clean Up</li>
+                            <li>Samantha - Clean Up/Prizes</li>
+                            <li>Karen - Raffle</li>
+                            <li>Rene - 7th Tradition/Raffle</li>
+                            <li>Janet - Food/7th Tradition</li>
+                            <li>Robert - Entry/Clean UP</li>
+                            <li>Katherine - Raffle/Prizes</li>
+                        </ul>
                         <li>Jean and Gina volunteer</li>
                         <li>Susan volunteer for registration table</li>
                         <li>Cindy coordinate with Chris to transfer "Square" payment devices</li>
@@ -181,7 +177,6 @@
             </ul>
 
             <li>New Business</li>
-
             <ul>
                 <li>None</li>
             </ul>

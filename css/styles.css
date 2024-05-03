@@ -591,3 +591,20 @@ caption {
   text-decoration: underline !important;
   text-underline-offset: 0.25em !important;
 }
+
+/**** List types ****/
+ul.ul-circle {
+  list-style-type: circle;
+}
+
+ul.ul-square {
+  list-style-type: square;
+}
+
+ol.ol-alpha {
+  list-style-type: lower-alpha;
+}
+
+ol.ol-roman {
+  list-style-type: lower-roman;
+}
