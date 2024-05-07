@@ -111,93 +111,94 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Part Two -->
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conferencia 2024
-                                </p>
-                                <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte la acción de la Conferencia de 2022.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de Conferencias 2022</a></small>
-                            </div>
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conferencia 2024
+                            </p>
+                            <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte la acción de la Conferencia de 2022.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de Conferencias 2022</a></small>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Inscripción
-                                </p>
-                                <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrate Ahora</a></small>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
 
-                <div class=" row justify-content-center mb-5">
-                    <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
-                                </p>
-                                <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
-                            </div>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Inscripción
+                            </p>
+                            <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrate Ahora</a></small>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comités
-                                </p>
-                                <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir también a nuestras reuniones mensuales.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contacta con Nosotros</a></small>
-                            </div>
+
+            </div>
+
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
+                            </p>
+                            <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
-                                </p>
-                                <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
-                            </div>
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comités
+                            </p>
+                            <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir también a nuestras reuniones mensuales.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contacta con Nosotros</a></small>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-10 mb-3 mb-lg-0 px-4">
-                        <div class="card h-100 shadow-wrap">
-                            <div class="card-body">
-                                <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
-                                </p>
-                                <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Contribución</a></small>
-                            </div>
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
+                            </p>
+                            <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
+                            </p>
+                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Contribución</a></small>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </article>
 
     <!-- Part Three -->
