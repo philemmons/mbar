@@ -121,7 +121,7 @@ include_once 'header-bottom.inc'
         <div class="container mb-5 py-2 px-4">
             <div class="row">
                 <div class="col-lg-4 text-center mb-1">
-                    <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Las citas de Al-Anon que encajan forman el triángulo con un trasfondo transparente" . title="Las citas de Al-Anon que encajan son el triángulo con un fondo transparente.">
+                    <img src="../images/al-anon-quotes.png" class="img-fluid shadow-wrap" alt="Las citas de Al-Anon que encajan forman el triángulo con un trasfondo transparente." title="Las citas de Al-Anon que encajan son el triángulo con un fondo transparente.">
                 </div>
 
                 <div class="col-lg-8">
