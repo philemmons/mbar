@@ -71,7 +71,7 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 p4-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-6 h5 text-dark">¡Vuelva a consultar los diversos eventos previos a la Conferencia de 2024!</p>
+                              <p class="mb-6 h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2024!</p>
                          </div>
                     </div>
                     <!--
@@ -91,39 +91,25 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <section aria-label="Encabezado del Evento">
-                                   <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presenta</a></h3>
-                                   <p class="mb-6 h5 text-dark"><span aria-hidden='true'>☘️</span><strong>Comida Compartida y Reunión de Oradores de San Patricio</strong><span aria-hidden='true'>☘️</span>
+                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Resumen del Área de la Bahía de Monterey presenta</a></p>
+                              <section aria-label="Información del evento">
+                                   <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>¡Evento de Becas de Softbol!</strong><span aria-hidden='true'>⚾ </span></h3>
+                                   <p class="mb-4 h5 text-dark">
+                                        <strong>Cuándo:</strong> domingo, 16 de julio de 2024
                                         <br>
-                                        Únete a nosotros en los "Fondos y Compañerismo""
+                                        <strong>Hora:</strong> 12 a 4pm
+                                        <br>
+                                        <strong>Dónde:</strong> Parque Dampierre Little League, Carmel Valley, CA
                                         <br><br>
-                                        <strong>Cuándo:</strong> sábado — 17 de marzo de 2024
-                                        <br>
-                                        <strong>Dónde:</strong> 437 Laureles Grade, Carmel Valley, CA
-                                        <br>
-                                        Las Puertas Abren a las 4 p. m.; Cenar a las 5pm
-                                        <br>
-                                        <strong>Ponente:</strong> Avil L. de Salinas, CA a las 6pm
-                                        <br><br>
-                                        Se Proporcionará Carne en Conserva y Repollo: Premios de Rifa y Rifa 50/50
-                                        <br><br>
-                                        Sugerencias de comida compartida por la primera inicial:
-                                        <br>
-                                        A a C: Postre
-                                        <br>
-                                        D a J: Plato Vegetariano Caliente
-                                        <br>
-                                        K a O: Plato de Patatas
-                                        <br>
-                                        P a Z: Ensalada o Pan
-                                        <br><br>
-                                        <strong>¡Trae una silla y algunos amigos de Bill!</strong>
-                                        <br>
-                                        ¡Usa tu equipo MBAR verde o anterior!
-                                        <br><br>
-                                        <strong>Nota:</strong> ¡En lugar de la séptima tradición, recaudaremos contribuciones para 2024 MBAR!
+                                        <strong>"Perros calientes <span aria-hidden='true'>🌭<span> incluidos. ¡Trae un mit y un acompañamiento para compartir!"</strong>
                                    </p>
+
+                                   <p class="h5 texto-oscuro pt-3">
+                                        ¡El folleto en PDF estará disponible pronto!
+                                   </p>
+                                   <!--
                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</button>
+                                   -->
                               </section>
                          </div>
                     </div>
@@ -131,6 +117,23 @@ include_once 'header-bottom.inc'
           </div>
      </article>
 
+     <div id="map"></div>
+     <article aria-label="Mapa de Google para el parque de ligas menores de Dampierre">
+          <div class="container shadow-wrap">
+               <div class="row justify-content-center mb-5">
+                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                         <div class="p-3 text-center text-bg-light hero-text-border">
+                              <section aria-label="Ubicación del parque">
+                                   <h4 class="card-title mb-3"><a href="https://www.google.com/maps/place/Dampierre+Park/@36.478664,-121.739975,14z/data=!4m6!3m5!1s0x808df39f2bb991fd:0x905b6dd7a85fb3cd!8m2!3d36.4786643!4d-121.7399751!16s%2Fg%2F11cm0fp649?hl=es&entry=ttu" class="bb-link" target="_blank" title="Enlace directo a Google Mapa">Parque de la Liga Pequeña de Dampierre<span class="sr-only">(Abre una nueva ventana)</span></a></h4>
+                                   <div class="col-md-12 db-5">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12832.505391961493!2d-121.7399751!3d36.4786643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df39f2bb991fd%3A0x905b6dd7a85fb3cd!2sDampierre%20Park!5e0!3m2!1sen!2sus!4v1715114915603!5m2!1ses!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Parque de la liga Pequeña de Dampierre" aria-hidden="true"></iframe>
+                                   </div>
+                              </section>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </article>
 
      <?php include_once 'footer.inc' ?>
      </body>
