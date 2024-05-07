@@ -37,7 +37,7 @@ include_once 'header-bottom.inc'
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                        <a class="dropdown-item" href="upcoming_event.php">Softball Fellowship Event</a>
+                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Potluck</a>
                         <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                     </div>
                 </li>
@@ -76,9 +76,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
-                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!
-                                <br>
-                                <strong>"Hot Dogs <span aria-hidden='true'>🌭<span> provided. Bring a mit and a side to share!"</strong>
+                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong> Are you ready for a fun afternoon? Hot Dogs provided. Bring a mit and a side to share!
                             </p>
                         </div>
                         <div class="card-footer text-center">
