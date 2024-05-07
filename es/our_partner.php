@@ -98,18 +98,18 @@ include_once 'header-bottom.inc'
                         <section aria-label="la historia de Lois">
                             <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Cómo Funciona Al-Anon para las Familias y Amigos de Alcohólicos<br>La Historia de Lois (1995)</span>
                             </h4>
-                            <hora>
-                                <p>Según Lois W. — "Después de un tiempo comencé a preguntarme por qué no era tan feliz como debería ser, ya que lo único que había estado anhelando durante toda mi vida matrimonial [la sobriedad de Bill] se había hecho realidad. . Entonces, un domingo, Bill me preguntó si estaba listo para ir a la reunión con él. Para mi propio asombro y el suyo, estallé: '¡Malditas sean tus viejas reuniones!' Y lancé un zapato tan fuerte como pude".
-                                    <br><br>
-                                    "Esta sorprendente muestra de temperamento por nada me detuvo en seco y me hizo empezar a analizar mis propias actitudes".
-                                    <br><br>
-                                    "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
-                                    <br><br>
-                                    "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
-                                </p>
-                                <p class="text-center">
-                                    <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Visita Al-Anon de Monterrey<span class="sr-only">(Se abre en una ventana nueva)</span></a>
-                                </p>
+                            <hr>
+                            <p>Según Lois W. — "Después de un tiempo comencé a preguntarme por qué no era tan feliz como debería ser, ya que lo único que había estado anhelando durante toda mi vida matrimonial [la sobriedad de Bill] se había hecho realidad. . Entonces, un domingo, Bill me preguntó si estaba listo para ir a la reunión con él. Para mi propio asombro y el suyo, estallé: '¡Malditas sean tus viejas reuniones!' Y lancé un zapato tan fuerte como pude".
+                                <br><br>
+                                "Esta sorprendente muestra de temperamento por nada me detuvo en seco y me hizo empezar a analizar mis propias actitudes".
+                                <br><br>
+                                "El propósito de mi vida de recuperar la sobriedad de Bill, que me había hecho sentir desesperadamente necesitada, se había desvanecido. Decidí esforzarme por mi propio crecimiento espiritual. Utilicé los mismos principios que él para aprender a cambiar mis actitudes".
+                                <br><br>
+                                "Comenzamos a aprender... que la pareja del alcohólico también necesitaba vivir según un programa espiritual".
+                            </p>
+                            <p class="text-center">
+                                <a href="https://montereycountyal-anon.org/" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Visita Al-Anon de Monterrey<span class="sr-only">(Se abre en una ventana nueva)</span></a>
+                            </p>
                         </section>
                     </div>
                 </div>
