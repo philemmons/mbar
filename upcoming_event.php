@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
                               <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presents</a></p>
                               <section aria-label="Event Information">
                                    <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong><span aria-hidden='true'>⚾</span></h3>
-                                   <p class="mb-5 h5 text-dark">
+                                   <p class="mb-4 h5 text-dark">
                                         <strong>When:</strong> Sunday — July 16th, 2024
                                         <br>
                                         <strong>Time:</strong> 12 to 4pm
