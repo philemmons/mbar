@@ -76,7 +76,15 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
-                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong> Are you ready for a fun afternoon? Hot Dogs provided. Bring a mit and a side to share!
+                            <p class="card-text text-center"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong> Are you ready for a fun afternoon?
+                                <br>
+                                <strong>When:</strong> Sunday — July 16th, 2024
+                                <br>
+                                <strong>Time:</strong> 12 to 4pm
+                                <br>
+                                <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
+                                <br><br>
+                                <strong>"Hot Dogs <span aria-hidden='true'>🌭<span> provided. Bring a mit and a side to share!"</strong>
                             </p>
                         </div>
                         <div class="card-footer text-center">
