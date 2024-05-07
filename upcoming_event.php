@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-6 h5 text-dark">Softball Fellowship Event! Please continue to check back for other occasions leading up to the 2024 Conference!</p>
+                              <p class="mb-6 h5 text-dark">Please continue to check back for more events leading up to the 2024 Conference!</p>
                          </div>
                     </div>
                     <!--
@@ -97,11 +97,13 @@ include_once 'header-bottom.inc'
                                         <strong>When:</strong> Sunday — July 16th, 2024
                                         <br>
                                         <strong>Time:</strong> 12 to 4pm
+                                        <br>
                                         <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
                                         <br><br>
-                                        "Hot Dogs provided. Bring a mit and a side to share!"
+                                        <strong>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
                                    </p>
-                                   <p class="mb-6 h5 text-dark">
+                                   
+                                   <p class="mb-6 h5 text-dark pt-3">
                                         PDF flyer is coming soon!
                                    </p>
                                    <!--
