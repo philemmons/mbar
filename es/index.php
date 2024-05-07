@@ -71,12 +71,12 @@ include_once 'header-bottom.inc'
     <article aria-label="tarjetas de información">
         <div class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-10 mb-3 mb-lg-5 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
                             </p>
-                            <p class="card-text"><strong>Comida compartida y reunión de oradores de San Patricio</strong> - - ¡Gracias a todos por pasar un rato fantástico y a Avil S. por su increíble participación! Nos quitamos el sombrero ante los voluntarios del chef y de la cocina por su tiempo y energía. ¡Fue un evento hermoso, por decir lo menos!
+                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Evento de Becas de Softbol</strong>: ¿Estás listo para una tarde divertida? Si es así, nos vemos allí. Perritos calientes <span aria-hidden='true'>🌭<span> proporcionados. ¡Trae un mit y un acompañamiento para compartir!
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -109,7 +109,7 @@ include_once 'header-bottom.inc'
                             <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
                         </div>
                     </div>
-                </div </div>
+                </div>
             </div>
 
             <!-- Part Two -->
@@ -141,7 +141,11 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    
+                </div>
+
+                <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                         <div class="card h-100 shadow-wrap">
                             <div class="card-body">
                                 <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
@@ -153,9 +157,7 @@ include_once 'header-bottom.inc'
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class=" row justify-content-center mb-5">
                     <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                         <div class="card h-100 shadow-wrap">
                             <div class="card-body">
