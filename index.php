@@ -144,7 +144,7 @@ include_once 'header-bottom.inc'
             </div>
 
             <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities
