@@ -76,7 +76,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
-                            <p class="card-text"><strong>St. Patrick's Potluck & Speaker Meeting</strong> - Thank you all for a totally great time, and Avil S. with her awesome share! Our hats are off to the Chef's and Kitchen Volunteers for their time and energy. It was a beautiful event, to say the least!
+                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!
+                                <br>
+                                <strong>"Hot Dogs <span aria-hidden='true'>🌭<span> provided. Bring a mit and a side to share!"</strong>
                             </p>
                         </div>
                         <div class="card-footer text-center">
