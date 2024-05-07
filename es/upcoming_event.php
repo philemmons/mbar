@@ -101,7 +101,7 @@ include_once 'header-bottom.inc'
                                         <br>
                                         <strong>Dónde:</strong> Parque Dampierre Little League, Carmel Valley, CA
                                         <br><br>
-                                        <strong>"Perros calientes <span aria-hidden='true'>🌭<span> incluidos. ¡Trae un mit y un acompañamiento para compartir!"</strong>
+                                        <strong>"Perros calientes incluidos. ¡Trae un mit y un acompañamiento para compartir!"</strong>
                                    </p>
 
                                    <p class="h5 texto-oscuro pt-3">

@@ -100,7 +100,7 @@ include_once 'header-bottom.inc'
                                         <br>
                                         <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
                                         <br><br>
-                                        <strong>"Hot Dogs <span aria-hidden='true'>🌭<span> provided. Bring a mit and a side to share!"</strong>
+                                        <strong>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
                                    </p>
 
                                    <p class=" h5 text-dark pt-3">
