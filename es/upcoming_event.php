@@ -37,7 +37,7 @@ include_once 'header-bottom.inc'
                     <li class="nav-item dropdown">
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
                          <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
-                              <a class="dropdown-item" aria-current="page" href="upcoming_event.php">Evento de Beca de Softbol<span class="visually-hidden">(actual)</span></a>
+                              <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Evento de Beca de Softbol<span class="visually-hidden">(actual)</span></a>
                               <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                          </div>
                     </li>
