@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - 2022 Conference </title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/conference-2022.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/conference-2022.php" >';
 include_once 'header-bottom.inc'
 ?>
 

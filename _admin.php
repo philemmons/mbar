@@ -573,7 +573,7 @@ function displayTeeShirt($sqlTable)
                             </div>
 
                             <div class="col-sm-3 pt-3">
-                                <input type="submit" value="search" name="filterForm" class="btn btn-primary" />
+                                <input type="submit" value="search" name="filterForm" class="btn btn-primary">
                             </div>
 
                             <?php if (!empty($statusMsg)) { ?>

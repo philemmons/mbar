@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Committees </title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/committees.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/committees.php" >';
 include_once 'header-bottom.inc'
 ?>
 

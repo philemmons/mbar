@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2019 Emotional Sobriety Workshop </title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-emotional-sobriety-workshop.php" />';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-emotional-sobriety-workshop.php" >';
 include_once 'header-bottom.inc'
 ?>
 
