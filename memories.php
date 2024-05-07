@@ -248,6 +248,7 @@ include_once 'header-bottom.inc'
                             <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
                                 <p>(A pop up will confirm your reset)</p>
                             </div>
+                        </div>
                     </form>
 
                 </div>

@@ -76,7 +76,7 @@ include_once 'header-bottom.inc'
                     <!--
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
+                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Softball Fellowship Event and Speaker Meeting Flyer">
                          </div>
                     </div>
 -->
