@@ -141,7 +141,9 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -154,9 +156,7 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
