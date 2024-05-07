@@ -86,49 +86,50 @@ include_once 'header-bottom.inc'
                             <br>
                         </p>
                         <p>montereybayarearoundup.org (hereinafter "us," "we," or "Company") takes user privacy very seriously because we know that your privacy on the web is very important to you. We are committed to respecting the privacy rights of our customers, visitors, and other users of the Company Website ("the Site"). We created this Website Privacy Policy ("Site Privacy Policy") to give you confidence as you visit and use the Site, and to demonstrate our commitment to fair information practices and the protection of privacy. This Site Privacy Policy is only applicable to the Site, and not to any other third party websites that you may be able to access from the Site, each of which may have data collection, storage, and use practices and policies that differ materially from this Site Privacy Policy. If you choose to provide personally identifying information to us, we will use it and disclose it as described in this Site Privacy Policy. This Site Privacy Policy is incorporated into our Terms of Use by reference. This Site is not directed at children 17 years of age or younger. We, therefore, will not intentionally collect information about any user under the age of 18.
-                            <br>
+                        </p>
                         <h3><strong>SITE INFORMATION COLLECTION PRACTICES.</strong></h3>
-                        Types of Information Collected:
-                        <br>
-                        (a) Traffic Data Collected. We automatically track and collect the following categories of information when you visit our Site: (1) IP addresses; (2) domain servers; (3) types of computers accessing the Site; and (4) types of web browsers used to access the Site (collectively "Traffic Data"). Traffic Data is anonymous information that does not personally identify you but is helpful for marketing purposes or for improving your experience on the Site. We may use cookies and obtain certain types of information when your web browser accesses montereybayarearoundup.org. "Cookies" are small pieces of information that are stored by your browser on your computer's hard drive. Our site may use cookies to store pertinent user information during a session to speed navigation and keep track of items. The "help" portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive new cookies and how to disable cookies altogether. Note that if you choose to disable the "cookie" function, your experience at the Site may be diminished and some features may not work as they were intended.
-                        <br>
-                        (b) Personal Information Collected. In order for you to access services provided in connection with the Site (the "Service"), we require you to provide us with certain information that personally identifies you ("Personal Information"). Personal Information includes the following categories of information: (1) Contact Data (such as your name, mailing address, telephone, and e-mail address); and (2) Financial Data (such as your account or credit card number). We also may collect Retailer ID. If you communicate with us by e-mail, or complete online forms via the Site, any information provided in such communication may be collected as Personal Information. EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH CREDIT CARD INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
-                        <br><br>
-                        <strong>USES OF INFORMATION COLLECTED:</strong>
-                        <br>
-                        (a) Company Use of Information. We use Contact Data to send you information about our services, to send electronic newsletters, or to contact you when necessary. We use Traffic Data to customize and tailor your experience on the Site.
-                        <br>
-                        (b) Sharing of Personal Information. We share certain categories of information we collect from you in the ways described in this Site Privacy Policy. We share Contact Data with our business partners who assist us by performing core services (such as data storage and security) related to our operation of the Site. Those business partners have all agreed to uphold the same standards of security and confidentiality that we have promised to you in this Site Privacy Policy, and they will only use your Contact Data to carry out their specific business obligations to Company. If you do not want us to share your Contact Data with our business partners who assist us by performing core services related to our operation of the Site, you can choose not to provide such Personal Information, but please understand that such a request limits your ability to take advantage of those portions of the Site that require such information.
-                        <br>
-                        (c) Your Choice Regarding Collection, Use, and Distribution of Personal Information. You may choose not to provide us with any Personal Information. In such an event, you can still access and use much of the Site; however you will not be able to access and use those portions of the Site that require your Personal Information. If you do not wish to receive information from us, <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
-                        <br><br>
-                        <strong>CONFIDENTIALITY AND SECURITY OF YOUR PERSONAL INFORMATION.</strong>
-                        <br>
-                        Except as otherwise provided in this Site Privacy Policy, we will keep your Personal Information private and will not share it with third parties, unless such disclosure is necessary to: (a) comply with a court order or other legal process; (b) protect our rights or property; or (c) enforce our Terms and Conditions of Use. Our Terms of Use policy can be found below. Your Personal Information is stored on secure servers that are not accessible by third parties. We provide you with the capability to transmit your Personal Information via secured and encrypted channels if you use a similarly equipped web browser.
-                        <br><br>
-                        <strong>YOUR ABILITY TO ACCESS, UPDATE, AND CORRECT YOUR PERSONAL INFORMATION.</strong>
-                        <br>
-                        We maintain a procedure in order to help you confirm that your Personal Information remains correct and up-to-date. Please contact us at <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or by mail or phone to (a) request a review and update your Personal Information that we have already collected; (b) choose whether or not you wish us to send you information about our company; and/or (c) choose whether or not you wish for us to share your Personal Information with our business partners who assist us by performing core services related to our operation of the Site.
-                        <br><br>
-                        <strong>EMAIL SECURITY.</strong>
-                        <br>
-                        EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH AS CREDIT CARD NUMBERS INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
-                        <br><br>
-                        <strong>LOST OR STOLEN INFORMATION.</strong>
-                        <br>
-                        You must promptly notify us if your credit card, user name, or password is lost, stolen, or used without permission. In such an event, we will remove that credit card number, user name, or password from your account and update our records accordingly.
-                        <br><br>
-                        <strong>AFFILIATED SITES.</strong>
-                        <br>
-                        The Site contains links to other websites. We are not responsible for the privacy practices or the content of such websites. We have no control over such websites and you should exercise caution when deciding to disclose your Personal Information on other websites.
-                        <br><br>
-                        <strong>UPDATES AND CHANGES TO SITE PRIVACY POLICY.</strong>
-                        <br>
-                        We reserve the right, at any time and without notice, to add to, change, update, or modify this Site Privacy Policy, simply by posting such change, update, or modification on the Site and without any other notice to you. Any such change, update, or modification will be effective immediately upon posting on the Site.
-                        <br><br>
-                        <strong>CONTACT US.</strong>
-                        <br>
-                        For more information regarding this Site Privacy Policy or the Site, please <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or at the address above:<br>
+                        <p>
+                            Types of Information Collected:
+                            <br>
+                            (a) Traffic Data Collected. We automatically track and collect the following categories of information when you visit our Site: (1) IP addresses; (2) domain servers; (3) types of computers accessing the Site; and (4) types of web browsers used to access the Site (collectively "Traffic Data"). Traffic Data is anonymous information that does not personally identify you but is helpful for marketing purposes or for improving your experience on the Site. We may use cookies and obtain certain types of information when your web browser accesses montereybayarearoundup.org. "Cookies" are small pieces of information that are stored by your browser on your computer's hard drive. Our site may use cookies to store pertinent user information during a session to speed navigation and keep track of items. The "help" portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive new cookies and how to disable cookies altogether. Note that if you choose to disable the "cookie" function, your experience at the Site may be diminished and some features may not work as they were intended.
+                            <br>
+                            (b) Personal Information Collected. In order for you to access services provided in connection with the Site (the "Service"), we require you to provide us with certain information that personally identifies you ("Personal Information"). Personal Information includes the following categories of information: (1) Contact Data (such as your name, mailing address, telephone, and e-mail address); and (2) Financial Data (such as your account or credit card number). We also may collect Retailer ID. If you communicate with us by e-mail, or complete online forms via the Site, any information provided in such communication may be collected as Personal Information. EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH CREDIT CARD INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
+                            <br><br>
+                            <strong>USES OF INFORMATION COLLECTED:</strong>
+                            <br>
+                            (a) Company Use of Information. We use Contact Data to send you information about our services, to send electronic newsletters, or to contact you when necessary. We use Traffic Data to customize and tailor your experience on the Site.
+                            <br>
+                            (b) Sharing of Personal Information. We share certain categories of information we collect from you in the ways described in this Site Privacy Policy. We share Contact Data with our business partners who assist us by performing core services (such as data storage and security) related to our operation of the Site. Those business partners have all agreed to uphold the same standards of security and confidentiality that we have promised to you in this Site Privacy Policy, and they will only use your Contact Data to carry out their specific business obligations to Company. If you do not want us to share your Contact Data with our business partners who assist us by performing core services related to our operation of the Site, you can choose not to provide such Personal Information, but please understand that such a request limits your ability to take advantage of those portions of the Site that require such information.
+                            <br>
+                            (c) Your Choice Regarding Collection, Use, and Distribution of Personal Information. You may choose not to provide us with any Personal Information. In such an event, you can still access and use much of the Site; however you will not be able to access and use those portions of the Site that require your Personal Information. If you do not wish to receive information from us, <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a>
+                            <br><br>
+                            <strong>CONFIDENTIALITY AND SECURITY OF YOUR PERSONAL INFORMATION.</strong>
+                            <br>
+                            Except as otherwise provided in this Site Privacy Policy, we will keep your Personal Information private and will not share it with third parties, unless such disclosure is necessary to: (a) comply with a court order or other legal process; (b) protect our rights or property; or (c) enforce our Terms and Conditions of Use. Our Terms of Use policy can be found below. Your Personal Information is stored on secure servers that are not accessible by third parties. We provide you with the capability to transmit your Personal Information via secured and encrypted channels if you use a similarly equipped web browser.
+                            <br><br>
+                            <strong>YOUR ABILITY TO ACCESS, UPDATE, AND CORRECT YOUR PERSONAL INFORMATION.</strong>
+                            <br>
+                            We maintain a procedure in order to help you confirm that your Personal Information remains correct and up-to-date. Please contact us at <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or by mail or phone to (a) request a review and update your Personal Information that we have already collected; (b) choose whether or not you wish us to send you information about our company; and/or (c) choose whether or not you wish for us to share your Personal Information with our business partners who assist us by performing core services related to our operation of the Site.
+                            <br><br>
+                            <strong>EMAIL SECURITY.</strong>
+                            <br>
+                            EMAIL THAT YOU SEND US IS NOT NECESSARILY SECURE AGAINST INTERCEPTION. IF YOU WISH TO COMMUNICATE SENSITIVE INFORMATION TO US, SUCH AS CREDIT CARD NUMBERS INFORMATION, CONTACT US THROUGH ONE OF OUR SECURE ONLINE FORMS OR BY MAIL OR TELEPHONE, INSTEAD OF VIA EMAIL.
+                            <br><br>
+                            <strong>LOST OR STOLEN INFORMATION.</strong>
+                            <br>
+                            You must promptly notify us if your credit card, user name, or password is lost, stolen, or used without permission. In such an event, we will remove that credit card number, user name, or password from your account and update our records accordingly.
+                            <br><br>
+                            <strong>AFFILIATED SITES.</strong>
+                            <br>
+                            The Site contains links to other websites. We are not responsible for the privacy practices or the content of such websites. We have no control over such websites and you should exercise caution when deciding to disclose your Personal Information on other websites.
+                            <br><br>
+                            <strong>UPDATES AND CHANGES TO SITE PRIVACY POLICY.</strong>
+                            <br>
+                            We reserve the right, at any time and without notice, to add to, change, update, or modify this Site Privacy Policy, simply by posting such change, update, or modification on the Site and without any other notice to you. Any such change, update, or modification will be effective immediately upon posting on the Site.
+                            <br><br>
+                            <strong>CONTACT US.</strong>
+                            <br>
+                            For more information regarding this Site Privacy Policy or the Site, please <a href="contact.php" class="bb-link">CONTACT CUSTOMER SUPPORT</a> or at the address above:<br>
                         </p>
                     </div>
                 </div>
