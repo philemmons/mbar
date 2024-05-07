@@ -90,19 +90,19 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <section aria-label="Event header">
-                                   <h3 class="card-title mb-3"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presents</a></h3>
-                                   <p class="mb-6 h5 text-dark"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong><span aria-hidden='true'>⚾</span>
-                                        <br><br>
+                              <p class="mb-6 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presents</a></p>
+                              <section aria-label="Event Information">
+                                   <h3 class="card-title mb-6"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong><span aria-hidden='true'>⚾</span></h3>
+                                   <p class="mb-6 h5 text-dark">
                                         <strong>When:</strong> Sunday — July 16th, 2024
                                         <br>
                                         <strong>Time:</strong> 12 to 4pm
                                         <br>
                                         <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
                                         <br><br>
-                                        <strong>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
+                                        <strong><span aria-hidden='true'>🌭<span>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
                                    </p>
-                                   
+
                                    <p class="mb-6 h5 text-dark pt-3">
                                         PDF flyer is coming soon!
                                    </p>
@@ -117,22 +117,22 @@ include_once 'header-bottom.inc'
      </article>
 
      <div id="map"></div>
-    <article aria-label="Google Map for Dampierre Little League Park ">
-        <div class="container shadow-wrap">
-            <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Park location">
-                            <h4 class="card-title mb-3"><a href="https://www.google.com/maps/place/Dampierre+Park/@36.478664,-121.739975,14z/data=!4m6!3m5!1s0x808df39f2bb991fd:0x905b6dd7a85fb3cd!8m2!3d36.4786643!4d-121.7399751!16s%2Fg%2F11cm0fp649?hl=en&entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map"><span aria-hidden='true'>⚾</span>Dampierre Little League Park<span aria-hidden='true'>⚾</span><span class="sr-only">(Opens a new window)</span></a></h4>
-                            <div class="col-md-12 db-5">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12832.505391961493!2d-121.7399751!3d36.4786643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df39f2bb991fd%3A0x905b6dd7a85fb3cd!2sDampierre%20Park!5e0!3m2!1sen!2sus!4v1715114915603!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dampierre Little League Park" aria-hidden="true"></iframe>
-                            </div>
-                        </section>
+     <article aria-label="Google Map for Dampierre Little League Park ">
+          <div class="container shadow-wrap">
+               <div class="row justify-content-center mb-5">
+                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                         <div class="p-3 text-center text-bg-light hero-text-border">
+                              <section aria-label="Park location">
+                                   <h4 class="card-title mb-3"><a href="https://www.google.com/maps/place/Dampierre+Park/@36.478664,-121.739975,14z/data=!4m6!3m5!1s0x808df39f2bb991fd:0x905b6dd7a85fb3cd!8m2!3d36.4786643!4d-121.7399751!16s%2Fg%2F11cm0fp649?hl=en&entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map"><span aria-hidden='true'>⚾</span>Dampierre Little League Park<span aria-hidden='true'>⚾</span><span class="sr-only">(Opens a new window)</span></a></h4>
+                                   <div class="col-md-12 db-5">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12832.505391961493!2d-121.7399751!3d36.4786643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df39f2bb991fd%3A0x905b6dd7a85fb3cd!2sDampierre%20Park!5e0!3m2!1sen!2sus!4v1715114915603!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dampierre Little League Park" aria-hidden="true"></iframe>
+                                   </div>
+                              </section>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </article>
+               </div>
+          </div>
+     </article>
 
 
      <?php include_once 'footer.inc' ?>
