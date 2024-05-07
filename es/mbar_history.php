@@ -222,9 +222,9 @@ include_once 'header-bottom.inc'
                 </div>
             </div>
         </div>
+    </article>
 
+    <?php include_once 'footer.inc' ?>
+    </body>
 
-        <?php include_once 'footer.inc' ?>
-        </body>
-
-        </html>
+    </html>
