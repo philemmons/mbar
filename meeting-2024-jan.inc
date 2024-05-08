@@ -38,7 +38,7 @@
         <p class="ti-1">iii. Business License renewed</p>
         <p class="ti-1"> iv. Current balance $18,400</p>
         <p class="ti-1">  v. Paid deposit at Bethlehem Lutheran Church</p>
-        <p class="ti-1"> . One registration received</p>
+        <p class="ti-1"> vi. One registration received</p>
 
         <p class="mt-2 mb-0">8. Seventh Tradition:</p>
         <p class="ti-1">a. You can make a 7th Tradition contribution:</p>
