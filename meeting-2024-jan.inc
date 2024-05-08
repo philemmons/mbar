@@ -6,24 +6,24 @@
             <br>Saturday January 13, 2024, 10am
             <br><a href='/' class="bb-link"> https://montereybayarearoundup.org</a>
         </p>
-        <p>1. Chairperson's Call to Order: 10:00am</p>
+        <p class="mt-2 mb-0">1. Chairperson's Call to Order: 10:00am</p>
 
-        <p>2. Reading of the 12 Traditions: Jean</p>
+        <p class="mt-2 mb-0">2. Reading of the 12 Traditions: Jean</p>
 
-        <p>3. New attendees, put your phone numbers and email addresses in the chat</p>
+        <p class="mt-2 mb-0">3. New attendees, put your phone numbers and email addresses in the chat</p>
         <p class="ti-1">a. Andy</p>
         <p class="ti-1">b. Jill</p>
         <p class="ti-1">c. Dawn: Al-Anon</p>
         <p class="ti-1">d. Jane: Al-Anon</p>
         </p>
 
-        <p>4. Are there any A.A. or Al-Anon anniversaries since our last meeting?</p>
+        <p class="mt-2 mb-0">4. Are there any A.A. or Al-Anon anniversaries since our last meeting?</p>
         <p class="ti-1">a. Phillip 17 years</p>
 
-        <p>5. Approve/Amend Minutes from the last meeting?</p>
+        <p class="mt-2 mb-0">5. Approve/Amend Minutes from the last meeting?</p>
         <p class="ti-1">a. Approved</p>
 
-        <p>6. Chairperson's Report: Chris T.</p>
+        <p class="mt-2 mb-0">6. Chairperson's Report: Chris T.</p>
 
         <p class="ti-1">a. Happy New Year - I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference. We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a one hr. time frame to allow for a good balance between service and life obligations. Your attendance and participation is appreciated and I am more than grateful for the efforts of all.</p>
 
@@ -32,7 +32,7 @@
         <p class="ti-2"> ii. Events</p>
 
 
-        <p>7. Treasurer's Report: Carolyn/Jean T</p>
+        <p class="mt-2 mb-0">7. Treasurer's Report: Carolyn/Jean T</p>
         <p class="ti-1">  i. Conference Center Deposit: $5k paid</p>
         <p class="ti-1"> ii. Mailbox renewed</p>
         <p class="ti-1">iii. Business License renewed</p>
@@ -40,7 +40,7 @@
         <p class="ti-1">  v. Paid deposit at Bethlehem Lutheran Church</p>
         <p class="ti-1"> . One registration received</p>
 
-        <p>8. Seventh Tradition:</p>
+        <p class="mt-2 mb-0">8. Seventh Tradition:</p>
         <p class="ti-1">a. You can make a 7th Tradition contribution:</p>
         <p class="ti-1">b. PayPal at mbartreasurer@gmail.com or by sending a check to:</p>
         <p class="ti-2">i. MBAR PO Box 1462</p>
@@ -49,7 +49,7 @@
         <p class="ti-2">i. <strong>Note:</strong> Venmo and check go 100% to Treasury, PayPal collects a fee</p>
 
 
-        <p>9. Committee Chairs/Steering Committee Reports</p>
+        <p class="mt-2 mb-0">9. Committee Chairs/Steering Committee Reports</p>
 
         <p class="ti-1">a. Media - Gina</p>
         <p class="ti-2">i. Bingo flyer distributed on Facebook and printed copies were distributed</p>
@@ -98,7 +98,7 @@
 
 
 
-        <p>10. Old Business:</p>
+        <p class="mt-2 mb-0">10. Old Business:</p>
 
         <p class="ti-1">a. Fundraising Ideas:</p>
         <p class="ti-2">i. January "B-I-N-G-O"</p>
@@ -139,16 +139,16 @@
         <p class="ti-3">D. Food - Chris reach out to potential cooks</p>
         <p class="ti-3">E. Raffle</p>
 
-        <p>11. New Business</p>
+        <p class="mt-2 mb-0">11. New Business</p>
         <p class="ti-1">a. None</p>
 
-        <p>12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom</p>
+        <p class="mt-2 mb-0">12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom</p>
 
-        <p>13. Next Committee meeting is Saturday 1/13/2024 10am</p>
+        <p class="mt-2 mb-0">13. Next Committee meeting is Saturday 1/13/2024 10am</p>
 
-        <p>14. Meeting adjourned at 11:10am with the Serenity Prayer</p>
+        <p class="mt-2 mb-0">14. Meeting adjourned at 11:10am with the Serenity Prayer</p>
 
-        <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, Susan
+        <p class="mt-2 mb-0"> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, Susan
         </p>
     </div>
 </div>
