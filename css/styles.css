@@ -612,19 +612,19 @@ ol.ol-roman {
 /**** text indent ****/
 
 .ti-1{
-  text-indent: 2rem;
+  text-indent: 1.5rem;
 }
 
 .ti-2{
-  text-indent: 4rem;
+  text-indent: 3rem;
 }
 
 .ti-3{
-  text-indent: 6rem;
+  text-indent: 4.5rem;
 }
 
 .ti-4{
-  text-indent: 8rem;
+  text-indent: 6rem;
 }
 
 p[class^="ti-"]{
