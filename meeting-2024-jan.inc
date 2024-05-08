@@ -4,7 +4,7 @@
             MBAR 2022 Committee Notes
             <br>Zoom ID 831 4306 2293 Password 2024
             <br>Saturday January 13, 2024, 10am
-            <br><a href='/' class="bb-link"> https://montereybayarearoundup.org</a>
+            <br><a href='/' class="bb-link">montereybayarearoundup.org</a>
         </p>
         <p class="mt-2 mb-0">1. Chairperson's Call to Order: 10:00am</p>
 
