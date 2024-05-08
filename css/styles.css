@@ -627,7 +627,7 @@ ol.ol-roman {
   text-indent: 8rem;
 }
 
-p>[class^="ti-"]{
+p[class^="ti-"]{
 margin-top: 0 !important;
 margin-bottom: 0 !important;
 }
