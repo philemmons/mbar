@@ -608,3 +608,21 @@ ol.ol-alpha {
 ol.ol-roman {
   list-style-type: lower-roman;
 }
+
+/**** text indent ****/
+
+.ti-1{
+  text-indent: 1rem;
+}
+
+.ti-2{
+  text-indent: 2rem;
+}
+
+.ti-3{
+  text-indent: 3rem;
+}
+
+.ti-4{
+  text-indent: 4rem;
+}
