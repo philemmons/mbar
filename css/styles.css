@@ -626,9 +626,3 @@ ol.ol-roman {
 .ti-4{
   text-indent: 6rem;
 }
-
-p[class^="ti-2"]{
-margin-top: 0 !important;
-margin-bottom: 0 !important;
-}
-
