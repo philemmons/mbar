@@ -53,13 +53,13 @@
 
             <dt>T-shirt poll about the style and color of the MBAR t-shirts</dt>
 
-            <dd>Style: Short sleeve, Long sleeve, Baseball style; Color Options: Teal, Royal Blue, Navy Blue, White and Black; Final results: General MBAR T-shirts winner - Short Sleeve, $15, and Navy Blue; Committee T-shirts - Jersey, white and blue; Kevin bring samples in March; New poll next month to finalize t-shirt design; Jean bring sample t-shirts from past MBARs;</dd>
+            <dd>a. Style: Short sleeve, Long sleeve, Baseball style; Color Options: Teal, Royal Blue, Navy Blue, White and Black; Final results: General MBAR T-shirts winner - Short Sleeve, $15, and Navy Blue; Committee T-shirts - Jersey, white and blue; Kevin bring samples in March; New poll next month to finalize t-shirt design; Jean bring sample t-shirts from past MBARs;</dd>
 
             <dt>11. New Business:</dt>
             <dt>Coffee Provided at MBAR 2024: </dt>
-            <dd>Monterey Conference Center coffee service - One Gallon of coffee or tea service (16 cups at 8oz.) equals $80; With Tax and Gratuity - $108.75; 100 people - AM coffee: 5 to 6 gallons regular coffee and 2 gallons tea; PM coffee: four gallons (coffee and tea); Total: approx. 12 gallons for the day; (This is estimating that almost everyone would at least have one cup, and little less than half of the people would have two cups for the entire day.); Coffee at 50 gallons per day would be $5,437.50 per day; 500 people would be 60 gallons per day; Total: $6,525.00 per day; For two days, approx. $10,000 for coffee; When we reach that amount, we remove the coffee; That would be approx. 92 gallons for the two days;</dd>
+            <dd>a. Monterey Conference Center coffee service - One Gallon of coffee or tea service (16 cups at 8oz.) equals $80; With Tax and Gratuity - $108.75; 100 people - AM coffee: 5 to 6 gallons regular coffee and 2 gallons tea; PM coffee: four gallons (coffee and tea); Total: approx. 12 gallons for the day; (This is estimating that almost everyone would at least have one cup, and little less than half of the people would have two cups for the entire day.); Coffee at 50 gallons per day would be $5,437.50 per day; 500 people would be 60 gallons per day; Total: $6,525.00 per day; For two days, approx. $10,000 for coffee; When we reach that amount, we remove the coffee; That would be approx. 92 gallons for the two days;</dd>
 
-            <dt>12. Next Steering Committee meeting is Tues 2/27/2024 at 6pm via Zoom;</dt>
+            <dt>12. Next Steering Committee meeting is Tuesday 2/27/2024 at 6pm via Zoom;</dt>
 
             <dt>13. Next Committee meeting is Saturday 3/9/2024 10am;</dt>
 
