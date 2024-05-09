@@ -629,13 +629,13 @@ ol.ol-roman {
 
 dd {
   display: block;
-  margin-left: 3rem;
+  margin-left: 2em;
 }
 
 dt {
   display: block;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
 }
 
 dl {
