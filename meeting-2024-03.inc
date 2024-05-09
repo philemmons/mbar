@@ -20,9 +20,9 @@
 
             <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support of the January Bingo event, it was a <span class="text-uppercase">huge</span> success and made an impression on so many in our Fellowship that attended their very 1st Sober event. It was so much <span class="text-uppercase">fun</span> and I could not be more grateful to all those that I get to be in service and work with. We have T-Shirts to decide upon in this meeting. Phillip has created a Zoom poll that we will use to aid us in this important decision. We also have a consideration for coffee to be available at the conference and we have provided a rough estimate of cost should this be something we may decide as a committee to offer. Our conference is a little less than seven months away so the focus and attention to these items within this meeting is very much appreciated. We are needing the following chairs filled: Events, Outreach - Connor and Rick, and Marathon Meetings - possibly Mark.</dt>
 
-            <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn / Phillip - discuss domain renewal; </dt>
+            <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn/Phillip discussed domain renewal; </dt>
 
-            <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<strong>Note:</strong> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
+            <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
@@ -42,7 +42,7 @@
 
             <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn & Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
-            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle @ St Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
+            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising Ideas</dt>
@@ -53,20 +53,20 @@
 
             <dt>T-shirt poll about the style and color of the MBAR t-shirts</dt>
 
-            <dd>Style: Short sleeve, Long sleeve, Baseball style; Color Options: Teal, Royal Blue, Navy Blue, White and Black; Final results: General MBAR T-shirts winner - Short Sleeve, $15, and Navy Blue; Committee T-shirts - Jersey, white and blue; Kevin bring samples in March; New poll next month to finalize t-shirt design; Jean bring sample t-shirts from past MBARs;</dd>
+            <dd>a. Style: Short sleeve, Long sleeve, Baseball style; Color Options: Teal, Royal Blue, Navy Blue, White and Black; Final results: General MBAR T-shirts winner - Short Sleeve, $15, and Navy Blue; Committee T-shirts - Jersey, white and blue; Kevin bring samples in March; New poll next month to finalize t-shirt design; Jean bring sample t-shirts from past MBARs;</dd>
 
             <dt>11. New Business:</dt>
             <dt>Coffee Provided at MBAR 2024: </dt>
-            <dd>Monterey Conference Center coffee service - One Gallon of coffee or tea service (16 cups at 8oz.) equals $80; With Tax and Gratuity - $108.75; 100 people - AM coffee: 5 to 6 gallons regular coffee and 2 gallons tea; PM coffee: four gallons (coffee and tea); Total: approx. 12 gallons for the day; (This is estimating that almost everyone would at least have one cup, and little less than half of the people would have two cups for the entire day.); Coffee at 50 gallons per day would be $5,437.50 per day; 500 people would be 60 gallons per day; Total: $6,525.00 per day; For two days, approx. $10,000 for coffee; When we reach that amount, we remove the coffee; That would be approx. 92 gallons for the two days;</dd>
+            <dd>a. Monterey Conference Center coffee service - One Gallon of coffee or tea service (16 cups at 8oz.) equals $80; With Tax and Gratuity - $108.75; 100 people - AM coffee: 5 to 6 gallons regular coffee and 2 gallons tea; PM coffee: four gallons (coffee and tea); Total: approx. 12 gallons for the day; (This is estimating that almost everyone would at least have one cup, and little less than half of the people would have two cups for the entire day.); Coffee at 50 gallons per day would be $5,437.50 per day; 500 people would be 60 gallons per day; Total: $6,525.00 per day; For two days, approx. $10,000 for coffee; When we reach that amount, we remove the coffee; That would be approx. 92 gallons for the two days;</dd>
 
-            <dt>12. Next Steering Committee meeting is Tues 2/27/2024 at 6pm via Zoom;</dt>
+            <dt>12. Next Steering Committee meeting is Tuesday 2/27/2024 at 6pm via Zoom;</dt>
 
             <dt>13. Next Committee meeting is Saturday 3/9/2024 10am;</dt>
 
             <dt>14. Meeting adjourned at 11:15am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, and Susan;</p>
+        <p> Attendees: </p>
 
     </div>
 </div>

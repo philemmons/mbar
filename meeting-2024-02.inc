@@ -20,9 +20,9 @@
 
             <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support of the January Bingo event, it was a <span class="text-uppercase">huge</span> success and made an impression on so many in our Fellowship that attended their very 1st Sober event. It was so much <span class="text-uppercase">fun</span> and I could not be more grateful to all those that I get to be in service and work with. We have T-Shirts to decide upon in this meeting. Phillip has created a Zoom poll that we will use to aid us in this important decision. We also have a consideration for coffee to be available at the conference and we have provided a rough estimate of cost should this be something we may decide as a committee to offer. Our conference is a little less than seven months away so the focus and attention to these items within this meeting is very much appreciated. We are needing the following chairs filled: Events, Outreach - Connor and Rick, and Marathon Meetings - possibly Mark.</dt>
 
-            <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn / Phillip - discuss domain renewal; </dt>
+            <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn/Phillip discussed domain renewal; </dt>
 
-            <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<strong>Note:</strong> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
+            <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
@@ -42,7 +42,7 @@
 
             <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn & Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
-            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle @ St Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
+            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising Ideas</dt>
