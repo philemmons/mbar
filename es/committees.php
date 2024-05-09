@@ -330,7 +330,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Copresidente de Divulgación</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
-                                    <td>Connor / Rick D.</td>
+                                    <td>Conor / Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Silla de Panel</th>

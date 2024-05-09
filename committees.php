@@ -331,7 +331,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Outreach Co-Chair</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
-                                    <td>Connor / Rick D.</td>
+                                    <td>Conor / Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Panel Chair</th>

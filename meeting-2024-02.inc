@@ -18,7 +18,7 @@
 
             <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
-            <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support of the January Bingo event, it was a <span class="text-uppercase">huge</span> success and made an impression on so many in our Fellowship that attended their very 1st Sober event. It was so much <span class="text-uppercase">fun</span> and I could not be more grateful to all those that I get to be in service and work with. We have T-Shirts to decide upon in this meeting. Phillip has created a Zoom poll that we will use to aid us in this important decision. We also have a consideration for coffee to be available at the conference and we have provided a rough estimate of cost should this be something we may decide as a committee to offer. Our conference is a little less than seven months away so the focus and attention to these items within this meeting is very much appreciated. We are needing the following chairs filled: Events, Outreach - Connor and Rick, and Marathon Meetings - possibly Mark.</dt>
+            <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support of the January Bingo event, it was a <span class="text-uppercase">huge</span> success and made an impression on so many in our Fellowship that attended their very 1st Sober event. It was so much <span class="text-uppercase">fun</span> and I could not be more grateful to all those that I get to be in service and work with. We have T-Shirts to decide upon in this meeting. Phillip has created a Zoom poll that we will use to aid us in this important decision. We also have a consideration for coffee to be available at the conference and we have provided a rough estimate of cost should this be something we may decide as a committee to offer. Our conference is a little less than seven months away so the focus and attention to these items within this meeting is very much appreciated. We are needing the following chairs filled: Events, Outreach - Conor and Rick, and Marathon Meetings - possibly Mark.</dt>
 
             <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn/Phillip discussed domain renewal; </dt>
 
@@ -32,17 +32,17 @@
 
             <dd>c. Spanish - Robert: Meet last Wednesday of the month (potluck); Need Spanish translation of registration form - Rene to get translation made; 28 Spanish Groups; Working on speakers from Texas and Mexico;</dd>
 
-            <dd>c. Al-Anon - Dawn: Start meetings next month; Committees assembled;</dd>
+            <dd>d. Al-Anon - Dawn: Start meetings next month; Committees assembled;</dd>
 
-            <dd>d. T-Shirt - Kevin: See polling below; Recommended committee t-shirts be a different color; Consider travel mugs, water bottles, ball caps, etc.;</dd>
+            <dd>e. T-Shirt - Kevin: See polling below; Recommended committee t-shirts be a different color; Consider travel mugs, water bottles, ball caps, etc.;</dd>
 
-            <dd>e. IGR/GSR - Cole: Announcing MBAR at committee meetings;</dd>
+            <dd>f. IGR/GSR - Cole: Announcing MBAR at committee meetings;</dd>
 
-            <dd>f. Facilities - Sally: No report;</dd>
+            <dd>g. Facilities - Sally: No report;</dd>
 
-            <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn and Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
+            <dd>h. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn and Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
-            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
+            <dd>i. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising Ideas</dt>
@@ -61,12 +61,12 @@
 
             <dt>12. Next Steering Committee meeting is Tuesday 2/27/2024 at 6pm via Zoom;</dt>
 
-            <dt>13. Next Committee meeting is Saturday 3/9/2024 10am;</dt>
+            <dt>13. Next Committee meeting is Saturday 3/9/2024 at 10am;</dt>
 
             <dt>14. Meeting adjourned at 11:15am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Carolyn, Chris, Cole, Dawn, Gina, Jane;g. Janet, Jean, Joanie, Kathleen, Kevin, Mary Grace, Naomi, Phil, Phillip, Renee, Robert, Roger;</p>
+        <p> Attendees: Carolyn, Chris, Cole, Dawn, Gina, Jane;g. Janet, Jean, Joanie, Kathleen, Kevin, Mary Grace, Naomi, Phil, Phillip, Renee, Robert, and Roger;</p>
 
     </div>
 </div>

@@ -32,22 +32,22 @@
 
             <dd>c. Spanish - Robert: No report;</dd>
 
-            <dd>c. Al-Anon - Jane: No report;</dd>
+            <dd>d. Al-Anon - Jane: No report;</dd>
 
-            <dd>d. T-Shirt - Kevin: Extensive discussion about T-shirts, Travel Mugs, and Ball Caps; Table discussion until next meeting - Chris and Phillip develop an on-line poll;</dd>
+            <dd>e. T-Shirt - Kevin: Extensive discussion about T-shirts, Travel Mugs, and Ball Caps; Table discussion until next meeting - Chris and Phillip develop an on-line poll;</dd>
 
-            <dd>e. IGR/GSR - Cole: Announcing MBAR at committee meetings; No report;</dd>
+            <dd>f. IGR/GSR - Cole: Announcing MBAR at committee meetings; No report;</dd>
 
-            <dd>f. Facilities - Sally: Received 24 responses to the survey; Need to be aware of sales tax requirements if we sell merchandise at the conference center;</dd>
+            <dd>g. Facilities - Sally: Received 24 responses to the survey; Need to be aware of sales tax requirements if we sell merchandise at the conference center;</dd>
 
-            <dd>g. Website - Phillip: New website is up and running; Arranging to get ownership of domain names for MBAR; New pages for Al-Anon and Spanish fellowship; Phasing out Google Doc registration to online registration on the website; Website registration permits data export for registration etc.</dd>
+            <dd>h. Website - Phillip: New website is up and running; Arranging to get ownership of domain names for MBAR; New pages for Al-Anon and Spanish fellowship; Phasing out Google Doc registration to online registration on the website; Website registration permits data export for registration etc.</dd>
 
-            <dd>h. Raffle - Katherine: Still need prizes for Bingo; No report;</dd>
+            <dd>i. Raffle - Katherine: Still need prizes for Bingo; No report;</dd>
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising Ideas</dt>
 
-            <dd>a. January "B-I-N-G-O": Moose Lodge, Friday 1/26/24, 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3), Entry (3), Raffle (2), and 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30pm; Volunteers: Connor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</dd>
+            <dd>a. January "B-I-N-G-O": Moose Lodge, Friday 1/26/24, 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3), Entry (3), Raffle (2), and 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30pm; Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</dd>
 
             <dd>b. Saint Patty Day, Sun 3/17 - not discussed; Site: Moose Lodge or Phil's Pool House - Phil see if house is available; Time: 4pm to 7pm; Speaker; Food: Chris reach out to potential cooks; Raffle;</dd>
 
@@ -55,7 +55,7 @@
 
             <dt>12. Next Steering Committee meeting is Tuesday 12/26/23 at 6pm via Zoom;</dt>
 
-            <dt>13. Next Committee meeting is Saturday 1/13/2024 abstract 10am;</dt>
+            <dt>13. Next Committee meeting is Saturday 1/13/2024 at 10am;</dt>
 
             <dt>14. Meeting adjourned at 11:10am with the Serenity Prayer;</dt>
         </dl>
