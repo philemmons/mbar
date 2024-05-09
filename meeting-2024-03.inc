@@ -1,4 +1,4 @@
-<div id="january2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
+<div id="march2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
     <div class="accordion-body">
         <p class="text-center">
             MBAR 2024 Committee Notes
