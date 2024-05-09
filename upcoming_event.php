@@ -73,13 +73,13 @@ include_once 'header-bottom.inc'
                               <p class="h5 text-dark">Thank you for continuing to check back for more events leading up to the 2024 Conference!</p>
                          </div>
                     </div>
-                    <!--
+                    
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Softball Fellowship Event and Speaker Meeting Flyer">
+                              <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Softball Fellowship Event Flyer">
                          </div>
                     </div>
--->
+
                </div>
           </div>
      </article>
@@ -106,9 +106,9 @@ include_once 'header-bottom.inc'
                                    <p class=" h5 text-dark pt-3">
                                         PDF flyer is coming soon!
                                    </p>
-                                   <!--
+                                   
                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flyer</button>
-                                   -->
+                                   
                               </section>
                          </div>
                     </div>
