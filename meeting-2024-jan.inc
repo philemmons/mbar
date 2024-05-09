@@ -45,13 +45,13 @@
         <p class="ti-1">h. Raffle - Katherine: Still need prizes for Bingo; No report</p>
 
         <p>10. Old Business: Fundraising Ideas:</p>
-        <p class="ti-1">a. January "B-I-N-G-O": Moose Lodge Friday 1/26/24 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30;</p>
+        <p class="ti-1 mb-0">a. January "B-I-N-G-O": Moose Lodge Friday 1/26/24 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30;</p>
 
-        <p class="ti-2 mt-0">Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</p>
+        <p class="ti-2">Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</p>
 
 
-        <p class="ti-1">b. St Patty Day Sun 3/17 - not discussed;</p>
-        <p class="ti-2 mt-0">Site - Moose Lodge or Phil's Pool House; Phil see if house is available; Time 4pm to 7pm; Speaker; Food - Chris reach out to potential cooks; Raffle;</p>
+        <p class="ti-1 mb-0">b. St Patty Day Sun 3/17 - not discussed;</p>
+        <p class="ti-2">Site - Moose Lodge or Phil's Pool House; Phil see if house is available; Time 4pm to 7pm; Speaker; Food - Chris reach out to potential cooks; Raffle;</p>
 
         <p>11. New Business: None;</p>
 
