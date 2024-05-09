@@ -93,14 +93,14 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                    <div class="p-3  text-bg-light">
+                    <div class="p-3 text-bg-light hero-text-border">
                         <h4 class="fw-bold mb-3 text-center"><span class="text-dark px-3 px-md-0"><i class="bi bi-book me-2" style="font-size: 1.5rem; color: var(--color-8);" aria-hidden="true"></i>2024 Meeting Minutes</span>
                         </h4>
                         <hr>
 
 
 
-                        <div class="accordion" id="accordion2024">
+                        <div class="accordion accordion-flush" id="accordion2024">
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#march2024" aria-expanded="false" aria-controls="march2024">
@@ -127,9 +127,7 @@ include_once 'header-bottom.inc'
                             </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">
-                                        <strong>January 13th</strong>
-                                    </button>
+                                    <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">January 13th</button>
                                 </h4>
 
                                 <?php include 'meeting-2024-jan.inc'; ?>
