@@ -1,6 +1,6 @@
 <div id="january2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
     <div class="accordion-body">
-        <p class="text-center pb-3">
+        <p class="text-center">
             MBAR 2022 Committee Notes
             <br>Zoom ID 831 4306 2293 Password 2024
             <br>Saturday January 13, 2024, 10am
@@ -57,7 +57,7 @@
 
             <dt>14. Meeting adjourned at 11:10am with the Serenity Prayer;</dt>
         </dl>
-        
+
         <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, and Susan;</p>
 
     </div>
