@@ -160,7 +160,7 @@ include_once 'header-bottom.inc'
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Catering/Comida</th>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
                                 </tr>
@@ -237,12 +237,6 @@ include_once 'header-bottom.inc'
                                     <td>Naomi B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Actividades</th>
-                                    <td>Samantha C.</td>
-                                    <td>--</td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-primary">
                                     <th scope="row">Silla de Barbacoa</th>
                                     <td>Joanie</td>
                                     <td>--</td>
@@ -250,9 +244,9 @@ include_once 'header-bottom.inc'
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Silla de Desayuno</th>
-                                    <td>Joanie</td>
+                                    <td>Joanie D.</td>
                                     <td>Renee N.</td>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Silla de Baile</th>
@@ -271,6 +265,12 @@ include_once 'header-bottom.inc'
                                     <td>Joanie</td>
                                     <td>Aubrey</td>
                                     <td>Aubrey</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Presidente de Eventos</th>
+                                    <td>Samantha C.</td>
+                                    <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Instalaciones</th>
@@ -306,7 +306,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Helado social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Cátedra de Literatura</th>
@@ -324,13 +324,13 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Presidente de Mercancía</th>
                                     <td>May H.</td>
                                     <td>May H.</td>
-                                    <td>--</td>
+                                    <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente de extensión</th>
+                                    <th scope="row">Copresidente de Divulgación</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
-                                    <td>Laura P.</td>
+                                    <td>Connor / Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Silla de Panel</th>
@@ -348,7 +348,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Silla de Servicio de Transporte</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
-                                    <td></td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Copresidente de Redes Sociales</th>
@@ -363,7 +363,7 @@ include_once 'header-bottom.inc'
                                     <td>Robert</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente del orador</th>
+                                    <th scope="row">Presidente del Orador</th>
                                     <td>Brady S.</td>
                                     <td>Mark B.</td>
                                     <td>Kathleen S.</td>
@@ -397,12 +397,6 @@ include_once 'header-bottom.inc'
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <th scope="row">Reunión de zoom</th>
-                                    <td>--</td>
-                                    <td>Phillip E.</td>
-                                    <td>Phillip E.</td>
                                 </tr>
                             </tbody>
                         </table>

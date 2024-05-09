@@ -161,7 +161,7 @@ include_once 'header-bottom.inc'
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Catering/Food</th>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
                                 </tr>
@@ -238,22 +238,16 @@ include_once 'header-bottom.inc'
                                     <td>Naomi B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Activities</th>
-                                    <td>Samantha C.</td>
-                                    <td>--</td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-primary">
                                     <th scope="row">BBQ Chair</th>
                                     <td>Joanie</td>
                                     <td>--</td>
-                                    <td>--</td>
+                                    <td>Matt R.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Breakfast Chair</th>
-                                    <td>Joanie</td>
+                                    <td>Joanie D.</td>
                                     <td>Renee N.</td>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Dance Chair</th>
@@ -272,6 +266,12 @@ include_once 'header-bottom.inc'
                                     <td>Joanie</td>
                                     <td>Aubrey</td>
                                     <td>Aubrey</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Events Chair</th>
+                                    <td>Samantha C.</td>
+                                    <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Facilites Chair</th>
@@ -307,7 +307,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Ice Cream Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>--</td>
+                                    <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Literature Chair</th>
@@ -325,13 +325,13 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Merchandise Chair</th>
                                     <td>May H.</td>
                                     <td>May H.</td>
-                                    <td>--</td>
+                                    <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Outreach Chair</th>
+                                    <th scope="row">Outreach Co-Chair</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
-                                    <td>Laura P.</td>
+                                    <td>Connor / Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Panel Chair</th>
@@ -349,7 +349,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Shuttle Service Chair</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
-                                    <td></td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Social Media Co-Chair</th>
@@ -398,12 +398,6 @@ include_once 'header-bottom.inc'
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>
-                                </tr>
-                                <tr class="table-primary">
-                                    <th scope="row">Zoom Meeting</th>
-                                    <td>--</td>
-                                    <td>Phillip E.</td>
-                                    <td>Phillip E.</td>
                                 </tr>
                             </tbody>
                         </table>
