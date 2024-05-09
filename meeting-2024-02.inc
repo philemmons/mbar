@@ -40,7 +40,7 @@
 
             <dd>f. Facilities - Sally: No report;</dd>
 
-            <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn & Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
+            <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn and Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
             <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 
