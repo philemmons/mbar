@@ -12,53 +12,61 @@
 
             <dt>2. Reading of the 12 Traditions: Jean;</dt>
 
-            <dt>3. New attendees, put your phone numbers and email addresses in the chat: Andy, Jill, Dawn: Al-Anon, and Jane: Al-Anon;</dt>
+            <dt>3. New attendees, put your phone numbers and email addresses in the chat: Joanie: Al-Anon;</dt>
 
-            <dt>4. Are there any A.A. or Al-Anon anniversaries since our last meeting? Phillip 17 years;</dt>
+            <dt>4. Are there any A.A. or Al-Anon anniversaries since our last meeting? None;</dt>
 
-            <dt>5. Approve/Amend Minutes from the last meeting? Approved;</dt>
+            <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
-            <dt>6. Chairperson's Report: Chris T. - Happy New Year - I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference. We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a one hr. time frame to allow for a good balance between service and life obligations. Your attendance and participation is appreciated and I am more than grateful for the efforts of all. We are needing the following chairs filled: Outreach and Events.</dt>
+            <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support of the January Bingo event, it was a <span class="text-uppercase">huge</span> success and made an impression on so many in our Fellowship that attended their very 1st Sober event. It was so much <span class="text-uppercase">fun</span> and I could not be more grateful to all those that I get to be in service and work with. We have T-Shirts to decide upon in this meeting. Phillip has created a Zoom poll that we will use to aid us in this important decision. We also have a consideration for coffee to be available at the conference and we have provided a rough estimate of cost should this be something we may decide as a committee to offer. Our conference is a little less than seven months away so the focus and attention to these items within this meeting is very much appreciated. We are needing the following chairs filled: Events, Outreach - Connor and Rick, and Marathon Meetings - possibly Mark.</dt>
 
-            <dt>7. Treasurer's Report: Carolyn/Jean T: Conference Center Deposit - $5k paid; Mailbox renewed; Business License renewed; Current balance $18,400; Paid deposit at Bethlehem Lutheran Church; One registration received;</dt>
+            <dt>7. Treasurer's Report - Carolyn/Jean T: Current balance $22,154.25 includes registrations, bingo, etc.; Carolyn / Phillip - discuss domain renewal; </dt>
 
             <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<strong>Note:</strong> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina: Bingo flyer distributed on Facebook and printed copies were distributed; Developed flyer for 2024 committee meetings; Misc other postings on Facebook;</dd>
+            <dd>a. Media - Gina: St. Patrick's and Bingo flyers distributed on Facebook and printed copies were distributed;</dd>
 
-            <dd>b. Registration - Naomi: Nothing in PO Box; Tested online registration process;</dd>
+            <dd>b. Registration - Naomi: Ten registrations received; Working on online registration process;</dd>
 
-            <dd>c. Spanish - Robert: No report;</dd>
+            <dd>c. Spanish - Robert: Meet last Wednesday of the month (potluck); Need Spanish translation of registration form - Rene to get translation made; 28 Spanish Groups; Working on speakers from Texas and Mexico;</dd>
 
-            <dd>c. Al-Anon - Jane: No report;</dd>
+            <dd>c. Al-Anon - Dawn: Start meetings next month; Committees assembled;</dd>
 
-            <dd>d. T-Shirt - Kevin: Extensive discussion about T-shirts, Travel Mugs, and Ball Caps; Table discussion until next meeting - Chris and Phillip develop an on-line poll;</dd>
+            <dd>d. T-Shirt - Kevin: See polling below; Recommended committee t-shirts be a different color; Consider travel mugs, water bottles, ball caps, etc.;</dd>
 
-            <dd>e. IGR/GSR - Cole: Announcing MBAR at committee meetings; No report;</dd>
+            <dd>e. IGR/GSR - Cole: Announcing MBAR at committee meetings;</dd>
 
-            <dd>f. Facilities - Sally: Received 24 responses to the survey; Need to be aware of sales tax requirements if we sell merchandise at the conference center;</dd>
+            <dd>f. Facilities - Sally: No report;</dd>
 
-            <dd>g. Website - Phillip: New website is up and running; Arranging to get ownership of domain names for MBAR; New pages for Al-Anon and Spanish fellowship; Phasing out Google Doc registration to online registration on the website; Website registration permits data export for registration etc.</dd>
+            <dd>g. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn & Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
-            <dd>h. Raffle - Katherine: Still need prizes for Bingo; No report</dd>
+            <dd>h. Raffle - Katherine: Chris needs volunteers to help with raffle @ St Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 
-            <dt>10. Old Business: Fundraising Ideas</dt>
-            <dd>a. January "B-I-N-G-O": Moose Lodge Friday 1/26/24 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30pm; Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</dd>
+            <dt>10. Old Business:</dt>
+            <dt>Fundraising Ideas</dt>
+
+            <dd>a. Recap January "B-I-N-G-O": Moose Lodge Friday 1/26/24, 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Photo Boot was a success; Volunteers: Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Food - contributed - receipts saved; Total income $3,199.25 - Carolyn provide details in March; Make provisions to take 50/50 contributions by Venmo;</dd>
 
             <dd>b. Saint Patty Day, Sun 3/17 - not discussed; Site - Moose Lodge or Phil's Pool House; Phil see if house is available; Time 4pm to 7pm; Speaker; Food - Chris reach out to potential cooks; Raffle;</dd>
 
-            <dt>11. New Business: None;</dt>
+            <dt>T-shirt poll about the style and color of the MBAR t-shirts</dt>
 
-            <dt>12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom;</dt>
+            <dd>Style: Short sleeve, Long sleeve, Baseball style; Color Options: Teal, Royal Blue, Navy Blue, White and Black; Final results: General MBAR T-shirts winner - Short Sleeve, $15, and Navy Blue; Committee T-shirts - Jersey, white and blue; Kevin bring samples in March; New poll next month to finalize t-shirt design; Jean bring sample t-shirts from past MBARs;</dd>
 
-            <dt>13. Next Committee meeting is Saturday 1/13/2024 10am;</dt>
+            <dt>11. New Business:</dt>
+            <dt>Coffee Provided at MBAR 2024: </dt>
+            <dd>Monterey Conference Center coffee service - One Gallon of coffee or tea service (16 cups at 8oz.) equals $80; With Tax and Gratuity - $108.75; 100 people - AM coffee: 5 to 6 gallons regular coffee and 2 gallons tea; PM coffee: four gallons (coffee and tea); Total: approx. 12 gallons for the day; (This is estimating that almost everyone would at least have one cup, and little less than half of the people would have two cups for the entire day.); Coffee at 50 gallons per day would be $5,437.50 per day; 500 people would be 60 gallons per day; Total: $6,525.00 per day; For two days, approx. $10,000 for coffee; When we reach that amount, we remove the coffee; That would be approx. 92 gallons for the two days;</dd>
 
-            <dt>14. Meeting adjourned at 11:10am with the Serenity Prayer;</dt>
+            <dt>12. Next Steering Committee meeting is Tues 2/27/2024 at 6pm via Zoom;</dt>
+
+            <dt>13. Next Committee meeting is Saturday 3/9/2024 10am;</dt>
+
+            <dt>14. Meeting adjourned at 11:15am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, and Susan;</p>
+        <p> Attendees: Carolyn, Chris, Cole, Dawn, Gina, Jane;g. Janet, Jean, Joanie, Kathleen, Kevin, Mary Grace, Naomi, Phil, Phillip, Renee, Robert, Roger;</p>
 
     </div>
 </div>
