@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
                             </p>
-                            <p class="card-text">La mayoría de nosotros hemos descubierto que ofrecer servicio voluntario mejora la calidad de nuestra recuperación. En otras palabras, obtienes lo que das.
+                            <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando una silla de baile, una silla de decoración, una silla de hostelería, una silla de servicio de transporte y una silla para jóvenes. Si su respuesta es sí, <a href="contact.php" class="bb-link">contáctenos<a>, o con uno de los <a href="meetings.php" class="bb-link" >miembros del comité</a>.<!--La mayoría de nosotros hemos descubierto que el voluntariado para prestar servicio mejora la calidad de nuestra recuperación.-->Recuerda, obtienes lo que das.
                             </p>
                         </div>
                         <div class="card-footer text-center">
