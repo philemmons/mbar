@@ -1,9 +1,9 @@
 <div id="january2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
     <div class="accordion-body">
         <p class="text-center">
-            MBAR 2022 Committee Notes
+            MBAR 2024 Committee Notes
             <br>Zoom ID 831 4306 2293 Password 2024
-            <br>Saturday January 13, 2024, 10am
+            <br>Saturday February 10, 2024 at 10am
             <br><a href='/' class="bb-link">montereybayarearoundup.org</a>
         </p>
 
