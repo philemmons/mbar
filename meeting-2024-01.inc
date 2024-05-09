@@ -46,14 +46,14 @@
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising Ideas</dt>
-            
+
             <dd>a. January "B-I-N-G-O": Moose Lodge, Friday 1/26/24, 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3), Entry (3), Raffle (2), and 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30pm; Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</dd>
 
             <dd>b. Saint Patty Day, Sun 3/17 - not discussed; Site - Moose Lodge or Phil's Pool House; Phil see if house is available; Time 4pm to 7pm; Speaker; Food - Chris reach out to potential cooks; Raffle;</dd>
 
             <dt>11. New Business: None;</dt>
 
-            <dt>12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom;</dt>
+            <dt>12. Next Steering Committee meeting is Tuesday 12/26/23 at 6pm via Zoom;</dt>
 
             <dt>13. Next Committee meeting is Saturday 1/13/2024 10am;</dt>
 
