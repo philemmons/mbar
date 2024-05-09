@@ -626,3 +626,20 @@ ol.ol-roman {
 .ti-4{
   text-indent: 8rem;
 }
+
+dd {
+  display: block;
+  margin-left: 40px;
+}
+
+dt {
+  display: block;
+}
+
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
