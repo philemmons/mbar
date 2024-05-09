@@ -4,7 +4,8 @@
             MBAR 2022 Committee Notes
             <br>Zoom ID 831 4306 2293 Password 2024
             <br>Saturday January 13, 2024, 10am
-            <br><a href='/' class="bb-link">montereybayarearoundup.org</a></p>
+            <br><a href='/' class="bb-link">montereybayarearoundup.org</a>
+        </p>
 
         <p>1. Chairperson's Call to Order: 10:00am;</p>
 
@@ -39,31 +40,28 @@
 
         <p class="ti-1">f. Facilities - Sally: Received 24 responses to the survey; Need to be aware of sales tax requirements if we sell merchandise at the conference center;</p>
 
-
         <p class="ti-1">g. Website - Phillip: New website is up and running; Arranging to get ownership of domain names for MBAR; New pages for Al-Anon and Spanish fellowship; Phasing out Google Doc registration to online registration on the website; Website registration permits data export for registration etc.</p>
 
         <p class="ti-1">h. Raffle - Katherine: Still need prizes for Bingo; No report</p>
 
-        <p>10. Old Business:</p>
-        <p class="ti-1">Fundraising Ideas:</p>
-        <p class="ti-2">January "B-I-N-G-O": Moose Lodge Friday 1/26/24 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30;</p>
-
+        <p>10. Old Business: Fundraising Ideas:</p>
+        <p class="ti-1">January "B-I-N-G-O": Moose Lodge Friday 1/26/24 6 to 9pm; 50/50 Raffle and donated raffle prizes; Speaker: Elena B; Bingo Game Master; Volunteers: Food (3) Entry (3) Raffle (2) 7th tradition (2 to 3); Set up and cleanup; Start setup at 4:30;</p>
 
         <p class="ti-2">Volunteers: Conor - Food Set Up/Clean Up; Carolyn - Set Up/Prizes; Kathleen - Set Up/Clean Up/Food; Sean - Food/Coffee; Cindy - Entry; Arthur - Entry; Cole - 7th Tradition/Clean Up; Samantha - Clean Up/Prizes; Karen - Raffle; Rene - 7th Tradition/Raffle; Janet - Food/7th Tradition; Robert - Entry/Clean Up; Katherine - Raffle/Prizes; Jean and Gina volunteer; Susan volunteer for registration table; Cindy coordinate with Chris to transfer "Square" payment devices;</p>
 
 
-        <p class="ti-2">St Patty Day Sun 3/17 - not discussed;</p>
+        <p class="ti-1">St Patty Day Sun 3/17 - not discussed;</p>
         <p class="ti-2">Site - Moose Lodge or Phil's Pool House; Phil see if house is available; Time 4pm to 7pm; Speaker; Food - Chris reach out to potential cooks; Raffle;</p>
 
-        <p>11. New Business: None</p>
+        <p>11. New Business: None;</p>
 
-        <p>12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom</p>
+        <p>12. Next Steering Committee meeting is Tues 12/26/23 at 6pm via zoom;</p>
 
-        <p>13. Next Committee meeting is Saturday 1/13/2024 10am</p>
+        <p>13. Next Committee meeting is Saturday 1/13/2024 10am;</p>
 
-        <p>14. Meeting adjourned at 11:10am with the Serenity Prayer</p>
+        <p>14. Meeting adjourned at 11:10am with the Serenity Prayer;</p>
 
-        <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, and Susan</p>
+        <p> Attendees: Amber, Andy, Anne, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Jill, Katherine, Kathleen, Kevin, Kim, Mary Grace, Naomi, Penny, Phillip, Renee, Roger, Sally, and Susan;</p>
 
     </div>
 </div>
