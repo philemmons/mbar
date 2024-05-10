@@ -147,8 +147,8 @@ include_once 'header-bottom.inc'
 
                 <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <h3 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
-                        </h3>
+                        <h4 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Archived Meeting Minutes Over the Years</span>
+                        </h4>
                     </div>
                 </div>
 
