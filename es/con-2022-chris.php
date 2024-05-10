@@ -12,7 +12,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-audio-trans" title="Retro microphone on a blue background banner">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Audio Speaker Transcript">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Audio Transcript: Raw and Unedited</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Transcripción de Audio: sin editar y sin editar</span></h2>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Chris T. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Chris T. en 2022.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>I'm going to move this out of the way. Hi everybody, my name is Chris and I'm an alcoholic. I want to thank the Embark Committee and volunteers and everyone that helped put on this weekend. It's been a lot of fun. A lot of memories have been made. My fellowship is grown from all the people I've got to meet.
                             </p>

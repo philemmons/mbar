@@ -12,7 +12,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-audio-trans" title="Retro microphone on a blue background banner">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Audio Speaker Transcript">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Audio Transcript: Raw and Unedited</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Transcripción de Audio: sin editar y sin editar</span></h2>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Jean T. and Cari H., The Many Paths to Spirituality Panel, in 2019.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Jean T. y Cari H., Panel Los Muchos Caminos Hacia la Espiritualidad, en 2019.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>Hi everybody, my name is Dean, I'm an alcoholic. Hi, I'm Dean. It's really good to be here and I want to thank you for asking me to do this. Spirituality for me is such, well, for me I am a big believer in what it says in the big book that this is a spiritual program. And so when I hear people struggling with their spirituality as they come into the rooms, I always want to reach out to them because this is a spiritual program, but there are so many ways that you can develop your spirituality and alcoholics anonymous. So I'll start with that.
                             </p>

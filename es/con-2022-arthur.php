@@ -12,7 +12,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-audio-trans" title="Retro microphone on a blue background banner">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Audio Speaker Transcript">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Audio Transcript: Raw and Unedited</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Transcripción de Audio: sin editar y sin editar</span></h2>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Authur T. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Authur T. en 2022.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>My name is Arthur, I'm an alcoholic. And you know, part of my story is I was a flight attendant. So I just want you to know that ethics signs are right behind you. The lavatories are through the door and to the left. And there is a water station directly at the back of the room. I just wanted to get that straight.
                             </p>

@@ -12,7 +12,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-audio-trans" title="Retro microphone on a blue background banner">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Audio Speaker Transcript">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Audio Transcript: Raw and Unedited</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Transcripción de Audio: sin editar y sin editar</span></h2>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Al-Anon Mary N. and Guillermo N. in 2022.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Al-Anon Mary N. y Guillermo N. en 2022.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
 
                             <p>I am Mary. I am a grateful member of Alonon and it is my recovery date in Alonon. I remember 12 1993 and I am grateful for that. First of all, I would like to thank my dear friend Susie in the corner back there and the committee who asked us to participate. I am pretty emotional and every time I see her I want to cry. But there are no tissues up here so I will suck it up.
