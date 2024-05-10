@@ -465,10 +465,14 @@ include_once 'header-bottom.inc'
                                 <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
                                 <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p89<span class="sr-only">(Opens a new window)</span></button>
                             </p>
+                            <p class="sr-only">(This is the paragraph from page 89 above.)"Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it."
+                            </p>
                             <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                                 <br>
                                 <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
                                 <button type="button" class="btn btn-link bb-link" onclick="window.open('pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Big Book p152<span class="sr-only">(Opens a new window)</span></button>
+                            </p>
+                            <p class="sr-only">(This is the paragraph from page 152 above.)"Yes, there is a substitute and it is vastly more than that. It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you."
                             </p>
                         </section>
                     </div>
