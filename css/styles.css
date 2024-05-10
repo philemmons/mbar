@@ -112,7 +112,7 @@ hr {
   background-image: url("../images/big-sur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--color-4);
+  color: var(--color-5);
   height: 150px;
   border-top: inset 2px var(--color-6);
 }
