@@ -98,7 +98,7 @@ include_once 'header-bottom.inc'
                         <div class="accordion accordion-flush" id="accordion2024">
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#april2024" aria-expanded="false" aria-controls="april2024">April 13th</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#april2024" aria-expanded="false" aria-controls="april2024">13 de Abril</button>
                                 </h4>
 
                                 <?php include 'meeting-2024-04.inc'; ?>
@@ -107,7 +107,7 @@ include_once 'header-bottom.inc'
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#march2024" aria-expanded="false" aria-controls="march2024">March 9th</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#march2024" aria-expanded="false" aria-controls="march2024">9 de Marzo</button>
                                 </h4>
 
                                 <?php include 'meeting-2024-03.inc'; ?>
@@ -116,7 +116,7 @@ include_once 'header-bottom.inc'
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#february2024" aria-expanded="false" aria-controls="february2024">February 10th</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#february2024" aria-expanded="false" aria-controls="february2024">10 de Febrero</button>
                                 </h4>
 
                                 <?php include 'meeting-2024-02.inc'; ?>
@@ -125,7 +125,7 @@ include_once 'header-bottom.inc'
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">January 13th</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2024" aria-expanded="false" aria-controls="january2024">13 de Enero</button>
                                 </h4>
 
                                 <?php include 'meeting-2024-01.inc'; ?>
