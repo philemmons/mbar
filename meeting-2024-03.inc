@@ -70,7 +70,7 @@
             <dt>14. Meeting adjourned at 11:15am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Andy, Chris, Cindy, Conor, Dawn, Diane, Jane, Janet, Jean, Kathleen, Katherine-Ann, Kathleen S., Kevin, Mary Grace, Mary H., Naomi, Phil, Phillip, Renee, Sally H., Susan S., and Roger;</p>
+        <p> Attendees: Andy, Chris, Cindy, Conor, Dawn, Diane, Jane, Janet, Jean, Kathleen, Katherine Ann, Kathleen S., Kevin, Mary Grace, Mary H., Naomi, Phil, Phillip, Renee, Sally H., Susan S., and Roger;</p>
 
     </div>
 </div>
