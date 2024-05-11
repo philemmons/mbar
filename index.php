@@ -89,7 +89,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
                             </p>
-                            <p class="card-text">Do you want to be of service? We are currently looking for a Dance Chair, Decorations Chair, Hospital and Institutions Liaison, Hospitality, Panel Chair, Shuttle Service Chair, and Young People Chair. If your answer is yes, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.<!--Most of us have found that volunteering to do service improves the quality of our recovery.-->Remember, you get what you give.
+                            <p class="card-text">Do you want to be of service? We are currently looking for a Dance Chair, Decorations Chair, Hospital and Institutions Liaison, Hospitality, Panel Chair, Shuttle Service Chair, and Young People Chair. If your answer is yes, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.<!--Most of us have found that volunteering to do service improves the quality of our recovery.-->
+                            <br>
+                            Remember, you get what you give.
                             </p>
                         </div>
                         <div class="card-footer text-center">
