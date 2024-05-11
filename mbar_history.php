@@ -152,7 +152,7 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two -->
-    <article aria-label="Past schedules, speaker, and flyers">
+    <article aria-label="Past schedules, speaker, and fliers">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">

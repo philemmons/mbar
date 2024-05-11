@@ -26,7 +26,7 @@
 
             <dt>9. Committee Chairs / Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina: Bingo flyer distributed on Facebook and printed copies were distributed; Developed flyer for 2024 committee meetings; Misc other postings on Facebook;</dd>
+            <dd>a. Media - Gina: Bingo flier distributed on Facebook and printed copies were distributed; Developed flier for 2024 committee meetings; Misc other postings on Facebook;</dd>
 
             <dd>b. Registration - Naomi: Nothing in PO Box; Tested online registration process;</dd>
 

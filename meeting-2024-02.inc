@@ -26,7 +26,7 @@
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina: St. Patrick's and Bingo flyers distributed on Facebook and printed copies were distributed;</dd>
+            <dd>a. Media - Gina: St. Patrick's and Bingo fliers distributed on Facebook and printed copies were distributed;</dd>
 
             <dd>b. Registration - Naomi: Ten registrations received; Working on online registration process;</dd>
 
