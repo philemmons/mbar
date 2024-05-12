@@ -529,7 +529,7 @@ include_once 'header-bottom.inc'
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                    <p class="h5"><em>05-12-2024 Update</em>: Please check back for ordering an MBAR 2024 T-Shirt. </p> <!-- Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>-->
+                                    <p class="h5"><em>05-12-2024 Update</em>: We wil contact you for ordering an MBAR 2024 T-Shirt. </p> <!-- Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>-->
                                     <ul>
                                         <li>$26 for size Small to X-Large and $31 for size XX-Large and 3X-Large
                                         </li>
