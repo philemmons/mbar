@@ -531,7 +531,7 @@ include_once 'header-bottom.inc'
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                    <p class="h5">Reserva tu Camiseta Conmemorativa 2024 hasta el 31 de Julio.</p>
+                                    <p class="h5"><em>Actualización del 12 de Mayo de 2024</em>: vuelva a consultar para solicitar una camiseta MBAR 2024. </p><!-- Reserva tu Camiseta Conmemorativa 2024 hasta el 31 de Julio.</p> -->
                                     <ul>
                                         <li>$26 para las tallas Pequeño a XL y $31 para las tallas XX-Grande y 3X-Grande
                                         </li>
@@ -549,8 +549,9 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-4">
                                             <label for="shirtQuantity" class="reg-form-label">Qcantidad (Requerido)</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option selected disabled value="">Elegir...</option>
-                                                <option value=0>0</option>
+                                                <option disabled value="">Elegir...</option>
+                                                <option selected value=0>0</option>
+                                                <!--
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
@@ -566,6 +567,7 @@ include_once 'header-bottom.inc'
                                                 <option value=13>13</option>
                                                 <option value=14>14</option>
                                                 <option value=15>15</option>
+                                                -->
                                             </select>
                                             <div class="invalid-feedback">
                                                 Requerido, por favor ingrese su cantidad
@@ -575,14 +577,16 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-5">
                                             <label for="shirtSize" class="reg-form-label">Tamaño (Requerido)</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize" required>
-                                                <option selected disabled value="">Elegir...</option>
-                                                <option value="none">Ninguno</option>
+                                                <option disabled value="">Elegir...</option>
+                                                <option selected value="none">Ninguno</option>
+                                                <!--
                                                 <option value="sm">Pequeño</option>
                                                 <option value="med">Medio</option>
                                                 <option value="lg">Grande</option>
                                                 <option value="xl">XL</option>
                                                 <option value="xxl">XX-Grande</option>
                                                 <option value="3xl">3XL-Grande</option>
+                                                -->
                                             </select>
                                             <div class="invalid-feedback">
                                                 Requerido, por favor ingresa tu talla
