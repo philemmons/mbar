@@ -159,7 +159,7 @@ include_once 'header-bottom.inc'
                                     <td>Concetta C./ Marge S.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Catering/Comida</th>
+                                    <th scope="row">Silla de Desayuno</th>
                                     <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
@@ -169,12 +169,6 @@ include_once 'header-bottom.inc'
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
-                                </tr>
-                                <tr class="table-warning">
-                                    <th scope="row">Saludadores de Al-Anon</th>
-                                    <td>--</td>
-                                    <td>--</td>
-                                    <td>--</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Literatura de Al-Anon</th>

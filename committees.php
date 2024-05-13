@@ -160,7 +160,7 @@ include_once 'header-bottom.inc'
                                     <td>Concetta C./ Marge S.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Catering/Food</th>
+                                    <th scope="row">Breakfast Chair</th>
                                     <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
@@ -170,12 +170,6 @@ include_once 'header-bottom.inc'
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
-                                </tr>
-                                <tr class="table-warning">
-                                    <th scope="row">Al-Anon Greeters</th>
-                                    <td>--</td>
-                                    <td>--</td>
-                                    <td>--</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Literature</th>
