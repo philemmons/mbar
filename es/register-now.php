@@ -533,8 +533,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-8">
                                     <p class="h5"><em>Actualización del 12 de Mayo de 2024</em>: Nos comunicaremos con usted para solicitar una camiseta MBAR 2024. </p><!-- Reserva tu Camiseta Conmemorativa 2024 hasta el 31 de Julio.</p> -->
                                     <ul>
-                                        <li>$26 para las tallas Pequeño a XL y $31 para las tallas XX-Grande y 3X-Grande
-                                        </li>
+                                        <!--<li>$26 para las tallas Pequeño a XL y $31 para las tallas XX-Grande y 3X-Grande
+                                        </li>-->
 
                                         <li>¡MBAR! Use esta ropa favorita de MBAR para el gran evento o simplemente para pasar el rato en la casa.
                                         </li>
