@@ -181,19 +181,25 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Al-Anon Literature</th>
                                     <td>--</td>
                                     <td>Dawn C.</td>
-                                    <td>--</td>
+                                    <td>Ashley</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Registration Chair</th>
                                     <td>Debbie O.</td>
                                     <td>--</td>
-                                    <td>--</td>
+                                    <td>Kathy P.</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Secretary</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Dawn C.</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Al-Anon Spanish Coordinator</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Yuliana</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Speaker Co-Chair</th>

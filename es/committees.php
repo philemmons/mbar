@@ -180,13 +180,13 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Literatura de Al-Anon</th>
                                     <td>--</td>
                                     <td>Dawn C.</td>
-                                    <td>--</td>
+                                    <td>Ashley</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Presidente de registro de Al-Anon</th>
+                                    <th scope="row">Presidente de Registro de Al-Anon</th>
                                     <td>Debbie O.</td>
                                     <td>--</td>
-                                    <td>--</td>
+                                    <td>Kathy P.</td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Secretario de Al-Anon</th>
@@ -195,7 +195,13 @@ include_once 'header-bottom.inc'
                                     <td>Dawn C.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Copresidente del orador de Al-Anon</th>
+                                    <th scope="row">Coordinador de Español Al-Anon</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>Yuliana</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <th scope="row">Copresidente del Orador de Al-Anon</th>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                     <td>Susan A. / Su C.</td>
