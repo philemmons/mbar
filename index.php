@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h2>
-                    <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick-Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
+                    <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
             </div>
