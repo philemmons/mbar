@@ -76,7 +76,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Área de Registro">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
                             </h3>
-                            <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
+                            <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, Reunión Inicial de Zoom el 30 de Agosto y en Vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey</p>
                             <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                         </section>
                     </div>

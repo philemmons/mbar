@@ -75,7 +75,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration Area">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
                             </h3>
-                            <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center </p>
+                            <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting August 30th, and Live on August 31st and September 1st at the Monterey Conference Center</p>
                             <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                         </section>
                     </div>

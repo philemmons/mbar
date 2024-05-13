@@ -6,7 +6,7 @@
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h3 class="fw-bold text-dark px-3 px-md-0">Únete a nosotros en MBAR 2024
                     </h3>
-                    <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y 1 de Septiembre</p>
+                    <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, Reunión Inicial de Zoom el 30 de Agosto y en Vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrate Ahora</a>
                 </div>
             </div>
