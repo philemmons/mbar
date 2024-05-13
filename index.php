@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h2>
-                    <p class="mb-6 h3 text-dark">Labor Day Weekend, August 31st and <br>September 1st</p>
+                    <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick-Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                 </div>
             </div>
@@ -90,8 +90,8 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
                             </p>
                             <p class="card-text">Do you want to be of service? We are currently looking for a Dance Chair, Decorations Chair, Hospital and Institutions Liaison, Hospitality, Panel Chair, Shuttle Service Chair, and Young People Chair. If your answer is yes, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.<!--Most of us have found that volunteering to do service improves the quality of our recovery.-->
-                            <br>
-                            Remember, you get what you give.
+                                <br>
+                                Remember, you get what you give.
                             </p>
                         </div>
                         <div class="card-footer text-center">

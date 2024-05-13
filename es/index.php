@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">La Pre-Inscripción está Activa</span>
                     </h2>
-                    <p class="mb-6 h3 text-dark">Fin de Semana del Día del Trabajo, 31 de Agosto y <br>1 de Septiembre</p>
+                    <p class="mb-6 h3 text-dark">Fin de semana del Día del Trabajo, Reunión Inaugural por Zoom<br>30 de Agosto y en Vivo el 31 de Agosto y <br>1 de Septiembre en el Centro de Conferencias de Monterey </p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
