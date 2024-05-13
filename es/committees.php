@@ -384,7 +384,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Camisetas Silla</th>
                                     <td>---.</td>
                                     <td>Charly F.</td>
-                                    <td>Jessica L.</td>
+                                    <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Sitio Web</th>
