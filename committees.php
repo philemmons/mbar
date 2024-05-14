@@ -307,7 +307,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Ice Cream Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>Joanie D.</td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Literature Chair</th>

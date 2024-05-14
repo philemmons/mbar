@@ -303,10 +303,10 @@ include_once 'header-bottom.inc'
                                     <td>Cindy A.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Helado social</th>
+                                    <th scope="row">Helado Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>Joanie D.</td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Cátedra de Literatura</th>
