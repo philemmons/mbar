@@ -212,7 +212,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Su preinscripción fue enviada y le ayudará con la planificación y preparación del evento. ¡Gracias! Se le ha enviado por correo electrónico una copia de su formulario de registro.';
+                                $statusMsg = 'Su preinscripción fue enviada y le ayudará con la planificación y preparación del evento. ¡Gracias! Se le ha enviado por correo electrónico una copia de su formulario de registro.<br><span class="fw-bold">Recuerde: su registro aún no está completo; haga clic <a href="#payment-now">aquí</a >, o sigue desplazándote hacia abajo para completar y pagar.</span>';
                                 $postData = '';
 
                                 regFormData($total, $lang);
