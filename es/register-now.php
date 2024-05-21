@@ -56,10 +56,15 @@ include_once 'header-bottom.inc'
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center de Portola Plaza, Monterey.">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+            <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
                     </h2>
+                    <p class="mb-6 h4 text-dark">Reunión inicial el 30 de agosto a las 8 pm PST
+                        <br><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Reunión de Zoom con Oliver D. de Delaware
+                        <br>ID de Zoom: <strong>831 4306 2293</strong>
+                        <br>Código de acceso: <strong>2024</strong>
+                    </p>
                     <a href="#register-now" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
@@ -78,7 +83,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registro 2024</h3>
                             <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024. Después de registrarse, debería recibir un correo electrónico con sus opciones y el total adeudado.</p>
-                            <p><em>Actualización del 21-05-2024</em>: Nos comunicaremos con usted para solicitar una camiseta conmemorativa de MBAR 2024 si ya se registró por correo electrónico, ¡así tendrá la oportunidad de comprar una!</p >
+                            <p><em>Actualización del 21-05-2024</em>: Nos comunicaremos con usted para solicitar una camiseta conmemorativa de MBAR 2024 si ya se registró por correo electrónico, ¡así tendrá la oportunidad de comprar una!</p>
                         </section>
                     </div>
                 </div>
@@ -532,7 +537,7 @@ include_once 'header-bottom.inc'
                             <legend>Mercancías</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                <p class="h5">Reserva tu camiseta conmemorativa 2024 hasta el 31 de Julio.</p>
+                                    <p class="h5">Reserva tu camiseta conmemorativa 2024 hasta el 31 de Julio.</p>
                                     <ul>
                                         <li>Cuestan $15 cada uno y tenemos tallas pequeñas a 3XL disponibles para ti.
                                         </li>

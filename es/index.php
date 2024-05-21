@@ -90,8 +90,8 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
                             </p>
                             <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando un Presidente de Danza, Presidente de Decoraciones, Enlace con Hospitales e Instituciones, Hospitalidad, Presidente de Panel, Presidente de Servicio de Transporte y Presidente de Jóvenes. Si su respuesta es sí, por favor contáctenos o envíe un correo electrónico a nuestro<a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.<!--La mayoría de nosotros hemos descubierto que el voluntariado para prestar servicio mejora la calidad de nuestra recuperación.-->
-                            <br>
-                            Recuerda, obtienes lo que das.
+                                <br>
+                                Recuerda, obtienes lo que das.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -121,9 +121,11 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Conferencia 2024
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actualización de la Conferencia 2024
                             </p>
-                            <p class="card-text">Calendario de eventos durante nuestro resumen de dos días. Vuelva con nosotros para obtener actualizaciones y más detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte la acción de la Conferencia de 2022.</p>
+                            <p class="card-text">Anuncio de nuestra reunión inicial de Zoom el 30 de agosto a las 8 p.m. PST. Únase a nosotros con nuestro primer orador del evento 2024: Oliver D. de Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</ a>
+                            </p>
+                            <p class="card-text">Vuelve con nosotros para obtener más actualizaciones y detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte las acciones de la Conferencia de 2022.</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de Conferencias 2022</a></small>
