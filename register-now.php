@@ -56,10 +56,15 @@ include_once 'header-bottom.inc'
     <!-- Hero Part -->
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
-            <div class="col-xl-7 col-lg-7 col-md-12 py-5">
+            <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
                     </h2>
+                    <p class="mb-6 h3 text-dark">Kick Off Meeting on August 30th at 8pm PST
+                        <br><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware
+                        <br>Meeting ID: <strong>831 4306 2293</strong>
+                        <br>Passcode: <strong>2024</strong>
+                    </p>
                     <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
                 </div>
             </div>
@@ -68,29 +73,15 @@ include_once 'header-bottom.inc'
 
     <!-- Part One -->
     <div id="register-now"></div>
-
     <article aria-label="Registration">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
-                            <h3 class="card-title text-center mb-3">Registration 2024</h3>
+                            <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
                             <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024. After registering, you should get an email with your choices and the total due.</p>
                             <p><em>05-21-2024 Update</em>: We will contact you for ordering an MBAR 2024 Commemorative T-Shirt if you already registered by email, so you will get the chance to buy one!</p>
-                        </section>
-                    </div>
-                </div>
-
-                <div id="zoom-info"></div>
-
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3  text-bg-light hero-text-border" title="Kick Off Meeting time and date">
-                        <section aria-label="Zoom-Info">
-                            <h3 class="card-title text-center mb-3">Kick Off Meeting on August 30th at 8pm PST</h3>
-                            <p><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware sharing his experience, strength, and hope.</p>
-                            <p>Meeting ID: <strong>831 4306 2293</strong></p>
-                            <p>Passcode: <strong>2024</strong></p>
                         </section>
                     </div>
                 </div>
