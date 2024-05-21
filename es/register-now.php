@@ -534,7 +534,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-8">
                                 <p class="h5">Reserva tu camiseta conmemorativa 2024 hasta el 31 de Julio.</p>
                                     <ul>
-                                        <li>El costo es de $15 cada uno y tenemos tallas pequeñas a 3XL disponibles para usted.
+                                        <li>Cuestan $15 cada uno y tenemos tallas pequeñas a 3XL disponibles para ti.
                                         </li>
 
                                         <li>¡MBAR! Use esta ropa favorita de MBAR para el gran evento o simplemente para pasar el rato en la casa.

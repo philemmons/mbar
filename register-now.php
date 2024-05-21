@@ -532,7 +532,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-8">
                                     <p class="h5">Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>
                                     <ul>
-                                        <li>The cost is $15 each, and we have Small to 3X-Large available for you.
+                                        <li>They cost $15 each, and we have Small to 3X-Large available for you.
                                         </li>
 
                                         <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
