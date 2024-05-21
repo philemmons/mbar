@@ -121,9 +121,11 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference Update
                             </p>
-                            <p class="card-text">Schedule of Events during our two day Roundup. Check back with us for updates and more detail as we get closer to the date. In the meantime, check out the 2022 Conference action.</p>
+                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<a class="bb-link" href="registration.php#zoom-info">View the Zoom info here</a>
+                            <br>  
+                            Check back with us for more updates and details as we get closer to the date. In the meantime, check out the 2022 Conference action.</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">2022 Conference Schedule</a></small>
