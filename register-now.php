@@ -77,6 +77,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registration 2024</h3>
                             <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024. After registering, you should get an email with your choices and the total due.</p>
+                            <p><em>05-21-2024 Update</em>: We will contact you for ordering an MBAR 2024 Commemorative T-Shirt if you already registered by email, so you will get the chance to buy one!</p>
                         </section>
                     </div>
                 </div>
@@ -529,10 +530,10 @@ include_once 'header-bottom.inc'
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                    <p class="h5"><em>05-12-2024 Update</em>: We will contact you for ordering an MBAR 2024 T-Shirt. </p> <!-- Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>-->
+                                    <p class="h5">Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>
                                     <ul>
-                                        <!--<li>$26 for size Small to X-Large and $31 for size XX-Large and 3X-Large
-                                        </li>-->
+                                        <li>The cost is $15 each, and we have Small to 3X-Large available for you.
+                                        </li>
 
                                         <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
                                         </li>
@@ -547,9 +548,8 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-4">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity (Required)</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option disabled value="">Choose...</option>
-                                                <option selected value=0>0</option>
-                                                <!--
+                                                <option selected disabled value="">Choose...</option>
+                                                <option value=0>0</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
@@ -565,7 +565,6 @@ include_once 'header-bottom.inc'
                                                 <option value=13>13</option>
                                                 <option value=14>14</option>
                                                 <option value=15>15</option>
-                -->
                                             </select>
                                             <div class="invalid-feedback">
                                                 Required, please enter your quantity
@@ -575,16 +574,14 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-5">
                                             <label for="shirtSize" class="reg-form-label">Size (Required)</label>
                                             <select class="form-select" name="shirtSize" id="shirtSize" required>
-                                                <option disabled value="">Choose...</option>
-                                                <option selected value="none">None</option>
-                                                <!--
+                                                <option selected disabled value="">Choose...</option>
+                                                <option value="none">None</option>
                                                 <option value="sm">Small</option>
                                                 <option value="med">Medium</option>
                                                 <option value="lg">Large</option>
                                                 <option value="xl">X-Large</option>
                                                 <option value="xxl">XX-Large</option>
                                                 <option value="3xl">3X-Large</option>
-                                                -->
                                             </select>
                                             <div class="invalid-feedback">
                                                 Required, please enter your size

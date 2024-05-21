@@ -100,13 +100,11 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
      switch ($tss) {
           case "xxl":
           case "3xl":
-               $amount += (31.0 * $tsqInt);
-               break;
           case "sm":
           case "med":
           case "lg":
           case "xl":
-               $amount += (26.0 * $tsqInt);
+               $amount += (15.0 * $tsqInt);
                break;
           default:
                $amount += 0.0;
