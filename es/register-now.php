@@ -83,7 +83,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registro 2024</h3>
                             <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024. Después de registrarse, debería recibir un correo electrónico con sus opciones y el total adeudado.</p>
-                            <p><em>Actualización del 21-05-2024</em>: Nos comunicaremos con usted para solicitar una camiseta conmemorativa de MBAR 2024 si ya se registró por correo electrónico, ¡así tendrá la oportunidad de comprar una!</p>
+                            <p><strong><em>Actualización del 21-05-2024</em></strong>: Nos comunicaremos con usted para solicitar una camiseta conmemorativa de MBAR 2024 si ya se registró por correo electrónico, ¡así tendrá la oportunidad de comprar una!</p>
                         </section>
                     </div>
                 </div>
