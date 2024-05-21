@@ -82,6 +82,19 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
+                <div id="zoom-info"></div>
+
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3  text-bg-light hero-text-border" title="Kick Off Meeting time and date">
+                        <section aria-label="Zoom-Info">
+                            <h3 class="card-title text-center mb-3">Kick Off Meeting on August 30th at 8pm PST</h3>
+                            <p><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware sharing his experience, strength, and hope.</p>
+                            <p>Meeting ID: <strong>831 4306 2293</strong></p>
+                            <p>Passcode: <strong>2024</strong></p>
+                        </section>
+                    </div>
+                </div>
+
                 <?php
 
                 include_once 'source/php_source.php';
