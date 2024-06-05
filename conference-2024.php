@@ -58,9 +58,9 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference<br>
-                            with<br>
-                            Al-Anon Participation</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference
+                        <br>with
+                        <br>Al-Anon Participation</span></h2>
                 </div>
             </div>
         </div>
@@ -75,7 +75,10 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration Area">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
                             </h3>
-                            <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting August 30th, and Live on August 31st and September 1st at the Monterey Conference Center</p>
+                            <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting August 30th with Oliver D. from Delaware, and Live on August 31st and September 1st at the Monterey Conference Center
+                                <br>Meeting ID: <strong>831 4306 2293</strong>
+                                <br>Passcode: <strong>2024</strong>
+                            </p>
                             <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                         </section>
                     </div>

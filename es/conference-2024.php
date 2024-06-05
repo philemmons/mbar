@@ -58,9 +58,9 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de Conferencias de Monterey en Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conferencia<br>
-                            con<br>
-                            Participación de Al-Anon</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conferencia
+                            <br>con
+                            <br>Participación de Al-Anon</span></h2>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
@@ -76,7 +76,10 @@ include_once 'header-bottom.inc'
                         <section aria-label="Área de Registro">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
                             </h3>
-                            <p class="mb-6 h4 text-dark">Fin de Semana del Día del Trabajo, Reunión Inicial de Zoom el 30 de Agosto y en Vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey</p>
+                            <p class="mb-6 h4 text-dark">Fin de semana del Día del Trabajo, Reunión Inicial por Zoom el 30 de Agosto con Oliver D. de Delaware y en vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey
+                                <br>ID de la Reunión: <strong>831 4306 2293</strong>
+                                <br>Código de Acceso: <strong>2024</strong>
+                            </p>
                             <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                         </section>
                     </div>
