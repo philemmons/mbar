@@ -88,7 +88,7 @@ include_once 'header-bottom.inc'
 
     <!-- Part Two -->
     <article aria-label="Notas de la reunión actual">
-    <div class="container shadow-wrap">
+        <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
@@ -96,6 +96,14 @@ include_once 'header-bottom.inc'
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#may2024" aria-expanded="false" aria-controls="may2024">13 de Mayo</button>
+                                </h4>
+
+                                <?php include 'meeting-2024-05.inc'; ?>
+
+                            </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#april2024" aria-expanded="false" aria-controls="april2024">13 de Abril</button>
