@@ -67,7 +67,7 @@
 
             <dd>b. Estado sin fines de lucro: Miembros del comité, anuncien que necesitamos ayuda con esto. Chris hizo un seguimiento con Jana para que esto también fuera un anuncio de IGR;</dd>
 
-            <dt>Ideas para recaudar fondos</dt>
+            <dt>11. Ideas para recaudar fondos</dt>
 
             <dd>a. Presencia en el Día de la Unidad: 6/9/2024 - Tenemos una mesa y una carpa, necesitamos voluntarios;</dd>
 
@@ -77,17 +77,17 @@
 
             <dd>d. Evento de sóftbol: 7/6/24 - Dampierre Little League Park, Carmel Valley, TC Coordinación - Necesitamos voluntarios;</dd>
 
-            <dt>11. Nuevos asuntos:</dt>
+            <dt>12. Nuevos asuntos:</dt>
 
             <dd>a. Camisetas del Comité de Jersey: $24,00 S-XL, $28,00 2XL-4XL - El grupo decidió un precio para las camisetas del comité: $16,00 + 10 % de impuestos, Phillip está haciendo una encuesta en línea;</dd>
 
             <dd>b. Pedir la mayor parte de las camisetas principales cuando tengamos una idea aproximada de la cantidad (2 docenas de tallas pequeñas, 4 de tallas medianas, etc.); se ha organizado el almacenamiento; se necesitará transporte unos días antes del evento - Decisión archivada - Chris y Kevin discuten la logística, presentan un plan el próximo mes;</dd>
 
-            <dt>12. La próxima reunión del Comité Directivo es el martes 28/05/2024 a las 6:00 p. m. a través de Zoom;</dt>
+            <dt>13. La próxima reunión del Comité Directivo es el martes 28/05/2024 a las 6:00 p. m. a través de Zoom;</dt>
 
-            <dt>13. La próxima reunión del Comité es el sábado 08/06/2024 a las 10:00 a. m.;</dt>
+            <dt>14. La próxima reunión del Comité es el sábado 08/06/2024 a las 10:00 a. m.;</dt>
 
-            <dt>14. La reunión se levantó a las 11:35 a. m. con la Oración de la Serenidad.</dt>
+            <dt>15. La reunión se levantó a las 11:35 a. m. con la Oración de la Serenidad.</dt>
         </dl>
 
         <p> Asistentes: Amber, Arthur, Carolyn, Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (en SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Renee, Roger, Samantha, Sean, Susan</p>

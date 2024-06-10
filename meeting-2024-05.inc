@@ -68,7 +68,7 @@
 
             <dd>b. Non-Profit Status: Committee Members please announce we are needing assistance with this. Chris followed up with Jana to have this be an IGR announcement as well;</dd>
 
-            <dt>Fundraising Ideas</dt>
+            <dt>11. Fundraising Ideas</dt>
 
             <dd>a. Unity Day Presence: 6/9/2024 - Have table and tent, Need volunteers;</dd>
 
@@ -78,17 +78,17 @@
 
             <dd>d. Softball Event: 7/6/24 - Dampierre Little League Park, Carmel Valley, TC Coordinating - Need volunteers;</dd>
 
-            <dt>11. New Business:</dt>
+            <dt>12. New Business:</dt>
 
             <dd>a. Jersey Committee Shirts: $24,00 S-XL, $28,00 2XL-4XL - Group decided one price for committee t-shirts - $16.00 + 10% tax, Phillip doing an online poll;</dd>
 
             <dd>b. Order for the bulk of the main t-shirts when we get a rough idea of the count (2 dozen x smalls, 4 x meds,.etc.); Storage has been arranged; Will need transport the few days before the event - Decision tabled - Chris and Kevin discuss logistics, present a plan next month;</dd>
 
-            <dt>12. Next Steering Committee meeting is Tuesday 05/28/2024 at 6pm via Zoom;</dt>
+            <dt>13. Next Steering Committee meeting is Tuesday 05/28/2024 at 6pm via Zoom;</dt>
 
-            <dt>13. Next Committee meeting is Saturday 06/08/2024 at 10am;</dt>
+            <dt>14. Next Committee meeting is Saturday 06/08/2024 at 10am;</dt>
 
-            <dt>14. Meeting adjourned at 11:35am with the Serenity Prayer;</dt>
+            <dt>15. Meeting adjourned at 11:35am with the Serenity Prayer;</dt>
         </dl>
 
         <p> Attendees: Amber, Arthur, Carolyn,Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (In SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Renee, Roger, Samantha, Sean, Susan</p>
