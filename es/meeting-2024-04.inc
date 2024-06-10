@@ -77,7 +77,7 @@
             <dt>14. La reunión finalizó a las 11:15 am con la Oración de la Serenidad;</dt>
         </dl>
 
-        <p> Asistentes: Brady, Carolyn, Chris, Cindy, Cole, Diane, Hilda, Jane, Janet, Jean, Joanie, Katherine Ann, Kathleen, Mary Grace, Naomi, Phillip, Renee, Robert, Samantha, Sean, Roger< /p>
+        <p> Asistentes: Brady, Carolyn, Chris, Cindy, Cole, Diane, Hilda, Jane, Janet, Jean, Joanie, Katherine Ann, Kathleen, Mary Grace, Naomi, Phillip, Renee, Robert, Samantha, Sean, y Roger< /p>
 
     </div>
 </div>

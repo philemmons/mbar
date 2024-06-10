@@ -77,7 +77,7 @@
             <dt>14. Meeting adjourned at 11:15am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Brady, Carolyn, Chris, Cindy, Cole, Diane, Hilda, Jane, Janet, Jean, Joanie, Katherine Ann, Kathleen, Mary Grace, Naomi, Phillip, Renee, Robert, Samantha, Sean, Roger</p>
+        <p> Attendees: Brady, Carolyn, Chris, Cindy, Cole, Diane, Hilda, Jane, Janet, Jean, Joanie, Katherine Ann, Kathleen, Mary Grace, Naomi, Phillip, Renee, Robert, Samantha, Sean, and Roger</p>
 
     </div>
 </div>

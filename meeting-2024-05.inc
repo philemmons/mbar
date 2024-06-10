@@ -91,7 +91,7 @@
             <dt>15. Meeting adjourned at 11:35am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Amber, Arthur, Carolyn,Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (In SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Renee, Roger, Samantha, Sean, Susan</p>
+        <p> Attendees: Amber, Arthur, Carolyn,Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (In SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Renee, Roger, Samantha, Sean, and Susan</p>
 
     </div>
 </div>
