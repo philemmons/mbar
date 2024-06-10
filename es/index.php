@@ -89,7 +89,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
                             </p>
-                            <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando un Presidente de Danza, Presidente de Decoraciones, Enlace con Hospitales e Instituciones, Hospitalidad, Presidente de Panel, Presidente de Servicio de Transporte y Presidente de Jóvenes. Si su respuesta es sí, por favor contáctenos o envíe un correo electrónico a nuestro<a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.<!--La mayoría de nosotros hemos descubierto que el voluntariado para prestar servicio mejora la calidad de nuestra recuperación.-->
+                            <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando una Silla de baile, una Silla de Decoración, una Silla de Hostelería, una Silla de Servicio de Transporte y una Silla para Jóvenes. Si su respuesta es sí, o conoce a alguien que esté dispuesto a asumir un compromiso de servicio, comuníquese con nosotros o envíe un correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.
+                                <br>Hemos descubierto que el voluntariado para prestar servicio mejora la calidad de nuestra recuperación.
                                 <br>
                                 Recuerda, obtienes lo que das.
                             </p>

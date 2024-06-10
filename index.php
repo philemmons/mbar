@@ -89,7 +89,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
                             </p>
-                            <p class="card-text">Do you want to be of service? We are currently looking for a Dance Chair, Decorations Chair, Hospital and Institutions Liaison, Hospitality, Panel Chair, Shuttle Service Chair, and Young People Chair. If your answer is yes, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.<!--Most of us have found that volunteering to do service improves the quality of our recovery.-->
+                            <p class="card-text">Do you want to be of service? We are currently looking for a Dance Chair, Decorations Chair, Hospitality, Shuttle Service Chair, and Young People Chair. If your answer is yes, or know someone who is willing to step into a service commitment, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.
+                                <br>We have found that volunteering to do service improves the quality of our recovery.
                                 <br>
                                 Remember, you get what you give.
                             </p>
@@ -124,7 +125,7 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference Update
                             </p>
                             <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a></p>
-                            
+
                             <p class="card-text">Check back with us for more updates and details as we get closer to the date. In the meantime, check out the 2022 Conference action.</p>
                         </div>
                         <div class="card-footer text-center">
