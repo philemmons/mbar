@@ -79,7 +79,7 @@ include_once 'header-bottom.inc'
                         <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
                             <strong>Contraseña</strong>: 2024
                         </p>
-                        <p class="text-center"><strong>Próximas reuniones:</strong> 04/13/2024, 05/11/2024, 06/08/2024</p>
+                        <p class="text-center"><strong>Próximas reuniones:</strong> 07/13/2024, 08/10/2024</p>
                     </div>
                 </div>
             </div>
