@@ -875,6 +875,7 @@ include_once 'header-bottom.inc'
             }else{
                 sQua.disabled = true;
                 sQua.require = false;
+                sSiz.value = "0";
             }
 
         }
