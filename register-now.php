@@ -84,7 +84,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="text-center">After registering, you should get an email with your choices and the total due.
                             </p>
-                            <p class="text-center"><a href="#payment-now" class="bb-link">Please use the qrCodes, or links below, for payment that completes your registration.</a>
+                            <p class="text-center"><a href="#payment-now" class="bb-link">Please use the qrCodes or links below for payment that completes your registration.</a>
                             </p>
                         </section>
                     </div>
@@ -684,12 +684,12 @@ include_once 'header-bottom.inc'
                             <div class="col-sm-6 py-5">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
-                                <p class="text-center pt-4"><a href="https://venmo.com/code?user_id=2883666946555904351&created=1699031584.911354" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Venmo's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="text-center"><a href="https://venmo.com/code?user_id=2883666946555904351&created=1699031584.911354" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Venmo's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
                             </div>
                             <div class="col-sm-6 py-5">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
-                                <p class="text-center pt-4"><a href="https://www.paypal.com/qrcodes/managed/2337f158-b9f2-48ad-98b8-8fb7a693759f?utm_source=old_merchant_lp" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">PayPal's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
+                                <p class="text-center"><a href="https://www.paypal.com/qrcodes/managed/2337f158-b9f2-48ad-98b8-8fb7a693759f?utm_source=old_merchant_lp" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">PayPal's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
                             </div>
                             <p>The links below provide general payment instructions.</p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
