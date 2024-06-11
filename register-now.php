@@ -554,10 +554,9 @@ include_once 'header-bottom.inc'
 
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <label for="shirtQuantity" class="reg-form-label">Quantity (Required)</label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option selected disabled value="">Choose...</option>
-                                                <option value=0>0</option>
+                                            <label for="shirtQuantity" class="reg-form-label">Quantity</label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
+                                                <option selected value=0>Choose...</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
@@ -580,10 +579,9 @@ include_once 'header-bottom.inc'
                                         </div>
 
                                         <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Size (Required)</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize" required>
-                                                <option selected disabled value="">Choose...</option>
-                                                <option value="none">None</option>
+                                            <label for="shirtSize" class="reg-form-label">Size</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
+                                                <option selected value="none">Choose...</option>
                                                 <option value="sm">Small</option>
                                                 <option value="med">Medium</option>
                                                 <option value="lg">Large</option>
@@ -859,10 +857,23 @@ include_once 'header-bottom.inc'
         function optionSHIRT() {
             let sQua = document.getElementById('shirtQuantity');
             let sSiz = document.getElementById('shirtSize');
-
+            /*
             if (sQua.value == "0") {
                 sSiz.value = "none";
             }
+            */
+            if (sQua.value != "0") {
+                sSiz.required = true;
+            }else{
+                sSiz.required = false;
+            }
+
+            if (sSiz.value != "none") {
+                sQua.required = true;
+            }else{
+                sQua.required = false;
+            }
+
         }
     </script>
 
