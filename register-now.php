@@ -119,6 +119,10 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
+                    if($_POST['shirtQuantity'] == null){
+                        $_POST['shirtQuantity'] = 0;
+                    }
+
                     // Validate form required input fields
                     if (
                         !empty($_POST['firstName']) &&
@@ -130,7 +134,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
-                        strlen($_POST['shirtQuantity']) > 0 &&
+                        //strlen($_POST['shirtQuantity']) > 0 &&
                         !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
@@ -171,6 +175,8 @@ include_once 'header-bottom.inc'
                                 $tss = !empty($_POST['shirtSize']) ? htmlspecialchars($_POST['shirtSize'], ENT_QUOTES) : '';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
+
+
 
                                 $tsq = tShirtQuanCheck($tss, $tsq);
                                 $tss = tShirtSizeCheck($tss, $tsq);
@@ -553,9 +559,25 @@ include_once 'header-bottom.inc'
                                     </p>
 
                                     <div class="row">
+                                        <div class="col-md-5">
+                                            <label for="shirtSize" class="reg-form-label">Size</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
+                                                <option selected value="none">Choose...</option>
+                                                <option value="sm">Small</option>
+                                                <option value="med">Medium</option>
+                                                <option value="lg">Large</option>
+                                                <option value="xl">X-Large</option>
+                                                <option value="xxl">XX-Large</option>
+                                                <option value="3xl">3X-Large</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Required, please enter your size
+                                            </div>
+                                        </div>
+
                                         <div class="col-md-4">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()">
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" disabled>
                                                 <option selected value=0>Choose...</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
@@ -575,22 +597,6 @@ include_once 'header-bottom.inc'
                                             </select>
                                             <div class="invalid-feedback">
                                                 Required, please enter your quantity
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Size</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
-                                                <option selected value="none">Choose...</option>
-                                                <option value="sm">Small</option>
-                                                <option value="med">Medium</option>
-                                                <option value="lg">Large</option>
-                                                <option value="xl">X-Large</option>
-                                                <option value="xxl">XX-Large</option>
-                                                <option value="3xl">3X-Large</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Required, please enter your size
                                             </div>
                                         </div>
                                     </div>
@@ -862,16 +868,13 @@ include_once 'header-bottom.inc'
                 sSiz.value = "none";
             }
             */
-            if (sQua.value != "0") {
-                sSiz.required = true;
-            }else{
-                sSiz.required = false;
-            }
 
             if (sSiz.value != "none") {
-                sQua.required = true;
+                sQua.disabled = false;
+                sQua.require = true;
             }else{
-                sQua.required = false;
+                sQua.disabled = true;
+                sQua.require = false;
             }
 
         }
