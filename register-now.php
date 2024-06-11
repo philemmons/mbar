@@ -80,8 +80,12 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
-                            <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024. After registering, you should get an email with your choices and the total due.</p>
-                            <p>Please note: </p>
+                            <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.
+                            </p>
+                            <p>After registering, you should get an email with your choices and the total due. <a href="#payment-now" class="bb-link">Please use the qrCodes, or links below, for payment that completes your registration.</a>
+                            </p>
+                            
+
                         </section>
                     </div>
                 </div>
@@ -215,7 +219,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Your pre-registration was sent, and it will assist with event planning and preparation. Thank you! A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete yet - click <a href="#payment-now">here</a>, or keep scrolling down to complete and to pay.</span>';
+                                $statusMsg = 'Thank you! Your pre-registration was started, and it will assist with event planning and preparation. A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete until <a href="#payment-now">payment has been made</a>.</span>';
                                 $postData = '';
 
                                 regFormData($total, $lang);
