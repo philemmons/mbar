@@ -29,14 +29,14 @@
                 We are needing the following chairs filled: Facilities Chair, Merchandise, H&I, Non-Profit Status, Please see attached Committee Chair List;
             </dt>
 
-            <dt>7. Treasurer's Report - Jean T: See attached budget spreadsheet; 51 registrations received; Expect 400 more registrations; Literature budgeted $363 expense and $425 Income - May requested that people donate unneeded books; Non-profit paper work not complete - CPA budgeted to complete this;
+            <dt>7. Treasurer's Report - Carolyn H.: See attached budget spreadsheet; 51 registrations received; Expect 400 more registrations; Literature budgeted $363 expense and $425 Income - May requested that people donate unneeded books; Non-profit paper work not complete - CPA budgeted to complete this;
             </dt>
 
             <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina, Sean: Gina mad-yup softball flyer and sent information to intergroup;</dd>
+            <dd>a. Media - Gina, Sean: Gina: Softball flyer and sent information to intergroup;</dd>
 
             <dd>b. Registration - Naomi: 48 total registrations received - 31 online and 17 paper; Investigating process to provide acknowledgement of Venmo payments; Need updated registration forms - online (English and Spanish); Need to include Friday Night Zoom meeting details; Once pricing questions are resolved need to update registration form to include T-shirts; Naomi will notify (E) registrants;</dd>
 

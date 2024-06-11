@@ -29,13 +29,13 @@
                 Necesitamos cubrir los siguientes puestos: Presidente de Instalaciones, Mercancía, H&I, Estatus sin fines de lucro. Consulte la lista adjunta de Presidentes de Comités;
             </dt>
 
-            <dt>7. Informe del tesorero: Jean T: Ver la hoja de cálculo del presupuesto adjunta; se recibieron 51 inscripciones; se esperan 400 inscripciones más; se presupuestaron $363 de gastos en literatura y $425 de ingresos; May solicitó que las personas donaran libros innecesarios; no se completó el papeleo de la organización sin fines de lucro; el CPA presupuestó completarlo;
+            <dt>7. Informe del tesorero: Carolyn H.: Ver la hoja de cálculo del presupuesto adjunta; se recibieron 51 inscripciones; se esperan 400 inscripciones más; se presupuestaron $363 de gastos en literatura y $425 de ingresos; May solicitó que las personas donaran libros innecesarios; no se completó el papeleo de la organización sin fines de lucro; el CPA presupuestó completarlo;
 
             <dt>8. Séptima Tradición: Puede hacer una contribución a la Séptima Tradición: PayPal a mbartreasurer@gmail.com o enviando un cheque a: MBAR, PO Box 1462, Monterey, CA 93942; o Venmo: @MBARoundup24 (<em>Nota:</em> Venmo y el cheque van 100 % a la Tesorería, PayPal cobra una tarifa).</dt>
 
             <dt>9. Informes de los presidentes de comités/comités directivos</dt>
 
-            <dd>a. Medios - Gina, Sean: Gina preparó un volante de softbol y envió información al intergrupo;</dd>
+            <dd>a. Medios - Gina, Sean: Gina: Volante de softbol y envió información al intergrupo;</dd>
 
             <dd>b. Registro - Naomi: 48 registros totales recibidos - 31 en línea y 17 en papel; Investigando el proceso para proporcionar un acuse de recibo de los pagos de Venmo; Necesito formularios de registro actualizados - en línea (inglés y español); Necesito incluir detalles de la reunión de Zoom del viernes por la noche; Una vez que se resuelvan las preguntas sobre precios, necesito actualizar el formulario de registro para incluir camisetas; Naomi notificará a los inscritos (E);</dd>
 

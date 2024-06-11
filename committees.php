@@ -343,7 +343,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Shuttle Service Chair</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
-                                    <td>--</td>
+                                    <td>Trevor F.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Social Media Co-Chair</th>
