@@ -140,6 +140,7 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Inscripción
                             </p>
                             <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
+                            <p class="card-text">Recuerde: su registro no estará completo hasta que se haya realizado el <a href="register-now.php#payment-now">pago</a>.</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrate Ahora</a></small>
