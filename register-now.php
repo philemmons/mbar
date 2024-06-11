@@ -578,8 +578,8 @@ include_once 'header-bottom.inc'
                                         <div class="col-md-4">
                                             <label for="shirtQuantity" class="reg-form-label">Quantity</label>
                                             <select class="form-select" name="shirtQuantity" id="shirtQuantity" disabled>
-                                                <option value=0>Choose...</option>
-                                                <option selected value=1>1</option>
+                                                <option selected value=0>Choose...</option>
+                                                <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
                                                 <option value=4>4</option>
