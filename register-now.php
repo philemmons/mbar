@@ -81,7 +81,7 @@ include_once 'header-bottom.inc'
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
                             <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024. After registering, you should get an email with your choices and the total due.</p>
-                            <p><strong><em>05-21-2024 Update</em></strong>: We will contact you for ordering an MBAR 2024 Commemorative T-Shirt if you already registered by email, so you will get the chance to buy one!</p>
+                            <p>Please note: </p>
                         </section>
                     </div>
                 </div>
@@ -672,7 +672,9 @@ include_once 'header-bottom.inc'
                         </p>
                         <p class="bb-link">Remember: Your payment completes your registration!
                         </p>
-                        <p>The QR codes below require the mobile apps. If you need some assistance with making a payment, please send an email to <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">System Admin</a>.
+                        <p>The QR codes below require the mobile apps.
+                        <p>
+                        <p><strong>Helpful Tip</strong>: PayPal's qrCode brings you to the login screen. After logging in, click on the qrCode icon at the top right, next to the user icon, and then scan the qrCode again for the MBAR payment prompt. If you need some assistance with making a payment, please contact our <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">System Admin</a>.
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-5">

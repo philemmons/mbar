@@ -675,7 +675,9 @@ include_once 'header-bottom.inc'
                         </p>
                         <p class="bb-link">Recuerde: Su pago completa su registro!
                         </p>
-                        <p>Los códigos QR a continuación requieren las aplicaciones móviles. Si necesita ayuda para realizar un pago, envíe un correo electrónico a <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador del Sistema</a>.
+                        <p>Los códigos QR a continuación requieren las aplicaciones móviles.
+                        <p>
+                        <p><strong>Consejo útil</strong>: el código qr de PayPal le lleva a la pantalla de inicio de sesión. Después de iniciar sesión, haga clic en el ícono qrCode en la parte superior derecha, al lado del ícono de usuario, y luego escanee el qrCode nuevamente para ver el aviso de pago de MBAR. Si necesita ayuda para realizar un pago, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador del sistema</a >.
                         </p>
                         <div class="row">
                             <div class="col-sm-6 py-5">
