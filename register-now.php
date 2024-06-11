@@ -119,7 +119,7 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
-                    if( !isset($_POST['shirtQuantity']) || !array_key_exists('shirtQuantity', $_POST)){
+                    if (!isset($_POST['shirtQuantity']) || !array_key_exists('shirtQuantity', $_POST)) {
                         $_POST['shirtQuantity'] = 0;
                     }
 
@@ -864,13 +864,13 @@ include_once 'header-bottom.inc'
         function optionSHIRT() {
             let sQua = document.getElementById('shirtQuantity');
             let sSiz = document.getElementById('shirtSize');
+
             if (sSiz.value != "none") {
                 sQua.disabled = false;
-            }else{
+            } else {
                 sQua.disabled = true;
                 sQua.value = 0;
             }
-
         }
     </script>
 
