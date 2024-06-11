@@ -175,13 +175,10 @@ include_once 'header-bottom.inc'
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
-
-
                                 $tsq = tShirtQuanCheck($tss, $tsq);
                                 $tss = tShirtSizeCheck($tss, $tsq);
 
                                 $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
-
 
                                 // Send email notification to the site admin 
                                 $to = $email;
@@ -204,9 +201,9 @@ include_once 'header-bottom.inc'
                     <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
                     <p><b>Ice Cream Social: </b>" . $ics . "</p> 
                     <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
-                    <p><b>Helping Hand Contribution: </b>" . $hhc . "</p> 
-                    <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
+                    <p><b>Helping Hand Contribution: </b>" . $hhc . "</p>
                     <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
+                    <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
                     <p><b>Current Total: </b>$" . $total . ".00</p> 
                     <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
                     <p><b>Payment Method: </b>" . $pm . "</p> 

@@ -205,8 +205,8 @@ include_once 'header-bottom.inc'
                     <p><b>Helado Social: </b>" . $ics . "</p> 
                     <p><b>Baile del Sábado por la Noche: </b>" . $snd . "</p> 
                     <p><b>Contribución de Mano Amiga: </b>" . $hhc . "</p> 
-                    <p><b>Cantidad de Camisetas : </b>" . $tsq . "</p> 
                     <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
+                    <p><b>Cantidad de Camisetas : </b>" . $tsq . "</p> 
                     <p><b>Talla de Camiseta: </b>$" . $total . ".00</p> 
                     <p><b>Estuve de acuerdo con los ToS y entiendo que el registro está incompleto hasta que se pague: </b>" . $cBox . "</p> 
                     <p><b>Método de Pago: </b>" . $pm . "</p> 
@@ -224,7 +224,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Su preinscripción fue enviada y le ayudará con la planificación y preparación del evento. ¡Gracias! Se le ha enviado por correo electrónico una copia de su formulario de registro.<br><span class="fw-bold">Recuerde: su registro aún no está completo; haga clic <a href="#payment-now">aquí</a >, o sigue desplazándote hacia abajo para completar y pagar.</span>';
+                                $statusMsg = '¡Gracias! Su preinscripción se inició y le ayudará con la planificación y preparación del evento. Se le ha enviado una copia de su formulario de inscripción por correo electrónico.<br><span class="fw-bold">Recuerde: su inscripción no estará completa hasta que se haya realizado el <a href="#payment-now">pago</a>.</span>';
                                 $postData = '';
 
                                 regFormData($total, $lang);
