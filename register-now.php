@@ -82,10 +82,10 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
                             <p>We are excited to announce that the Monterey Bay Area Roundup is coming in 2024, and we are glad you are planning to attend! Join us online with a Kick Off Zoom meeting, Friday night on August 30th. The conference will take place at the Monterey Conference Center on Labor Day weekend: Aug 31 to Sept 1, 2024.
                             </p>
-                            <p>After registering, you should get an email with your choices and the total due. <a href="#payment-now" class="bb-link">Please use the qrCodes, or links below, for payment that completes your registration.</a>
+                            <p class="text-center">After registering, you should get an email with your choices and the total due.
                             </p>
-                            
-
+                            <p class="text-center"><a href="#payment-now" class="bb-link">Please use the qrCodes, or links below, for payment that completes your registration.</a>
+                            </p>
                         </section>
                     </div>
                 </div>

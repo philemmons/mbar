@@ -82,8 +82,11 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registro 2024</h3>
-                            <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024. Después de registrarse, debería recibir un correo electrónico con sus opciones y el total adeudado.</p>
-                            <p><strong><em>Actualización del 21-05-2024</em></strong>: Nos comunicaremos con usted para solicitar una camiseta conmemorativa de MBAR 2024 si ya se registró por correo electrónico, ¡así tendrá la oportunidad de comprar una!</p>
+                            <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024.</p>
+                            <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus opciones y el monto total a pagar.
+                            </p>
+                            <p class="text-center"><a href="#payment-now" class="bb-link">Utilice los códigos QR o los enlaces que se encuentran a continuación para realizar el pago que complete su registro.</a>
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -677,7 +680,7 @@ include_once 'header-bottom.inc'
                         </p>
                         <p>Los códigos QR a continuación requieren las aplicaciones móviles.
                         <p>
-                        <p><strong>Consejo útil</strong>: el código qr de PayPal le lleva a la pantalla de inicio de sesión. Después de iniciar sesión, haga clic en el ícono qrCode en la parte superior derecha, al lado del ícono de usuario, y luego escanee el qrCode nuevamente para ver el aviso de pago de MBAR. Si necesita ayuda para realizar un pago, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador del sistema</a >.
+                        <p><strong>Consejo útil</strong>: el código qr de PayPal le lleva a la pantalla de inicio de sesión. Después de iniciar sesión, haga clic en el ícono qrCode en la parte superior derecha, al lado del ícono de usuario, y luego escanee el qrCode nuevamente para ver el aviso de pago de MBAR. Si necesita ayuda para realizar un pago, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador del sistema</a>.
                         </p>
                         <div class="row">
                             <div class="col-sm-6 py-5">
