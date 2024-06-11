@@ -140,7 +140,7 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
                             </p>
                             <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
-                            <p class="card-text">As a gentle reminder: Your registration is not complete until <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.</p>
+                            <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Register Now</a></small>
