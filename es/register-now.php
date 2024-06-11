@@ -85,8 +85,8 @@ include_once 'header-bottom.inc'
                             <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024.</p>
                             <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus opciones y el monto total a pagar.
                             </p>
-                            <p class="text-center"><a href="#payment-now" class="bb-link">Por favor, utilice los códigos QR o enlaces a continuación para realizar el pago que completó su registro.</a>
-                            </p>
+                            <p class="text-center">Utilice los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que completó su registro.
+                        </p>
                         </section>
                     </div>
                 </div>
@@ -121,6 +121,10 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
+                    if (!isset($_POST['shirtQuantity']) || !array_key_exists('shirtQuantity', $_POST)) {
+                        $_POST['shirtQuantity'] = 0;
+                    }
+
                     // Validate form required input fields
                     if (
                         !empty($_POST['firstName']) &&
@@ -132,7 +136,6 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
-                        strlen($_POST['shirtQuantity']) > 0 &&
                         !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
@@ -555,11 +558,28 @@ include_once 'header-bottom.inc'
                                     </p>
 
                                     <div class="row">
+                                        <div class="col-md-5">
+                                            <label for="shirtSize" class="reg-form-label">Tamaño</label>
+                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
+                                                <option selected value="none">Elegir...</option>
+                                                <option value="none">Ninguno</option>
+                                                <option value="sm">Pequeño</option>
+                                                <option value="med">Medio</option>
+                                                <option value="lg">Grande</option>
+                                                <option value="xl">XL</option>
+                                                <option value="xxl">XX-Grande</option>
+                                                <option value="3xl">3XL-Grande</option>
+                                                <option value="none">No gracias</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Opcional, por favor ingresa tu talla
+                                            </div>
+                                        </div>
+
                                         <div class="col-md-4">
-                                            <label for="shirtQuantity" class="reg-form-label">Qcantidad (Requerido)</label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" onChange="optionSHIRT()" required>
-                                                <option selected disabled value="">Elegir...</option>
-                                                <option value=0>0</option>
+                                            <label for="shirtQuantity" class="reg-form-label">Qcantidad </label>
+                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" disabled>
+                                                <option selected value=0>Elegir...</option>
                                                 <option value=1>1</option>
                                                 <option value=2>2</option>
                                                 <option value=3>3</option>
@@ -577,24 +597,7 @@ include_once 'header-bottom.inc'
                                                 <option value=15>15</option>
                                             </select>
                                             <div class="invalid-feedback">
-                                                Requerido, por favor ingrese su cantidad
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Tamaño (Requerido)</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize" required>
-                                                <option selected disabled value="">Elegir...</option>
-                                                <option value="none">Ninguno</option>
-                                                <option value="sm">Pequeño</option>
-                                                <option value="med">Medio</option>
-                                                <option value="lg">Grande</option>
-                                                <option value="xl">XL</option>
-                                                <option value="xxl">XX-Grande</option>
-                                                <option value="3xl">3XL-Grande</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Requerido, por favor ingresa tu talla
+                                                Opcional, por favor ingrese su cantidad
                                             </div>
                                         </div>
                                     </div>
@@ -848,8 +851,11 @@ include_once 'header-bottom.inc'
             let sQua = document.getElementById('shirtQuantity');
             let sSiz = document.getElementById('shirtSize');
 
-            if (sQua.value == "0") {
-                sSiz.value = "none";
+            if (sSiz.value != "none") {
+                sQua.disabled = false;
+            } else {
+                sQua.disabled = true;
+                sQua.value = 0;
             }
         }
     </script>

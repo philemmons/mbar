@@ -84,7 +84,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="text-center">After registering, you should get an email with your choices and the total due.
                             </p>
-                            <p class="text-center"><a href="#payment-now" class="bb-link">Please use the qrCodes or links below for payment that completes your registration.</a>
+                            <p class="text-center">Please use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
                             </p>
                         </section>
                     </div>
@@ -134,7 +134,6 @@ include_once 'header-bottom.inc'
                         !empty($_POST['meetTheSpeakerDinner']) &&
                         !empty($_POST['roundupContinentalBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
-                        //strlen($_POST['shirtQuantity']) > 0 &&
                         !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
                         !empty($_POST['paymentMethod']) &&
