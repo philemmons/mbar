@@ -569,9 +569,10 @@ include_once 'header-bottom.inc'
                                                 <option value="xl">X-Large</option>
                                                 <option value="xxl">XX-Large</option>
                                                 <option value="3xl">3X-Large</option>
+                                                <option value="none">No thank you</option>
                                             </select>
                                             <div class="invalid-feedback">
-                                                Required, please enter your size
+                                                Optional, please enter your size
                                             </div>
                                         </div>
 
@@ -596,7 +597,7 @@ include_once 'header-bottom.inc'
                                                 <option value=15>15</option>
                                             </select>
                                             <div class="invalid-feedback">
-                                                Required, please enter your quantity
+                                                Optional, please enter your quantity
                                             </div>
                                         </div>
                                     </div>
