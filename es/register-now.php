@@ -683,12 +683,14 @@ include_once 'header-bottom.inc'
                             <div class="col-sm-6 py-5">
                                 <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                                <p class="text-center pt-4"><a href="https://venmo.com/code?user_id=2883666946555904351&created=1699031584.911354" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Enlace del Código qr de Venmo<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
                             <div class="col-sm-6 py-5">
                                 <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
                                 <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
                             </div>
                             <p>Los enlaces a continuación proporcionan instrucciones generales de pago.</p>
+                            <p class="text-center pt-4"><a href="https://www.paypal.com/qrcodes/managed/2337f158-b9f2-48ad-98b8-8fb7a693759f?utm_source=old_merchant_lp" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Enlace del Código qr de PayPal<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer nofollow" title="Enlace directo a Venmo">¿Cómo puedo enviar un pago o solicitar dinero con Venmo?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" rel="noopener noreferrer nofollow" title="Enlace directo a PayPal">¿Cómo envío pagos con PayPal?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                         </div>
