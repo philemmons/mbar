@@ -38,13 +38,13 @@
 
             <dd>a. Media - Gina, Sean: Gina: Softball flyer and sent information to intergroup;</dd>
 
-            <dd>b. Registration - Naomi: 48 total registrations received - 31 online and 17 paper; Investigating process to provide acknowledgement of Venmo payments; Need updated registration forms - online (English and Spanish); Need to include Friday Night Zoom meeting details; Once pricing questions are resolved need to update registration form to include T-shirts; Naomi will notify (E) registrants;</dd>
+            <dd>b. Registration - Naomi: 48 total registrations received - 31 online and 17 paper; Investigating process to provide acknowledgement of Venmo payments; Need updated registration forms - online (English and Spanish); Need to include Friday Night Zoom meeting details; Once pricing questions are resolved need to update registration form to include T-shirts; Carolyn will notify (E) registrants;</dd>
 
             <dd>c. Spanish - Robert: No report;</dd>
 
             <dd>d. Al-Anon - Jane: Everything on track; Al-Anon / AA Meeting - May 17th at Bethlehem Lutheran Church; Need to update her contact information on the committee list; Need to send her the updated registration forms;</dd>
 
-            <dd>e. T-Shirt - Kevin: Managing T-shirts / coffee mugs (order 24) / water bottles (order 48); T-shirt cost not yet finalized - Phillip remove T-shirt price from the website, All T-shirts are to be pre-ordered - Cut off pre-orders 30 days before the event, Some discussion about a bulk order of 240 t-shirts - not resolved at this meeting, Suggestion to pre-order 240 t-shirts and mark-up to cover possibility of unsold t-shirts; Group agreed to price all T-shirts the same to avoid size shaming; Committee t-shirts - $16.00 + 10% tax, Phillip doing an online poll; Updating registration form to include T-shirts - Naomi will notify (E) registrants; Phillip update online registration form; Need to finalize how sales tax is handled;</dd>
+            <dd>e. T-Shirt - Kevin: Managing T-shirts / coffee mugs (order 24) / water bottles (order 48); T-shirt cost not yet finalized - Phillip remove T-shirt price from the website, All T-shirts are to be pre-ordered - Cut off pre-orders 30 days before the event, Some discussion about a bulk order of 240 t-shirts - not resolved at this meeting, Suggestion to pre-order 240 t-shirts and mark-up to cover possibility of unsold t-shirts; Group agreed to price all T-shirts the same to avoid size shaming; Committee t-shirts - $16.00 + 10% tax, Phillip doing an online poll; Updating registration form to include T-shirts - Carolyn will notify (E) registrants; Phillip update online registration form; Need to finalize how sales tax is handled;</dd>
 
             <dd>f. Speaker - Kathleen: DJ Booked for dance; Friday Zoom - Oliver B. Delaware; Sunday - Darren; Saturday - Crystal; Susan has candidate available - Dennis D. Santa Cruz AA/Al-Anon; Naomi - email list of needed speakers to Kathleen;</dd>
 
