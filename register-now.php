@@ -864,18 +864,10 @@ include_once 'header-bottom.inc'
         function optionSHIRT() {
             let sQua = document.getElementById('shirtQuantity');
             let sSiz = document.getElementById('shirtSize');
-            /*
-            if (sQua.value == "0") {
-                sSiz.value = "none";
-            }
-            */
-
             if (sSiz.value != "none") {
                 sQua.disabled = false;
-                sQua.require = true;
             }else{
                 sQua.disabled = true;
-                sQua.require = false;
                 sQua.value = 0;
             }
 
