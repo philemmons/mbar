@@ -119,7 +119,7 @@ include_once 'header-bottom.inc'
                 if (isset($_POST['submit'])) {
                     $postData = $_POST;
 
-                    if($_POST['shirtQuantity'] == null){
+                    if( !array_key_exists('shirtQuantity', $_POST) || isset($_POST['shirtQuantity']) ){
                         $_POST['shirtQuantity'] = 0;
                     }
 
