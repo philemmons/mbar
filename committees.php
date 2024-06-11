@@ -319,7 +319,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Marathon Meetings Chair</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
-                                    <td>Mark S.</td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Merchandise Chair</th>
