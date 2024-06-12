@@ -318,7 +318,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Presidente de Reuniones Maratonianas</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
-                                    <td>--</td>
+                                    <td>Mark S.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Mercancía</th>
