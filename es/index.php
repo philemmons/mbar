@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
                             </p>
-                            <p class="card-text">¿Quieres ser de servicio? Actualmente estamos buscando un Presidente de Hospitality y un Presidente de Marathon Meeting. Si tu respuesta es sí, o conoces a alguien que esté dispuesto a asumir un compromiso de servicio, por favor contáctanos o envía un correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.
+                            <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando Presidente de Instalaciones. Si tu respuesta es sí, o conoces a alguien que esté dispuesto a asumir un compromiso de servicio, por favor contáctanos o envía un correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.
                                 <br>Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
                                 <br>
                                 Recuerda, recibes lo que das.
