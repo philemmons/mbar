@@ -342,7 +342,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Silla de Servicio de Transporte</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
-                                    <td>Trevor F.</td>
+                                    <td>Nick K. / Trevor F.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Copresidente de Redes Sociales</th>
