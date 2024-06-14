@@ -277,7 +277,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Facilites Chair</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
-                                    <td>Sally H.</td>
+                                    <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">GSR Liaison</th>
