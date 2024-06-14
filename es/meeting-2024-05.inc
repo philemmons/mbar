@@ -90,7 +90,7 @@
             <dt>15. La reunión se levantó a las 11:35 a. m. con la Oración de la Serenidad.</dt>
         </dl>
 
-        <p> Asistentes: Amber, Arthur, Carolyn, Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (en SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Renee, Roger, Samantha, Sean, y Susan</p>
+        <p> Asistentes: Amber, Arthur, Carolyn, Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (en SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Phillip, Renee, Roger, Samantha, Sean, y Susan</p>
 
     </div>
 </div>
