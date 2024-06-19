@@ -74,7 +74,7 @@ include_once 'header-bottom.inc'
                               <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2024!</p>
                          </div>
                     </div>
-                    
+
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Folleto del evento de la Comunidad de Softbol">
@@ -107,9 +107,9 @@ include_once 'header-bottom.inc'
                                    <p class="h5 texto-oscuro pt-3">
                                         ¡El folleto en PDF estará disponible pronto!
                                    </p>
-                                   <!--
-                                   <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/st-patricks-day-speaker.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</button>
-                                   -->
+
+                                   <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</button>
+                                   
                               </section>
                          </div>
                     </div>
