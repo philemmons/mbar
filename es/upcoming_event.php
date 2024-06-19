@@ -74,13 +74,13 @@ include_once 'header-bottom.inc'
                               <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2024!</p>
                          </div>
                     </div>
-                    <!--
+                    
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la reunión compartida y de oradores de San Patricio">
+                              <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Folleto del evento de la Comunidad de Softbol">
                          </div>
                     </div>
--->
+
                </div>
           </div>
      </article>
@@ -95,7 +95,7 @@ include_once 'header-bottom.inc'
                               <section aria-label="Información del evento">
                                    <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>¡Evento de Becas de Softbol!</strong><span aria-hidden='true'>⚾ </span></h3>
                                    <p class="mb-4 h5 text-dark">
-                                        <strong>Cuándo:</strong> domingo, 16 de julio de 2024
+                                        <strong>Cuándo:</strong> domingo, 6 de Julio de 2024
                                         <br>
                                         <strong>Hora:</strong> 12 a 4pm
                                         <br>
