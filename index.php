@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
                             </p>
                             <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event</strong> - Are you ready for a fun afternoon? If so, we will see you there. Hot Dogs <span aria-hidden='true'>🌭</span> provided. Bring a mit and a side to share!
-                                <br>
+                                <br><br>
                                 <strong>When:</strong> Sunday — July 6th, 2024
                                 <br>
                                 <strong>Time:</strong> 12 to 4pm
@@ -96,8 +96,9 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
                             </p>
                             <p class="card-text">Do you want to be of service? We are currently looking for Facilities Chair. If your answer is yes, or know someone who is willing to step into a service commitment, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.
-                                <br>We have found that volunteering to do service improves the quality of our recovery.
-                                <br>
+                                <br><br>
+                                We have found that volunteering to do service improves the quality of our recovery.
+                                <br><br>
                                 Remember, you get what you give.
                             </p>
                         </div>

@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
                             </p>
                             <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Evento de Becas de Softbol</strong>: ¿Estás listo para una tarde divertida? Si es así, nos vemos allí. Perritos calientes <span aria-hidden='true'>🌭</span> proporcionados. ¡Trae un mit y un acompañamiento para compartir!
-                                <br>
+                                <br><br>
                                 <strong>Cuándo:</strong> domingo, 6 de Julio de 2024
                                 <br>
                                 <strong>Hora:</strong> 12 a 4pm
@@ -96,8 +96,9 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
                             </p>
                             <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando Presidente de Instalaciones. Si tu respuesta es sí, o conoces a alguien que esté dispuesto a asumir un compromiso de servicio, por favor contáctanos o envía un correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.
-                                <br>Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
-                                <br>
+                                <br><br>
+                                Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
+                                <br><br>
                                 Recuerda, recibes lo que das.
                             </p>
                         </div>
