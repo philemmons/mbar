@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Evento de Becas de Softbol</strong>: ¿Estás listo para una tarde divertida? Si es así, nos vemos allí. Perritos calientes <span aria-hidden='true'>🌭</span> proporcionados. ¡Trae un mit y un acompañamiento para compartir!
                                 <br><br>
-                                <strong>Cuándo:</strong> domingo, 6 de Julio de 2024
+                                <strong>Cuándo:</strong> Domingo, 6 de Julio de 2024
                                 <br>
                                 <strong>Hora:</strong> 12 a 4pm
                                 <br>

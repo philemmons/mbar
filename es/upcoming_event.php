@@ -95,7 +95,7 @@ include_once 'header-bottom.inc'
                               <section aria-label="Información del evento">
                                    <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>¡Evento de Becas de Softbol!</strong><span aria-hidden='true'>⚾ </span></h3>
                                    <p class="mb-4 h5 text-dark">
-                                        <strong>Cuándo:</strong> domingo, 6 de Julio de 2024
+                                        <strong>Cuándo:</strong> Domingo, 6 de Julio de 2024
                                         <br>
                                         <strong>Hora:</strong> 12 a 4pm
                                         <br>
