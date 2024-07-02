@@ -338,10 +338,10 @@ function displayTeeShirt($sqlTable)
                                                 Total Registrations: <?php echo getZeroPara(); ?>
                                             </div>
                                             <div class="col-sm-4">
-                                                Early Bird Reg 7-1-24: <?php echo getTwoPara('registration', 'ebr'); ?>
+                                                Early Bird Reg 7-31-24: <?php echo getTwoPara('registration', 'ebr'); ?>
                                             </div>
                                             <div class='col-sm-4'>
-                                                After 7-1-24: <?php echo getTwoPara('registration', 'after'); ?>
+                                                After 7-31-24: <?php echo getTwoPara('registration', 'after'); ?>
                                             </div>
                                         </div>
                                     </fieldset>
@@ -415,8 +415,6 @@ function displayTeeShirt($sqlTable)
                                                 Normal Reg: $<?php echo (getTwoPara('registration', 'after') * $regPrice); ?>.00
                                             </div>
                                         </div>
-
-
                                     </fieldset>
 
                                     <br>
