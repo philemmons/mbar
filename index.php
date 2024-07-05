@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event</strong> - Are you ready for a fun afternoon? If so, we will see you there. Hot Dogs <span aria-hidden='true'>🌭</span> provided. Bring a mit and a side to share!
                                 <br><br>
-                                <strong>When:</strong> Sunday — July 6th, 2024
+                                <strong>When:</strong> Saturday — July 6th, 2024
                                 <br>
                                 <strong>Time:</strong> 12 to 4pm
                                 <br>
