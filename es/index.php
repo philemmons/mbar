@@ -100,7 +100,7 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
-                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
