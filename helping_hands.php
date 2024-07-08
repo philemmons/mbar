@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Contributions </title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/contributions.php" >';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/helping_hands.php" >';
 include_once 'header-bottom.inc'
 ?>
 
@@ -175,7 +175,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-bg-light hero-text-border" title="We are willing to listen.">
 
-                        <form action="contributions.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
+                        <form action="helping_hands.php" method="POST" class="row g-3 needs-validation" id="myForm" novalidate>
                             <div class="col-md-6">
                                 <label for="helpHand-beeName" aria-hidden="true" class="visually-hidden">Sunflower Name</label>
                                 <input type="text" name="helpHand-beeName" id="helpHand-beeName" style="display:none">

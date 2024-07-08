@@ -110,7 +110,7 @@ include_once 'header-bottom.inc'
 											<li class="lpage"><a href="https://montereybayarearoundup.org/upcoming_event.php" title="MBAR - Upcoming Events ">MBAR - Upcoming Events </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/logo_contest.php" title="MBAR - Logo Contest ">MBAR - Logo Contest </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/contact.php" title="MBAR - Contact Us ">MBAR - Contact Us </a></li>
-											<li class="lpage"><a href="https://montereybayarearoundup.org/contributions.php" title="MBAR - Contributions ">MBAR - Contributions </a></li>
+											<li class="lpage"><a href="https://montereybayarearoundup.org/helping_hands.php" title="MBAR - Contributions ">MBAR - Contributions </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/conference-2022.php" title="MBAR - 2022 Conference ">MBAR - 2022 Conference </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/accessibility.php" title="MBAR - Accessibility">MBAR - Accessibility</a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/privacy-policy.php" title="MBAR - Privacy Policies and Terms ">MBAR - Privacy Policies and Terms </a></li>
@@ -150,7 +150,7 @@ include_once 'header-bottom.inc'
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" title="MBAR - Próximos Eventos ">MBAR - Próximos Eventos </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/logo_contest.php" title="MBAR - Concurso de Logotipos ">MBAR - Concurso de Logotipos </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/contact.php" title="MBAR - Contacto ">MBAR - Contacto </a></li>
-													<li class="lpage"><a href="https://montereybayarearoundup.org/es/contributions.php" title="MBAR - Manos Amigas ">MBAR - Manos Amigas </a></li>
+													<li class="lpage"><a href="https://montereybayarearoundup.org/es/helping_hands.php" title="MBAR - Manos Amigas ">MBAR - Manos Amigas </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/conference-2022.php" title="MBAR - 2022 Conferencia ">MBAR - 2022 Conferencia </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/accessibility.php" title="MBAR - Accesibilidad del Sitio">MBAR - Accesibilidad del Sitio</a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/privacy-policy.php" title="MBAR - Política de Privacidad ">MBAR - Política de Privacidad </a></li>
