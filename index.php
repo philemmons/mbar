@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration Until July 31st
                             </p>
                             <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.</p>
