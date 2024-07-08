@@ -174,6 +174,19 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
+                            </p>
+                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings too.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
                             </p>
                             <p class="card-text">Do you want to be of service? We are currently looking for Facilities Chair. If your answer is yes, or know someone who is willing to step into a service commitment, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.
@@ -185,19 +198,6 @@ include_once 'header-bottom.inc'
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us If You Are Interested</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
-                            </p>
-                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings too.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us</a></small>
                         </div>
                     </div>
                 </div>
