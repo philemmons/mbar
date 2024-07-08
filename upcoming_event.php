@@ -37,7 +37,7 @@ include_once 'header-bottom.inc'
                     <li class="nav-item dropdown">
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                          <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                              <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Softball Fellowship Event<span class="visually-hidden">(current)</span></a>
+                              <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Gratitude<span class="visually-hidden">(current)</span></a>
                               <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                          </div>
                     </li>
@@ -94,9 +94,9 @@ include_once 'header-bottom.inc'
                               <section aria-label="Event Information">
                                    <h3 class="card-title mb-4"><strong>Gratitude!</strong></h3>
                                    <p class="mb-4 h5 text-dark">
-                                   MBAR events like potlucks, softball games, and bingo nights offer wonderful opportunities for everyone to come together, share experiences, and have fun. Potlucks bring a delicious variety of homemade dishes to enjoy, where each person's contribution adds to the communal feast. Softball games encourage friendly competition and teamwork, regardless of skill level, fostering a spirit of fellowship and shared enjoyment of the outdoors. Bingo nights provide excitement and laughter as participants eagerly await their numbers to be called, creating moments of suspense and joy for all involved. These inclusive activities celebrate diversity, create bonds, and ensure that everyone feels welcomed and valued within their recovery journey. Whether you're bringing a dish, swinging a bat, or marking your bingo card, these events embody the spirit of togetherness and enjoyment for everyone involved.
-                                   <br><br>
-                                   Once again, thank you all. 
+                                        MBAR events like potlucks, softball games, and bingo nights offer wonderful opportunities for everyone to come together, share experiences, and have fun. Potlucks bring a delicious variety of homemade dishes to enjoy, where each person's contribution adds to the communal feast. Softball games encourage friendly competition and teamwork, regardless of skill level, fostering a spirit of fellowship and shared enjoyment of the outdoors. Bingo nights provide excitement and laughter as participants eagerly await their numbers to be called, creating moments of suspense and joy for all involved. These inclusive activities celebrate diversity, create bonds, and ensure that everyone feels welcomed and valued within their recovery journey. Whether you're bringing a dish, swinging a bat, or marking your bingo card, these events embody the spirit of togetherness and enjoyment for everyone involved.
+                                        <br><br>
+                                        Once again, thank you all.
                                    </p>
 
                                    <!-- <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flier</button> -->

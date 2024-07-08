@@ -37,7 +37,7 @@ include_once 'header-bottom.inc'
                     <li class="nav-item dropdown">
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
                          <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
-                              <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Evento de Beca de Softbol<span class="visually-hidden">(actual)</span></a>
+                              <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Gratitud<span class="visually-hidden">(actual)</span></a>
                               <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                          </div>
                     </li>
@@ -75,11 +75,11 @@ include_once 'header-bottom.inc'
                          </div>
                     </div>
 
-                    <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
+                    <!-- <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Folleto del evento de la Comunidad de Softbol">
-                         </div>
-                    </div>
+                         </div> 
+                    </div> -->
 
                </div>
           </div>
@@ -91,24 +91,21 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Resumen del Área de la Bahía de Monterey presenta</a></p>
+                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Agradecimientos por el Roundup en el Área de la Bahía de Monterey</a></p>
                               <section aria-label="Información del evento">
-                                   <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>¡Evento de Becas de Softbol!</strong><span aria-hidden='true'>⚾ </span></h3>
+                                   <h3 class="card-title mb-4"><strong>¡Gratitud!</strong></h3>
                                    <p class="mb-4 h5 text-dark">
-                                        <strong>Cuándo:</strong> Sábado, 6 de Julio de 2024
-                                        <br>
-                                        <strong>Hora:</strong> 12 a 4pm
-                                        <br>
-                                        <strong>Dónde:</strong> Parque Dampierre Little League, Carmel Valley, CA
+                                        Los eventos de MBAR como comidas compartidas, juegos de softbol y noches de bingo ofrecen oportunidades maravillosas para que todos se reúnan, compartan experiencias y se diviertan. Las comidas compartidas traen una deliciosa variedad de platos caseros para disfrutar, donde la contribución de cada persona se suma a la fiesta comunitaria. Los juegos de softbol fomentan la competencia amistosa y el trabajo en equipo, independientemente del nivel de habilidad, fomentando un espíritu de camaradería y disfrute compartido del aire libre. Las noches de bingo brindan emoción y risas mientras los participantes esperan ansiosamente que se llame a sus números, lo que crea momentos de suspenso y alegría para todos los involucrados. Estas actividades inclusivas celebran la diversidad, crean vínculos y garantizan que todos se sientan bienvenidos y valorados en su camino hacia la recuperación. Ya sea que traiga un plato, blanda un bate o marque su tarjeta de bingo, estos eventos encarnan el espíritu de unión y disfrute para todos los involucrados.
                                         <br><br>
-                                        <strong>"Perros calientes incluidos. ¡Trae un mit y un acompañamiento para compartir!"</strong>
+                                        Una vez más, gracias a todos.
                                    </p>
 
-                                   <p class="h5 texto-oscuro pt-3">
+                                   <!-- <p class="h5 texto-oscuro pt-3">
                                         ¡El folleto en PDF estará disponible pronto!
-                                   </p>
+                                   </p> -->
 
-                                   <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</button>
+                                   <!-- <button type="button" class="btn btn-primary btn-sm" onclick="window.open('../pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</button>
+                                   -->
 
                               </section>
                          </div>
@@ -118,6 +115,7 @@ include_once 'header-bottom.inc'
      </article>
 
      <div id="map"></div>
+     <!-- 
      <article aria-label="Mapa de Google para el parque de ligas menores de Dampierre">
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
@@ -134,6 +132,7 @@ include_once 'header-bottom.inc'
                </div>
           </div>
      </article>
+     -->
 
      <?php include_once 'footer.inc' ?>
      </body>
