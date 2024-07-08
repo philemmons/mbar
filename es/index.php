@@ -58,7 +58,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">La Pre-Inscripción está Activa</span>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Preinscripción Hasta el 31 de Julio</span>
                     </h2>
                     <p class="mb-6 h3 text-dark">Fin de semana del Día del Trabajo,<br>Reunión Inaugural por Zoom<br>30 de Agosto y en Vivo el 31 de Agosto y <br>1 de Septiembre en el Centro de Conferencias de Monterey </p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
@@ -69,61 +69,6 @@ include_once 'header-bottom.inc'
 
     <!-- Part One -->
     <article aria-label="tarjetas de información">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Próximos Eventos
-                            </p>
-                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Evento de Becas de Softbol</strong>: ¿Estás listo para una tarde divertida? Si es así, nos vemos allí. Perritos calientes <span aria-hidden='true'>🌭</span> proporcionados. ¡Trae un mit y un acompañamiento para compartir!
-                                <br><br>
-                                <strong>Cuándo:</strong> Sábado, 6 de Julio de 2024
-                                <br>
-                                <strong>Hora:</strong> 12 a 4pm
-                                <br>
-                                <strong>Dónde:</strong> Parque Dampierre Little League, Carmel Valley, CA
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Ver el Próximo Evento</a></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
-                            </p>
-                            <p class="card-text">¿Quieres ser de utilidad? Actualmente estamos buscando Presidente de Instalaciones. Si tu respuesta es sí, o conoces a alguien que esté dispuesto a asumir un compromiso de servicio, por favor contáctanos o envía un correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de A.A.</a>.
-                                <br><br>
-                                Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
-                                <br><br>
-                                Recuerda, recibes lo que das.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contacta con nosotros si estás interesado</a></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
-                            </p>
-                            <p class="card-text">MBAR se compromete a hacer que nuestro sitio web sea accesible, utilizable y culturalmente adecuado para nuestra Comunidad Española.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Part Two -->
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
@@ -155,11 +100,25 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
-
+                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
+                            </p>
+                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon. Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Manos Amigas</a></small>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
@@ -172,6 +131,22 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
+                            </p>
+                            <p class="card-text">MBAR se compromete a hacer que nuestro sitio web sea accesible, utilizable y culturalmente adecuado para nuestra Comunidad Española.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -188,25 +163,28 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
+                            </p>
+                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
+                                <br><br>
+                                Recuerda, recibes lo que das.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Listo para estar al Servicio</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
                             </p>
                             <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
-                            </p>
-                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon. Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Manos Amigas</a></small>
                         </div>
                     </div>
                 </div>

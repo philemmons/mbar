@@ -58,7 +58,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration until July 31st</span>
                     </h2>
                     <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration Until July 31st
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
                             </p>
                             <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.</p>
@@ -112,29 +112,6 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
-
-                <!--
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
-                            </p>
-                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event</strong> - Are you ready for a fun afternoon? If so, we will see you there. Hot Dogs <span aria-hidden='true'>🌭</span> provided. Bring a mit and a side to share!
-                                <br><br>
-                                <strong>When:</strong> Saturday — July 6th, 2024
-                                <br>
-                                <strong>Time:</strong> 12 to 4pm
-                                <br>
-                                <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View Upcoming Event</a></small>
-                        </div>
-                    </div>
-                </div>
-                -->
-
             </div>
         </div>
 
@@ -167,7 +144,6 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class=" row justify-content-center mb-5">
