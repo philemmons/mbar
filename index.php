@@ -74,61 +74,6 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
-                            </p>
-                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event</strong> - Are you ready for a fun afternoon? If so, we will see you there. Hot Dogs <span aria-hidden='true'>🌭</span> provided. Bring a mit and a side to share!
-                                <br><br>
-                                <strong>When:</strong> Saturday — July 6th, 2024
-                                <br>
-                                <strong>Time:</strong> 12 to 4pm
-                                <br>
-                                <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View Upcoming Event</a></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
-                            </p>
-                            <p class="card-text">Do you want to be of service? We are currently looking for Facilities Chair. If your answer is yes, or know someone who is willing to step into a service commitment, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.
-                                <br><br>
-                                We have found that volunteering to do service improves the quality of our recovery.
-                                <br><br>
-                                Remember, you get what you give.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us If You Are Interested</a></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
-                            </p>
-                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/es/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Part Two -->
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference Update
                             </p>
                             <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a></p>
@@ -154,10 +99,49 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
+                            </p>
+                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members. This is how we stand with someone who wants to attend the conference but is unable to do so.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Helping Hands</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-trophy me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Upcoming Events
+                            </p>
+                            <p class="card-text"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event</strong> - Are you ready for a fun afternoon? If so, we will see you there. Hot Dogs <span aria-hidden='true'>🌭</span> provided. Bring a mit and a side to share!
+                                <br><br>
+                                <strong>When:</strong> Saturday — July 6th, 2024
+                                <br>
+                                <strong>Time:</strong> 12 to 4pm
+                                <br>
+                                <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">View Upcoming Event</a></small>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+            </div>
+        </div>
+
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities
@@ -166,6 +150,41 @@ include_once 'header-bottom.inc'
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
+                            </p>
+                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/es/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
+                            </p>
+                            <p class="card-text">Do you want to be of service? We are currently looking for Facilities Chair. If your answer is yes, or know someone who is willing to step into a service commitment, please contact us, or email our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">A.A. Chairperson</a>.
+                                <br><br>
+                                We have found that volunteering to do service improves the quality of our recovery.
+                                <br><br>
+                                Remember, you get what you give.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us If You Are Interested</a></small>
                         </div>
                     </div>
                 </div>
@@ -196,18 +215,6 @@ include_once 'header-bottom.inc'
                     </div>
                 </div>
 
-                <div class="col-lg-10 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
-                            </p>
-                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members. This is how we stand with someone who wants to attend the conference but is unable to do so.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Helping Hands</a></small>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </article>
