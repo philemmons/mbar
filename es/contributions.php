@@ -45,7 +45,7 @@ include_once 'header-bottom.inc'
                     <a class="nav-link" href="contact.php">Contacto<span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link active" aria-current="page" href="contributions.php">Contribución<span class="visually-hidden">(actual)</span></a>
+                    <a class="nav-link active" aria-current="page" href="contributions.php">Manos Amigas<span class="visually-hidden">(actual)</span></a>
                 </li>
             </ul>
         </div>

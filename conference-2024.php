@@ -45,7 +45,7 @@ include_once 'header-bottom.inc'
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Contribution</a>
+                    <a class="nav-link" href="contributions.php">Helping Hands</a>
                 </li>
             </ul>
         </div>
@@ -59,8 +59,8 @@ include_once 'header-bottom.inc'
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference
-                        <br>with
-                        <br>Al-Anon Participation</span></h2>
+                            <br>with
+                            <br>Al-Anon Participation</span></h2>
                 </div>
             </div>
         </div>

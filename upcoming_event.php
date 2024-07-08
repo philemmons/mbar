@@ -45,7 +45,7 @@ include_once 'header-bottom.inc'
                          <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item" style="border-right: none;">
-                         <a class="nav-link" href="contributions.php">Contribution</a>
+                         <a class="nav-link" href="contributions.php">Helping Hands</a>
                     </li>
                </ul>
           </div>
@@ -73,7 +73,7 @@ include_once 'header-bottom.inc'
                               <p class="h5 text-dark">Thank you for continuing to check back for more events leading up to the 2024 Conference!</p>
                          </div>
                     </div>
-                    
+
                     <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Softball Fellowship Event Flier">
@@ -102,9 +102,9 @@ include_once 'header-bottom.inc'
                                         <br><br>
                                         <strong>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
                                    </p>
-                                   
+
                                    <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flier</button>
-                                   
+
                               </section>
                          </div>
                     </div>
