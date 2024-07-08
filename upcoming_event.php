@@ -74,11 +74,11 @@ include_once 'header-bottom.inc'
                          </div>
                     </div>
 
-                    <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
+                    <!-- <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Softball Fellowship Event Flier">
                          </div>
-                    </div>
+                    </div> -->
 
                </div>
           </div>
@@ -90,20 +90,16 @@ include_once 'header-bottom.inc'
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup presents</a></p>
+                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup Appreciation</a></p>
                               <section aria-label="Event Information">
-                                   <h3 class="card-title mb-4"><span aria-hidden='true'>⚾</span><strong>Softball Fellowship Event!</strong><span aria-hidden='true'>⚾</span></h3>
+                                   <h3 class="card-title mb-4"><strong>Gratitude!</strong></h3>
                                    <p class="mb-4 h5 text-dark">
-                                        <strong>When:</strong> Saturday — July 6th, 2024
-                                        <br>
-                                        <strong>Time:</strong> 12 to 4pm
-                                        <br>
-                                        <strong>Where:</strong> Dampierre Little League Park, Carmel Valley, CA
-                                        <br><br>
-                                        <strong>"Hot Dogs provided. Bring a mit and a side to share!"</strong>
+                                   MBAR events like potlucks, softball games, and bingo nights offer wonderful opportunities for everyone to come together, share experiences, and have fun. Potlucks bring a delicious variety of homemade dishes to enjoy, where each person's contribution adds to the communal feast. Softball games encourage friendly competition and teamwork, regardless of skill level, fostering a spirit of fellowship and shared enjoyment of the outdoors. Bingo nights provide excitement and laughter as participants eagerly await their numbers to be called, creating moments of suspense and joy for all involved. These inclusive activities celebrate diversity, create bonds, and ensure that everyone feels welcomed and valued within their recovery journey. Whether you're bringing a dish, swinging a bat, or marking your bingo card, these events embody the spirit of togetherness and enjoyment for everyone involved.
+                                   <br><br>
+                                   Once again, thank you all. 
                                    </p>
 
-                                   <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flier</button>
+                                   <!-- <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flier</button> -->
 
                               </section>
                          </div>
@@ -113,6 +109,7 @@ include_once 'header-bottom.inc'
      </article>
 
      <div id="map"></div>
+     <!--
      <article aria-label="Google Map for Dampierre Little League Park ">
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
@@ -129,7 +126,7 @@ include_once 'header-bottom.inc'
                </div>
           </div>
      </article>
-
+     -->
 
      <?php include_once 'footer.inc' ?>
      </body>
