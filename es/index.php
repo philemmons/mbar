@@ -45,7 +45,7 @@ include_once 'header-bottom.inc'
                     <a class="nav-link" href="contact.php">Contacto</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Manos Amigas</a>
+                    <a class="nav-link" href="helping_hands.php">Manos Amigas</a>
                 </li>
             </ul>
         </div>
@@ -206,7 +206,7 @@ include_once 'header-bottom.inc'
                             <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon. Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo.</p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Manos Amigas</a></small>
+                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Manos Amigas</a></small>
                         </div>
                     </div>
                 </div>

@@ -45,7 +45,7 @@ include_once 'header-bottom.inc'
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="contributions.php">Helping Hands</a>
+                    <a class="nav-link" href="helping_hands.php">Helping Hands</a>
                 </li>
             </ul>
         </div>
@@ -204,7 +204,7 @@ include_once 'header-bottom.inc'
                             <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members. This is how we stand with someone who wants to attend the conference but is unable to do so.</p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contributions.php" class="btn btn-primary">Helping Hands</a></small>
+                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Helping Hands</a></small>
                         </div>
                     </div>
                 </div>
