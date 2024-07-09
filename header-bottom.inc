@@ -15,8 +15,6 @@
 <meta name="twitter:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
 <meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
 
-
-
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Bootstrap CSS v5.3.2 -->
