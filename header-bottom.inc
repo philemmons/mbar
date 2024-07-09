@@ -8,7 +8,7 @@
 <meta property="og:image:height" content="300">
 
 <!-- X Meta Tags -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="montereybayarearoundup.org">
 <meta property="twitter:url" content="https://montereybayarearoundup.org">
 <meta name="twitter:title" content="Monterey Bay Area Roundup - Keep It Simple">
