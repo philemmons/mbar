@@ -4,8 +4,6 @@
 <meta property="og:title" content="Resumen del Área de la Bahía de Monterey: Manténgalo Simple">
 <meta property="og:description" content="Ver a las personas recuperarse, verlas ayudar a otros, ver cómo la soledad desaparece, ver cómo surge una comunidad a tu alrededor, tener muchos amigos: ésta es una experiencia que no debes perderte.">
 <meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
-<meta property="og:image:width" content="300">
-<meta property="og:image:height" content="300">
 <meta property="og:locale" content="es" />
 
 <!-- X Meta Tags -->
