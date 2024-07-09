@@ -4,6 +4,7 @@
 <meta property="og:title" content="Monterey Bay Area Roundup - Keep It Simple">
 <meta property="og:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
 <meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
+<meta property="og:site_name" content="montereybayarearoundup.org">
 
 <!-- X Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
