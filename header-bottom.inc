@@ -1,3 +1,19 @@
+<!-- FB Meta Tags -->
+<meta property="og:url" content="https://montereybayarearoundup.org">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Monterey Bay Area Roundup - Keep It Simple">
+<meta property="og:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
+<meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo.png">
+
+<!-- X Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="montereybayarearoundup.org">
+<meta property="twitter:url" content="https://montereybayarearoundup.org">
+<meta name="twitter:title" content="Monterey Bay Area Roundup - Keep It Simple">
+<meta name="twitter:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
+<meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo.png">
+
+
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Bootstrap CSS v5.3.2 -->
