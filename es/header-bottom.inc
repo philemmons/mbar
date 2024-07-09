@@ -15,6 +15,7 @@
 <meta name="twitter:title" content="Resumen del Área de la Bahía de Monterey: Manténgalo Simple">
 <meta name="twitter:description" content="Ver a las personas recuperarse, verlas ayudar a otros, ver cómo la soledad desaparece, ver cómo surge una comunidad a tu alrededor, tener muchos amigos: ésta es una experiencia que no debes perderte.">
 <meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
+
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Bootstrap CSS v5.3.2 -->
