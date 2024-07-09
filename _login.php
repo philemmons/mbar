@@ -18,6 +18,7 @@ $dbConn = getDBConnection();
 if (isset($_POST['logout'])) {
   session_unset();
   session_destroy();
+  ob_end_clean();
   header("Location: index.php");
 }
 

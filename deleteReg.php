@@ -1,5 +1,4 @@
 <?php
-ob_start();
 session_start();
 /* Update SQL query with named parameters that prevent SQL injection */
 

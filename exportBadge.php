@@ -1,5 +1,4 @@
 <?php
-ob_start();
 session_start();
 /**
  * https://www.codexworld.com/export-data-to-csv-file-using-php-mysql/

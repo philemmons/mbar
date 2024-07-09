@@ -1,5 +1,4 @@
 <?php
-ob_start();
 session_start();
 
 if (!isset($_SESSION["status"]) || ($_SESSION['status'] != getenv('LOGIN_STATUS'))) {  //Check whether the admin has logged in
@@ -18,6 +17,7 @@ $dbConn = getDBConnection();
 if (isset($_POST['logout'])) {
     session_unset();
     session_destroy();
+    ob_end_clean();
     header("Location: index.php");
 }
 
