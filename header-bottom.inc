@@ -3,7 +3,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Monterey Bay Area Roundup - Keep It Simple">
 <meta property="og:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
-<meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo.png">
+<meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="300">
 
@@ -13,7 +13,7 @@
 <meta property="twitter:url" content="https://montereybayarearoundup.org">
 <meta name="twitter:title" content="Monterey Bay Area Roundup - Keep It Simple">
 <meta name="twitter:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
-<meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo.png">
+<meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
 
 
 
