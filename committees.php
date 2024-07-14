@@ -295,7 +295,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Hospitality</th>
                                     <td>Phil C.</td>
                                     <td>--</td>
-                                    <td>--</td>
+                                    <td>Jennifer G.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Host</th>
