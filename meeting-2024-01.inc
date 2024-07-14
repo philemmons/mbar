@@ -18,7 +18,12 @@
 
             <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
-            <dt>6. Chairperson's Report - Chris T.: Happy New Year - I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference. We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a one hr. time frame to allow for a good balance between service and life obligations. Your attendance and participation is appreciated and I am more than grateful for the efforts of all. We are needing the following chairs filled: Outreach and Events.</dt>
+            <dt>6. Chairperson's Report - Chris T.: Happy New Year - I am very excited to see what we are able to achieve as a planning committee with the hard work, dedication, communication, ideas, and execution with aid from the Higher Power of this group as we continue to plan and secure the means to have a well-rounded 2024 MBAR Conference.
+                <br><br>
+                We are now in 2024, the year of MBAR. We have reports from our committee chairs to speak upon and have our Fundraising Event in a few weeks. Please ensure we are allowing for prompt and concise feedback in order to close the meeting ideally within a one hour time frame to allow for a good balance between service and life obligations.
+                <br><br>
+                Your attendance and participation is appreciated and I am more than grateful for the efforts of all. We are needing the following chairs filled: Outreach and Events.
+            </dt>
 
             <dt>7. Treasurer's Report - Carolyn, Jean T: Conference Center Deposit - $5k paid; Mailbox renewed; Business License renewed; Current balance $18,400; Paid deposit at Bethlehem Lutheran Church; One registration received;</dt>
 

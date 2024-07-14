@@ -18,7 +18,15 @@
 
             <dt>5. Aprobar/Modificar Acta de la última reunión: Aprobada;</dt>
 
-            <dt>6. Informe del presidente - Chris T.: Muchas gracias a todos por su asistencia y apoyo al evento de bingo de enero. Fue un <span class="text-uppercase">gran</span> éxito e impresionó a muchas personas. en nuestra comunidad que asistió a su primer evento sobrio. Fue muy <span class="text-uppercase">divertido</span> y no podría estar más agradecido con todos aquellos con quienes puedo estar al servicio y trabajar. Tenemos camisetas para decidir en esta reunión. Phillip ha creado una encuesta de Zoom que usaremos para ayudarnos en esta importante decisión. También estamos considerando la posibilidad de que haya café disponible en la conferencia y hemos proporcionado una estimación aproximada del costo en caso de que esto sea algo que decidamos ofrecer como comité. Faltan poco menos de siete meses para nuestra conferencia, por lo que se agradece mucho el enfoque y la atención a estos temas dentro de esta reunión. Necesitamos que se ocupen las siguientes sillas: Eventos, Difusión - Conor y Rick, y Reuniones Maratonianas - posiblemente Mark.</dt>
+            <dt>6. Informe del presidente - Chris T.: Muchas gracias a todos por su asistencia, servicio y apoyo al evento de Bingo de enero, fue un <span class="text-uppercase">gran</span> éxito e impresionó a muchos de nuestra Comunidad que asistieron a su primer evento de sobriedad. Fue muy <span class="text-uppercase">divertido</span> y no podría estar más agradecido a todos aquellos con quienes trabajo y estoy al servicio de ellos.
+                <br><br>
+                Tenemos que decidir qué camisetas usar en esta reunión. Phillip ha creado una encuesta de Zoom que usaremos para ayudarnos en esta importante decisión.
+                <br><br>También tenemos en cuenta que haya café disponible en la conferencia y hemos proporcionado un cálculo aproximado del costo en caso de que decidamos ofrecerlo como comité.
+                <br><br>
+                Nuestra conferencia se realizará en poco menos de siete meses, por lo que se agradece mucho el enfoque y la atención a estos temas en esta reunión.
+                <br><br>
+                Necesitamos cubrir los siguientes puestos: Eventos, Difusión: Conor y Rick, y Reuniones de maratón: posiblemente Mark.
+            </dt>
 
             <dt>7. Informe del Tesorero - Carolyn, Jean T: Saldo actual $22,154.25 incluye registros, bingo, etc.; Carolyn/Phillip habló sobre la renovación del dominio; </dt>
 

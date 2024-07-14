@@ -18,7 +18,16 @@
 
             <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
-            <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support. You being here means so much, and I want to ensure you that the committee chairs have been hard at work and working to ensure we have translated forms and website to Spanish for accessibility, smooth online registration, ability to streamline registration info to the registration chair as well as orchestrating representation at AA events to capture early registration. It is important that we square away T-shirt style vote this meeting as to be able to have early registrations have a chance to pick a shirt if they so choose so our registration chair can give an idea of needed T-shirts so we do not end up with an excessive surplus. After today's meeting and our St. Patrick's Day event we can give more dedicated focus on shaping the Conference and have discussions on how best to serve our Fellowship. I have been able to come in contact with our Al-Anon Chair and their Al-Anon/AA Speaker Dinner Meeting was great to be a part of. They really have MBAR at the forefront of their fellowship conversations, and I cannot wait to be able to make the same connections with our Spanish Speaking community, and the Young People's fellowship we have growing in our area.We are needing the following chairs filled: Events;</dt>
+            <dt>6. Chairperson's Report - Chris T.: Thank you all so much for your attendance service and support. You being here means so much, and I want to ensure you that the committee chairs have been hard at work and working to ensure we have translated forms and website to Spanish for accessibility, smooth online registration, ability to streamline registration info to the registration chair as well as orchestrating representation at AA events to capture early registration.
+                <br><br>
+                It is important that we square away T-shirt style vote this meeting as to be able to have early registrations have a chance to pick a shirt if they so choose so our registration chair can give an idea of needed T-shirts so we do not end up with an excessive surplus.
+                <br><br>
+                After today's meeting and our St. Patrick's Day event, we can give more dedicated focus on shaping the Conference and have discussions on how best to serve our Fellowship.
+                <br><br>
+                I have been able to come in contact with our Al-Anon Chair and their Al-Anon/AA Speaker Dinner Meeting was great to be a part of. They really have MBAR at the forefront of their fellowship conversations, and I cannot wait to be able to make the same connections with our Spanish Speaking community, and the Young People's fellowship we have growing in our area.
+                <br><br>
+                We are needing the following chairs filled: Events;
+            </dt>
 
             <dt>7. Treasurer's Report - Jean T: See attached budget spreadsheet; Current balance $22,391 includes registrations, bingo, etc.; Includes 20 registrations; Initial Prudent Reserve $15,464; Fund raisers total $10,776;</dt>
 

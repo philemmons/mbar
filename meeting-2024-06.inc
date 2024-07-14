@@ -18,18 +18,16 @@
 
             <dt>5. Approve/Amend Minutes from the last meeting: Approved with revisions;</dt>
 
-            <dt>6. Chairperson's Report - Chris T.: a) Thank you all for your continued support and attendance for our planning meeting!! I am so looking forward to the committee reports and the re-cap of what the sub-committee was able to secure for T-shirts, as well as a few items needing attention and support from the entire committee in the next few months as MBAR 2024 is quickly approaching.
-                <br>
+            <dt>6. Chairperson's Report - Chris T.: Thank you all for your continued support and attendance for our planning meeting!! I am so looking forward to the committee reports and the re-cap of what the sub-committee was able to secure for T-shirts, as well as a few items needing attention and support from the entire committee in the next few months as MBAR 2024 is quickly approaching.
+                <br><br>
                 As discussed and voted upon last meeting this meeting will be 1.5 hours and as we embark upon several tasks at hand as committee chairs will be needing to come together and ensure that we have the support of the committee to ensure these tasks can be executed to the best of our ability,
-                <br>
+                <br><br>
                 Please be mindful of items the committee has already voted upon and the work of subcommittees to keep within our allotted time and allow for all committee chairs to give their reports that may outline where we need to direct our focus and attention.
-                <br>
+                <br><br>
                 All Committee Chairs in the Spirit of Rotation please be looking to have your predecessor found and join us in our meetings so they have some MBAR experience! MBAR Chair Positions are to be Rotated and fulfilled by members to increase their ability to practice and uphold Traditions and increase their Spiritual Experience by working and playing with members New and Old.
-                <br>
+                <br><br>
+                We are needing the following chairs filled: Facilities Chair; Shuttle - Per Cindy A; MBAR 2022 Trevor F.; MBAR 2019 (and helped in 2022) Shuttle Service Chair Chuck N.; Please see attached Committee Chair List
             </dt>
-            <dt>We are needing the following chairs filled:</dt>
-            <dd>a. Facilities Chair</dd>
-            <dd>b. Shuttle - Per Cindy A; MBAR 2022 Trevor F.; MBAR 2019 (and helped in 2022) Shuttle Service Chair Chuck N.</dd>
 
             <dt>7. Treasurer's Report - Carolyn H.: See attached budget spreadsheet; 51 registrations received; Expect 400 more registrations; Literature budgeted $363 expense and $425 Income - May requested that people donate unneeded books; Non-profit paper work not complete - CPA budgeted to complete this;
             </dt>

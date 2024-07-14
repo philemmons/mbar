@@ -18,7 +18,18 @@
 
             <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
-            <dt>6. Chairperson's Report - Chris T.: Thank you all for your attendance at our regularly scheduled Committee meeting. I am very aware we have responsibilities; I have many as well, these meetings have been planned in advance to support planning and scheduling for your required attendance especially if you hold a committee chair position. . These next few months are meetings that will be targeted to have your attention and support with the planning, communicating, and orchestrating and organizing the 2024 MBAR conference. To ensure we have a productive meeting please be respectful of the decisions we have already made and voted upon to keep the focus on the items that still need planning. Thank you all for your support in the St Patrick's Day Event, the event was well attended and the Fellowship was warm and inviting, we had a 1yr B-day that was able to be celebrated, a visitor from Canada, and a few of the most important people in attendance, the Newcomers. Committee please be sure you are all actively making MBAR pre-registration announcements as registrations can be done online or by printing a Registration form directly from the montereybayarearoundup.org website.All Committee Chairs in the Spirit of Rotation please be looking to have your predecessor found and join us in our meetings so they have some MBAR experience! We are needing the following chairs filled: Events - Samantha nominated & approved;</dt>
+            <dt>6. Chairperson's Report - Chris T.: Thank you all for your attendance at our regularly scheduled Committee meeting. I am very aware we have responsibilities; I have many as well, these meetings have been planned in advance to support planning and scheduling for your required attendance especially if you hold a committee chair position.
+                <br><br>
+                These next few months are meetings that will be targeted to have your attention and support with the planning, communicating, and orchestrating and organizing the 2024 MBAR conference. To ensure we have a productive meeting please be respectful of the decisions we have already made and voted upon to keep the focus on the items that still need planning.
+                <br><br>
+                Thank you all for your support in the St Patrick's Day Event, the event was well attended and the Fellowship was warm and inviting, we had a 1 year B-day that was able to be celebrated, a visitor from Canada, and a few of the most important people in attendance, the Newcomers.
+                <br><br>
+                Committee please be sure you are all actively making MBAR pre-registration announcements as registrations can be done online or by printing a Registration form directly from the montereybayarearoundup.org website.
+                <br><br>
+                All Committee Chairs in the Spirit of Rotation please be looking to have your predecessor found and join us in our meetings so they have some MBAR experience!
+                <br><br>
+                We are needing the following chairs filled: Events - Samantha nominated & approved;
+            </dt>
 
             <dt>7. Treasurer's Report - Jean T: See attached budget spreadsheet; Current balance $26,320 includes registrations, bingo, St Patrick's days etc - Includes 39 registrations; Filed 199N form - state & federal; Non-profit paper work not complete - CPA budgeted to complete this; File federal non-profit report - $275 fee;</dt>
 
@@ -67,7 +78,7 @@
             <dd>d. AA and Al-Anon meeting: May 17 - 5pm Dinner, 6pm speaker;</dd>
 
             <dt>11. New Business:</dt>
-     
+
             <dd>a. Event Insurance: MBAR is not covered under MBAIAA - this insurance is dedicated for the regular meetings that are occurring with the fellowship and the spaces they occupy. The company they use is Philadelphia Insurance Company, Agent Trocelyn Allen at Hub International Insurance, 951-779-8643 - If members know of other vendors forward info to Christina;</dd>
 
             <dt>12. Next Steering Committee meeting is Tuesday 4/30/2024 at 6pm via Zoom;</dt>

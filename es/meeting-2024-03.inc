@@ -18,7 +18,16 @@
 
             <dt>5. Aprobar/Modificar Acta de la última reunión: Aprobada;</dt>
 
-            <dt>6. Informe del presidente - Chris T.: Muchas gracias a todos por su asistencia, servicio y apoyo. Que usted esté aquí significa mucho y quiero asegurarle que los presidentes de los comités han trabajado arduamente para garantizar que hayamos traducido los formularios y el sitio web al español para que sean accesibles, el registro en línea sea fluido y la capacidad de agilizar la información de registro para el presidente de registro. además de organizar la representación en eventos de AA para captar la inscripción temprana. Es importante que en esta reunión cuadremos el estilo de votación de las camisetas para que los inscritos tempranos tengan la oportunidad de elegir una camiseta si así lo desean, para que nuestro coordinador de inscripciones pueda dar una idea de las camisetas necesarias para que no terminar con un superávit excesivo. Después de la reunión de hoy y de nuestro evento del Día de San Patricio, podemos centrarnos más en dar forma a la Conferencia y tener debates sobre la mejor manera de servir a nuestra Comunidad. He podido ponerme en contacto con nuestro Presidente de Al-Anon y fue fantástico ser parte de su Cena de Oradores de Al-Anon/AA. Realmente tienen a MBAR a la vanguardia de las conversaciones de su compañerismo, y no puedo esperar a poder hacer las mismas conexiones con nuestra comunidad de habla hispana y el compañerismo de jóvenes que tenemos creciendo en nuestra área. Necesitamos cubrir las siguientes sillas: Eventos;</dt>
+            <dt>6. Informe del presidente - Chris T.: Muchas gracias a todos por su asistencia, servicio y apoyo. Su presencia aquí significa mucho y quiero asegurarles que los presidentes de los comités han trabajado arduamente para garantizar que hayamos traducido los formularios y el sitio web al español para facilitar la accesibilidad, facilitar la inscripción en línea, agilizar la información de inscripción para el presidente de inscripción y organizar la representación en los eventos de AA para captar la inscripción anticipada.
+                <br><br>
+                Es importante que arreglemos la votación sobre el estilo de las camisetas en esta reunión para que los que se inscriban temprano tengan la oportunidad de elegir una camiseta si así lo desean, de modo que nuestro presidente de inscripción pueda dar una idea de las camisetas necesarias para que no terminemos con un excedente excesivo.
+                <br><br>
+                Después de la reunión de hoy y nuestro evento del Día de San Patricio, podemos centrarnos más en dar forma a la Conferencia y tener discusiones sobre la mejor manera de servir a nuestra Comunidad.
+                <br><br>
+                He podido ponerme en contacto con nuestro presidente de Al-Anon y fue fantástico participar en su cena de oradores de Al-Anon/AA. Realmente tienen a MBAR al frente de sus conversaciones de fraternidad, y no veo la hora de poder hacer las mismas conexiones con nuestra comunidad de habla hispana y la fraternidad de jóvenes que está creciendo en nuestra área.
+                <br><br>
+                Necesitamos cubrir los siguientes puestos: Eventos;
+            </dt>
 
             <dt>7. Informe del Tesorero - Jean T: Ver hoja de cálculo del presupuesto adjunta; Saldo actual $22,391 incluye inscripciones, bingo, etc.; Incluye 20 registros; Reserva Prudente Inicial $15,464; La recaudación de fondos totaliza $10,776;</dt>
 

@@ -18,15 +18,13 @@
 
             <dt>5. Aprobar/enmendar las actas de la última reunión: Aprobado;</dt>
 
-            <dt>6. Informe del presidente - Chris T.: Gracias a todos por asistir a nuestra reunión de comité programada regularmente. Soy muy consciente de que tenemos responsabilidades; yo también tengo muchas, estas reuniones se han planificado con anticipación para respaldar la planificación y programación de su asistencia requerida, especialmente si ocupa un puesto de presidente de comité. . Estos próximos meses son reuniones que tendrán como objetivo contar con su atención y apoyo en la planificación, comunicación y orquestación/organización de la conferencia MBAR 2024. Para garantizar que tengamos una reunión productiva, respete las decisiones que ya hemos tomado y votado para mantener el enfoque en los elementos que aún necesitan planificación.
-                <br>
-                Solo tenemos 3 reuniones antes de nuestra conferencia de 2024, por lo que necesito asegurarme de que, si usted es presidente de comité, la comunicación se agilice y todos estemos en estrecho contacto entre nosotros para que la planificación y ejecución de tareas urgentes se realice lo más rápido posible. El próximo mes tendremos un programa del evento delineado, ya que ahora tenemos un Presidente de Eventos ocupado.
-                <br>
-                La inscripción en los próximos meses depende en gran medida de nuestra estimación del costo de los productos para la cena y los suministros. Tenemos algunos eventos locales a los que el comité debe asistir y las mesas de inscripción deberán estar atendidas para que los miembros de nuestra Comunidad se preinscriban con facilidad, así como para que podamos expresarles nuestra gratitud por tomar la decisión de apoyarnos y unirse a nosotros.
-                <br>
-                Todos los Presidentes de Comités, en el espíritu de rotación, busquen a su predecesor y acompañen a nuestras reuniones para que tengan algo de experiencia en MBAR. Los puestos de Presidente de MBAR deben rotarse y ser ocupados por miembros para aumentar su capacidad de practicar y defender las Tradiciones y aumentar su Experiencia Espiritual al trabajar y jugar con miembros nuevos y antiguos.
-                <br>
-                Necesitamos cubrir los siguientes puestos: Presidente de Instalaciones, Mercancía, H&I, Estatus sin fines de lucro. Consulte la lista adjunta de Presidentes de Comités;
+            <dt>6. Informe del presidente - Chris T.: ¡Gracias a todos por su continuo apoyo y asistencia a nuestra reunión de planificación! Estoy ansioso por los informes del comité y el resumen de lo que el subcomité pudo conseguir para las camisetas, así como algunos temas que requieren atención y apoyo de todo el comité en los próximos meses, ya que MBAR 2024 se acerca rápidamente.
+                <br><br>
+                Como se discutió y votó en la última reunión, esta reunión durará 1,5 horas y, como nos embarcamos en varias tareas en cuestión, los presidentes de los comités deberán reunirse y asegurarse de que tengamos el apoyo del comité para garantizar que estas tareas se puedan ejecutar de la mejor manera posible.
+                <br><br>
+                Tenga en cuenta los temas que el comité ya votó y el trabajo de los subcomités para cumplir con nuestro tiempo asignado y permitir que todos los presidentes de los comités presenten sus informes que pueden describir dónde debemos dirigir nuestro enfoque y atención.
+                <br><br>
+                Todos los presidentes de comités que participan en el espíritu de rotación deben buscar a su predecesor y unirse a nosotros en nuestras reuniones para que tenga algo de experiencia en MBAR. Los puestos de presidente de MBAR deben rotarse y ser ocupados por miembros para aumentar su capacidad de practicar y defender las tradiciones y aumentar su experiencia espiritual al trabajar y jugar con miembros nuevos y antiguos.
             </dt>
 
             <dt>7. Informe del tesorero: Carolyn H.: Ver la hoja de cálculo del presupuesto adjunta; se recibieron 51 inscripciones; se esperan 400 inscripciones más; se presupuestaron $363 de gastos en literatura y $425 de ingresos; May solicitó que las personas donaran libros innecesarios; no se completó el papeleo de la organización sin fines de lucro; el CPA presupuestó completarlo;

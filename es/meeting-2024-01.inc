@@ -18,7 +18,12 @@
 
             <dt>5. Aprobar/Modificar Acta de la última reunión: Aprobada;</dt>
 
-            <dt>6. Informe del Presidente - Chris T.: Feliz Año Nuevo. Estoy muy emocionado de ver lo que podemos lograr como comité de planificación con el arduo trabajo, la dedicación, la comunicación, las ideas y la ejecución con la ayuda del Poder Superior de este grupo como Continuamos planificando y asegurando los medios para tener una Conferencia MBAR 2024 completa. Ya estamos en 2024, el año de MBAR. Tenemos informes de los presidentes de nuestros comités para hablar y realizar nuestro evento de recaudación de fondos en unas pocas semanas. Asegúrese de permitir comentarios rápidos y concisos para poder cerrar la reunión, idealmente, en una hora. marco de tiempo que permita un buen equilibrio entre el servicio y las obligaciones de la vida. Se agradece su asistencia y participación y estoy más que agradecido por los esfuerzos de todos. Necesitamos cubrir las siguientes sillas: Divulgación y Eventos.</dt>
+            <dt>6. Informe del presidente - Chris T.: Feliz año nuevo. Estoy muy emocionado de ver lo que podemos lograr como comité de planificación con el trabajo duro, la dedicación, la comunicación, las ideas y la ejecución con la ayuda del Poder Superior de este grupo a medida que continuamos planificando y asegurando los medios para tener una Conferencia MBAR 2024 completa.
+                <br><br>
+                Ahora estamos en 2024, el año de MBAR. Tenemos informes de los presidentes de nuestros comités sobre los que hablar y tendremos nuestro evento de recaudación de fondos en unas pocas semanas. Asegúrese de que permitamos comentarios rápidos y concisos para cerrar la reunión idealmente en un plazo de una hora para permitir un buen equilibrio entre el servicio y las obligaciones de la vida.
+                <br><br>
+                Se agradece su asistencia y participación y estoy más que agradecido por los esfuerzos de todos. Necesitamos que se cubran los siguientes puestos: Difusión y Eventos.
+            </dt>
 
             <dt>7. Informe del Tesorero - Carolyn, Jean T: Depósito del Centro de Conferencias - $5 mil pagados; Buzón renovado; Licencia comercial renovada; Saldo actual $18,400; Depósito pagado en la Iglesia Luterana de Belén; Un registro recibido;</dt>
 
