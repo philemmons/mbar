@@ -92,9 +92,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
                             </p>
-                            <p class="card-text">Save $5 until July 31st! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early. 
-                            <br><br>
-                            The Marathon Meetings are open and do not require registration.
+                            <p class="card-text">Save $5 until July 31st! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
+                                <br><br>
+                                The Marathon Meetings are open and do not require registration.
                             </p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
                             </p>
@@ -163,9 +163,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR Activities
                             </p>
-                            <p class="card-text">Our exciting lineup includes: Marathon Meetings, Guest Speakers, Meet the Speakers Dinner, Dancing, Roundup Breakfast, and Ice Cream Social.
-                                <br><br>
-                                In addition to these enriching activities, Monterey offers plenty to explore, especially the stunning coastal views.
+                            <p class="card-text">Our exciting lineup includes: Marathon Meetings, Guest Speakers, Meet the Speakers Dinner, Dancing, Roundup Breakfast, and Ice Cream Social. In addition to these enriching activities, Monterey offers plenty to explore, especially the stunning coastal views.
                                 <br><br>
                                 Mark your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>

@@ -163,9 +163,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades de MBAR
                             </p>
-                            <p class="card-text">Nuestra emocionante programación incluye: reuniones de maratón, oradores invitados, cena de presentación de oradores, baile, desayuno de fin de año y reunión social con helados.
-                                <br><br>
-                                Además de estas enriquecedoras actividades, Monterey ofrece mucho para explorar, especialmente las impresionantes vistas costeras.
+                            <p class="card-text">Nuestra emocionante programación incluye: reuniones de maratón, oradores invitados, cena de presentación de oradores, baile, desayuno de fin de año y reunión social con helados. Además de estas enriquecedoras actividades, Monterey ofrece mucho para explorar, especialmente las impresionantes vistas costeras.
                                 <br><br>
                                 Marque su calendario para un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>
