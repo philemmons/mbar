@@ -679,7 +679,7 @@ include_once 'header-bottom.inc'
                         </p>
                         <p>The QR codes below require the mobile apps.
                         <p>
-                        <p><strong>Helpful Tip</strong>: PayPal's qrCode brings you to the login screen. After logging in, click on the qrCode icon at the top right, next to the user icon, and then scan the qrCode again for the MBAR payment prompt. If you need some assistance with making a payment, please contact our <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">System Admin</a>.
+                        <p><strong>Helpful Tip</strong>: PayPal's qrCode brings you to the login screen. After logging in, click on the qrCode icon at the top right, next to the user icon, and then scan the qrCode again for the MBAR payment prompt. If you need some assistance with making a payment, please contact our <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">SysAdmin</a>.
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-5">
