@@ -224,7 +224,7 @@ include_once 'header-bottom.inc'
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                    Aceptar términos y condiciones
+                                Acepto que MBAR utilice mi envío de forma anónima. (requerido)
                                 </label>
                                 <div class="invalid-feedback">
                                     Debes aceptar antes de enviar.
