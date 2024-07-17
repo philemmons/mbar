@@ -73,11 +73,11 @@ include_once 'header-bottom.inc'
                 <div class="col-sm-auto py-4">
                     <button type="button" class="btn btn-primary btn-sm" onclick="window.open('https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;"><img class="img-fluid" src="../images/zoom-login.png" alt="Pantalla de inicio de sesión de Zoom invertida con fondo azul."></button>
                 </div>
-                <div class="col-md-8 col-sm-6 py-4">
+                <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Programa de reuniones mensuales">
-                            <h3 class="card-title text-center mb-3 px-5"><em>
-                            A medida que se acerca el MBAR, hemos programado reuniones adicionales<br>a las 10:00 a. m. durante 1,5 horas.</em></h3>
+                            <h3 class="card-title text-center mb-3 px-sm-3"><em>
+                            A medida que se acerca el MBAR, hemos programado reuniones adicionales a las 10:00 a. m. durante 1,5 horas.</em></h3>
                         </section>
                         <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
                             <strong>Contraseña</strong>: 2024
