@@ -74,8 +74,10 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
                         <section aria-label="Registration Area">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
+                                <br>
+                                Schedule of Events Coming Soon!
                             </h3>
-                            <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting August 30th with Oliver D. from Delaware, and Live on August 31st and September 1st at the Monterey Conference Center
+                            <p class="mb-6 h4 text-dark">Join us online, Labor Day Weekend, with a Kick Off Zoom Meeting August 30th with Oliver D. from Delaware, and Live on August 31st and September 1st at the Monterey Conference Center.
                                 <br>Meeting ID: <strong>831 4306 2293</strong>
                                 <br>Passcode: <strong>2024</strong>
                             </p>
