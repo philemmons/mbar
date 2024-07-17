@@ -29,69 +29,67 @@
                 We are needing the following chairs filled: Facilities Chair; Shuttle - Per Cindy A; MBAR 2022 Trevor F.; MBAR 2019 (and helped in 2022) Shuttle Service Chair Chuck N.; Please see attached Committee Chair List
             </dt>
 
-            <dt>7. Treasurer's Report - Carolyn H.: See attached budget spreadsheet; 51 registrations received; Expect 400 more registrations; Literature budgeted $363 expense and $425 Income - May requested that people donate unneeded books; Non-profit paper work not complete - CPA budgeted to complete this;
+            <dt>7. Treasurer's Report - Carolyn H.: See attached budget spreadsheet; 65 registrations received; Insurance paid; 15 Conference T-shirts; 20 Committee T-shirts; Bank Balance $27,726; Registered - Missing payments saying they'd pay with PayPal: , Molly M., Kerry M., Chris L., Tom L., Sherri M., Brenda S., and Earl W.
             </dt>
 
             <dt>8. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)</dt>
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina, Sean: Gina: Softball flyer and sent information to intergroup;</dd>
+            <dd>a. Media - Gina, Sean: Apology did not send out text reminder for the meeting - she will do it next month;</dd>
 
-            <dd>b. Registration - Naomi: 48 total registrations received - 31 online and 17 paper; Investigating process to provide acknowledgement of Venmo payments; Need updated registration forms - online (English and Spanish); Need to include Friday Night Zoom meeting details; Once pricing questions are resolved need to update registration form to include T-shirts; Carolyn will notify (E) registrants;</dd>
+            <dd>b. Registration - Naomi: 71 total registrations received - 41 online 21 paper, 9 not paid, 40 AA / 12 Al-Anon / 12 Others, No Spanish registrations, 62 'Bundles'; Logistics for T-shirts - Naomi issue a ticket, Kevin hand out t-shirts; Cindy provide a report next month - count of pre-registrations received in previous years; Arthur pointed out some issues with online registration form - Jean contact Phillip; Chris / Renee / Jean working on Program - forward their work to Naomi;</dd>
 
-            <dd>c. Spanish - Robert: No report;</dd>
+            <dd>c. Spanish - Robert: Meeting regularly - Sundays and last Wednesday of the month; Vote on speakers tomorrow;</dd>
 
-            <dd>d. Al-Anon - Jane: Everything on track; Al-Anon / AA Meeting - May 17th at Bethlehem Lutheran Church; Need to update her contact information on the committee list; Need to send her the updated registration forms;</dd>
+            <dd>d. Al-Anon - Jane: Speakers selected coordinating with Kathleen; Filling-up marathon meetings; Jane email committee list and agenda for the program;</dd>
 
-            <dd>e. T-Shirt - Kevin: Managing T-shirts / coffee mugs (order 24) / water bottles (order 48); T-shirt cost not yet finalized - Phillip remove T-shirt price from the website, All T-shirts are to be pre-ordered - Cut off pre-orders 30 days before the event, Some discussion about a bulk order of 240 t-shirts - not resolved at this meeting, Suggestion to pre-order 240 t-shirts and mark-up to cover possibility of unsold t-shirts; Group agreed to price all T-shirts the same to avoid size shaming; Committee t-shirts - $16.00 + 10% tax, Phillip doing an online poll; Updating registration form to include T-shirts - Carolyn will notify (E) registrants; Phillip update online registration form; Need to finalize how sales tax is handled;</dd>
+            <dd>e. T-Shirt - Kevin: Shared invoice for 240 T-shirts - The basis for pricing T-shirts at $15; Extensive discussion about the logistics of purchasing T-shirts; Must pre-order by 7/30/2024; 
+            <br><br>
+            Motions Proposed and Passed - Finalize price for all attendee t-shirts at $15; Don't purchase any attendee t-shirts until the full committee approves the purchase; Use fund raising income for costs related to budgeted items where needed; Create agenda item to discuss fund raising surplus and how to use it; Committee chairs present revised budget by 7/1/2024 requesting any changes to funding by 7/1/2024; 
+            <br><br>
+            Committee t-shirts; $16.00 + 10% tax; Planning on ; 18 mugs - cost $19.82, sell for $20; 36 water bottles - cost $11+, sell for $12; Samantha wants some merchandise for event prizes;</dd>
 
-            <dd>f. Speaker - Kathleen: DJ Booked for dance; Friday Zoom - Oliver B. Delaware; Sunday - Darren; Saturday - Crystal; Susan has candidate available - Dennis D. Santa Cruz AA/Al-Anon; Naomi - email list of needed speakers to Kathleen;</dd>
+            <dd>f. Speaker - Kathleen: Jean presented preliminary program created by steering committee; Naomi pointed out the speaker selection should be done by the speaker committee not the steering committee; Naomi & Samantha offered to help Kathleen; Naomi pointed out that the kick-off speaker is typically selected by the whole committee and has been an active MBAR committee member - Chris will add to July agenda;</dd>
 
-            <dd>g. Outreach - Conor: Approaching individuals at meetings with registration forms; Will solicit help - sponsee's etc.; Plans to attend large meetings in Santa Cruz; Re-send revised registration form to Central offices Monterey, San Francisco, and Los Angeles; Chris print new registration forms and deliver to Central Office and Intergroup;</dd>
+            <dd>g. Outreach - Conor: No report;</dd>
 
-            <dd>h. Events - Samantha: Researching insurance companies - no luck so far; Potential Events for MBAR - Trivia, Bingo, Board Games, Corn Hole</dd>
+            <dd>h. Events - Samantha: Insurance secured; Potential Events for MBAR;</dd>
 
-            <dd>i. IGR/GSR - Cole: Attending meetings and announcing MBAR;</dd>
+            <dd>i. IGR/GSR - Cole: No report;</dd>
 
             <dd>j. Marathon Meetings - Mark: No report;</dd>
 
             <dd>k. Facilities- Sally: No report;</dd>
 
-            <dd>l. Website - Phillip: 2024 meeting note posted; Committee list posted; Google analysis updated; Need updated registration forms - English and Spanish; Remove t-shirts until price is finalized; Add notes regarding water bottles & coffee mugs, etc. </dd>
+            <dd>l. Website - Phillip: No report;</dd>
 
-            <dd>m. Raffle - Katherine: Has people lined up to help? - Separate committee members for 50-50 raffle; Need to line up secure storage for prizes at conference center; Focus on lining up raffle prizes for the conference;</dd>
+            <dd>m. Raffle - Katherine: Has people lined up to help - Cole: Separate committee members for 50-50 raffle; Motion proposed ticket pricing (raffle & 50/50), passed - 1 Ticket $1, 6 Tickets $5, 12 Tickets $10, 25 Tickets $20;</dd>
 
             <dt>10. Old Business:</dt>
 
             <dd>a. Reminder Committee Members should all be registered, within the next month;</dd>
 
-            <dd>b. Non-Profit Status: Committee Members please announce we are needing assistance with this. Chris followed up with Jana to have this be an IGR announcement as well;</dd>
+            <dd>b. Non-Profit Status: Committee Members please announce we are needing assistance with this. Chris followed up with Jana to have this be an IGR announcement as well; Motion passed - pay for professional to do non-profit application; Rene & Cindy volunteered to be liaison;</dd>
 
             <dt>11. Fundraising Ideas</dt>
 
-            <dd>a. Unity Day Presence: 6/9/2024 - Have table and tent, Need volunteers;</dd>
+            <dd>a. Unity Day Presence: 6/9/2024 - Have table and tent - Need volunteers;</dd>
 
             <dd>b. Birthday Meeting Presence: May 25th, June 29th, July 27th, and Aug 31st - Need volunteers;</dd>
 
-            <dd>c. A.A. / Al-Anon meeting: May 17th - 5pm Dinner and 6pm Speaker</dd>
+            <dd>c. Softball Event: 7/6/24 - Dampierre Little League Park, Carmel Valley, TC Coordinating - Need volunteers;</dd>
 
-            <dd>d. Softball Event: 7/6/24 - Dampierre Little League Park, Carmel Valley, TC Coordinating - Need volunteers;</dd>
+            <dt>12. New Business: None;</dt>
 
-            <dt>12. New Business:</dt>
+            <dt>13. Next Steering Committee meeting is Tuesday 06/25/2024 at 6pm via Zoom;</dt>
 
-            <dd>a. Jersey Committee Shirts: $24,00 S-XL, $28,00 2XL-4XL - Group decided one price for committee t-shirts - $16.00 + 10% tax, Phillip doing an online poll;</dd>
-
-            <dd>b. Order for the bulk of the main t-shirts when we get a rough idea of the count (2 dozen x smalls, 4 x meds,.etc.); Storage has been arranged; Will need transport the few days before the event - Decision tabled - Chris and Kevin discuss logistics, present a plan next month;</dd>
-
-            <dt>13. Next Steering Committee meeting is Tuesday 05/28/2024 at 6pm via Zoom;</dt>
-
-            <dt>14. Next Committee meeting is Saturday 06/08/2024 at 10am;</dt>
+            <dt>14. Next Committee meeting is Saturday 07/13/2024 at 10am;</dt>
 
             <dt>15. Meeting adjourned at 11:35am with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Amber, Arthur, Carolyn,Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (In SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Phillip, Renee, Roger, Samantha, Sean, and Susan</p>
+        <p> Attendees: Arthur, Carolyn, Chris, Cindy, Cole, Gina, Jane, Janet, Jean, Kathleen S., Kathleen F., Katie, Kevin, Mary Grace, May, Naomi, Phil, Renee, Robert, Roger, and Samantha</p>
 
     </div>
 </div>
