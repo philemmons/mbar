@@ -76,7 +76,8 @@ include_once 'header-bottom.inc'
                 <div class="col-md-8 col-sm-6 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Programa de reuniones mensuales">
-                            <h3 class="card-title text-center mb-3 px-5"><em>A medida que se acerca el MBAR, hemos programado reuniones adicionales a las 10:00 a. m. durante 1,5 horas.</em></h3>
+                            <h3 class="card-title text-center mb-3 px-5"><em>
+                            A medida que se acerca el MBAR, hemos programado reuniones adicionales<br>a las 10:00 a. m. durante 1,5 horas.</em></h3>
                         </section>
                         <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
                             <strong>Contraseña</strong>: 2024
