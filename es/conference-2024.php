@@ -160,9 +160,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Unidad de eventos">
                             <h4 class="card-title mb-3 text-center text-uppercase">ADA Accesibilidad</h4>
-                            <p>Nuestro equipo está totalmente comprometido a garantizar la inclusión y el compañerismo dentro de MBAR, ya que si necesita asistencia de ADA para el evento, infórmenos.
-                            </p>
-                            <p>Hable sobre cualquier área que no esté cubierta aquí con cualquiera de los miembros de nuestro comité. Estas políticas, reglas y regulaciones generales están sujetas a cambios.
+                            <p>Nuestro equipo está totalmente comprometido a garantizar la inclusión y el compañerismo dentro de MBAR, y si necesita ayuda de la ADA para el evento, infórmenos. Según la primera tradición de A.A., por favor discuta cualquier área que no esté cubierta aquí con cualquiera de los miembros de nuestro comité. Estas políticas, reglas y regulaciones generales están sujetas a cambios.
                             </p>
                             <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow"><strong>La política de cumplimiento de la ADA del Monterey Conference Center</strong><span class="sr-only">(Abre una nueva ventana)</span></a> - El Centro de Conferencias de Monterey (MCC) cumple con la ADA. De acuerdo con la ADA, somos responsables de las adaptaciones asociadas con el acceso permanente a las instalaciones, como, entre otras, rampas para sillas de ruedas, estándares de ascensores, estándares de ancho de puertas y accesibilidad a los baños.
                             </p>
