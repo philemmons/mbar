@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Anuncio de nuestra reunión inicial de Zoom el 30 de agosto a las 8 p.m. PST. Únase a nosotros con nuestro primer orador del evento 2024: Oliver D. de Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
                             </p>
-                            <p class="card-text">Vuelve con nosotros para obtener más actualizaciones y detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte las acciones de la Conferencia de 2022.
+                            <p class="card-text">Buenas noticias: ¡casi hemos terminado de ultimar el cronograma de nuestro próximo evento! Mientras tanto, consulta la actividad de la Conferencia de 2022.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -90,14 +90,17 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Inscripción
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Inscripción Previa
                             </p>
-                            <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
-                            <p class="card-text">Le recordamos que su registro se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
+                            <p class="card-text">¡Ahorre $5 hasta el 31 de Julio! Ayúdenos a planificar un evento perfecto con anticipación, garantizando que todo salga bien para usted y todos los demás. Demuestre su compromiso y entusiasmo al inscribirse temprano.
+                                <br><br>
+                                Las reuniones de maratón están abiertas y no requieren inscripción.
+                            </p>
+                            <p class="card-text">Le recordamos que su inscripción se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrate Ahora</a></small>
+                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrese ahora</a></small>
                         </div>
                     </div>
                 </div>

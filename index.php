@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
                             </p>
-                            <p class="card-text">Check back with us for more updates and details as we get closer to the date. In the meantime, check out the 2022 Conference action.
+                            <p class="card-text">Great news - we're almost done finalizing the schedule for our upcoming event! In the meantime, check out the 2022 Conference action.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -92,7 +92,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
                             </p>
-                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon Meetings are open and do not require registration.
+                            <p class="card-text">Save $5 until July 31st! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early. 
+                            <br><br>
+                            The Marathon Meetings are open and do not require registration.
                             </p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
                             </p>
