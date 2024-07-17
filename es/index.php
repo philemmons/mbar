@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Preinscripción Hasta el 31 de Julio</span>
                     </h2>
-                    <p class="mb-6 h3 text-dark">Fin de semana del Día del Trabajo,<br>Reunión Inaugural por Zoom<br>30 de Agosto y en Vivo el 31 de Agosto y <br>1 de Septiembre en el Centro de Conferencias de Monterey </p>
+                    <p class="mb-6 h3 text-dark">Fin de semana del Día del Trabajo,<br>Reunión Inaugural por Zoom<br>30 de Agosto y en Vivo el 31 de Agosto y <br>1 de Septiembre en el Centro de Conferencias de Monterey</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                 </div>
             </div>
@@ -78,7 +78,8 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Anuncio de nuestra reunión inicial de Zoom el 30 de agosto a las 8 p.m. PST. Únase a nosotros con nuestro primer orador del evento 2024: Oliver D. de Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
                             </p>
-                            <p class="card-text">Vuelve con nosotros para obtener más actualizaciones y detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte las acciones de la Conferencia de 2022.</p>
+                            <p class="card-text">Vuelve con nosotros para obtener más actualizaciones y detalles a medida que nos acercamos a la fecha. Mientras tanto, consulte las acciones de la Conferencia de 2022.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">Calendario de Conferencias 2022</a></small>
@@ -92,7 +93,8 @@ include_once 'header-bottom.inc'
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Inscripción
                             </p>
                             <p class="card-text">Las tarifas de inscripción pagan el Centro de Conferencias, los gastos de viaje de los ponentes, etc. Las reuniones Maratón son abiertas y no requieren inscripción.</p>
-                            <p class="card-text">Le recordamos que su registro se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.</p>
+                            <p class="card-text">Le recordamos que su registro se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrate Ahora</a></small>
@@ -105,7 +107,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
                             </p>
-                            <p class="card-text">De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon. Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo.</p>
+                            <p class="card-text">Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo. De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Manos Amigas</a></small>
@@ -121,12 +124,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reunión del Comité de MBAR
                             </p>
-                            <p class="card-text">Reuniones Maratónicas, Desayuno Reunirs, Oradores Invitados, encuentro social con helados y qué hacer en Monterey para este <strong>evento de dos días</strong>.</p>
+                            <p class="card-text">Mientras nos preparamos para nuestro próximo evento, realizaremos varias reuniones de planificación adicionales para asegurarnos de que todo transcurra sin problemas. Sus aportes y participación son cruciales para nuestro éxito. ¡Juntos, podemos hacer que este evento sea realmente excepcional!
+                                <br><br>
+                                Esperamos colaborar con todos ustedes.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
                         </div>
                     </div>
                 </div>
@@ -136,7 +142,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
                             </p>
-                            <p class="card-text">MBAR se compromete a hacer que nuestro sitio web sea accesible, utilizable y culturalmente adecuado para nuestra Comunidad Española.
+                            <p class="card-text">¡Nos complace anunciar el lanzamiento de nuestro nuevo sitio web traducido al español! Esta mejora tiene como objetivo hacer que nuestros recursos e información sean más accesibles para nuestros miembros hispanohablantes.
+                                <br><br>
+                                Explore todas las funciones y el contenido que ahora están disponibles en español. Esperamos que esta actualización mejore su experiencia y nos permita brindarle un mejor servicio.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -150,12 +158,17 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Comités
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades de MBAR
                             </p>
-                            <p class="card-text">Información adicional o cualquier duda, por favor contáctenos. Siéntase libre de asistir también a nuestras reuniones mensuales.</p>
+                            <p class="card-text">Nuestra emocionante programación incluye: reuniones de maratón, oradores invitados, cena de presentación de oradores, baile, desayuno de fin de año y reunión social con helados.
+                                <br><br>
+                                Además de estas enriquecedoras actividades, Monterey ofrece mucho para explorar, especialmente las impresionantes vistas costeras.
+                                <br><br>
+                                Marque su calendario para un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
+                            </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contacta con Nosotros</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
                         </div>
                     </div>
                 </div>
@@ -163,15 +176,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntarios
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntariado en Recuperación
                             </p>
-                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para hacer servicio mejora la calidad de nuestra recuperación.
+                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
                                 <br><br>
-                                Recuerda, recibes lo que das.
+                                Recuerde, recibe lo que da. Únase a nosotros para generar un impacto positivo y mejorar nuestra comunidad de recuperación.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Listo para estar al Servicio</a></small>
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Listo para prestar Servicio</a></small>
                         </div>
                     </div>
                 </div>
@@ -181,7 +194,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
                             </p>
-                            <p class="card-text">MBAR se estableció en 1993. Los oradores e invitados provienen de todo Estados Unidos. Eche un vistazo a algunos folletos de MBAR anteriores.</p>
+                            <p class="card-text">Desde 1993, Monterey Bay Area Roundup(MBAR) ha unido a oradores e invitados de todo el país. El voluntariado mejora nuestro camino hacia la recuperación al contribuir y fomentar el crecimiento personal. Explore los volantes anteriores de MBAR para ver el impacto y únase a nosotros para continuar con este legado.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>

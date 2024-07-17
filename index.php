@@ -76,9 +76,10 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Conference Update
                             </p>
-                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a></p>
-
-                            <p class="card-text">Check back with us for more updates and details as we get closer to the date. In the meantime, check out the 2022 Conference action.</p>
+                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
+                            </p>
+                            <p class="card-text">Check back with us for more updates and details as we get closer to the date. In the meantime, check out the 2022 Conference action.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2022.php" class="btn btn-primary">2022 Conference Schedule</a></small>
@@ -91,8 +92,10 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
                             </p>
-                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon meetings are open and do not require registration.</p>
-                            <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.</p>
+                            <p class="card-text">Registration fees pay for the Conference Center, speaker's travel expenses, etc. The Marathon Meetings are open and do not require registration.
+                            </p>
+                            <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Register Now</a></small>
@@ -105,7 +108,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
                             </p>
-                            <p class="card-text">In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members. This is how we stand with someone who wants to attend the conference but is unable to do so.</p>
+                            <p class="card-text">This is how we stand with someone who wants to attend the conference but is unable to do so. In keeping with Our Tradition of self-supporting, we accept contributions only from A.A. and Al-Anon members.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Helping Hands</a></small>
@@ -121,12 +125,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Activities
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Committee Meeting
                             </p>
-                            <p class="card-text">Marathon Meetings, Roundup Breakfast, Guest Speakers, Ice Cream Social, and what to do around Monterey for this <strong>two day event</strong>.</p>
+                            <p class="card-text">As we gear up for our upcoming event, we will be holding several additional planning meetings to ensure everything runs smoothly. Your input and participation are crucial to our success. Together, we can make this event truly exceptional!
+                                <br><br>
+                                Looking forward to collaborating with all of you.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
                         </div>
                     </div>
                 </div>
@@ -136,7 +143,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
                             </p>
-                            <p class="card-text"> MBAR pledges to make our website accessible, usable and culturally suitable for our Spanish Community.
+                            <p class="card-text">We are thrilled to announce the launch of our newly translated website in Spanish! This enhancement aims to make our resources and information more accessible to our Spanish-speaking members.
+                                <br><br>
+                                Explore all the features and content now available in Spanish. We hope this update enhances your experience and allows us to serve you better.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -150,12 +159,17 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Committees
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR Activities
                             </p>
-                            <p class="card-text">Additional information or any questions, please contact us. Feel free to drop in our monthly meetings too.</p>
+                            <p class="card-text">Our exciting lineup includes: Marathon Meetings, Guest Speakers, Meet the Speakers Dinner, Dancing, Roundup Breakfast, and Ice Cream Social.
+                                <br><br>
+                                In addition to these enriching activities, Monterey offers plenty to explore, especially the stunning coastal views.
+                                <br><br>
+                                Mark your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
+                            </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Contact Us</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
                         </div>
                     </div>
                 </div>
@@ -163,11 +177,11 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteers
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteering in Recovery
                             </p>
-                            <p class="card-text">We have found that volunteering to do service improves the quality of our recovery.
+                            <p class="card-text">We have found that volunteering to do service significantly improves the quality of our recovery. By giving back, we not only help others but also strengthen our own journey.
                                 <br><br>
-                                Remember, you get what you give.
+                                Remember, you get what you give. Join us in making a positive impact and enhancing our recovery community.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -181,7 +195,8 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
                             </p>
-                            <p class="card-text">MBAR was established in 1993. Speakers and guests come from all over the United States. Take a look at some fliers from past MBAR's.</p>
+                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR fliers to see the impact and join us in continuing this legacy.
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
