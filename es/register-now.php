@@ -82,7 +82,9 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Registro 2024</h3>
-                            <p>Nos complace anunciar que el Resumen del Área de la Bahía de Monterey se realizará en 2024, ¡y nos alegra que planee asistir! Únase a nosotros en línea con una reunión inicial de Zoom, el viernes 30 de Agosto por la noche. La conferencia se llevará a cabo en el Centro de Conferencias de Monterey el fin de semana del Día del Trabajo: del 31 de Agosto al 1 de Septiembre de 2024.</p>
+                            <p>
+                                
+                            </p>
                             <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus opciones y el monto total a pagar.
                             </p>
                             <p class="text-center">Utilice los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que completó su registro.

@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Inscripción Previa
                             </p>
-                            <p class="card-text">¡Ahorre $5 hasta el 31 de Julio! Ayúdenos a planificar un evento perfecto con anticipación, garantizando que todo salga bien para usted y todos los demás. Demuestre su compromiso y entusiasmo al inscribirse temprano.
+                            <p class="card-text">¡Ahorra $5 hasta el 31 de julio y $1 de tu inscripción se destinará al sorteo 50/50 que se realizará el sábado por la noche! Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
                                 <br><br>
                                 Las reuniones de maratón están abiertas y no requieren inscripción.
                             </p>
