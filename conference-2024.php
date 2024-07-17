@@ -160,7 +160,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Event unity">
                             <h4 class="card-title mb-3 text-center text-uppercase">ADA Accessibility</h4>
-                            <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
+                            <p>Our team is fully committed to ensure the success of MBAR. Please discuss any areas not covered here with any of our committee members. These general policies, rules and regulations are subject to change.
                             </p>
                             <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Opens a new window)</span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                             </p>
@@ -174,9 +174,9 @@ include_once 'header-bottom.inc'
                                 <li>Saturday - 2.5 hours</li>
                                 <li>Sunday - 3.0 hours</li>
                             </ul>
-                            <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and locations.
                             </p>
-                            <p class='sr-only'>(This is the above text without italics)><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            <p class='sr-only'>(This is the above text without italics)><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and locations.
                             </p>
                         </section>
                     </div>
