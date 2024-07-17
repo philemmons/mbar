@@ -160,7 +160,9 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Event unity">
                             <h4 class="card-title mb-3 text-center text-uppercase">ADA Accessibility</h4>
-                            <p>Our team is fully committed to ensure inclusiveness and fellowship within MBAR. Please discuss any areas not covered here with any of our committee members. These general policies, rules and regulations are subject to change.
+                            <p>Our team is fully committed to ensure inclusiveness and fellowship within MBAR because if you require any ADA assistance for the event, please let us know.
+                            </p>
+                            <p>Please discuss any areas not covered here with any of our committee members. These general policies, rules and regulations are subject to change.
                             </p>
                             <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Opens a new window)</span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
                             </p>
