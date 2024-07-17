@@ -98,6 +98,7 @@ include_once 'header-bottom.inc'
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
+                            
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#june2024" aria-expanded="false" aria-controls="june2024">June 8th</button>
