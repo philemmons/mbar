@@ -75,11 +75,13 @@ include_once 'header-bottom.inc'
                 </div>
                 <div class="col-md-8 col-sm-6 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <h3 class="card-title text-center mb-3"><em>El segundo Sábado de cada mes a las 10:00am PST</em></h3>
+                        <section aria-label="Programa de reuniones mensuales">
+                            <h3 class="card-title text-center mb-3 px-5"><em>A medida que se acerca el MBAR, hemos programado reuniones adicionales a las 10:00 a. m. durante 1,5 horas.</em></h3>
+                        </section>
                         <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
                             <strong>Contraseña</strong>: 2024
                         </p>
-                        <p class="text-center"><strong>Próximas reuniones:</strong> 07/13/2024, 08/10/2024</p>
+                        <p class="text-center"><strong>Próximas reuniones:</strong> 27/07/2024, 07/08/2024, 10/08/2024, 17/08/2024 y 24/08/2024</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +107,7 @@ include_once 'header-bottom.inc'
                                 <?php include 'meeting-2024-06.inc'; ?>
 
                             </div>
-                            
+
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#may2024" aria-expanded="false" aria-controls="may2024">13 de Mayo</button>
