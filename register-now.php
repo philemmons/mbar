@@ -80,11 +80,11 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
-                            <p>
+                            <p>Register by July 31st and not only will you <strong>save $5</strong> on your registration fee, but <strong>$1</strong> from your payment will go towards our 50/50 drawing, happening on Saturday night! By signing up early, you'll not only get a discount, but you'll also help us prepare for a seamless event experience Your prompt registration shows your enthusiasm and commitment to MBAR, and we appreciate it!"
                             </p>
-                            <p class="text-center">After registering, you should get an email with your choices and the total due.
+                            <p class="text-center">Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
                             </p>
-                            <p class="text-center">Please use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
+                            <p class="text-center">After registering, you should get an email with your selections and the total amount due. Please do not refresh the webpage. If your email fails to arrive, check your spam folder, or contact the <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin</a>.</p>
                             </p>
                         </section>
                     </div>

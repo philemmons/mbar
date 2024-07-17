@@ -81,13 +81,12 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3  text-bg-light hero-text-border" title="Memories are in the making.">
                         <section aria-label="Registration-Intro">
-                            <h3 class="card-title text-center mb-3">Registro 2024</h3>
-                            <p>
-                                
+                            <h3 class="card-title text-center mb-3">Preinscripción 2024</h3>
+                            <p>¡Regístrese antes del 31 de julio y no solo <strong>ahorrará $5</strong> en su tarifa de inscripción, sino que también <strong>$1</strong> de su pago se destinará a nuestro sorteo 50/50, que se realizará el sábado por la noche! Si se registra temprano, no solo obtendrá un descuento, sino que también nos ayudará a preparar una experiencia de evento perfecta. ¡Su registro rápido demuestra su entusiasmo y compromiso con MBAR, y lo apreciamos!"
                             </p>
-                            <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus opciones y el monto total a pagar.
+                            <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> a continuación para realizar el pago que complete su registro.
                             </p>
-                            <p class="text-center">Utilice los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que completó su registro.
+                            <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus selecciones y el monto total a pagar. No actualice la página web. Si su correo electrónico no llega, revise su carpeta de correo no deseado o comuníquese con el <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">administrador de sistemas</a>.</p>
                             </p>
                         </section>
                     </div>
