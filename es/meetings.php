@@ -96,6 +96,15 @@ include_once 'header-bottom.inc'
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
+
+                        <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#may2024" aria-expanded="false" aria-controls="may2024">8 de Junio</button>
+                                </h4>
+
+                                <?php include 'meeting-2024-06.inc'; ?>
+
+                            </div>
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#may2024" aria-expanded="false" aria-controls="may2024">13 de Mayo</button>
