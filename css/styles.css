@@ -322,12 +322,10 @@ nav {
   text-underline-offset: 0.25em !important;
 }
 
-/*
 .bb-link:hover,
 .bb-link:focus {
-  text-decoration: underline;
+  color: var(--color-12);
 }
-*/
 
 /**** maps ****/
 
