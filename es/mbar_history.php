@@ -202,16 +202,16 @@ include_once 'header-bottom.inc'
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años
                                 </h3>
                                 <p class="d-grid gap-2">
-                                    <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/MBAR-2015-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa</button>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2015-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/MBAR-2014-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2014 Programa</button>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2014-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2014 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/MBAR-2003-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2003 Programa</button>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2003-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2003 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/MBAR-1997-Program.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 1997 Programa</button>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-1997-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 1997 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                             </section>
                         </div>
