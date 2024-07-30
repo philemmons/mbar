@@ -85,7 +85,7 @@ include_once 'header-bottom.inc'
                             <p>¡Regístrese antes del 31 de julio y no solo <strong>ahorrará $5</strong> en su tarifa de inscripción, sino que también <strong>$1</strong> de su pago se destinará a nuestro sorteo 50/50, que se realizará el sábado por la noche! Si se registra temprano, no solo obtendrá un descuento, sino que también nos ayudará a preparar una experiencia de evento perfecta. ¡Su registro rápido demuestra su entusiasmo y compromiso con MBAR, y lo apreciamos!
                             </p>
                             <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> a continuación para realizar el pago que complete su registro.
-                            <br><br>Puede pagar su inscripción en línea con cheque en lugar de hacerlo a través de Venmo o PayPal. Haga el cheque a nombre de MBAR y envíelo por correo a MBAR, P.O. Box 1462, Monterey, CA 93942.
+                            <br><br>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Haga el cheque a nombre de MBAR y envíelo por correo a MBAR, P.O. Box 1462, Monterey, CA 93942.
                             </p>
                             <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus selecciones y el monto total a pagar. No actualice la página web. Si su correo electrónico no llega, revise su carpeta de correo no deseado o comuníquese con el <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">administrador de sistemas</a>.</p>
                             </p>
