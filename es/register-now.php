@@ -85,7 +85,11 @@ include_once 'header-bottom.inc'
                             <p>¡Regístrese antes del 31 de julio y no solo <strong>ahorrará $5</strong> en su tarifa de inscripción, sino que también <strong>$1</strong> de su pago se destinará a nuestro sorteo 50/50, que se realizará el sábado por la noche! Si se registra temprano, no solo obtendrá un descuento, sino que también nos ayudará a preparar una experiencia de evento perfecta. ¡Su registro rápido demuestra su entusiasmo y compromiso con MBAR, y lo apreciamos!
                             </p>
                             <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> a continuación para realizar el pago que complete su registro.
-                                <br><br>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Si paga por <i>más</i> de una persona, agregue sus nombres en la sección de notas. Haga el cheque a nombre de MBAR y envíelo por correo a MBAR, Attn: Naomi B., P.O. Box 1462, Monterey, CA 93942.
+                                <br><br>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Si paga por <i>más</i> de una persona, agregue sus nombres en la sección de notas. Haga el cheque a nombre de MBAR y envíelo por correo a
+                                <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                                <br>Attn: Naomi B.
+                                <br>P.O. Box 1462
+                                <br>Monterey, CA 93942
                             </p>
                             <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus selecciones y el monto total a pagar. No actualice la página web. Si su correo electrónico no llega, revise su carpeta de correo no deseado o comuníquese con el <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">administrador de sistemas</a>.</p>
                             </p>
@@ -685,9 +689,12 @@ include_once 'header-bottom.inc'
                         <p class="bb-link">Recuerde: Su pago completa su registro!
                         </p>
 
-                        <p>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Haga el cheque a nombre de MBAR y envíelo por correo a MBAR, Attn: Naomi B., P.O. Box 1462, Monterey, CA 93942.
+                        <p>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Haga el cheque a nombre de MBAR y envíelo por correo a
+                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br>Attn: Naomi B.
+                            <br>P.O. Box 1462
+                            <br>Monterey, CA 93942
                         </p>
-
                         <p>Los códigos QR a continuación requieren las aplicaciones móviles.
                         </p>
 
@@ -727,10 +734,10 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3">Descarga el Formulario de Inscripción</h3>
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
-                            <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
-                                Attn: Naomi B.<br>
-                                P.O. Box 1462<br>
-                                Monterey, CA 93942
+                            <p><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                                <br>Attn: Naomi B.
+                                <br>P.O. Box 1462
+                                <br>Monterey, CA 93942
                             </p>
                             <p>O envíe su formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
                             </p>
