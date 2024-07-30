@@ -49,7 +49,7 @@
 
             <dd>h. Eventos - Samantha: Investigará sobre las compañías de seguros - sin suerte hasta ahora; Eventos potenciales para MBAR - Trivia, Bingo, Juegos de mesa, Corn Hole</dd>
 
-            <dd>i. IGR/GSR - Cole: Asistirá a las reuniones y anunciará MBAR;</dd>
+            <dd>i. I.G.R. / G.S.R. - Cole: Asistirá a las reuniones y anunciará MBAR;</dd>
 
             <dd>j. Reuniones de maratón - Mark: Sin informe;</dd>
 

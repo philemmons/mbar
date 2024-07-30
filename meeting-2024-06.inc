@@ -44,11 +44,12 @@
 
             <dd>d. Al-Anon - Jane: Speakers selected coordinating with Kathleen; Filling-up marathon meetings; Jane email committee list and agenda for the program;</dd>
 
-            <dd>e. T-Shirt - Kevin: Shared invoice for 240 T-shirts - The basis for pricing T-shirts at $15; Extensive discussion about the logistics of purchasing T-shirts; Must pre-order by 7/30/2024; 
-            <br><br>
-            Motions Proposed and Passed - Finalize price for all attendee t-shirts at $15; Don't purchase any attendee t-shirts until the full committee approves the purchase; Use fund raising income for costs related to budgeted items where needed; Create agenda item to discuss fund raising surplus and how to use it; Committee chairs present revised budget by 7/1/2024 requesting any changes to funding by 7/1/2024; 
-            <br><br>
-            Committee t-shirts; $16.00 + 10% tax; Planning on ; 18 mugs - cost $19.82, sell for $20; 36 water bottles - cost $11+, sell for $12; Samantha wants some merchandise for event prizes;</dd>
+            <dd>e. T-Shirt - Kevin: Shared invoice for 240 T-shirts - The basis for pricing T-shirts at $15; Extensive discussion about the logistics of purchasing T-shirts; Must pre-order by 7/30/2024;
+                <br><br>
+                Motions Proposed and Passed - Finalize price for all attendee t-shirts at $15; Don't purchase any attendee t-shirts until the full committee approves the purchase; Use fund raising income for costs related to budgeted items where needed; Create agenda item to discuss fund raising surplus and how to use it; Committee chairs present revised budget by 7/1/2024 requesting any changes to funding by 7/1/2024;
+                <br><br>
+                Committee t-shirts; $16.00 + 10% tax; Planning on ; 18 mugs - cost $19.82, sell for $20; 36 water bottles - cost $11+, sell for $12; Samantha wants some merchandise for event prizes;
+            </dd>
 
             <dd>f. Speaker - Kathleen: Jean presented preliminary program created by steering committee; Naomi pointed out the speaker selection should be done by the speaker committee not the steering committee; Naomi & Samantha offered to help Kathleen; Naomi pointed out that the kick-off speaker is typically selected by the whole committee and has been an active MBAR committee member - Chris will add to July agenda;</dd>
 
@@ -56,7 +57,7 @@
 
             <dd>h. Events - Samantha: Insurance secured; Potential Events for MBAR;</dd>
 
-            <dd>i. IGR/GSR - Cole: No report;</dd>
+            <dd>i. I.G.R. / G.S.R. - Cole: No report;</dd>
 
             <dd>j. Marathon Meetings - Mark: No report;</dd>
 

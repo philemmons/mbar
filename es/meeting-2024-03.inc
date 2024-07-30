@@ -49,7 +49,7 @@
 
             <dd>g. Divulgación - Conor: Anuncio del día de San Patricio; Se comunicó con las oficinas centrales de Monterey, San Francisco, Los Ángeles; Planee asistir a las reuniones de Salinas: solicitó comentarios sobre las reuniones que cuentan con una buena asistencia; Christina recordó a los miembros del comité que todos tenemos alguna responsabilidad en materia de divulgación;</dd>
 
-            <dd>h. IGR/GSR - Cole: Anuncio de MBAR en las reuniones del comité;</dd>
+            <dd>h. I.G.R. / G.S.R. - Cole: Anuncio de MBAR en las reuniones del comité;</dd>
 
             <dd>i. Instalaciones: Sally: No hay informe; patrón de espera por ahora;</dd>
 

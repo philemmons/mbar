@@ -61,7 +61,7 @@
 
             <dd>h. Eventos: Samantha: seguro asegurado; eventos potenciales para MBAR: se incluyó un cronograma prototipo;</dd>
 
-            <dd>i. IGR/GSR: Cole: sin informe;</dd>
+            <dd>i. I.G.R. / G.S.R.: Cole: sin informe;</dd>
 
             <dd>j. Reuniones de maratón: Mark: 11 reuniones de sábado y 3 de domingo; es posible que sea necesario agregar más reuniones según el programa actualizado; Naomi proporciona una copia del programa;</dd>
 

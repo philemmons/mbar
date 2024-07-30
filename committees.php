@@ -154,7 +154,7 @@ include_once 'header-bottom.inc'
                                     <td>Olya O.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Alateen Co-Chair</th>
+                                    <th scope="row">Alateen Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Concetta C./ Marge S.</td>
@@ -166,7 +166,7 @@ include_once 'header-bottom.inc'
                                     <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Al-Anon Fundraising Co-Chair</th>
+                                    <th scope="row">Al-Anon Fundraising Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
@@ -196,7 +196,7 @@ include_once 'header-bottom.inc'
                                     <td>Yuliana</td>
                                 </tr>
                                 <tr class="table-warning">
-                                    <th scope="row">Al-Anon Speaker Co-Chair</th>
+                                    <th scope="row">Al-Anon Speaker Chair</th>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                     <td>Susan A. / Su C.</td>
@@ -220,7 +220,7 @@ include_once 'header-bottom.inc'
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 27 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
+                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 28 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -253,7 +253,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Dance Chair</th>
                                     <td>--</td>
                                     <td>Chris T.</td>
-                                    <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Decorations Chair</th>
@@ -263,9 +263,9 @@ include_once 'header-bottom.inc'
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Dinner Chair</th>
-                                    <td>Joanie</td>
-                                    <td>Aubrey</td>
-                                    <td>Aubrey</td>
+                                    <td>Joanie D.</td>
+                                    <td>Aubrey G.</td>
+                                    <td>Aubrey G.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Events Chair</th>
@@ -274,13 +274,13 @@ include_once 'header-bottom.inc'
                                     <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Facilites Chair</th>
+                                    <th scope="row">Facilities Chair</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
-                                    <td>--</td>
+                                    <td>Mark F.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">GSR Liaison</th>
+                                    <th scope="row">G.S.R. Liaison</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
                                     <td>Cole</td>
@@ -307,7 +307,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Ice Cream Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>--</td>
+                                    <td>Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Literature Chair</th>
@@ -328,7 +328,13 @@ include_once 'header-bottom.inc'
                                     <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Outreach Co-Chair</th>
+                                    <th scope="row">Non Profit Chair</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Outreach Chair</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
@@ -346,7 +352,7 @@ include_once 'header-bottom.inc'
                                     <td>Nick K. / Trevor F.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Social Media Co-Chair</th>
+                                    <th scope="row">Social Media Chair</th>
                                     <td>--</td>
                                     <td>Chris T. / Victoria M.</td>
                                     <td>Gina H. / Sean B.</td>

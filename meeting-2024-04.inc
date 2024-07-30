@@ -51,7 +51,7 @@
 
             <dd>g. Outreach - Conor: Not Present; Re-send revised registration form to Central Offices in Monterey, San Francisco, Los Angeles;</dd>
 
-            <dd>h. IGR/GSR - Cole: No Report;</dd>
+            <dd>h. I.G.R. / G.S.R. - Cole: No Report;</dd>
 
             <dd>i. Marathon Meetings - Mark: Coordinating with Al-Anon;</dd>
 

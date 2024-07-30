@@ -44,7 +44,7 @@
 
             <dd>e. Camiseta - Kevin: consulte la encuesta a continuación; Las camisetas recomendadas por el comité serán de un color diferente; Considere tazas de viaje, botellas de agua, gorras, etc.;</dd>
 
-            <dd>f. IGR/GSR - Cole: Anuncio de MBAR en las reuniones del comité;</dd>
+            <dd>f. I.G.R. / G.S.R. - Cole: Anuncio de MBAR en las reuniones del comité;</dd>
 
             <dd>g. Instalaciones - Sally: Sin informe;</dd>
 

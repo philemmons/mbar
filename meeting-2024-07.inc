@@ -63,7 +63,7 @@
 
             <dd>h. Events - Samantha: Insurance secured; Potential Events for MBAR - included a prototype schedule;</dd>
 
-            <dd>i. IGR/GSR - Cole: No report;</dd>
+            <dd>i. I.G.R. / G.S.R. - Cole: No report;</dd>
 
             <dd>j. Marathon Meetings - Mark: 11 Saturday and 3 Sunday meetings; May need to add more meetings based on updated program; Naomi provide a copy of the program;</dd>
 

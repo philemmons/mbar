@@ -50,7 +50,7 @@
 
             <dd>g. Alcance - Conor: No presente; Vuelva a enviar el formulario de registro revisado a las oficinas centrales en Monterey, San Francisco, Los Ángeles;</dd>
 
-            <dd>h. IGR/GSR - Cole: Sin informe;</dd>
+            <dd>h. I.G.R. / G.S.R. - Cole: Sin informe;</dd>
 
             <dd>i. Reuniones maratónicas - Mark: Coordinando con Al-Anon;</dd>
 

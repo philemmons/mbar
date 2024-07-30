@@ -19,7 +19,7 @@
             <dt>5. Approve/Amend Minutes from the last meeting: Approved;</dt>
 
             <dt>6. Chairperson's Report - Chris T.: Thank you all for your attendance at our regularly scheduled Committee meeting. I am very aware we have responsibilities; I have many as well, these meetings have been planned in advance to support planning and scheduling for your required attendance especially if you hold a committee chair position. . These next few months are meetings that will be targeted to have your attention and support with the planning, communicating, and orchestrating/organizing the 2024 MBAR conference. To ensure we have a productive meeting please be respectful of the decisions we have already made and voted upon as to keep the focus on the items that are still needing planning.
-            <br><br>
+                <br><br>
                 We only have 3 meetings before our 2024 conference and so I am needing to be sure if you are a committee chair, communication is streamlined, and we are all in close contact with one another to have the planning and execution of time sensitive tasks as swift as possible. Next month we will have a program of the event outlined as we now have a filled Events Chairperson.
                 <br><br>
                 Registration in the next couple months is very dependent on our estimation of cost of goods for dinner and supplies. We have a few local events that need to be well attended by the committee and registration tables will need to be manned to have members of our Fellowship Pre-Register with ease as well as have our Gratitude translate to them for making the decision to support and join us.
@@ -52,7 +52,7 @@
 
             <dd>h. Events - Samantha: Researching insurance companies - no luck so far; Potential Events for MBAR - Trivia, Bingo, Board Games, Corn Hole</dd>
 
-            <dd>i. IGR/GSR - Cole: Attending meetings and announcing MBAR;</dd>
+            <dd>i. I.G.R. / G.S.R. - Cole: Attending meetings and announcing MBAR;</dd>
 
             <dd>j. Marathon Meetings - Mark: No report;</dd>
 

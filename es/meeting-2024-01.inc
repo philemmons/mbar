@@ -41,7 +41,7 @@
 
             <dd>e. Camiseta - Kevin: Amplia discusión sobre camisetas, tazas de viaje y gorras; Discusión en la mesa hasta la próxima reunión: Chris y Phillip desarrollan una encuesta en línea;</dd>
 
-            <dd>f. IGR/GSR - Cole: Anunciar MBAR en las reuniones del comité; Sin informe;</dd>
+            <dd>f. I.G.R. / G.S.R. - Cole: Anunciar MBAR en las reuniones del comité; Sin informe;</dd>
 
             <dd>g. Instalaciones - Sally: Recibió 24 respuestas a la encuesta; Necesitamos tener en cuenta los requisitos del impuesto sobre las ventas si vendemos mercancías en el centro de conferencias;</dd>
 

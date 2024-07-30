@@ -41,7 +41,7 @@
 
             <dd>e. T-Shirt - Kevin: Extensive discussion about T-shirts, Travel Mugs, and Ball Caps; Table discussion until next meeting - Chris and Phillip develop an on-line poll;</dd>
 
-            <dd>f. IGR/GSR - Cole: Announcing MBAR at committee meetings; No report;</dd>
+            <dd>f. I.G.R. / G.S.R. - Cole: Announcing MBAR at committee meetings; No report;</dd>
 
             <dd>g. Facilities - Sally: Received 24 responses to the survey; Need to be aware of sales tax requirements if we sell merchandise at the conference center;</dd>
 

@@ -49,7 +49,7 @@
 
             <dd>g. Outreach - Conor: Announcing St Patrick's day; Reached out to Central offices Monterey, San Francisco, Los Angeles; Plan to attend Salinas Meetings - requested feedback on meetings that are well attended; Christina reminded committee members that we all have some responsibility for outreach;</dd>
 
-            <dd>h. IGR/GSR - Cole: Announcing MBAR at committee meetings;</dd>
+            <dd>h. I.G.R. / G.S.R. - Cole: Announcing MBAR at committee meetings;</dd>
 
             <dd>i. Facilities- Sally: No report - holding pattern for now;</dd>
 

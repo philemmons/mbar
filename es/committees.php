@@ -219,7 +219,7 @@ include_once 'header-bottom.inc'
                     <section aria-label="Presidentes de comités">
                         <h3 class="fw-bold">Presidentes de comités</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 27 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
+                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 28 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -231,40 +231,40 @@ include_once 'header-bottom.inc'
 
                             <tbody class="table-group-divider">
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente de registro</th>
+                                    <th scope="row">Presidente de la Inscripción</th>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Barbacoa</th>
+                                    <th scope="row">Presidente de la Barbacoa</th>
                                     <td>Joanie</td>
                                     <td>--</td>
-                                    <td>--</td>
+                                    <td>Matt R.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Desayuno</th>
+                                    <th scope="row">Presidente del Desayuno</th>
                                     <td>Joanie D.</td>
                                     <td>Renee N.</td>
                                     <td>Joanie D.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Baile</th>
+                                    <th scope="row">Presidente del Baile</th>
                                     <td>--</td>
                                     <td>Chris T.</td>
-                                    <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla Decoraciones</th>
+                                    <th scope="row">Presidente de Decoraciones</th>
                                     <td>Hilda P.</td>
                                     <td>Hilda P.</td>
                                     <td>--</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Cena</th>
-                                    <td>Joanie</td>
-                                    <td>Aubrey</td>
-                                    <td>Aubrey</td>
+                                    <th scope="row">Presidente de la Cena</th>
+                                    <td>Joanie D.</td>
+                                    <td>Aubrey G.</td>
+                                    <td>Aubrey G.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Eventos</th>
@@ -276,16 +276,16 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Presidente de Instalaciones</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
-                                    <td>--</td>
+                                    <td>Mark F.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Enlace RSG</th>
+                                    <th scope="row">Enlace de G.S.R.</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
                                     <td>Cole</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Enlace de H&I</th>
+                                    <th scope="row">Enlace de H&amp;I</th>
                                     <td>Michael R.</td>
                                     <td>Michael R.</td>
                                     <td>--</td>
@@ -297,25 +297,25 @@ include_once 'header-bottom.inc'
                                     <td>Jennifer G.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Anfitrión</th>
+                                    <th scope="row">Anfitriona</th>
                                     <td>Phil C.</td>
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Helado Social</th>
+                                    <th scope="row">Social de Helados</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
-                                    <td>--</td>
+                                    <td>Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Cátedra de Literatura</th>
+                                    <th scope="row">Presidenta de Literatura</th>
                                     <td>Monica P.</td>
                                     <td>May H.</td>
                                     <td>May H.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente de Reuniones Maratonianas</th>
+                                    <th scope="row">Presidenta de Reuniones de Maratón</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
@@ -327,49 +327,55 @@ include_once 'header-bottom.inc'
                                     <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Copresidente de Divulgación</th>
+                                    <th scope="row">Presidente de Organizaciones sin Fines de Lucro</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Presidente de Difusión</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Rifa</th>
+                                    <th scope="row">Presidente de Rifas</th>
                                     <td>Esther F.</td>
                                     <td>Katherine J.</td>
                                     <td>Katherine J.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Servicio de Transporte</th>
+                                    <th scope="row">Presidente del Servicio de Transporte</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
                                     <td>Nick K. / Trevor F.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Copresidente de Redes Sociales</th>
+                                    <th scope="row">Presidente de Redes Sociales</th>
                                     <td>--</td>
                                     <td>Chris T. / Victoria M.</td>
                                     <td>Gina H. / Sean B.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Spanish Community</th>
+                                    <th scope="row">Comunidad Hispana</th>
                                     <td>--</td>
                                     <td>Eric M.</td>
                                     <td>Robert</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente del Orador</th>
+                                    <th scope="row">Presidente del Grupo de Oradores</th>
                                     <td>Brady S.</td>
                                     <td>Mark B.</td>
                                     <td>Kathleen S.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Presidente del Orador (Al-Anon)</th>
+                                    <th scope="row">Presidente del Grupo de Oradores (Al-Anon)</th>
                                     <td>--</td>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Camisetas Silla</th>
+                                    <th scope="row">Presidente del Grupo de Remeras</th>
                                     <td>---.</td>
                                     <td>Charly F.</td>
                                     <td>Kevin P.</td>
@@ -381,13 +387,13 @@ include_once 'header-bottom.inc'
                                     <td>Phillip E.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Bienvenido &amp; Silla Social</th>
+                                    <th scope="row">Presidente de Bienvenida y Socialización</th>
                                     <td>---</td>
                                     <td>Arthur T.</td>
                                     <td>Arthur T.</td>
                                 </tr>
                                 <tr class="table-primary">
-                                    <th scope="row">Silla de Jóvenes</th>
+                                    <th scope="row">Presidente de los Jóvenes</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>

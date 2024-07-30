@@ -58,7 +58,7 @@
 
             <dd>h. Eventos - Samantha: Seguro asegurado; Eventos potenciales para MBAR;</dd>
 
-            <dd>i. IGR/GSR - Cole: Sin informe;</dd>
+            <dd>i. I.G.R. / G.S.R. - Cole: Sin informe;</dd>
 
             <dd>j. Reuniones de maratón - Mark: Sin informe;</dd>
 

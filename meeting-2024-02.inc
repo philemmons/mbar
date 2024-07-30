@@ -44,7 +44,7 @@
 
             <dd>e. T-Shirt - Kevin: See polling below; Recommended committee t-shirts be a different color; Consider travel mugs, water bottles, ball caps, etc.;</dd>
 
-            <dd>f. IGR/GSR - Cole: Announcing MBAR at committee meetings;</dd>
+            <dd>f. I.G.R. / G.S.R. - Cole: Announcing MBAR at committee meetings;</dd>
 
             <dd>g. Facilities - Sally: No report;</dd>
 
