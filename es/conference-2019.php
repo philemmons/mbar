@@ -578,14 +578,14 @@ include_once 'header-bottom.inc'
                             <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                                 <br>
                                 <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF">
-                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p89<span class="sr-only">(Abre una nueva ventana)</span></a>
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Libro Grande p89<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                             </p>
                             <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer el compañerismo hablar sobre ti, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
                             </p>
                             <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrarás liberación de preocupaciones, aburrimiento y preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también.
                                 <br>
                                 <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
-                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;">Libro Grande p152<span class="sr-only">(Abre una nueva ventana)</span></a>
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Libro Grande p152<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                             </p>
                             <p class="sr-only">(Este es el párrafo de la página 152 anterior). "Sí, hay un sustituto y es muchísimo más que eso. Es una comunidad de Alcohólicos Anónimos. Allí encontrará la liberación de El cuidado, el aburrimiento y la preocupación se dispararán. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por delante. Así encontraremos la comunión, y tú también.
                             </p>
