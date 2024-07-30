@@ -7,26 +7,26 @@
     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body d-grid gap-3">
 
-            <!-- <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/12-9-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 12/09/2023</button> -->
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/11-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 11/11/2023</button>
+            <!-- <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/12-9-23.pdf">Abre un PDF: 12/09/2023</a> -->
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/11-11-23.pdf">Abre un PDF: 11/11/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/10-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 10/14/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/10-14-23.pdf">Abre un PDF: 10/14/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/9-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 09/09/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/9-10-23.pdf">Abre un PDF: 09/09/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/8-12-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 08/12/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/8-12-23.pdf">Abre un PDF: 08/12/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/6-10-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 06/10/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/6-10-23.pdf">Abre un PDF: 06/10/2023</a>
 
-            <!-- <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/5-13-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 05/13/2023</button> -->
+            <!-- <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/5-13-23.pdf">Abre un PDF: 05/13/2023</a> -->
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/4-8-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 04/08/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/4-8-23.pdf">Abre un PDF: 04/08/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/3-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 03/11/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/3-11-23.pdf">Abre un PDF: 03/11/2023</a>
 
-            <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/2-11-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 02/11/2023</button>
+            <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/2-11-23.pdf">Abre un PDF: 02/11/2023</a>
 
-            <!-- <button type="button" class="btn btn-outline-primary btn-sm" onclick="window.open('../pdf/2023/1-14-23.pdf', 'Sage200Demo', 'width=900,height=768,status=0,resizable=0');return false;">Abre un PDF: 01/14/2023</button> -->
+            <!-- <a class="btn btn-outline-primary btn-sm" href="../pdf/2023/1-14-23.pdf">Abre un PDF: 01/14/2023</a> -->
         </div>
     </div>
 </div>
