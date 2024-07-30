@@ -104,7 +104,7 @@ include_once 'header-bottom.inc'
                                         ¡El folleto en PDF estará disponible pronto!
                                    </p> -->
 
-                                   <!-- <a class="btn btn-primary btn-sm" href="../pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto</a>
+                                   <!-- <a class="btn btn-primary btn-sm" href="../pdf/softball-fellowship-event.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                    -->
 
                               </section>

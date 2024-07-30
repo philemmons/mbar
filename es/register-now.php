@@ -741,7 +741,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p>O envíe su formulario completo por correo electrónico a nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Registro</a>
                             </p>
-                            <p><a class="btn btn-primary btn-sm" href="../pdf/formulario-registro-mbar-es.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024</a>
+                            <p><a class="btn btn-primary btn-sm" href="../pdf/formulario-registro-mbar-es.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Formulario de Registro MBAR 2024<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                             </p>
                             <p>Si tiene alguna pregunta, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Comité Directivo</a>
                             </p>
