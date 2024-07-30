@@ -99,7 +99,7 @@ include_once 'header-bottom.inc'
                                         Once again, thank you all.
                                    </p>
 
-                                   <!-- <button type="button" class="btn btn-primary btn-sm" onclick="window.open('pdf/softball-fellowship-event.pdf', 'Sage200Demo', 'width= 900, height= 768, status= 0, resizable= 0');return false;"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> View and Download the Flier</button> -->
+                                   <!-- <a class="btn btn-primary btn-sm" href="pdf/softball-fellowship-event.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">View and Download the Flier</a> -->
 
                               </section>
                          </div>
