@@ -75,7 +75,7 @@ include_once 'header-bottom.inc'
                 <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Monthly meeting schedule">
-                        <h3 class="card-title text-center mb-3 px-sm-3"><em>As MBAR approaches, we have scheduled additional meetings at10:00am for 1.5 hours.</em></h3>
+                            <h3 class="card-title text-center mb-3 px-sm-3"><em>As MBAR approaches, we have scheduled additional meetings at 10:00am for 1.5 hours.</em></h3>
                         </section>
                         <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
                             <strong>Password</strong>: 2024
@@ -97,7 +97,16 @@ include_once 'header-bottom.inc'
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
-                            
+
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#july2024" aria-expanded="false" aria-controls="july2024">July 13th</button>
+                                </h4>
+
+                                <?php include 'meeting-2024-07.inc'; ?>
+
+                            </div>
+
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#june2024" aria-expanded="false" aria-controls="june2024">June 8th</button>

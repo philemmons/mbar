@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Programa de reuniones mensuales">
                             <h3 class="card-title text-center mb-3 px-sm-3"><em>
-                            A medida que se acerca el MBAR, hemos programado reuniones adicionales a las 10:00 a. m. durante 1,5 horas.</em></h3>
+                                    A medida que se acerca el MBAR, hemos programado reuniones adicionales a las 10:00 a. m. durante 1,5 horas.</em></h3>
                         </section>
                         <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
                             <strong>Contraseña</strong>: 2024
@@ -99,6 +99,15 @@ include_once 'header-bottom.inc'
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
+
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#july2024" aria-expanded="false" aria-controls="july2024">13 de Julio</button>
+                                </h4>
+
+                                <?php include 'meeting-2024-07.inc'; ?>
+
+                            </div>
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
