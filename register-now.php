@@ -83,7 +83,7 @@ include_once 'header-bottom.inc'
                             <p>Register by <strong>July 31st</strong> and not only will you <strong>save $5</strong> on your registration fee, but <strong>$1</strong> from your payment will go towards our 50/50 drawing, happening on Saturday night! By signing up early, you'll not only get a discount, but you'll also help us prepare for a seamless event experience Your prompt registration shows your enthusiasm and commitment to MBAR, and we appreciate it!
                             </p>
                             <p class="text-center">Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
-                                <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to MBAR, P.O. Box 1462, Monterey, CA 93942.
+                                <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. If you are paying for <i>more</i> than one person, add their name(s) in the note section. Please make your check payable to MBAR, and mail it to MBAR, Attn: Naomi B., P.O. Box 1462, Monterey, CA 93942.
                             </p>
                             <p class="text-center">After registering, you should get an email with your selections and the total amount due. Please do not refresh the webpage. If your email fails to arrive, check your spam folder, or contact the <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin</a>.</p>
                             </p>
@@ -676,10 +676,16 @@ include_once 'header-bottom.inc'
                         </h3>
                         <p><strong>Please add your registration name in the payment. If you are paying for <i>more</i> than one person, add their name(s) in the note section.</strong>
                         </p>
+
                         <p class="bb-link">Remember: Your payment completes your registration!
                         </p>
+
+                        <p>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to MBAR, Attn: Naomi B., P.O. Box 1462, Monterey, CA 93942.
+                        </p>
+
                         <p>The QR codes below require the mobile apps.
-                        <p>
+                        </p>
+                        
                         <p><strong>Helpful Tip</strong>: PayPal's qrCode brings you to the login screen. After logging in, click on the qrCode icon at the top right, next to the user icon, and then scan the qrCode again for the MBAR payment prompt. If you need some assistance with making a payment, please contact our <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">SysAdmin</a>.
                         </p>
                         <div class="row justify-content-center">
