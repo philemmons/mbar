@@ -458,10 +458,11 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-lg-12">
                                     <p class="h5"> À la carte Meal Options - If you prefer to purchase meals individually, please select from the following options.</p>
+
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
+                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25<br>Available for purchase up to the date of the event</label>
                                     <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
@@ -474,7 +475,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase until August 17th</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
@@ -487,7 +488,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4 pb-4">
-                                    <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
+                                    <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5<br>Available for purchase until the ice cream runs out!</label>
                                     <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
@@ -538,7 +539,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-md-8">
                                     <p class="h5">2024 Commemorative T-Shirts will be available at the conference.</p>
                                     <ul>
-                                        <li>They cost $15 each, and we have limited quantities from Small to 3X-Large for you.
+                                        <li>They cost $15 each, and we have limited quantities from Small to 3X-Large.
                                         </li>
 
                                         <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
