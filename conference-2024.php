@@ -123,7 +123,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10">
                                     50/50 Drawing
                                     <br>
-                                    Immediately Following Speaker Meeting
+                                    (Immediately Following Speaker Meeting)
                                 </div>
                             </div>
                         </section>
@@ -391,7 +391,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-12">
+                                <div class="col-sm-12 text-start">
                                     <strong>Δ Location of Event is different than conference site</strong>
                                 </div>
 
