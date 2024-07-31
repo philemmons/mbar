@@ -407,24 +407,27 @@ include_once 'header-bottom.inc'
         <aside aria-label="Check-in info">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration for 2024 is now Live!">
-                        <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
-                            <br><br>
-                            For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
-                        </p>
-                        <p>
-                            Δ Location of Event is different than conference site
-                            <br><br>
-                            <strong>Host of MBAR 2024:</strong> Cindy A. - MBAR Steering Committee
-                            <br>
-                            <strong>Chairperson:</strong> Chris T. <strong>Co-Chair: Renee C.</strong> 
-                            <br>
-                            <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer: Jean T.</strong> 
-                        </p>
-                        <hr>
-                        <p>See our local A.A. Central Office website
-                            <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer" title="M.B.I.A.A meeting schedule.">www.aamonterey.org<span class="sr-only">(Opens a new window)</span></a> for a current listing of meetings in the area.
-                        </p>
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label="Registration Check In">
+                            <h3 class="card-title mb-3 text-center">Registration Check In</h3>
+                            <p>Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
+                                <br><br>
+                                For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
+                            </p>
+                            <section>
+                                <p>Δ Location of Event is different than conference site
+                                    <br><br>
+                                    <strong>Host of MBAR 2024:</strong> Cindy A.
+                                    <br><br>
+                                    MBAR Steering Committee
+                                    <br>
+                                    <strong>Chairperson:</strong> Chris T.
+                                    <strong>Co-Chair:</strong> Renee C.
+                                    <br>
+                                    <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer:</strong> Jean T.
+                                    <br>
+                                    <strong>Recording Secretary:</strong> Roger M.
+                                </p>
                     </div>
                 </div>
             </div>
@@ -438,8 +441,12 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Describe services">
-                            <h3 class="card-title mb-3 text-center">Conference Services: <span class="text-uppercase">Keep it Simple</span></h3>
-                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
+                            <h3 class="card-title mb-3 text-center">Conference Services: Keep it Simple</h3>
+                            <p><strong>Shuttle service will be available</strong> as to drive from the conference center to the Bethlehem Lutheran Church for the Sunday morning breakfast and the Saturday evening meet the speakers dinner. Go to the registration desk for more information about this complimentary service.
+                            </p>
+                            <hr>
+                            <p>See our local A.A. Central Office website
+                                <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer" title="M.B.I.A.A meeting schedule.">www.aamonterey.org<span class="sr-only">(Opens a new window)</span></a> for a current listing of meetings in the area.
                             </p>
                         </section>
                     </div>
