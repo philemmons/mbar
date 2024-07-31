@@ -57,7 +57,7 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center de Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
+                <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">La Preinscripción está Activa</span>
                     </h2>
                     <p class="mb-6 h4 text-dark">Reunión inicial el 30 de agosto a las 8 pm PST
@@ -82,12 +82,12 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Preinscripción 2024.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Preinscripción 2024</h3>
-                            <p>¡Regístrese antes del 31 de julio y no solo <strong>ahorrará $5</strong> en su tarifa de inscripción, sino que también <strong>$1</strong> de su pago se destinará a nuestro sorteo 50/50, que se realizará el sábado por la noche! Si se registra temprano, no solo obtendrá un descuento, sino que también nos ayudará a preparar una experiencia de evento perfecta. ¡Su registro rápido demuestra su entusiasmo y compromiso con MBAR, y lo apreciamos!
+                            <p>Si te registras con anticipación, nos ayudarás a prepararte para que tu experiencia en el evento sea perfecta. Tu registro nos demuestra tu entusiasmo y compromiso con MBAR, ¡y lo agradecemos! ¡$1 de tu pago se destinará a nuestro sorteo 50/50 del sábado por la noche! Si pagas por <i>más</i> de una persona, agrega sus nombres en la sección de notas.
                             </p>
-                            <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> a continuación para realizar el pago que complete su registro.
-                                <br><br>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Si paga por <i>más</i> de una persona, agregue sus nombres en la sección de notas. Haga el cheque a nombre de MBAR y envíelo por correo a
+                            <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que complete su registro.
+                                <br><br>Puede pagar su registro en línea con <strong>cheque</strong> en lugar de hacerlo con Venmo o PayPal. Haga su cheque a nombre de MBAR y envíelo por correo a
                                 <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
-                                <br>Attn: Naomi B.
+                                <br>A la atención de Naomi B.
                                 <br>P.O. Box 1462
                                 <br>Monterey, CA 93942
                             </p>
@@ -125,6 +125,12 @@ include_once 'header-bottom.inc'
                 $status = 'error';
 
                 if (isset($_POST['submit'])) {
+
+                    $_POST['myRegistration'] = htmlspecialchars('after');
+                    $_POST['earlyBirdMealBundle'] = htmlspecialchars('no');
+                    $_POST['shirtQuantity'] = htmlspecialchars(0);
+                    $_POST['shirtSize'] = htmlspecialchars('none');
+
                     $postData = $_POST;
 
                     if (!isset($_POST['shirtQuantity']) || !array_key_exists('shirtQuantity', $_POST)) {
@@ -230,7 +236,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = '¡Gracias! Su preinscripción se inició y le ayudará con la planificación y preparación del evento. Se le ha enviado una copia de su formulario de inscripción por correo electrónico.<br><span class="fw-bold">Recuerde: su inscripción no estará completa hasta que se haya realizado el <a href="#payment-now">pago</a>.</span>';
+                                $statusMsg = '¡Gracias! Su registro se inició y le ayudará con la planificación y preparación del evento. Se le ha enviado una copia de su formulario de registro por correo electrónico.<br><span class="fw-bold">Recuerde: su registro no estará completo hasta que se haya realizado el <a href="#payment-now">pago</a>.</span>';
                                 $postData = '';
 
                                 regFormData($total, $lang);
@@ -430,104 +436,91 @@ include_once 'header-bottom.inc'
                                     <p class="h5">Registro (Requerido)</p>
                                     <span class="sr-only">(Utilice las teclas de flecha para hacer su elección)</span>
                                     <div class="form-check">
-                                        <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="early-registration">Inscripción Anticipada (Antes del 31 de Julio de 2024) - $45</label>
+                                        <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" disabled required>
+                                        <label class="form-check-label" for="early-registration">Inscripción Anticipada (Antes del 31 de Julio de 2024) - Cerrada</label>
                                     </div>
                                     <div class="form-check mb-3">
-                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="normal-registration">Registro (Después del 31 de Julio de 2024) - $50</label>
+                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" checked required>
+                                        <label class="form-check-label" for="normal-registration">Inscripción (Después del 31 de Julio de 2024): $50</label>
                                         <div class="invalid-feedback">
-                                            Requerido, por favor marque uno.
+                                            Requerido.
                                         </div>
                                     </div>
                                     <ul>
-                                        <li>Regístrese antes del 31 de julio y $1.00 de su registro se destinará al sorteo 50/50 que se realizará el sábado por la noche.</li>
-                                        <li>Saturday Night Dance es gratis con tu registro pago.</li>
+                                        <li>Regístrese ahora y $1.00 de su inscripción se destinará al sorteo 50/50 que se realizará el sábado por la noche.</li>
+                                        <li>El baile del sábado por la noche es gratuito con su inscripción paga.</li>
                                     </ul>
                                 </div>
 
                                 <div class="col-lg-7 pb-4">
-                                    <p class="h5">Actualmente se requiere inscripción previa para las comidas.</p>
+                                    <p class="h5">Las opciones de comidas a la carta aún están abiertas y la preinscripción para el paquete de comidas Early Bird está cerrada actualmente.</p>
                                     <ul>
-                                        <li>El Comité MBAR recomienda el paquete de comidas para madrugadores, que incluye un ahorro de $5 con respecto a la opción a la carta.
-                                        </li>
                                         <li>Desayuno y cena continental en la Iglesia Luterana Bethlehem, 800 Cass Street, Monterey
                                         </li>
-                                        <li>Ice Cream Social se llevará a cabo en el Centro de Conferencias en Stevenson Terrace
+                                        <li>La fiesta de helados se llevará a cabo en el Centro de conferencias en Stevenson Terrace
                                         </li>
                                     </ul>
-
-                                    <label for="earlyBirdMealBundle" class="reg-form-label">Paquete de comidas para madrugadores (Cena, Desayuno y Evento Social con Helado) - $35 </label>
-                                    <select class="form-select" name="earlyBirdMealBundle" id="earlyBirdMealBundle" onChange="optionEBMB(this)" required>
-                                        <option selected disabled value="">Elegir...</option>
-                                        <option value="yes">¡Sí, por favor!</option>
-                                        <option value="no">No Gracias</option>
-                                        <option value="undecided" disabled>Sigo decidiendo</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Requerido, por favor seleccione uno.
-                                    </div>
                                 </div>
 
                                 <div class="col-lg-12">
-                                    <p class="h5"> Opciones de comidas a la carta: si prefiere comprar comidas individualmente, seleccione entre las siguientes opciones.</p>
+                                    <p class="h5">Opciones de comidas a la carta: si prefiere comprar comidas individualmente, seleccione una de las siguientes opciones.</p>
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Cena con el orador (Sábado por la Noche a las 5:00pm) - $25</label>
-                                    <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Elige...</option>
+                                    <label for="meetTheSpeakerDinner" class="reg-form-label"><strong>Cena para conocer al orador</strong> (sábado por la noche a las 5:00 p. m.) - $25<br>Disponible para comprar hasta la fecha del evento</label>
+                                    <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
+                                        <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
-                                        <option value="no">No Gracias</option>
-                                        <option value="undecided">Sigo decidiendo</option>
+                                        <option value="no">No, gracias</option>
+                                        <option selected value="undecided">Aún no lo estoy decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Requerido, por favor seleccione uno.
+                                        Obligatorio, seleccione una opción.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Desayuno continental redondo (Domingo de 8:00am a 9:30am) - $10</label>
-                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Elige...</option>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label pb-xl-4"><strong>Desayuno continental Round-Up</strong> (domingo de 8:00 a 9:30 a. m.) - $10<br>Disponible para comprar hasta el 17 de agosto</label>
+                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" required>
+                                        <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
-                                        <option value="no">No Gracias</option>
-                                        <option value="undecided">Sigo decidiendo</option>
+                                        <option value="no">No, gracias</option>
+                                        <option selected value="undecided">Aún no lo sé</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Requerido, por favor seleccione uno.
+                                        Obligatorio, seleccione una opción.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-4 pb-4">
-                                    <label for="iceCreamSocial" class="reg-form-label">Social de Helados (Domingo por la tarde de 3:00pm a 4:00pm) - $5</label>
-                                    <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" onChange="optionCHANGE()" required>
-                                        <option selected disabled value="">Elige...</option>
+                                    <label for="iceCreamSocial" class="reg-form-label"><strong>Ice Cream Social</strong> (domingo por la tarde de 15:00 a 16:00 h) - $5<br>¡Disponible para comprar hasta que se acabe el helado!</label>
+                                    <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" required>
+                                        <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
-                                        <option value="no">No Gracias</option>
-                                        <option value="undecided">Sigo decidiendo</option>
+                                        <option value="no">No, gracias</option>
+                                        <option selected value="undecided">Aún no lo sé</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Requerido, por favor seleccione uno.
+                                        Obligatorio, seleccione una opción.
                                     </div>
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <label for="saturdayNightDance" class="reg-form-label">Baile del Sábado por la Noche en el centro de conferencias (GRATIS con inscripción paga o $5 en la puerta)</label>
+                                    <label for="saturdayNightDance" class="reg-form-label">Baile del sábado por la noche en el centro de conferencias (GRATIS con inscripción paga o $5 en la puerta)</label>
                                     <select class="form-select" name="saturdayNightDance" id="saturdayNightDance">
-                                        <option selected disabled value="">Elige...</option>
-                                        <option value="yes">¡Usaré mis zapatos de baile!</option>
-                                        <option value="no">No bailo...JaJa</option>
-                                        <option value="undecided">Sigo decidiendo</option>
+                                        <option disabled value="">Elegir...</option>
+                                        <option selected value="yes">¡Usaré mis zapatos de baile!</option>
+                                        <option value="no">No bailo... LOL</option>
+                                        <option value="undecided">Todavía estoy decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Opcional, seleccione uno.
+                                        Opcional, seleccione una opción.
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <label for="helpingHandContribution" class="reg-form-label">Contribución de mano amiga, considere hacer una contribución para garantizar que todos los que deseen asistir puedan hacerlo.</label>
+                                    <label for="helpingHandContribution" class="reg-form-label">Contribución a Helping Hand, considere hacer una contribución para garantizar que todos los que deseen asistir puedan hacerlo.</label>
                                     <select class="form-select" name="helpingHandContribution" id="helpingHandContribution">
-                                        <option selected disabled value="">Elige...</option>
+                                        <option selected disabled value="">Elija...</option>
                                         <option value="5">$5</option>
                                         <option value="10">$10</option>
                                         <option value="20">$20</option>
@@ -536,7 +529,7 @@ include_once 'header-bottom.inc'
                                         <option value="50">$50</option>
                                         <option value="100">$100</option>
                                         <option value="other">Otro</option>
-                                        <option value="no thank you">No gracias</option>
+                                        <option value="no thank you">No, gracias</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Opcional, ingrese su contribución.
@@ -546,84 +539,38 @@ include_once 'header-bottom.inc'
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Mercancías</legend>
+                            <legend>Artículos promocionales</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                    <p class="h5">Reserva tu camiseta conmemorativa 2024 hasta el 31 de Julio.</p>
+                                    <p class="h5">En la conferencia habrá disponibles camisetas conmemorativas de 2024.</p>
                                     <ul>
-                                        <li>Cuestan $15 cada uno y tenemos tallas pequeñas a 3XL disponibles para ti.
+                                        <li>Cuestan $15 cada una y tenemos cantidades limitadas, desde la talla pequeña hasta la 3XL.
                                         </li>
 
-                                        <li>¡MBAR! Use esta ropa favorita de MBAR para el gran evento o simplemente para pasar el rato en la casa.
+                                        <li>¡MBAR! Use esta prenda favorita de MBAR para el gran evento o simplemente para pasar el rato en casa.
                                         </li>
 
-                                        <li>100% Algodón, Logotipo Azul Marino Sólido, Blanco y Dorado, Ligero, Ajuste Clásico, Manga Corta y Dobladillo Inferior con Doble Aguja
+                                        <li>100 % algodón, azul marino liso, logotipo blanco y dorado, ligero, corte clásico, dobladillo inferior y manga corta con doble costura
                                         </li>
                                     </ul>
-                                    <p class="pt-3">Se venderá una cantidad limitada de camisetas en la conferencia. Si no desea uno en este momento, seleccione cantidad cero y continúe completando su registro.
-                                    </p>
 
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Tamaño</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
-                                                <option selected value="none">Elegir...</option>
-                                                <option value="none">Ninguno</option>
-                                                <option value="sm">Pequeño</option>
-                                                <option value="med">Medio</option>
-                                                <option value="lg">Grande</option>
-                                                <option value="xl">XL</option>
-                                                <option value="xxl">XX-Grande</option>
-                                                <option value="3xl">3XL-Grande</option>
-                                                <option value="none">No gracias</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Opcional, por favor ingresa tu talla
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <label for="shirtQuantity" class="reg-form-label">Qcantidad </label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" disabled>
-                                                <option selected value=0>Elegir...</option>
-                                                <option value=1>1</option>
-                                                <option value=2>2</option>
-                                                <option value=3>3</option>
-                                                <option value=4>4</option>
-                                                <option value=5>5</option>
-                                                <option value=6>6</option>
-                                                <option value=7>7</option>
-                                                <option value=8>8</option>
-                                                <option value=9>9</option>
-                                                <option value=10>10</option>
-                                                <option value=11>11</option>
-                                                <option value=12>12</option>
-                                                <option value=13>13</option>
-                                                <option value=14>14</option>
-                                                <option value=15>15</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Opcional, por favor ingrese su cantidad
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="col-md-4 pt-3">
-                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
+                                    <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Camiseta azul marino con logotipo dorado y blanco.">
                                 </div>
                             </div>
                         </fieldset>
 
                         <fieldset class="text-bg-light pb-3 mb-3">
-                            <legend>Términos de Servicios</legend>
+                            <legend>Condiciones de servicio</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-6">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" name="paymentCheckBox" id="paymentCheckBox" value="1" required>
                                         <label class="form-check-label" for="paymentCheckBox">
-                                            Acepto los términos de servicio Y <strong>entiendo que el registro está incompleto hasta que se pague.</strong>(Requerido)
-                                            <span class="sr-only">(Pulsa la barra espaciadora para aceptar)</span>
+                                            Acepto los términos del servicio Y <strong>entiendo que el registro está incompleto hasta que se realice el pago.</strong>(Obligatorio)
+                                            <span class="sr-only">(Presione la barra espaciadora para aceptar)</span>
                                         </label>
                                         <div class="invalid-feedback">
                                             Obligatorio: debe aceptar antes de enviar.
@@ -632,16 +579,16 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="paymentMethod" class="reg-form-label">Opciones de métodos de pago a continuación (Obligatorio)</label>
+                                    <label for="paymentMethod" class="reg-form-label">Opciones de método de pago a continuación (obligatorio)</label>
                                     <select class="form-select" name="paymentMethod" id="paymentMethod" required>
-                                        <option selected disabled value="">Elige...</option>
+                                        <option selected disabled value="">Elegir...</option>
                                         <option value="venmo">Venmo</option>
-                                        <option value="cash">Dinero</option>
-                                        <option value="check">Controlar</option>
+                                        <option value="cash">Efectivo</option>
+                                        <option value="check">Cheque</option>
                                         <option value="paypal">PayPal</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Requerido, por favor seleccione uno.
+                                        Obligatorio, seleccione uno.
                                     </div>
                                 </div>
                             </div>
@@ -651,18 +598,18 @@ include_once 'header-bottom.inc'
                             <div class="col-md-12 mb-3">
                                 <div class="g-recaptcha" data-sitekey=<?php echo getenv('g-site-key'); ?>></div>
                                 <div id="reCaptcha-warning">
-                                    <strong>Nota</strong>: El formulario se restablecerá si no está marcado.
+                                    <strong>Nota</strong>: El formulario se restablecerá si no se selecciona.
                                 </div>
                             </div>
 
                             <div class="col-md-6 text-center mb-3">
-                                <button type="submit" class="btn btn-primary" name="submit">Enviar Formulario</button>
+                                <button type="submit" class="btn btn-primary" name="submit">Enviar formulario</button>
                             </div>
 
                             <div class="col-md-6 text-center mb-3">
-                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Restablecer Formulario</button>
+                                <button type="reset" class="btn btn-primary" name="reset" value="reset" onclick="return resetFields();" aria-labelledby="reset">Restablecer formulario</button>
                                 <div class="sr-only" id="reset" role="alert" aria-live="assertive" aria-atomic="true">
-                                    <p>(Una ventana emergente confirmará su descanso)</p>
+                                    <p>(Una ventana emergente confirmará el restablecimiento)</p>
                                 </div>
                             </div>
                         </div>
@@ -672,7 +619,6 @@ include_once 'header-bottom.inc'
             </div>
         </div>
     </article>
-
 
     <!-- Part Payment -->
     <article aria-label="Método de pago">
@@ -826,55 +772,25 @@ include_once 'header-bottom.inc'
         })()
     </script>
     <script>
+        // Function to display confirmation message and update live region
         function resetFields() {
-            return confirm("¿Estás seguro de que quieres restablecer todos los campos?");
-        }
-    </script>
-    <script>
-        /**
-         * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
-         */
-        function optionEBMB($obj) {
+            // Display confirmation dialog
+            var confirmMessage = "Are you sure you want to reset all fields?"
+            var confirmed = window.confirm(confirmMessage);
 
-            let myArr = ['meetTheSpeakerDinner', 'roundupContinentalBreakfast', 'iceCreamSocial'];
-
-            myArr.forEach(function($key) {
-                if ($obj.value == "yes" || $obj.value == "undecided")
-                    document.getElementById($key).value = "no";
-            });
-
-        }
-
-        function optionSND($obj) {
-            let snd = document.getElementById("saturdayNightDance");
-            if ($obj.checked)
-                snd.value = "yes";
-            else
-                snd.value = "";
-        }
-
-        function optionCHANGE() {
-            let ebmb = document.getElementById('earlyBirdMealBundle');
-            let mtsd = document.getElementById('meetTheSpeakerDinner');
-            let rucb = document.getElementById('roundupContinentalBreakfast');
-            let ics = document.getElementById('iceCreamSocial');
-
-            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
-                ebmb.value = "no";
-        }
-
-        function optionSHIRT() {
-            let sQua = document.getElementById('shirtQuantity');
-            let sSiz = document.getElementById('shirtSize');
-
-            if (sSiz.value != "none") {
-                sQua.disabled = false;
+            // Update live region based on user's choice
+            var liveRegion = document.getElementById('aria-live');
+            if (confirmed) {
+                liveRegion.textContent = "(The Form Has Been Reset)";
             } else {
-                sQua.disabled = true;
-                sQua.value = 0;
+                liveRegion.textContent = "(Reset Form Cancelled)";
             }
+
+            return confirmed;
+
         }
     </script>
+
     </body>
 
     </html>

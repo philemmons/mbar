@@ -57,7 +57,7 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Registration is Live</span>
                     </h2>
                     <p class="mb-6 h4 text-dark">Kick Off Meeting on August 30th at 8pm PST
@@ -232,7 +232,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Thank you! Your pre-registration was started, and it will assist with event planning and preparation. A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete until <a href="#payment-now">payment has been made</a>.</span>';
+                                $statusMsg = 'Thank you! Your registration was started, and it will assist with event planning and preparation. A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete until <a href="#payment-now">payment has been made</a>.</span>';
                                 $postData = '';
 
                                 regFormData($total, $lang);
