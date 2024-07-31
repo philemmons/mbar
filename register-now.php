@@ -475,7 +475,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase until August 17th</label>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label pb-xl-4">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase until August 17th</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
