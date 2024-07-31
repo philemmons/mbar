@@ -110,6 +110,10 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
+                                    <br>
+                                    ID: <strong>831 4306 2293 </strong>
+                                    <br>
+                                    Password: <strong>2024</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
@@ -117,13 +121,12 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    50/50 Raffle
+                                    9:00pm
                                 </div>
-                                <div class="col-sm-5">
-                                    Zoom Meeting ID: <strong>831 4306 2293 </strong>
-                                </div>
-                                <div class="col-sm-5">
-                                    Zoom Meeting Password: <strong>2024</strong>
+                                <div class="col-sm-10">
+                                    50/50 Drawing
+                                    <br>
+                                    Immediately Following Speaker Meeting
                                 </div>
                             </div>
                         </section>
@@ -373,10 +376,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     6:30pm
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 cell-color">
                                     Prize Raffle Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
