@@ -228,7 +228,7 @@ include_once 'header-bottom.inc'
                                 $headers = "MIME-Version: 1.0" . "\r\n";
                                 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                                 // More headers 
-                                $headers .= 'De: Administrador de Sistemas MBAR<' . $recipientEmail . '>' . "\r\n";
+                                $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
 
                                 $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
