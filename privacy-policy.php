@@ -57,7 +57,7 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-privacy" title="Cyber Security theme with a lock and white gradient.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Privacy Policy and <br>
                             Terms of Service</span>
                     </h2>
@@ -555,7 +555,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
                         <h3 class="fw-bold text-dark px-3 px-md-0">Join us at MBAR 2024
                         </h3>
                         <p class="mb-6 h4 text-dark">Labor Day Weekend, Kick Off Zoom Meeting August 30th, and Live on August 31st and September 1st at the Monterey Conference Center</p>
