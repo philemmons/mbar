@@ -472,7 +472,7 @@ include_once 'header-bottom.inc'
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
                                         <option value="no">No, gracias</option>
-                                        <option selected value="undecided">Aún no lo estoy decidiendo</option>
+                                        <option selected value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Obligatorio, seleccione una opción.
@@ -485,7 +485,7 @@ include_once 'header-bottom.inc'
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
                                         <option value="no">No, gracias</option>
-                                        <option selected value="undecided">Aún no lo sé</option>
+                                        <option selected value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Obligatorio, seleccione una opción.
@@ -498,7 +498,7 @@ include_once 'header-bottom.inc'
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
                                         <option value="no">No, gracias</option>
-                                        <option selected value="undecided">Aún no lo sé</option>
+                                        <option selected value="undecided">Sigo decidiendo</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Obligatorio, seleccione una opción.
