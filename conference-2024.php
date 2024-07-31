@@ -183,7 +183,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. / Al-Anon Speaker Meeting
                                     <br>
-                                    (ASL Interpretation Provided)
+                                    <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker: <strong>Shelly S.</strong>
@@ -214,7 +214,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. Speaker Meeting
                                     <br>
-                                    (ASL Interpretation Provided)
+                                    <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Krystal M., Sacramento, AZ</strong>
@@ -255,10 +255,7 @@ include_once 'header-bottom.inc'
                                     8:00am
                                 </div>
                                 <div class="col-sm-5">
-                                    Fellowship Breakfast and Bingo
-                                </div>
-                                <div class="col-sm-5">
-                                    <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Fellowship Breakfast and Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -298,7 +295,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker Meeting
                                     <br>
-                                    (ASL Interpretation Provided)
+                                    <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Chris W., Redding, CA</strong>
@@ -347,11 +344,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2">
                                     3:00pm
                                 </div>
-                                <div class="col-sm-5">
-                                    Ice Cream Social
-                                </div>
-                                <div class="col-sm-5">
-                                    <strong>2nd Floor Terrace</strong>
+                                <div class="col-sm-10">
+                                    Ice Cream Social - <strong>2nd Floor Terrace</strong>
                                 </div>
 
 
@@ -369,7 +363,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     A.A.Speaker Meeting
                                     <br>
-                                    (ASL Interpretation Provided)
+                                    <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
@@ -380,9 +374,8 @@ include_once 'header-bottom.inc'
                                     6:30pm
                                 </div>
                                 <div class="col-sm-5">
-                                    Raffle Drawing
-                                </div>
-                                <div class="col-sm-5">
+                                    Raffle Drawing - Must be present to win
+                                    <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
@@ -391,7 +384,7 @@ include_once 'header-bottom.inc'
                                     9:00pm
                                 </div>
                                 <div class="col-sm-10">
-                                    Conference Ends
+                                    <strong>Conference Ends Until 2026</strong>
                                 </div>
                             </div>
                         </section>
@@ -405,34 +398,22 @@ include_once 'header-bottom.inc'
     <!-- Part Three -->
 
     <div class="container shadow-wrap">
-        <aside aria-label="Pre-registration">
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration for 2024 is now live!">
-                        <a href="register-now.php" class="btn btn-light btn-lg active" role="button" aria-pressed="true">
-                            <img class="img-fluid" src="../images/button-reg.png" alt="2022 sea otter logo with register here text.">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
         <aside aria-label="Check-in info">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration for 2024 is now open!">
-                        <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events you may have purchased.
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration for 2024 is now Live!">
+                        <p class="text-uppercase">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
                             <br><br>
                             For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
                         </p>
                         <p>
                             Δ Location of Event is different than conference site
                             <br><br>
-                            <strong>Host of MBAR 2022:</strong> May H. - MBAR Steering Committee
+                            <strong>Host of MBAR 2024:</strong> Cindy A. - MBAR Steering Committee
                             <br>
-                            <strong>Chairperson:</strong> Cindy A. <strong>Co-Chair:</strong> Phil C.
+                            <strong>Chairperson:</strong> Chris T. <strong>Co-Chair: Renee C.</strong> 
                             <br>
-                            <strong>Treasurer:</strong> Daylene A. <strong>Co-Treasurer:</strong> Mona S.
+                            <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer: Jean T.</strong> 
                         </p>
                         <hr>
                         <p>See our local A.A. Central Office website
@@ -452,8 +433,6 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Describe services">
                             <h3 class="card-title mb-3 text-center">Conference Services: <span class="text-uppercase">Keep it Simple</span></h3>
-                            <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
-                            </p>
                             <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
                             </p>
                         </section>
@@ -470,7 +449,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Why MBAR?">
-                            <h3 class="card-title mb-3 text-uppercase">Why Do We Have MBAR?</h3>
+                            <h3 class="card-title mb-3 text-uppercase">Why do we have MBAR?</h3>
                             <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
                                 <br>
                                 <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
