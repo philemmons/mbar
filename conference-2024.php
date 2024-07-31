@@ -70,11 +70,11 @@ include_once 'header-bottom.inc'
     <article aria-label="Event registration, reason, location, and unity">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
-                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="Registration Area">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</h3>
-                            <p class="mb-6 h4 text-dark">Join us online on August 30th with a Kick Off Zoom Meeting, or Live on August 31st and September 1st at the Monterey Conference Center.
+                            <p class="mb-6 h4 text-dark">Join us online on August 30th with a Kick Off Zoom Meeting, or live on August 31st and September 1st at the Monterey Conference Center.
                                 <br>
                                 More details to be announced as we get closer!
                             </p>
