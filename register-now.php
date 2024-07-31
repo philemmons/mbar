@@ -435,7 +435,7 @@ include_once 'header-bottom.inc'
                                     </div>
                                     <div class="form-check mb-3">
                                         <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" checked  required>
-                                        <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $55</label>
+                                        <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $50</label>
                                         <div class="invalid-feedback">
                                             Required.
                                         </div>
@@ -462,7 +462,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25<br>Available for purchase up to the date of the event</label>
+                                    <label for="meetTheSpeakerDinner" class="reg-form-label"><strong>Meet The Speaker's Dinner</strong> (Saturday Night @ 5:00pm) - $25<br>Available for purchase up to the date of the event</label>
                                     <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
@@ -475,7 +475,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label pb-xl-4">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase until August 17th</label>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label pb-xl-4"><strong>Round-Up Continental Breakfast</strong> (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase until August 17th</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
@@ -488,7 +488,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4 pb-4">
-                                    <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5<br>Available for purchase until the ice cream runs out!</label>
+                                    <label for="iceCreamSocial" class="reg-form-label"><strong>Ice Cream Social</strong> (Sunday Afternoon @ 3:00pm to 4:00pm) - $5<br>Available for purchase until the ice cream runs out!</label>
                                     <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
