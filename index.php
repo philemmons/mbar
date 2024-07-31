@@ -58,7 +58,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Pre-Registration until July 31st</span>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Registration is Live</span>
                     </h2>
                     <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
@@ -90,9 +90,9 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Pre-Registration
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration is Live
                             </p>
-                            <p class="card-text">Save $5 until July 31st and $1 of your registration will go towards the 50/50 drawing to be held on Saturday night! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
+                            <p class="card-text">Register now and $1 of your registration will go towards the 50/50 drawing to be held on Saturday night! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
                                 <br><br>
                                 The Marathon Meetings are open and do not require registration.
                             </p>

@@ -58,7 +58,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Preinscripción Hasta el 31 de Julio</span>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">El Registro Está en Vivo</span>
                     </h2>
                     <p class="mb-6 h3 text-dark">Fin de semana del Día del Trabajo,<br>Reunión Inaugural por Zoom<br>30 de Agosto y en Vivo el 31 de Agosto y <br>1 de Septiembre en el Centro de Conferencias de Monterey</p>
                     <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Inscripción Previa
                             </p>
-                            <p class="card-text">¡Ahorra $5 hasta el 31 de julio y $1 de tu inscripción se destinará al sorteo 50/50 que se realizará el sábado por la noche! Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
+                            <p class="card-text">¡Regístrese ahora y $1 de su registro se destinará al sorteo 50/50 que se llevará a cabo el sábado por la noche! Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
                                 <br><br>
                                 Las reuniones de maratón están abiertas y no requieren inscripción.
                             </p>
