@@ -117,7 +117,7 @@ include_once 'header-bottom.inc'
                 $bccEmail = getenv('mbar-bcc-email');
 
                 // Change lang variable as needed based on lang reg form
-                $lang = 'en';
+                $lang = 'es';
 
 
                 // If the form is submitted 
