@@ -238,7 +238,7 @@ include_once 'header-bottom.inc'
                                     Fun and Fellowship Dance - Immediately Following Raffle
                                 </div>
 
-                                
+
                             </div>
                         </section>
 
@@ -376,8 +376,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2">
                                     6:30pm
                                 </div>
-                                <div class="col-sm-5">
-                                    Raffle Drawing - Must be present to win
+                                <div class="col-sm-10">
+                                    Prize Raffle Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
