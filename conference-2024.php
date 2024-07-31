@@ -237,6 +237,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10">
                                     Fun and Fellowship Dance - Immediately Following Raffle
                                 </div>
+
+                                
                             </div>
                         </section>
 
@@ -251,10 +253,11 @@ include_once 'header-bottom.inc'
                                     <strong>Registration Opens</strong>
                                 </div>
 
+
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10">
                                     Fellowship Breakfast and Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
