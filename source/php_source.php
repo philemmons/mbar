@@ -50,7 +50,7 @@ function getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss)
      if ($register == "ebr") {
           $amount += 45.0;
      } else {
-          $amount += 50.0;
+          $amount += 55.0;
      }
 
      if ($ebmb == "yes") {

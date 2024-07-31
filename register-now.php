@@ -58,7 +58,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Pre-Registration is open!">
-                    <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Pre-Registration is Live</span>
+                    <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Registration is Live</span>
                     </h2>
                     <p class="mb-6 h4 text-dark">Kick Off Meeting on August 30th at 8pm PST
                         <br><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware
@@ -79,8 +79,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3  text-bg-light hero-text-border" title="Pre-Registration 2024">
                         <section aria-label="Registration-Intro">
-                            <h3 class="card-title text-center mb-3">Pre-Registration 2024</h3>
-                            <p>Register by <strong>July 31st</strong> and not only will you <strong>save $5</strong> on your registration fee, but <strong>$1</strong> from your payment will go towards our 50/50 drawing, happening on Saturday night! By signing up early, you'll not only get a discount, but you'll also help us prepare for a seamless event experience Your prompt registration shows your enthusiasm and commitment to MBAR, and we appreciate it!
+                            <h3 class="card-title text-center mb-3">Registration 2024</h3>
+                            <p>Register by <strong>July 31st</strong> and not only will you <strong>save $10</strong> on your registration fee, but <strong>$1</strong> from your payment will go towards our 50/50 drawing on Saturday night! By signing up early, you'll help us prepare for a seamless event experience. Your registration shows your enthusiasm and commitment to MBAR, and we appreciate it!
                             </p>
                             <p class="text-center">Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
                                 <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. If you are paying for <i>more</i> than one person, add their name(s) in the note section. Please make your check payable to MBAR, and mail it to
@@ -122,6 +122,12 @@ include_once 'header-bottom.inc'
                 $status = 'error';
 
                 if (isset($_POST['submit'])) {
+
+                    $_POST['myRegistration'] = htmlspecialchars('after');
+                    $_POST['earlyBirdMealBundle'] = htmlspecialchars('no');
+                    $_POST['shirtQuantity'] = htmlspecialchars(0);
+                    $_POST['shirtSize'] = htmlspecialchars('none');
+
                     $postData = $_POST;
 
                     if (!isset($_POST['shirtQuantity']) || !array_key_exists('shirtQuantity', $_POST)) {
@@ -426,43 +432,30 @@ include_once 'header-bottom.inc'
                                     <p class="h5">Registration (Required)</p>
                                     <span class="sr-only">(Use the arrow keys to make your choice)</span>
                                     <div class="form-check">
-                                        <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - $45</label>
+                                        <input type="radio" class="form-check-input" id="early-registration" name="myRegistration" value="ebr" disabled required>
+                                        <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - closed</label>
                                     </div>
                                     <div class="form-check mb-3">
-                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" onChange="optionSND(this)" required>
-                                        <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $50</label>
+                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" checked  required>
+                                        <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $55</label>
                                         <div class="invalid-feedback">
-                                            Required, please check one.
+                                            Required.
                                         </div>
                                     </div>
                                     <ul>
-                                        <li>Register before July 31 and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
+                                        <li>Register now and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
                                         <li>Saturday Night Dance is free with your paid registration.</li>
                                     </ul>
                                 </div>
 
                                 <div class="col-lg-7 pb-4">
-                                    <p class="h5">Pre-Registration for meals is currently required.</p>
+                                    <p class="h5">À la carte Meal Options are still open, and pre-registration for the Early Bird Meal Bundle is currently closed.</p>
                                     <ul>
-                                        <li>The MBAR Committee recommends the Early Bird Meal Bundle which includes a $5 savings from the à la carte option
-                                        </li>
                                         <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
                                         </li>
                                         <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
                                         </li>
                                     </ul>
-
-                                    <label for="earlyBirdMealBundle" class="reg-form-label">Early Bird Meal Bundle (Dinner, Breakfast, and Ice Cream Social) - $35 </label>
-                                    <select class="form-select" name="earlyBirdMealBundle" id="earlyBirdMealBundle" onChange="optionEBMB(this)" required>
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">Yes, please!</option>
-                                        <option value="no">No thank you</option>
-                                        <option value="undecided" disabled>Still deciding</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Required, please select one.
-                                    </div>
                                 </div>
 
                                 <div class="col-lg-12">
@@ -471,7 +464,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-lg-4">
                                     <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
-                                    <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" onChange="optionCHANGE()" required>
+                                    <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
                                         <option selected disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
@@ -484,7 +477,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-lg-4">
                                     <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
-                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" onChange="optionCHANGE()" required>
+                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
                                         <option selected disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
@@ -497,7 +490,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-lg-4 pb-4">
                                     <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
-                                    <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" onChange="optionCHANGE()" required>
+                                    <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" required>
                                         <option selected disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
@@ -511,8 +504,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-6">
                                     <label for="saturdayNightDance" class="reg-form-label">Saturday Night Dance @ Conference Center (FREE with paid registration or $5 at the door)</label>
                                     <select class="form-select" name="saturdayNightDance" id="saturdayNightDance">
-                                        <option selected disabled value="">Choose...</option>
-                                        <option value="yes">I'll be wearing my dancing shoes!</option>
+                                        <option disabled value="">Choose...</option>
+                                        <option selected value="yes">I'll be wearing my dancing shoes!</option>
                                         <option value="no">I don't dance...LOL</option>
                                         <option value="undecided">Still deciding</option>
                                     </select>
@@ -545,9 +538,9 @@ include_once 'header-bottom.inc'
                             <legend>Merchandise</legend>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">
-                                    <p class="h5">Pre-order your 2024 Commemorative T-Shirt until July 31st.</p>
+                                    <p class="h5">2024 Commemorative T-Shirts will be available at the conference.</p>
                                     <ul>
-                                        <li>They cost $15 each, and we have Small to 3X-Large available for you.
+                                        <li>They cost $15 each, and we have limited quantities from Small to 3X-Large for you.
                                         </li>
 
                                         <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
@@ -556,52 +549,7 @@ include_once 'header-bottom.inc'
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    <p class="pt-3">Limited quantity of tee shirts will be on sale at conference. If you do not want one at this time, select zero quantity, and continue completing your registration.
-                                    </p>
-
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <label for="shirtSize" class="reg-form-label">Size</label>
-                                            <select class="form-select" name="shirtSize" id="shirtSize" onChange="optionSHIRT()">
-                                                <option selected value="none">Choose...</option>
-                                                <option value="sm">Small</option>
-                                                <option value="med">Medium</option>
-                                                <option value="lg">Large</option>
-                                                <option value="xl">X-Large</option>
-                                                <option value="xxl">XX-Large</option>
-                                                <option value="3xl">3X-Large</option>
-                                                <option value="none">No thank you</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Optional, please enter your size
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <label for="shirtQuantity" class="reg-form-label">Quantity</label>
-                                            <select class="form-select" name="shirtQuantity" id="shirtQuantity" disabled>
-                                                <option selected value=0>Choose...</option>
-                                                <option value=1>1</option>
-                                                <option value=2>2</option>
-                                                <option value=3>3</option>
-                                                <option value=4>4</option>
-                                                <option value=5>5</option>
-                                                <option value=6>6</option>
-                                                <option value=7>7</option>
-                                                <option value=8>8</option>
-                                                <option value=9>9</option>
-                                                <option value=10>10</option>
-                                                <option value=11>11</option>
-                                                <option value=12>12</option>
-                                                <option value=13>13</option>
-                                                <option value=14>14</option>
-                                                <option value=15>15</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                                Optional, please enter your quantity
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
 
                                 <div class="col-md-4 pt-3">
@@ -837,51 +785,6 @@ include_once 'header-bottom.inc'
 
             return confirmed;
 
-        }
-    </script>
-    <script>
-        /**
-         * https://stackoverflow.com/questions/39034981/disable-different-inputs-based-on-option-selected-from-a-select-element
-         */
-        function optionEBMB($obj) {
-
-            let myArr = ['meetTheSpeakerDinner', 'roundupContinentalBreakfast', 'iceCreamSocial'];
-
-            myArr.forEach(function($key) {
-                if ($obj.value == "yes" || $obj.value == "undecided")
-                    document.getElementById($key).value = "no";
-            });
-
-        }
-
-        function optionSND($obj) {
-            let snd = document.getElementById("saturdayNightDance");
-            if ($obj.checked)
-                snd.value = "yes";
-            else
-                snd.value = "";
-        }
-
-        function optionCHANGE() {
-            let ebmb = document.getElementById('earlyBirdMealBundle');
-            let mtsd = document.getElementById('meetTheSpeakerDinner');
-            let rucb = document.getElementById('roundupContinentalBreakfast');
-            let ics = document.getElementById('iceCreamSocial');
-
-            if (mtsd.value == "yes" || rucb.value == "yes" || ics.value == "yes" || mtsd.value == "undecided" || rucb.value == "undecided" || ics.value == "undecided")
-                ebmb.value = "no";
-        }
-
-        function optionSHIRT() {
-            let sQua = document.getElementById('shirtQuantity');
-            let sSiz = document.getElementById('shirtSize');
-
-            if (sSiz.value != "none") {
-                sQua.disabled = false;
-            } else {
-                sQua.disabled = true;
-                sQua.value = 0;
-            }
         }
     </script>
 
