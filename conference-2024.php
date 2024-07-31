@@ -151,7 +151,7 @@ include_once 'header-bottom.inc'
                                     10:00am
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Kick-Off A.A. Meeting
+                                    A.A. Kick-Off Speaker
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
@@ -186,7 +186,7 @@ include_once 'header-bottom.inc'
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Al-Anon Speaker: <strong>Shelly S.</strong>
+                                    Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
                                     <br>
                                     A.A. Speaker: <strong>Denis D., Santa Cruz, CA</strong>
                                 </div>
