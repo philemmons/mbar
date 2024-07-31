@@ -104,23 +104,25 @@ include_once 'header-bottom.inc'
                         <section aria-label="Friday's events">
                             <h3 class="white-on-black py-2 mt-2">Friday Night, August 30th</h3>
                             <div class="row g-0 mb-4">
-                                <div class="col-sm-2">
+
+                                <div class="col-sm-2 feature-speaker">
                                     8:00pm
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
                                 </div>
 
-                                <div class="col-sm-2 cell-color">
+
+                                <div class="col-sm-2">
                                     50/50 Raffle
                                 </div>
-                                <div class="col-sm-5 cell-color">
+                                <div class="col-sm-5">
                                     Zoom Meeting ID: <strong>831 4306 2293 </strong>
                                 </div>
-                                <div class="col-sm-5 cell-color">
+                                <div class="col-sm-5">
                                     Zoom Meeting Password: <strong>2024</strong>
                                 </div>
                             </div>
@@ -179,7 +181,9 @@ include_once 'header-bottom.inc'
                                     2:00pm
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    A.A. / Al-Anon Speaker Meeting(ASL Interpretation Provided)
+                                    A.A. / Al-Anon Speaker Meeting
+                                    <br>
+                                    (ASL Interpretation Provided)
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker: <strong>Shelly S.</strong>
@@ -199,11 +203,8 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2">
                                     5:00pm
                                 </div>
-                                <div class="col-sm-5">
-                                    Meet the Speakers Dinner
-                                </div>
-                                <div class="col-sm-5">
-                                    <strong>Bethlehem Lutheran Church ∆</strong>
+                                <div class="col-sm-10">
+                                    Meet the Speakers Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -211,32 +212,30 @@ include_once 'header-bottom.inc'
                                     7:30pm
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    A.A. Speaker Meeting(ASL Interpretation Provided)
+                                    A.A. Speaker Meeting
+                                    <br>
+                                    (ASL Interpretation Provided)
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Krystal M., Sacramento, AZ</strong>
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     8:30pm
                                 </div>
-                                <div class="col-sm-5">
-                                    Prize Raffle and 50/50 Drawing(Must be present to win)
-                                </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-10 cell-color">
+                                    Prize Raffle and 50/50 Drawing - Must be present to win
+                                    <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2">
                                     9:30pm
                                 </div>
-                                <div class="col-sm-5 cell-color">
-                                    Fun and Fellowship Dance
-                                </div>
-                                <div class="col-sm-5 cell-color">
-                                    (Immediately Following Raffle)
+                                <div class="col-sm-10">
+                                    Fun and Fellowship Dance - Immediately Following Raffle
                                 </div>
                             </div>
                         </section>
@@ -297,7 +296,9 @@ include_once 'header-bottom.inc'
                                     11:00am
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Al-Anon Speaker Meeting(ASL Interpretation Provided)
+                                    Al-Anon Speaker Meeting
+                                    <br>
+                                    (ASL Interpretation Provided)
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Chris W., Redding, CA</strong>
@@ -350,7 +351,7 @@ include_once 'header-bottom.inc'
                                     Ice Cream Social
                                 </div>
                                 <div class="col-sm-5">
-                                    (2nd Floor Terrace)
+                                    <strong>2nd Floor Terrace</strong>
                                 </div>
 
 
@@ -366,7 +367,9 @@ include_once 'header-bottom.inc'
                                     5:00pm
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    A.A.Speaker Meeting(ASL Interpretation Provided)
+                                    A.A.Speaker Meeting
+                                    <br>
+                                    (ASL Interpretation Provided)
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
