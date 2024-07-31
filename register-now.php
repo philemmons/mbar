@@ -465,10 +465,10 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-4">
                                     <label for="meetTheSpeakerDinner" class="reg-form-label">Meet The Speaker's Dinner (Saturday Night @ 5:00pm) - $25 </label>
                                     <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
-                                        <option selected disabled value="">Choose...</option>
+                                        <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected value="undecided">Still deciding</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Required, please select one.
@@ -478,10 +478,10 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-4">
                                     <label for="roundupContinentalBreakfast" class="reg-form-label">Round-Up Continental Breakfast (Sunday @ 8:00am to 9:30am) - $10</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
-                                        <option selected disabled value="">Choose...</option>
+                                        <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected value="undecided">Still deciding</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Required, please select one.
@@ -491,10 +491,10 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-4 pb-4">
                                     <label for="iceCreamSocial" class="reg-form-label">Ice Cream Social (Sunday Afternoon @ 3:00pm to 4:00pm) - $5</label>
                                     <select class="form-select" name="iceCreamSocial" id="iceCreamSocial" required>
-                                        <option selected disabled value="">Choose...</option>
+                                        <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
-                                        <option value="undecided">Still deciding</option>
+                                        <option selected value="undecided">Still deciding</option>
                                     </select>
                                     <div class="invalid-feedback">
                                         Required, please select one.
