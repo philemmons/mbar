@@ -58,29 +58,27 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold text-primary">
-                        <span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
-                            <br>More details to be announced as we get closer!</span>
-                    </h2>
-                    <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conference
+                            <br>with
+                            <br>Al-Anon Participation</span></h2>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Part One -->
-    <article aria-label="Event description, reason, location, and unity">
+    <article aria-label="Event registration, reason, location, and unity">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="Registration Area">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Conference
-                                <br>with
-                                <br>Al-Anon Participation
-                            </h3>
-                            <p class="mb-6 h4 text-dark">Join us online August 30th, and Live on August 31st and September 1st at the Monterey Conference Center
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024</h3>
+                            <p class="mb-6 h4 text-dark">Join us online on August 30th with a Kick Off Zoom Meeting, or Live on August 31st and September 1st at the Monterey Conference Center.
+                                <br>
+                                More details to be announced as we get closer!
                             </p>
+                            <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
                         </section>
                     </div>
                 </div>
