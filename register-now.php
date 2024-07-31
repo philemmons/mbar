@@ -251,8 +251,6 @@ include_once 'header-bottom.inc'
                 }
 
                 ?>
-
-
                 <?php if (!empty($statusMsg)) { ?>
                     <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
                         <div class="p-3 text-center text-bg-light hero-text-border" title="Online registration form message.">
