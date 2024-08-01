@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two-->
-    <article aria-label="MBAR 2022 Schedule">
+    <article aria-label="MBAR 2024 Schedule">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -487,7 +487,7 @@ include_once 'header-bottom.inc'
 
     <!-- Part Six -->
     <div id="map"></div>
-    <article aria-label="MBAR 2022 Google Map">
+    <article aria-label="MBAR 2024 Google Map">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -530,7 +530,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
                             </p>
-                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2022 will provide two ASL Interpreters on these days:</strong>
+                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2024 will provide two ASL Interpreters on these days:</strong>
                             </p>
                             <ul>
                                 <li>Saturday - 2.5 hours</li>

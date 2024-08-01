@@ -55,68 +55,426 @@ include_once 'header-bottom.inc'
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de Conferencias de Monterey en Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de conferencias de Monterey en Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Conferencia
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción está abierta!">
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Conferencia de A.A.
                             <br>con
                             <br>Participación de Al-Anon</span></h2>
-                    <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Part One -->
-    <article aria-label="Registro de eventos, motivo, ubicación y unidad.">
+    <!-- Primera parte -->
+    <article aria-label="Inscripción al evento, motivo, ubicación y unidad">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
-                <div class="col-xl-8 col-lg-8 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                        <section aria-label="Área de Registro">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Roundup 2024
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="La Inscripción está Activa">
+                        <section aria-label="Área de Inscripción">
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Resumen del área de la bahía de Monterey 2024</h3>
+                            <p class="mb-6 h4 text-dark">Únase a nosotros en línea el 30 de Agosto con una reunión inicial de Zoom, o en vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey.
                                 <br>
-                                ¡Próximamente se publicará el calendario de eventos!
-                            </h3>
-                            <p class="mb-6 h4 text-dark">Únase a nosotros en línea, el fin de semana del Día del Trabajo, con una reunión inicial por Zoom el 30 de Agosto con Oliver D. de Delaware, y en vivo el 31 de Agosto y el 1 de Septiembre en el Centro de conferencias de Monterey.
-                                <br>ID de la Reunión: <strong>831 4306 2293</strong>
-                                <br>Contraseña: <strong>2024</strong>
+                                ¡Se anunciarán más detalles a medida que nos acerquemos!
                             </p>
                             <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
                         </section>
                     </div>
                 </div>
             </div>
-
             <div class="row justify-content-center py-4 mb-5">
                 <div class="col-sm-12 col-12 text-center px-3">
-                    <img class="img-fluid" src="../images/conference-room.png" alt="Sala de reuniones del Monterey Conference Center, sillas alineadas frente a un escenario y más allá de A.A. pancartas de conferencias.">
+                    <img class="img-fluid" src="../images/conference-room.png" alt="Sala de reuniones del Centro de Conferencias de Monterey, sillas alineadas frente a un escenario y más allá de los carteles de la conferencia de A.A.">
                 </div>
             </div>
         </div>
     </article>
 
-    <!-- Part Two -->
-    <aside aria-label="Por qué tenemos una explicación de MBAR">
+    <!-- Segunda parte-->
+    <article aria-label="Programa MBAR 2024">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+
+                        <section aria-label="Eventos del viernes">
+                            <h3 class="white-on-black py-2 mt-2">Viernes por la Noche, 30 de Agosto</h3>
+                            <div class="row g-0 mb-4">
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    8:00pm
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>Reunión de A.A. por Zoom
+                                    <br>
+                                    ID: <strong>831 4306 2293 </strong>
+                                    <br>
+                                    Contraseña: <strong>2024</strong>
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador: <strong>Oliver D., Delaware</strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:00pm
+                                </div>
+                                <div class="col-sm-10">
+                                    Sorteo 50/50
+                                    <br>
+                                    (Inmediatamente después de la reunión de oradores)
+                                </div>
+                            </div>
+                        </section>
+
+                        <section aria-label="Eventos del Sábado">
+                            <h3 class="white-on-black py-2 mt-2">Sábado 31 de Agosto</h3>
+                            <div class="row g-0 mb-4">
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-10">
+                                    <strong>Se Abren las Inscripciones</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    9:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    A.A y Al-Anon (Inglés/Español) - Comienzan las Reuniones Maratónicas
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    10:00am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador Inaugural de A.A.
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador: <strong> Mark S., Salinas, CA </strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    11:30am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Panel de Ganadores Dobles de A.A./Al-Anon
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Oradora: <strong>Annette C.</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    1:00pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Speed Fellowship
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    2:00pm
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Reunión de Oradores de A.A./Al-Anon
+                                    <br>
+                                    <strong>(Interpretación de Lenguaje de Señas Disponible)</strong>
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
+                                    <br>
+                                    Orador de A.A.: <strong>Denis D., Santa Cruz, CA</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    3:30pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Búsqueda de Tesoros
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    5:00pm
+                                </div>
+                                <div class="col-sm-10">
+                                    Cena de Presentación de los Oradores - <strong>Bethlehem Lutheran Church ∆</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    7:30pm
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Reunión de Oradores de A.A.
+                                    <br>
+                                    <strong>(Interpretación de ASL Proporcionada)</strong>
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Oradora: <strong>Krystal M., Sacramento, AZ</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    8:30pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Sorteo de Premios y Sorteo 50/50: Debe estar presente para ganar
+                                    <br>
+                                    (Inmediatamente Después de la Reunión de Oradores)
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:30pm
+                                </div>
+                                <div class="col-sm-10">
+                                    Baile de Diversión y Compañerismo - Inmediatamente Después del Sorteo
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <section aria-label="Eventos del Domingo">
+                            <h3 class="white-on-black py-2 mt-2">Domingo 1 de Septiembre</h3>
+                            <div class="row g-0 mb-4">
+
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-10">
+                                    <strong>Inscripciones Abiertas</strong>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    8:00am
+                                </div>
+                                <div class="col-sm-10">
+                                    Desayuno de Confraternidad y Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    9:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    A.A y Al-Anon (Inglés/Español) - Comienzan las Reuniones Maratónicas
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    9:30am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Panel de Cuatro Oradores de A.A.
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Tema: <strong>Intercambio de Experiencias: Bases Para el Futuro</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    10:00am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Comienzan las Reuniones de A.A. en Español
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Oradores: <strong>Que se Anunciará</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    11:00am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Reunión de Oradores de Al-Anon
+                                    <br>
+                                    <strong>(Se Proporciona Interpretación ASL)</strong>
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador: <strong>Chris W., Redding, CA</strong>
+                                    <br>
+                                    Orador: <strong>Eileen W., Redding, CA</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    12:00pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Hora de Compañerismo de Pintura
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    1:00pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Werewolf Fellowship Hour
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    1:30am
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Reunión de Oradores de Alateen
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Oradora: <strong>Amelia, de 16 años y miembro de Pregúntale-a-la-Cesta</strong>
+                                    <br>
+                                    <em>(MBAR cumple con el requisito de NCWSA B-17 para la seguridad de Alateen)</em>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    2:00pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Hora de Compañerismo de Cornhole
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    3:00pm
+                                </div>
+                                <div class="col-sm-10">
+                                    Helado Social - <strong>2nd Floor Terrace</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    4:00pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Curiosidades sobre Servicios Generales
+                                </div>
+
+
+                                <div class="col-sm-2 feature-speaker">
+                                    5:00pm
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Reunión de Oradores de A.A.
+                                    <br>
+                                    <strong>(Interpretación en Lenguaje de Señas)</strong>
+                                </div>
+                                <div class="col-sm-5 feature-speaker">
+                                    Orador: <strong>Dean S., Salinas, CA</strong>
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                    6:30pm
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                    Sorteo de Premios: Debe estar presente para ganar
+                                    <br>
+                                    (Inmediatamente Después de la Reunión de Oradores)
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    9:00pm
+                                </div>
+                                <div class="col-sm-10">
+                                    <strong>La Conferencia Termina en 2026</strong>
+                                </div>
+
+
+                                <div class="col-sm-12 text-start">
+                                    <strong>Δ La ubicación del evento es diferente al sitio de la conferencia</strong>
+                                </div>
+
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Part Three -->
+
+    <div class="container shadow-wrap">
+        <aside aria-label="Información de check-in">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label="Registro de Entrada">
+                            <h3 class="card-title mb-3">Registro de Entrada</h3>
+                            <p>Regístrese en el mostrador de registro para obtener su paquete de inscripción que contiene su credencial, programa, lista de todos los horarios de reuniones del maratón y cualquier boleto para comidas o eventos, y la camiseta preordenada que haya comprado.
+                                <br><br>
+                                Para obtener más información durante el evento, si tiene preguntas sobre el evento o si perdió o encontró algún artículo, diríjase al mostrador de registro.
+                            </p>
+                        </section>
+                        <p><strong>Anfitriona de MBAR 2024:</strong> Cindy A.
+                            <br>
+                            <strong>Comité Directivo de MBAR</strong>
+                            <br>
+                            <strong>Presidente:</strong> Chris T.
+                            <strong>Copresidente:</strong> Renee C.
+                            <br>
+                            <strong>Tesorera:</strong> Carolyn H. <strong>Cotesorera:</strong> Jean T.
+                            <br>
+                            <strong>Secretaria de actas:</strong> Roger M.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Part Four -->
+    <article aria-label="Servicios de conferencias">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <section aria-label="Describe services">
+                            <h3 class="card-title mb-3">Servicios de la Conferencia: Manténgalo Simple</h3>
+                            <p><strong>Habrá un servicio de transporte disponible</strong> para trasladarse desde el centro de conferencias hasta la Bethlehem Lutheran Church para el desayuno del domingo por la mañana y la cena de presentación de los oradores del sábado por la noche. Diríjase al mostrador de inscripción para obtener más información sobre este servicio gratuito.
+                            </p>
+                            <hr>
+                            <p>Visite el sitio web de nuestra Oficina Central de A.A. local
+                                <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer" title="Horario de reuniones de M.B.I.A.A.">www.aamonterey.org<span class="sr-only">(Abre una nueva ventana)</span></a> para obtener una lista actualizada de las reuniones en el área.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Part Five -->
+    <aside aria-label="Why we have MBAR explanation.">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="¿Por qué MBAR?">
-                            <h4 class="card-title mb-3 text-uppercase">¿Por qué tenemos MBAR?</h4>
-                            <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
-                                <br>
-                                <img src="../images/icons/pdf-logo.png" width="25" height="25" alt="Icono de Adobe PDF">
-                                <a class="btn btn-primary btn-sm" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Libro Grande p89<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                            <h3 class="card-title mb-3">¿Por qué tenemos MBAR?</h3>
+                            <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas. <br>
+                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
                             </p>
-                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a los demás, ver cómo se desvanece la soledad, ver crecer el compañerismo hablar sobre ti, tener una gran cantidad de amigos: esta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
+                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
                             </p>
-                            <p>Es una confraternidad de Alcohólicos Anónimos. Allí encontrará liberación del cuidado, el aburrimiento y la preocupación. Tu imaginación se disparará. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás.
-                                <br>
-                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF, sin enlace, solo diseño">
-                                <a class="btn btn-primary btn-sm" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Libro Grande p152<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                            <p>Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá algún significado al fin. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
+                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
                             </p>
-                            <p class="sr-only">(Este es el párrafo de la página 152 anterior). "Sí, hay un sustituto y es muchísimo más que eso. Es una comunidad de Alcohólicos Anónimos. Allí encontrará la liberación de El cuidado, el aburrimiento y la preocupación se dispararán. La vida por fin significará algo. Los años más satisfactorios de tu existencia están por delante. Así encontraremos la comunión, y tú también.
+                            <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la inquietud. Su imaginación se encenderá. La vida tendrá un significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontraremos la comunidad, y usted también la encontrará."
                             </p>
                         </section>
                     </div>
@@ -125,7 +483,7 @@ include_once 'header-bottom.inc'
         </div>
     </aside>
 
-    <!-- Part Three -->
+    <!-- Part Six -->
     <div id="map"></div>
     <article aria-label="Ubicación externa del mapa de Google de MBAR 2024">
         <div class="container shadow-wrap">
@@ -154,7 +512,7 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
-    <!-- Part Four -->
+    <!-- Part Seven -->
     <aside aria-label="Accesibilidad e inclusión de la ADA">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
