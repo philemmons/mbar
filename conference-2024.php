@@ -196,7 +196,7 @@ include_once 'header-bottom.inc'
                                     3:30pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Scavenger Hunt
+                                    Goose Chase Scavenger Hunt - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -204,7 +204,7 @@ include_once 'header-bottom.inc'
                                     5:00pm
                                 </div>
                                 <div class="col-sm-10">
-                                    Meet the Speakers Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Meet the Speaker's Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -235,7 +235,9 @@ include_once 'header-bottom.inc'
                                     9:30pm
                                 </div>
                                 <div class="col-sm-10">
-                                    Fun and Fellowship Dance - Immediately Following Raffle
+                                    Saturday Night Masquerade Dance - Masks Provided
+                                    <br>
+                                    (Immediately Following Raffle)
                                 </div>
 
 
@@ -258,7 +260,7 @@ include_once 'header-bottom.inc'
                                     8:00am
                                 </div>
                                 <div class="col-sm-10">
-                                    Fellowship Breakfast and Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Round-Up Continental Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -340,7 +342,7 @@ include_once 'header-bottom.inc'
                                     2:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Cornhole Fellowship Hour
+                                    Cornhole and Fellowship Hour - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -356,7 +358,7 @@ include_once 'header-bottom.inc'
                                     4:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    General Service Trivia
+                                    A.A. Trivia: General Service - <strong>Stevenson 2</strong>
                                 </div>
 
 

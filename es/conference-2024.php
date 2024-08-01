@@ -102,7 +102,6 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black py-2 mt-2">Viernes por la Noche, 30 de Agosto</h3>
                             <div class="row g-0 mb-4">
 
-
                                 <div class="col-sm-2 feature-speaker">
                                     8:00pm
                                 </div>
@@ -126,12 +125,14 @@ include_once 'header-bottom.inc'
                                     <br>
                                     (Inmediatamente después de la reunión de oradores)
                                 </div>
+                                
                             </div>
                         </section>
 
                         <section aria-label="Eventos del Sábado">
                             <h3 class="white-on-black py-2 mt-2">Sábado 31 de Agosto</h3>
                             <div class="row g-0 mb-4">
+
                                 <div class="col-sm-2">
                                     8:00am
                                 </div>
@@ -197,7 +198,7 @@ include_once 'header-bottom.inc'
                                     3:30pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Búsqueda de Tesoros
+                                    Búsqueda del Tesoro de Goose Chase - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -236,7 +237,9 @@ include_once 'header-bottom.inc'
                                     9:30pm
                                 </div>
                                 <div class="col-sm-10">
-                                    Baile de Diversión y Compañerismo - Inmediatamente Después del Sorteo
+                                    Baile de Máscaras el Sábado por la Noche. Se Proporcionarán Máscaras.
+                                    <br>
+                                    (Inmediatamente Después del Sorteo)
                                 </div>
 
                             </div>
@@ -258,7 +261,7 @@ include_once 'header-bottom.inc'
                                     8:00am
                                 </div>
                                 <div class="col-sm-10">
-                                    Desayuno de Confraternidad y Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Desayuno Continental y Juegos de Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -340,7 +343,7 @@ include_once 'header-bottom.inc'
                                     2:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Hora de Compañerismo de Cornhole
+                                    Hora de Cornhole y Compañerismo - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -356,7 +359,7 @@ include_once 'header-bottom.inc'
                                     4:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Curiosidades sobre Servicios Generales
+                                    Trivia de A.A.: Servicio general - <strong>Stevenson 2</strong>
                                 </div>
 
 
