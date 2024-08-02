@@ -132,7 +132,7 @@ include_once 'header-bottom.inc'
                                     Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el salón de la iglesia luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día. ¡Sí, prepare su marcador y disfrute de la emoción de ganar!
                                 <ul>
                                     <li>
-                                        <a class="bb-link" href="../pdf/breakfast_bingo.pdf">Desayuno y juegos de bingo<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                        <a class="bb-link" href="../pdf/breakfast_bingo.pdf">Desayuno y Juegos de Bingo<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
                                 </p>
@@ -153,7 +153,7 @@ include_once 'header-bottom.inc'
                                 <p class="card-text">Después de la reunión del orador principal el sábado por la noche, únase a nosotros para divertirse y compartir. Baile toda la noche en nuestra mascarada (se proporcionarán máscaras). Después de todo, "no somos gente triste. Si los recién llegados no pudieran ver alegría ni diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
                                 <ul>
                                     <li>
-                                        <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de máscaras<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                        <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de Máscaras<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
                                 </p>
@@ -195,13 +195,13 @@ include_once 'header-bottom.inc'
                                 <p class="card-text">
                                 <ul>
                                     <li>Comunidad rápida</li>
-                                    <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del tesoro de Goose Chase<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de Goose Chase<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                     <li>Compañerismo de pintura</li>
                                     <li>Juego de la Comunidad de hombres lobo</li>
                                     <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Comunidad<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
-                                    <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Curiosidades de A.A: Servicio general<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Curiosidades de A.A: Servicio General<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
 
