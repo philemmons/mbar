@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two-->
-    <article aria-label="MBAR 2024 Schedule">
+    <article id="schedule" aria-label="MBAR 2024 Schedule">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
