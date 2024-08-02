@@ -75,7 +75,7 @@ include_once 'header-bottom.inc'
                             <br>
                             <p><strong>Check in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                             </p>
-                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
+                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening Meet the Speaker's Dinner. Go to registration desk for more information about this complimentary service.
                             </p>
                         </section>
                         <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
@@ -391,7 +391,7 @@ include_once 'header-bottom.inc'
                             <br>
                             <strong>4:00pm</strong> - Speed Fellowship
                             <br>
-                            <strong>5:00pm</strong> - Meet the Speakers Dinner <strong>(Bethlehem Lutheran Church Hall ∆)</strong>
+                            <strong>5:00pm</strong> - Meet the Speaker's Dinner <strong>(Bethlehem Lutheran Church Hall ∆)</strong>
                             <br>
 
                             <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win

@@ -201,7 +201,7 @@ include_once 'header-bottom.inc'
                                     5:00pm
                                 </div>
                                 <div class="col-sm-5">
-                                    Meet the Speakers Dinner
+                                    Meet the Speaker's Dinner
                                 </div>
                                 <div class="col-sm-5">
                                     <strong>Bethlehem Lutheran Church ∆</strong>
@@ -443,7 +443,7 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3 text-center">Conference Services: <span class="text-uppercase">Keep it Simple</span></h3>
                             <p><strong>Check-in at the registration table</strong> to obtain your registration packets containing your name badges, programs and any tickets for meals or the dance which you may have purchased.
                             </p>
-                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening meet the speakers dinner. Go to registration desk for more information about this complimentary service.
+                            <p><strong>Shuttle service will be available</strong> to drive from the conference center to the Bethlehem Lutheran Church for the Saturday morning breakfast and the Saturday evening Meet the Speaker's Dinner. Go to registration desk for more information about this complimentary service.
                             </p>
                         </section>
                     </div>

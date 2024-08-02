@@ -445,7 +445,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Describe services">
                             <h3 class="card-title mb-3">Conference Services: Keep it Simple</h3>
-                            <p><strong>Shuttle service will be available</strong> as to drive from the conference center to the Bethlehem Lutheran Church for the Sunday morning breakfast and the Saturday evening meet the speakers dinner. Go to the registration desk for more information about this complimentary service.
+                            <p><strong>Shuttle service will be available</strong> as to drive from the conference center to the Bethlehem Lutheran Church for the Sunday morning breakfast and the Saturday evening Meet the Speaker's Dinner. Go to the registration desk for more information about this complimentary service.
                             </p>
                             <hr>
                             <p>See our local A.A. Central Office website

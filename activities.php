@@ -91,7 +91,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Meet the Speakers Dinner</h3>
+                                    <h3>Meet the Speaker's Dinner</h3>
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
@@ -147,7 +147,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Masquerade Dance and Fellowship</h3>
+                                    <h3>Masquerade Dance</h3>
                                 </section>
                                 <p class="card-text">After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. Dance the night away at our Masquerade - Masks provided. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
                                     <br><br>
