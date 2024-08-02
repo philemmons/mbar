@@ -189,7 +189,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Fellowship</h3>
                                 </section>
-                                <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities listed below than in previous years and invite you to them. The links blow open PDF's with more information. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
+                                <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities listed below than in previous years and invite you to them. The links below open PDF's with more information. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
                                 </p>
                                 <p class="card-text">
                                 <ul>
