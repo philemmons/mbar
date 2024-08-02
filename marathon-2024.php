@@ -110,187 +110,187 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-
+                                    8:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Benny S.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Trust The Process
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    9:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Ron M.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Prundale
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Spirituality
                                 </div>
 
 
                                 <div class="col-sm-12">
-
+                                    10:00am Kick-Off Spaeker
                                 </div>
                                 <div class="col-sm-2">
-
+                                    10:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Jack F.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Quality vs Quantity
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    11:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Steve C.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Freedom
                                 </div>
 
 
                                 <div class="col-sm-12">
-
+                                    11:30 A.A and Al-Anon Double Winner Panel
                                 </div>
                                 <div class="col-sm-2">
-
+                                    12:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Greg P.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Oak Hills
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Powerlessness
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    1:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Tony G.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Hollister
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Gratitude
                                 </div>
 
 
                                 <div class="col-sm-12">
-
+                                    2:00pm A.A and Al-Anon Speaker Meeting
                                 </div>
                                 <div class="col-sm-2">
-
+                                    2:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    David G.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Monterey
                                 </div>
                                 <div class="col-sm-4">
-
-                                </div>
-
-
-                                <div class="col-sm-2">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-4">
-
+                                    Willingness
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    3:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Mari W.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    One Day At A Time
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    4:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Carol H.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Three Legacies of A.A.
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    5:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Eric L.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Acceptance
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    6:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Mark F.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Monterey
                                 </div>
                                 <div class="col-sm-4">
+                                    Love and Tolerance
+                                </div>
 
+
+                                <div class="col-sm-2">
+                                    7:00pm
+                                </div>
+                                <div class="col-sm-3">
+                                    Chael R.
+                                </div>
+                                <div class="col-sm-3">
+                                    Salinas
+                                </div>
+                                <div class="col-sm-4">
+                                    Three Pertinent Ideas
                                 </div>
 
 
                                 <div class="col-sm-12">
-
+                                    8:00pm Prize Raffle and 50 / 50
                                 </div>
                                 <div class="col-sm-12">
-
+                                    9:30pm Fun and Fellowship Dance
                                 </div>
                                 <div class="col-sm-12">
                                     Good Night and Be Safe
@@ -317,122 +317,121 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-
+                                    9:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Maxine S.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Newcomers
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    10:00am
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Robert A.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Monterey
                                 </div>
                                 <div class="col-sm-4">
+                                    Humility
+                                </div>
 
+                                <div class="col-sm-12">
+                                    11:00am Al-Anon Speaker Meeting
+                                </div>
+                                <div class="col-sm-2">
+                                    11:00am
+                                </div>
+                                <div class="col-sm-3">
+                                    Patricia
+                                </div>
+                                <div class="col-sm-3">
+                                    Greenfield
+                                </div>
+                                <div class="col-sm-4">
+                                    Unity
                                 </div>
 
 
                                 <div class="col-sm-2">
-
+                                    12:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Cliff A.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Monterey
                                 </div>
                                 <div class="col-sm-4">
+                                    Stability
+                                </div>
 
+
+                                <div class="col-sm-2">
+                                    1:00pm
+                                </div>
+                                <div class="col-sm-3">
+                                    Ryan Y.
+                                </div>
+                                <div class="col-sm-3">
+                                    Salinas
+                                </div>
+                                <div class="col-sm-4">
+                                    Surrender
                                 </div>
 
 
                                 <div class="col-sm-12">
-
+                                    1:30pm Alateen Speaker
                                 </div>
                                 <div class="col-sm-2">
-
+                                    2:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Bob C.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
-                                </div>
-
-
-                                <div class="col-sm-2">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-4">
-
-                                </div>
-
-
-                                <div class="col-sm-12">
-
-                                </div>
-                                <div class="col-sm-2">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                </div>
-                                <div class="col-sm-4">
-
+                                    Sponsorship
                                 </div>
 
                                 <div class="col-sm-2">
-
+                                    3:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Michele T.
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Serenity
                                 </div>
 
                                 <div class="col-sm-2">
-
+                                    4:00pm
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Irma
                                 </div>
                                 <div class="col-sm-3">
-
+                                    Salinas
                                 </div>
                                 <div class="col-sm-4">
-
+                                    Coming Back
                                 </div>
 
                                 <div class="col-sm-12">
-
+                                    A.A. and Al-Anon meetings Ends - Hope you had a fun time!
                                 </div>
 
                             </div>
