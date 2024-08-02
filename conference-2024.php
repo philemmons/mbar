@@ -158,7 +158,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 feature-speaker">
                                     11:30am
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
