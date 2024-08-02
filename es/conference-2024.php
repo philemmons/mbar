@@ -57,7 +57,7 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de conferencias de Monterey en Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción está abierta!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La Inscripción está Vivir abierta!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Conferencia de A.A.
                             <br>con
                             <br>Participación de Al-Anon</span></h2>
@@ -71,7 +71,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="La Inscripción está Activa">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="La Inscripción está Vivir Activa">
                         <section aria-label="Área de Inscripción">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Resumen del área de la bahía de Monterey 2024</h3>
                             <p class="mb-6 h4 text-dark">Únase a nosotros en línea el 30 de Agosto con una reunión inicial de Zoom, o en vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey.
@@ -125,7 +125,7 @@ include_once 'header-bottom.inc'
                                     <br>
                                     (Inmediatamente después de la reunión de oradores)
                                 </div>
-                                
+
                             </div>
                         </section>
 
