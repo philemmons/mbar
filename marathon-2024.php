@@ -96,21 +96,21 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2">
-                                    Time
+                                    <strong>Time</strong>
                                 </div>
                                 <div class="col-sm-3">
-                                    Name
+                                    <strong>Name</strong>
                                 </div>
                                 <div class="col-sm-3">
-                                    From
+                                    <strong>From</strong>
                                 </div>
                                 <div class="col-sm-4">
-                                    Topic
+                                    <strong>Topic</strong>
                                 </div>
 
 
                                 <div class="col-sm-2">
-                                    8:00am
+                                    <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Benny S.
@@ -124,13 +124,13 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    9:00am
+                                    <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Ron M.
                                 </div>
                                 <div class="col-sm-3">
-                                    Prundale
+                                    Prunedale
                                 </div>
                                 <div class="col-sm-4">
                                     Spirituality
@@ -138,10 +138,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    10:00am Kick-Off Spaeker
+                                    <strong>10:00am Kick-Off Speaker</strong>
                                 </div>
                                 <div class="col-sm-2">
-                                    10:00am
+                                    <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Jack F.
@@ -155,7 +155,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    11:00am
+                                    <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Steve C.
@@ -169,10 +169,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    11:30 A.A and Al-Anon Double Winner Panel
+                                    <strong>11:30 A.A and Al-Anon Double Winner Panel</strong>
                                 </div>
                                 <div class="col-sm-2">
-                                    12:00pm
+                                    <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Greg P.
@@ -186,7 +186,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    1:00pm
+                                    <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Tony G.
@@ -200,10 +200,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    2:00pm A.A and Al-Anon Speaker Meeting
+                                    <strong>2:00pm A.A and Al-Anon Speaker Meeting</strong>
                                 </div>
                                 <div class="col-sm-2">
-                                    2:00pm
+                                    <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     David G.
@@ -217,7 +217,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    3:00pm
+                                    <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Mari W.
@@ -231,7 +231,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    4:00pm
+                                    <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Carol H.
@@ -245,7 +245,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    5:00pm
+                                    <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Eric L.
@@ -259,7 +259,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    6:00pm
+                                    <strong>6:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Mark F.
@@ -273,7 +273,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    7:00pm
+                                    <strong>7:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Chael R.
@@ -287,13 +287,13 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    8:00pm Prize Raffle and 50 / 50
+                                    <strong>8:00pm Prize Raffle and 50 / 50</strong>
                                 </div>
                                 <div class="col-sm-12">
-                                    9:30pm Fun and Fellowship Dance
+                                    <strong>9:30pm Fun and Fellowship Dance</strong>
                                 </div>
                                 <div class="col-sm-12">
-                                    Good Night and Be Safe
+                                    <strong>Good Night and Be Safe</strong>
                                 </div>
                             </div>
                         </section>
@@ -303,21 +303,21 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2">
-                                    Time
+                                    <strong>Time</strong>
                                 </div>
                                 <div class="col-sm-3">
-                                    Name
+                                    <strong>Name</strong>
                                 </div>
                                 <div class="col-sm-3">
-                                    From
+                                    <strong>From</strong>
                                 </div>
                                 <div class="col-sm-4">
-                                    Topic
+                                    <strong>Topic</strong>
                                 </div>
 
 
                                 <div class="col-sm-2">
-                                    9:00am
+                                    <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Maxine S.
@@ -331,7 +331,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    10:00am
+                                    <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Robert A.
@@ -344,10 +344,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-12">
-                                    11:00am Al-Anon Speaker Meeting
+                                    <strong>11:00am Al-Anon Speaker Meeting</strong>
                                 </div>
                                 <div class="col-sm-2">
-                                    11:00am
+                                    <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Patricia
@@ -361,7 +361,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    12:00pm
+                                    <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Cliff A.
@@ -375,7 +375,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    1:00pm
+                                    <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Ryan Y.
@@ -389,10 +389,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    1:30pm Alateen Speaker
+                                    <strong>1:30pm Alateen Speaker</strong>
                                 </div>
                                 <div class="col-sm-2">
-                                    2:00pm
+                                    <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Bob C.
@@ -405,7 +405,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-2">
-                                    3:00pm
+                                    <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Michele T.
@@ -418,7 +418,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-2">
-                                    4:00pm
+                                    <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-3">
                                     Irma
@@ -431,7 +431,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-12">
-                                    A.A. and Al-Anon meetings Ends - Hope you had a fun time!
+                                    <strong>A.A. and Al-Anon meetings Ends - Hope you had a fun time!</strong>
                                 </div>
 
                             </div>
