@@ -69,7 +69,7 @@ include_once 'header-bottom.inc'
     <article aria-label="Marathon meetings and unity">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">MBAR Marathon Schedule 2024</h3>
