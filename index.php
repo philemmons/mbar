@@ -129,7 +129,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - MBAR Activities
                             </p>
-                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Discussions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.  
+                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.  
                                 <br><br>
                                 Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>

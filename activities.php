@@ -74,7 +74,7 @@ include_once 'header-bottom.inc'
 
                     <div class="card card-body border-0">
                         <section class="card-title">
-                            <h3>Guest Speakers</h3>
+                            <h3>Guest Speakers and Panel Sessions</h3>
                         </section>
                         <p class="card-text">At the main speaker meetings, our Speakers are sharing their experience, strength and hope with us. "Showing others who suffer how we were given help is the very thing which makes life seem so worth while to us now. Cling to the thought that, in God's hands, the dark past is the greatest possession you have - the key to life and happiness for others." BB p124
                         </p>
