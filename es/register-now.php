@@ -82,7 +82,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3  text-bg-light hero-text-border" title="Preinscripción 2024.">
                         <section aria-label="Registration-Intro">
                             <h3 class="card-title text-center mb-3">Preinscripción 2024</h3>
-                            <p>Si te registras con anticipación, nos ayudarás a prepararte para que tu experiencia en el evento sea perfecta. Tu registro nos demuestra tu entusiasmo y compromiso con MBAR, ¡y lo agradecemos! ¡$1 de tu pago se destinará a nuestro sorteo 50/50 del sábado por la noche! Si pagas por <i>más</i> de una persona, agrega sus nombres en la sección de notas.
+                            <p>Si te registras con anticipación, nos ayudarás a prepararte para que tu experiencia en el evento sea perfecta. Tu registro nos demuestra tu entusiasmo y compromiso con MBAR, ¡y lo agradecemos! Si pagas por <i>más</i> de una persona, agrega sus nombres en la sección de notas.
                             </p>
                             <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que complete su registro.
                                 <br><br>Puede pagar su registro en línea con <strong>cheque</strong> en lugar de hacerlo con Venmo o PayPal. Haga su cheque a nombre de MBAR y envíelo por correo a
