@@ -181,7 +181,7 @@ include_once 'header-bottom.inc'
 
                     <div class="row">
                         <div class="col-md-5 col-12">
-                            <img src="../images/con-dance.png" class="img-fluid py-3" alt="A silhouette of fun and fellowship at the Saturday night dance.">
+                            <img src="../images/164.png" class="img-fluid py-3" alt="Straight out of the first 164 logo">
                         </div>
 
                         <div class="col-md-7 col-12">
