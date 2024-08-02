@@ -129,7 +129,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Actividades de MBAR
                             </p>
-                            <p class="card-text">Nos complace presentar nuestra programación, que incluye: Reuniones de Maratón Para Todos, Oradores Invitados, Sesiones de Panel, Cena de Presentación de Oradores, Baile de Máscaras, Desayuno de Fin de Curso con Bingo y Helado Social. Además, Habrá Velocidad Compañerismo, Una Búsqueda del Tesoro de Goose Chase, Pintar Compañerismo, Werewolf Compañerismo Juego, A.A. Trivialidades y Lanzamiento de Cornhole.
+                            <p class="card-text">Nos complace presentar nuestra programación, que incluye: Reuniones de Maratón Para Todos, Oradores Invitados, Sesiones de Panel, Cena de Presentación de Oradores, Baile de Máscaras, Desayuno de Fin de Curso con Bingo y Helado Social. Además, Habrá Velocidad Compañerismo, Una Búsqueda del Tesoro de Goose Chase, Pintar Compañerismo, Hombre-lobo Compañerismo Juego, A.A. Trivialidades y Lanzamiento de Cornhole.
                                 <br><br>
                                 Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>

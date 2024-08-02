@@ -175,7 +175,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Speed Fellowship
+                                    Velocidad Compañerismo
                                 </div>
 
 
@@ -198,7 +198,7 @@ include_once 'header-bottom.inc'
                                     3:30pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Búsqueda del Tesoro de Goose Chase - <strong>Stevenson 2</strong>
+                                    Búsqueda del Tesoro de Persecución del Ganso - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -322,7 +322,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Werewolf Fellowship Hour
+                                    Hombre-lobo Compañerismo Hora
                                 </div>
 
 
@@ -359,7 +359,7 @@ include_once 'header-bottom.inc'
                                     4:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Trivia de A.A.: Servicio general - <strong>Stevenson 2</strong>
+                                    Trivialidades de A.A.: Servicio General - <strong>Stevenson 2</strong>
                                 </div>
 
 
