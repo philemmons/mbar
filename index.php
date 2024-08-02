@@ -127,16 +127,17 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Committee Meeting
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR Activities
                             </p>
-                            <p class="card-text">As we gear up for our upcoming event, we will be holding several additional planning meetings to ensure everything runs smoothly. Your input and participation are crucial to our success. Together, we can make this event truly exceptional!
+                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Discussions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.  
                                 <br><br>
-                                Looking forward to collaborating with all of you.
+                                Mark your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
                         </div>
+
                     </div>
                 </div>
 
@@ -161,15 +162,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR Activities
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Committee Meeting
                             </p>
-                            <p class="card-text">Our exciting lineup includes: Marathon Meetings, Guest Speakers, Meet the Speakers Dinner, Dancing, Roundup Breakfast, and Ice Cream Social. In addition to these enriching activities, Monterey offers plenty to explore, especially the stunning coastal views.
+                            <p class="card-text">As we gear up for our upcoming event, we will be holding several additional planning meetings to ensure everything runs smoothly. Your input and participation are crucial to our success. Together, we can make this event truly exceptional!
                                 <br><br>
-                                Mark your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
+                                Looking forward to collaborating with all of you.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
                         </div>
                     </div>
                 </div>

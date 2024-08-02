@@ -127,15 +127,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reunión del Comité de MBAR
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades de MBAR
                             </p>
-                            <p class="card-text">Mientras nos preparamos para nuestro próximo evento, realizaremos varias reuniones de planificación adicionales para asegurarnos de que todo transcurra sin problemas. Sus aportes y participación son cruciales para nuestro éxito. ¡Juntos, podemos hacer que este evento sea realmente excepcional!
+                            <p class="card-text">Nos complace presentar nuestra programación, que incluye: reuniones de maratón para todos, oradores invitados, mesas redondas, cena de presentación de oradores, baile de máscaras, desayuno de fin de semana con bingo y helado social. Además, habrá Speed Fellowship, una búsqueda del tesoro de Goose Chase, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia y lanzamiento de cornhole.
                                 <br><br>
-                                Esperamos colaborar con todos ustedes.
+                                Marque sus calendarios para un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
                         </div>
                     </div>
                 </div>
@@ -161,15 +161,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Actividades de MBAR
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reunión del Comité de MBAR
                             </p>
-                            <p class="card-text">Nuestra emocionante programación incluye: reuniones de maratón, oradores invitados, cena de presentación de oradores, baile, desayuno de fin de año y reunión social con helados. Además de estas enriquecedoras actividades, Monterey ofrece mucho para explorar, especialmente las impresionantes vistas costeras.
+                            <p class="card-text">Mientras nos preparamos para nuestro próximo evento, realizaremos varias reuniones de planificación adicionales para asegurarnos de que todo transcurra sin problemas. Sus aportes y participación son cruciales para nuestro éxito. ¡Juntos, podemos hacer que este evento sea realmente excepcional!
                                 <br><br>
-                                Marque su calendario para un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
+                                Esperamos colaborar con todos ustedes.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
                         </div>
                     </div>
                 </div>
