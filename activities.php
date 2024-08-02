@@ -194,13 +194,13 @@ include_once 'header-bottom.inc'
                                 <p class="card-text">
                                 <ul>
                                     <li>Speed Fellowship-ing</li>
-                                    <li><a class="btn btn-outline-primary btn-sm" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <li><a class="bb-link" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                     <li>Paint Fellowship</li>
                                     <li>Werewolf Fellowship Game</li>
-                                    <li><a class="btn btn-outline-primary btn-sm" href="pdf/cornhole.pdf">Cornhole and Fellowship<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <li><a class="bb-link" href="pdf/cornhole.pdf">Cornhole and Fellowship<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
-                                    <li><a class="btn btn-outline-primary btn-sm" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <li><a class="bb-link" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                 </ul>
 
