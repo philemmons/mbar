@@ -157,7 +157,6 @@ include_once 'header-bottom.inc'
                                     </li>
                                 </ul>
                                 </p>
-
                             </div>
                         </div>
                     </div>

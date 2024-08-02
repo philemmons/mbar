@@ -74,7 +74,7 @@ include_once 'header-bottom.inc'
 
                     <div class="card card-body border-0">
                         <section class="card-title">
-                            <h3>Oradores Invitados</h3>
+                            <h3>Oradores Ivitados y Sesiones de Panel</h3>
                         </section>
                         <p class="card-text">En las principales reuniones de oradores, nuestros oradores comparten su experiencia, fortaleza y esperanza con nosotros. "Mostrar a otros que sufren cómo recibimos ayuda es precisamente lo que hace que la vida nos parezca tan valiosa ahora. Aférrate al pensamiento de que, en las manos de Dios, el pasado oscuro es la posesión más grande que tienes: la clave de la vida y felicidad para los demás." BB p124
                         </p>
@@ -93,7 +93,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Cena de Conozca a los Oradores</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     Únase a nosotros para disfrutar de una deliciosa cena y conozca a los oradores <strong>en el Salón de la Iglesia Luterana de Belén</strong> en la parte trasera del edificio.
                                 </p>
@@ -111,7 +111,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Reuniones Maratónicas</h3>
                                 </section>
-                                <p class="card-text">Durante la Conferencia MBAR, se llevarán a cabo reuniones abiertas a todos los miembros de A.A. Miembros en varias horas durante el día. No se llevarán a cabo reuniones maratónicas durante las Reuniones de Oradores Principales de la Conferencia. No es necesario estar registrado en la conferencia para asistir a estas reuniones.
+                                <p class="card-text">Durante la Conferencia MBAR, se celebrarán reuniones abiertas a todos los miembros de A.A. y Al-Anon en distintos horarios durante el día. No se celebrarán reuniones maratónicas durante las reuniones de oradores principales de la Conferencia. No es necesario estar inscrito en la conferencia para asistir a estas reuniones.
                                 </p>
                             </div>
                         </div>
@@ -127,9 +127,14 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Desayuno Resumen</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
-                                    Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el Salón de la Iglesia Luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día.
+                                    Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el salón de la iglesia luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día. ¡Sí, prepare su marcador y disfrute de la emoción de ganar!
+                                <ul>
+                                    <li>
+                                        <a class="bb-link" href="../pdf/breakfast_bingo.pdf">Desayuno y juegos de bingo<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                </ul>
                                 </p>
                             </div>
                         </div>
@@ -143,11 +148,15 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Danza y Compañerismo</h3>
+                                    <h3>Baile de Máscaras</h3>
                                 </section>
-                                <p class="card-text">Después de la reunión de oradores principales el sábado por la noche, únase a nosotros para divertirse y tener compañerismo. Al fin y al cabo, "no somos gente triste. Si los recién llegados no vieran alegría o diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
+                                <p class="card-text">Después de la reunión del orador principal el sábado por la noche, únase a nosotros para divertirse y compartir. Baile toda la noche en nuestra mascarada (se proporcionarán máscaras). Después de todo, "no somos gente triste. Si los recién llegados no pudieran ver alegría ni diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
+                                <ul>
+                                    <li>
+                                        <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de máscaras<img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                </ul>
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -162,7 +171,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Helado Social</h3>
                                 </section>
-                                <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
+                                <p class="card-text"><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     ¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
                                 </p>
@@ -171,6 +180,39 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-5 col-12">
+                            <img src="../images/164.png" class="img-fluid py-3" alt="Directamente del primer logotipo 164">
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="card card-body border-0">
+                                <section class="card-title">
+                                    <h3>Más Compañerismo</h3>
+                                </section>
+                                <p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
+                                </p>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Comunidad rápida</li>
+                                    <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del tesoro de Goose Chase<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                    <li>Compañerismo de pintura</li>
+                                    <li>Juego de la Comunidad de hombres lobo</li>
+                                    <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Comunidad<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                    <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Curiosidades de A.A: Servicio general<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                </ul>
+
+                                <span class="text-center">
+
+                                </span>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
                     <p class="card-text"><strong>Para obtener más información sobre la conferencia, recoja su programa en el mostrador de inscripción.</strong></p>
                 </div>
 
