@@ -153,7 +153,7 @@ include_once 'header-bottom.inc'
                                 <p class="card-text">Después de la reunión del orador principal el sábado por la noche, únase a nosotros para divertirse y compartir. Baile toda la noche en nuestra mascarada (se proporcionarán máscaras). Después de todo, "no somos gente triste. Si los recién llegados no pudieran ver alegría ni diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
                                 <ul>
                                     <li>
-                                        <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de máscaras<img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                        <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de máscaras<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
                                 </p>
@@ -226,9 +226,9 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-6 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section class="card-title">
+                        <section class="card-title mb-4">
                             <h4 class="card-title text-center mb-3 text-uppercase">Explorando Monterey y Sus Alrededores</h4>
-                            <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link" target="_blank" rel="noopener noreferrer nofollow">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
+                            <a href="https://translate.google.com/?sl=en&tl=es&op=websites" class="bb-link mt-3" target="_blank" rel="noopener noreferrer nofollow">(Google Translate ayuda a traducir algunos de los sitios web)<span class="sr-only">(Abre una nueva ventana)</span></a>
                         </section>
                         <div class="row">
                             <div class="col-sm-6">
