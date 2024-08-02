@@ -131,7 +131,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Discussions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.  
                                 <br><br>
-                                Mark your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
+                                Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>
                         </div>
                         <div class="card-footer text-center">

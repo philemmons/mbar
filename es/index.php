@@ -131,7 +131,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Nos complace presentar nuestra programación, que incluye: reuniones de maratón para todos, oradores invitados, mesas redondas, cena de presentación de oradores, baile de máscaras, desayuno de fin de semana con bingo y helado social. Además, habrá Speed Fellowship, una búsqueda del tesoro de Goose Chase, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia y lanzamiento de cornhole.
                                 <br><br>
-                                Marque sus calendarios para un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
+                                Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>
                         </div>
                         <div class="card-footer text-center">
