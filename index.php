@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration is <strong>Live</strong>
                             </p>
-                            <p class="card-text">Register now and $1 of your registration will go towards the 50/50 drawing to be held on Saturday night! Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
+                            <p class="card-text">Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
                                 <br><br>
                                 The Marathon Meetings are open and do not require registration.
                             </p>
