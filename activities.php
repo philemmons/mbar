@@ -179,6 +179,47 @@ include_once 'header-bottom.inc'
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-5 col-12">
+                            <img src="../images/con-dance.png" class="img-fluid py-3" alt="A silhouette of fun and fellowship at the Saturday night dance.">
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="card card-body border-0">
+                                <section class="card-title">
+                                    <h3>Fellowship</h3>
+                                </section>
+                                <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities listed below than in previous years and invite you to them. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
+                                </p>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Speed Fellowship-ing</li>
+                                    <li>Goose Chase Scavenger Hunt
+                                        <br><br>
+                                        <a class="btn btn-outline-primary btn-sm" href="pdf/scavenger_hunt.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
+                                    </li>
+                                    <li>Paint Fellowship</li>
+                                    <li>Werewolf Fellowship Game</li>
+                                    <li>Cornhole and Fellowship
+                                        <br><br>
+                                        <a class="btn btn-outline-primary btn-sm" href="pdf/cornhole.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Cornhole and Fellowship<span class="sr-only">(Open pdf in browser)</span></a>
+                                    </li>
+                                    <li>A.A Trivia: General Service
+                                        <br><br>
+                                        <a class="btn btn-outline-primary btn-sm" href="pdf/aa_trivia.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">A.A Trivia<span class="sr-only">(Open pdf in browser)</span></a>
+                                    </li>
+                                </ul>
+
+
+                                <span class="text-center">
+
+                                </span>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
                     <p class="card-text"><strong>For more conference info, pick up your program at the registration desk.</strong></p>
                 </div>
 
