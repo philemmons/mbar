@@ -111,7 +111,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Marathon Meetings</h3>
                                 </section>
-                                <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                                <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. and Al-Anon Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
                                 </p>
                             </div>
                         </div>
@@ -125,11 +125,17 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Roundup Breakfast</h3>
+                                    <h3>Roundup Breakfast and Bingo</h3>
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
                                     Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day.
+                                    <br><br>
+                                    Yes, get your dauber ready and the thrill of the win!
+                                    <br>
+                                    <span class="text-center">
+                                        <a class="btn btn-outline-primary btn-sm" href="pdf/breakfast_bingo.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Breakfast and Bingo Games<span class="sr-only">(Open pdf in browser)</span></a>
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -143,7 +149,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Dance and Fellowship</h3>
+                                    <h3>Masquerade Dance and Fellowship</h3>
                                 </section>
                                 <p class="card-text">After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
                                 </p>
