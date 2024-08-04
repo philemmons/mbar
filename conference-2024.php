@@ -392,14 +392,17 @@ include_once 'header-bottom.inc'
                                     <strong>Conference Ends Until 2026</strong>
                                 </div>
 
+                            </div>
 
-                                <div class="col-sm-12 text-start">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <strong>Δ Location of Event is different than conference site</strong>
-                                    <br><br>
+                                </div>
+                                <div class="col-sm-6">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
                                 </div>
-
                             </div>
+
                         </section>
 
                     </div>
