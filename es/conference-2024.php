@@ -393,14 +393,17 @@ include_once 'header-bottom.inc'
                                     <strong>La Conferencia Termina en 2026</strong>
                                 </div>
 
+                            </div>
 
-                                <div class="col-sm-12 text-start">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <strong>Δ La ubicación del evento es diferente al sitio de la conferencia</strong>
-                                    <br><br>
+                                </div>
+                                <div class="col-sm-6">
                                     <strong>Descargo de responsabilidad: Este programa está sujeto a cambios.</strong>
                                 </div>
-
                             </div>
+
                         </section>
 
                     </div>
