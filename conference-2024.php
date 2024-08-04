@@ -395,6 +395,8 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-sm-12 text-start">
                                     <strong>Δ Location of Event is different than conference site</strong>
+                                    <br><br>
+                                    <strong>Disclaimer: This schedule is subject to change.</strong>
                                 </div>
 
                             </div>

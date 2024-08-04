@@ -396,6 +396,8 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-sm-12 text-start">
                                     <strong>Δ La ubicación del evento es diferente al sitio de la conferencia</strong>
+                                    <br><br>
+                                    <strong>Descargo de responsabilidad: Este programa está sujeto a cambios.</strong>
                                 </div>
 
                             </div>
