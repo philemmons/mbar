@@ -145,7 +145,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Thank you very much. We will contact you to see how to do your Contribution';
+                                $statusMsg = 'Thank you very much. We will be in touch with you soon about paying for your contribution. You can choose to pay via Venmo, PayPal, check, or cash. Please remember to include "Helping Hand" in the note section.';
                                 $postData = '';
                             } else {
                                 $statusMsg = 'reCaptcha verification failed, please try again.';

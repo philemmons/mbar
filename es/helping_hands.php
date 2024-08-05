@@ -145,7 +145,7 @@ include_once 'header-bottom.inc'
                                 mail($to, $subject, $htmlContent, $headers);
 
                                 $status = 'success';
-                                $statusMsg = 'Muchas gracias. Nos pondremos en contacto contigo para ver cómo hacer tu Aporte.';
+                                $statusMsg = 'Muchas gracias. Nos comunicaremos con usted pronto sobre el pago de su contribución. Puede optar por pagar mediante Venmo, PayPal, cheque o efectivo. Recuerde incluir "Mano Hmiga" en la sección de notas.';
                                 $postData = '';
                             } else {
                                 $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
