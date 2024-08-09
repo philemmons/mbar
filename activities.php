@@ -173,7 +173,7 @@ include_once 'header-bottom.inc'
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
-                                    Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members.
+                                    Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members. Scope out our new flier - <a class="bb-link" href="pdf/ice-cream-social.pdf">Ice Cream Social<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="card-text">It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
                             </div>
@@ -197,18 +197,14 @@ include_once 'header-bottom.inc'
                                     <li>Speed Fellowship-ing</li>
                                     <li><a class="bb-link" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
-                                    <li>Paint Fellowship</li>
-                                    <li>Werewolf Fellowship Game</li>
+                                    <li><a class="bb-link" href="pdf/paint-party.pdf">Paint Party<span class="sr-only">(Open pdf in browser)</span></a>
+                                    </li>
+                                    <li><a class="bb-link" href="pdf/werewolf.pdf">Werewolf Fellowship Game<span class="sr-only">(Open pdf in browser)</span></a>
                                     <li><a class="bb-link" href="pdf/cornhole.pdf">Cornhole and Fellowship<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                     <li><a class="bb-link" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                 </ul>
-
-
-                                <span class="text-center">
-
-                                </span>
                                 </p>
 
                             </div>

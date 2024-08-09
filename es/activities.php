@@ -173,7 +173,7 @@ include_once 'header-bottom.inc'
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
-                                    ¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros.
+                                    ¡Deja lo que estás haciendo y ven a tomar un helado con tus ingredientes favoritos! Disfrute del compañerismo y comparta su experiencia al estar en el MBAR de este año con otros miembros. Eche un vistazo a nuestro nuevo folleto: <a class="bb-link" href="../pdf/ice-cream-social.pdf">Helado Social<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                 </p>
                                 <p class="card-text">Se llevará a cabo en la <strong>Stevenson Terrace</strong> del Centro de Conferencias.</p>
                             </div>
@@ -194,20 +194,17 @@ include_once 'header-bottom.inc'
                                 </p>
                                 <p class="card-text">
                                 <ul>
-                                    <li>Comunidad rápida</li>
-                                    <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de Goose Chase<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li>Comunicación Rápida</li>
+                                    <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
-                                    <li>Compañerismo de pintura</li>
-                                    <li>Juego de la Comunidad de hombres lobo</li>
-                                    <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Comunidad<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li><a class="bb-link" href="../pdf/paint-party.pdf">Fiesta de Pintura<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
-                                    <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Curiosidades de A.A: Servicio General<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li><a class="bb-link" href="../pdf/werewolf.pdf">Juego Werewolf Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                    </li>
+                                    <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
-
-                                <span class="text-center">
-
-                                </span>
                                 </p>
 
                             </div>
