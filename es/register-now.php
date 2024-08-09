@@ -447,7 +447,6 @@ include_once 'header-bottom.inc'
                                         </div>
                                     </div>
                                     <ul>
-                                        <li>Regístrese ahora y $1.00 de su inscripción se destinará al sorteo 50/50 que se realizará el sábado por la noche.</li>
                                         <li>El baile del sábado por la noche es gratuito con su inscripción paga.</li>
                                     </ul>
                                 </div>

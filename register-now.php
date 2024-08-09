@@ -441,7 +441,6 @@ include_once 'header-bottom.inc'
                                         </div>
                                     </div>
                                     <ul>
-                                        <li>Register now and $1.00 of your registration goes toward the 50/50 drawing held Saturday Night.</li>
                                         <li>Saturday Night Dance is free with your paid registration.</li>
                                     </ul>
                                 </div>
