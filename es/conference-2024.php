@@ -121,7 +121,7 @@ include_once 'header-bottom.inc'
                                     9:00pm
                                 </div>
                                 <div class="col-sm-10">
-                                    Sorteo 50/50
+                                    Sorteo 50/50 en Línea
                                     <br>
                                     (Inmediatamente después de la reunión de oradores)
                                 </div>
@@ -175,7 +175,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Velocidad Compañerismo
+                                    Velocidad Compañerismo- <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -314,7 +314,7 @@ include_once 'header-bottom.inc'
                                     12:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Hora de Compañerismo de Pintura
+                                Fiesta de pintura - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -322,7 +322,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Hombre-lobo Compañerismo Hora
+                                    Werewolf Compañerismo Juego - <strong>Stevenson 2</strong>
                                 </div>
 
 

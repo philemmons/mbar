@@ -121,7 +121,7 @@ include_once 'header-bottom.inc'
                                     9:00pm
                                 </div>
                                 <div class="col-sm-10">
-                                    50/50 Drawing
+                                    Online 50/50 Drawing
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -173,7 +173,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Speed Fellowship
+                                    Speed Fellowship - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -313,7 +313,7 @@ include_once 'header-bottom.inc'
                                     12:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Paint Fellowship Hour
+                                    Paint Party - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -321,7 +321,7 @@ include_once 'header-bottom.inc'
                                     1:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Werewolf Fellowship Hour
+                                    Werewolf Fellowship Game - <strong>Stevenson 2</strong>
                                 </div>
 
 
