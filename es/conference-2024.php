@@ -314,7 +314,7 @@ include_once 'header-bottom.inc'
                                     12:00pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                Fiesta de pintura - <strong>Stevenson 2</strong>
+                                    Fiesta de pintura - <strong>Stevenson 2</strong>
                                 </div>
 
 
@@ -452,6 +452,13 @@ include_once 'header-bottom.inc'
                         <section aria-label="Describe services">
                             <h3 class="card-title mb-3">Servicios de la Conferencia: Manténgalo Simple</h3>
                             <p><strong>Habrá un servicio de transporte disponible</strong> para trasladarse desde el centro de conferencias hasta la Bethlehem Lutheran Church para el desayuno del domingo por la mañana y la cena de presentación de los oradores del sábado por la noche. Diríjase al mostrador de inscripción para obtener más información sobre este servicio gratuito.
+                            </p>
+                            <p>Este es el plano del Centro de Conferencias de Monterey para navegar por MBAR.
+                            <ul>
+                                <li>
+                                    <a class="bb-link" href="../pdf/mcc-floor-plan-2024.pdf">Mapa del Centro de Conferencias de Monterey<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
+                            </ul>
                             </p>
                             <hr>
                             <p>Visite el sitio web de nuestra Oficina Central de A.A. local

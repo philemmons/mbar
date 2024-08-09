@@ -452,6 +452,13 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3">Conference Services: Keep it Simple</h3>
                             <p><strong>Shuttle service will be available</strong> as to drive from the conference center to the Bethlehem Lutheran Church for the Sunday morning breakfast and the Saturday evening Meet the Speaker's Dinner. Go to the registration desk for more information about this complimentary service.
                             </p>
+                            <p>This is the Monterey Conference Center floor plan for navigating MBAR.
+                            <ul>
+                                    <li>
+                                        <a class="bb-link" href="pdf/mcc-floor-plan-2024.pdf">Monterey Conference Center Map<img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"><span class="sr-only">(Open pdf in browser)</span></a>
+                                    </li>
+                                </ul>
+                            </p>
                             <hr>
                             <p>See our local A.A. Central Office website
                                 <a href="https://www.aamonterey.org/aa-meetings/" class="bb-link" target="_blank" rel="noopener noreferrer" title="M.B.I.A.A meeting schedule.">www.aamonterey.org<span class="sr-only">(Opens a new window)</span></a> for a current listing of meetings in the area.
