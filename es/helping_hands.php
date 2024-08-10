@@ -245,6 +245,51 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
+    <!-- Part Payment -->
+    <article aria-label="Métodos de contribución">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div id="helping-now"></div>
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <h3 class="card-title mb-3">Métodos de Contribución
+                        </h3>
+                        <p><strong>Los miembros de A.A. y Al-Anon pueden hacer una contribución generosa directamente.</strong> Aceptamos Venmo, PayPal, cheque o efectivo. Recuerde incluir "Helping Hand" en la sección de notas.
+                        </p>
+
+                        <p>Si paga con <strong>cheque</strong>, hágalo a nombre de MBAR y envíelo por correo a
+                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br>Attn: de Naomi B.
+                            <br>P.O. Box 1462
+                            <br>Monterey, CA 93942
+                        </p>
+
+                        <p>De lo contrario, utilice uno de los códigos QR que aparecen a continuación.
+                        </p>
+
+                        <p><strong>Consejo útil</strong>: El código QR de PayPal lo lleva a la pantalla de inicio de sesión. Después de iniciar sesión, haga clic en el ícono del código QR en la parte superior derecha, junto al ícono del usuario, y luego escanee el código QR nuevamente para obtener el mensaje de pago de MBAR. Si necesita ayuda para realizar un pago, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">Administrador de sistemas</a>.
+                        </p>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-6 py-5">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                                <p class="text-center"><a href="https://venmo.com/code?user_id=2883666946555904351&created=1699031584.911354" class="bb-link" target="_blank" rel="noopener noreferrer" title="Enlace de código QR de PayPal">Enlace de código QR de Venmo<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            </div>
+                            <div class="col-sm-6 py-5">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="Código QR de PayPal" title="Código QR de PayPal">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
+                                <p class="text-center"><a href="https://www.paypal.com/qrcodes/managed/2337f158-b9f2-48ad-98b8-8fb7a693759f?utm_source=old_merchant_lp" class="bb-link" target="_blank" rel="noopener noreferrer" title="Enlace de código QR de PayPal">Enlace de código QR de PayPal<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            </div>
+                            <p>Los enlaces a continuación brindan instrucciones generales de pago.</p>
+                            <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Enviar-solicitar-dinero" class="bb-link" target="_blank" rel="noopener noreferrer" title="Enlace directo a Venmo">¿Cómo puedo enviar un pago o solicitar dinero con Venmo?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                            <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" rel="noopener noreferrer" title="Enlace directo a PayPal">¿Cómo envío pagos con PayPal?<span class="sr-only">(Abre una nueva ventana)</span></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
 
     <?php include_once 'footer.inc' ?>
 
