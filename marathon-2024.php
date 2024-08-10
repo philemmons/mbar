@@ -478,7 +478,11 @@ include_once 'header-bottom.inc'
     <script>
         //https://datatables.net/reference/option
         new DataTable('#mmSatDisplay', {
-            responsive: true
+            responsive: true,
+            searching: false,
+            ordering: false,
+            paging: false
+
         });
 
         new DataTable('#mmSunDisplay', {
