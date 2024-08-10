@@ -320,17 +320,17 @@ include_once 'header-bottom.inc'
                                     9:30am
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    A.A. Panel - <strong>Experience Exchange: Foundation for the Future</strong>
+                                    A.A. Panel - Experience Exchange: Foundation for the Future
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 marathon-cell">
                                     10:00am
                                 </div>
-                                <div class="col-sm-10 feature-speaker">
+                                <div class="col-sm-10 marathon-cell">
                                     A.A. Spanish Speaking Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (See insert for locations and times)
