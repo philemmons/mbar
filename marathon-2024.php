@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 table-responsive-md py-4">
                     <section aria-label="Saturday's Meetings">
-                        <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
+                        <h3 class="white-on-black py-2 mt-2 text-center">Saturday, August 31th</h3>
 
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
                             <caption class="small" id="tableOne">A.A Marathon Meetings for Saturday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
@@ -107,14 +107,14 @@ include_once 'header-bottom.inc'
                             </thead>
 
                             <tr class="table-success">
-                                <th scope="row">8:00am</th>
+                                <th scope="row" class="text-center">8:00am</th>
                                 <td>Benny S.</td>
                                 <td>Salinas</td>
                                 <td>Trust The Process</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">9:00am</th>
+                                <th scope="row" class="text-center">9:00am</th>
                                 <td>Ron M.</td>
                                 <td>Prunedale</td>
                                 <td>Spirituality</td>
@@ -124,7 +124,7 @@ include_once 'header-bottom.inc'
                                 <th scope="row" colspan=4>10:00am A.A. Kick-Off Speaker</th>
                             </tr>
                             <tr class="table-success">
-                                <th scope="row">10:00am</th>
+                                <th scope="row" class="text-center">10:00am</th>
                                 <td>Jack F.</td>
                                 <td>Salinas</td>
                                 <td>Quality vs Quantity</td>
@@ -132,7 +132,7 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">11:00am</th>
+                                <th scope="row" class="text-center">11:00am</th>
                                 <td>Steve C.</td>
                                 <td>Salinas</td>
                                 <td>Freedom</td>
@@ -142,7 +142,7 @@ include_once 'header-bottom.inc'
                             <tr class="table-primary text-center">
                                 <th scope="row" colspan=4>11:30 A.A / Al-Anon Double Winner Panel</th>
                             <tr class="table-success">
-                                <th scope="row">12:00pm</th>
+                                <th scope="row" class="text-center">12:00pm</th>
                                 <td>Greg P.</td>
                                 <td>Oak Hills</td>
                                 <td>Powerlessness</td>
@@ -150,7 +150,7 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">1:00pm</th>
+                                <th scope="row" class="text-center">1:00pm</th>
                                 <td>Tony G.</td>
                                 <td>Hollister</td>
                                 <td>Gratitude</td>
@@ -162,21 +162,21 @@ include_once 'header-bottom.inc'
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">2:00pm</th>
+                                <th scope="row" class="text-center">2:00pm</th>
                                 <td>David G.</td>
                                 <td>Monterey</td>
                                 <td>Willingness</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">3:00pm</th>
+                                <th scope="row" class="text-center">3:00pm</th>
                                 <td>Mari W.</td>
                                 <td>Salinas</td>
                                 <td>One Day At A Time</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">4:00pm</th>
+                                <th scope="row" class="text-center">4:00pm</th>
                                 <td>Carol H.</td>
                                 <td>Salinas</td>
                                 <td>Three Legacies of A.A.</td>
@@ -188,21 +188,21 @@ include_once 'header-bottom.inc'
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">5:00pm</th>
+                                <th scope="row" class="text-center">5:00pm</th>
                                 <td>Eric L.</td>
                                 <td>Salinas</td>
                                 <td>Acceptance</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">6:00pm</th>
+                                <th scope="row" class="text-center">6:00pm</th>
                                 <td>Mark F.</td>
                                 <td>Monterey</td>
                                 <td>Love and Tolerance</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">7:00pm</th>
+                                <th scope="row" class="text-center">7:00pm</th>
                                 <td>Chael R.</td>
                                 <td>Salinas</td>
                                 <td>Three Pertinent Ideas</td>
@@ -234,7 +234,7 @@ include_once 'header-bottom.inc'
                     </section>
 
                     <section aria-label="Sunday's events">
-                        <h3 class="white-on-black py-2 mt-2">Sunday, September 1st</h3>
+                        <h3 class="white-on-black py-2 mt-2 text-center">Sunday, September 1st</h3>
 
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
                             <caption class="small" id="tableTwo">A.A Marathon Meetings for Sunday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
@@ -255,7 +255,7 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">9:00am</th>
+                                <th scope="row" class="text-center">9:00am</th>
                                 <td>Maxine S.</td>
                                 <td>Salinas</td>
                                 <td>Newcomers</td>
@@ -266,7 +266,7 @@ include_once 'header-bottom.inc'
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">10:00am</th>
+                                <th scope="row" class="text-center">10:00am</th>
                                 <td>Robert A.</td>
                                 <td>Monterey</td>
                                 <td>Humility</td>
@@ -279,21 +279,21 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">11:00am</th>
+                                <th scope="row" class="text-center">11:00am</th>
                                 <td>Patricia</td>
                                 <td>Greenfield</td>
                                 <td>Unity</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">12:00pm</th>
+                                <th scope="row" class="text-center">12:00pm</th>
                                 <td>Cliff A.</td>
                                 <td>Monterey</td>
                                 <td>Stability</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">1:00pm</th>
+                                <th scope="row" class="text-center">1:00pm</th>
                                 <td>Ryan Y.</td>
                                 <td>Salinas</td>
                                 <td>Surrender</td>
@@ -306,7 +306,7 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">2:00pm</th>
+                                <th scope="row" class="text-center">2:00pm</th>
                                 <td>Bob C.</td>
                                 <td>Salinas</td>
                                 <td>Sponsorship</td>
@@ -318,14 +318,14 @@ include_once 'header-bottom.inc'
 
 
                             <tr class="table-success">
-                                <th scope="row">3:00pm</th>
+                                <th scope="row" class="text-center">3:00pm</th>
                                 <td>Michele T.</td>
                                 <td>Salinas</td>
                                 <td>Serenity</td>
                             </tr>
 
                             <tr class="table-success">
-                                <th scope="row">4:00pm</th>
+                                <th scope="row" class="text-center">4:00pm</th>
                                 <td>Irma</td>
                                 <td>Salinas</td>
                                 <td>Coming Back</td>
