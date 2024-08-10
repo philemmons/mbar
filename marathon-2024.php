@@ -89,7 +89,7 @@ include_once 'header-bottom.inc'
     <!-- Part Two-->
     <article id="schedule" aria-label="Marathon 2024">
         <div class="container shadow-wrap">
-            <div class="table-responsive-md py-4 mb-5">
+            <div class="py-4 mb-5">
                 <section aria-label="Saturday's Meetings">
                     <h3 class="white-on-black py-2 mt-2 text-center">Saturday, August 31th</h3>
                     <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
@@ -418,6 +418,22 @@ include_once 'header-bottom.inc'
 
 
     <?php include_once 'footer.inc' ?>
+
+    <!-- https://datatables.net/ -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
+    <script>
+        //https://datatables.net/reference/option
+        new DataTable('#tableone', {
+            responsive: true
+        });
+
+        new DataTable('#tabletwo', {
+            responsive: true
+        });
+    </script>
     </body>
 
     </html>
