@@ -13,6 +13,7 @@
   --color-11: #113362;
   --color-12: #0000ff;
   --color-13: #ddeeff;
+  --color-14: #ccebdd;
 
   --color-21: #9eeaf9;
   --color-22: #0000c3;
@@ -555,12 +556,18 @@ iframe {
   padding: 0.5rem 0.25rem;
 }
 
+/**** 2024 ****/
+
 .feature-speaker {
   background-color: var(--color-13);
 }
 
 .cell-color {
   background-color: var(--color-3);
+}
+
+.marathon-cell {
+  background-color: var(--color-14);
 }
 
 /**** tables ****/
@@ -609,19 +616,19 @@ ol.ol-roman {
 
 /**** text indent ****/
 
-.ti-1{
+.ti-1 {
   text-indent: 2rem;
 }
 
-.ti-2{
+.ti-2 {
   text-indent: 4rem;
 }
 
-.ti-3{
+.ti-3 {
   text-indent: 6rem;
 }
 
-.ti-4{
+.ti-4 {
   text-indent: 8rem;
 }
 

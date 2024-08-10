@@ -139,30 +139,30 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 cell color">
+                                <div class="col-sm-2 marathon-cell">
                                 8:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 marathon-cell">
                                 A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                 <br>
                                 (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 marathon-cell">
                                 8:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 marathon-cell">
                                 Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                 <br>
                                 (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 marathon-cell">
                                     9:00am
                                 </div>
-                                <div class="col-sm-10 cell color">
+                                <div class="col-sm-10 marathon-cell">
                                 Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                 <br>
                                 (See insert for scheduled times)
@@ -286,27 +286,27 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 cell color">
+                                <div class="col-sm-2 marathon-cell">
                                 9:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 marathon-cell">
                                 A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                 <br>
                                 (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 marathon-cell">
                                 9:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 marathon-cell">
                                 A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                 <br>
                                 (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 marathon-cell">
                                     9:00am
                                 </div>
                                 <div class="col-sm-10 cell color">
