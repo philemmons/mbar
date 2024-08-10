@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                                 <br>
                                 <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
                                 <br>
-                                As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair, Mark S.
+                                As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
                             </p>
                         </section>
                     </div>
