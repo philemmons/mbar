@@ -120,8 +120,8 @@ include_once 'header-bottom.inc'
                                 <td>Spirituality</td>
                             </tr>
 
-                            <tr class="table-primary">
-                                <th scope="row">10:00am A.A. Kick-Off Speaker</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>10:00am A.A. Kick-Off Speaker</th>
                             </tr>
                             <tr class="table-success">
                                 <th scope="row">10:00am</th>
@@ -139,8 +139,8 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">11:30 A.A / Al-Anon Double Winner Panel</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>11:30 A.A / Al-Anon Double Winner Panel</th>
                             <tr class="table-success">
                                 <th scope="row">12:00pm</th>
                                 <td>Greg P.</td>
@@ -157,8 +157,8 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">2:00pm A.A / Al-Anon Speaker Meetings</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>2:00pm A.A / Al-Anon Speaker Meetings</th>
                             </tr>
 
                             <tr class="table-success">
@@ -183,8 +183,8 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">5:00pm Meet the Speaker's Dinner</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>5:00pm Meet the Speaker's Dinner</th>
                             </tr>
 
                             <tr class="table-success">
@@ -209,23 +209,23 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">7:30pm A.A. Speaker Meeting</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>7:30pm A.A. Speaker Meeting</th>
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">8:30pm Round Up Prize Raffle and 50/50 Drawing</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>8:30pm Round Up Prize Raffle and 50/50 Drawing</th>
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">9:30pm Saturday Night Masquerade Dance - Masks Provided</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>9:30pm Saturday Night Masquerade Dance - Masks Provided</th>
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">Good Night and Be Safe</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>Good Night and Be Safe</th>
                             </tr>
 
                             </tbody>
@@ -249,8 +249,8 @@ include_once 'header-bottom.inc'
                             </thead>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">8:00am Round-Up Continental Breakfast and Bingo Games</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>8:00am Round-Up Continental Breakfast and Bingo Games</th>
                             </tr>
 
 
@@ -261,8 +261,8 @@ include_once 'header-bottom.inc'
                                 <td>Newcomers</td>
                             </tr>
 
-                            <tr class="table-primary">
-                                <th scope="row">9:30am A.A. Panel - Experience Exchange: Foundation for the Future</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</th>
                             </tr>
 
                             <tr class="table-success">
@@ -273,8 +273,8 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">11:00am Al-Anon Speaker Meeting</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>11:00am Al-Anon Speaker Meeting</th>
                             </tr>
 
 
@@ -300,8 +300,8 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">1:30pm Alateen Speaker Meeting</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>1:30pm Alateen Speaker Meeting</th>
                             </tr>
 
 
@@ -312,8 +312,8 @@ include_once 'header-bottom.inc'
                                 <td>Sponsorship</td>
                             </tr>
 
-                            <tr class="table-primary">
-                                <th scope="row">3:00pm Ice Cream Social</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>3:00pm Ice Cream Social</th>
                             </tr>
 
 
@@ -332,18 +332,18 @@ include_once 'header-bottom.inc'
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">5:00pm A.A.Speaker Meeting</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>5:00pm A.A.Speaker Meeting</th>
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">6:30pm Al-Anon Prize Raffle Drawing</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>6:30pm Al-Anon Prize Raffle Drawing</th>
                             </tr>
 
 
-                            <tr class="table-primary">
-                                <th scope="row">A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</th>
+                            <tr class="table-primary text-center">
+                                <th scope="row" colspan=4>A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</th>
                             </tr>
 
                             </tbody>
