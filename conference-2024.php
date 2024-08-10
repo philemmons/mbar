@@ -139,11 +139,33 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
+                                <div class="col-sm-2 cell color">
+                                8:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
+                                <br>
+                                (See insert for scheduled times)
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                8:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                <br>
+                                (See insert for scheduled times)
+                                </div>
+
+
                                 <div class="col-sm-2 cell-color">
                                     9:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
-                                    A.A and Al-Anon(English/Spanish) - Marathon Meetings Begin
+                                <div class="col-sm-10 cell color">
+                                Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                <br>
+                                (See insert for scheduled times)
                                 </div>
 
 
@@ -165,7 +187,7 @@ include_once 'header-bottom.inc'
                                     A.A. / Al-Anon Double Winner Panel
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Speaker: <strong>Annette C.</strong>
+                                    Speaker: <strong>Annette C. and Micha C.</strong>
                                 </div>
 
 
@@ -217,7 +239,7 @@ include_once 'header-bottom.inc'
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Speaker: <strong>Krystal M., Sacramento, AZ</strong>
+                                    Speaker: <strong>Krystal M., Sacramento, CA</strong>
                                 </div>
 
 
@@ -225,7 +247,7 @@ include_once 'header-bottom.inc'
                                     8:30pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Prize Raffle and 50/50 Drawing - Must be present to win
+                                    Round Up Prize Raffle and 50/50 Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -257,18 +279,40 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    8:00am
+                                8:00am
                                 </div>
                                 <div class="col-sm-10">
                                     Round-Up Continental Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
+                                <div class="col-sm-2 cell color">
+                                9:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
+                                <br>
+                                (See insert for scheduled times)
+                                </div>
+
+
+                                <div class="col-sm-2 cell-color">
+                                9:00am
+                                </div>
+                                <div class="col-sm-10 cell-color">
+                                A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                <br>
+                                (See insert for scheduled times)
+                                </div>
+
+
                                 <div class="col-sm-2 cell-color">
                                     9:00am
                                 </div>
-                                <div class="col-sm-10 cell-color">
-                                    A.A and Al-Anon(English/Spanish) - Marathon Meetings Begin
+                                <div class="col-sm-10 cell color">
+                                Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                <br>
+                                (See insert for scheduled times)
                                 </div>
 
 
@@ -276,23 +320,22 @@ include_once 'header-bottom.inc'
                                     9:30am
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    A.A. Four Speaker Panel
+                                    A.A. Panel - <strong>Experience Exchange: Foundation for the Future</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Topic: <strong>Experience Exchange: Foundation for the Future</strong>
+                                    Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
                                 </div>
 
 
                                 <div class="col-sm-2 feature-speaker">
                                     10:00am
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
-                                    A.A. Spanish Speaking Meetings Begin
+                                <div class="col-sm-10 feature-speaker">
+                                    A.A. Spanish Speaking Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br>
+                                    (See insert for locations and times)
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
-                                    Speakers: <strong>TBA</strong>
-                                </div>
-
+                               
 
                                 <div class="col-sm-2 feature-speaker">
                                     11:00am
@@ -303,9 +346,7 @@ include_once 'header-bottom.inc'
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
-                                    Speaker: <strong>Chris W., Redding, CA</strong>
-                                    <br>
-                                    Speaker: <strong>Eileen W., Redding, CA</strong>
+                                    Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
                                 </div>
 
 
@@ -335,6 +376,8 @@ include_once 'header-bottom.inc'
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <br>
                                     <em>(MBAR abides by B-17 NCWSA requirement for Alateen safety)</em>
+                                    <br>
+                                    Marge S. and Concetta C.
                                 </div>
 
 
@@ -379,7 +422,7 @@ include_once 'header-bottom.inc'
                                     6:30pm
                                 </div>
                                 <div class="col-sm-10 cell-color">
-                                    Prize Raffle Drawing - Must be present to win
+                                    Al-Anon Prize Raffle Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -389,7 +432,7 @@ include_once 'header-bottom.inc'
                                     9:00pm
                                 </div>
                                 <div class="col-sm-10">
-                                    <strong>Conference Ends Until 2026</strong>
+                                    <strong>Conference Ends  - Until 2026</strong>
                                 </div>
 
                             </div>
