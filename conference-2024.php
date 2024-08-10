@@ -309,7 +309,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 marathon-cell">
                                     9:00am
                                 </div>
-                                <div class="col-sm-10 cell color">
+                                <div class="col-sm-10 marathon-cell">
                                 Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                 <br>
                                 (See insert for scheduled times)
