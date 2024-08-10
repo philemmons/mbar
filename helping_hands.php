@@ -246,6 +246,53 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
+    <!-- Part Payment -->
+    <article aria-label="Contribution methods">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div id="helping-now"></div>
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+                        <h3 class="card-title mb-3">Contribution Methods
+                        </h3>
+                        <p><strong>A.A. and Al-Anon members are welcome to give a generous contribution directly.</strong> We accept Venmo, PayPal, check, or cash. Please remember to include "Helping Hand" in the note section.  
+                        </p>
+
+                        <p>If you pay by check, please make your check payable to MBAR, and mail it to
+                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br>Attn: Naomi B.
+                            <br>P.O. Box 1462
+                            <br>Monterey, CA 93942
+                        </p>
+
+                        <p>Otherwise, please use one of the QR codes below.
+                        </p>
+
+                        <p><strong>Helpful Tip</strong>: PayPal's qrCode brings you to the login screen. After logging in, click on the qrCode icon at the top right, next to the user icon, and then scan the qrCode again for the MBAR payment prompt. If you need some assistance with making a payment, please contact our <a href="mailto:<?php echo getenv('mbar-to-email') ?>" class="bb-link">SysAdmin</a>.
+                        </p>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-6 py-5">
+                                <img src="../images/venmo-qrCode.png" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
+                                <p class="text-center"><a href="https://venmo.com/code?user_id=2883666946555904351&created=1699031584.911354" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Venmo's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
+                            <div class="col-sm-6 py-5">
+                                <img src="../images/paypal-qrCode.png" class="img-fluid shadow-wrap" alt="PayPal QR code" title="PayPal qrCode">
+                                <p class="text-center pt-4"><?php echo getenv('mbar-treas-email') ?></p>
+                                <p class="text-center"><a href="https://www.paypal.com/qrcodes/managed/2337f158-b9f2-48ad-98b8-8fb7a693759f?utm_source=old_merchant_lp" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">PayPal's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
+                            </div>
+                            <p>The links below provide general payment instructions.</p>
+                            <p class="mb-3"><a href="https://help.venmo.com/hc/en-us/articles/210413477-Sending-Requesting-Money" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to Venmo">How can I send a payment or request money with Venmo?<span class="sr-only">(Opens a new window)</span></a></p>
+                            <p class="mb-3"><a href="https://www.paypal.com/in/cshelp/article/how-do-i-send-payments-help293" class="bb-link" target="_blank" rel="noopener noreferrer" title="Direct link to PayPal">How do I send payments with PayPal?<span class="sr-only">(Opens a new window)</span></a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
 
     <?php include_once 'footer.inc' ?>
 
