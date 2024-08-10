@@ -120,7 +120,11 @@ include_once 'header-bottom.inc'
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>10:00am A.A. Kick-Off Speaker</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
+
                         <tr class="table-success">
                             <th scope="row" class="text-center">10:00am</th>
                             <td>Jack F.</td>
@@ -139,6 +143,11 @@ include_once 'header-bottom.inc'
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>11:30 A.A / Al-Anon Double Winner Panel</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                        </tr>
+
                         <tr class="table-success">
                             <th scope="row" class="text-center">12:00pm</th>
                             <td>Greg P.</td>
@@ -157,6 +166,9 @@ include_once 'header-bottom.inc'
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>2:00pm A.A / Al-Anon Speaker Meetings</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
                         <tr class="table-success">
@@ -183,6 +195,9 @@ include_once 'header-bottom.inc'
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>5:00pm Meet the Speaker's Dinner</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
                         <tr class="table-success">
@@ -209,21 +224,33 @@ include_once 'header-bottom.inc'
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>7:30pm A.A. Speaker Meeting</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>8:30pm Round Up Prize Raffle and 50/50 Drawing</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>9:30pm Saturday Night Masquerade Dance - Masks Provided</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
 
                         <tr class="table-primary text-center">
                             <th scope="row" colspan=4>Good Night and Be Safe</th>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
+                            <td style="display: none"></td>
                         </tr>
 
                         </tbody>
