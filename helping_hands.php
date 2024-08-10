@@ -251,14 +251,14 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div id="helping-now"></div>
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <h3 class="card-title mb-3">Contribution Methods
                         </h3>
                         <p><strong>A.A. and Al-Anon members are welcome to give a generous contribution directly.</strong> We accept Venmo, PayPal, check, or cash. Please remember to include "Helping Hand" in the note section.  
                         </p>
 
-                        <p>If you pay by check, please make your check payable to MBAR, and mail it to
+                        <p>If you pay by <strong>check</strong>, please make your check payable to MBAR, and mail it to
                             <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
                             <br>Attn: Naomi B.
                             <br>P.O. Box 1462
