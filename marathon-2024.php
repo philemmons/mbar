@@ -73,7 +73,9 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">MBAR Marathon Schedule 2024</h3>
-                            <p class="mb-6 h4 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome. No registration is required for any of the marathon meetings.
+                            <p class="mb-6 h4 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome. 
+                                <br>
+                                <strong>No registration is required for any of the marathon meetings.</strong>
                                 <br>
                                 As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair, Mark S.
                             </p>
@@ -307,7 +309,7 @@ include_once 'header-bottom.inc'
                                     <strong>Good Night and Be Safe</strong>
                                 </div>
 
-                                
+
                             </div>
                         </section>
 
