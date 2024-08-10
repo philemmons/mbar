@@ -92,7 +92,7 @@ include_once 'header-bottom.inc'
             <div class="py-4 mb-5">
                 <section aria-label="Saturday's Meetings">
                     <h3 class="white-on-black py-2 mt-2 text-center">Saturday, August 31th</h3>
-                    <table class="table table-bordered table-striped table-hover display nowrap" style="width:100%;" aria-labelledby="tableOne" id="mmSatDisplay>
+                    <table class="table table-bordered table-striped table-hover display nowrap" style="width:100%;" aria-labelledby="tableOne" id="mmSatDisplay">
                         <caption class="small" id="tableOne">A.A Marathon Meetings for Saturday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
 
                         <thead class="table-light">
@@ -234,7 +234,7 @@ include_once 'header-bottom.inc'
                 <section aria-label="Sunday's events">
                     <h3 class="white-on-black py-2 mt-2 text-center">Sunday, September 1st</h3>
 
-                    <table class="table table-hover display nowrap" style="width:100%;" aria-labelledby="tableTwo" id="mmSunDisplay>
+                    <table class="table table-bordered table-striped table-hover display nowrap" style="width:100%;" aria-labelledby="tableTwo" id="mmSunDisplay">
                         <caption class="small" id="tableTwo">A.A Marathon Meetings for Sunday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
 
                         <thead class="table-light">
