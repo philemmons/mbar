@@ -138,7 +138,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    <strong>10:00am Kick-Off Speaker</strong>
+                                    <strong>10:00am A.A. Kick-Off Speaker</strong>
                                 </div>
                                 <div class="col-sm-2">
                                     <strong>10:00am</strong>
@@ -169,7 +169,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    <strong>11:30 A.A and Al-Anon Double Winner Panel</strong>
+                                    <strong>11:30 A.A / Al-Anon Double Winner Panel</strong>
                                 </div>
                                 <div class="col-sm-2">
                                     <strong>12:00pm</strong>
@@ -200,7 +200,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    <strong>2:00pm A.A and Al-Anon Speaker Meeting</strong>
+                                    <strong>2:00pm A.A / Al-Anon Speaker Meetings</strong>
                                 </div>
                                 <div class="col-sm-2">
                                     <strong>2:00pm</strong>
@@ -244,6 +244,9 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
+                                <div class='col-sm-12'>
+                                    <strong>5:00pm Meet the Speaker's Dinner</strong>
+                                </div>
                                 <div class="col-sm-2">
                                     <strong>5:00pm</strong>
                                 </div>
@@ -285,16 +288,26 @@ include_once 'header-bottom.inc'
                                     Three Pertinent Ideas
                                 </div>
 
+                                <div class="col-sm-12">
+                                    <strong>7:30pm A.A. Speaker Meeting</strong>
+                                </div>
+
 
                                 <div class="col-sm-12">
-                                    <strong>8:00pm Prize Raffle and 50 / 50</strong>
+                                    <strong>8:30pm Round Up Prize Raffle and 50/50 Drawing</strong>
                                 </div>
+
+
                                 <div class="col-sm-12">
-                                    <strong>9:30pm Fun and Fellowship Dance</strong>
+                                    <strong>9:30pm Saturday Night Masquerade Dance - Masks Provided</strong>
                                 </div>
+
+
                                 <div class="col-sm-12">
                                     <strong>Good Night and Be Safe</strong>
                                 </div>
+
+                                
                             </div>
                         </section>
 
@@ -316,6 +329,9 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
+                                <div class="col-sm-12">
+                                    <strong>8:00am Round-Up Continental Breakfast and Bingo Games</strong>
+                                </div>
                                 <div class="col-sm-2">
                                     <strong>9:00am</strong>
                                 </div>
@@ -330,6 +346,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
+                                <div class="col-sm-12">
+                                    <strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong>
+                                </div>
+
                                 <div class="col-sm-2">
                                     <strong>10:00am</strong>
                                 </div>
@@ -342,6 +362,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-4">
                                     Humility
                                 </div>
+
 
                                 <div class="col-sm-12">
                                     <strong>11:00am Al-Anon Speaker Meeting</strong>
@@ -389,7 +410,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12">
-                                    <strong>1:30pm Alateen Speaker</strong>
+                                    <strong>1:30pm Alateen Speaker Meeting</strong>
                                 </div>
                                 <div class="col-sm-2">
                                     <strong>2:00pm</strong>
@@ -404,6 +425,10 @@ include_once 'header-bottom.inc'
                                     Sponsorship
                                 </div>
 
+
+                                <div class="col-sm-12">
+                                    <strong>3:00pm Ice Cream Social</strong>
+                                </div>
                                 <div class="col-sm-2">
                                     <strong>3:00pm</strong>
                                 </div>
@@ -416,6 +441,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-4">
                                     Serenity
                                 </div>
+
 
                                 <div class="col-sm-2">
                                     <strong>4:00pm</strong>
@@ -430,8 +456,19 @@ include_once 'header-bottom.inc'
                                     Coming Back
                                 </div>
 
+
                                 <div class="col-sm-12">
-                                    <strong>A.A. and Al-Anon meetings Ends - Hope you had a fun time!</strong>
+                                    <strong>5:00pm A.A.Speaker Meeting</strong>
+                                </div>
+
+
+                                <div class="col-sm-12">
+                                    <strong>6:30pm Al-Anon Prize Raffle Drawing</strong>
+                                </div>
+
+
+                                <div class="col-sm-12">
+                                    <strong>A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</strong>
                                 </div>
 
                             </div>
