@@ -117,10 +117,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 cell-color">
                                     9:00pm
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 cell-color">
                                     Online 50/50 Drawing
                                     <br>
                                     (Immediately Following Speaker Meeting)
