@@ -90,393 +90,266 @@ include_once 'header-bottom.inc'
     <article id="schedule" aria-label="Marathon 2024">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="col-xl-10 col-lg-10 table-responsive-md py-4">
+                    <section aria-label="Saturday's Meetings">
+                        <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
 
-                        <section aria-label="Saturday's Meetings">
-                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
-                            <div class="row g-0 mb-4">
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
+                            <caption class="small" id="tableOne">A.A Marathon Meetings for Saturday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
 
-                                <div class="col-sm-2">
-                                    <strong>Time</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    <strong>Name</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    <strong>From</strong>
-                                </div>
-                                <div class="col-sm-4">
-                                    <strong>Topic</strong>
-                                </div>
+                            <thead class="table-light">
+                                <tr class="text-center">
+                                    <th scope="col" class="col-1">Time</th>
+                                    <th scope="col" class="col-2">Name</th>
+                                    <th scope="col" class="col-2">City</th>
+                                    <th scope="col" class="col-2">Topic</th>
+                                </tr>
+                            </thead>
 
+                            <tr class="table-success">
+                                <th scope="row">8:00am</th>
+                                <td>Benny S.</td>
+                                <td>Salinas</td>
+                                <td>Trust The Process</td>
+                            </tr>
 
-                                <div class="col-sm-2">
-                                    <strong>8:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Benny S.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Trust The Process
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">9:00am</th>
+                                <td>Ron M.</td>
+                                <td>Prunedale</td>
+                                <td>Spirituality</td>
+                            </tr>
 
-
-                                <div class="col-sm-2">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Ron M.
-                                </div>
-                                <div class="col-sm-3">
-                                    Prunedale
-                                </div>
-                                <div class="col-sm-4">
-                                    Spirituality
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">10:00am A.A. Kick-Off Speaker</th>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">10:00am</th>
+                                <td>Jack F.</td>
+                                <td>Salinas</td>
+                                <td>Quality vs Quantity</td>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>10:00am A.A. Kick-Off Speaker</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>10:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Jack F.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Quality vs Quantity
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">11:00am</th>
+                                <td>Steve C.</td>
+                                <td>Salinas</td>
+                                <td>Freedom</td>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>11:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Steve C.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Freedom
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">11:30 A.A / Al-Anon Double Winner Panel</th>
+                            <tr class="table-success">
+                                <th scope="row">12:00pm</th>
+                                <td>Greg P.</td>
+                                <td>Oak Hills</td>
+                                <td>Powerlessness</td>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>11:30 A.A / Al-Anon Double Winner Panel</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>12:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Greg P.
-                                </div>
-                                <div class="col-sm-3">
-                                    Oak Hills
-                                </div>
-                                <div class="col-sm-4">
-                                    Powerlessness
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">1:00pm</th>
+                                <td>Tony G.</td>
+                                <td>Hollister</td>
+                                <td>Gratitude</td>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>1:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Tony G.
-                                </div>
-                                <div class="col-sm-3">
-                                    Hollister
-                                </div>
-                                <div class="col-sm-4">
-                                    Gratitude
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">2:00pm A.A / Al-Anon Speaker Meetings</th>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">2:00pm</th>
+                                <td>David G.</td>
+                                <td>Monterey</td>
+                                <td>Willingness</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">3:00pm</th>
+                                <td>Mari W.</td>
+                                <td>Salinas</td>
+                                <td>One Day At A Time</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">4:00pm</th>
+                                <td>Carol H.</td>
+                                <td>Salinas</td>
+                                <td>Three Legacies of A.A.</td>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>2:00pm A.A / Al-Anon Speaker Meetings</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>2:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    David G.
-                                </div>
-                                <div class="col-sm-3">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4">
-                                    Willingness
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">5:00pm Meet the Speaker's Dinner</th>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">5:00pm</th>
+                                <td>Eric L.</td>
+                                <td>Salinas</td>
+                                <td>Acceptance</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">6:00pm</th>
+                                <td>Mark F.</td>
+                                <td>Monterey</td>
+                                <td>Love and Tolerance</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">7:00pm</th>
+                                <td>Chael R.</td>
+                                <td>Salinas</td>
+                                <td>Three Pertinent Ideas</td>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>3:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Mari W.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    One Day At A Time
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">7:30pm A.A. Speaker Meeting</th>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>4:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Carol H.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Three Legacies of A.A.
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">8:30pm Round Up Prize Raffle and 50/50 Drawing</th>
+                            </tr>
 
 
-                                <div class='col-sm-12'>
-                                    <strong>5:00pm Meet the Speaker's Dinner</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>5:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Eric L.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Acceptance
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">9:30pm Saturday Night Masquerade Dance - Masks Provided</th>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>6:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Mark F.
-                                </div>
-                                <div class="col-sm-3">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4">
-                                    Love and Tolerance
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">Good Night and Be Safe</th>
+                            </tr>
+
+                            </tbody>
+                        </table>
+
+                    </section>
+
+                    <section aria-label="Sunday's events">
+                        <h3 class="white-on-black py-2 mt-2">Sunday, September 1st</h3>
+
+                        <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
+                            <caption class="small" id="tableTwo">A.A Marathon Meetings for Sunday - The first row consist of four columns which are Time, Name, City, and Topic. The first column has the starting time for each meeting. There are single columns spanning all four columns that are non marathon meeting events with time and event name.</caption>
+
+                            <thead class="table-light">
+                                <tr class="text-center">
+                                    <th scope="col" class="col-1">Time</th>
+                                    <th scope="col" class="col-2">Name</th>
+                                    <th scope="col" class="col-2">City</th>
+                                    <th scope="col" class="col-2">Topic</th>
+                                </tr>
+                            </thead>
 
 
-                                <div class="col-sm-2">
-                                    <strong>7:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Chael R.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Three Pertinent Ideas
-                                </div>
-
-                                <div class="col-sm-12">
-                                    <strong>7:30pm A.A. Speaker Meeting</strong>
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">8:00am Round-Up Continental Breakfast and Bingo Games</th>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>8:30pm Round Up Prize Raffle and 50/50 Drawing</strong>
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">9:00am</th>
+                                <td>Maxine S.</td>
+                                <td>Salinas</td>
+                                <td>Newcomers</td>
+                            </tr>
+
+                            <tr class="table-primary">
+                                <th scope="row">9:30am A.A. Panel - Experience Exchange: Foundation for the Future</th>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">10:00am</th>
+                                <td>Robert A.</td>
+                                <td>Monterey</td>
+                                <td>Humility</td>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>9:30pm Saturday Night Masquerade Dance - Masks Provided</strong>
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">11:00am Al-Anon Speaker Meeting</th>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>Good Night and Be Safe</strong>
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">11:00am</th>
+                                <td>Patricia</td>
+                                <td>Greenfield</td>
+                                <td>Unity</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">12:00pm</th>
+                                <td>Cliff A.</td>
+                                <td>Monterey</td>
+                                <td>Stability</td>
+                            </tr>
+
+                            <tr class="table-success">
+                                <th scope="row">1:00pm</th>
+                                <td>Ryan Y.</td>
+                                <td>Salinas</td>
+                                <td>Surrender</td>
+                            </tr>
 
 
-                            </div>
-                        </section>
-
-                        <section aria-label="Sunday's events">
-                            <h3 class="white-on-black py-2 mt-2">Sunday, September 1st</h3>
-                            <div class="row g-0 mb-4">
-
-                                <div class="col-sm-2">
-                                    <strong>Time</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    <strong>Name</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    <strong>From</strong>
-                                </div>
-                                <div class="col-sm-4">
-                                    <strong>Topic</strong>
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">1:30pm Alateen Speaker Meeting</th>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>8:00am Round-Up Continental Breakfast and Bingo Games</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Maxine S.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Newcomers
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">2:00pm</th>
+                                <td>Bob C.</td>
+                                <td>Salinas</td>
+                                <td>Sponsorship</td>
+                            </tr>
+
+                            <tr class="table-primary">
+                                <th scope="row">3:00pm Ice Cream Social</th>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong>
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">3:00pm</th>
+                                <td>Michele T.</td>
+                                <td>Salinas</td>
+                                <td>Serenity</td>
+                            </tr>
 
-                                <div class="col-sm-2">
-                                    <strong>10:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Robert A.
-                                </div>
-                                <div class="col-sm-3">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4">
-                                    Humility
-                                </div>
+                            <tr class="table-success">
+                                <th scope="row">4:00pm</th>
+                                <td>Irma</td>
+                                <td>Salinas</td>
+                                <td>Coming Back</td>
+                            </tr>
 
 
-                                <div class="col-sm-12">
-                                    <strong>11:00am Al-Anon Speaker Meeting</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>11:00am</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Patricia
-                                </div>
-                                <div class="col-sm-3">
-                                    Greenfield
-                                </div>
-                                <div class="col-sm-4">
-                                    Unity
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">5:00pm A.A.Speaker Meeting</th>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>12:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Cliff A.
-                                </div>
-                                <div class="col-sm-3">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4">
-                                    Stability
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">6:30pm Al-Anon Prize Raffle Drawing</th>
+                            </tr>
 
 
-                                <div class="col-sm-2">
-                                    <strong>1:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Ryan Y.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Surrender
-                                </div>
+                            <tr class="table-primary">
+                                <th scope="row">A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</th>
+                            </tr>
 
+                            </tbody>
+                        </table>
+                    </section>
 
-                                <div class="col-sm-12">
-                                    <strong>1:30pm Alateen Speaker Meeting</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>2:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Bob C.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Sponsorship
-                                </div>
-
-
-                                <div class="col-sm-12">
-                                    <strong>3:00pm Ice Cream Social</strong>
-                                </div>
-                                <div class="col-sm-2">
-                                    <strong>3:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Michele T.
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Serenity
-                                </div>
-
-
-                                <div class="col-sm-2">
-                                    <strong>4:00pm</strong>
-                                </div>
-                                <div class="col-sm-3">
-                                    Irma
-                                </div>
-                                <div class="col-sm-3">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4">
-                                    Coming Back
-                                </div>
-
-
-                                <div class="col-sm-12">
-                                    <strong>5:00pm A.A.Speaker Meeting</strong>
-                                </div>
-
-
-                                <div class="col-sm-12">
-                                    <strong>6:30pm Al-Anon Prize Raffle Drawing</strong>
-                                </div>
-
-
-                                <div class="col-sm-12">
-                                    <strong>A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</strong>
-                                </div>
-
-                            </div>
-                        </section>
-
-                    </div>
                 </div>
             </div>
         </div>
