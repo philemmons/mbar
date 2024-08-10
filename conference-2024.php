@@ -375,7 +375,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 feature-speaker">
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <br>
-                                    <em>(MBAR abides by B-17 NCWSA requirement for Alateen safety)</em>
+                                    <em>(MBAR abides by B-17 NCWSA requirement<br>for Alateen safety)</em>
                                     <br>
                                     Marge S. and Concetta C.
                                 </div>
