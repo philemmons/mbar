@@ -99,7 +99,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Eventos del Viernes">
-                            <h3 class="white-on-black py-2 mt-2">Viernes por la Noche, 30 de Agosto: entrada gratuita para todos</h3>
+                            <h3 class="white-on-black p-2 mt-2">Viernes por la Noche, 30 de Agosto: Entrada Gratuita Para Todos</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top feature-speaker">
@@ -128,7 +128,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Eventos del sábado">
-                            <h3 class="white-on-black py-2 mt-2">Sábado 31 de Agosto</h3>
+                            <h3 class="white-on-black p-2 mt-2">Sábado 31 de Agosto</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
@@ -256,7 +256,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Eventos del domingo">
-                            <h3 class="white-on-black py-2 mt-2">Domingo 1 de septiembre</h3>
+                            <h3 class="white-on-black p-2 mt-2">Domingo 1 de septiembre</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top">
