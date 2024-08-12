@@ -101,7 +101,7 @@ include_once 'header-bottom.inc'
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrese ahora</a></small>
+                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrese Ahora</a></small>
                         </div>
                     </div>
                 </div>
