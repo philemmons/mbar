@@ -117,7 +117,7 @@ include_once 'header-bottom.inc'
                             </P>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="marathon-2024.php" class="btn btn-primary"></a></small>
+                            <small class="text-body-secondary"><a href="marathon-2024.php" class="btn btn-primary">Reuniones de Maratón</a></small>
                         </div>
                     </div>
                 </div>
