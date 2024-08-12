@@ -405,7 +405,6 @@ include_once 'header-bottom.inc'
 
                             </div>
 
-                            
                             <div class="row">
                                 <div class="col-sm-6">
                                 </div>
