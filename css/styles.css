@@ -544,16 +544,32 @@ iframe {
   width: 100%;
 }
 
-/**** 2022 con ****/
+/**** 2022/2024 con ****/
 
 .white-on-black {
   color: var(--color-2);
   background-color: var(--color-5);
 }
 
+
 .row.g-0.mb-4 [class^="col"] {
   border: 1px solid var(--color-5);
   padding: 0.5rem 0.25rem;
+}
+
+@media (min-width: 576px) {
+  .row.g-0.mb-4 [class^="col"].top {
+    border-bottom: 0 !important;
+  }
+
+  .row.g-0.mb-4 [class^="col"].middle {
+    border-bottom: 0 !important;
+    padding: 0rem 0.25rem !important;
+  }
+
+  .row.g-0.mb-4 [class^="col"].bottom {
+    border-top: 0 !important;
+  }
 }
 
 /**** 2024 ****/

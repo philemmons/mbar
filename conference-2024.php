@@ -102,25 +102,25 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black py-2 mt-2">Friday Night, August 30th</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                     <strong>8:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
                                     <br>
                                     ID: <strong>831 4306 2293 </strong>
                                     <br>
                                     Password: <strong>2024</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                     <strong>9:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Online 50/50 Drawing
                                     <br>
                                     (Immediately Following Speaker Meeting)
@@ -131,132 +131,132 @@ include_once 'header-bottom.inc'
                         <section aria-label="Saturday's events">
                             <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
                             <div class="row g-0 mb-4">
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     <strong>Registration Opens</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A. Kick-Off Speaker
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>11:30am</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A. / Al-Anon Double Winner Panel
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Annette C. and Micha C.</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Speed Fellowship - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A. / Al-Anon Speaker Meeting
                                     <br>
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
                                     <br>
                                     A.A. Speaker: <strong>Denis D., Santa Cruz, CA</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>3:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Goose Chase Scavenger Hunt - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     Meet the Speaker's Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>7:30pm</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A. Speaker Meeting
                                     <br>
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Krystal M., Sacramento, CA</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>8:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Round Up Prize Raffle and 50/50 Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>9:30pm</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     Saturday Night Masquerade Dance - Masks Provided
                                     <br>
                                     (Immediately Following Raffle)
@@ -270,109 +270,109 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black py-2 mt-2">Sunday, September 1st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     <strong>Registration Opens</strong>
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     Round-Up Continental Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>9:30am</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A. Panel - Experience Exchange: Foundation for the Future
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 marathon-cell">
+                                <div class="col-sm-2 top marathon-cell">
                                 <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-10 marathon-cell">
+                                <div class="col-sm-10 bottom marathon-cell">
                                     A.A. Spanish Speaking Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (See insert for locations and times)
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     Al-Anon Speaker Meeting
                                     <br>
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Paint Party - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Werewolf Fellowship Game - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>1:30am</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     Alateen Speaker Meeting
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <br>
                                     <em>(MBAR abides by B-17 NCWSA requirement<br>for Alateen safety)</em>
@@ -381,57 +381,57 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Cornhole and Fellowship Hour - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     Ice Cream Social - <strong>2nd Floor Terrace</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     A.A. Trivia: General Service - <strong>Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 feature-speaker">
+                                <div class="col-sm-2 top feature-speaker">
                                 <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 middle feature-speaker">
                                     A.A.Speaker Meeting
                                     <br>
                                     <strong>(ASL Interpretation Provided)</strong>
                                 </div>
-                                <div class="col-sm-5 feature-speaker">
+                                <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 cell-color">
+                                <div class="col-sm-2 top cell-color">
                                 <strong>6:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 cell-color">
+                                <div class="col-sm-10 bottom cell-color">
                                     Al-Anon Prize Raffle Drawing - Must be present to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
 
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 top">
                                 <strong>9:00pm</strong>
                                 </div>
-                                <div class="col-sm-10">
+                                <div class="col-sm-10 bottom">
                                     <strong>Conference Ends - Until 2026</strong>
                                 </div>
 
