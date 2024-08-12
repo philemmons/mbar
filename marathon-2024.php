@@ -403,11 +403,20 @@ include_once 'header-bottom.inc'
                                     <strong>A.A. Marathon Meetings Ends - Hope you had a fun time!</strong>
                                 </div>
 
-                                </tbody>
                             </div>
-                        </section>
-                    </div>
 
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                </div>
+                                <div class="col-sm-6">
+                                    <strong>Disclaimer: This schedule is subject to change.</strong>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
                 </div>
             </div>
         </div>
