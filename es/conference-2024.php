@@ -99,7 +99,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Eventos del Viernes">
-                            <h3 class="white-on-black p-2 mt-2">Viernes por la Noche, 30 de Agosto: Entrada Gratuita Para Todos</h3>
+                            <h3 class="white-on-black p-2 mt-2">Viernes por la Noche, 30 de Agosto: Entrada Gratuita para Todos</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top feature-speaker">
@@ -238,7 +238,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Sorteo de Premios Round Up y Sorteo 50/50: Debe Estar Presente Para Ganar
+                                    Sorteo de Premios Round Up y Sorteo 50/50: Debe Estar Presente para Ganar
                                     <br>
                                     (Inmediatamente después de la Reunión de Oradores)
                                 </div>
@@ -396,7 +396,7 @@ include_once 'header-bottom.inc'
                                     <strong>6:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Sorteo de premios de Al-Anon: Debe Estar Presente Para Ganar
+                                    Sorteo de premios de Al-Anon: Debe Estar Presente para Ganar
                                     <br>
                                     (Inmediatamente después de la Reunión de Oradores)
                                 </div>
@@ -438,7 +438,7 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3">Registro de Entrada</h3>
                             <p>Regístrese en el mostrador de registro para obtener su paquete de inscripción que contiene su credencial, programa, lista de todos los horarios de reuniones del maratón y cualquier boleto para comidas o eventos, y la camiseta preordenada que haya comprado.
                                 <br><br>
-                                Para obtener más información durante el evento, si tiene preguntas sobre el evento o si perdió o encontró algún artículo, diríjase al mostrador de registro.
+                                para obtener más información durante el evento, si tiene preguntas sobre el evento o si perdió o encontró algún artículo, diríjase al mostrador de registro.
                             </p>
                         </section>
                         <p><strong>Anfitriona de MBAR 2024:</strong> Cindy A.
