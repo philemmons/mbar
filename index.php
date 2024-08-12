@@ -20,6 +20,7 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
+                        <a class="dropdown-item" href="marathon-2024.php">Marathon Meetings</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
@@ -129,7 +130,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - MBAR Activities
                             </p>
-                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.  
+                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.
                                 <br><br>
                                 Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>

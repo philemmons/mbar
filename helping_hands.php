@@ -20,6 +20,7 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
+                        <a class="dropdown-item" href="marathon-2024.php">Marathon Meetings</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
@@ -255,7 +256,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <h3 class="card-title mb-3">Contribution Methods
                         </h3>
-                        <p><strong>A.A. and Al-Anon members are welcome to give a generous contribution directly.</strong> We accept Venmo, PayPal, check, or cash. Please remember to include "Helping Hand" in the note section.  
+                        <p><strong>A.A. and Al-Anon members are welcome to give a generous contribution directly.</strong> We accept Venmo, PayPal, check, or cash. Please remember to include "Helping Hand" in the note section.
                         </p>
 
                         <p>If you pay by <strong>check</strong>, please make your check payable to MBAR, and mail it to

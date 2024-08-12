@@ -20,6 +20,7 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
+                        <a class="dropdown-item" href="marathon-2024.php">Reuniones de Maratón</a>
                         <a class="dropdown-item" href="register-now.php">Registro</a>
                         <a class="dropdown-item" href="activities.php">Actividades</a>
                         <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
@@ -224,7 +225,7 @@ include_once 'header-bottom.inc'
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" name="cBox" id="invalidCheck" value="" required>
                                 <label class="form-check-label" for="invalidCheck">
-                                Acepto que MBAR utilice mi envío de forma anónima. (requerido)
+                                    Acepto que MBAR utilice mi envío de forma anónima. (requerido)
                                 </label>
                                 <div class="invalid-feedback">
                                     Debes aceptar antes de enviar.

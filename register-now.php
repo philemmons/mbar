@@ -20,6 +20,7 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
+                        <a class="dropdown-item" href="marathon-2024.php">Marathon Meetings</a>
                         <a class="dropdown-item active" aria-current="page" href="register-now.php">Registration<span class="visually-hidden">(current)</span></a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
@@ -83,7 +84,7 @@ include_once 'header-bottom.inc'
                             <p>By signing up early, you'll help us prepare for a seamless event experience. Your registration shows us your enthusiasm and commitment to MBAR, and we appreciate it! If you are paying for <i>more</i> than one person, add their name(s) in the note section.
                             </p>
                             <p class="text-center">Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
-                                <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal.  Please make your check payable to MBAR, and mail it to
+                                <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to
                                 <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
                                 <br>Attn: Naomi B.
                                 <br>P.O. Box 1462
@@ -434,7 +435,7 @@ include_once 'header-bottom.inc'
                                         <label class="form-check-label" for="early-registration">Early Registration (Before July 31, 2024) - closed</label>
                                     </div>
                                     <div class="form-check mb-3">
-                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" checked  required>
+                                        <input type="radio" class="form-check-input" id="normal-registration" name="myRegistration" value="after" checked required>
                                         <label class="form-check-label" for="normal-registration">Registration (After July 31, 2024) - $50</label>
                                         <div class="invalid-feedback">
                                             Required.
@@ -475,7 +476,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-lg-4">
                                     <label for="roundupContinentalBreakfast" class="reg-form-label"><strong>Round-Up Continental Breakfast</strong> (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase up to the date of the event</label>
-                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast"  required>
+                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
@@ -547,7 +548,7 @@ include_once 'header-bottom.inc'
                                         <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
                                         </li>
                                     </ul>
-                                    
+
                                 </div>
 
                                 <div class="col-md-4 pt-3">
