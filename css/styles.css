@@ -560,15 +560,18 @@ iframe {
 @media (max-width: 576px) {
   .row.g-0.mb-4 [class^="col"].top {
     border-bottom: 0 !important;
+    padding: 0rem 0.25rem !important;
   }
 
   .row.g-0.mb-4 [class^="col"].middle {
+    border-top: 0 !important; 
     border-bottom: 0 !important;
     padding: 0rem 0.25rem !important;
   }
 
   .row.g-0.mb-4 [class^="col"].bottom {
     border-top: 0 !important;
+    padding: 0rem 0.25rem !important;
   }
 }
 
