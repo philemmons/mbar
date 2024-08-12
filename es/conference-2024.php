@@ -256,7 +256,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Eventos del domingo">
-                            <h3 class="white-on-black p-2 mt-2">Domingo 1 de septiembre</h3>
+                            <h3 class="white-on-black p-2 mt-2">Domingo 1 de Septiembre</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top">
