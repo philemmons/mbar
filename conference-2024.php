@@ -99,7 +99,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Friday's events">
-                            <h3 class="white-on-black py-2 mt-2">Friday Night, August 30th</h3>
+                            <h3 class="white-on-black py-2 mt-2">Friday Night, August 30th - Free for All</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top feature-speaker">
