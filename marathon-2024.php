@@ -97,116 +97,116 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Saturday, August 31th</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Benny S., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Trust The Process
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Ron M., Prunedale
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Spirituality
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>10:00am A.A. Kick-Off Speaker</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Jack F., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Quality vs Quantity
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Steve C., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Freedom
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>11:30 A.A / Al-Anon Double Winner Panel</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Greg P., Oak Hills
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Powerlessness
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Tony G., Hollister
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Gratitude
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>2:00pm A.A / Al-Anon Speaker Meetings</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     David G., Monterey
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Willingness
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Mari W., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: One Day At A Time
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Carol H., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Three Legacies of A.A.
                                 </div>
 
@@ -216,45 +216,45 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Eric L., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Acceptance
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>6:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Mark F., Monterey
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Love and Tolerance
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>7:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Chael R., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Three Pertinent Ideas
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>7:30pm A.A. Speaker Meeting</strong>
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center cell-color">
                                     <strong>8:30pm Round Up Prize Raffle and 50/50 Drawing</strong>
                                 </div>
 
@@ -281,83 +281,83 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Maxine S., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Newcomers
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Robert A., Monterey
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Humility
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>11:00am Al-Anon Speaker Meeting</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Patricia, Greenfield
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Unity
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Cliff A., Monterey
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Stability
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Ryan Y., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Surrender
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>1:30pm Alateen Speaker Meeting</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Bob C., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Sponsorship
                                 </div>
 
@@ -367,46 +367,46 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Michele T., Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Serenity
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-sm-2 top marathon-cell">
                                     <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle">
+                                <div class="col-sm-5 middle marathon-cell">
                                     Irma, Salinas
                                 </div>
-                                <div class="col-sm-5 bottom">
+                                <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Coming Back
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center feature-speaker">
                                     <strong>5:00pm A.A.Speaker Meeting</strong>
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center cell-color">
                                     <strong>6:30pm Al-Anon Prize Raffle Drawing</strong>
                                 </div>
 
 
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 white-on-black p-2 mt-2 text-center">
                                     <strong>A.A. Marathon Meetings Ends - Hope you had a fun time!</strong>
                                 </div>
 
                             </div>
 
                             <div class="row">
-                                <div class="col-sm-6 white-on-black p-2 mt-2 text-center">
+                                <div class="col-sm-12 p-2 mt-2">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
                                 </div>
                             </div>
