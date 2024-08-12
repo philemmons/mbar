@@ -427,7 +427,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Why marathon meetings?">
-                            <h3 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h3>
+                            <h4 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h4>
                             <p>Marathon meetings are a crucial part of AA conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                             </p>
                             <p>For many, conventions can be emotionally intense, triggering memories or feelings that require immediate attention and support. Marathon meetings address this by providing a safe, welcoming environment where members can connect with others at any time, day or night. This continuous availability is vital in helping members stay grounded, especially those who may be struggling with cravings, emotions, or difficult experiences during the convention.

@@ -425,7 +425,7 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="¿Por qué tenemos reuniones maratónicas?">
-                            <h3 class="card-title mb-3">¿Por qué A.A. tiene reuniones maratónicas durante las convenciones?</h3>
+                            <h4 class="card-title mb-3">¿Por qué A.A. tiene reuniones maratónicas durante las convenciones?</h4>
                             <p>Las reuniones maratónicas son una parte crucial de las convenciones de AA porque brindan apoyo y compañerismo continuos a los asistentes. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando se la necesita.
                             </p>
                             <p>Para muchos, las convenciones pueden ser intensas emocionalmente y desencadenar recuerdos o sentimientos que requieren atención y apoyo inmediatos. Las reuniones maratónicas abordan este problema al brindar un entorno seguro y acogedor donde los miembros pueden conectarse con otros en cualquier momento, de día o de noche. Esta disponibilidad continua es vital para ayudar a los miembros a mantenerse centrados, especialmente aquellos que pueden estar luchando con antojos, emociones o experiencias difíciles durante la convención.
