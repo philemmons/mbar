@@ -129,7 +129,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Saturday's events">
-                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
+                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
