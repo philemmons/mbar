@@ -63,8 +63,6 @@ include_once 'header-bottom.inc'
                     <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome.
                         <br>
                         <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
-                        <br>
-                        As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
                     </p>
                 </div>
             </div>
@@ -79,6 +77,8 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule - English</h3>
+                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -100,28 +100,22 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Benny S.
+                                <div class="col-sm-5 middle">
+                                    Benny S., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Trust The Process
+                                <div class="col-sm-5 bottom">
+                                    Topic: Trust The Process
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Ron M.
+                                <div class="col-sm-5 middle">
+                                    Ron M., Prunedale
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Prunedale
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Spirituality
+                                <div class="col-sm-5 bottom">
+                                    Topic: Spirituality
                                 </div>
 
 
@@ -133,28 +127,22 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Jack F.
+                                <div class="col-sm-5 middle">
+                                    Jack F., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Quality vs Quantity
+                                <div class="col-sm-5 bottom">
+                                    Topic: Quality vs Quantity
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Steve C.
+                                <div class="col-sm-5 middle">
+                                    Steve C., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Freedom
+                                <div class="col-sm-5 bottom">
+                                    Topic: Freedom
                                 </div>
 
 
@@ -166,28 +154,22 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Greg P.
+                                <div class="col-sm-5 middle">
+                                    Greg P., Oak Hills
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Oak Hills
-                                </div>
-                                <div class="col-sm-3 middle">
-                                    Powerlessness
+                                <div class="col-sm-5 bottom">
+                                    Topic: Powerlessness
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Tony G.
+                                <div class="col-sm-5 middle">
+                                    Tony G., Hollister
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Hollister
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Gratitude
+                                <div class="col-sm-5 bottom">
+                                    Topic: Gratitude
                                 </div>
 
 
@@ -199,42 +181,33 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    David G.
+                                <div class="col-sm-5 middle">
+                                    David G., Monterey
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Willingness
+                                <div class="col-sm-5 bottom">
+                                    Topic: Willingness
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Mari W.
+                                <div class="col-sm-5 middle">
+                                    Mari W., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    One Day At A Time
+                                <div class="col-sm-5 bottom">
+                                    Topic: One Day At A Time
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Carol H.
+                                <div class="col-sm-5 middle">
+                                    Carol H., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Three Legacies of A.A.
+                                <div class="col-sm-5 bottom">
+                                    Topic: Three Legacies of A.A.
                                 </div>
 
 
@@ -246,42 +219,33 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Eric L.
+                                <div class="col-sm-5 middle">
+                                    Eric L., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Acceptance
+                                <div class="col-sm-5 bottom">
+                                    Topic: Acceptance
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>6:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Mark F.
+                                <div class="col-sm-5 middle">
+                                    Mark F., Monterey
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Love and Tolerance
+                                <div class="col-sm-5 bottom">
+                                    Topic: Love and Tolerance
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>7:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Chael R.
+                                <div class="col-sm-5 middle">
+                                    Chael R., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Three Pertinent Ideas
+                                <div class="col-sm-5 bottom">
+                                    Topic: Three Pertinent Ideas
                                 </div>
 
 
@@ -320,14 +284,11 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Maxine S.
+                                <div class="col-sm-5 middle">
+                                    Maxine S., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Newcomers
+                                <div class="col-sm-5 bottom">
+                                    Topic: Newcomers
                                 </div>
 
 
@@ -339,14 +300,11 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Robert A.
+                                <div class="col-sm-5 middle">
+                                    Robert A., Monterey
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Humility
+                                <div class="col-sm-5 bottom">
+                                    Topic: Humility
                                 </div>
 
 
@@ -358,42 +316,33 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Patricia
+                                <div class="col-sm-5 middle">
+                                    Patricia, Greenfield
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Greenfield
-                                </div>
-                                <div class="col-sm-4 bottom">Unity
-
+                                <div class="col-sm-5 bottom">
+                                    Topic: Unity
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Cliff A.
+                                <div class="col-sm-5 middle">
+                                    Cliff A., Monterey
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Monterey
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Stability
+                                <div class="col-sm-5 bottom">
+                                    Topic: Stability
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Ryan Y.
+                                <div class="col-sm-5 middle">
+                                    Ryan Y., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Surrender
+                                <div class="col-sm-5 bottom">
+                                    Topic: Surrender
                                 </div>
 
 
@@ -405,14 +354,11 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Bob C.
+                                <div class="col-sm-5 middle">
+                                    Bob C., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Sponsorship
+                                <div class="col-sm-5 bottom">
+                                    Topic: Sponsorship
                                 </div>
 
 
@@ -424,28 +370,22 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top">
                                     <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Michele T.
+                                <div class="col-sm-5 middle">
+                                    Michele T., Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Serenity
+                                <div class="col-sm-5 bottom">
+                                    Topic: Serenity
                                 </div>
 
 
                                 <div class="col-sm-2 top">
                                     <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Irma
+                                <div class="col-sm-5 middle">
+                                    Irma, Salinas
                                 </div>
-                                <div class="col-sm-3 middle">
-                                    Salinas
-                                </div>
-                                <div class="col-sm-4 bottom">
-                                    Coming Back
+                                <div class="col-sm-5 bottom">
+                                    Topic: Coming Back
                                 </div>
 
 
