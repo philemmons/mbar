@@ -60,25 +60,25 @@ include_once 'header-bottom.inc'
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">2024 Marathon Meetings</span></h2>
+                    <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome.
+                        <br>
+                        <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
+                        <br>
+                        As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Part One -->
-    <article aria-label="Marathon meetings and unity">
+    <article aria-label="A.A. Marathon Meetings Title">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
-                        <section aria-label="Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">MBAR Marathon Schedule 2024</h3>
-                            <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome.
-                                <br>
-                                <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
-                                <br>
-                                As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
-                            </p>
+                        <section aria-label="A.A. Marathon Schedule">
+                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule - English</h3>
                         </section>
                     </div>
                 </div>
@@ -87,13 +87,13 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two-->
-    <article id="schedule" aria-label="Marathon Meeting English 2024">
+    <article id="schedule" aria-label="A.A. Meetings - English">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
-                        <section aria-label="Saturday's Meetings">
+                        <section aria-label="Saturday's A.A. Meetings">
                             <h3 class="white-on-black py-2 mt-2 text-center">Saturday, August 31th</h3>
                             <div class="row g-0 mb-4">
 
@@ -307,7 +307,7 @@ include_once 'header-bottom.inc'
                             </div>
                         </section>
 
-                        <section aria-label="Sunday's events">
+                        <section aria-label="Sunday's A.A. Meetings">
                             <h3 class="white-on-black py-2 mt-2 text-center">Sunday, September 1st</h3>
 
                             <div class="row g-0 mb-4">
@@ -460,7 +460,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>A.A. and Al-Anon Marathon Meetings Ends - Hope you had a fun time!</strong>
+                                    <strong>A.A. Marathon Meetings Ends - Hope you had a fun time!</strong>
                                 </div>
 
                                 </tbody>
