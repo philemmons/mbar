@@ -109,13 +109,15 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-hand-thumbs-up me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Amigas
+                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>><strong>Nuevo</strong> - Reuniones Maratonianas
                             </p>
-                            <p class="card-text">Así es como nos comportamos con alguien que quiere asistir a la conferencia pero no puede hacerlo. De acuerdo con Nuestra Tradición de autofinanciación, aceptamos contribuciones únicamente de A.A. y miembros de Al-Anon.
-                            </p>
+                            <p class="card-text">Las reuniones maratonianas son una parte crucial de las convenciones de AA porque brindan apoyo y compañerismo continuos a los asistentes. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
+                                <br><br>
+                                Si desea brindar servicio o ser orador en una reunión o enviar su programa de reuniones maratonianas, comuníquese con nuestro Presidente de Maratones: Mark S.
+                            </P>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="helping_hands.php" class="btn btn-primary">Manos Amigas</a></small>
+                            <small class="text-body-secondary"><a href="marathon-2024.php" class="btn btn-primary"></a></small>
                         </div>
                     </div>
                 </div>

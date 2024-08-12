@@ -56,11 +56,11 @@ include_once 'header-bottom.inc'
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Marathon Meetings">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">2024 Marathon Meetings</span></h2>
-                    <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome.
+                    <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English.
                         <br>
                         <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
                     </p>
@@ -76,8 +76,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule - English</h3>
-                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
+                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule</h3>
+                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting or submit your marathon meeting schedule, please contact our Marathon Chair: Mark S.
                             </p>
                         </section>
                     </div>
@@ -421,26 +421,18 @@ include_once 'header-bottom.inc'
 
 
     <!-- Part Five -->
-    <aside aria-label="Why we have MBAR explanation.">
+    <aside aria-label="Why we have marathon meetings">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Why MBAR?">
-                            <h3 class="card-title mb-3">Why do we have MBAR?</h3>
-                            <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
-                                <br>
-                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
-                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book p89<span class="sr-only">(Open pdf in browser)</span></a>
+                        <section aria-label="Why marathon meetings?">
+                            <h3 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h3>
+                            <p>Marathon meetings are a crucial part of AA conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                             </p>
-                            <p class="sr-only">(This is the paragraph from page 89 above.)"Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it."
+                            <p>For many, conventions can be emotionally intense, triggering memories or feelings that require immediate attention and support. Marathon meetings address this by providing a safe, welcoming environment where members can connect with others at any time, day or night. This continuous availability is vital in helping members stay grounded, especially those who may be struggling with cravings, emotions, or difficult experiences during the convention.
                             </p>
-                            <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
-                                <br>
-                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
-                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book p152<span class="sr-only">(Open pdf in browser)</span></a>
-                            </p>
-                            <p class="sr-only">(This is the paragraph from page 152 above.)"Yes, there is a substitute and it is vastly more than that. It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you."
+                            <p>Additionally, marathon meetings foster a sense of community and inclusivity, ensuring that everyone, regardless of their schedule, has the opportunity to participate in meetings. They symbolize the commitment of AA to be there for its members whenever they need it, reinforcing the principles of unity and mutual aid that are at the heart of the AA program.
                             </p>
                         </section>
                     </div>

@@ -58,9 +58,9 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La Inscripción ya está Activa!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Reuniones de Maratón de 2024">
                     <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reuniones de Maratón de 2024</span></h2>
-                    <p class="mb-6 h5 text-dark">Durante el fin de semana del Día del Trabajo, tendremos reuniones de A.A. y Al-Anon en español e inglés. Estas reuniones están abiertas a todos y todos son bienvenidos.
+                    <p class="mb-6 h5 text-dark">Durante el fin de semana del Día del Trabajo, tendremos reuniones de A.A. y Al-Anon en Español y Inglés.
                         <br>
                         <strong>Las reuniones de maratón están abiertas a <em>todos</em>, no es necesario registrarse.</strong>
                     </p>
@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="La inscripción está abierta">
                         <section aria-label="Horario del maratón de A.A.">
                             <h3 class=" fw-bold text-dark px-3 px-md-0">Horario del maratón de A.A. - Inglés</h3>
-                            <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio o ser orador en una reunión, comuníquese con nuestro Presidente del Maratón.
+                            <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio o ser orador en una reunión o enviar su programa de reuniones maratónicas, comuníquese con nuestro Presidente de Maratón: Mark S.
                             </p>
                         </section>
                     </div>
@@ -419,24 +419,18 @@ include_once 'header-bottom.inc'
 
 
     <!-- Part Five -->
-    <aside aria-label="Why we have MBAR explanation.">
+    <aside aria-label="Por qué tenemos reuniones maratónicas">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="¿Por qué MBAR?">
-                            <h3 class="card-title mb-3">¿Por qué tenemos MBAR?</h3>
-                            <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas. <br>
-                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
-                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
+                        <section aria-label="¿Por qué tenemos reuniones maratónicas?">
+                            <h3 class="card-title mb-3">¿Por qué A.A. tiene reuniones maratónicas durante las convenciones?</h3>
+                            <p>Las reuniones maratónicas son una parte crucial de las convenciones de AA porque brindan apoyo y compañerismo continuos a los asistentes. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando se la necesita.
                             </p>
-                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
+                            <p>Para muchos, las convenciones pueden ser intensas emocionalmente y desencadenar recuerdos o sentimientos que requieren atención y apoyo inmediatos. Las reuniones maratónicas abordan este problema al brindar un entorno seguro y acogedor donde los miembros pueden conectarse con otros en cualquier momento, de día o de noche. Esta disponibilidad continua es vital para ayudar a los miembros a mantenerse centrados, especialmente aquellos que pueden estar luchando con antojos, emociones o experiencias difíciles durante la convención.
                             </p>
-                            <p>Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá algún significado al fin. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
-                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
-                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
-                            </p>
-                            <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la inquietud. Su imaginación se encenderá. La vida tendrá un significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontraremos la comunidad, y usted también la encontrará."
+                            <p>Además, las reuniones maratónicas fomentan un sentido de comunidad e inclusión, asegurando que todos, independientemente de su horario, tengan la oportunidad de participar en las reuniones. Simbolizan el compromiso de AA de estar ahí para sus miembros siempre que lo necesiten, reforzando los principios de unidad y ayuda mutua que están en el corazón del programa de AA.
                             </p>
                         </section>
                     </div>
@@ -444,6 +438,7 @@ include_once 'header-bottom.inc'
             </div>
         </div>
     </aside>
+
 
     <!-- Part Seven -->
     <aside aria-label="Accesibilidad e inclusión de la ADA">
