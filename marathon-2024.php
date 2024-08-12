@@ -94,7 +94,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Saturday's A.A. Meetings">
-                            <h3 class="white-on-black py-2 mt-2 text-center">Saturday, August 31th</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Saturday, August 31th</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top">
@@ -272,7 +272,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Sunday's A.A. Meetings">
-                            <h3 class="white-on-black py-2 mt-2 text-center">Sunday, September 1st</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Sunday, September 1st</h3>
 
                             <div class="row g-0 mb-4">
 
@@ -406,9 +406,7 @@ include_once 'header-bottom.inc'
                             </div>
 
                             <div class="row">
-                                <div class="col-sm-6">
-                                </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 white-on-black p-2 mt-2 text-center">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
                                 </div>
                             </div>
