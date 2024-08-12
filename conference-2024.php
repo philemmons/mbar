@@ -103,7 +103,7 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 feature-speaker">
-                                    8:00pm
+                                    <strong>8:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
@@ -118,7 +118,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    9:00pm
+                                    <strong>9:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Online 50/50 Drawing
@@ -132,7 +132,7 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black py-2 mt-2">Saturday, August 31th</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2">
-                                    8:00am
+                                    <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     <strong>Registration Opens</strong>
@@ -140,37 +140,37 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                8:00am
+                                <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                8:00am
+                                <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                    9:00am
+                                <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    10:00am
+                                <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. Kick-Off Speaker
@@ -181,7 +181,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    11:30am
+                                <strong>11:30am</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. / Al-Anon Double Winner Panel
@@ -192,7 +192,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    1:00pm
+                                <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Speed Fellowship - <strong>Stevenson 2</strong>
@@ -200,7 +200,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    2:00pm
+                                <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. / Al-Anon Speaker Meeting
@@ -215,7 +215,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    3:30pm
+                                <strong>3:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Goose Chase Scavenger Hunt - <strong>Stevenson 2</strong>
@@ -223,7 +223,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    5:00pm
+                                <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     Meet the Speaker's Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
@@ -231,7 +231,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    7:30pm
+                                <strong>7:30pm</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. Speaker Meeting
@@ -244,7 +244,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    8:30pm
+                                <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Round Up Prize Raffle and 50/50 Drawing - Must be present to win
@@ -254,7 +254,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    9:30pm
+                                <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     Saturday Night Masquerade Dance - Masks Provided
@@ -271,7 +271,7 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2">
-                                    8:00am
+                                <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     <strong>Registration Opens</strong>
@@ -279,7 +279,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                8:00am
+                                <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     Round-Up Continental Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
@@ -287,37 +287,37 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                9:00am
+                                <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                9:00am
+                                <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                    9:00am
+                                <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
-                                Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
-                                <br>
-                                (See insert for scheduled times)
+                                    Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                    <br>
+                                    (See insert for scheduled times)
                                 </div>
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    9:30am
+                                <strong>9:30am</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A. Panel - Experience Exchange: Foundation for the Future
@@ -328,17 +328,17 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 marathon-cell">
-                                    10:00am
+                                <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-10 marathon-cell">
                                     A.A. Spanish Speaking Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (See insert for locations and times)
                                 </div>
-                               
+
 
                                 <div class="col-sm-2 feature-speaker">
-                                    11:00am
+                                <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Al-Anon Speaker Meeting
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    12:00pm
+                                <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Paint Party - <strong>Stevenson 2</strong>
@@ -359,7 +359,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    1:00pm
+                                <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Werewolf Fellowship Game - <strong>Stevenson 2</strong>
@@ -367,7 +367,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    1:30am
+                                <strong>1:30am</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     Alateen Speaker Meeting
@@ -382,7 +382,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    2:00pm
+                                <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Cornhole and Fellowship Hour - <strong>Stevenson 2</strong>
@@ -390,7 +390,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    3:00pm
+                                <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-10">
                                     Ice Cream Social - <strong>2nd Floor Terrace</strong>
@@ -398,7 +398,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    4:00pm
+                                <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     A.A. Trivia: General Service - <strong>Stevenson 2</strong>
@@ -406,7 +406,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 feature-speaker">
-                                    5:00pm
+                                <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 feature-speaker">
                                     A.A.Speaker Meeting
@@ -419,7 +419,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 cell-color">
-                                    6:30pm
+                                <strong>6:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 cell-color">
                                     Al-Anon Prize Raffle Drawing - Must be present to win
@@ -429,10 +429,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2">
-                                    9:00pm
+                                <strong>9:00pm</strong>
                                 </div>
                                 <div class="col-sm-10">
-                                    <strong>Conference Ends  - Until 2026</strong>
+                                    <strong>Conference Ends - Until 2026</strong>
                                 </div>
 
                             </div>
