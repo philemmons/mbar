@@ -386,7 +386,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 middle feature-speaker">
                                     Reunión de Oradores de A.A.
                                     <br>
-                                    <strong>(Interpretación en lenguaje de señas disponible)<strong>
+                                    <strong>(Interpretación en lenguaje de señas disponible)</strong>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Orador: <strong>Dean S., Salinas, CA</strong>
