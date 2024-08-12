@@ -1,12 +1,12 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2024 Marathon Meetings</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/marathon-2024.php" >';
+echo "<title>MBAR - 2024 Reuniones de Maratón</title>";
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/marathon-2024.php" >';
 include_once 'header-bottom.inc'
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
     <div class="container">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,39 +14,39 @@ include_once 'header-bottom.inc'
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/es/">Hogar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-conference">
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item active" aria-current="page" href="marathon-2024.php">Marathon Meetings<span class="visually-hidden">(current)</span></a>
-                        <a class="dropdown-item" href="register-now.php">Registration</a>
-                        <a class="dropdown-item" href="activities.php">Activities</a>
-                        <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
-                        <a class="dropdown-item" href="memories.php">Memories</a>
+                        <a class="dropdown-item active" aria-current="page" href="marathon-2024.php">Reuniones de Maratón<span class="visually-hidden">(actual)</span></a>
+                        <a class="dropdown-item" href="register-now.php">Registro</a>
+                        <a class="dropdown-item" href="activities.php">Actividades</a>
+                        <a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
+                        <a class="dropdown-item" href="memories.php">Recuerdos</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-who-we-are" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Who We Are</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-who-we-are">
-                        <a class="dropdown-item" href="our_partner.php">Our Partner</a>
-                        <a class="dropdown-item" href="meetings.php">Meetings</a>
-                        <a class="dropdown-item" href="committees.php">Committees</a>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-quienes-somos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quienes Somos</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-quienes-somos">
+                        <a class="dropdown-item" href="our_partner.php">Nuestro Compañero</a>
+                        <a class="dropdown-item" href="meetings.php">Reuniones</a>
+                        <a class="dropdown-item" href="committees.php">Comités</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                        <a class="dropdown-item" href="upcoming_event.php">Gratitude</a>
-                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
+                    <button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
+                        <a class="dropdown-item" href="upcoming_event.php">Gratitud</a>
+                        <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contacto</a>
                 </li>
                 <li class="nav-item" style="border-right: none;">
-                    <a class="nav-link" href="helping_hands.php">Helping Hands</a>
+                    <a class="nav-link" href="helping_hands.php">Manos Amigas</a>
                 </li>
             </ul>
         </div>
@@ -56,13 +56,13 @@ include_once 'header-bottom.inc'
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center at Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">2024 Marathon Meetings</span></h2>
-                    <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English. These meetings are open to all and everyone is welcome.
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La Inscripción ya está Activa!">
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reuniones de maratón de 2024</span></h2>
+                    <p class="mb-6 h5 text-dark">Durante el fin de semana del Día del Trabajo, tendremos reuniones de A.A. y Al-Anon en español e inglés. Estas reuniones están abiertas a todos y todos son bienvenidos.
                         <br>
-                        <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
+                        <strong>Las reuniones de maratón están abiertas a <em>todos</em>, no es necesario registrarse.</strong>
                     </p>
                 </div>
             </div>
@@ -70,14 +70,14 @@ include_once 'header-bottom.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="A.A. Marathon Meetings Title">
-        <div class="container shadow-wrap">
+    <article aria-label="Título de las reuniones del Maratón de A.A.">
+        <div class=" container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
-                        <section aria-label="A.A. Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule - English</h3>
-                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting, please contact our Marathon Chair.
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="La inscripción está abierta">
+                        <section aria-label="Horario del maratón de A.A.">
+                            <h3 class=" fw-bold text-dark px-3 px-md-0">Horario del maratón de A.A. - Inglés</h3>
+                            <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio o ser orador en una reunión, comuníquese con nuestro Presidente del Maratón.
                             </p>
                         </section>
                     </div>
@@ -87,14 +87,14 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two-->
-    <article id="schedule" aria-label="A.A. Meetings - English">
+    <article id="schedule" aria-label="Reuniones de A.A. - Inglés">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
-                        <section aria-label="Saturday's A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Saturday, August 31st</h3>
+                        <section aria-label="Reuniones de A.A. del Sábado">
+                            <h3 class="white-on-black p-2 mt-2 text-center">Sábado 31 de Agosto</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -104,7 +104,7 @@ include_once 'header-bottom.inc'
                                     Benny S., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Trust The Process
+                                    Tema: Confía en el Proceso
                                 </div>
 
 
@@ -115,12 +115,12 @@ include_once 'header-bottom.inc'
                                     Ron M., Prunedale
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Spirituality
+                                    Tema: Espiritualidad
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>10:00am A.A. Kick-Off Speaker</strong>
+                                    <strong>10:00am A.A. Orador Inaugural</strong>
                                 </div>
 
 
@@ -131,7 +131,7 @@ include_once 'header-bottom.inc'
                                     Jack F., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Quality vs Quantity
+                                    Tema: Calidad vs Cantidad
                                 </div>
 
 
@@ -142,12 +142,12 @@ include_once 'header-bottom.inc'
                                     Steve C., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Freedom
+                                    Tema: Libertad
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:30 A.A / Al-Anon Double Winner Panel</strong>
+                                    <strong>11:30 Panel de Ganadores Dobles de A.A / Al-Anon</strong>
                                 </div>
 
 
@@ -158,7 +158,7 @@ include_once 'header-bottom.inc'
                                     Greg P., Oak Hills
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Powerlessness
+                                    Tema: Impotencia
                                 </div>
 
 
@@ -169,12 +169,12 @@ include_once 'header-bottom.inc'
                                     Tony G., Hollister
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Gratitude
+                                    Tema: Gratitud
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm A.A / Al-Anon Speaker Meetings</strong>
+                                    <strong>2:00pm Reuniones de Oradores de A.A / Al-Anon</strong>
                                 </div>
 
 
@@ -185,7 +185,7 @@ include_once 'header-bottom.inc'
                                     David G., Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Willingness
+                                    Tema: Voluntad
                                 </div>
 
 
@@ -196,7 +196,7 @@ include_once 'header-bottom.inc'
                                     Mari W., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: One Day At A Time
+                                    Tema: Un Día a la Vez
                                 </div>
 
 
@@ -207,12 +207,12 @@ include_once 'header-bottom.inc'
                                     Carol H., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Three Legacies of A.A.
+                                    Tema: Tres legados de A.A.
                                 </div>
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>5:00pm Meet the Speaker's Dinner</strong>
+                                    <strong>5:00pm Conoce la Cena del Orador</strong>
                                 </div>
 
 
@@ -223,7 +223,7 @@ include_once 'header-bottom.inc'
                                     Eric L., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Acceptance
+                                    Tema: Aceptación
                                 </div>
 
 
@@ -234,7 +234,7 @@ include_once 'header-bottom.inc'
                                     Mark F., Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Love and Tolerance
+                                    Tema: Amor y Tolerancia
                                 </div>
 
 
@@ -245,39 +245,39 @@ include_once 'header-bottom.inc'
                                     Chael R., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Three Pertinent Ideas
+                                    Tema: Tres Ideas Pertinentes
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>7:30pm A.A. Speaker Meeting</strong>
+                                    <strong>7:30pm Reunión de Oradores de A.A.</strong>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center cell-color">
-                                    <strong>8:30pm Round Up Prize Raffle and 50/50 Drawing</strong>
+                                    <strong>8:30pm Sorteo de Premios Round Up y Sorteo 50 / 50</strong>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>9:30pm Saturday Night Masquerade Dance - Masks Provided</strong>
+                                    <strong>9:30pm Baile de Máscaras el Sábado por la Noche (se Proporcionan Máscaras)</strong>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>Good Night and Be Safe</strong>
+                                    <strong>Buenas noches y cuídate!</strong>
                                 </div>
 
                             </div>
                         </section>
 
-                        <section aria-label="Sunday's A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Sunday, September 1st</h3>
+                        <section aria-label="Reuniones de A.A. del Domingo">
+                            <h3 class="white-on-black p-2 mt-2 text-center">Domingo 1 de Septiembre</h3>
 
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Round-Up Continental Breakfast and Bingo Games</strong>
+                                    <strong>8:00am Desayuno Continental y Juegos de bingo</strong>
                                 </div>
 
 
@@ -288,12 +288,12 @@ include_once 'header-bottom.inc'
                                     Maxine S., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Newcomers
+                                    Tema: Recién llegados
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong>
+                                    <strong>9:30am Panel A.A. - Intercambio de Experiencias: Bases para el Futuro</strong>
                                 </div>
 
 
@@ -304,12 +304,12 @@ include_once 'header-bottom.inc'
                                     Robert A., Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Humility
+                                    Tema: Humildad
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Al-Anon Speaker Meeting</strong>
+                                    <strong>11:00am Reunión de Oradores de Al-Anon</strong>
                                 </div>
 
 
@@ -320,7 +320,7 @@ include_once 'header-bottom.inc'
                                     Patricia, Greenfield
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Unity
+                                    Tema: Unidad
                                 </div>
 
 
@@ -331,7 +331,7 @@ include_once 'header-bottom.inc'
                                     Cliff A., Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Stability
+                                    Tema: Estabilidad
                                 </div>
 
 
@@ -342,12 +342,12 @@ include_once 'header-bottom.inc'
                                     Ryan Y., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Surrender
+                                    Tema: Rendirse
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Alateen Speaker Meeting</strong>
+                                    <strong>1:30pm Reunión de oradores de Alateen</strong>
                                 </div>
 
 
@@ -358,12 +358,12 @@ include_once 'header-bottom.inc'
                                     Bob C., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Sponsorship
+                                    Tema: Patrocinio
                                 </div>
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>3:00pm Ice Cream Social</strong>
+                                    <strong>3:00pm Helado Social</strong>
                                 </div>
 
 
@@ -374,7 +374,7 @@ include_once 'header-bottom.inc'
                                     Michele T., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Serenity
+                                    Tema: Serenidad
                                 </div>
 
 
@@ -385,29 +385,27 @@ include_once 'header-bottom.inc'
                                     Irma, Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Topic: Coming Back
+                                    Tema: Regresando
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>5:00pm A.A.Speaker Meeting</strong>
+                                    <strong>Reunión de Oradores de A.A. a las 5:00pm</strong>
                                 </div>
-
 
                                 <div class="col-sm-12 text-center cell-color">
-                                    <strong>6:30pm Al-Anon Prize Raffle Drawing</strong>
+                                    <strong>Sorteo de Premios de Al-Anon a las 6:30pm</strong>
                                 </div>
 
-
                                 <div class="col-sm-12 white-on-black p-2 mt-2 text-center">
-                                    <strong>A.A. Marathon Meetings Ends - Hope you had a fun time!</strong>
+                                    <strong>Finalizan las Reuniones de Maratón de A.A. ¡Esperamos que te hayas divertido!</strong>
                                 </div>
 
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-12 p-2 mt-2">
-                                    <strong>Disclaimer: This schedule is subject to change.</strong>
+                                    <strong>Descargo de responsabilidad: Este programa está sujeto a cambios.</strong>
                                 </div>
                             </div>
 
@@ -426,21 +424,19 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Why MBAR?">
-                            <h3 class="card-title mb-3">Why do we have MBAR?</h3>
-                            <p>Frequent contact with newcomers and with each other is the bright spot of our lives.
-                                <br>
-                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
-                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book p89<span class="sr-only">(Open pdf in browser)</span></a>
+                        <section aria-label="¿Por qué MBAR?">
+                            <h3 class="card-title mb-3">¿Por qué tenemos MBAR?</h3>
+                            <p>El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas. <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
                             </p>
-                            <p class="sr-only">(This is the paragraph from page 89 above.)"Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it."
+                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
                             </p>
-                            <p>It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
-                                <br>
-                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
-                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book p152<span class="sr-only">(Open pdf in browser)</span></a>
+                            <p>Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá algún significado al fin. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
                             </p>
-                            <p class="sr-only">(This is the paragraph from page 152 above.)"Yes, there is a substitute and it is vastly more than that. It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you."
+                            <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la inquietud. Su imaginación se encenderá. La vida tendrá un significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontraremos la comunidad, y usted también la encontrará."
                             </p>
                         </section>
                     </div>
@@ -449,32 +445,31 @@ include_once 'header-bottom.inc'
         </div>
     </aside>
 
-
     <!-- Part Seven -->
-    <aside aria-label="ADA accessibility and inclusion.">
+    <aside aria-label="Accesibilidad e inclusión de la ADA">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
-                        <section aria-label="Event unity">
-                            <h4 class="card-title mb-3 text-center text-uppercase">ADA Accessibility</h4>
-                            <p>Our team is committed to ensure the success of your event. Please discuss any areas not covered in this document with your Event Manager or our Staff. These general policies, rules and regulations are subject to change.
+                        <section aria-label="Unidad de eventos">
+                            <h4 class="card-title mb-3 text-center text-uppercase">ADA Accesibilidad</h4>
+                            <p>Nuestro equipo está totalmente comprometido a garantizar la inclusión y el compañerismo dentro de MBAR, y si necesita ayuda de la ADA para el evento, infórmenos. Según la primera tradición de A.A., por favor discuta cualquier área que no esté cubierta aquí con cualquiera de los miembros de nuestro comité. Estas políticas, reglas y regulaciones generales están sujetas a cambios.
                             </p>
-                            <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow"><strong>The Monterey Conference Center ADA compliance policy</strong><span class="sr-only">(Opens a new window)</span></a> - The Monterey Conference Center (MCC) is ADA compliant. In accordance with the ADA, we are responsible for accommodations associated with permanent premise access, such as, but not limited to, wheelchair ramps, elevator standards, door width standards and restroom accessibility.
+                            <p><a href="https://www.montereyconferencecenter.com/facility/ada-accessibility/" class="bb-link" target="_blank" rel="noopener noreferrer nofollow"><strong>La política de cumplimiento de la ADA del Monterey Conference Center</strong><span class="sr-only">(Abre una nueva ventana)</span></a> - El Centro de Conferencias de Monterey (MCC) cumple con la ADA. De acuerdo con la ADA, somos responsables de las adaptaciones asociadas con el acceso permanente a las instalaciones, como, entre otras, rampas para sillas de ruedas, estándares de ascensores, estándares de ancho de puertas y accesibilidad a los baños.
                             </p>
-                            <p>It is the client or renter's responsibility to accommodate non-permanent accessibility requirements and incorporate visually-assisted devices, interpreters, and temporary seating accessibility if needed.
+                            <p>Es responsabilidad del cliente o inquilino adaptarse a los requisitos de accesibilidad no permanente e incorporar dispositivos de asistencia visual, intérpretes y accesibilidad a asientos temporales si es necesario.
                             </p>
-                            <p>Assisted hearing devices are available through our preferred in-house Audio-Visual provider.
+                            <p>Los dispositivos de audición asistida están disponibles a través de nuestro proveedor audiovisual interno preferido.
                             </p>
-                            <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2024 will provide two ASL Interpreters on these days:</strong>
+                            <p><strong><span class="text-uppercase">Accesibilidad ADA</span> MBAR 2024 proporcionará dos Intérpretes de ASL en estos días:</strong>
                             </p>
                             <ul>
-                                <li>Saturday - 2.5 hours</li>
-                                <li>Sunday - 3.0 hours</li>
+                                <li>Sábado - 2,5 horas</li>
+                                <li>Domingo - 3,0 horas</li>
                             </ul>
-                            <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            <p style="font-style: italic;"><strong class="text-uppercase">Tenga en cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicacións.
                             </p>
-                            <p class='sr-only'>(This is the above text without italics)><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+                            <p class='sr-only'>(Este es el texto anterior sin cursiva.)<strong class="text-uppercase">Tenga en cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicacións.
                             </p>
                         </section>
                     </div>
