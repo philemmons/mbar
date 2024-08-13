@@ -260,7 +260,7 @@ include_once 'header-bottom.inc'
                         </p>
 
                         <p>If you pay by <strong>check</strong>, please make your check payable to MBAR, and mail it to
-                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
                             <br>Attn: Naomi B.
                             <br>P.O. Box 1462
                             <br>Monterey, CA 93942

@@ -59,7 +59,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Amazing Monterey State Beach">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>History</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Round Up<br>History</span></h2>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Round Up since 1993.">
                         <section aria-label="MBAR's slogan and purpose">
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR was established in 1993 with our guiding principle:<br>"Keep It Simple."</span>
                             </h3>

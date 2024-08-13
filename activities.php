@@ -59,7 +59,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Beautiful Monterey tile mosaic at the Conference Center inspiring fellowship activities.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Roundup<br>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Monterey Bay Area Round Up<br>
                             Activities</span></h2>
                 </div>
             </div>
@@ -126,7 +126,7 @@ include_once 'header-bottom.inc'
                         <div class="col-md-7 col-12">
                             <div class="card card-body border-0">
                                 <section class="card-title">
-                                    <h3>Roundup Breakfast and Bingo</h3>
+                                    <h3>Round Up Breakfast and Bingo</h3>
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>

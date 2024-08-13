@@ -85,7 +85,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="text-center">Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
                                 <br><br>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to
-                                <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                                <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
                                 <br>Attn: Naomi B.
                                 <br>P.O. Box 1462
                                 <br>Monterey, CA 93942
@@ -632,7 +632,7 @@ include_once 'header-bottom.inc'
                         </p>
 
                         <p>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to
-                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
                             <br>Attn: Naomi B.
                             <br>P.O. Box 1462
                             <br>Monterey, CA 93942
@@ -676,7 +676,7 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3">Download the Registration Form</h3>
                             <p>Below is the MBAR 2024 registration form and can be returned by mail or email.
                             </p>
-                            <p><span class="text-uppercase">Monterey Bay Are Roundup</span><br>
+                            <p><span class="text-uppercase">Monterey Bay Are Round Up</span><br>
                                 Attn: Naomi B.<br>
                                 P.O. Box 1462<br>
                                 Monterey, CA 93942

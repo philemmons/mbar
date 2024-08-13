@@ -1,7 +1,7 @@
 <!-- FB Meta Tags -->
 <meta property="og:url" content="https://montereybayarearoundup.org">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Monterey Bay Area Roundup - Keep It Simple">
+<meta property="og:title" content="Monterey Bay Area Round Up - Keep It Simple">
 <meta property="og:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
 <meta property="og:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
 <meta property="og:site_name" content="montereybayarearoundup.org">
@@ -10,7 +10,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="montereybayarearoundup.org">
 <meta property="twitter:url" content="https://montereybayarearoundup.org">
-<meta name="twitter:title" content="Monterey Bay Area Roundup - Keep It Simple">
+<meta name="twitter:title" content="Monterey Bay Area Round Up - Keep It Simple">
 <meta name="twitter:description" content="To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — this is an experience you must not miss.">
 <meta name="twitter:image" content="https://montereybayarearoundup.org/images/mbar_logo_social.png">
 
@@ -40,12 +40,12 @@
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
-                <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>
+                <h1 class="text-uppercase">Monterey Bay Area Round Up</h1>
                 <p>P.O. Box 1462<br>Monterey, CA 93942</p>
                 <p>To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — <span class="font-italic">this is an experience you must not miss</span>.<span class='sr-only'>(This is plain text) - this is an experience you must not miss.</span></p>
             </div>
             <div class='col-sm-auto banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep It Simple." title="Welcome to MBAR 2024!">
+                <img src="../images/mbar_logo.png" class="img-fluid shadow-wrap" alt="Monterey Bay Area Round Up 2024 logo with a breeched whale tail and the slogan: Keep It Simple." title="Welcome to MBAR 2024!">
             </div>
         </div>
     </header>

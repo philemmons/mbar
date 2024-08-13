@@ -87,7 +87,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="text-center">Asegúrese de utilizar los <a href="#payment-now" class="bb-link">códigos QR o enlaces</a> que aparecen a continuación para realizar el pago que complete su registro.
                                 <br><br>Puede pagar su registro en línea con <strong>cheque</strong> en lugar de hacerlo con Venmo o PayPal. Haga su cheque a nombre de MBAR y envíelo por correo a
-                                <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                                <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
                                 <br>A la atención de Naomi B.
                                 <br>P.O. Box 1462
                                 <br>Monterey, CA 93942
@@ -636,7 +636,7 @@ include_once 'header-bottom.inc'
                         </p>
 
                         <p>Puede pagar su inscripción en línea con <strong>cheque</strong> en lugar de hacerlo a través de Venmo o PayPal. Haga el cheque a nombre de MBAR y envíelo por correo a
-                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
                             <br>Attn: Naomi B.
                             <br>P.O. Box 1462
                             <br>Monterey, CA 93942
@@ -680,7 +680,7 @@ include_once 'header-bottom.inc'
                             <h3 class="card-title mb-3">Descarga el Formulario de Inscripción</h3>
                             <p>A continuación se muestra el formulario de registro de MBAR 2024 y se puede devolver por correo postal o electrónico.
                             </p>
-                            <p><span class="text-uppercase">Monterey Bay Area Roundup</span>
+                            <p><span class="text-uppercase">Monterey Bay Area Round Up</span>
                                 <br>Attn: Naomi B.
                                 <br>P.O. Box 1462
                                 <br>Monterey, CA 93942

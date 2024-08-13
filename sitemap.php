@@ -71,7 +71,7 @@ include_once 'header-bottom.inc'
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 					<section aria-label="sitemap-start">
-						<h3 class="h5 float-end"><a href="https://montereybayarearoundup.org" title="Monterey Bay Area Roundup 2024 Homepage">montereybayarearoundup.org<br>Homepage</a>
+						<h3 class="h5 float-end"><a href="https://montereybayarearoundup.org" title="Monterey Bay Area Round Up 2024 Homepage">montereybayarearoundup.org<br>Homepage</a>
 						</h3>
 					</section>
 				</div>
@@ -217,7 +217,7 @@ include_once 'header-bottom.inc'
 	<aside aria-label="responsibility statement">
 		<div class="row justify-content-md-center">
 			<div class='col-sm-4 banner'>
-				<img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Roundup 2024 logo with a breeched whale tail and the slogan: Keep it simple">
+				<img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Monterey Bay Area Round Up 2024 logo with a breeched whale tail and the slogan: Keep it simple">
 			</div>
 			<div class='col-sm-8 col-md-6 p-4'>
 				<h4>Our Statement of Responsibility:</h4>
@@ -245,7 +245,7 @@ include_once 'header-bottom.inc'
 	<div class='container'>
 		<div class="row justify-content-md-center">
 			<div class="col-sm-12" id="footer-image" role=img aria-label="A road through rolling hills, covered with flowers, with a sunset backdrop.">
-				<p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
+				<p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Round Up. All Rights Reserved.
 				</p>
 			</div>
 			<nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">

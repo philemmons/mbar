@@ -132,7 +132,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - MBAR Activities
                             </p>
-                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Roundup Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.
+                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Round Up Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.
                                 <br><br>
                                 Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>
@@ -199,7 +199,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
                             </p>
-                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR fliers to see the impact and join us in continuing this legacy.
+                            <p class="card-text">Since 1993, the Monterey Bay Area Round Up(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR fliers to see the impact and join us in continuing this legacy.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -218,7 +218,7 @@ include_once 'header-bottom.inc'
             <div class="row">
                 <div class="col-lg-8">
                     <section aria-label="About MBAR">
-                        <h3 class="text-uppercase">About Monterey Bay Area Roundup</h3>
+                        <h3 class="text-uppercase">About Monterey Bay Area Round Up</h3>
                         <p><strong class="text-uppercase">Alcoholics Anonymous</strong> is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.
                             <br><br>
                             <strong class="text-uppercase">What is Al-Anon?</strong>
