@@ -97,14 +97,14 @@ include_once 'header-bottom.inc'
     <article aria-label="Folleto de Al-Anon">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <h4 class="text-dark">Oradores destacados de AA, Al-Anon y Alateen</h4>
                     </div>
                 </div>
 
-                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 pb-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border mb-4">
                         <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Folleto con oradores destacados de AA, Al-Anon y Alateen">
                     </div>
                     <a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Oradores de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
