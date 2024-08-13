@@ -99,15 +99,12 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Oradores destacados de AA, Al-Anon y Alateen</h4>
+                        <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Oradores destacados de AA, Al-Anon y Alateen</h4>
+                        <div class="mb-4">
+                            <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Folleto con oradores destacados de AA, Al-Anon y Alateen">
+                        </div>
+                        <a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Oradores de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                     </div>
-                </div>
-
-                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 pb-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border mb-4">
-                        <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Folleto con oradores destacados de AA, Al-Anon y Alateen">
-                    </div>
-                    <a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Oradores de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                 </div>
             </div>
         </div>

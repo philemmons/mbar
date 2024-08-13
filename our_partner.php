@@ -98,15 +98,13 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Featured AA, Al-Anon, and Alateen Speakers</h4>
+                        <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Featured AA, Al-Anon, and Alateen Speakers</h4>
+                        <hr>
+                        <div class="mb-4">
+                            <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Featured AA, Al-Anon, and Alateen Speakers Flier">
+                        </div>
+                        <a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Al-Anon and Alateen Speakers<span class="sr-only">(Open pdf in browser)</span></a>
                     </div>
-                </div>
-
-                <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 pb-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border mb-4">
-                        <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Featured AA, Al-Anon, and Alateen Speakers Flier">
-                    </div>
-                    <a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Al-Anon and Alateen Speakers<span class="sr-only">(Open pdf in browser)</span></a>
                 </div>
             </div>
         </div>
