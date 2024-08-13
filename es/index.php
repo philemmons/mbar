@@ -81,6 +81,8 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">¡Prepárese para sumergirse! ¡Nuestro calendario de eventos ya está disponible! Pronto se revelarán más detalles a medida que la trama se complique.
                             </p>
+                            <p class="card-text">Se han anunciado los oradores destacados de Al-Anon y Alateen - <a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">¡Eche un vistazo a nuestro último folleto!<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>

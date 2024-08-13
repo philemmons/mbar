@@ -81,6 +81,8 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Get ready to dive in! Our event schedule is now live! More details will be unveiled shortly as the plot thickens.
                             </p>
+                            <p class="card-text">Featured Al-Anon and Alateen Speakers have been Announced - <a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Take a look at our latest flyer!<span class="sr-only">(Open pdf in browser)</span></a>
+                            </p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
