@@ -132,15 +132,29 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Actividades de MBAR
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Más Compañerismo
                             </p>
-                            <p class="card-text">Nos complace presentar nuestra programación, que incluye: Reuniones de Maratón Para Todos, Oradores Invitados, Sesiones de Panel, Cena de Presentación de Oradores, Baile de Máscaras, Desayuno de Fin de Curso con Bingo y Helado Social. Además, Habrá Velocidad Compañerismo, Una Búsqueda del Tesoro de Goose Chase, Pintar Compañerismo, Hombre-lobo Compañerismo Juego, A.A. Trivialidades y Lanzamiento de Cornhole.
-                                <br><br>
-                                Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
+                            p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
+                            </p>
+                            <p class="card-text">
+                            <ul>
+                                <li>Comunicación Rápida</li>
+                                <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="../pdf/paint-party.pdf">Fiesta de Pintura<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="../pdf/werewolf.pdf">Juego Werewolf Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
+                            </ul>
+                            <br><br>
+                            Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Nestras Actividades</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Todas las Actividades de MBAR</a></small>
                         </div>
                     </div>
                 </div>

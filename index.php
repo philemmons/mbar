@@ -132,15 +132,29 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - MBAR Activities
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - More Fellowship
                             </p>
-                            <p class="card-text">We're excited to showcase our lineup, featuring: Marathon Meetings for All, Guest Speakers, Panel Sessions, Meet the Speaker's Dinner, Masquerade Dance, Round Up Breakfast with Bingo, and Ice Cream Social. Additionally, there will be Speed Fellowship, a Goose Chase Scavenger Hunt, Paint Fellowship, Werewolf Fellowship Game, A.A. Trivia, and Cornhole Tossing.
-                                <br><br>
-                                Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
+                            <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities for us than in previous years and invite you to them. The links below open PDF's with more information. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
+                            </p>
+                            <p class="card-text">
+                            <ul>
+                                <li>Speed Fellowship-ing</li>
+                                <li><a class="bb-link" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="pdf/paint-party.pdf">Paint Party<span class="sr-only">(Open pdf in browser)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="pdf/werewolf.pdf">Werewolf Fellowship Game<span class="sr-only">(Open pdf in browser)</span></a>
+                                <li><a class="bb-link" href="pdf/cornhole.pdf">Cornhole and Fellowship<span class="sr-only">(Open pdf in browser)</span></a>
+                                </li>
+                                <li><a class="bb-link" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
+                                </li>
+                            </ul>
+                            <br><br>
+                            Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview Our Activities</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Preview All MBAR Activities</a></small>
                         </div>
 
                     </div>
