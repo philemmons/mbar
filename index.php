@@ -149,7 +149,6 @@ include_once 'header-bottom.inc'
                                 <li><a class="bb-link" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
                                 </li>
                             </ul>
-                            <br><br>
                             Circle your calendars for a weekend of recovery, fellowship, and fun. More details to follow soon!
                             </p>
                         </div>

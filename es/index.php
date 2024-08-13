@@ -149,7 +149,6 @@ include_once 'header-bottom.inc'
                                 <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                 </li>
                             </ul>
-                            <br><br>
                             Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
                             </p>
                         </div>
