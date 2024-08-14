@@ -54,12 +54,12 @@
 
             <dd>d. Al-Anon - Jane: Speakers selected coordinating with Kathleen;</dd>
 
-            <dd>e. T-Shirt - Kevin: Placing order for Committee t-shirts - $16.00 plus 10% tax; Placing Order - 18 mugs: cost $19.82; sell for $20; 36 water bottles - cost $11+ - sell for $12; Get revised pricing for 120 committee t-shirts
+            <dd>e. T-Shirt - Kevin: Placing order for Committee t-shirts - $16.00 plus 10% tax; Placing Order - 18 mugs: cost $19.82; sell for $20; 36 water bottles - cost $11+ - sell for $12; Get revised pricing for 120 committee t-shirts;
             </dd>
 
             <dd>f. Speaker - Kathleen: Rooms booked for speakers at Marriott; Kathleen provide current speaker roster - there was some confusion regarding the speaker line up; Committee selected Mark S. as the Friday Kickoff speaker</dd>
 
-            <dd>g. Outreach - Conor: 6 registrations from Friday AA / Al-=Anon meeting; Visited 4 central offices; Called 10 central offices; Going to San Jose Saturday Night Live; Jean offered to help with outreach calls; Naomi assist with mass mailing to central offices; Chris suggested going to popular Salinas Meetings; Pointed out issues with online registration - difficult to reconcile cost;</dd>
+            <dd>g. Outreach - Conor: 6 registrations from Friday AA / Al-Anon meeting; Visited 4 central offices; Called 10 central offices; Going to San Jose Saturday Night Live; Jean offered to help with outreach calls; Naomi assist with mass mailing to central offices; Chris suggested going to popular Salinas Meetings; Pointed out issues with online registration - difficult to reconcile cost;</dd>
 
             <dd>h. Events - Samantha: Insurance secured; Potential Events for MBAR - included a prototype schedule;</dd>
 
