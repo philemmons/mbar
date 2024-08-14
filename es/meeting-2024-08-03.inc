@@ -37,14 +37,14 @@
             <dt>10. Dennis (orador del sábado a las 2:00 pm): Kathleen confirma que hay una habitación de hotel reservada.
             </dt>
 
-            <dt>11. Sala de recepción: presupuesto de $2159; Phil C. - la habitación puede no estar disponible en Marriott - él verificará el estado; Mary Grace - habitación disponible para todos; Cindy - Portola 2019, trajimos nuestros propios bocadillos - ahorramos dinero; Kathleen Concepto original - Donación sugerida de $5; La comida proporcionada por voluntarios sin costo; Jennifer se encargará de que alguien vigile la sala cuando esté abierta; El comité solicita un ajuste presupuestario si es necesario; Asegurarse de que la sala sea accesible (ADA - movilidad, etc.); Finalizar los detalles la próxima semana - ¿Dónde se ubicará la sala?; ¿Hay espacio para todos en la conferencia?
+            <dt>11. Sala de Recepción: presupuesto de $2159; Phil C. - la habitación puede no estar disponible en Marriott - él verificará el estado; Mary Grace - habitación disponible para todos; Cindy - Portola 2019, trajimos nuestros propios bocadillos - ahorramos dinero; Kathleen Concepto original - Donación sugerida de $5; La comida proporcionada por voluntarios sin costo; Jennifer se encargará de que alguien vigile la sala cuando esté abierta; El comité solicita un ajuste presupuestario si es necesario; Asegurarse de que la sala sea accesible (ADA - movilidad, etc.); Finalizar los detalles la próxima semana - ¿Dónde se ubicará la sala?; ¿Hay espacio para todos en la conferencia?
             </dt>
 
 
             <dt>12. Formulario de inscripción finalizado después de las camisetas y los paquetes; Formulario actualizado - Phillip enviado por correo electrónico y publicado en línea; Fecha límite para el desayuno; Corregir el mensaje de texto de PayPal; Actualización de Phillip; La reunión de Zoom es gratuita - Chris envía por correo electrónico el ID de la reunión de Zoom, etc.; La preinscripción 50/50 no aplica después del 31 de julio; Aprobar la moción - elementos anteriores;
             </dt>
 
-            <dt>13. Presidentes de comités/Informes del comité directivo</dt>
+            <dt>13. Presidentes de Comités/Informes del Comité Directivo</dt>
 
             <dd>a. Medios: Gina: publicó volantes y folletos de eventos y formulario de inscripción en Facebook; hizo un volante de barbacoa; corrigió el monto de inscripción de $55 a $50; circuló volantes de eventos y formulario de inscripción y enlace web en Facebook;</dd>
 
@@ -60,7 +60,7 @@
 
             <dd>g. Difusión - Conor: asistir a las reuniones importantes - San José el sábado por la noche; Santa Cruz el domingo por la mañana; se comunicó con las oficinas centrales; se comunicó con un club Alano; Mighty Muffins; el kit tuvo éxito - Reunión de A.A. y Al-Anon; Reunión de cumpleaños de Salinas; Centros de tratamiento - "contribución" de costo de inscripción reducido; Arthur se comunicó con Door to Hope, Genesis, Sun Street, CHOMP, etc.; mesa en el evento de autobús del grupo Pacific; mesa en el Rally de la costa - Mark S. ayudó;</dd>
 
-            <dd>h. Reunión de maratón - Mark S.: enviar el programa actualizado a Naomi y Phillip; coordinar con Mark para las mesas y las sillas;</dd>
+            <dd>h. Reunión de Maratón - Mark S.: enviar el programa actualizado a Naomi y Phillip; coordinar con Mark para las mesas y las sillas;</dd>
 
             <dd>i. Bienvenida - Arthur: no hubo problemas; distribuir hojas de inscripción; no hubo recepcionistas durante la reunión de oradores;</dd>
 
@@ -70,7 +70,7 @@
 
             <dd>l. Instalaciones - Mark F.: Encerrado en Colton 3 como sala de recuento; Terraza incluida sin cargo adicional; Necesito un cronograma para el uso de la sala, un programa;</dd>
 
-            <dd>m. Sitio web - Philip (informe enviado por correo electrónico): Como tengo que irme a las 11:25 para un compromiso, voy a enviar mi informe por correo electrónico; He actualizado el sitio web, incluido el formulario de registro, los anuncios de la página de inicio, el calendario de MBAR, actualicé el formulario de registro, incluida la redacción; el registro en línea se puede pagar con cheque, ya que hubo cierta confusión por parte de un miembro; Además, los PDF son accesibles por safari, ya que el PDF anterior se abrió como una ventana emergente y se bloqueó de forma predeterminada; Esto debería aumentar el volumen de registro, con suerte; Me comunicaré con Carolyn para ofrecer ayuda con PayPal; Verifico dos veces el formulario de manos amigas en línea y la ubicación; me comunicaré con May sobre el problema de UI; En cuanto a la pregunta de ASL, sería lo mejor para nosotros anticipar sus necesidades; Una vez que el programa esté finalizado, envíelo y enviaré el contenido; Lo mismo con la reunión de Maratón para AA y Al-Anon con el horario de Eng / Span; Cualquier error o problema en línea visto por alguien, hágamelo saber y se puede actualizar; Actualizaré el formato Zoom, probaré el guión 50/50, alinearé a los oradores y coanfitriones, la función de intérprete de ASL y obtendré el costo de una reunión grande que en el último MBAR fue de $ 50; ¿Deberíamos anunciar la Suite de hospitalidad en línea? Cuando las tazas y los jarros estén en la mano, tomaré fotos y publicaré el contenido; actualizaré el formulario de registro. - completado;</dd>
+            <dd>m. Sitio Web - Philip (informe enviado por correo electrónico): Como tengo que irme a las 11:25 para un compromiso, voy a enviar mi informe por correo electrónico; He actualizado el sitio web, incluido el formulario de registro, los anuncios de la página de inicio, el calendario de MBAR, actualicé el formulario de registro, incluida la redacción; el registro en línea se puede pagar con cheque, ya que hubo cierta confusión por parte de un miembro; Además, los PDF son accesibles por safari, ya que el PDF anterior se abrió como una ventana emergente y se bloqueó de forma predeterminada; Esto debería aumentar el volumen de registro, con suerte; Me comunicaré con Carolyn para ofrecer ayuda con PayPal; Verifico dos veces el formulario de manos amigas en línea y la ubicación; me comunicaré con May sobre el problema de UI; En cuanto a la pregunta de ASL, sería lo mejor para nosotros anticipar sus necesidades; Una vez que el programa esté finalizado, envíelo y enviaré el contenido; Lo mismo con la reunión de Maratón para AA y Al-Anon con el horario de Eng / Span; Cualquier error o problema en línea visto por alguien, hágamelo saber y se puede actualizar; Actualizaré el formato Zoom, probaré el guión 50/50, alinearé a los oradores y coanfitriones, la función de intérprete de ASL y obtendré el costo de una reunión grande que en el último MBAR fue de $ 50; ¿Deberíamos anunciar la Suite de hospitalidad en línea? Cuando las tazas y los jarros estén en la mano, tomaré fotos y publicaré el contenido; actualizaré el formulario de registro. - completado;</dd>
 
             <dd>n. Cena - Aubrey: Sin problemas</dd>
 
@@ -82,11 +82,11 @@
 
             <dt>14. Difusión:</dt>
 
-            <dd>a. Viaje en autobús del grupo del Pacífico</dd>
+            <dd>a. Viaje en Autobús del Grupo del Pacífico</dd>
 
-            <dd>b. Rally costero</dd>
+            <dd>b. Rally Costero</dd>
 
-            <dt>15. Nuevos negocios: Ninguno;</dt>
+            <dt>15. Nuevos Negocios: Ninguno;</dt>
 
             <dt>16. La próxima reunión del Comité será el sábado 10/08/2024 a las 10 a. m. Las reuniones posteriores se realizarán todas las semanas hasta la fecha de la conferencia.</dt>
 
