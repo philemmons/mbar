@@ -38,7 +38,7 @@ if (isset($_POST['logout'])) {
           <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
           <div class="dropdown-menu" aria-labelledby="dropdown-conference">
             <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-            <a class="dropdown-item" href="marathon-2024.php">Marathon Meetings</a>
+            <a class="dropdown-item" href="aa-marathon-2024.php">A.A. Marathon Meetings</a>
             <a class="dropdown-item" href="register-now.php">Registration</a>
             <a class="dropdown-item" href="activities.php">Activities</a>
             <a class="dropdown-item" href="mbar_history.php">MBAR History</a>

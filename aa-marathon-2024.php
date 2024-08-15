@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - 2024 Marathon Meetings</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/marathon-2024.php" >';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/aa-marathon-2024.php" >';
 include_once 'header-bottom.inc'
 ?>
 
@@ -20,7 +20,7 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item active" aria-current="page" href="marathon-2024.php">Marathon Meetings<span class="visually-hidden">(current)</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="aa-marathon-2024.php">A.A. Marathon Meetings<span class="visually-hidden">(current)</span></a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
                         <a class="dropdown-item" href="mbar_history.php">MBAR History</a>
@@ -428,11 +428,11 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Why marathon meetings?">
                             <h4 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h4>
-                            <p>Marathon meetings are a crucial part of AA conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
+                            <p>Marathon meetings are a crucial part of A.A. conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                             </p>
                             <p>For many, conventions can be emotionally intense, triggering memories or feelings that require immediate attention and support. Marathon meetings address this by providing a safe, welcoming environment where members can connect with others at any time, day or night. This continuous availability is vital in helping members stay grounded, especially those who may be struggling with cravings, emotions, or difficult experiences during the convention.
                             </p>
-                            <p>Additionally, marathon meetings foster a sense of community and inclusivity, ensuring that everyone, regardless of their schedule, has the opportunity to participate in meetings. They symbolize the commitment of AA to be there for its members whenever they need it, reinforcing the principles of unity and mutual aid that are at the heart of the AA program.
+                            <p>Additionally, marathon meetings foster a sense of community and inclusivity, ensuring that everyone, regardless of their schedule, has the opportunity to participate in meetings. They symbolize the commitment of A.A. to be there for its members whenever they need it, reinforcing the principles of unity and mutual aid that are at the heart of the A.A. program.
                             </p>
                         </section>
                     </div>

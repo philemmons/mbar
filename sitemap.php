@@ -20,7 +20,7 @@ include_once 'header-bottom.inc'
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
 					<div class="dropdown-menu" aria-labelledby="dropdown-conference">
 						<a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-						<a class="dropdown-item" href="marathon-2024.php">Marathon Meetings</a>
+						<a class="dropdown-item" href="aa-marathon-2024.php">A.A. Marathon Meetings</a>
 						<a class="dropdown-item" href="register-now.php">Registration</a>
 						<a class="dropdown-item" href="activities.php">Activities</a>
 						<a class="dropdown-item" href="mbar_history.php">MBAR History</a>
@@ -101,7 +101,7 @@ include_once 'header-bottom.inc'
 											<li class="lpage"><a href="https://montereybayarearoundup.org/" title="MBAR - Home ">MBAR - Home </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/conference-2024.php" title="MBAR - 2024 Conference ">MBAR - 2024 Conference </a></li>
-											<li class="lpage"><a href="https://montereybayarearoundup.org/marathon-2024.php" title="MBAR - 2024 Marathon Meetings ">MBAR - 2024 Marathon Meetings </a></li>
+											<li class="lpage"><a href="https://montereybayarearoundup.org/aa-marathon-2024.php" title="MBAR - 2024 Marathon Meetings ">MBAR - 2024 Marathon Meetings </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/register-now.php" title="MBAR - Registration ">MBAR - Registration </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/activities.php" title="MBAR - Activities ">MBAR - Activities </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/mbar_history.php" title="MBAR - History ">MBAR - History </a></li>
@@ -142,7 +142,7 @@ include_once 'header-bottom.inc'
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/" title="MBAR - Home ">MBAR - Home </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/index.php" title="MBAR - Home ">MBAR - Home </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/conference-2024.php" title="MBAR - 2024 Conferencia ">MBAR - 2024 Conferencia </a></li>
-													<li class="lpage"><a href="https://montereybayarearoundup.org/es/marathon-2024.php" title="MBAR - 2024 Marathon Meetings ">MBAR - 2024 Reuniones de Maratón </a></li>
+													<li class="lpage"><a href="https://montereybayarearoundup.org/es/aa-marathon-2024.php" title="MBAR - 2024 Marathon Meetings ">MBAR - 2024 Reuniones de Maratón </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/register-now.php" title="MBAR - Registro ">MBAR - Registro </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/activities.php" title="MBAR - Actividades ">MBAR - Actividades </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/mbar_history.php" title="MBAR - Historia ">MBAR - Historia </a></li>
