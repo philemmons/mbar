@@ -113,12 +113,12 @@ include_once 'header-bottom.inc'
     <!-- Part One -->
     <article aria-label="Al-Anon Marathon Meetings Title">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Al-Anon Marathon Meetings">
                         <section aria-label="Al-Anon Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Al-Anon Marathon Meeting Schedule</h3>
-                            <p class="mb-6 h5 text-dark px-md-5">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
+                            <p class="mb-6 h5 text-dark px-md-5">Here's our current lineup. If you're interested in volunteering, or being of service at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
                             </p>
                             <p class="mb-6 h5 text-dark mb-3"><strong>Location: Steinbeck 1C</strong></p>
                             <p class="text-center">
@@ -127,7 +127,6 @@ include_once 'header-bottom.inc'
                                 Or open the PDf below.
                             </p>
                             <a class="bb-link" href="pdf/final-al-anon-marathon.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Al-Anon Marathon Meeting Schedule<span class="sr-only">(Open pdf in browser)</span></a>
-
                         </section>
                     </div>
                 </div>
