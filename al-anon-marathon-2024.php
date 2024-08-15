@@ -71,12 +71,12 @@ include_once 'header-bottom.inc'
     </div>
 
     <!-- Part One -->
-    <article aria-label="A.A. Marathon Meetings Title">
+    <article aria-label="Al-Anon Marathon Meetings Title">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Al-Anon Marathon Meetings">
-                        <section aria-label="A.A. Marathon Schedule">
+                        <section aria-label="Al-Anon Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Al-Anon Marathon Meeting Schedule</h3>
                             <p class="mb-6 h5 text-dark px-md-5">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
                             </p>
@@ -90,13 +90,13 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Two-->
-    <article id="schedule" aria-label="A.A. Meetings - English">
+    <article id="schedule" aria-label="Al-Anon Meetings">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
-                        <section aria-label="Saturday's A.A. Meetings">
+                        <section aria-label="Saturday's Al-Anon Meetings">
                             <h3 class="white-on-black p-2 mt-2 text-center">Saturday, August 31st</h3>
                             <div class="row g-0 mb-4">
 
@@ -173,7 +173,7 @@ include_once 'header-bottom.inc'
                             </div>
                         </section>
 
-                        <section aria-label="Sunday's A.A. Meetings">
+                        <section aria-label="Sunday's Al-Anon Meetings">
                             <h3 class="white-on-black p-2 mt-2 text-center">Sunday, September 1st</h3>
 
                             <div class="row g-0 mb-4">
