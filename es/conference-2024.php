@@ -287,7 +287,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1b</strong>
+                                    Al-Anon(Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1c</strong>
                                     <br>
                                     (Ver el Inserto para los Horarios Programados) veces)
                                 </div>

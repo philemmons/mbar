@@ -301,7 +301,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                    Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1c</strong>
                                     <br>
                                     (See insert for scheduled times)
                                 </div>
