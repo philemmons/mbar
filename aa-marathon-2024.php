@@ -77,7 +77,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Marathon Schedule</h3>
-                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service or be a speaker at a meeting or submit your marathon meeting schedule, please contact our Marathon Chair: Mark S.
+                            <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service, or be a speaker at a meeting, or submit your marathon meeting schedule, then please contact our Marathon Chair: Mark S.
                             </p>
                         </section>
                     </div>

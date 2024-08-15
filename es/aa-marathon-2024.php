@@ -76,8 +76,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="La inscripción está abierta">
                         <section aria-label="Horario del maratón de A.A.">
-                            <h3 class=" fw-bold text-dark px-3 px-md-0">Horario del maratón de A.A. - Inglés</h3>
-                            <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio o ser orador en una reunión o enviar su programa de reuniones maratónicas, comuníquese con nuestro Presidente de Maratón: Mark S.
+                            <h3 class=" fw-bold text-dark px-3 px-md-0">Horario del Maratón de A.A. - Inglés</h3>
+                            <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio, ser orador en una reunión o enviar su programa de reuniones maratónicas, comuníquese con nuestro Presidente de Reuniones Maratónicas: Mark S.
                             </p>
                         </section>
                     </div>
