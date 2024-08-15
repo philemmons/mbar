@@ -75,7 +75,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Al-Anon Marathon Meetings">
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Al-Anon Marathon Meeting Schedule</h3>
                             <p class="mb-6 h5 text-dark px-md-5">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
