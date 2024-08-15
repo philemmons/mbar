@@ -241,9 +241,9 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                    <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Why marathon meetings?">
-                            <h4 class="card-title mb-3">Why Al-Anon Has Marathon Meetings During Conventions?</h4>
+                            <h4 class="text-center card-title mb-3">Why Al-Anon Has Marathon Meetings During Conventions?</h4>
                             <p>Al-Anon hosts marathon meetings during conventions to provide continuous support and a sense of community for attendees who may need it at any time during the event. These meetings are especially valuable in a convention setting because they:
                             <ul>
                                 <li><strong>Offer Ongoing Support:</strong> Conventions can be intense, and marathon meetings ensure that help is available around the clock for anyone who might be struggling or need to share their experiences.
