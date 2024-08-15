@@ -59,7 +59,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Reuniones de Maratón de 2024">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reuniones de Maratón de 2024</span></h2>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">A.A. Reuniones de Maratón de 2024</span></h2>
                     <p class="mb-6 h5 text-dark">Durante el fin de semana del Día del Trabajo, tendremos reuniones de A.A. y Al-Anon en Español y Inglés.
                         <br>
                         <strong>Las reuniones de maratón están abiertas a <em>todos</em>, no es necesario registrarse.</strong>
