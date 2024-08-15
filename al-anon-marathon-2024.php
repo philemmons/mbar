@@ -78,9 +78,9 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Al-Anon Marathon Meeting Schedule</h3>
-                            <p class="mb-6 h5 text-dark px-md-3">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
+                            <p class="mb-6 h5 text-dark px-md-5">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
                             </p>
-                            <p"mb-6 h5 text-dark"><strong>Location: Steinbeck 1C</strong></p>
+                            <p class="mb-6 h5 text-dark"><strong>Location: Steinbeck 1C</strong></p>
                         </section>
                     </div>
                 </div>
@@ -243,12 +243,19 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Why marathon meetings?">
-                            <h4 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h4>
-                            <p>Marathon meetings are a crucial part of A.A. conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
-                            </p>
-                            <p>For many, conventions can be emotionally intense, triggering memories or feelings that require immediate attention and support. Marathon meetings address this by providing a safe, welcoming environment where members can connect with others at any time, day or night. This continuous availability is vital in helping members stay grounded, especially those who may be struggling with cravings, emotions, or difficult experiences during the convention.
-                            </p>
-                            <p>Additionally, marathon meetings foster a sense of community and inclusivity, ensuring that everyone, regardless of their schedule, has the opportunity to participate in meetings. They symbolize the commitment of A.A. to be there for its members whenever they need it, reinforcing the principles of unity and mutual aid that are at the heart of the A.A. program.
+                            <h4 class="card-title mb-3">Why Al-Anon Has Marathon Meetings During Conventions?</h4>
+                            <p>Al-Anon hosts marathon meetings during conventions to provide continuous support and a sense of community for attendees who may need it at any time during the event. These meetings are especially valuable in a convention setting because they:
+                            <ul>
+                                <li><strong>Offer Ongoing Support:</strong> Conventions can be intense, and marathon meetings ensure that help is available around the clock for anyone who might be struggling or need to share their experiences.
+                                </li>
+                                <li><strong>Foster Connection:</strong> Conventions bring together a large number of people from different places. Marathon meetings allow participants to connect with others continuously, building a stronger sense of community and mutual support.
+                                </li>
+                                <li><strong>Address Varied Needs:</strong> Attendees may have different schedules or might feel the need to attend a meeting outside of regular hours. Marathon meetings accommodate these varied needs by being available at all times.
+                                </li>
+                                <li><strong>Provide a Safe Space:</strong> For many, conventions can be overwhelming or triggering. Marathon meetings offer a safe, non-judgmental environment where participants can seek solace, share their struggles, and gain strength from others.
+                                </li>
+                            </ul>
+                            These meetings align with Al-Anon's mission to provide consistent support for those affected by someone else's drinking, ensuring that help is always accessible during the convention.
                             </p>
                         </section>
                     </div>
