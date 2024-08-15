@@ -78,9 +78,9 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Al-Anon Marathon Meeting Schedule</h3>
-                            <p class="mb-6 h5 text-dark">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
+                            <p class="mb-6 h5 text-dark px-md-3">Here's our current lineup. If you're interested in volunteering, or speaking at a meeting, please reach out to our Al-Anon Marathon Chair, Olya O.
                             </p>
-                            <p><strong>Location: Steinbeck 1C</strong></p>
+                            <p"mb-6 h5 text-dark"><strong>Location: Steinbeck 1C</strong></p>
                         </section>
                     </div>
                 </div>
@@ -103,10 +103,10 @@ include_once 'header-bottom.inc'
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Good Morning Higher Power
+                                    Group/Name: Good Morning Higher Power
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Meditation
+                                    Topic: Meditation
                                 </div>
 
 
@@ -114,10 +114,10 @@ include_once 'header-bottom.inc'
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Friday Noon
+                                    Group/Name: Friday Noon
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Step 8
+                                    Topic: Step 8
                                 </div>
 
 
@@ -125,10 +125,10 @@ include_once 'header-bottom.inc'
                                     <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Monday Night Serenity
+                                    Group/Name: Monday Night Serenity
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Trust The Process
+                                    Topic: Trust The Process
                                 </div>
 
 
@@ -136,10 +136,10 @@ include_once 'header-bottom.inc'
                                     <strong>12:00PM</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Tuesday Women's Noon
+                                    Group/Name: Tuesday Women's Noon
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Service
+                                    Topic: Service
                                 </div>
 
 
@@ -147,15 +147,15 @@ include_once 'header-bottom.inc'
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Luz Y Esperanza
+                                    Group/Name: Luz Y Esperanza
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Cuando Estoy Ocupado Me Siento Mejor
+                                    Topic: Cuando Estoy Ocupado Me Siento Mejor
                                 </div>
 
-                                
+
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm  Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong>
+                                    <strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) — Speaker Meeting</strong>
                                 </div>
 
 
@@ -163,10 +163,10 @@ include_once 'header-bottom.inc'
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Saturday Slogan
+                                    Group/Name: Saturday Slogan
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                But For The Grace Of God
+                                    Topic: But For The Grace Of God
                                 </div>
 
                             </div>
@@ -181,10 +181,10 @@ include_once 'header-bottom.inc'
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                   Good Morning Higher Power
+                                    Group/Name: Good Morning Higher Power
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Meditation
+                                    Topic: Meditation
                                 </div>
 
 
@@ -192,20 +192,20 @@ include_once 'header-bottom.inc'
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                Denis D.
+                                    Group/Name: Denis D.
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                Al-Anon Gifts: Unlocking Our Enormous Potential
+                                    Topic: Al-Anon Gifts — Unlocking Our Enormous Potential
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Chris and Eileen W. - Al-Anon Speaker Meeting</strong>
+                                    <strong>11:00am Chris and Eileen W. — Al-Anon Speaker Meeting</strong>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Amelia M. - Alateen Speaker Meeting</strong>
+                                    <strong>1:30pm Amelia M. — Alateen Speaker Meeting</strong>
                                 </div>
 
 
@@ -213,10 +213,10 @@ include_once 'header-bottom.inc'
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                One Day At A Time(Thursday)
+                                    Group/Name: One Day At A Time(Thursday)
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Detachment
+                                    Topic: Detachment
                                 </div>
 
                             </div>
