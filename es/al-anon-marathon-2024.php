@@ -57,13 +57,13 @@ include_once 'header-bottom.inc'
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de conferencias de Monterey - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Marathon Meetings">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">2024 Al-Anon Marathon Meetings</span></h2>
-                    <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English.
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Reuniones maratonianas de 2024">
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reuniones Maratonianas de Al-Anon de 2024</span></h2>
+                    <p class="mb-6 h5 text-dark">Durante el fin de semana del Día del Trabajo, tendremos reuniones de A.A. y Al-Anon En español e inglés.
                         <br>
-                        <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
+                        <strong>Las reuniones de maratón están abiertas a <em>todos</em>, no es necesario registrarse.</strong>
                     </p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ include_once 'header-bottom.inc'
                             <p class="mb-6 h5 text-dark px-md-5">A continuación, se muestra nuestra programación actual. Si está interesado en ofrecerse como voluntario o hablar en una reunión, comuníquese con nuestra presidenta del Maratón de Al-Anon, Olya O.
                             </p>
                             <p class="mb-6 h5 text-dark mb-3"><strong>Ubicación: Steinbeck 1c</strong></p>
-                            <a class="bb-link" href="pdf/final-al-anon-marathon.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Programa de la reunión del Maratón de Al-Anon<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            <a class="bb-link" href="../pdf/final-al-anon-marathon.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Programa de la reunión del Maratón de Al-Anon<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                         </section>
                     </div>
                 </div>
@@ -193,7 +193,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am  Chris y Eileen W.: Reunión de Oradores de Al-Anon</strong>
+                                    <strong>11:00am Chris y Eileen W.: Reunión de Oradores de Al-Anon</strong>
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
