@@ -145,7 +145,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A. (Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (Ver el Inserto para los Horarios Programados)
+                                    <a href="aa-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -154,7 +154,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon (Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1c</strong>
                                     <br>
-                                    (Ver el Inserto para los Horarios Programados)
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
@@ -272,7 +272,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Inglés): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (Ver el Inserto para los Horarios Programados)
+                                    <a href="aa-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -281,7 +281,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (Ver el Inserto para los Horarios Programados)
+                                    <a href="#" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -290,7 +290,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1c</strong>
                                     <br>
-                                    (Ver el Inserto para los Horarios Programados) veces)
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">

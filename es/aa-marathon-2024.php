@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - 2024 Reuniones de Maratón</title>";
+echo "<title>MBAR - A.A. Reuniones de Maratón 2024</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/aa-marathon-2024.php" >';
 include_once 'header-bottom.inc'
 ?>

@@ -147,7 +147,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
-                                    (See insert for scheduled times)
+                                    <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -157,7 +157,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1c</strong>
                                     <br>
-                                    (See insert for scheduled times)
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -284,7 +284,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
-                                    (See insert for scheduled times)
+                                    <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -294,7 +294,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (See insert for scheduled times)
+                                    <a href="#" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -304,7 +304,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1c</strong>
                                     <br>
-                                    (See insert for scheduled times)
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)?</a>
                                 </div>
 
 
