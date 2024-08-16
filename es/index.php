@@ -139,12 +139,14 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">
                             <ul>
-                                <li>Comunicación Rápida</li>
+                                <li>Comunicación Rápida
+                                </li>
                                 <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                 </li>
                                 <li><a class="bb-link" href="../pdf/paint-party.pdf">Fiesta de Pintura<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                 </li>
                                 <li><a class="bb-link" href="../pdf/werewolf.pdf">Juego Werewolf Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                </li>
                                 <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                 </li>
                                 <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
