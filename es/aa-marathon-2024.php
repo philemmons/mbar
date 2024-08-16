@@ -460,7 +460,8 @@ include_once 'header-bottom.inc'
                             <p><strong><span class="text-uppercase">Accesibilidad ADA</span> MBAR 2024 proporcionará dos Intérpretes de ASL en estos días:</strong>
                             </p>
                             <ul>
-                                <li>Sábado - 2,5 horas</li>
+                                <li>Viernes - 1,5 horas</li>
+                                <li>Sábado - 3,0 horas</li>
                                 <li>Domingo - 3,0 horas</li>
                             </ul>
                             <p style="font-style: italic;"><strong class="text-uppercase">Tenga en cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicacións.
