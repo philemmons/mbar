@@ -141,8 +141,8 @@ include_once 'header-bottom.inc'
 
 													<li class="lhead">es/ <span class="lcount">35 pages</span></li>
 
-													<li class="lpage"><a href="https://montereybayarearoundup.org/es/" title="MBAR - Home ">MBAR - Home </a></li>
-													<li class="lpage"><a href="https://montereybayarearoundup.org/es/index.php" title="MBAR - Home ">MBAR - Home </a></li>
+													<li class="lpage"><a href="https://montereybayarearoundup.org/es/" title="MBAR - Hogar ">MBAR - Hogar </a></li>
+													<li class="lpage"><a href="https://montereybayarearoundup.org/es/index.php" title="MBAR - Hogar ">MBAR - Hogar </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/conference-2024.php" title="MBAR - 2024 Conferencia ">MBAR - 2024 Conferencia </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/aa-marathon-2024.php" title="MBAR - 2024 A.A. Reuniones de Maratón ">MBAR - 2024 A.A. Reuniones de Maratón </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/al-anon-marathon-2024.php" title="MBAR - 2024 Al-Anon Reuniones de Maratón ">MBAR - 2024 Al-Anon Reuniones de Maratón </a></li>
