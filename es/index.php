@@ -114,14 +114,23 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Reuniones Maratonianas
                             </p>
-                            <p class="card-text">Las reuniones maratonianas son una parte crucial de las convenciones de AA porque brindan apoyo y compañerismo continuos a los asistentes. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
+                            <p class="card-text">Las reuniones maratonianas son una parte crucial de las convenciones de A.A. y Al-Anon porque brindan apoyo y compañerismo continuos para todos. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
                                 <br><br>
-                                Si desea brindar servicio o ser orador en una reunión o enviar su programa de reuniones maratonianas, comuníquese con nuestro Presidente de Maratones: Mark S.
-                            </P>
+                                Si desea brindar servicio, ser orador en una reunión o enviar su programa de reuniones maratonianas, comuníquese con nuestro presidente de maratones de A.A.: Mark S. o con nuestra presidenta de maratones de Al-Anon: Olya O.
+                            </p>
                         </div>
+
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Reuniones de Maratón</a></small>
+                            <div class="row">
+                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A.</a></small>
+                                </div>
+                                <div class="col-sm-6 text-center">
+                                    <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Reuniones de Al-Anon</a></small>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>

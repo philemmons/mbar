@@ -119,11 +119,18 @@ include_once 'header-bottom.inc'
                                 If you would like to be of service, or be a speaker at a meeting or submit your marathon meeting schedule, please contact our A.A Marathon Chair: Mark S. or our Al-Anon Marathon Chair: Olya O.
                             </p>
                         </div>
+
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Marathon Meetings</a></small>
-                            <br>
-                            <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Marathon Meetings</a></small>
+                            <div class="row">
+                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Meetings</a></small>
+                                </div>
+                                <div class="col-sm-6 text-center">
+                                    <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Meetings</a></small>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
