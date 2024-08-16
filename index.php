@@ -112,7 +112,7 @@ include_once 'header-bottom.inc'
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - Marathon Meetings Schedules
+                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - Marathon Meetings
                             </p>
                             <p class="card-text">Marathon meetings are a crucial part of A.A. and Al-Anon conventions because they provide continuous support and fellowship for all. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                                 <br><br>
@@ -120,8 +120,9 @@ include_once 'header-bottom.inc'
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary mb-3 mb-sm-0"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Marathon Meetings</a></small>
-                            <small class="text-body-secondary mb-3 mb-sm-0"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Marathon Meetings</a></small>
+                            <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Marathon Meetings</a></small>
+                            <br>
+                            <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Marathon Meetings</a></small>
                         </div>
                     </div>
                 </div>
