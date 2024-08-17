@@ -8,91 +8,95 @@
         </p>
 
         <dl>
-            <dt>1. Llamado al Orden del Presidente: 10 am;</dt>
+            <dt>1. Llamado al orden del Presidente: 10 a. m.;</dt>
 
-            <dt>2. Lectura de las 12 Tradiciones: Cindy;</dt>
+            <dt>2. Lectura de las 12 Tradiciones: Gina;</dt>
 
             <dt>3. Nuevos asistentes, coloquen sus números de teléfono y direcciones de correo electrónico en el chat: Ninguno;</dt>
 
             <dt>4. ¿Hay algún aniversario de A.A. o Al-Anon desde nuestra última reunión? Ninguno;</dt>
 
-            <dt>5. Aprobar/Enmendar las actas de la última reunión: Aprobadas con revisiones;</dt>
+            <dt>5. Aprobar/Enmendar las actas de la última reunión: Aprobadas;</dt>
 
-            <dt>6. Informe del Presidente - Chris T.: Como recordatorio, de acuerdo con la votación realizada por el comité, ahora nos reunimos semanalmente antes de la Conferencia. Esta reunión se realizará semanalmente y durará de 1 a 1,55 horas, ya que tenemos temas urgentes para discutir y aprobar.
+            <dt>6. Informe del Presidente - Chris T.: Como recordatorio, de acuerdo con la votación realizada por el comité, ahora nos reunimos semanalmente antes de la
+                Conferencia. Esta reunión se realizará semanalmente y durará de 1 a 1,5 horas, ya que tenemos temas urgentes para discutir y aprobar;
                 <br><br>
-                ATENCIÓN: Los siguientes elementos necesitan consideración y aprobación por parte del comité ya que tienen costos en caso de que excedan los valores de las partidas presupuestarias o información adicional para su consideración: Aprobación/enmienda de las notas de la reunión del comité; Se está enviando la encuesta de la parrillada del comité y necesitaremos respuestas dentro de __ días; Programa: secretarios y lectores para las reuniones principales; Seguimiento de la sala de Dennis; Sugerencias y orientación para la sala de recepción; Formulario de inscripción finalizado después de las camisetas y los paquetes;
+                Puntos de discusión/aprobación del comité: los siguientes puntos necesitan consideración, retroalimentación o aprobación por parte del comité, ya que pueden tener costos, planificación y su aporte para finalizar;
+                <br> - Cantidad de paquetes de rifa y precio de boletos;
+                <br> - Actualización y propuesta de la sala de hospitalidad;
+                <br> - Se necesita ayuda del presidente de decoraciones;
+                <br> - Voluntario de cuenta regresiva (dos personas): la ejecución de esto sigue una plantilla de conteo y también está
+                frente a todos mientras se realiza la cuenta regresiva;
+                <br> - Lectores de secretarios de reuniones para que Naiomi los agregue al cronograma: Deberíamos tener una variedad y participación del comité;
                 <br><br>
-                Gracias de antemano por su participación y apoyo, ¡realmente nos estamos acercando a tiempos emocionantes y felices por delante!
+                ¡Gracias de antemano por su participación y apoyo, realmente nos estamos acercando a tiempos emocionantes y felices por delante!
             </dt>
 
-            <dt>7. Informe del Tesorero: Carolyn H.: Ver la hoja de cálculo del presupuesto adjunta; 31 inscripciones en línea esta semana, 133 en total en línea; Saldo $34,854; Camisetas ordenadas el jueves: Aprobar el material gráfico dentro de los 12 días posteriores a la entrega; Contrato de AV firmado;
+            <dt>7. Informe del Tesorero - Carolyn H.: Ver la hoja de cálculo del presupuesto - La suite de hospitalidad y el ASL cambiarán: 31 registros en línea esta semana, 133 en línea en total; Saldo $35,609; Varias inscripciones - el pago no coincide con la inscripción; El pago anticipado no pagado se respetará al recibir el pago reducido; Mercancía: Moción aprobada - El costo de la botella de agua es de $9.99 - cargo de $10.00; El costo de las tazas es de $18.25 (reducido a $14 con la compra adicional de 72 tazas por parte de Carolyn) - cargo de $15; Contrato de AV firmado;
+
+
+            <dt>8. Instalaciones de Mark: Se solicitó el diseño de la instalación a Cody - Mark comparte los mapas de diseño con el comité; Los presidentes del comité envían un correo electrónico a Mark con cualquier solicitud de instalación; Planificar otro recorrido - Chris y Mark se coordinan; El comité de rifas le informa a Mark cuántas mesas de premios se necesitan; <strong>Nota</strong>: Al-Anon no realizará una rifa o 50/50, solo la subasta silenciosa;
+
+            <dt>9. Paquetes de Rifa - Katherine: Moción aprobada - boletos de rifa de paquete y boletos de paquete 50/50: 6 boletos a $5; 12 boletos a $10; 25 boletos a $20; Discusión extensa sobre la subasta silenciosa - No habrá subasta silenciosa de AA; Posibles problemas impositivos con la subasta silenciosa de Al-Anon: <strong>Carolyn en el registro - se opuso firmemente a la subasta silenciosa</strong>; Considere una redacción alternativa "regalo de subasta silenciosa"; Jane: la subasta se realizó con frecuencia en MBAR anteriores; Carolyn: verifique el umbral para los formularios 1099;
+                <br>Moción - Aprobada; y se volvió a votar Aprobada: Permitir que Al-Anon proceda con la subasta silenciosa - Jane (Al-Anon) - programe una reunión con Carolyn (tesorera de A.A.) y Thomas (tesorero de Al-Anon) y Harry para analizar las posibles opciones para cumplir con los requisitos del código impositivo;
             </dt>
 
-            <dt>8. Parrillada del Comité: Chris envía invitación a Al-Anon; Enlace de inscripción que se enviará por correo electrónico. Necesitamos respuestas antes del 23 de agosto. Donación de $10: proporcionar un balde en la barbacoa, más simple para el tesorero. Los oradores son gratuitos. Moción aprobada: aceptar la inscripción en línea. Pagar en el evento. Matt y Mark compran los suministros y los envían para el reembolso. Arthur tiene suministros (platos de papel, utensilios, etc.). Costillas/pollo/tri-tip en eventos pasados.
+            <dt>10. Sala de Recepción: Hyatt - La habitación es de cortesía y el café puede ser de cortesía; el precio aún no está confirmado; debe estar dentro del presupuesto; la habitación es un espacio de reunión; hay baños ADA cerca; Centro de conferencias proporcionará estaciones de efectivo y para llevar - Sin costo para MBAR; las personas pagan por lo que usan;
+                <br>Moción aprobada - Suite de hospitalidad para oradores, panelistas y miembros del comité y otras personas importantes solamente;
+                <br>Moción aprobada - Jennifer instalará la suite de hospitalidad junto con efectivo y para llevar;
+                <br>Moción aprobada - No habrá letreros que dirijan a las personas a la suite de hospitalidad; los paquetes de inscripción para oradores, panelistas y miembros del comité y otras personas importantes tendrán instrucciones en su paquete de inscripción; Jennifer agregará letreros en la sala;
+                <br>Moción aprobada - No habrá frasco de donaciones en la suite de hospitalidad;
             </dt>
 
-            <dt>9. Programa: Ver Adjunto. Rene: ASL reservado para las reuniones del sábado y el domingo. Actualizar el programa para mostrar qué reuniones tienen ASL. Agregar la reunión de Zoom del viernes a las 8:00 p. m. Agregar el cronograma al sitio web, etc. para que se pueda descargar a un teléfono. Agregar información sobre qué eventos de la sala se llevarán a cabo. Mark comparte con el Centro de conferencias. Naomi distribuye el borrador actualizado y lo distribuye al comité directivo para su aprobación.
+            <dt>11. Decoraciones - Se necesitan voluntarios: Áreas para decorar - Área principal del Centro de conferencias; Eventos; No hay decoraciones en el escenario de los oradores; Voluntarios: Jennifer presidirá; Gina; Esther; comprará dulces y flores;
             </dt>
 
-            <dt>10. Dennis (orador del sábado a las 2:00 pm): Kathleen confirma que hay una habitación de hotel reservada.
+            <dt>12. Cuenta Regresiva del Sábado: Se necesitan voluntarios - Carolyn; Arthur;
             </dt>
 
-            <dt>11. Sala de Recepción: presupuesto de $2159; Phil C. - la habitación puede no estar disponible en Marriott - él verificará el estado; Mary Grace - habitación disponible para todos; Cindy - Portola 2019, trajimos nuestros propios bocadillos - ahorramos dinero; Kathleen Concepto original - Donación sugerida de $5; La comida proporcionada por voluntarios sin costo; Jennifer se encargará de que alguien vigile la sala cuando esté abierta; El comité solicita un ajuste presupuestario si es necesario; Asegurarse de que la sala sea accesible (ADA - movilidad, etc.); Finalizar los detalles la próxima semana - ¿Dónde se ubicará la sala?; ¿Hay espacio para todos en la conferencia?
+            <dt>13. Presidentes de la Reunión: Envíen la lista de lectores a Naomi;
             </dt>
 
+            <dt>14. Informes de los Presidentes de los Comités y del Comité Directivo</dt>
 
-            <dt>12. Formulario de inscripción finalizado después de las camisetas y los paquetes; Formulario actualizado - Phillip enviado por correo electrónico y publicado en línea; Fecha límite para el desayuno; Corregir el mensaje de texto de PayPal; Actualización de Phillip; La reunión de Zoom es gratuita - Chris envía por correo electrónico el ID de la reunión de Zoom, etc.; La preinscripción 50/50 no aplica después del 31 de julio; Aprobar la moción - elementos anteriores;
-            </dt>
+            <dd>a. Sorteo - Katherine: Sorteo en el escenario después de la reunión del sábado; determinar el mejor enfoque para acelerar el proceso;
+                <br>Moción aprobada: boletos para el sorteo previo y Publicación sobre premios;
 
-            <dt>13. Presidentes de Comités/Informes del Comité Directivo</dt>
+            <dd>b. Medios - Gina: se anunciará;
 
-            <dd>a. Medios: Gina: publicó volantes y folletos de eventos y formulario de inscripción en Facebook; hizo un volante de barbacoa; corrigió el monto de inscripción de $55 a $50; circuló volantes de eventos y formulario de inscripción y enlace web en Facebook;</dd>
+            <dd>d. Camisetas - Kevin: no hay problemas; se ordenaron tazas y botellas de agua; se necesita dotar de voluntarios a la mesa de ventas; Jean confirmó que habrá una caja de efectivo disponible;
 
-            <dd>b. Camiseta: Kevin: no hubo problemas; se ordenaron tazas y botellas de agua; es necesario contar con voluntarios en la mesa de ventas; Jean confirmó que habrá una caja de efectivo disponible;
+            <dd>e. Hospitalidad - Jennifer: no hay nada que agregar;</dd>
+
+            <dd>f. Oradores - Kathleen: se está trabajando en las canastas de regalo; Cindy enviará una lista de secretarias para las reuniones de oradores con formatos actualizados; <br>Moción aprobada: comprar un dispositivo de grabación para grabar las reuniones;</dd>
+
+            <dd>g. Cena - Aubrey: no hay actualizaciones;</dd>
+
+            <dd>h. 50/50 - Cole: al final de la reunión del sábado; se debe determinar si hay dos ganadores para la inscripción anticipada 50/50;</dd>
+
+            <dd>i. Registro - Naomi (informe de Chris): 124 en línea - 10 incompletos; 207 en total - 124 en línea; 83 en papel; 60 paquetes; 67 cenas; 56 desayunos; 55 helados; 81 camisetas; 10 fuera del estado;</dd>
+
+            <dd>j. Mercancía - Kevin: No hay informe;
+                <br>Moción aprobada - nueva votación aprobada: Venta anticipada de mercancía - Vender solo tazas de café a los miembros del comité antes de la conferencia; Usar también como marketing;
             </dd>
 
-            <dd>c. Hospitalidad: Jennifer: nada que agregar;
-            </dd>
+            <dd>k. Baile y Eventos - Samantha: El baile está en la sala Steinbeck; 56 inscripciones para el desayuno; 48 bingos; Pedir más si es necesario; Todo listo para los eventos;</dd>
 
-            <dd>d. Oradora: Kathleen: está trabajando en canastas de regalo; Cindy enviará una lista de secretarias para las reuniones de oradores con formatos actualizados; se aprobó la moción: comprar un dispositivo de grabación para grabar las reuniones;</dd>
+            <dd>l. Al-Anon - Jane: Organizar una reunión con Carolyn (tesorera de A.A.), Thomas (tesorero de Al-Anon) y Harry para analizar las posibles opciones para cumplir con los requisitos del código fiscal; Christine: No hay cambios en la Subasta Silenciosa de Al-Anon 2024 - Transmitir inquietudes sobre futuras subastas silenciosas;</dd>
 
-            <dd>e. Literatura: mayo: alentó a todos a traer libros usados ​​a MBAR para vender; use los paquetes antiguos para recién llegados agregando nuevos cronogramas de reuniones; Discutir la cuestión de comprar folletos la próxima semana;</dd>
-
-            <dd>f. Difusión - Conor: asistir a las reuniones importantes - San José el sábado por la noche; Santa Cruz el domingo por la mañana; se comunicó con las oficinas centrales; se comunicó con un club Alano; Mighty Muffins; el kit tuvo éxito - Reunión de A.A. y Al-Anon; Reunión de cumpleaños de Salinas; Centros de tratamiento - "contribución" de costo de inscripción reducido; Arthur se comunicó con Door to Hope, Genesis, Sun Street, CHOMP, etc.; mesa en el evento de autobús del grupo Pacific; mesa en el Rally de la costa - Mark S. ayudó;</dd>
-
-            <dd>g. Reunión de Maratón - Mark S.: enviar el programa actualizado a Naomi y Phillip; coordinar con Mark para las mesas y las sillas;</dd>
-
-            <dd>h. Bienvenida - Arthur: no hubo problemas; distribuir hojas de inscripción; no hubo recepcionistas durante la reunión de oradores;</dd>
-
-            <dd>i. Rifa - Katherine: no vender boletos durante las reuniones de oradores; hacer que alguien vigile la mesa durante las reuniones de oradores; Entrega de premios Oficinas centrales (Monterey y Salinas); Cole - Rifa 50/50 - Venta de boletos; Reunión de AA los sábados; Reunión de Al-Anon los domingos; Naomi preinscrita 50/50 coordina el sorteo Reunión del sábado por la noche - Comité directivo: decide uno o dos ganadores;</dd>
-
-            <dd>j. Eventos - Samantha: Premios - Donación de $100, total disponible $160; Baile en la sala Stevenson - DJ cancelado; Samantha armó una lista de reproducción de música; Mark S. tiene una batidora; Los globos están bien, sin purpurina ni confeti - Necesita una copia de la hoja de inscripción de voluntarios del evento de softbol;</dd>
-
-            <dd>k. Instalaciones - Mark F.: Encerrado en Colton 3 como sala de recuento; Terraza incluida sin cargo adicional; Necesito un cronograma para el uso de la sala, un programa;</dd>
-
-            <dd>l. Sitio Web - Philip (informe enviado por correo electrónico): Como tengo que irme a las 11:25 para un compromiso, voy a enviar mi informe por correo electrónico; He actualizado el sitio web, incluido el formulario de registro, los anuncios de la página de inicio, el calendario de MBAR, actualicé el formulario de registro, incluida la redacción; el registro en línea se puede pagar con cheque, ya que hubo cierta confusión por parte de un miembro; Además, los PDF son accesibles por safari, ya que el PDF anterior se abrió como una ventana emergente y se bloqueó de forma predeterminada; Esto debería aumentar el volumen de registro, con suerte; Me comunicaré con Carolyn para ofrecer ayuda con PayPal; Verifico dos veces el formulario de manos amigas en línea y la ubicación; me comunicaré con May sobre el problema de UI; En cuanto a la pregunta de ASL, sería lo mejor para nosotros anticipar sus necesidades; Una vez que el programa esté finalizado, envíelo y enviaré el contenido; Lo mismo con la reunión de Maratón para AA y Al-Anon con el horario de Eng / Span; Cualquier error o problema en línea visto por alguien, hágamelo saber y se puede actualizar; Actualizaré el formato Zoom, probaré el guión 50/50, alinearé a los oradores y coanfitriones, la función de intérprete de ASL y obtendré el costo de una reunión grande que en el último MBAR fue de $ 50; ¿Deberíamos anunciar la Suite de hospitalidad en línea? Cuando las tazas y los jarros estén en la mano, tomaré fotos y publicaré el contenido; actualizaré el formulario de registro. - completado;</dd>
-
-            <dd>m. Cena - Aubrey: Sin problemas</dd>
-
-            <dd>n. Registro - Naomi: 200 registros recibidos en total: 120 en línea, 82 en papel; 14 incompletos no pagado; 140 A.A., 39 Al-Anon, 19 Doble, 2 Otros; No hay inscripciones en español; 67 cenas; 56 desayunos;</dd>
-
-            <dd>o. Desayuno - Joanie: Actualizar el contrato, resolver preguntas sobre el depósito pagado; Preparación el viernes - Bethlehem Lutheran; Usar las cafeteras de la oficina central; Cobertura de seguro para el viernes y sábado - Rene: consultar la oficina central; Samantha: buscar otras opciones;</dd>
-
-            <dd>p. Decoraciones - desayuno y cena: Samantha colocará los manteles el viernes por la tarde; Los suministros salen del presupuesto del desayuno y la cena; Aubrey contribuirá con los manteles; Chris tiene jarrones que se pueden usar;</dd>
+            <dd>m. Difusión - Conor: Buscando una lista de oradores; Continuar promoviendo activamente la conferencia; Mesa en Coastal Rally - Mark S. ayuda;</dd>
 
             <dt>14. Difusión:</dt>
 
-            <dd>a. Viaje en Autobús del Grupo del Pacífico</dd>
+            <dd>a. Coastal Rally</dd>
 
-            <dd>b. Rally Costero</dd>
+            <dt>15. Nuevos Asuntos: Ninguno;</dt>
 
-            <dt>15. Nuevos Negocios: Ninguno;</dt>
+            <dt>16. La próxima reunión del Comité es el Sábado 17/08/2024 a las 10am; Las reuniones posteriores serán todas las semanas hasta la fecha de la conferencia;</dt>
 
-            <dt>16. La próxima reunión del Comité será el sábado 10/08/2024 a las 10 a. m. Las reuniones posteriores se realizarán todas las semanas hasta la fecha de la conferencia.</dt>
-
-            <dt>17. La reunión se levantó a las 12:15 pm con la Oración de la Serenidad.</dt>
+            <dt>17. La reunión se levantó a las 12:15pm con la Oración de la Serenidad.</dt>
         </dl>
 
-        <p> Asistentes: Arthur, Carolyn, Chris, Cindy, Cole, Esther, Gina, Janet, Jean, Joanie, Katherine, Kathleen, Kevin, Mark F., Mark S., Mary Grace, May, Naomi, Phillip, Phil, Renee, Roger y Samantha.</p>
+        <p> Asistentes: Arthur, Aubrey, Carolyn, Chris, Cindy, Cole, Conor, Esther, Gina, Jane, Janet, Jean, Katherine, Kathleen, Kevin, Mark F., Mark S., Mary Grace, May, Phil C., Renee, Roger y Samantha.</p>
     </div>
 </div>
