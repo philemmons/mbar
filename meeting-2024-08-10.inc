@@ -42,7 +42,7 @@
             <dt>8. Mark Facilities: Setup layout requested from Cody - Mark share layout maps with committee; Committee chairs email Mark any setup requests; Plan for another walk through - Chris and Mark Coordinate; Raffle Committee let Mark know how many prize tables are needed; <strong>Note</strong>: Al-Anon will not hold a raffle or 50/50 only the silent auction;
             </dt>
 
-            <dt>9. Raffle Bundles - Katherine: Motion Approved - bundle raffle tickets & bundle 50/50 tickets: 6 tickets at $5; 12 tickets at $10; 25 tickets at $20; Extensive discussion regarding silent auction - No AA silent Auction; Possible tax issues with Al-Anon silent auction: <strong>Carolyn on the record - strongly <em>objected<em> to the silent auction</strong>; Consider alternate wording 'silent auction gift'; Jane: auction done frequently in past MBARs; Carolyn: check threshold for 1099s;
+            <dt>9. Raffle Bundles - Katherine: Motion Approved - bundle raffle tickets & bundle 50/50 tickets: 6 tickets at $5; 12 tickets at $10; 25 tickets at $20; Extensive discussion regarding silent auction - No AA silent Auction; Possible tax issues with Al-Anon silent auction: <strong>Carolyn on the record - strongly <em>objected</em> to the silent auction</strong>; Consider alternate wording 'silent auction gift'; Jane: auction done frequently in past MBARs; Carolyn: check threshold for 1099s;
                 <br>Motion - Passed; and re-voted Passed: Allow Al-Anon to proceed with silent auction - Jane (Al-Anon) - set up meeting with Carolyn(A.A. Treasurer) and Thomas(Al-Anon Treasurer) and Harry to look into possible options to comply with tax code requirements;
             </dt>
 
