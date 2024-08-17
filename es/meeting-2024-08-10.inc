@@ -4,7 +4,7 @@
             Notas del Comité MBAR 2024
             <br>ID de Zoom 831 4306 2293 Contraseña 2024
             <br>Sábado 10 de Agosto de 2024 a las 10am
-            <br><a href='/' class="bb-link">montereybayarearoundup.org/es/</a>
+            <br><a href='/es/' class="bb-link">montereybayarearoundup.org/es/</a>
         </p>
 
         <dl>
