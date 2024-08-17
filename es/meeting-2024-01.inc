@@ -52,13 +52,13 @@
             <dt>10. Asuntos antiguos:</dt>
             <dt>Ideas para recaudar fondos</dt>
 
-            <dd>a. "B-I-N-G-O" de enero: Moose Lodge, viernes 26/01/24, de 6 a 9 p. m.; Rifa 50/50 y premios de rifa donados; Ponente: Elena B; Maestro del juego de bingo; Voluntarios: Comida (3), Entrada (3), Rifa (2) y 7ma tradición (2 a 3); Montaje y limpieza; Comience la configuración a las 4:30 p. m.; Voluntarios: Conor - Preparación/limpieza de alimentos; Carolyn - Configuración/Premios; Kathleen - Preparar/Limpieza/Comida; Sean - Comida/Café; Cindy - Entrada; Arturo - Entrada; Cole - Séptima Tradición/Limpieza; Samantha - Limpieza/Premios; Karen - Rifa; René - 7ma Tradición/Rifa; Janet - Comida/Séptima Tradición; Robert - Entrada/Limpieza; Katherine - Rifa/Premios; Jean y Gina son voluntarios; Susan voluntaria para la mesa de registro; Cindy coordina con Chris la transferencia de dispositivos de pago "Square";</dd>
+            <dd>a. "B-I-N-G-O" de enero: Moose Lodge, viernes 26/01/24, de 6 a 9pm; Rifa 50/50 y premios de rifa donados; Ponente: Elena B; Maestro del juego de bingo; Voluntarios: Comida (3), Entrada (3), Rifa (2) y 7ma tradición (2 a 3); Montaje y limpieza; Comience la configuración a las 4:30pm; Voluntarios: Conor - Preparación/limpieza de alimentos; Carolyn - Configuración/Premios; Kathleen - Preparar/Limpieza/Comida; Sean - Comida/Café; Cindy - Entrada; Arturo - Entrada; Cole - Séptima Tradición/Limpieza; Samantha - Limpieza/Premios; Karen - Rifa; René - 7ma Tradición/Rifa; Janet - Comida/Séptima Tradición; Robert - Entrada/Limpieza; Katherine - Rifa/Premios; Jean y Gina son voluntarios; Susan voluntaria para la mesa de registro; Cindy coordina con Chris la transferencia de dispositivos de pago "Square";</dd>
 
             <dd>b. Día de San Patricio, domingo 17/03 - no discutido; Sitio: Moose Lodge o Phil's Pool House - Phil verifique si la casa está disponible; Hora: 16:00 a 19:00 horas; Vocero; Comida: Chris se acerca a posibles cocineros; Sorteo;</dd>
 
             <dt>11. Nuevo negocio: Ninguno;</dt>
 
-            <dt>12. La próxima reunión del Comité Directivo es el martes 26/12/23 a las 6 p. m. a través de Zoom;</dt>
+            <dt>12. La próxima reunión del Comité Directivo es el martes 26/12/23 a las 6pm a través de Zoom;</dt>
 
             <dt>13. La próxima reunión del Comité es el sábado 13/01/2024 a las 10 a.m.;</dt>
 

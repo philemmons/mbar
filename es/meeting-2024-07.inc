@@ -8,7 +8,7 @@
         </p>
 
         <dl>
-            <dt>1. Llamado al orden del presidente: 10 a. m.;</dt>
+            <dt>1. Llamado al orden del presidente: 10am;</dt>
 
             <dt>2. Lectura de las 12 Tradiciones: Cole;</dt>
 
@@ -93,9 +93,9 @@
 
             <dd>a. Barbacoa del comité: si desea asistir, necesitaremos su presencia en la reunión del comité de julio; se necesita espacio para el evento y el comité deberá aprobar previamente el pago; Mark y Matt coordinan el lugar; </dd>
 
-            <dt>14. La próxima reunión del comité directivo es el martes 23/07/2024 a las 6:00 p. m. a través de Zoom;</dt>
+            <dt>14. La próxima reunión del comité directivo es el martes 23/07/2024 a las 6:00pm a través de Zoom;</dt>
 
-            <dt>15. La próxima reunión del comité es el sábado 03/08/2024 a las 10:00 a. m.; las reuniones posteriores serán todas las semanas hasta la fecha de la conferencia;</dt>
+            <dt>15. La próxima reunión del comité es el sábado 03/08/2024 a las 10:00am; las reuniones posteriores serán todas las semanas hasta la fecha de la conferencia;</dt>
 
             <dt>16. La reunión se levantó al mediodía con la Oración de la Serenidad.</dt>
         </dl>

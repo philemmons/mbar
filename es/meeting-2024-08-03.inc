@@ -31,7 +31,7 @@
             <dt>8. Parrillada del Comité: Chris envía invitación a Al-Anon; Enlace de inscripción que se enviará por correo electrónico. Necesitamos respuestas antes del 23 de agosto. Donación de $10: proporcionar un balde en la barbacoa, más simple para el tesorero. Los oradores son gratuitos. Moción aprobada: aceptar la inscripción en línea. Pagar en el evento. Matt y Mark compran los suministros y los envían para el reembolso. Arthur tiene suministros (platos de papel, utensilios, etc.). Costillas/pollo/tri-tip en eventos pasados.
             </dt>
 
-            <dt>9. Programa: Ver Adjunto. Rene: ASL reservado para las reuniones del sábado y el domingo. Actualizar el programa para mostrar qué reuniones tienen ASL. Agregar la reunión de Zoom del viernes a las 8:00 p. m. Agregar el cronograma al sitio web, etc. para que se pueda descargar a un teléfono. Agregar información sobre qué eventos de la sala se llevarán a cabo. Mark comparte con el Centro de conferencias. Naomi distribuye el borrador actualizado y lo distribuye al comité directivo para su aprobación.
+            <dt>9. Programa: Ver Adjunto. Rene: ASL reservado para las reuniones del sábado y el domingo. Actualizar el programa para mostrar qué reuniones tienen ASL. Agregar la reunión de Zoom del viernes a las 8:00pm Agregar el cronograma al sitio web, etc. para que se pueda descargar a un teléfono. Agregar información sobre qué eventos de la sala se llevarán a cabo. Mark comparte con el Centro de conferencias. Naomi distribuye el borrador actualizado y lo distribuye al comité directivo para su aprobación.
             </dt>
 
             <dt>10. Dennis (orador del sábado a las 2:00 pm): Kathleen confirma que hay una habitación de hotel reservada.
@@ -88,7 +88,7 @@
 
             <dt>15. Nuevos Negocios: Ninguno;</dt>
 
-            <dt>16. La próxima reunión del Comité será el sábado 10/08/2024 a las 10 a. m. Las reuniones posteriores se realizarán todas las semanas hasta la fecha de la conferencia.</dt>
+            <dt>16. La próxima reunión del Comité será el sábado 10/08/2024 a las 10am Las reuniones posteriores se realizarán todas las semanas hasta la fecha de la conferencia.</dt>
 
             <dt>17. La reunión se levantó a las 12:15 pm con la Oración de la Serenidad.</dt>
         </dl>

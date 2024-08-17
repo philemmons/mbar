@@ -73,7 +73,7 @@
 
             <dd>b. Amplia discusión sobre la Marriott Hospitality Suite: Presupuesto de $2K - Phil obtiene un descuento - es necesario reservar con anticipación; Kathleen se ofreció a abastecerse de alimentos y café; Moción para aprobar la suite Marriott Hospitality con café según lo presupuestado - aprobada; Resuelva los detalles en la próxima reunión y determine si es necesario ajustar el presupuesto;</dd>
 
-            <dt>12. La próxima reunión del Comité Directivo es el martes 26/03/2024 a las 6 p. m. a través de Zoom;</dt>
+            <dt>12. La próxima reunión del Comité Directivo es el martes 26/03/2024 a las 6pm a través de Zoom;</dt>
 
             <dt>13. La próxima reunión del Comité es el sábado 13/04/2024 a las 10 a.m.;</dt>
 

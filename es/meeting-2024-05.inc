@@ -71,7 +71,7 @@
 
             <dd>b. Presencia en la reunión de cumpleaños: 25 de mayo, 29 de junio, 27 de julio y 31 de agosto - Necesitamos voluntarios;</dd>
 
-            <dd>c. Reunión de A.A. / Al-Anon: 17 de mayo - Cena a las 5:00 p. m. y orador a las 6:00 p. m.</dd>
+            <dd>c. Reunión de A.A. / Al-Anon: 17 de mayo - Cena a las 5:00pm y orador a las 6:00pm</dd>
 
             <dd>d. Evento de sóftbol: 7/6/24 - Dampierre Little League Park, Carmel Valley, TC Coordinación - Necesitamos voluntarios;</dd>
 
@@ -81,11 +81,11 @@
 
             <dd>b. Pedir la mayor parte de las camisetas principales cuando tengamos una idea aproximada de la cantidad (2 docenas de tallas pequeñas, 4 de tallas medianas, etc.); se ha organizado el almacenamiento; se necesitará transporte unos días antes del evento - Decisión archivada - Chris y Kevin discuten la logística, presentan un plan el próximo mes;</dd>
 
-            <dt>13. La próxima reunión del Comité Directivo es el martes 28/05/2024 a las 6:00 p. m. a través de Zoom;</dt>
+            <dt>13. La próxima reunión del Comité Directivo es el martes 28/05/2024 a las 6:00pm a través de Zoom;</dt>
 
-            <dt>14. La próxima reunión del Comité es el sábado 08/06/2024 a las 10:00 a. m.;</dt>
+            <dt>14. La próxima reunión del Comité es el sábado 08/06/2024 a las 10:00am;</dt>
 
-            <dt>15. La reunión se levantó a las 11:35 a. m. con la Oración de la Serenidad.</dt>
+            <dt>15. La reunión se levantó a las 11:35am con la Oración de la Serenidad.</dt>
         </dl>
 
         <p> Asistentes: Amber, Arthur, Carolyn, Chris, Cindy, Cole, Diane, Conor, Esther, Hilda, Jane, Janet, Jean, Joanie, Katherine Anne, Kathleen (en SF), Kathleen, Kevin, Mary Grace, May, Naomi, Phil, Phillip, Renee, Roger, Samantha, Sean, y Susan</p>

@@ -55,7 +55,7 @@
             <dt>10. Asuntos antiguos:</dt>
             <dt>Ideas para recaudar fondos</dt>
 
-            <dd>a. Resumen de "B-I-N-G-O" de enero: Moose Lodge, viernes 26/01/24, de 6 a 9 p. m.; Rifa 50/50 y premios de rifa donados; Ponente: Elena B; Maestro del juego de bingo; Photo Boot fue un éxito; Voluntarios: Voluntarios: Alimentación (3) Entrada (3) Rifa (2) 7ma tradición (2 a 3); Alimentos - aportados - recibos guardados; Ingreso total $3,199.25 - Carolyn proporciona detalles en marzo; Tomar disposiciones para aceptar contribuciones 50/50 de Venmo;</dd>
+            <dd>a. Resumen de "B-I-N-G-O" de enero: Moose Lodge, viernes 26/01/24, de 6 a 9pm; Rifa 50/50 y premios de rifa donados; Ponente: Elena B; Maestro del juego de bingo; Photo Boot fue un éxito; Voluntarios: Voluntarios: Alimentación (3) Entrada (3) Rifa (2) 7ma tradición (2 a 3); Alimentos - aportados - recibos guardados; Ingreso total $3,199.25 - Carolyn proporciona detalles en marzo; Tomar disposiciones para aceptar contribuciones 50/50 de Venmo;</dd>
 
             <dd>b. Día de San Patricio, domingo 17/03 - no discutido; Sitio: Moose Lodge o Phil's Pool House; Phil ve si hay casa disponible; Hora de 16 a 19 horas; Vocero; Comida: Chris se acerca a posibles cocineros; Sorteo;</dd>
 
@@ -68,7 +68,7 @@
 
             <dd>a. Servicio de café en el Monterey Conference Center: un galón de café o té (16 tazas de 8 onzas) equivale a $80; Con Impuestos y Propina - $108.75; 100 personas - Café por la mañana: 5 a 6 galones de café normal y 2 galones de té; Café PM: cuatro galones (café y té); Total: aprox. 12 galones por día; (Se estima que casi todo el mundo tomaría al menos una taza, y poco menos de la mitad de las personas tomaría dos tazas durante todo el día); El café a 50 galones por día costaría $5,437.50 por día; 500 personas serían 60 galones por día; Total: $6,525.00 por día; Durante dos días, aprox. 10.000 dólares para café; Cuando lleguemos a esa cantidad, retiramos el café; Sería aprox. 92 galones por los dos días;</dd>
 
-            <dt>12. La próxima reunión del Comité Directivo es el martes 27/02/2024 a las 6 p. m. a través de Zoom;</dt>
+            <dt>12. La próxima reunión del Comité Directivo es el martes 27/02/2024 a las 6pm a través de Zoom;</dt>
 
             <dt>13. La próxima reunión del Comité es el sábado 9/03/2024 a las 10 a.m.;</dt>
 

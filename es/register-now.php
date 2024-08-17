@@ -468,7 +468,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="meetTheSpeakerDinner" class="reg-form-label"><strong>Cena para conocer al orador</strong> (sábado por la noche a las 5:00 p. m.) - $25<br>Disponible para comprar hasta la fecha del evento</label>
+                                    <label for="meetTheSpeakerDinner" class="reg-form-label"><strong>Cena para conocer al orador</strong> (sábado por la noche a las 5:00pm) - $25<br>Disponible para comprar hasta la fecha del evento</label>
                                     <select class="form-select" name="meetTheSpeakerDinner" id="meetTheSpeakerDinner" required>
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
@@ -481,7 +481,7 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label"><strong>Desayuno continental Round-Up</strong> (domingo de 8:00 a 9:30 a. m.) - $10<br>Disponible para comprar hasta la fecha del evento</label>
+                                    <label for="roundupContinentalBreakfast" class="reg-form-label"><strong>Desayuno continental Round-Up</strong> (domingo de 8:00 a 9:30am) - $10<br>Disponible para comprar hasta la fecha del evento</label>
                                     <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" required>
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>

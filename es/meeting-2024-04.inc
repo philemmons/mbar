@@ -74,13 +74,13 @@
 
             <dd>c. Presencia en la reunión de cumpleaños: Carolyn y Katherine;</dd>
 
-            <dd>d. Reunión de AA y Al-Anon: 17 de mayo: cena a las 5 p. m., orador a las 6 p. m.;</dd>
+            <dd>d. Reunión de AA y Al-Anon: 17 de mayo: cena a las 5pm, orador a las 6pm;</dd>
 
             <dt>11. Nuevo negocio:</dt>
 
             <dd>a. Seguro de eventos: MBAR no está cubierto por MBAIAA; este seguro está dedicado a las reuniones periódicas que se llevan a cabo con la confraternidad y los espacios que ocupan. La compañía que utilizan es Philadelphia Insurance Company, agente Trocelyn Allen en Hub International Insurance, 951-779-8643. Si los miembros conocen otros proveedores, envíen información a Christina;</dd>
 
-            <dt>12. La próxima reunión del Comité Directivo será el martes 30/04/2024 a las 6 p. m. a través de Zoom;</dt>
+            <dt>12. La próxima reunión del Comité Directivo será el martes 30/04/2024 a las 6pm a través de Zoom;</dt>
 
             <dt>13. La próxima reunión del Comité es el sábado 11/05/2024 a las 10 a.m.;</dt>
 

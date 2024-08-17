@@ -8,7 +8,7 @@
         </p>
 
         <dl>
-            <dt>1. Llamado al orden del Presidente: 10 a. m.;</dt>
+            <dt>1. Llamado al orden del Presidente: 10am;</dt>
 
             <dt>2. Lectura de las 12 Tradiciones: Gina;</dt>
 

@@ -8,7 +8,7 @@
         </p>
 
         <dl>
-            <dt>1. Llamado al orden del presidente: 10 a. m.;</dt>
+            <dt>1. Llamado al orden del presidente: 10am;</dt>
 
             <dt>2. Lectura de las 12 Tradiciones: Jean;</dt>
 
@@ -84,11 +84,11 @@
 
             <dt>12. Nuevos asuntos: ninguno;</dt>
 
-            <dt>13. La próxima reunión del Comité Directivo es el martes 25/06/2024 a las 6:00 p. m. a través de Zoom;</dt>
+            <dt>13. La próxima reunión del Comité Directivo es el martes 25/06/2024 a las 6:00pm a través de Zoom;</dt>
 
-            <dt>14. La próxima reunión del Comité es el sábado 13/07/2024 a las 10:00 a. m.;</dt>
+            <dt>14. La próxima reunión del Comité es el sábado 13/07/2024 a las 10:00am;</dt>
 
-            <dt>15. La reunión se levantó a las 11:35 a. m. con la Oración de la Serenidad.</dt>
+            <dt>15. La reunión se levantó a las 11:35am con la Oración de la Serenidad.</dt>
         </dl>
 
         <p> Asistentes: Arthur, Carolyn, Chris, Cindy, Cole, Gina, Jane, Janet, Jean, Kathleen S., Kathleen F., Katie, Kevin, Mary Grace, May, Naomi, Phil, Renee, Robert, Roger y Samantha</p>

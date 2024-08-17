@@ -137,7 +137,7 @@ include_once 'header-bottom.inc'
                             </p>
                             <p>But I know that I need to go to AA. And she said, I have a friend who I think she would call you. Would that be okay? And I said, sure. So this woman Anne called me later that day and we made arrangements the next morning to meet at a Burger King or a Hardys or something. And I can still remember because she ordered coffee and I ordered orange juice and she goes, oh, you're so healthy.
                             </p>
-                            <p>And we walked down this long dirt road to the fireman's hut. 11 a. m. It was a Tuesday or a Thursday. And I go to my very first AA meeting for me. And I was really afraid I was going to see somebody I knew.
+                            <p>And we walked down this long dirt road to the fireman's hut. 11am It was a Tuesday or a Thursday. And I go to my very first AA meeting for me. And I was really afraid I was going to see somebody I knew.
                             </p>
                             <p>And I walk into that room way off in the corner. I see this guy Tom. I know him. And I was really happy. I really was. I thought, okay, if he's here, I can be here too.
                             </p>
