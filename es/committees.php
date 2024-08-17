@@ -260,7 +260,7 @@ include_once 'header-bottom.inc'
                                     <th scope="row">Presidente de Decoraciones</th>
                                     <td>Hilda P.</td>
                                     <td>Hilda P.</td>
-                                    <td>--</td>
+                                    <td>Jennifer G.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de la Cena</th>
