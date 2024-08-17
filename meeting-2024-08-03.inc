@@ -50,35 +50,35 @@
             <dd>b. T-Shirt - Kevin: No issues; Mugs and water bottles ordered; Need to staff sales table with volunteers; Jean confirmed that there will be a cash box available;
             </dd>
 
-            <dd>d. Hospitality - Jennifer: Nothing to add;
+            <dd>c. Hospitality - Jennifer: Nothing to add;
             </dd>
 
-            <dd>e. Speaker - Kathleen: Working on gift baskets; Cindy will forward a list of secretaries for speaker meetings with update formats; Approved Motion - purchase recording device to record meetings;</dd>
+            <dd>d. Speaker - Kathleen: Working on gift baskets; Cindy will forward a list of secretaries for speaker meetings with update formats; Approved Motion - purchase recording device to record meetings;</dd>
 
-            <dd>f. Literature - May: Encouraged everyone to bring used books to MBAR for sale; Use old newcomer packets by adding new meeting schedules; Discuss the question of purchasing pamphlets next week;</dd>
+            <dd>e. Literature - May: Encouraged everyone to bring used books to MBAR for sale; Use old newcomer packets by adding new meeting schedules; Discuss the question of purchasing pamphlets next week;</dd>
 
-            <dd>g. Outreach - Conor: Attend big meetings - San Jose Sat Evening; Santa Crux Sun Morning; Reached out to central offices; Contacted one Alano Club; Mighty Muffins; Kit was successful - A.A. and Al-Anon Meeting; Salinas Birthday Meeting; Treatment Centers - reduced registration cost 'contribution'; Arthur contact Door to Hope, Genesis, Sun Street, CHOMP, etc.; Table at Pacific Group Bus Event; Table at Coastal Rally - Mark S assist;</dd>
+            <dd>f. Outreach - Conor: Attend big meetings - San Jose Sat Evening; Santa Crux Sun Morning; Reached out to central offices; Contacted one Alano Club; Mighty Muffins; Kit was successful - A.A. and Al-Anon Meeting; Salinas Birthday Meeting; Treatment Centers - reduced registration cost 'contribution'; Arthur contact Door to Hope, Genesis, Sun Street, CHOMP, etc.; Table at Pacific Group Bus Event; Table at Coastal Rally - Mark S assist;</dd>
 
-            <dd>h. Marathon Meeting - Mark S.: Sending updated schedule to Naomi and Phillip; Coordinate with Mark for tables and chairs;</dd>
+            <dd>g. Marathon Meeting - Mark S.: Sending updated schedule to Naomi and Phillip; Coordinate with Mark for tables and chairs;</dd>
 
-            <dd>i. Welcome - Arthur: No issues; Distributing sign-up sheets; No greeters during speaker meeting;</dd>
+            <dd>h. Welcome - Arthur: No issues; Distributing sign-up sheets; No greeters during speaker meeting;</dd>
 
-            <dd>j. Raffle - Katherine: Don't sell tickets during speaker meetings; Have somebody watch table during speaker meetings; Drop off prizes Central Offices (Monterey and Salinas); Cole - 50/50 Raffle - Sell tickets; Sat AA meeting; Sun Al-Anon meeting; Pre-Reg 50/50 Naomi coordinate drawing Sat Night meeting - Steering committee: decide one or two winners;</dd>
+            <dd>i. Raffle - Katherine: Don't sell tickets during speaker meetings; Have somebody watch table during speaker meetings; Drop off prizes Central Offices (Monterey and Salinas); Cole - 50/50 Raffle - Sell tickets; Sat AA meeting; Sun Al-Anon meeting; Pre-Reg 50/50 Naomi coordinate drawing Sat Night meeting - Steering committee: decide one or two winners;</dd>
 
-            <dd>k. Events - Samantha: Prizes - $100 donation, total available $160; Dance in the Stevenson Room - DJ Cancelled; Samantha put together music playlist; Mark S. has a mixer; Balloons oka, no glitter or confetti - Needs a copy of the volunteer sign up sheet from the softball event;</dd>
+            <dd>j. Events - Samantha: Prizes - $100 donation, total available $160; Dance in the Stevenson Room - DJ Cancelled; Samantha put together music playlist; Mark S. has a mixer; Balloons oka, no glitter or confetti - Needs a copy of the volunteer sign up sheet from the softball event;</dd>
 
 
-            <dd>l. Facilities - Mark F.: Locked in Colton 3 as a Counting room; Terrace included no additional charge; Need schedule for room usage, a program;</dd>
+            <dd>k. Facilities - Mark F.: Locked in Colton 3 as a Counting room; Terrace included no additional charge; Need schedule for room usage, a program;</dd>
 
-            <dd>m. Website - Philip (emailed report): Since I have to leave at 1125 for a commitment, I'm going to email my report; I have updated the website including reg form, home page announcements, MBAR schedule, update the reg form including verbiage - online registration can be paid by check as there was some confusion by a member; Also, the PDFs are accessible by safari as the prior pdf opened as a pop up and blocked by default; This should increase reg volume hopefully; I'll reach out to Carolyn for offering assistance with PayPal; I double check the online helping hands form and location - I'll contact May about UI issue; As for the ASL question, it would be in our best interest for anticipating their needs; Once the program is finalized, please send it over and I'll push the content; Same with the Marathon meeting for AA and Al-Anon with Eng/Span schedule; Any online errors or issues seen by anyone, please let me know, and it can be updated; I'll update the Zoom format, test 50/50 script, get speakers and co-hosts lined up, ASL interpreter feature, and get the cost for a large meeting which last MBAR it was $50; Should we announce the Hospitality Suite online? When the cups and mugs are in hand, I'll get pics and push the content; I'll update the reg form.- completed;</dd>
+            <dd>l. Website - Philip (emailed report): Since I have to leave at 1125 for a commitment, I'm going to email my report; I have updated the website including reg form, home page announcements, MBAR schedule, update the reg form including verbiage - online registration can be paid by check as there was some confusion by a member; Also, the PDFs are accessible by safari as the prior pdf opened as a pop up and blocked by default; This should increase reg volume hopefully; I'll reach out to Carolyn for offering assistance with PayPal; I double check the online helping hands form and location - I'll contact May about UI issue; As for the ASL question, it would be in our best interest for anticipating their needs; Once the program is finalized, please send it over and I'll push the content; Same with the Marathon meeting for AA and Al-Anon with Eng/Span schedule; Any online errors or issues seen by anyone, please let me know, and it can be updated; I'll update the Zoom format, test 50/50 script, get speakers and co-hosts lined up, ASL interpreter feature, and get the cost for a large meeting which last MBAR it was $50; Should we announce the Hospitality Suite online? When the cups and mugs are in hand, I'll get pics and push the content; I'll update the reg form.- completed;</dd>
 
-            <dd>n. Dinner - Aubrey: No issues</dd>
+            <dd>m. Dinner - Aubrey: No issues</dd>
 
-            <dd>o. Registration - Naomi: 200 total completed registrations received - 120 online 82 paper; 14 incomplete not paid; 140 A.A., 39 Al-Anon, 19 Double, 2 Other; No Spanish registrations; 67 dinners; 56 breakfast;</dd>
+            <dd>n. Registration - Naomi: 200 total completed registrations received - 120 online 82 paper; 14 incomplete not paid; 140 A.A., 39 Al-Anon, 19 Double, 2 Other; No Spanish registrations; 67 dinners; 56 breakfast;</dd>
 
-            <dd>p. Breakfast - Joanie: Get contract updated, resolve questions about deposit paid; Prep Friday - Bethlehem Lutheran; Use Central office coffee urns; insurance coverage for Fri and Sat - Rene: check central office; Samantha: look into other options;</dd>
+            <dd>o. Breakfast - Joanie: Get contract updated, resolve questions about deposit paid; Prep Friday - Bethlehem Lutheran; Use Central office coffee urns; insurance coverage for Fri and Sat - Rene: check central office; Samantha: look into other options;</dd>
 
-            <dd>q. Decorations - breakfast and dinner: Samantha will setup table cloths Fri afternoon; Supplies come out Breakfast and Dinner budget; Aubrey will contribute table cloths; Chris has vases that can be used;</dd>
+            <dd>p. Decorations - breakfast and dinner: Samantha will setup table cloths Fri afternoon; Supplies come out Breakfast and Dinner budget; Aubrey will contribute table cloths; Chris has vases that can be used;</dd>
 
             <dt>14. Outreach:</dt>
 
