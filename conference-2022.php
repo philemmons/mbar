@@ -258,7 +258,7 @@ include_once 'header-bottom.inc'
                                     8:00am
                                 </div>
                                 <div class="col-sm-5">
-                                    Continental Round-Up Breakfast
+                                    Round-Up Breakfast
                                 </div>
                                 <div class="col-sm-5">
                                     <strong>Bethlehem Lutheran Church ∆</strong>

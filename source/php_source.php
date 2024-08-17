@@ -26,7 +26,7 @@ function regFormData($total, $lang)
      $register = isset($_POST['myRegistration']) ? strtolower(htmlspecialchars($_POST['myRegistration'], ENT_QUOTES)) : '';
      $ebmb = isset($_POST['earlyBirdMealBundle']) ? strtolower(htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES)) : '';
      $mtsd = isset($_POST['meetTheSpeakerDinner']) ? strtolower(htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES)) : '';
-     $rucb = isset($_POST['roundupContinentalBreakfast']) ? strtolower(htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES)) : '';
+     $rucb = isset($_POST['roundupBreakfast']) ? strtolower(htmlspecialchars($_POST['roundupBreakfast'], ENT_QUOTES)) : '';
      $ics = isset($_POST['iceCreamSocial']) ? strtolower(htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES)) : '';
      $snd = isset($_POST['saturdayNightDance']) ? strtolower(htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES)) : '';
      $hhc = isset($_POST['helpingHandContribution']) ? strtolower(htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES)) : '';
@@ -369,13 +369,14 @@ function noThankYou($nty)
      return $nty;
 }
 
-function tShirtQuanCheck($size, $quan){
+function tShirtQuanCheck($size, $quan)
+{
      if ($size == "none") return "0";
      return $quan;
 }
 
-function tShirtSizeCheck($size, $quan){
+function tShirtSizeCheck($size, $quan)
+{
      if ($quan == "0") return "none";
      return $size;
 }
-

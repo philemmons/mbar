@@ -571,7 +571,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
                                     <option value="no">No</option>
                                     <option value="undecided">Undecided</option>
                                 </select>
-                                <label for="upd-rucb" class="form-label">Continental Breakfast</label>
+                                <label for="upd-rucb" class="form-label">Breakfast</label>
                             </div>
 
                             <div class="invalid-feedback">

@@ -278,7 +278,7 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Desayuno Continental y Juegos de bingo</strong>
+                                    <strong>8:00am Desayuno y Juegos de bingo</strong>
                                 </div>
 
 

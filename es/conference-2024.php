@@ -263,7 +263,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Desayuno Continental y Juegos de Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Desayuno y Juegos de Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">

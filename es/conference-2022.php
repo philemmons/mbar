@@ -259,7 +259,7 @@ include_once 'header-bottom.inc'
                                     8:00am
                                 </div>
                                 <div class="col-sm-5">
-                                    Desayuno Continental Redondo
+                                    Desayuno Redondo
                                 </div>
                                 <div class="col-sm-5">
                                     <strong>Bethlehem Lutheran Church ∆</strong>

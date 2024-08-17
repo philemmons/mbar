@@ -274,7 +274,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Round-Up Continental Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    Round-Up Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 

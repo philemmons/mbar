@@ -148,7 +148,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['myRegistration']) &&
                         !empty($_POST['earlyBirdMealBundle']) &&
                         !empty($_POST['meetTheSpeakerDinner']) &&
-                        !empty($_POST['roundupContinentalBreakfast']) &&
+                        !empty($_POST['roundupBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
@@ -183,7 +183,7 @@ include_once 'header-bottom.inc'
                                 $register = !empty($_POST['myRegistration']) ? htmlspecialchars($_POST['myRegistration'], ENT_QUOTES) : '';
                                 $ebmb = !empty($_POST['earlyBirdMealBundle']) ? htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES) : '';
                                 $mtsd = !empty($_POST['meetTheSpeakerDinner']) ? htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES) : '';
-                                $rucb = !empty($_POST['roundupContinentalBreakfast']) ? htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES) : '';
+                                $rucb = !empty($_POST['roundupBreakfast']) ? htmlspecialchars($_POST['roundupBreakfast'], ENT_QUOTES) : '';
                                 $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
                                 $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
                                 $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
@@ -456,7 +456,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-7 pb-4">
                                     <p class="h5">Las opciones de comidas a la carta aún están abiertas y la preinscripción para el paquete de comidas Early Bird está cerrada actualmente.</p>
                                     <ul>
-                                        <li>Desayuno y cena continental en la Iglesia Luterana Bethlehem, 800 Cass Street, Monterey
+                                        <li>Desayuno y cena en la Iglesia Luterana Bethlehem, 800 Cass Street, Monterey
                                         </li>
                                         <li>La fiesta de helados se llevará a cabo en el Centro de conferencias en Stevenson Terrace
                                         </li>
@@ -481,8 +481,8 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label"><strong>Desayuno continental Round-Up</strong> (domingo de 8:00 a 9:30am) - $10<br>Disponible para comprar hasta la fecha del evento</label>
-                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" required>
+                                    <label for="roundupBreakfast" class="reg-form-label"><strong>Desayuno Round-Up</strong> (domingo de 8:00 a 9:30am) - $10<br>Disponible para comprar hasta la fecha del evento</label>
+                                    <select class="form-select" name="roundupBreakfast" id="roundupBreakfast" required>
                                         <option disabled value="">Elija...</option>
                                         <option value="yes">¡Sí, por favor!</option>
                                         <option value="no">No, gracias</option>

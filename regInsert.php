@@ -593,7 +593,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                                 <option value="no">No</option>
                                 <option value="undecided">Undecided</option>
                             </select>
-                            <label for="ins-rucb" class="form-label">Continental Breakfast *</label>
+                            <label for="ins-rucb" class="form-label">Breakfast *</label>
                         </div>
 
                         <div class="invalid-feedback">

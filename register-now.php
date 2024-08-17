@@ -145,7 +145,7 @@ include_once 'header-bottom.inc'
                         !empty($_POST['myRegistration']) &&
                         !empty($_POST['earlyBirdMealBundle']) &&
                         !empty($_POST['meetTheSpeakerDinner']) &&
-                        !empty($_POST['roundupContinentalBreakfast']) &&
+                        !empty($_POST['roundupBreakfast']) &&
                         !empty($_POST['iceCreamSocial']) &&
                         !empty($_POST['shirtSize']) &&
                         !empty($_POST['paymentCheckBox']) &&
@@ -179,7 +179,7 @@ include_once 'header-bottom.inc'
                                 $register = !empty($_POST['myRegistration']) ? htmlspecialchars($_POST['myRegistration'], ENT_QUOTES) : '';
                                 $ebmb = !empty($_POST['earlyBirdMealBundle']) ? htmlspecialchars($_POST['earlyBirdMealBundle'], ENT_QUOTES) : '';
                                 $mtsd = !empty($_POST['meetTheSpeakerDinner']) ? htmlspecialchars($_POST['meetTheSpeakerDinner'], ENT_QUOTES) : '';
-                                $rucb = !empty($_POST['roundupContinentalBreakfast']) ? htmlspecialchars($_POST['roundupContinentalBreakfast'], ENT_QUOTES) : '';
+                                $rucb = !empty($_POST['roundupBreakfast']) ? htmlspecialchars($_POST['roundupBreakfast'], ENT_QUOTES) : '';
                                 $ics = !empty($_POST['iceCreamSocial']) ? htmlspecialchars($_POST['iceCreamSocial'], ENT_QUOTES) : '';
                                 $snd = !empty($_POST['saturdayNightDance']) ? htmlspecialchars($_POST['saturdayNightDance'], ENT_QUOTES) : '';
                                 $hhc = !empty($_POST['helpingHandContribution']) ? htmlspecialchars($_POST['helpingHandContribution'], ENT_QUOTES) : '';
@@ -450,7 +450,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-lg-7 pb-4">
                                     <p class="h5">À la carte Meal Options are still open, and pre-registration for the Early Bird Meal Bundle is currently closed.</p>
                                     <ul>
-                                        <li>Continental Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
+                                        <li>Breakfast and Dinner at Bethlehem Lutheran Church, 800 Cass Street, Monterey
                                         </li>
                                         <li>Ice Cream Social will be held at the Conference Center on the Stevenson Terrace
                                         </li>
@@ -476,8 +476,8 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-lg-4">
-                                    <label for="roundupContinentalBreakfast" class="reg-form-label"><strong>Round-Up Continental Breakfast</strong> (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase up to the date of the event</label>
-                                    <select class="form-select" name="roundupContinentalBreakfast" id="roundupContinentalBreakfast" required>
+                                    <label for="roundupBreakfast" class="reg-form-label"><strong>Round-Up Breakfast</strong> (Sunday @ 8:00am to 9:30am) - $10<br>Available for purchase up to the date of the event</label>
+                                    <select class="form-select" name="roundupBreakfast" id="roundupBreakfast" required>
                                         <option disabled value="">Choose...</option>
                                         <option value="yes">Yes, please!</option>
                                         <option value="no">No thank you</option>
