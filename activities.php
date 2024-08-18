@@ -113,7 +113,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Marathon Meetings</h3>
                                 </section>
-                                <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. and Al-Anon Members at various hours during the day. Marathon meetings will not be held during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
+                                <p class="card-text">During the MBAR Conference, there will be meetings held that are open to all A.A. and Al-Anon Members at various hours during the day. Marathon meetings will be available during the Conference's Main Speaker Meetings. You do not have to be registered for the conference to attend these meetings.
                                 </p>
                             </div>
                         </div>

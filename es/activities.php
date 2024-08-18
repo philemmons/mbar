@@ -113,7 +113,7 @@ include_once 'header-bottom.inc'
                                 <section class="card-title">
                                     <h3>Reuniones Maratónicas</h3>
                                 </section>
-                                <p class="card-text">Durante la Conferencia MBAR, se celebrarán reuniones abiertas a todos los miembros de A.A. y Al-Anon en distintos horarios durante el día. No se celebrarán reuniones maratónicas durante las reuniones de oradores principales de la Conferencia. No es necesario estar inscrito en la conferencia para asistir a estas reuniones.
+                                <p class="card-text">Durante la Conferencia MBAR, se celebrarán reuniones abiertas a todos los miembros de A.A. y Al-Anon en distintos horarios durante el día. Las reuniones maratónicas estarán disponibles durante las reuniones de los oradores principales de la conferencia. No es necesario estar inscrito en la conferencia para asistir a estas reuniones.
                                 </p>
                             </div>
                         </div>
