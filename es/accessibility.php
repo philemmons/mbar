@@ -171,7 +171,8 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
                 <hr>
-                <h4 class="text-center"><strong><a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">Únase a <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para un grupo privado de miembros de AA." Grupo privado<span class="sr-only">(Abre una nueva ventana)</span></a></strong></h4>
+                <h4 class="text-center"><strong>Unirse <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">
+                            <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupos privados de A.A. miembros."><span class="sr-only">(Abre una nueva ventana)</span></a> Grupo Privado</strong></h4>
                 <hr>
             </div>
         </div>
