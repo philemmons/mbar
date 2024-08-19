@@ -14,6 +14,7 @@
                         Meeting ID: <strong>831 4306 2293</strong>
                         <br>
                         Passcode: <strong>2024</strong>
+                        <br>
                         This meeting is open to everyone, and we encourage you to join!
                     </p>
                     <p class="h3 text-dark">In-Person Meetings</p>
@@ -21,10 +22,9 @@
                         <br>
                         Please note that registration is required for the in-person event. Make sure to sign up in advance!
                     </p>
-                    <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+                    <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
                     <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
-
             </div>
         </div>
     </div>
