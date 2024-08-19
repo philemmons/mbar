@@ -76,9 +76,9 @@ include_once 'header-bottom.inc'
 					</section>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<p class="h4 text-black">Última actualización: 2024, 22 de Marzo
+					<p class="h4 text-black">Última actualización: 2024, 15 de Agosto
 						<br>
-						Páginas totales: 35
+						Páginas totales: 37
 					</p>
 				</div>
 			</div>
@@ -96,7 +96,7 @@ include_once 'header-bottom.inc'
 									<li>
 										<ul class="level-2">
 
-											<li class="lhead">montereybayarearoundup.org/ <span class="lcount">35 pages</span></li>
+											<li class="lhead">montereybayarearoundup.org/ <span class="lcount">37 pages</span></li>
 
 											<li class="lpage"><a href="https://montereybayarearoundup.org/" title="MBAR - Home ">MBAR - Home </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
@@ -138,7 +138,7 @@ include_once 'header-bottom.inc'
 											<li>
 												<ul class="level-3">
 
-													<li class="lhead">es/ <span class="lcount">35 pages</span></li>
+													<li class="lhead">es/ <span class="lcount">37 pages</span></li>
 
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/" title="MBAR - Hogar ">MBAR - Hogar </a></li>
 													<li class="lpage"><a href="https://montereybayarearoundup.org/es/index.php" title="MBAR - Hogar ">MBAR - Hogar </a></li>
@@ -200,10 +200,26 @@ include_once 'header-bottom.inc'
 		<div class="container shadow-wrap">
 			<div class="row justify-content-center mb-5">
 				<div class="col-xl-8 col-lg-8 col-md-12 py-4">
-					<div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-						<h3 class="fw-bold text-dark px-3 px-md-0">Únete a nosotros en MBAR 2024
-						</h3>
-						<a href="register-now.php" class="btn btn-primary me-2">Regístrate Ahora</a>
+					<div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción ya está abierta!">
+						<h3 class="fw-bold px-3 px-md-0">Nos complace anunciar nuestra próxima reunión de MBAR<br>el fin de semana del Día del Trabajo.</h3>
+						<p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
+						<p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
+							<br>
+							Orador: Oliver D. de Delaware
+							<br>
+							ID de la reunión: <strong>831 4306 2293</strong>
+							<br>
+							Código de acceso: <strong>2024</strong>
+							<br>
+							¡Esta reunión está abierta a todos y lo alentamos a unirse!
+						</p>
+						<p class="h3 text-dark">Reuniones Presenciales</p>
+						<p class="dark-text">31 de Agosto y 1 de Aeptiembre en el Centro de Conferencias de Monterey
+							<br>
+							Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
+						</p>
+						<a href="register-now.php" class="btn btn-primary mb-2">Regístrese Ahora</a>
+						<p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
 					</div>
 				</div>
 			</div>

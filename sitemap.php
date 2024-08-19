@@ -75,9 +75,9 @@ include_once 'header-bottom.inc'
 					</section>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
-					<p class="h4 text-black">Last updated: 2024, March 22
+					<p class="h4 text-black">Last updated: 2024, August 15
 						<br>
-						Total pages: 35
+						Total pages: 37
 					</p>
 				</div>
 			</div>
@@ -95,7 +95,7 @@ include_once 'header-bottom.inc'
 									<li>
 										<ul class="level-2">
 
-											<li class="lhead">montereybayarearoundup.org/ <span class="lcount">35 pages</span></li>
+											<li class="lhead">montereybayarearoundup.org/ <span class="lcount">37 pages</span></li>
 
 											<li class="lpage"><a href="https://montereybayarearoundup.org/" title="MBAR - Home ">MBAR - Home </a></li>
 											<li class="lpage"><a href="https://montereybayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
@@ -200,9 +200,25 @@ include_once 'header-bottom.inc'
 			<div class="row justify-content-center mb-5">
 				<div class="col-xl-8 col-lg-8 col-md-12 py-4">
 					<div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-						<h3 class="fw-bold text-dark px-3 px-md-0">Join us at MBAR 2024
-						</h3>
-						<a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+						<h3 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend.</h3>
+						<p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+						<p class="dark-text">August 30th at 8:00pm PDT
+							<br>
+							Speaker: Oliver D. from Delaware
+							<br>
+							Meeting ID: <strong>831 4306 2293</strong>
+							<br>
+							Passcode: <strong>2024</strong>
+							<br>
+							This meeting is open to everyone, and we encourage you to join!
+						</p>
+						<p class="h3 text-dark">In-Person Meetings</p>
+						<p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+							<br>
+							Please note that registration is required for the in-person event. Make sure to sign up in advance!
+						</p>
+						<a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
+						<p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
 					</div>
 				</div>
 			</div>

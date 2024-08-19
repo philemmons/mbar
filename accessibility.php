@@ -119,11 +119,26 @@ include_once 'header-bottom.inc'
     <article aria-label="registration info and link">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                        <h3 class="fw-bold text-dark px-3 px-md-0">Join us at MBAR 2024</h3>
-                        <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
-                    </div>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
+                    <h3 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend.</h3>
+                    <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                    <p class="dark-text">August 30th at 8:00pm PDT
+                        <br>
+                        Speaker: Oliver D. from Delaware
+                        <br>
+                        Meeting ID: <strong>831 4306 2293</strong>
+                        <br>
+                        Passcode: <strong>2024</strong>
+                        <br>
+                        This meeting is open to everyone, and we encourage you to join!
+                    </p>
+                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                        <br>
+                        Please note that registration is required for the in-person event. Make sure to sign up in advance!
+                    </p>
+                    <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
+                    <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
             </div>
         </div>
