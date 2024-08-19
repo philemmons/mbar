@@ -112,7 +112,7 @@ include_once 'header-bottom.inc'
                                 <br><br>
                                 The Marathon Meetings are open and do not require registration.
                                 <br><br>
-                                Kick-Off Zoom meeting is open to everyone, and we're eager to see you there!
+                                Kick-Off Zoom meeting is available for everyone, and we're eager to see you there!
                             </p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
                             </p>

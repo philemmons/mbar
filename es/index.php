@@ -110,7 +110,7 @@ include_once 'header-bottom.inc'
                                 <br><br>
                                 Las reuniones de maratón están abiertas y no requieren inscripción.
                                 <br><br>
-                                ¡La reunión inicial de Zoom está abierta a todos y estamos ansiosos por verte allí!
+                                ¡La reunión inicial de Zoom está disponible para todos y estamos ansiosos por verte allí!
                             </p>
                             <p class="card-text">Le recordamos que su inscripción se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
                             </p>
