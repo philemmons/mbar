@@ -4,7 +4,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción ya está abierta!">
-                    <h3 class="fw-bold px-3 px-md-0">Nos complace anunciar nuestra próxima reunión de MBAR el fin de semana del Día del Trabajo.</h3>
+                    <h3 class="fw-bold px-3 px-md-0">Nos complace anunciar nuestra próxima reunión de MBAR<br>el fin de semana del Día del Trabajo.</h3>
                     <p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
                     <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>

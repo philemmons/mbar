@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Get Set for MBAR on Labor Day Weekend!</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Get Set for MBAR on<br>Labor Day Weekend!</h2>
                     <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>
