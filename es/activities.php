@@ -60,8 +60,8 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-activity" title="Hermoso mosaico de azulejos de Monterey en el Centro de Conferencias que inspira actividades de compañerismo.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reunirs del Área de la Bahía de Monterey<br>
-                            Actividades</span></h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Reunirs del Área de la Bahía de Monterey<br>
+                        Actividades</h2>
                 </div>
             </div>
         </div>

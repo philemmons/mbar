@@ -60,8 +60,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="fw-bold mb-3"><span class="text-dark px-3 px-md-0">Registration is Live</span>
-                    </h2>
+                    <h2 class="fw-bold mb-3 px-3 px-md-0">Registration is Live</h2>
                     <p class="mb-6 h4 text-dark">Kick-Off Meeting on August 30th at 8pm PDT
                         <br><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware
                         <br>Meeting ID: <strong>831 4306 2293</strong>

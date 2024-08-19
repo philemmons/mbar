@@ -60,7 +60,7 @@ include_once 'header-bottom.inc'
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                         <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Próximos Eventos 2024</span></h2>
+                         <h2 class="display-6 fw-bold px-3 px-md-0">Próximos Eventos 2024</h2>
                          <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                     </div>
                </div>

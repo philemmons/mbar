@@ -60,8 +60,8 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-meetings" title="Conocer la diversidad mejora nuestras vidas.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Nos importa.">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Reunión del Comité<br>
-                            Información</span></h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Reunión del Comité<br>
+                        Información</h2>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
             </div>
@@ -102,7 +102,7 @@ include_once 'header-bottom.inc'
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
 
-                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#august-10-2024" aria-expanded="false" aria-controls="august2024">10 de Agosto</button>
                                 </h4>

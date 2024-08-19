@@ -20,8 +20,8 @@ include_once 'header-bottom.inc'
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
 					<div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
 						<a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item" href="aa-marathon-2024.php">A.A. Reuniones de Maratón</a>
-                        <a class="dropdown-item" href="al-anon-marathon-2024.php">Al-Anon Reuniones de Maratón</a>
+						<a class="dropdown-item" href="aa-marathon-2024.php">A.A. Reuniones de Maratón</a>
+						<a class="dropdown-item" href="al-anon-marathon-2024.php">Al-Anon Reuniones de Maratón</a>
 						<a class="dropdown-item" href="register-now.php">Registro</a>
 						<a class="dropdown-item" href="activities.php">Actividades</a>
 						<a class="dropdown-item" href="mbar_history.php">Historia del MBAR</a>
@@ -60,8 +60,7 @@ include_once 'header-bottom.inc'
 		<div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-sitemap" title="Virtual network on a navy blue background.">
 			<div class="col-xl-7 col-lg-7 col-md-12 py-5">
 				<div class="p-3 text-center text-bg-light hero-text-border" title="HTML Site Map - assist with indexing">
-					<h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Mapa del Sitio HTML</span>
-					</h2>
+					<h2 class="display-6 fw-bold px-3 px-md-0">Mapa del Sitio HTML</h2>
 				</div>
 			</div>
 		</div>

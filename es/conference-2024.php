@@ -60,9 +60,10 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Centro de conferencias de Monterey en Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La Inscripción está Vivir Abierta!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Conferencia de A.A.
-                            <br>con
-                            <br>Participación de Al-Anon</span></h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Conferencia de A.A.
+                        <br>con
+                        <br>Participación de Al-Anon
+                    </h2>
                 </div>
             </div>
         </div>

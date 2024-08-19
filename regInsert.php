@@ -175,8 +175,7 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
         <div class="row justify-content-center py-6 bg-body-tertiary bg-img-insert" title="Hiking in the Pfeiffer Big Sur and Julia Pfeiffer Burns State Parks.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Add New Registration</span>
-                    </h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Add New Registration</h2>
                     <p class="h6"> Welcome <?= ucwords($_SESSION['name']) ?></p>
                 </div>
             </div>
