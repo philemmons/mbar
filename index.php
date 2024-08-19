@@ -60,10 +60,21 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Registration is Live</span>
+                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Get Ready for MBAR This Labor Day Weekend!</span>
                     </h2>
-                    <p class="mb-6 h3 text-dark">Labor Day Weekend, Kick Off Zoom Meeting<br>August 30th, and Live on August 31st and <br>September 1st at the Monterey Conference Center</p>
+                    <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                    <p class="dark-text">August 30th at 8:00pm PDT
+                        <br>
+                        This meeting is open to everyone, and we encourage you to join!
+                    </p>
+
+                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                        <br>
+                        Please note that registration is required for the in-person event. Make sure to sign up in advance!
+                    </p>
                     <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+                    <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
             </div>
         </div>
@@ -78,7 +89,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - 2024 Event Schedule
                             </p>
-                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PDT. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
+                            <p class="card-text">Announcing our Kick-Off Zoom Meeting on August 30th at 8pm PDT. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware. This meeting is open to everyone, and we encourage you to join!
+                                <br>
+                                <a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
                             </p>
                             <p class="card-text">Get ready to dive in! Our event schedule is now live! More details will be unveiled shortly as the plot thickens.
                             </p>
