@@ -22,7 +22,7 @@
                         Please note that registration is required for the in-person event. Make sure to sign up in advance!
                     </p>
                     <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
-                    <p class="h3 dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
+                    <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
             </div>
         </div>

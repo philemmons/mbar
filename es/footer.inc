@@ -22,7 +22,7 @@
                         Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
                     </p>
                     <a href="register-now.php" class="btn btn-primary mb-2">Regístrese Ahora</a>
-                    <p class="h3 dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
+                    <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
                 </div>
             </div>
         </div>
