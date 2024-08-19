@@ -111,6 +111,8 @@ include_once 'header-bottom.inc'
                             <p class="card-text">Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
                                 <br><br>
                                 The Marathon Meetings are open and do not require registration.
+                                <br><br>
+                                Kick-Off Zoom meeting is open to everyone, and we're eager to see you there!
                             </p>
                             <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
                             </p>
