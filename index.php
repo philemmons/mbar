@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - 2024 Event Schedule
                             </p>
-                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PST. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
+                            <p class="card-text">Announcing our Kick Off Zoom Meeting on August 30th at 8pm PDT. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
                             </p>
                             <p class="card-text">Get ready to dive in! Our event schedule is now live! More details will be unveiled shortly as the plot thickens.
                             </p>
@@ -130,7 +130,7 @@ include_once 'header-bottom.inc'
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

@@ -78,7 +78,7 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Calendario de Eventos de 2024
                             </p>
-                            <p class="card-text">Anunciamos nuestra reunión inaugural por Zoom el 30 de Agosto a las 8:00pm. (hora del Pacífico). Únase a nosotros con nuestro primer orador del evento de 2024: Oliver D. de Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
+                            <p class="card-text">Anunciamos nuestra reunión inaugural por Zoom el 30 de Agosto a las 8:00pm (hora diurna del pacífico). Únase a nosotros con nuestro primer orador del evento de 2024: Oliver D. de Delaware.<br><a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
                             </p>
                             <p class="card-text">¡Prepárese para sumergirse! ¡Nuestro calendario de eventos ya está disponible! Pronto se revelarán más detalles a medida que la trama se complique.
                             </p>
