@@ -76,13 +76,27 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="Registration Area">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">Monterey Bay Area Round Up 2024</h3>
-                            <p class="mb-6 h4 text-dark">Join us online on August 30th with a Kick-Off Zoom Meeting, or live on August 31st and September 1st at the Monterey Conference Center.
+                            <h3 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend!</h3>
+                            <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                            <p class="dark-text">August 30th at 8:00pm PDT
                                 <br>
-                                More details to be announced as we get closer!
+                                Speaker: Oliver D. from Delaware
+                                <br>
+                                Meeting ID: <strong>831 4306 2293</strong>
+                                <br>
+                                Passcode: <strong>2024</strong>
+                                <br>
+                                This meeting is open to everyone, and we encourage you to join!
                             </p>
-                            <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+                            <p class="h3 text-dark">In-Person Meetings</p>
+                            <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                                <br>
+                                Please note that registration is required for the in-person event. Make sure to sign up in advance!
+                            </p>
+                            <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
+                            <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                         </section>
+
                     </div>
                 </div>
             </div>

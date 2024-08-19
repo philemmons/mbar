@@ -59,14 +59,26 @@ include_once 'header-bottom.inc'
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="fw-bold mb-3 px-3 px-md-0">Registration is Live</h2>
-                    <p class="mb-6 h4 text-dark">Kick-Off Meeting on August 30th at 8pm PDT
-                        <br><i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting with Oliver D. from Delaware
-                        <br>Meeting ID: <strong>831 4306 2293</strong>
-                        <br>Passcode: <strong>2024</strong>
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
+                    <h2 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend!</h2>
+                    <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                    <p class="dark-text">August 30th at 8:00pm PDT
+                        <br>
+                        Speaker: Oliver D. from Delaware
+                        <br>
+                        Meeting ID: <strong>831 4306 2293</strong>
+                        <br>
+                        Passcode: <strong>2024</strong>
+                        <br>
+                        This meeting is open to everyone, and we encourage you to join!
                     </p>
-                    <a href="#register-now" class="btn btn-primary me-2">Register Now</a>
+                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                        <br>
+                        Please note that registration is required for the in-person event. Make sure to sign up in advance!
+                    </p>
+                    <a href="#register-now" class="btn btn-primary mb-2">Register Now</a>
+                    <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
             </div>
         </div>

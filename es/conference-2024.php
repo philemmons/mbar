@@ -75,13 +75,26 @@ include_once 'header-bottom.inc'
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="La Inscripción está Vivir Activa">
-                        <section aria-label="Área de Inscripción">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">Resumen del área de la bahía de Monterey 2024</h3>
-                            <p class="mb-6 h4 text-dark">Únase a nosotros en Línea el 30 de Agosto con una reunión inicial de Zoom, o en vivo el 31 de Agosto y el 1 de Septiembre en el Centro de Conferencias de Monterey.
+                        <section aria-label="Área de registro">
+                            <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestra próxima reunión de MBAR el fin de semana del Día del Trabajo!</h3>
+                            <p class="h3 text-dark">Reunión Virtual de Lanzamiento por Zoom</p>
+                            <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                                 <br>
-                                ¡Se anunciarán más detalles a medida que nos acerquemos!
+                                Orador: Oliver D. de Delaware
+                                <br>
+                                ID de la reunión: <strong>831 4306 2293</strong>
+                                <br>
+                                Código de acceso: <strong>2024</strong>
+                                <br>
+                                ¡Esta reunión está abierta a todos y lo alentamos a unirse!
                             </p>
-                            <a href="register-now.php" class="btn btn-primary me-2">Regístrese Ahora</a>
+                            <p class="h3 text-dark">Reuniones Presenciales</p>
+                            <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
+                                <br>
+                                Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
+                            </p>
+                            <a href="register-now.php" class="btn btn-primary mb-2">Regístrese Ahora</a>
+                            <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
                         </section>
                     </div>
                 </div>
