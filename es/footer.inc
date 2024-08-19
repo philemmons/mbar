@@ -4,10 +4,9 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción ya está abierta!">
-                    <h3 class="fw-bold text-primary px-3 px-md-0"><span class="text-dark px-3 px-md-0">¡Prepárate para MBAR este fin de semana del Día del Trabajo!</span>
-                    </h3>
-                    <p class="h3 text-dark">Reunión Virtual de Lanzamiento por Zoom</p>
-                    <p class="dark-text">30 de Agosto a las 8:00pm PDT
+                    <h3 class="fw-bold text-primary px-3 px-md-0">Nos complace anunciar nuestra próxima reunión de MBAR el fin de semana del Día del Trabajo.</h3>
+                    <p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
+                    <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>
                         Orador: Oliver D. de Delaware
                         <br>
@@ -15,10 +14,10 @@
                         <br>
                         Código de acceso: <strong>2024</strong>
                         <br>
-                        ¡Esta reunión está abierta a todos y te animamos a que te unas!
+                        ¡Esta reunión está abierta a todos y lo alentamos a unirse!
                     </p>
                     <p class="h3 text-dark">Reuniones Presenciales</p>
-                    <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
+                    <p class="dark-text">31 de Agosto y 1 de Aeptiembre en el Centro de Conferencias de Monterey
                         <br>
                         Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
                     </p>

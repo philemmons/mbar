@@ -4,8 +4,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h3 class="fw-bold text-primary px-3 px-md-0"><span class="text-dark px-3 px-md-0">Get Ready for MBAR This Labor Day Weekend!</span>
-                    </h3>
+                    <h3 class="fw-bold text-primary px-3 px-md-0">We're excited to announce our upcoming MBAR on Labor Day weekend.</h3>
                     <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>

@@ -60,8 +60,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold text-primary"><span class="text-dark px-3 px-md-0">Get Ready for MBAR This Labor Day Weekend!</span>
-                    </h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Get Set for MBAR on Labor Day Weekend!</h2>
                     <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>
@@ -73,7 +72,7 @@ include_once 'header-bottom.inc'
                         <br>
                         Please note that registration is required for the in-person event. Make sure to sign up in advance!
                     </p>
-                    <a href="register-now.php" class="btn btn-primary me-2">Register Now</a>
+                    <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
                     <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
                 </div>
             </div>
