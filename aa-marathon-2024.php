@@ -148,7 +148,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:30 A.A / Al-Anon Double Winner Panel</strong>
+                                    <strong>11:30am A.A. Panel</strong>
                                 </div>
 
 
@@ -175,7 +175,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm A.A / Al-Anon Speaker Meetings</strong>
+                                    <strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong>
                                 </div>
 
 
@@ -205,7 +205,7 @@ include_once 'header-bottom.inc'
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Carol H., Salinas
+                                    Sean B., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Three Legacies of A.A.
@@ -221,7 +221,7 @@ include_once 'header-bottom.inc'
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Eric L., Salinas
+                                    Jose C., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Acceptance
@@ -261,7 +261,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>9:30pm Saturday Night Masquerade Dance - Masks Provided</strong>
+                                    <strong>9:30pm Saturday Night Masquerade Dance and Fellowship</strong>
                                 </div>
 
 
@@ -278,7 +278,7 @@ include_once 'header-bottom.inc'
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Round-Up Breakfast and Bingo Games</strong>
+                                    <strong>8:00am Round Up Breakfast and Bingo Games</strong>
                                 </div>
 
 

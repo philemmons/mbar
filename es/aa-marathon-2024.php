@@ -148,7 +148,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:30 Panel de Ganadores Dobles de A.A / Al-Anon</strong>
+                                    <strong>11:30 Panel de A.A</strong>
                                 </div>
 
 
@@ -175,7 +175,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm Reuniones de Oradores de A.A / Al-Anon</strong>
+                                    <strong>2:00pm Reunión de Oradores de Denis D.(A.A.) y Shelly S.(Al-Anon)</strong>
                                 </div>
 
 
@@ -205,10 +205,10 @@ include_once 'header-bottom.inc'
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Carol H., Salinas
+                                    Sean B., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
-                                    Tema: Tres legados de A.A.
+                                    Tema: Tres Legados de A.A.
                                 </div>
 
 
@@ -221,7 +221,7 @@ include_once 'header-bottom.inc'
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Eric L., Salinas
+                                    Jose C., Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Tema: Aceptación
@@ -261,12 +261,12 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>9:30pm Baile de Máscaras el Sábado por la Noche (se Proporcionan Máscaras)</strong>
+                                    <strong>9:30pm Baile de Máscaras y Confraternidad los Sábados por la Noche</strong>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>Buenas noches y cuídate!</strong>
+                                    <strong>Buenas Noches y Cuídate!</strong>
                                 </div>
 
                             </div>
