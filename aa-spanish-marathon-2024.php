@@ -114,10 +114,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell text-left-indent">
+                                <div class="col-sm-6 top marathon-cell ">
                                     <strong>Coordinator:</strong> Jesus
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
+                                <div class="col-sm-6 bottom marathon-cell ">
                                     <strong>Treasurer:</strong> Angel
                                 </div>
 
@@ -146,10 +146,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell text-left-indent">
+                                <div class="col-sm-6 top marathon-cell ">
                                     <strong>Coordinator:</strong> Artemio
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
+                                <div class="col-sm-6 bottom marathon-cell ">
                                     <strong>Treasurer:</strong> Geolfredo
                                 </div>
 
@@ -183,10 +183,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell text-left-indent">
+                                <div class="col-sm-6 top marathon-cell ">
                                     <strong>Coordinator:</strong> Raul
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
+                                <div class="col-sm-6 bottom marathon-cell ">
                                     <strong>Treasurer:</strong> Norberto
                                 </div>
 
@@ -216,10 +216,10 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-6 top marathon-cell text-left-indent">
+                                <div class="col-sm-6 top marathon-cell ">
                                     <strong>Coordinator:</strong> Joel
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
+                                <div class="col-sm-6 bottom marathon-cell ">
                                     <strong>Treasurer:</strong> Jaime
                                 </div>
 
@@ -247,10 +247,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell text-left-indent">
+                                <div class="col-sm-6 top marathon-cell ">
                                     <strong>Coordinator:</strong> Mario
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
+                                <div class="col-sm-6 bottom marathon-cell ">
                                     <strong>Treasurer:</strong> Jesus Corza
                                 </div>
 
