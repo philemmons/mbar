@@ -176,8 +176,10 @@ nav {
   border-radius: 0;
 }
 
-.dropdown-item{
-  white-space: normal !important;
+@media (min-width: 992px) {
+  .dropdown-item {
+    white-space: normal !important;
+  }
 }
 
 
@@ -568,7 +570,7 @@ iframe {
   }
 
   .row.g-0.mb-4 [class^="col"].middle {
-    border-top: 0 !important; 
+    border-top: 0 !important;
     border-bottom: 0 !important;
     padding: 0rem 0.25rem !important;
   }
@@ -672,10 +674,4 @@ dl {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-}
-
-/**** marathon meeting text left with indent ****/
-
-.dropdown-item{
-  
 }
