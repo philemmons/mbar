@@ -93,9 +93,13 @@ include_once 'header-bottom.inc'
                                 <br>
                                 <a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
                             </p>
-                            <p class="card-text">¡Prepárese para sumergirse! ¡Nuestro calendario de eventos ya está disponible! Pronto se revelarán más detalles a medida que la trama se complique.
+                            <p class="card-text">¡Prepárate para sumergirte! ¡Nuestro calendario de eventos ya está disponible! Pronto se darán a conocer más detalles a medida que la trama se complique.
                             </p>
-                            <p class="card-text">Se han anunciado los oradores destacados de Al-Anon y Alateen - <a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf">¡Eche un vistazo a nuestro último folleto!<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="pdf/spanish-aa-marathon-2024.pdf">¡El calendario de reuniones del Maratón de A.A. para hispanohablantes ya está disponible!<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
+                            </p>
+                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="pdf/final-aa-marathon-meeting-2024.pdf">Más reuniones de A.A. ¡Se han programado reuniones de maratón!<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            </p>
+                            <p class="card-text"><a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Se han anunciado los oradores destacados de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -129,18 +133,21 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Reuniones Maratonianas
                             </p>
-                            <p class="card-text">Las reuniones maratonianas son una parte crucial de las convenciones de A.A. y Al-Anon porque brindan apoyo y compañerismo continuos para todos. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
+                            <p class="card-text">Las reuniones de maratón son una parte crucial de las convenciones de A.A. y Al-Anon porque brindan apoyo y compañerismo continuos para todos. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
                                 <br><br>
-                                Si desea brindar servicio, ser orador en una reunión o enviar su programa de reuniones maratonianas, comuníquese con nuestro presidente de maratones de A.A.: Mark S. o con nuestra presidenta de maratones de Al-Anon: Olya O.
+                                Si desea brindar servicio, ser orador en una reunión o enviar su programa de reuniones de maratón, comuníquese con nuestro Coordinador de maratón de A.A.: Mark S. o con nuestro Coordinador de habla hispana: Robert o con nuestra Coordinadora de maratón de Al-Anon: Olya O.
                             </p>
                         </div>
 
                         <div class="card-footer text-center">
                             <div class="row">
                                 <div class="col-sm-6 text-center mb-2 mb-sm-0">
-                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A.</a></small>
+                                    <small class="text-body-secondary"><a href="aa-spanish-marathon-2024.php" class="btn btn-primary">Reuniones de A.A. en español</a></small>
                                 </div>
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A. en español Reuniones</a></small>
+                                </div>
+                                <div class="col-sm-12 text-center">
                                     <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Reuniones de Al-Anon</a></small>
                                 </div>
                             </div>
@@ -190,9 +197,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
                             </p>
-                            <p class="card-text">¡Nos complace anunciar el lanzamiento de nuestro nuevo sitio web traducido al español! Esta mejora tiene como objetivo hacer que nuestros recursos e información sean más accesibles para nuestros miembros hispanohablantes.
+                            <p class="card-text">¡Estamos comprometidos con nuestra Comunidad de A.A. de habla hispana!
                                 <br><br>
-                                Explore todas las funciones y el contenido que ahora están disponibles en español. Esperamos que esta actualización mejore su experiencia y nos permita brindarle un mejor servicio.
+                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.), la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
                             </p>
                         </div>
                         <div class="card-footer text-center">

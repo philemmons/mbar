@@ -198,9 +198,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
                             </p>
-                            <p class="card-text">We are thrilled to announce the launch of our newly translated website in Spanish! This enhancement aims to make our resources and information more accessible to our Spanish-speaking members.
+                            <p class="card-text">We're committed to our Spanish-Speaking A.A. Fellowship!
                                 <br><br>
-                                Explore all the features and content now available in Spanish. We hope this update enhances your experience and allows us to serve you better.
+                                Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.), inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
                             </p>
                         </div>
                         <div class="card-footer text-center">
