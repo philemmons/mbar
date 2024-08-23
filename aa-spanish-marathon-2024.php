@@ -81,13 +81,13 @@ include_once 'header-bottom.inc'
                             <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Marathon Schedule 2024</h3>
                             <p class="mb-6 h5 text-dark">Presenting our current lineup, and if you would like to be of service, or have a question, then please contact our Spanish Chairs: Roberto or Jose.
                                 <br><br>
-                                God,
-                                <br>
-                                Grant Me The Serenity To Accept The Things I Cannot Change,
-                                <br>
-                                The Courage To Change The Things I Can, And
-                                <br>
-                                The Wisdom To Know The Difference.
+                                <strong>God,
+                                    <br>
+                                    Grant Me The Serenity To Accept The Things I Cannot Change,
+                                    <br>
+                                    The Courage To Change The Things I Can, And
+                                    <br>
+                                    The Wisdom To Know The Difference.</strong>
                             </p>
                         </section>
                     </div>
@@ -107,11 +107,11 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday August 31st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>First Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>10:00am to 11:30am</strong>
                                 </div>
 
@@ -141,11 +141,11 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>Second Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>1:30pm to 3:00pm</strong>
                                 </div>
 
@@ -179,11 +179,11 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday September 1st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>First Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>10:00am to 11:30am</strong>
                                 </div>
 
@@ -213,11 +213,11 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>Second Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>1:00pm to 2:30pm</strong>
                                 </div>
 
@@ -230,7 +230,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-6 top marathon-cell">
-                                 Sofia - Alborada
+                                    Sofia - Alborada
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell">
                                     Topic: Service
@@ -238,18 +238,18 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-6 top marathon-cell">
-                                   Claudia - La Desicion de to Vida
+                                    Claudia - La Desicion de to Vida
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell">
                                     Topic: Dependence
                                 </div>
 
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>Third Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell">
+                                <div class="col-sm-12 text-center marathon-cell fs-3">
                                     <strong>3:00pm to 4:30pm</strong>
                                 </div>
 
@@ -270,7 +270,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-6 top marathon-cell">
-                                   Juan - Oxford
+                                    Juan - Oxford
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell">
                                     Topic: Ways to Carry the A.A. Message
