@@ -74,7 +74,7 @@ include_once 'header-bottom.inc'
     <!-- Part One -->
     <article aria-label="A.A. Marathon Meetings Title">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
@@ -94,7 +94,7 @@ include_once 'header-bottom.inc'
 
     <aside id="serenity" aria-label="prayer-card">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
 
@@ -309,18 +309,28 @@ include_once 'header-bottom.inc'
 
 
     <!-- Part Five -->
-    <aside aria-label="Why we have marathon meetings">
+    <aside aria-label="Why we have spanish speaking meetings">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Why marathon meetings?">
-                            <h4 class="card-title mb-3">Why A.A. Has Marathon Meetings During Conventions?</h4>
-                            <p>Marathon meetings are a crucial part of A.A. conventions because they provide continuous support and fellowship for attendees. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
+                        <section aria-label="Spanish speaking meeting reasons">
+                            <h4 class="card-title mb-3">Why A.A. Has Spanish Speaking Meeting?</h4>
+                            <p>Alcoholics Anonymous (AA) offers Spanish-speaking meetings to ensure that the program is accessible to a diverse group of people, including those whose primary language is Spanish. Here are some key reasons:
                             </p>
-                            <p>For many, conventions can be emotionally intense, triggering memories or feelings that require immediate attention and support. Marathon meetings address this by providing a safe, welcoming environment where members can connect with others at any time, day or night. This continuous availability is vital in helping members stay grounded, especially those who may be struggling with cravings, emotions, or difficult experiences during the convention.
-                            </p>
-                            <p>Additionally, marathon meetings foster a sense of community and inclusivity, ensuring that everyone, regardless of their schedule, has the opportunity to participate in meetings. They symbolize the commitment of A.A. to be there for its members whenever they need it, reinforcing the principles of unity and mutual aid that are at the heart of the A.A. program.
+
+                            <ul>
+                                <li><strong>Cultural Relevance:</strong> Language is deeply connected to culture. Spanish-speaking meetings allow participants to share their experiences, struggles, and recovery journeys in a way that resonates with their cultural background.
+                                </li>
+                                <li><strong>Comfort and Understanding:</strong> Many individuals feel more comfortable expressing themselves in their native language. Spanish-speaking meetings create an environment where participants can speak freely and be understood without language barriers.
+                                </li>
+                                <li><strong>Inclusivity:</strong> A.A. aims to be inclusive and available to everyone, regardless of language. By offering meetings in various languages, A.A. ensures that non-English speakers have equal access to support and resources.
+                                </li>
+                                <li><strong>Community Support:</strong> Spanish-speaking meetings help build a sense of community among Spanish-speaking individuals, fostering connections and mutual support, which are essential elements of the A.A. recovery process.
+                                </li>
+                            </ul>
+
+                            <p>These meetings are part of A.A.'s broader commitment to providing support to people of all backgrounds in their journey toward recovery.
                             </p>
                         </section>
                     </div>
