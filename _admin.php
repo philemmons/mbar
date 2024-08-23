@@ -229,6 +229,7 @@ function displayTeeShirt($sqlTable)
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
+                        <a class="dropdown-item" href="aa-spanish-marathon-2024.php">Spanish-Speaking A.A. Marathon Meetings</a>
                         <a class="dropdown-item" href="aa-marathon-2024.php">A.A. Marathon Meetings</a>
                         <a class="dropdown-item" href="al-anon-marathon-2024.php">Al-Anon Marathon Meetings</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
