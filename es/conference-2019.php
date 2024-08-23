@@ -650,7 +650,7 @@ include_once 'header-bottom.inc'
                                 <li>Sábado - 2,5 horas</li>
                                 <li>Domingo - 3,0 horas</li>
                             </ul>
-                            <p><strong class="text-uppercase"><span style="font-style: italic;">Nota:</span> Las normas de accesibilidad de la ADA están sujetas a cambios según los nuevos horarios, horarios de reserva y ubicaciones.</strong>
+                            <p><strong><span style="font-style: italic;">Nota:</span> Las normas de accesibilidad de la ADA están sujetas a cambios según los nuevos horarios, horarios de reserva y ubicaciones.</strong>
                             </p>
                         </section>
                     </div>

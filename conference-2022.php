@@ -530,13 +530,13 @@ include_once 'header-bottom.inc'
                             </p>
                             <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2022 will provide two ASL Interpreters on these days:</strong>
                             </p>
-                            
+
                             <ul>
                                 <li>Saturday - 2.5 hours</li>
                                 <li>Sunday - 3.0 hours</li>
                             </ul>
 
-                            <p><strong class="text-uppercase"><span style="font-style: italic;">Please Note:</span> ADA accessibility's are subject to change with the new schedules, reservation times, and locations.</strong>
+                            <p><strong><span style="font-style: italic;">Please Note:</span> ADA accessibility's are subject to change with the new schedules, reservation times, and locations.</strong>
                             </p>
 
                         </section>
