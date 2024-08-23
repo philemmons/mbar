@@ -94,19 +94,21 @@ include_once 'header-bottom.inc'
 
     <aside id="serenity" aria-label="prayer-card">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
 
                         <section aria-label="serenity-prayer">
-                            <h3 class="white-on-black p-2 mt-2 text-center">God,
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Serenity Prayer</h3>
+                            <p class="mb-6 h5 text-dark">
+                                God,
                                 <br>
                                 Grant Me The Serenity To Accept The Things I Cannot Change,
                                 <br>
                                 The Courage To Change The Things I Can, And
                                 <br>
                                 The Wisdom To Know The Difference.
-                            </h3>
+                            </p>
                         </section>
 
                     </div>
