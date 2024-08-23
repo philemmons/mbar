@@ -61,7 +61,7 @@ include_once 'header-bottom.inc'
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="2024 A.A. Marathon Meetings">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">2024 A.A. Spanish Marathon Meetings</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Spanish-Speaking A.A. Marathon Meetings 2024</h2>
                     <p class="mb-6 h5 text-dark">Throughout Labor Day weekend, we will have A.A and Al-Anon meetings in Spanish and English.
                         <br>
                         <strong>Marathon Meetings are open to <em>all</em>, no registration is required.</strong>
@@ -78,15 +78,16 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">A.A. Spanish Marathon Schedule</h3>
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Spanish Marathon Schedule</h3>
                             <p class="mb-6 h5 text-dark">Presenting our current lineup. If you would like to be of service, or have a question, then please contact our Spanish Chair: Roberto or Jose.
                                 <br><br>
-                                God,<br>
-                                Grant me the Serenity to Accept the Things I cannot change,
+                                God,
                                 <br>
-                                the Courage to Change the Things I can,
+                                Grant Me The Serenity To Accept The Things I Cannot Change,
                                 <br>
-                                and the Wisdom to KNow the Difference.
+                                The Courage To Change The Things I Can, And
+                                <br>
+                                The Wisdom To Know The Difference.
                             </p>
                         </section>
                     </div>
@@ -103,7 +104,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Saturday's Spanish A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming MBAR Saturday August 31, 2024</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming MBAR Saturday August 31st, 2024</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center marathon-cell">
