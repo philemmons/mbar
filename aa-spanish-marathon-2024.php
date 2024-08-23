@@ -20,8 +20,8 @@ include_once 'header-bottom.inc'
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-conference" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conference</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-conference">
                         <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                        <a class="dropdown-item active" aria-current="page" href="aa-spanish-marathon-2024.php">A.A. Spanish Marathon Meetings<span class="visually-hidden">(current)</span></a>
-                        <a class="dropdown-item" href="aa-marathon-2024.php">A.A. English Marathon Meetings</span></a>
+                        <a class="dropdown-item active" aria-current="page" href="aa-spanish-marathon-2024.php">Spanish-Speaking A.A. Marathon Meetings<span class="visually-hidden">(current)</span></a>
+                        <a class="dropdown-item" href="aa-marathon-2024.php">A.A. Marathon Meetings</span></a>
                         <a class="dropdown-item" href="al-anon-marathon-2024.php">Al-Anon Marathon Meetings</a>
                         <a class="dropdown-item" href="register-now.php">Registration</a>
                         <a class="dropdown-item" href="activities.php">Activities</a>
@@ -316,7 +316,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Spanish speaking meeting reasons">
                             <h4 class="card-title text-center mb-3">Why A.A. Has Spanish Speaking Meeting?</h4>
-                            <p>Alcoholics Anonymous (AA) offers Spanish-speaking meetings to ensure that the program is accessible to a diverse group of people, including those whose primary language is Spanish. Here are some key reasons:
+                            <p>Alcoholics Anonymous(A.A.) offers Spanish-speaking meetings to ensure that the program is accessible to a diverse group of people, including those whose primary language is Spanish. Here are some key reasons:
                             </p>
 
                             <ul>
