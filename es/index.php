@@ -95,11 +95,11 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">¡Prepárate para sumergirte! ¡Nuestro calendario de eventos ya está disponible! Pronto se darán a conocer más detalles a medida que la trama se complique.
                             </p>
-                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="pdf/spanish-aa-marathon-2024.pdf">¡El calendario de reuniones del Maratón de A.A. para hispanohablantes ya está disponible!<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
+                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="../pdf/spanish-aa-marathon-2024.pdf">¡El calendario de reuniones del Maratón de A.A. para hispanohablantes ya está disponible!<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
                             </p>
-                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="pdf/final-aa-marathon-meeting-2024.pdf">Más reuniones de A.A. ¡Se han programado reuniones de maratón!<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="../pdf/final-aa-marathon-meeting-2024.pdf">Más reuniones de A.A. ¡Se han programado reuniones de maratón!<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                             </p>
-                            <p class="card-text"><a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Se han anunciado los oradores destacados de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            <p class="card-text"><a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf">Se han anunciado los oradores destacados de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
