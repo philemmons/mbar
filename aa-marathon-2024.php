@@ -82,7 +82,7 @@ include_once 'header-bottom.inc'
                             <p class="mb-6 h5 text-dark">As of today, this is our lineup. If you would like to be of service, or be a speaker at a meeting, or submit your marathon meeting schedule, then please contact our Marathon Chair: Mark S.
                             </p>
                             <p class="mb-6 h5 text-dark mb-3"><strong>Location: Colton 1</strong></p>
-                            <a class="bb-link" href="pdf/final-aa-marathon-2024.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">A.A. Marathon Meeting Schedule<span class="sr-only">(Open pdf in browser)</span></a>
+                            <a class="bb-link" href="pdf/final-aa-marathon-meeting-2024.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">A.A. Marathon Meeting Schedule<span class="sr-only">(Open pdf in browser)</span></a>
                         </section>
                     </div>
                 </div>
