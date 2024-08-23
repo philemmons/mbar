@@ -104,7 +104,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Saturday's Spanish A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday August 31st</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>Saturday August 31st</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center marathon-cell fs-4">
@@ -117,10 +117,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
-                                    Coordinator: Jesus
+                                    <strong>Coordinator:</strong> Jesus
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell text-left-indent">
-                                    Treasurer: Angel
+                                    <strong>Treasurer:</strong> Angel
                                 </div>
 
 
@@ -150,10 +150,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
-                                    Coordinator: Artemio
+                                    <strong>Coordinator:</strong> Artemio
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell text-left-indent">
-                                    Treasurer: Geolfredo
+                                    <strong>Treasurer:</strong> Geolfredo
                                 </div>
 
 
@@ -176,7 +176,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Sunday's A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday September 1st</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>Saturday September 1st</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center marathon-cell fs-4">
@@ -189,10 +189,10 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
-                                    Coordinator: Raul
+                                    <strong>Coordinator:</strong> Raul
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell text-left-indent">
-                                    Treasurer: Norberto
+                                    <strong>Treasurer:</strong> Norberto
                                 </div>
 
 
@@ -222,10 +222,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
-                                    Coordinator: Joel
+                                    <strong>Coordinator:</strong> Joel
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell text-left-indent">
-                                    Treasurer: Jaime
+                                    <strong>Treasurer:</strong> Jaime
                                 </div>
 
 
@@ -254,10 +254,10 @@ include_once 'header-bottom.inc'
                                 </div>
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
-                                    Coordinator: Mario
+                                    <strong>Coordinator:</strong> Mario
                                 </div>
                                 <div class="col-sm-6 bottom marathon-cell text-left-indent">
-                                    Treasurer: Jesus Corza
+                                    <strong>Treasurer:</strong> Jesus Corza
                                 </div>
 
 
