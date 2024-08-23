@@ -95,7 +95,11 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Get ready to dive in! Our event schedule is now live! More details will be unveiled shortly as the plot thickens.
                             </p>
-                            <p class="card-text">Featured Al-Anon and Alateen Speakers have been Announced - <a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Take a look at our latest flyer!<span class="sr-only">(Open pdf in browser)</span></a>
+                            <p class="card-text"><strong>New</strong> - <a class="bb-link" href="pdf/spanish-aa-marathon-2024.pdf">Spanish-Speaker A.A. Marathon Meetings Schedule is live!<span class="sr-only">(Open pdf in browser)</span></a>
+                            </p>
+                            <p class="card-text"><strong>New</strong> - <a class="bb-link" href="pdf/final-aa-marathon-meeting-2024.pdf">Even more A.A. Marathon Meetings have been scheduled!<span class="sr-only">(Open pdf in browser)</span></a>
+                            </p>
+                            <p class="card-text"><a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Featured Al-Anon and Alateen Speakers have been Announced<span class="sr-only">(Open pdf in browser)</span></a>
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -131,16 +135,19 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">Marathon meetings are a crucial part of A.A. and Al-Anon conventions because they provide continuous support and fellowship for all. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                                 <br><br>
-                                If you would like to be of service, or be a speaker at a meeting or submit your marathon meeting schedule, please contact our A.A Marathon Chair: Mark S. or our Al-Anon Marathon Chair: Olya O.
+                                If you would like to be of service, or be a speaker at a meeting or submit your marathon meeting schedule, please contact our A.A Marathon Chair: Mark S. or our Spanish-Speaking Chair: Robert or our Al-Anon Marathon Chair: Olya O.
                             </p>
                         </div>
 
                         <div class="card-footer text-center">
                             <div class="row">
                                 <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                    <small class="text-body-secondary"><a href="aa-spanish-marathon-2024.php" class="btn btn-primary">Spanish A.A. Meetings</a></small>
+                                </div>
+                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
                                     <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Meetings</a></small>
                                 </div>
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-12 text-center">
                                     <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Meetings</a></small>
                                 </div>
                             </div>
