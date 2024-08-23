@@ -145,7 +145,7 @@ include_once 'header-bottom.inc'
                                     <small class="text-body-secondary"><a href="aa-spanish-marathon-2024.php" class="btn btn-primary">Reuniones de A.A. en Español</a></small>
                                 </div>
                                 <div class="col-sm-6 text-center mb-2 mb-sm-0">
-                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A.</a></small>
+                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A. en Inglés</a></small>
                                 </div>
                                 <div class="col-sm-12 text-center mt-sm-2">
                                     <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Reuniones de Al-Anon</a></small>
