@@ -80,15 +80,11 @@ include_once 'header-bottom.inc'
                         <section aria-label="A.A. Marathon Schedule">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Marathon Schedule 2024</h3>
                             <p class="mb-6 h5 text-dark">Presenting our current lineup, and if you would like to be of service, or have a question, then please contact our Spanish Chairs: Roberto or Jose.
-                                <br><br>
-                                <strong>God,
-                                    <br>
-                                    Grant Me The Serenity To Accept The Things I Cannot Change,
-                                    <br>
-                                    The Courage To Change The Things I Can, And
-                                    <br>
-                                    The Wisdom To Know The Difference.</strong>
                             </p>
+
+                            <p class="mb-6 h5 text-dark mb-3"><strong>Location: Steinbeck 1a</strong></p>
+                            <a class="bb-link" href="pdf/spanish-aa-marathon-2024.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Spanish-Speaking A.A. Marathon Meeting Schedule<span class="sr-only">(Open pdf in browser)</span></a>
+
                         </section>
                     </div>
                 </div>
@@ -96,8 +92,31 @@ include_once 'header-bottom.inc'
         </div>
     </article>
 
+    <aside id="serenity" aria-label="prayer-card">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
+
+                        <section aria-label="serenity-prayer">
+                            <h3 class="white-on-black p-2 mt-2 text-center">God,
+                                <br>
+                                Grant Me The Serenity To Accept The Things I Cannot Change,
+                                <br>
+                                The Courage To Change The Things I Can, And
+                                <br>
+                                The Wisdom To Know The Difference.
+                            </h3>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
     <!-- Part Two-->
-    <article id="schedule" aria-label="A.A. Meetings - Spanish">
+    <article id="schedule" aria-label="A.A. Meetings in Spanish">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -242,7 +261,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-sm-12 text-center marathon-cell fs-5">
                                     <strong>Third Meeting
-                                        <br>  
+                                        <br>
                                         3:00pm to 4:30pm</strong>
                                 </div>
 
