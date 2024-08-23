@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>MBAR - A.A. Spanish Marathon Meetings 2024</title>";
+echo "<title>MBAR - Spanish-Speaking A.A. Marathon Meetings 2024</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/aa-spanish-marathon-2024.php" >';
 include_once 'header-bottom.inc'
 ?>
@@ -76,9 +76,9 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Cultural, Inclusive, and Understanding">
                         <section aria-label="A.A. Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Marathon Schedule 2024</h3>
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Spanish-Speaking A.A. Marathon Schedule 2024</h3>
                             <p class="mb-6 h5 text-dark">Presenting our current lineup, and if you would like to be of service, or have a question, then please contact our Spanish Chairs: Roberto or Jose.
                             </p>
 
@@ -96,7 +96,7 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
+                    <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="serenity-prayer">
                             <h3 class="fw-bold text-dark px-3 px-md-0">Serenity Prayer</h3>
