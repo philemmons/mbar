@@ -176,6 +176,10 @@ nav {
   border-radius: 0;
 }
 
+.dropdown-item{
+  white-space: normal !important;
+}
+
 
 .navbar-nav>li>a:hover,
 .navbar-nav>li>button:hover,
@@ -672,7 +676,6 @@ dl {
 
 /**** marathon meeting text left with indent ****/
 
-.text-left-indent{
-  text-align: left !important;
-  text-indent: 2.5rem !important;
+.dropdown-item{
+  
 }
