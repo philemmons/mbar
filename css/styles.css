@@ -176,7 +176,7 @@ nav {
   border-radius: 0;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .dropdown-item {
     white-space: normal !important;
   }
