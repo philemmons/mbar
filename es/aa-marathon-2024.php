@@ -81,6 +81,8 @@ include_once 'header-bottom.inc'
                             <h3 class=" fw-bold text-dark px-3 px-md-0">Horario del Maratón de A.A. - Inglés</h3>
                             <p class="mb-6 h5 text-dark">A partir de hoy, esta es nuestra programación. Si desea brindar servicio, ser orador en una reunión o enviar su programa de reuniones maratónicas, comuníquese con nuestro Presidente de Reuniones Maratónicas: Mark S.
                             </p>
+                            <p class="mb-6 h5 text-dark mb-3"><strong>Ubicación: Colton 1</strong></p>
+                            <a class="bb-link" href="../pdf/final-aa-marathon.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Programa de la Reunión del Maratón de A.A.<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                         </section>
                     </div>
                 </div>
