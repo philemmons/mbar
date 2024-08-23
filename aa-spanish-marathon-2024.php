@@ -107,12 +107,10 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>Saturday August 31st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>First Meeting</strong>
-                                </div>
-
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>10:00am to 11:30am</strong>
+                                <div class="col-sm-12 text-center marathon-cell fs-5">
+                                    <strong>First Meeting
+                                        <br>
+                                        10:00am to 11:30am</strong>
                                 </div>
 
 
@@ -141,13 +139,12 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>Second Meeting</strong>
+                                <div class="col-sm-12 text-center marathon-cell fs-5">
+                                    <strong>Second Meeting
+                                        <br>
+                                        1:30pm to 3:00pm</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>1:30pm to 3:00pm</strong>
-                                </div>
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
                                     <strong>Coordinator:</strong> Artemio
@@ -179,12 +176,10 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>Saturday September 1st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>First Meeting</strong>
-                                </div>
-
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>10:00am to 11:30am</strong>
+                                <div class="col-sm-12 text-center marathon-cell fs-5">
+                                    <strong>First Meeting
+                                        <br>
+                                        10:00am to 11:30am</strong>
                                 </div>
 
 
@@ -213,13 +208,13 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>Second Meeting</strong>
+                                <div class="col-sm-12 text-center marathon-cell fs-5">
+                                    <strong>Second Meeting
+                                        <br>
+                                        1:00pm to 2:30pm</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>1:00pm to 2:30pm</strong>
-                                </div>
+
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
                                     <strong>Coordinator:</strong> Joel
@@ -245,13 +240,12 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>Third Meeting</strong>
+                                <div class="col-sm-12 text-center marathon-cell fs-5">
+                                    <strong>Third Meeting
+                                        <br>  
+                                        3:00pm to 4:30pm</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-4">
-                                    <strong>3:00pm to 4:30pm</strong>
-                                </div>
 
                                 <div class="col-sm-6 top marathon-cell text-left-indent">
                                     <strong>Coordinator:</strong> Mario
