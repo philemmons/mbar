@@ -20,7 +20,7 @@ include_once 'header-bottom.inc'
                          <button class="nav-link dropdown-toggle" type="button" id="dropdown-conferencia" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conferencia</button>
                          <div class="dropdown-menu" aria-labelledby="dropdown-conferencia">
                               <a class="dropdown-item" href="conference-2024.php">MBAR 2024</a>
-                              <a class="dropdown-item" href="aa-spanish-marathon-2024.php">Reuniones de A.A. Marathon de Habla Hispana</a>
+                              <a class="dropdown-item" href="aa-spanish-marathon-2024.php">Reuniones de A.A. Maratón de Habla Hispana</a>
                               <a class="dropdown-item" href="aa-marathon-2024.php">A.A. Reuniones de Maratón</a>
                               <a class="dropdown-item" href="al-anon-marathon-2024.php">Al-Anon Reuniones de Maratón</a>
                               <a class="dropdown-item" href="register-now.php">Registro</a>
