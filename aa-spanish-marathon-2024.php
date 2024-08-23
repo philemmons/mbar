@@ -313,9 +313,9 @@ include_once 'header-bottom.inc'
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                    <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Spanish speaking meeting reasons">
-                            <h4 class="card-title mb-3">Why A.A. Has Spanish Speaking Meeting?</h4>
+                            <h4 class="card-title text-center mb-3">Why A.A. Has Spanish Speaking Meeting?</h4>
                             <p>Alcoholics Anonymous (AA) offers Spanish-speaking meetings to ensure that the program is accessible to a diverse group of people, including those whose primary language is Spanish. Here are some key reasons:
                             </p>
 
