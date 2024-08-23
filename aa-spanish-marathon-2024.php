@@ -107,19 +107,19 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday August 31st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>First Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>10:00am to 11:30am</strong>
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell">
+                                <div class="col-sm-6 top marathon-cell text-left-indent">
                                     Coordinator: Jesus
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell">
+                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
                                     Treasurer: Angel
                                 </div>
 
@@ -141,18 +141,18 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>Second Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>1:30pm to 3:00pm</strong>
                                 </div>
 
-                                <div class="col-sm-6 top marathon-cell">
+                                <div class="col-sm-6 top marathon-cell text-left-indent">
                                     Coordinator: Artemio
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell">
+                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
                                     Treasurer: Geolfredo
                                 </div>
 
@@ -179,19 +179,19 @@ include_once 'header-bottom.inc'
                             <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday September 1st</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>First Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>10:00am to 11:30am</strong>
                                 </div>
 
 
-                                <div class="col-sm-6 top marathon-cell">
+                                <div class="col-sm-6 top marathon-cell text-left-indent">
                                     Coordinator: Raul
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell">
+                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
                                     Treasurer: Norberto
                                 </div>
 
@@ -213,18 +213,18 @@ include_once 'header-bottom.inc'
 
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>Second Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>1:00pm to 2:30pm</strong>
                                 </div>
 
-                                <div class="col-sm-6 top marathon-cell">
+                                <div class="col-sm-6 top marathon-cell text-left-indent">
                                     Coordinator: Joel
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell">
+                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
                                     Treasurer: Jaime
                                 </div>
 
@@ -245,18 +245,18 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>Third Meeting</strong>
                                 </div>
 
-                                <div class="col-sm-12 text-center marathon-cell fs-3">
+                                <div class="col-sm-12 text-center marathon-cell fs-4">
                                     <strong>3:00pm to 4:30pm</strong>
                                 </div>
 
-                                <div class="col-sm-6 top marathon-cell">
+                                <div class="col-sm-6 top marathon-cell text-left-indent">
                                     Coordinator: Mario
                                 </div>
-                                <div class="col-sm-6 bottom marathon-cell">
+                                <div class="col-sm-6 bottom marathon-cell text-left-indent">
                                     Treasurer: Jesus Corza
                                 </div>
 

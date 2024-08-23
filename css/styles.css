@@ -669,3 +669,10 @@ dl {
   margin-left: 0;
   margin-right: 0;
 }
+
+/**** marathon meeting text left with indent ****/
+
+.text-left-indent{
+  text-align: left !important;
+  text-indent: 2.5rem !important;
+}
