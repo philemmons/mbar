@@ -147,7 +147,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-6 text-center mb-2 mb-sm-0">
                                     <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">Reuniones de A.A. en español Reuniones</a></small>
                                 </div>
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center mt-sm-2">
                                     <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Reuniones de Al-Anon</a></small>
                                 </div>
                             </div>
@@ -197,9 +197,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
                             </p>
-                            <p class="card-text">¡Estamos comprometidos con nuestra Comunidad de A.A. de habla hispana!
+                            <p class="card-text">¡Estamos comprometidos con nuestras comunidades de A.A. y Al-Anon de habla hispana!
                                 <br><br>
-                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.), la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
+                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.) y Al-Anon, la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
                             </p>
                         </div>
                         <div class="card-footer text-center">

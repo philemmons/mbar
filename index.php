@@ -141,13 +141,13 @@ include_once 'header-bottom.inc'
 
                         <div class="card-footer text-center">
                             <div class="row">
-                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                <div class="col-sm-7 text-center mb-2 mb-sm-0">
                                     <small class="text-body-secondary"><a href="aa-spanish-marathon-2024.php" class="btn btn-primary">Spanish A.A. Meetings</a></small>
                                 </div>
-                                <div class="col-sm-6 text-center mb-2 mb-sm-0">
+                                <div class="col-sm-5 text-center mb-2 mb-sm-0">
                                     <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Meetings</a></small>
                                 </div>
-                                <div class="col-sm-12 text-center">
+                                <div class="col-sm-12 text-center mt-sm-2">
                                     <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Meetings</a></small>
                                 </div>
                             </div>
@@ -198,9 +198,9 @@ include_once 'header-bottom.inc'
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
                             </p>
-                            <p class="card-text">We're committed to our Spanish-Speaking A.A. Fellowship!
+                            <p class="card-text">We're committed to our Spanish-Speaking A.A. and Al-Anon Fellowships!
                                 <br><br>
-                                Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.), inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
+                                Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.) and Al-Anon, inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
                             </p>
                         </div>
                         <div class="card-footer text-center">
