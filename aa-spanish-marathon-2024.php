@@ -78,8 +78,8 @@ include_once 'header-bottom.inc'
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
                         <section aria-label="A.A. Marathon Schedule">
-                            <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Spanish Marathon Schedule</h3>
-                            <p class="mb-6 h5 text-dark">Presenting our current lineup. If you would like to be of service, or have a question, then please contact our Spanish Chair: Roberto or Jose.
+                            <h3 class="fw-bold text-dark px-3 px-md-0">Spanish- Speaking A.A. Marathon Schedule 2024</h3>
+                            <p class="mb-6 h5 text-dark">Presenting our current lineup, and if you would like to be of service, or have a question, then please contact our Spanish Chairs: Roberto or Jose.
                                 <br><br>
                                 God,
                                 <br>
@@ -104,7 +104,7 @@ include_once 'header-bottom.inc'
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Saturday's Spanish A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming MBAR Saturday August 31st, 2024</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday August 31st</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center marathon-cell">
@@ -176,7 +176,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Sunday's A.A. Meetings">
-                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming MBAR Saturday September 1st, 2024</h3>
+                            <h3 class="white-on-black p-2 mt-2 text-center">Spanish-Speaking Alcoholics Anonymous Programming<br>MBAR Saturday September 1st</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center marathon-cell">
