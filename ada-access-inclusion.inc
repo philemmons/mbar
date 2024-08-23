@@ -23,7 +23,7 @@
                                 <li>Sunday - 3.0 hours</li>
                             </ul>
 
-                            <p><strong><span style="font-style: italic;">Please Note:</span> ADA accessibility's are subject to change with the new schedules, reservation times, and locations.</strong>
+                            <p><strong><span class="text-uppercase">Please Note:</span> ADA accessibility's are subject to change with the new schedules, reservation times, and locations.</strong>
                             </p>
                         </section>
                     </div>
