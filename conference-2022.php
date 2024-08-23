@@ -513,7 +513,7 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Seven -->
-    <aside aria-label="ADA accessibility and inclusion.">
+    <aside aria-label="ADA accessibility and inclusion 2022">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -530,14 +530,15 @@ include_once 'header-bottom.inc'
                             </p>
                             <p><strong><span class="text-uppercase">ADA Accessibility</span> - MBAR 2022 will provide two ASL Interpreters on these days:</strong>
                             </p>
+                            
                             <ul>
                                 <li>Saturday - 2.5 hours</li>
                                 <li>Sunday - 3.0 hours</li>
                             </ul>
-                            <p style="font-style: italic;"><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
+
+                            <p><strong class="text-uppercase"><span style="font-style: italic;">Please Note:</span> ADA accessibility's are subject to change with the new schedules, reservation times, and locations.</strong>
                             </p>
-                            <p class='sr-only'>(This is the above text without italics)><strong class="text-uppercase">Please note:</strong> ADA accessibility's are subject to change with the new schedule, reservation times, and location.
-                            </p>
+
                         </section>
                     </div>
                 </div>

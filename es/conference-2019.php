@@ -628,7 +628,7 @@ include_once 'header-bottom.inc'
     </article>
 
     <!-- Part Seven -->
-    <aside aria-label="Accesibilidad e inclusión de la ADA">
+    <aside aria-label="Accesibilidad e inclusión de la ADA 2019">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
@@ -650,9 +650,7 @@ include_once 'header-bottom.inc'
                                 <li>Sábado - 2,5 horas</li>
                                 <li>Domingo - 3,0 horas</li>
                             </ul>
-                            <p style="font-style: italic;"><strong class="text-uppercase">Tenga en Cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicación.
-                            </p>
-                            <p class='sr-only'>(Este es el texto anterior sin cursiva.)<strong class="text-uppercase">Tenga en Cuenta:</strong> la accesibilidad ADA está sujeta a cambios con el nuevo horario, horarios de reserva y ubicación.
+                            <p><strong class="text-uppercase"><span style="font-style: italic;">Nota:</span> Las normas de accesibilidad de la ADA están sujetas a cambios según los nuevos horarios, horarios de reserva y ubicaciones.</strong>
                             </p>
                         </section>
                     </div>

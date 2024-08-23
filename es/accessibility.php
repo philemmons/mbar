@@ -101,7 +101,7 @@ include_once 'header-bottom.inc'
                                 <span class="text-dark px-3 px-md-0">Aquí para ti</span>
                             </h4>
 
-                            <p class="mb-3 text-dark">Si tiene alguna dificultad o frustración con algún contenido de montereybayarearoundup.org o necesita ayuda con cualquier parte de nuestro sitio, contáctenos y estaremos encantados de ayudarle.</p>
+                            <p class="mb-3 text-dark">Si tiene <strong>alguna dificultad o frustración</strong> con cualquier contenido de montereybayarearoundup.org o necesita ayuda con alguna parte de nuestro sitio, comuníquese con nosotros y estaremos encantados de ayudarlo.</p>
 
                             <h4 class="fw-bold text-primary">
                                 <span class="text-dark px-3 px-md-0">Contáctenos</span>
