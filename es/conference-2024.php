@@ -361,10 +361,7 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Oradora: <strong>Amelia - 16 años y Cesta-de-Preguntas</strong>
-                                    <br>
-                                    <em>(MBAR cumple con el requisito B-17 NCWSA<br>para la seguridad de Alateen)</em>
-                                    <br>
-                                    Marge S. y Concetta C.
+                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1');?> o Marge S. en <?php echo getenv('mbar-alateen-2');?></p>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
