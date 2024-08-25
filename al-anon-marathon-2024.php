@@ -208,6 +208,7 @@ include_once 'header-bottom.inc'
 
                                 <div class="col-sm-12 text-center feature-speaker">
                                     <strong>1:30pm Amelia M. — Alateen Speaker Meeting</strong>
+                                    <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1');?> or Marge S. at <?php echo getenv('mbar-alateen-2');?></p>
                                 </div>
 
 
