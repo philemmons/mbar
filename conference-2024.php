@@ -133,7 +133,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
                                     <br>
-                                    <strong>Topic:</strong>Experience, Strength, and Hope
+                                    <strong>Topic:</strong> Experience, Strength, and Hope
                                 </div>
 
 
@@ -149,7 +149,8 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Saturday's events">
-                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st - Steinbeck Ballroom 2 and 3</h3>
+                            <h3 class="white-on-black pt-2 mt-2">Saturday, August 31st - Steinbeck Ballroom 2 and 3</h3>
+                            <p class="white-on-black pt-2 fs-5">Steinbeck Ballroom 2 and 3</p>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
