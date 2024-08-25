@@ -149,7 +149,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Saturday's events">
-                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st <br>Steinbeck Ballroom 2 and 3</h3>
+                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st <br>Steinbeck Ballroom (2 and 3)</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
@@ -163,9 +163,13 @@ include_once 'header-bottom.inc'
                                     <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
+                                    A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    <br><br>
+                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br>
+                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                     <br><br>
                                     Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
@@ -263,7 +267,6 @@ include_once 'header-bottom.inc'
                                 </div>
 
 
-
                                 <div class="col-sm-2 top cell-color">
                                     <strong>3:30pm</strong>
                                 </div>
@@ -284,7 +287,7 @@ include_once 'header-bottom.inc'
                                     <strong>7:30pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                   <strong>A.A. Speaker Meeting</strong>
+                                    <strong>A.A. Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Krystal M., Sacramento, CA</strong>
                                     <br><br>
@@ -299,7 +302,7 @@ include_once 'header-bottom.inc'
                                     How It Works: Mark F.<br>
                                     A Vision For You: Micah C.<br>
                                     A Vision for You(Spanish): Robert<br>
-                                    Closing Prayer: Phillip E.<br>
+                                    Closing Prayer: Phillip E.
                                 </div>
 
 
@@ -315,7 +318,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                <strong>Round Up Prize Raffle and 50/50 Drawing - Must be present to win</strong>
+                                    <strong>Round Up Prize Raffle and 50/50 Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -325,7 +328,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                <strong>Fun and Fellowship Masquerade Dance</strong>
+                                    <strong>Fun and Fellowship Masquerade Dance</strong>
                                 </div>
 
 
@@ -333,7 +336,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Sunday's events">
-                            <h3 class="white-on-black py-2 mt-2">Sunday, September 1st</h3>
+                            <h3 class="white-on-black py-2 mt-2">Sunday, September 1st <br>Steinbeck Ballroom (2 and 3)</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top">
@@ -359,26 +362,10 @@ include_once 'header-bottom.inc'
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
-                                </div>
-
-
-                                <div class="col-sm-2 top marathon-cell">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-10 bottom marathon-cell">
-                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br><br>
+                                    Al-Anon(English\Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    <a href="#" class="bb-link">(See insert for scheduled times)</a>
-                                </div>
-
-
-                                <div class="col-sm-2 top marathon-cell">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1c</strong>
-                                    <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)?</a>
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -386,10 +373,12 @@ include_once 'header-bottom.inc'
                                     <strong>9:30am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. Panel - Experience Exchange: Foundation for the Future
+                                    <strong>A.A. Panel - Experience Exchange: Foundation for the Future<strong>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
+                                    <br><br>
+                                    Secretary: Maryam H.
                                 </div>
 
 
@@ -397,9 +386,9 @@ include_once 'header-bottom.inc'
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A. Spanish Speaking Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (See insert for locations and times)
+                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -407,12 +396,20 @@ include_once 'header-bottom.inc'
                                     <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    Al-Anon Speaker Meeting
+                                    <strong>Al-Anon Speaker Meeting </strong>
                                     <br>
-                                    <strong>(ASL Interpretation Provided)</strong>
+                                    Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
+                                    <br><br>
+                                    Secretary - Jane H.
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
+                                    Serenity Prayer: Terrill K.<br>
+                                    Al-Anon Welcome Natalie A.<br>
+                                    Al-Anon Preamble: Michelle M.<br>
+                                    Al-Anon Twelve Steps: Natalie S.<br>
+                                    Al-Anon Closing: Liz M.
                                 </div>
 
 
@@ -420,7 +417,7 @@ include_once 'header-bottom.inc'
                                     <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Paint Party - <strong>Stevenson 2</strong>
+                                    <strong>Paint Party -Stevenson 2</strong>
                                 </div>
 
 
@@ -428,7 +425,7 @@ include_once 'header-bottom.inc'
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Werewolf Fellowship Game - <strong>Stevenson 2</strong>
+                                    <strong>Werewolf Fellowship Game - Stevenson 2</strong>
                                 </div>
 
 
@@ -436,12 +433,21 @@ include_once 'header-bottom.inc'
                                     <strong>1:30am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    Alateen Speaker Meeting
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                    <strong>Alateen Speaker Meeting</strong>
+                                    <br>
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
-
+                                    <br><br>
+                                    Secretary: Marge S.(Chair)
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
+                                </div>
+                                <div class="col-sm-5 bottom feature-speaker">
+                                    Open with Serenity Prayer<br>
+                                    Al-Anon Welcome: Jody E.<br>
+                                    Al-Anon Preamble: Susan A.<br>
+                                    Al-Anon Twelve Steps: Jackie H.<br>
+                                    Al-Anon Closing: Concetta C.<br>
                                 </div>
 
 
@@ -449,7 +455,7 @@ include_once 'header-bottom.inc'
                                     <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Cornhole and Fellowship Hour - <strong>Stevenson 2</strong>
+                                    <strong>Cornhole and Fellowship Hour - Stevenson 2</strong>
                                 </div>
 
 
@@ -457,7 +463,7 @@ include_once 'header-bottom.inc'
                                     <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Ice Cream Social - <strong>2nd Floor Terrace</strong>
+                                    <strong>Ice Cream Social - 2nd Floor Terrace</strong>
                                 </div>
 
 
@@ -465,7 +471,7 @@ include_once 'header-bottom.inc'
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    A.A. Trivia: General Service - <strong>Stevenson 2</strong>
+                                    <strong>A.A. Trivia: General Service - Stevenson 2</strong>
                                 </div>
 
 
@@ -473,12 +479,22 @@ include_once 'header-bottom.inc'
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A.Speaker Meeting
+                                    <strong>A.A. Speaker Meeting</strong>
                                     <br>
-                                    <strong>(ASL Interpretation Provided)</strong>
+                                    Speaker: <strong>Dean S., Salinas, CA</strong>
+                                    <br><br>
+                                    Secretary : Roger M.
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Speaker: <strong>Dean S., Salinas, CA</strong>
+                                    Preamble: Samantha C.(English)<br>
+                                    Preamble:Robert(Spanish)<br>
+                                    Traditions: Mark S.<br>
+                                    Chapter Three - More about Alcoholism: Conor R.<br>
+                                    How It Works: Rick<br>
+                                    Vision For You: Naomi B.<br>
+                                    Closing Prayer: Arthur T.
                                 </div>
 
 
@@ -493,7 +509,7 @@ include_once 'header-bottom.inc'
 
 
                                 <div class="col-sm-2 top">
-                                    <strong>9:00pm</strong>
+                                    <strong>7:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
                                     <strong>Conference Ends - Until 2026</strong>
