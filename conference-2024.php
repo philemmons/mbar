@@ -373,7 +373,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:30am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    <strong>A.A. Panel - Experience Exchange: Foundation for the Future<strong>
+                                    <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
