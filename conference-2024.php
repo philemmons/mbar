@@ -132,11 +132,13 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
+                                    <br>
+                                    <strong>Topic:</strong>Experience, Strength, and Hope
                                 </div>
 
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>9:00pm</strong>
+                                    <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     Online 50/50 Drawing
@@ -164,6 +166,9 @@ include_once 'header-bottom.inc'
                                     A.A.(English/Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    <br><br>
+                                    Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
 
@@ -171,7 +176,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(English/Spanish): Marathon Meetings Begin - <strong>Steinbeck 1c</strong>
+                                    Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
@@ -182,9 +187,17 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
                                     A.A. Kick-Off Speaker
+                                    <br>
+                                    Speaker: <strong>Mark S., Salinas, CA</strong>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Speaker: <strong>Mark S., Salinas, CA</strong>
+                                    Secretary: Jean T.<br>
+                                    Preamble: Katherine J.<br>
+                                    Twelve Traditions: Todd S.<br>
+                                    Chapter Three - More About Alcoholism: Arthur T.<br>
+                                    How It Works: Samantha C.<br>
+                                    Vision For You: Aubrey G.<br>
+                                    Closing Prayer: Cole T.
                                 </div>
 
 
@@ -382,8 +395,8 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
-                                    <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1');?> or Marge S. at <?php echo getenv('mbar-alateen-2');?></p>
-                                    
+                                    <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
+
                                 </div>
 
 
@@ -476,11 +489,11 @@ include_once 'header-bottom.inc'
                         </section>
                         <p><strong>Host of MBAR 2024:</strong> Cindy A.
                             <br>
-                            <strong>A.A. Chairperson:</strong> Chris T.  <strong>Al-Anon Chairperson:</strong> Jane P.
+                            <strong>A.A. Chairperson:</strong> Chris T. <strong>Al-Anon Chairperson:</strong> Jane P.
                             <br>
-                            <strong>Co-Chair:</strong> Renee C.  
+                            <strong>Co-Chair:</strong> Renee C.
                             <br>
-                            <strong>Treasurer:</strong> Carolyn H.   <strong>Co-Treasurer:</strong> Jean T.
+                            <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer:</strong> Jean T.
                             <br>
                             <strong>Recording Secretary:</strong> Roger M.
                         </p>
