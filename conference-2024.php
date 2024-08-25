@@ -476,7 +476,7 @@ include_once 'header-bottom.inc'
                         </section>
                         <p><strong>Host of MBAR 2024:</strong> Cindy A.
                             <br>
-                            <strong>A.A. Chairperson:</strong> Chris T.  <strong>Al-Anon Chairperson: Jane P.</strong>
+                            <strong>A.A. Chairperson:</strong> Chris T.  <strong>Al-Anon Chairperson:</strong> Jane P.
                             <br>
                             <strong>Co-Chair:</strong> Renee C.  
                             <br>
