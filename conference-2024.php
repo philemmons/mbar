@@ -141,7 +141,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Online 50/50 Drawing
+                                    <strong>Online 50/50 Drawing</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -221,7 +221,7 @@ include_once 'header-bottom.inc'
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Speed Fellowship - <strong>Stevenson 2</strong>
+                                    <strong>Speed Fellowship - Stevenson 2</strong>
                                 </div>
 
 
@@ -268,7 +268,7 @@ include_once 'header-bottom.inc'
                                     <strong>3:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Goose Chase Scavenger Hunt - <strong>Stevenson 2</strong>
+                                    <strong>Goose Chase Scavenger Hunt - Stevenson 2</strong>
                                 </div>
 
 
@@ -276,7 +276,7 @@ include_once 'header-bottom.inc'
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Meet the Speaker's Dinner - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    <strong>Meet the Speaker's Dinner - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
@@ -284,7 +284,8 @@ include_once 'header-bottom.inc'
                                     <strong>7:30pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. Speaker Meeting
+                                   <strong>A.A. Speaker Meeting</strong>
+                                    <br>
                                     Speaker: <strong>Krystal M., Sacramento, CA</strong>
                                     <br><br>
                                     Secretary: Chris T.<br>
@@ -314,7 +315,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Round Up Prize Raffle and 50/50 Drawing - Must be present to win
+                                <strong>Round Up Prize Raffle and 50/50 Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -324,7 +325,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Fun and Fellowship Masquerade Dance
+                                <strong>Fun and Fellowship Masquerade Dance</strong>
                                 </div>
 
 
@@ -347,7 +348,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Round-Up Breakfast and Bingo Games - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    <strong>Round-Up Breakfast and Bingo Games - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
