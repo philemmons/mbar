@@ -230,30 +230,29 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Speaker Meeting</strong>
-                                    <div class="row">
-                                        <div class="col-sm-6">
+                                    <div class="row gx-1">
+                                        <div class="col-sm-6 border-0">
                                             <strong>Al-Anon Speaker: Shelly S., Newport Beach, CA</strong>
                                             <br><br>
                                             Secretary: Jane H.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 border-0">
                                             Al-Anon Welcome Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps Susan A.<br>
                                             Al-Anon Closing : Dawn C.
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-6">
+                                        <hr>
+                                        <div class="col-sm-6 border-0">
                                             <strong>A.A. Speaker: Denis D., Santa Cruz, CA </strong>
                                             <br><br>
                                             Secretary: Renee C.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 border-0">
                                             Twelve Traditions: Maryam H.<br>
                                             Chapter Three - More About Alcoholism: Paul F.<br>
                                             How It Works: Sean B.<br>
