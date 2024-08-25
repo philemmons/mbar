@@ -149,8 +149,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Saturday's events">
-                            <h3 class="white-on-black pt-2 mt-2">Saturday, August 31st - Steinbeck Ballroom 2 and 3</h3>
-                            <p class="white-on-black pt-2 fs-5">Steinbeck Ballroom 2 and 3</p>
+                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st <br>Steinbeck Ballroom 2 and 3</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
@@ -191,10 +190,10 @@ include_once 'header-bottom.inc'
                                     <strong>A.A. Kick-Off Speaker</strong>
                                     <br>
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
                                     <br><br>
                                     Secretary: Jean T.
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preamble: Katherine J.<br>
@@ -209,10 +208,9 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>11:30am</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-sm-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Double Winner Panel</strong>
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                    <br>
                                     Speaker: <strong>Annette C. and Micha C.</strong>
                                     <br><br>
                                     Secretary: Kathleen S.
@@ -230,11 +228,42 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
-                                    <strong>A.A. / Al-Anon Speaker Meeting<strong>
+                                <div class="col-sm-10 bottom feature-speaker">
+                                    <strong>A.A. / Al-Anon Speaker Meeting</strong>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <strong>Al-Anon Speaker: Shelly S., Newport Beach, CA</strong>
+                                            <br><br>
+                                            Secretary: Jane H.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            Al-Anon Welcome Su C.<br>
+                                            Al-Anon Preamble: Olya O.<br>
+                                            Al-Anon Twelve Steps Susan A.<br>
+                                            Al-Anon Closing : Dawn C.
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <strong>A.A. Speaker: Denis D., Santa Cruz, CA </strong>
+                                            <br><br>
+                                            Secretary: Renee C.
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            Twelve Traditions: Maryam H.<br>
+                                            Chapter Three - More About Alcoholism: Paul F.<br>
+                                            How It Works: Sean B.<br>
+                                            Vision For You: Gina H.<br>
+                                            Closing Prayer: T.C. W.<br>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
                                     <br>
