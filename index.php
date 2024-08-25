@@ -170,6 +170,8 @@ include_once 'header-bottom.inc'
                             </p>
                             <p class="card-text">
                             <ul>
+                                <li><strong>New</strong> - Photo Booths: Capture fun selfies!
+                                </li>
                                 <li>Speed Fellowship-ing
                                 </li>
                                 <li><a class="bb-link" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
