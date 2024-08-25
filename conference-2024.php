@@ -476,12 +476,11 @@ include_once 'header-bottom.inc'
                         </section>
                         <p><strong>Host of MBAR 2024:</strong> Cindy A.
                             <br>
-                            <strong>MBAR Steering Committee</strong>
+                            <strong>A.A. Chairperson:</strong> Chris T.  <strong>Al-Anon Chairperson: Jane P.</strong>
                             <br>
-                            <strong>Chairperson:</strong> Chris T.
-                            <strong>Co-Chair:</strong> Renee C.
+                            <strong>Co-Chair:</strong> Renee C.  
                             <br>
-                            <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer:</strong> Jean T.
+                            <strong>Treasurer:</strong> Carolyn H.   <strong>Co-Treasurer:</strong> Jean T.
                             <br>
                             <strong>Recording Secretary:</strong> Roger M.
                         </p>

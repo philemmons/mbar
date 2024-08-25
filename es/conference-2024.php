@@ -450,10 +450,11 @@ include_once 'header-bottom.inc'
                             <br>
                             <strong>Comité Directivo de MBAR</strong>
                             <br>
-                            <strong>Presidente:</strong> Chris T.
+                            <strong>A.A. Presidente:</strong> Chris T.  <strong>Al-Anon Presidente:</strong> Jane P.   
+                            <br>
                             <strong>Copresidente:</strong> Renee C.
                             <br>
-                            <strong>Tesorera:</strong> Carolyn H. <strong>Cotesorera:</strong> Jean T.
+                            <strong>Tesorera:</strong> Carolyn H.   <strong>Cotesorera:</strong> Jean T.
                             <br>
                             <strong>Secretaria de actas:</strong> Roger M.
                         </p>
