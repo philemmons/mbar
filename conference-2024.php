@@ -404,7 +404,7 @@ include_once 'header-bottom.inc'
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Serenity Prayer: Terrill K.<br>
+                                    Open with Serenity Prayer: Terrill K.<br>
                                     Al-Anon Welcome Natalie A.<br>
                                     Al-Anon Preamble: Michelle M.<br>
                                     Al-Anon Twelve Steps: Natalie S.<br>
@@ -436,7 +436,7 @@ include_once 'header-bottom.inc'
                                     <br>
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
-                                    <br>
+                                    
                                     Secretary: Marge S.(Chair)
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
@@ -488,7 +488,7 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preamble: Samantha C.(English)<br>
-                                    Preamble:Robert(Spanish)<br>
+                                    Preamble: Robert(Spanish)<br>
                                     Traditions: Mark S.<br>
                                     Chapter Three - More about Alcoholism: Conor R.<br>
                                     How It Works: Rick<br>
@@ -501,7 +501,7 @@ include_once 'header-bottom.inc'
                                     <strong>6:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Al-Anon Prize Raffle Drawing - Must be present to win
+                                    <strong>Al-Anon Prize Raffle Drawing - Must be present</strong> to win
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
