@@ -149,7 +149,7 @@ include_once 'header-bottom.inc'
                         </section>
 
                         <section aria-label="Saturday's events">
-                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st</h3>
+                            <h3 class="white-on-black py-2 mt-2">Saturday, August 31st - Steinbeck Ballroom 2 and 3</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
                                     <strong>8:00am</strong>
@@ -187,10 +187,12 @@ include_once 'header-bottom.inc'
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. Kick-Off Speaker
+                                    <strong>A.A. Kick-Off Speaker</strong>
                                     <br>
-                                    <strong>Mark S., Salinas, CA</strong>
+                                    Speaker: <strong>Mark S., Salinas, CA</strong>
                                     <br>
+                                    <em>(ASL Interpretation Provided)</em>
+                                    <br><br>
                                     Secretary: Jean T.
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
@@ -207,10 +209,12 @@ include_once 'header-bottom.inc'
                                     <strong>11:30am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. / Al-Anon Double Winner Panel
+                                    <strong>A.A. / Al-Anon Double Winner Panel</strong>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Speaker: <strong>Annette C. and Micha C.</strong>
+                                    <br><br>
+                                    Secretary: Kathleen S.
                                 </div>
 
 
@@ -226,9 +230,9 @@ include_once 'header-bottom.inc'
                                     <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. / Al-Anon Speaker Meeting
-                                    <br>
-                                    <strong>(ASL Interpretation Provided)</strong>
+                                    <strong>A.A. / Al-Anon Speaker Meeting<strong>
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
