@@ -232,7 +232,7 @@ include_once 'header-bottom.inc'
                                     <strong>A.A. / Al-Anon Speaker Meeting</strong>
                                     <div class="row gx-1">
                                         <div class="col-sm-6 border-0">
-                                            <strong>Al-Anon Speaker: Shelly S., Newport Beach, CA</strong>
+                                            Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
                                             <br><br>
                                             Secretary: Jane H.
                                             <br>
@@ -246,7 +246,7 @@ include_once 'header-bottom.inc'
                                         </div>
                                         <hr>
                                         <div class="col-sm-6 border-0">
-                                            <strong>A.A. Speaker: Denis D., Santa Cruz, CA </strong>
+                                            A.A. Speaker: <strong>Denis D., Santa Cruz, CA </strong>
                                             <br><br>
                                             Secretary: Renee C.
                                             <br>
@@ -262,12 +262,6 @@ include_once 'header-bottom.inc'
                                     </div>
                                 </div>
 
-
-                                <div class="col-sm-5 bottom feature-speaker">
-                                    Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
-                                    <br>
-                                    A.A. Speaker: <strong>Denis D., Santa Cruz, CA</strong>
-                                </div>
 
 
                                 <div class="col-sm-2 top cell-color">
@@ -291,11 +285,28 @@ include_once 'header-bottom.inc'
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
                                     A.A. Speaker Meeting
-                                    <br>
-                                    <strong>(ASL Interpretation Provided)</strong>
+                                    Speaker: <strong>Krystal M., Sacramento, CA</strong>
+                                    <br><br>
+                                    Secretary: Chris T.<br>
+                                    Countdown: Carolyn H. and Arthur T. <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Speaker: <strong>Krystal M., Sacramento, CA</strong>
+                                    Preamble: Kathleen S.<br>
+                                    Twelve Traditions: Jill V.<br>
+                                    Chapter Three - More About Alcoholism: Joel Y.<br>
+                                    How It Works: Mark F.<br>
+                                    A Vision For You: Micah C.<br>
+                                    A Vision for You(Spanish): Robert<br>
+                                    Closing Prayer: Phillip E.<br>
+                                </div>
+
+
+                                <div class="col-sm-2 top cell-color">
+                                    <strong>8:00pm</strong>
+                                </div>
+                                <div class="col-sm-10 bottom cell-color">
+                                    <strong>The Al-Anon Silent Auction Closed</strong>
                                 </div>
 
 
@@ -313,9 +324,7 @@ include_once 'header-bottom.inc'
                                     <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Saturday Night Masquerade Dance - Masks Provided
-                                    <br>
-                                    (Immediately Following Raffle)
+                                    Fun and Fellowship Masquerade Dance
                                 </div>
 
 
