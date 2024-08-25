@@ -168,6 +168,7 @@ include_once 'header-bottom.inc'
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                     <br><br>
                                     Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
+                                    <br>
                                     <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                 </div>
 
@@ -188,10 +189,11 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 middle feature-speaker">
                                     A.A. Kick-Off Speaker
                                     <br>
-                                    Speaker: <strong>Mark S., Salinas, CA</strong>
+                                    <strong>Mark S., Salinas, CA</strong>
+                                    <br>
+                                    Secretary: Jean T.
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Secretary: Jean T.<br>
                                     Preamble: Katherine J.<br>
                                     Twelve Traditions: Todd S.<br>
                                     Chapter Three - More About Alcoholism: Arthur T.<br>
