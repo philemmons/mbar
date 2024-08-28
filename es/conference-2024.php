@@ -165,7 +165,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-marathon-2024.php" class="bb-link">(Ver el inserto para los horarios programados)</a>)
+                                    (<a href="aa-marathon-2024.php" class="bb-link">(er el inserto para los horarios programados</a>)
                                     <br><br>
                                     A.A.(Español): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
@@ -347,15 +347,15 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
+                                    (<a href="aa-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     A.A.(Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     Al-Anon(Inglés\Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
