@@ -378,7 +378,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
-                                <div class="col-sm-10 middle feature-speaker">
+                                <div class="col-sm-10 bottom feature-speaker">
                                     <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                     <br>
                                     Panelist: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
