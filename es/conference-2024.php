@@ -256,7 +256,7 @@ include_once 'header-bottom.inc';
                                             Más Sobre el Alcoholismo: Paul F.<br>
                                             Cómo Funciona: Sean B.<br>
                                             Una Visión Para Ti: Gina H.<br>
-                                            Oración de Cierre: T.C. W.<br>
+                                            Oración de Clausura: T.C. W.<br>
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +294,7 @@ include_once 'header-bottom.inc';
                                     Cómo Funciona: Mark F.<br>
                                     Una visión Para Ti: Micah C.<br>
                                     Una visión Para Ti en Español: Robert<br>
-                                    Oración de Cierre: Phillip E.
+                                    Oración de Clausura: Phillip E.
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
@@ -476,7 +476,7 @@ include_once 'header-bottom.inc';
                                     Más Sobre el Alcoholismo: Conor R.<br>
                                     Cómo Funciona: Rick<br>
                                     Una Visión Para Ti: Naomi B.<br>
-                                    Oración de Cierre: Arthur T.
+                                    Oración de Clausura: Arthur T.
                                 </div>
 
 
