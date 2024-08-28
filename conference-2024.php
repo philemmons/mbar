@@ -134,6 +134,8 @@ include_once 'header-bottom.inc'
                                     Speaker: <strong>Oliver D., Delaware</strong>
                                     <br>
                                     <strong>Topic:</strong> Experience, Strength, and Hope
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
 
 
