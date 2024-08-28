@@ -391,7 +391,7 @@ include_once 'header-bottom.inc';
                                     <em>(Interpretación de ASL proporcionada)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Apertura con Oración de serenidad: Terrill K.<br>
+                                    Apertura con Oración de Serenidad: Terrill K.<br>
                                     Bienvenida de Al-Anon: Natalie A.<br>
                                     Preámbulo de Al-Anon: Michelle M.<br>
                                     Doce Pasos de Al-Anon: Natalie S.<br>
@@ -426,7 +426,7 @@ include_once 'header-bottom.inc';
                                     <em>(Interpretación en lenguaje de señas)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Apertura con la Oración de la serenidad<br>
+                                    Apertura con la Oración de la Serenidad<br>
                                     Bienvenida de Al-Anon: Jody E.<br>
                                     Preámbulo de Al-Anon: Susan A.<br>
                                     Doce Pasos de Al-Anon: Jackie H.<br>
