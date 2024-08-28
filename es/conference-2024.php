@@ -71,32 +71,33 @@ include_once 'header-bottom.inc';
     </div>
 
     <!-- Primera parte -->
-    <article aria-label="Inscripción al evento, motivo, ubicación y unidad">
+    <article aria-label="Registro, motivo, ubicación y unidad del evento">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="La Inscripción está Vivir Activa">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="El registro está activo">
                         <section aria-label="Área de registro">
-                            <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestra próxima reunión de MBAR el fin de semana del Día del Trabajo!</h3>
-                            <p class="h3 text-dark">Reunión Virtual de Lanzamiento por Zoom</p>
-                            <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
+                            <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestro próximo MBAR el fin de semana del Día del Trabajo!</h3>
+                            <p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
+                            <p class="dark-text">30 de Agosto a las 8:00 p. m. PDT
                                 <br>
                                 Orador: Oliver D. de Delaware
                                 <br>
                                 ID de la reunión: <strong>831 4306 2293</strong>
                                 <br>
-                                Código de acceso: <strong>2024</strong>
+                                Código de Acceso: <strong>2024</strong>
                                 <br>
-                                ¡Esta reunión está abierta a todos y lo alentamos a unirse!
+                                ¡Esta reunión está abierta a todos y lo invitamos a unirse!
                             </p>
-                            <p class="h3 text-dark">Reuniones Presenciales</p>
+                            <p class="h3 text-dark">Reuniones en Persona</p>
                             <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                                 <br>
-                                Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
+                                Tenga en cuenta que es necesario registrarse para el evento en persona. ¡Asegúrese de registrarse con anticipación!
                             </p>
                             <a href="register-now.php" class="btn btn-primary mb-2">Regístrese Ahora</a>
-                            <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
+                            <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que esta reunión de MBAR sea un gran éxito!</p>
                         </section>
+
                     </div>
                 </div>
             </div>
@@ -115,15 +116,15 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
-                        <section aria-label="Eventos del Viernes">
-                            <h3 class="white-on-black p-2 mt-2">Viernes por la Noche, 30 de Agosto: Entrada Gratuita para Todos</h3>
+                        <section aria-label="Eventos del viernes">
+                            <h3 class="white-on-black py-2 mt-2">Viernes por la noche, 30 de agosto - Gratis para todos</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>8:00pm</strong>
+                                    <strong>8:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Reunión de Zoom
+                                    <i clase="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Reunión de Zoom
                                     <br>
                                     ID: <strong>831 4306 2293 </strong>
                                     <br>
@@ -131,296 +132,374 @@ include_once 'header-bottom.inc';
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Orador: <strong>Oliver D., Delaware</strong>
+                                    <br>
+                                    <strong>Tema:</strong> Experiencia, fortaleza y esperanza
+                                    <br>
+                                    <em>(Interpretación de ASL proporcionada)</em>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>9:00pm</strong>
+                                    <strong>9:30 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Sorteo 50/50 en Línea
+                                    <strong>Sorteo 50/50 en línea</strong>
                                     <br>
-                                    (Inmediatamente después de la Reunión de Oradores)
+                                    (Inmediatamente después de la reunión de oradores)
                                 </div>
                             </div>
                         </section>
 
                         <section aria-label="Eventos del sábado">
-                            <h3 class="white-on-black p-2 mt-2">Sábado 31 de Agosto</h3>
+                            <h3 class="white-on-black py-2 mt-2">Sábado 31 de agosto <br>Steinbeck Ballroom (2 y 3)</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
-                                    <strong>8:00am</strong>
+                                    <strong>8:00 a. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Inscripción Abierta</strong>
+                                    <strong>Se abre la inscripción</strong>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
-                                    <strong>8:00am</strong>
+                                    <strong>8:00 a. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A. (Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
+                                    A.A. (inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
-                                    <a href="aa-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
+                                    (<a href="aa-marathon-2024.php" class="bb-link">Consulte el anexo para conocer los horarios programados</a>)
+                                    <br><br>
+                                    A.A.(español): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
+                                    <br>
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    <br><br>
+                                    Al-Anon(inglés): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
+                                    <br>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon (Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1c</strong>
+                                    Al-Anon(español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el folleto para conocer los horarios</a>)
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>10:00am</strong>
+                                    <strong>10:00 a. m.</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    A.A. Orador Inaugural
-                                </div>
-
-                                <div class="col-sm-5 bottom feature-speaker">
+                                    <strong>Orador inaugural de A.A.</strong>
+                                    <br>
                                     Orador: <strong>Mark S., Salinas, CA</strong>
+                                    <br><br>
+                                    Secretaria: Jean T.
+                                    <br>
+                                    <em>(Interpretación en lenguaje de señas)</em>
+                                </div>
+                                <div class="col-sm-5 bottom feature-speaker">
+                                    Preámbulo: Katherine J.<br>
+                                    Las Doce Tradiciones: Todd S.<br>
+                                    Más sobre el alcoholismo: Arthur T.<br>
+                                    Cómo funciona: Samantha C.<br>
+                                    Una visión para ti: Aubrey G.<br>
+                                    Oración de clausura: Cole T.
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>11:30am</strong>
+                                    <strong>11:30 am</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
-                                    A.A. / Panel de Ganadores Dobles de Al-Anon
+                                <div class="col-sm-10 bottom feature-speaker">
+                                    <strong>A.A. / Panel de ganadores dobles de Al-Anon</strong>
+                                    <br>
+                                    Panelistas: <strong>Annette C. y Micha C.</strong>
+                                    <br><br>
+                                    Secretaria: Kathleen S.
+                                </div>
 
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
-                                    Oradores: <strong>Annette C. y Micha C.</strong>
-
-                                </div>
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>1:00pm</strong>
-
+                                    <strong>1:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Speed Fellowship - <strong>Stevenson 2</strong>
+                                    <strong>Speed ​​Fellowship - Stevenson 2</strong>
                                 </div>
+
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>2:00pm</strong>
-
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
-                                    A.A. / Reunión de Oradores de Al-Anon
-                                    <br>
-                                    <strong>(Interpretación en lenguaje de señas disponible)</strong>
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
-                                    Orador de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
-                                    <br>
-                                    Orador de A.A.: <strong>Denis D., Santa Cruz, CA</strong>
+                                <div class="col-sm-10 bottom feature-speaker">
+                                    <strong>Reunión de oradores de A.A./Al-Anon</strong>
+                                    <div class="row gx-1">
+                                        <div class="col-sm-6 border-0">
+                                            Orador de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
+                                            <br><br>
+                                            Secretario: Jane H.
+                                            <br>
+                                            <em>(Interpretación de ASL proporcionada)</em>
+                                        </div>
+                                        <div class="col-sm-6 border-0">
+                                            Bienvenida de Al-Anon: Su C.<br>
+                                            Preámbulo de Al-Anon: Olya O.<br>
+                                            Doce Pasos de Al-Anon: Susan A.<br>
+                                            Clausura de Al-Anon: Dawn C.
+                                        </div>
+                                        <hr>
+                                        <div class="col-sm-6 border-0">
+                                            Orador de A.A.: <strong>Denis D., Santa Cruz, CA </strong>
+                                            <br><br>
+                                            Secretaria: Renee C.
+                                            <br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-sm-6 border-0">
+                                            Doce Tradiciones: Maryam H.<br>
+                                            Más sobre el alcoholismo: Paul F.<br>
+                                            Cómo funciona: Sean B.<br>
+                                            Visión para ti: Gina H.<br>
+                                            Oración de cierre: T.C. W.<br>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>3:30pm</strong>
+                                    <strong>3:30 pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Búsqueda del Tesoro Goose Chase - <strong>Stevenson 2</strong>
+                                    <strong>Búsqueda del tesoro Goose Chase - Stevenson 2</strong>
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>5:00pm</strong>
+                                    <strong>5:00 pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Cena de Presentación del Orador - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    <strong>Cena de presentación del orador - Iglesia Luterana de Belén ∆</strong>
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>7:30pm</strong>
+                                    <strong>7:30 pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
-                                    A.A. Reunión de Oradores
+                                <div class="col-sm-5 orador destacado del medio">
+                                    <strong>A.A. Reunión de oradores</strong>
                                     <br>
-                                    <strong>(Interpretación en lenguaje de señas disponible)</strong>
+                                    Oradora: <strong>Krystal M., Sacramento, CA</strong>
+                                    <br><br>
+                                    Secretario: Chris T.<br>
+                                    Cuenta regresiva: Carolyn H. y Arthur T. <br>
+                                    <em>(Interpretación de ASL proporcionada)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Oradora: <strong>Krystal M., Sacramento, CA</strong>
+                                    Preámbulo: Kathleen S.<br>
+                                    Doce tradiciones: Jill V.<br>
+                                    Más sobre el alcoholismo: Joel Y.<br>
+                                    Cómo funciona: Mark F.<br>
+                                    Una visión para ti: Micah C.<br>
+                                    Una visión para ti en español: Robert<br>
+                                    Oración de cierre: Phillip E.
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>8:30pm</strong>
+                                    <strong>8:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Sorteo de Premios Round Up y Sorteo 50/50: Debe Estar Presente para Ganar
+                                    <strong>La Se cierra la subasta silenciosa de Al-Anon</strong>
+                                </div>
+
+                                <div class="col-sm-2 top cell-color">
+                                    <strong>8:30 p. m.</strong>
+                                </div>
+                                <div class="col-sm-10 bottom cell-color">
+                                    <strong>Rifa de premios Round Up y sorteo 50/50: debe estar presente para ganar</strong>
                                     <br>
-                                    (Inmediatamente después de la Reunión de Oradores)
+                                    (Inmediatamente después de la reunión de oradores)
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>9:30pm</strong>
+                                    <strong>9:30 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Baile de Máscaras el Sábado por la Noche: se Proporcionan Máscaras
-                                    <br>
-                                    (Inmediatamente después del sorteo)
+                                    <strong>Baile de máscaras divertido y de camaradería</strong>
                                 </div>
 
                             </div>
                         </section>
 
                         <section aria-label="Eventos del domingo">
-                            <h3 class="white-on-black p-2 mt-2">Domingo 1 de Septiembre</h3>
+                            <h3 class="white-on-black py-2 mt-2">Domingo 1 de septiembre <br>Salón de baile Steinbeck (2 y 3)</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top">
-                                    <strong>8:00am</strong>
+                                    <strong>8:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Inscripción Abierta</strong>
+                                    <strong>Inscripción abierta</strong>
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>8:00am</strong>
+                                    <strong>8:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Desayuno y Juegos de Bingo - <strong>Bethlehem Lutheran Church ∆</strong>
+                                    <strong>Desayuno de fin de semana y juegos de bingo - Iglesia Luterana de Belén ∆</strong>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
-                                    <strong>9:00am</strong>
+                                    <strong>9:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A.(Inglés): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
+                                    A.A.(inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
-                                    <a href="aa-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
-                                </div>
-
-                                <div class="col-sm-2 top marathon-cell">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-10 bottom marathon-cell">
-                                    A.A.(Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1a</strong>
+                                    (<a href="aa-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
+                                    <br><br>
+                                    A.A.(español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    <a href="#" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
-                                </div>
-
-                                <div class="col-sm-2 top marathon-cell">
-                                    <strong>9:00am</strong>
-                                </div>
-                                <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(Inglés/Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1c</strong>
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
+                                    <br><br>
+                                    Al-Anon(inglés\español): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(Ver el Inserto para los Horarios Programados)</a>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
-                                    Panel de A.A. - Intercambio de Experiencias: Fundación para el Futuro
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
-                                    Oradores: <strong>Pasquale C., Lisa M., Mike V. y Naomi B.</strong>
+                                <div class="col-sm-10 bottom orador destacado">
+                                    <strong>Panel A.A. - Intercambio de experiencias: Fundación para el Future</strong>
+                                    <br>
+                                    Panelistas: <strong>Pasquale C., Lisa M., Mike V. y Naomi B.</strong>
+                                    <br><br>
+                                    Secretaria: Maryam H.
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
-                                    <strong>10:00am</strong>
+                                    <strong>10:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Panel de A.A. Comienzan las Reuniones de Habla Hispana: <strong>Steinbeck 1a</strong>
+                                    A.A. (español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (Consulte el Folleto para Conocer las Ubicaciones y los Horarios)
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>11:00am</strong>
+                                    <strong>11:00 am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    Reunión de Oradores de Al-Anon
+                                    <strong>Reunión de oradores de Al-Anon </strong>
                                     <br>
-                                    <strong>(Interpretación en lenguaje de señas disponible)</strong>
+                                    Oradores: <strong>Chris W. y Eileen W., Redding, CA (padres)</strong>
+                                    <br><br>
+                                    Secretaria: Jane H.
+                                    <br>
+                                    <em>(Interpretación de ASL proporcionada)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Oradores: <strong>Chris W. y Eileen W., Redding, CA (Padres)</strong>
+                                    Apertura con oración de serenidad: Terrill K.<br>
+                                    Bienvenida de Al-Anon: Natalie A.<br>
+                                    Preámbulo de Al-Anon: Michelle M.<br>
+                                    Doce Pasos de Al-Anon: Natalie S.<br>
+                                    Clausura de Al-Anon: Liz M.
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>12:00pm</strong>
+                                    <strong>12:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Fiesta de Pintura: <strong>Stevenson 2</strong>
+                                    <strong>Fiesta de pintura - Stevenson 2</strong>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>1:00pm</strong>
+                                    <strong>1:00 pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Juego de la Comunidad de Hombres Lobo - <strong>Stevenson 2</strong>
+                                    <strong>Juego de la Comunidad de Hombres Lobo - Stevenson 2</strong>
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>1:30am</strong>
+                                    <strong>1:30 am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    Reunión de Oradores de Alateen
-                                </div>
-                                <div class="col-sm-5 bottom feature-speaker">
-                                    Oradora: <strong>Amelia - 16 años y Cesta-de-Preguntas</strong>
+                                    <strong>Reunión de oradores de Alateen</strong>
+                                    <br>
+                                    Oradora: <strong>Amelia - 16 años y Ask-it-Basket</strong>
                                     <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1'); ?> o Marge S. en <?php echo getenv('mbar-alateen-2'); ?></p>
+
+                                    Secretaria: Marge S. (Presidenta)
+                                    <br>
+                                    <em>(Interpretación en lenguaje de señas)</em>
+                                </div>
+                                <div class="col-sm-5 bottom feature-speaker">
+                                    Apertura con la oración de la serenidad<br>
+                                    Bienvenida de Al-Anon: Jody E.<br>
+                                    Preámbulo de Al-Anon: Susan A.<br>
+                                    Doce Pasos de Al-Anon: Jackie H.<br>
+                                    Clausura de Al-Anon: Concetta C.<br>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>2:00pm</strong>
+                                    <strong>2:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Hora de Cornhole y Compañerismo - <strong>Stevenson 2</strong>
+                                    <strong>Hora de cornhole y compañerismo: Stevenson 2</strong>
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>3:00pm</strong>
+                                    <strong>3:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    Helado Social - <strong>Terrace del 2.º piso</strong>
+                                    <strong>Helado Social - Terraza del 2do piso</strong>
                                 </div>
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-sm-2top cell-color">
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    A.A. Trivia: Servicio General - <strong>Stevenson 2</strong>
+                                    <strong>Curiosidades de A.A.: Servicio general - Stevenson 2</strong>
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
-                                    Reunión de Oradores de A.A.
+                                    <strong>Reunión de oradores de A.A.</strong>
                                     <br>
-                                    <strong>(Interpretación en lenguaje de señas disponible)</strong>
+                                    Orador: <strong>Dean S., Salinas, CA</strong>
+                                    <br><br>
+                                    Secretario: Roger M.
+                                    <br>
+                                    <em>(Interpretación de ASL proporcionada)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Orador: <strong>Dean S., Salinas, CA</strong>
+                                    Preámbulo: Samantha C.<br>
+                                    Preámbulo en español: Robert<br>
+                                    Doce Tradiciones: Mark S.<br>
+                                    Más sobre el alcoholismo: Conor R.<br>
+                                    Cómo funciona: Rick<br>
+                                    Visión para ti: Naomi B.<br>
+                                    Oración de cierre: Arthur T.
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>6:30pm</strong>
+                                    <strong>6:30 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    Sorteo de premios de Al-Anon: Debe Estar Presente para Ganar
+                                    <strong>Sorteo de premios de Al-Anon: debe estar presente para ganar</strong>
                                     <br>
-                                    (Inmediatamente después de la Reunión de Oradores)
+                                    (Inmediatamente después de la reunión de oradores)
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>9:00pm</strong>
+                                    <strong>7:00 p. m.</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Fin de la Conferencia: Hasta 2026</strong>
+                                    <strong>Fin de la conferencia: hasta 2026</strong>
                                 </div>
 
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <strong>Δ La ubicación del evento es diferente al sitio de la conferencia</strong>
+                                    <strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong>
                                 </div>
                                 <div class="col-sm-6">
-                                    <strong>Descargo de responsabilidad: Este cronograma está sujeto a cambios.</strong>
+                                    <strong>Descargo de responsabilidad: este cronograma está sujeto a cambios.</strong>
                                 </div>
                             </div>
 
@@ -431,6 +510,7 @@ include_once 'header-bottom.inc';
             </div>
         </div>
     </article>
+
 
     <!-- Part Three -->
     <aside aria-label="Información de Inscripción">
