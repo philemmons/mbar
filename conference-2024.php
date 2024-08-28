@@ -491,7 +491,7 @@ include_once 'header-bottom.inc'
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Preamble in English: Samantha C.<br>
+                                    Preamble: Samantha C.<br>
                                     Preamble in Spanish: Robert<br>
                                     Twelve Traditions: Mark S.<br>
                                     More About Alcoholism: Conor R.<br>
