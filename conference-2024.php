@@ -167,7 +167,7 @@ include_once 'header-bottom.inc'
                                     <br>
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                     <br><br>
-                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                     <br><br>
@@ -202,7 +202,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preamble: Katherine J.<br>
                                     Twelve Traditions: Todd S.<br>
-                                    Chapter Three - More About Alcoholism: Arthur T.<br>
+                                    More About Alcoholism: Arthur T.<br>
                                     How It Works: Samantha C.<br>
                                     Vision For You: Aubrey G.<br>
                                     Closing Prayer: Cole T.
@@ -215,7 +215,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Double Winner Panel</strong>
                                     <br>
-                                    Speaker: <strong>Annette C. and Micha C.</strong>
+                                    Panelist: <strong>Annette C. and Micha C.</strong>
                                     <br><br>
                                     Secretary: Kathleen S.
                                 </div>
@@ -243,9 +243,9 @@ include_once 'header-bottom.inc'
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
                                         <div class="col-sm-6 border-0">
-                                            Al-Anon Welcome Su C.<br>
+                                            Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
-                                            Al-Anon Twelve Steps Susan A.<br>
+                                            Al-Anon Twelve Steps: Susan A.<br>
                                             Al-Anon Closing : Dawn C.
                                         </div>
                                         <hr>
@@ -258,7 +258,7 @@ include_once 'header-bottom.inc'
                                         </div>
                                         <div class="col-sm-6 border-0">
                                             Twelve Traditions: Maryam H.<br>
-                                            Chapter Three - More About Alcoholism: Paul F.<br>
+                                            More About Alcoholism: Paul F.<br>
                                             How It Works: Sean B.<br>
                                             Vision For You: Gina H.<br>
                                             Closing Prayer: T.C. W.<br>
@@ -298,10 +298,10 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preamble: Kathleen S.<br>
                                     Twelve Traditions: Jill V.<br>
-                                    Chapter Three - More About Alcoholism: Joel Y.<br>
+                                    More About Alcoholism: Joel Y.<br>
                                     How It Works: Mark F.<br>
                                     A Vision For You: Micah C.<br>
-                                    A Vision for You(Spanish): Robert<br>
+                                    A Vision for You in Spanish: Robert<br>
                                     Closing Prayer: Phillip E.
                                 </div>
 
@@ -363,6 +363,10 @@ include_once 'header-bottom.inc'
                                     <br>
                                     <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
                                     <br><br>
+                                    A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
+                                    <br>
+                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    <br><br>
                                     Al-Anon(English\Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
                                     <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
@@ -375,7 +379,7 @@ include_once 'header-bottom.inc'
                                 <div class="col-sm-10 middle feature-speaker">
                                     <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                     <br>
-                                    Speakers: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
+                                    Panelist: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
                                     <br><br>
                                     Secretary: Maryam H.
                                 </div>
@@ -399,13 +403,13 @@ include_once 'header-bottom.inc'
                                     <br>
                                     Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
                                     <br><br>
-                                    Secretary - Jane H.
+                                    Secretary: Jane H.
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Open with Serenity Prayer: Terrill K.<br>
-                                    Al-Anon Welcome Natalie A.<br>
+                                    Al-Anon Welcome: Natalie A.<br>
                                     Al-Anon Preamble: Michelle M.<br>
                                     Al-Anon Twelve Steps: Natalie S.<br>
                                     Al-Anon Closing: Liz M.
@@ -416,7 +420,7 @@ include_once 'header-bottom.inc'
                                     <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>Paint Party -Stevenson 2</strong>
+                                    <strong>Paint Party - Stevenson 2</strong>
                                 </div>
 
 
@@ -436,7 +440,7 @@ include_once 'header-bottom.inc'
                                     <br>
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
-                                    
+
                                     Secretary: Marge S.(Chair)
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
@@ -482,15 +486,15 @@ include_once 'header-bottom.inc'
                                     <br>
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
                                     <br><br>
-                                    Secretary : Roger M.
+                                    Secretary: Roger M.
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
-                                    Preamble: Samantha C.(English)<br>
-                                    Preamble: Robert(Spanish)<br>
-                                    Traditions: Mark S.<br>
-                                    Chapter Three - More about Alcoholism: Conor R.<br>
+                                    Preamble in English: Samantha C.<br>
+                                    Preamble in Spanish: Robert<br>
+                                    Twelve Traditions: Mark S.<br>
+                                    More About Alcoholism: Conor R.<br>
                                     How It Works: Rick<br>
                                     Vision For You: Naomi B.<br>
                                     Closing Prayer: Arthur T.
@@ -501,7 +505,7 @@ include_once 'header-bottom.inc'
                                     <strong>6:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>Al-Anon Prize Raffle Drawing - Must be present</strong> to win
+                                    <strong>Al-Anon Prize Raffle Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
@@ -518,7 +522,7 @@ include_once 'header-bottom.inc'
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <strong>Δ Location of Event is different than conference site</strong>
+                                    <strong>Δ Location of Event is different than conference site.</strong>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
@@ -536,27 +540,33 @@ include_once 'header-bottom.inc'
     <!-- Part Three -->
 
     <div class="container shadow-wrap">
-        <aside aria-label="Check-in info">
+        <aside aria-label="Registration info">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Registration Check In">
-                            <h3 class="card-title mb-3">Registration Check In</h3>
-                            <p>Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, and any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
+                        <section aria-label="Check In, Walk In, and Lost and Found">
+                            <h3 class="card-title mb-3">Registration Desk</h3>
+                            <p>Walk-in attendee's register here and assist with payment issues or questions.</p>
+                            <p>Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
                                 <br><br>
                                 For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
                             </p>
                         </section>
-                        <p><strong>Host of MBAR 2024:</strong> Cindy A.
-                            <br>
-                            <strong>A.A. Chairperson:</strong> Chris T. <strong>Al-Anon Chairperson:</strong> Jane P.
-                            <br>
-                            <strong>Co-Chair:</strong> Renee C.
-                            <br>
-                            <strong>Treasurer:</strong> Carolyn H. <strong>Co-Treasurer:</strong> Jean T.
-                            <br>
-                            <strong>Recording Secretary:</strong> Roger M.
-                        </p>
+
+                        <div class="row py-2">
+                            <div class="col-sm-12"><strong>Host of MBAR 2024:</strong> Cindy A.</div>
+
+                            <div class="col-sm-6"><strong>A.A. Chairperson:</strong> Chris T.</div>
+                            <div class="col-sm-6"><strong>Al-Anon Chairperson:</strong> Jane P.</div>
+
+                            <div class="col-sm-12"><strong>Co-Chair:</strong> Renee C.</div>
+
+                            <div class="col-sm-6"><strong>Treasurer:</strong> Carolyn H.</div>
+                            <div class="col-sm-6"><strong>Co-Treasurer:</strong> Jean T.</div>
+
+                            <div class="col-sm-12"><strong>Recording Secretary:</strong> Roger M.</div>
+                        </div>
+
                     </div>
                 </div>
             </div>
