@@ -549,7 +549,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="Check In, Walk In, and Lost and Found">
                             <h3 class="card-title mb-3">Registration Desk</h3>
                             <p>Walk-in attendee's register here and assist with payment issues or questions.</p>
-                            <p>Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
+                            <p class="px-sm-4">Check in at registration desk to obtain your registration packet containing your name badge, program, list of all marathon meeting times, any tickets for meals or events, and pre-ordered t-shirt you may have purchased.
                                 <br><br>
                                 For more information while at the event, questions concerning the event, or lost and found items, please go to the registration desk.
                             </p>
