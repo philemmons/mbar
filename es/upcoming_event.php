@@ -77,13 +77,6 @@ include_once 'header-bottom.inc';
                               <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2024!</p>
                          </div>
                     </div>
-
-                    <!-- <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Folleto del evento de la Comunidad de Softbol">
-                         </div> 
-                    </div> -->
-
                </div>
           </div>
      </article>
@@ -102,14 +95,6 @@ include_once 'header-bottom.inc';
                                         <br><br>
                                         Una vez más, gracias a todos.
                                    </p>
-
-                                   <!-- <p class="h5 texto-oscuro pt-3">
-                                        ¡El folleto en PDF estará disponible pronto!
-                                   </p> -->
-
-                                   <!-- <a class="btn btn-primary btn-sm" href="../pdf/softball-fellowship-event.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Ver y Descargar el Folleto<span class="sr-only">(Abrir pdf en el navegador)</span></a>
-                                   -->
-
                               </section>
                          </div>
                     </div>
@@ -118,24 +103,6 @@ include_once 'header-bottom.inc';
      </article>
 
      <div id="map"></div>
-     <!-- 
-     <article aria-label="Mapa de Google para el parque de ligas menores de Dampierre">
-          <div class="container shadow-wrap">
-               <div class="row justify-content-center mb-5">
-                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <section aria-label="Ubicación del parque">
-                                   <h4 class="card-title mb-3"><a href="https://www.google.com/maps/place/Dampierre+Park/@36.478664,-121.739975,14z/data=!4m6!3m5!1s0x808df39f2bb991fd:0x905b6dd7a85fb3cd!8m2!3d36.4786643!4d-121.7399751!16s%2Fg%2F11cm0fp649?hl=es&entry=ttu" class="bb-link" target="_blank" title="Enlace directo a Google Mapa">Parque de la Liga Pequeña de Dampierre<span class="sr-only">(Abre una nueva ventana)</span></a></h4>
-                                   <div class="col-md-12 db-5">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12832.505391961493!2d-121.7399751!3d36.4786643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df39f2bb991fd%3A0x905b6dd7a85fb3cd!2sDampierre%20Park!5e0!3m2!1sen!2sus!4v1715114915603!5m2!1ses!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Parque de la liga Pequeña de Dampierre" aria-hidden="true"></iframe>
-                                   </div>
-                              </section>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </article>
-     -->
 
      <?php include_once 'footer.inc' ?>
      </body>

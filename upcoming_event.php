@@ -76,13 +76,6 @@ include_once 'header-bottom.inc';
                               <p class="h5 text-dark">Thank you for continuing to check back for more events leading up to the 2024 Conference!</p>
                          </div>
                     </div>
-
-                    <!-- <div class="col-xl-10 col-lg-10 col-md-12 text-center px-3 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <img class="img-fluid" src="../images/softball-fellowship-event.png" alt="Softball Fellowship Event Flier">
-                         </div>
-                    </div> -->
-
                </div>
           </div>
      </article>
@@ -101,9 +94,6 @@ include_once 'header-bottom.inc';
                                         <br><br>
                                         Once again, thank you all.
                                    </p>
-
-                                   <!-- <a class="btn btn-primary btn-sm" href="pdf/softball-fellowship-event.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">View and Download the Flier</a> -->
-
                               </section>
                          </div>
                     </div>
@@ -112,24 +102,6 @@ include_once 'header-bottom.inc';
      </article>
 
      <div id="map"></div>
-     <!--
-     <article aria-label="Google Map for Dampierre Little League Park ">
-          <div class="container shadow-wrap">
-               <div class="row justify-content-center mb-5">
-                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <section aria-label="Park location">
-                                   <h4 class="card-title mb-3"><a href="https://www.google.com/maps/place/Dampierre+Park/@36.478664,-121.739975,14z/data=!4m6!3m5!1s0x808df39f2bb991fd:0x905b6dd7a85fb3cd!8m2!3d36.4786643!4d-121.7399751!16s%2Fg%2F11cm0fp649?hl=en&entry=ttu" class="bb-link" target="_blank" title="Direct link to Google Map">Dampierre Little League Park<span class="sr-only">(Opens a new window)</span></a></h4>
-                                   <div class="col-md-12 db-5">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12832.505391961493!2d-121.7399751!3d36.4786643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df39f2bb991fd%3A0x905b6dd7a85fb3cd!2sDampierre%20Park!5e0!3m2!1sen!2sus!4v1715114915603!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dampierre Little League Park" aria-hidden="true"></iframe>
-                                   </div>
-                              </section>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </article>
-     -->
 
      <?php include_once 'footer.inc' ?>
      </body>

@@ -51,9 +51,9 @@ function getZeroPara()
     global $dbConn;
 
     $sql = "SELECT count(*) as result FROM registration";
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
     return $tot[0]['result'];
 }
 
@@ -63,9 +63,9 @@ function getOnePara($alpha)
     global $dbConn;
 
     $sql = "SELECT SUM(" . $alpha . ") as result FROM registration";
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
     return $tot[0]['result'];
 }
 
@@ -75,9 +75,9 @@ function getTwoPara($alpha, $beta)
     global $dbConn;
 
     $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
     return $tot[0]['result'];
 }
 
@@ -86,9 +86,9 @@ function getTwoParaSum($alpha, $beta)
     global $dbConn;
 
     $sql = "SELECT sum(total) as result FROM registration where " . $alpha . " like '" . $beta . "'";
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
     return $tot[0]['result'];
 }
 
@@ -109,9 +109,9 @@ function getTwoParaSpecificSum()
         ) AS t2
         ON t1.size = t2.teesize;";
 
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
 
     $dropTable = "DROP TABLE t1;";
 
@@ -125,17 +125,14 @@ function getHelpHand()
     global $dbConn;
 
     $sql = "SELECT SUM( CAST(helpinghand AS UNSIGNED) ) AS result FROM registration WHERE helpinghand REGEXP '[0-9]'";
-    //echo $sql . '<br>';
+
     $tot =  preExeFetNOPARA($sql);
-    //print_r($tot);
+
     return $tot[0]['result'];
 }
 
 function displayTot($tot)
 {
-    //foreach ($tot as $part) {
-    //echo $part['result'] . " ";
-    //}
     echo $tot[0]['result'];
 }
 
