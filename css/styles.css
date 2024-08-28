@@ -572,7 +572,7 @@ iframe {
   .row.g-0.mb-4 [class^="col"].middle {
     border-top: 0 !important;
     border-bottom: 0 !important;
-    padding: 0 0.25rem 0.25rem !important;
+    padding: 0 0.25rem 0.75rem !important;
   }
 
   .row.g-0.mb-4 [class^="col"].bottom {
