@@ -540,9 +540,8 @@ include_once 'header-bottom.inc';
     </article>
 
     <!-- Part Three -->
-
-    <div class="container shadow-wrap">
-        <aside aria-label="Registration info">
+    <aside aria-label="Registration info">
+        <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
@@ -572,8 +571,8 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
             </div>
-        </aside>
-    </div>
+        </div>
+    </aside>
 
     <!-- Part Four -->
     <article aria-label="Conference Services">

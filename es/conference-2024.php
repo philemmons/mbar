@@ -361,7 +361,7 @@ include_once 'header-bottom.inc';
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Oradora: <strong>Amelia - 16 años y Cesta-de-Preguntas</strong>
-                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1');?> o Marge S. en <?php echo getenv('mbar-alateen-2');?></p>
+                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1'); ?> o Marge S. en <?php echo getenv('mbar-alateen-2'); ?></p>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
@@ -433,36 +433,39 @@ include_once 'header-bottom.inc';
     </article>
 
     <!-- Part Three -->
-
-    <div class="container shadow-wrap">
-        <aside aria-label="Información de check-in">
+    <aside aria-label="Información de Inscripción">
+        <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Registro de Entrada">
-                            <h3 class="card-title mb-3">Registro de Entrada</h3>
-                            <p>Regístrese en el mostrador de registro para obtener su paquete de inscripción que contiene su credencial, programa, lista de todos los horarios de reuniones del maratón y cualquier boleto para comidas o eventos, y la camiseta preordenada que haya comprado.
+                        <section aria-label="Registrarse, entrar sin cita previa y objetos perdidos">
+                            <h3 class="card-title mb-3">Mesa de Inscripción</h3>
+                            <p>Los asistentes que no tengan cita previa se registran aquí y reciben asistencia con problemas o preguntas sobre el pago.</p>
+                            <p class="px-sm-4">Regístrese en la mesa de inscripción para obtener su paquete de inscripción que contiene su credencial, programa, lista de todos los horarios de reuniones del maratón, entradas para comidas o eventos y una camiseta preordenada que haya comprado.
                                 <br><br>
-                                para obtener más información durante el evento, si tiene preguntas sobre el evento o si perdió o encontró algún artículo, diríjase al mostrador de registro.
+                                Para obtener más información durante el evento, si tiene preguntas sobre el evento o si perdió o encontró algún objeto, diríjase al mostrador de registro.
                             </p>
                         </section>
-                        <p><strong>Anfitriona de MBAR 2024:</strong> Cindy A.
-                            <br>
-                            <strong>Comité Directivo de MBAR</strong>
-                            <br>
-                            <strong>A.A. Presidente:</strong> Chris T.  <strong>Al-Anon Presidente:</strong> Jane P.   
-                            <br>
-                            <strong>Copresidente:</strong> Renee C.
-                            <br>
-                            <strong>Tesorera:</strong> Carolyn H.   <strong>Cotesorera:</strong> Jean T.
-                            <br>
-                            <strong>Secretaria de actas:</strong> Roger M.
-                        </p>
+
+                        <div class="row justify-content-center py-2">
+                            <div class="col-sm-12"><strong>Anfitriona de MBAR 2024:</strong> Cindy A.</div>
+
+                            <div class="col-sm-4"><strong>A.A. Presidente:</strong> Chris T.</div>
+                            <div class="col-sm-4"><strong>Presidente de Al-Anon:</strong> Jane P.</div>
+
+                            <div class="col-sm-12"><strong>Copresidente:</strong> Renee C.</div>
+
+                            <div class="col-sm-4"><strong>Tesorera:</strong> Carolyn H.</div>
+                            <div class="col-sm-4"><strong>Cotesorera:</strong> Jean T.</div>
+
+                            <div class="col-sm-12"><strong>Secretario de Actas:</strong> Roger M.</div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </aside>
-    </div>
+        </div>
+    </aside>
 
     <!-- Part Four -->
     <article aria-label="Servicios de conferencias">
