@@ -167,15 +167,15 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
-                                    <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="aa-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                     <br><br>
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
-                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                     <br><br>
                                     Al-Anon(English): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
 
@@ -185,7 +185,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
 
@@ -363,15 +363,15 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
-                                    <a href="aa-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="aa-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                     <br><br>
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                     <br><br>
                                     Al-Anon(English\Spanish): Marathon Meetings Begin - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    <a href="al-anon-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
 
@@ -393,7 +393,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    <a href="aa-spanish-marathon-2024.php" class="bb-link">(See insert for scheduled times)</a>
+                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
 
