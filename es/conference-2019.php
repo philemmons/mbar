@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - 2019 Conferencia </title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/conference-2019.php" >';
-include_once 'header-bottom.inc'
+include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="navegación principal">

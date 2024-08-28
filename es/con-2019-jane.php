@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2019 Al-Anon Jane H. </title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2019-jane.php" >';
-include_once 'header-bottom.inc'
+include_once 'header-bottom.inc';
 ?>
 
 <main id="main-content">

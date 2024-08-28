@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - A.A. Marathon Meetings 2024</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/aa-marathon-2024.php" >';
-include_once 'header-bottom.inc'
+include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="main navigation">

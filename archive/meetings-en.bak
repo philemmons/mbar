@@ -3,7 +3,7 @@ session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>MBAR - Meetings </title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/meetings.php" >';
-include_once 'header-bottom.inc'
+include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="main navigation">
