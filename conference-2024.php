@@ -310,7 +310,7 @@ include_once 'header-bottom.inc'
                                     <strong>8:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>The Al-Anon Silent Auction Closed</strong>
+                                    <strong>The Al-Anon Silent Auction Closes</strong>
                                 </div>
 
 
