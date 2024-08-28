@@ -79,7 +79,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="Área de registro">
                             <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestro próximo MBAR el fin de semana del Día del Trabajo!</h3>
                             <p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
-                            <p class="dark-text">30 de Agosto a las 8:00 p. m. PDT
+                            <p class="dark-text">30 de Agosto a las 8:00pm PDT
                                 <br>
                                 Orador: Oliver D. de Delaware
                                 <br>
@@ -117,11 +117,11 @@ include_once 'header-bottom.inc';
                     <div class="p-3 text-center text-bg-light hero-text-border">
 
                         <section aria-label="Eventos del viernes">
-                            <h3 class="white-on-black py-2 mt-2">Viernes por la noche, 30 de agosto - Gratis para todos</h3>
+                            <h3 class="white-on-black py-2 mt-2">Viernes por la noche, 30 de Agosto - Gratis para todos</h3>
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>8:00 p. m.</strong>
+                                    <strong>8:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
                                     <i clase="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Reunión de Zoom
@@ -139,7 +139,7 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>9:30 p. m.</strong>
+                                    <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Sorteo 50/50 en línea</strong>
@@ -150,28 +150,28 @@ include_once 'header-bottom.inc';
                         </section>
 
                         <section aria-label="Eventos del sábado">
-                            <h3 class="white-on-black py-2 mt-2">Sábado 31 de agosto <br>Steinbeck Ballroom (2 y 3)</h3>
+                            <h3 class="white-on-black py-2 mt-2">Sábado 31 de Agosto <br>Steinbeck Ballroom (2 y 3)</h3>
                             <div class="row g-0 mb-4">
                                 <div class="col-sm-2 top">
-                                    <strong>8:00 a. m.</strong>
+                                    <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
                                     <strong>Se abre la inscripción</strong>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
-                                    <strong>8:00 a. m.</strong>
+                                    <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A. (inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
+                                    A.A.(Inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-marathon-2024.php" class="bb-link">Consulte el anexo para conocer los horarios programados</a>)
+                                    (<a href="aa-marathon-2024.php" class="bb-link">(Ver el inserto para los horarios programados)</a>)
                                     <br><br>
-                                    A.A.(español): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
+                                    A.A.(Español): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
                                     (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
-                                    Al-Anon(inglés): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
+                                    Al-Anon(Inglés): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
                                     <br>
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
@@ -180,13 +180,13 @@ include_once 'header-bottom.inc';
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    Al-Anon(español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
+                                    Al-Anon(Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el folleto para conocer los horarios</a>)
+                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>10:00 a. m.</strong>
+                                    <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
                                     <strong>Orador inaugural de A.A.</strong>
@@ -218,7 +218,7 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>1:00 p. m.</strong>
+                                    <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Speed ​​Fellowship - Stevenson 2</strong>
@@ -293,19 +293,19 @@ include_once 'header-bottom.inc';
                                     Más sobre el alcoholismo: Joel Y.<br>
                                     Cómo funciona: Mark F.<br>
                                     Una visión para ti: Micah C.<br>
-                                    Una visión para ti en español: Robert<br>
+                                    Una visión para ti en Español: Robert<br>
                                     Oración de cierre: Phillip E.
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>8:00 p. m.</strong>
+                                    <strong>8:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>La Se cierra la subasta silenciosa de Al-Anon</strong>
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>8:30 p. m.</strong>
+                                    <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Rifa de premios Round Up y sorteo 50/50: debe estar presente para ganar</strong>
@@ -314,7 +314,7 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-2 top">
-                                    <strong>9:30 p. m.</strong>
+                                    <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
                                     <strong>Baile de máscaras divertido y de camaradería</strong>
@@ -345,15 +345,15 @@ include_once 'header-bottom.inc';
                                     <strong>9:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A.(inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
+                                    A.A.(Inglés): Comienzan las reuniones de maratón - <strong>Colton 1</strong>
                                     <br>
                                     (<a href="aa-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
                                     <br><br>
-                                    A.A.(español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
+                                    A.A.(Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
                                     <br><br>
-                                    Al-Anon(inglés\español): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
+                                    Al-Anon(Inglés\Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1b</strong>
                                     <br>
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el folleto para ver los horarios</a>)
                                 </div>
@@ -373,7 +373,7 @@ include_once 'header-bottom.inc';
                                     <strong>10:00 am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom marathon-cell">
-                                    A.A. (español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
+                                    A.A. (Español): Comienzan las reuniones de maratón - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
@@ -399,7 +399,7 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>12:00 p. m.</strong>
+                                    <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Fiesta de pintura - Stevenson 2</strong>
@@ -471,7 +471,7 @@ include_once 'header-bottom.inc';
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preámbulo: Samantha C.<br>
-                                    Preámbulo en español: Robert<br>
+                                    Preámbulo en Español: Robert<br>
                                     Doce Tradiciones: Mark S.<br>
                                     Más sobre el alcoholismo: Conor R.<br>
                                     Cómo funciona: Rick<br>
