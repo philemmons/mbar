@@ -434,25 +434,28 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>2:00 p. m.</strong>
+                                    <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>Hora de cornhole y compañerismo: Stevenson 2</strong>
+                                    <strong>Hora de Cornhole y Compañerismo - Stevenson 2</strong>
                                 </div>
+
 
                                 <div class="col-sm-2 top">
-                                    <strong>3:00 p. m.</strong>
+                                    <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Helado Social - Terraza del 2do piso</strong>
+                                    <strong>Helado Social - Terraza del 2do Piso</strong>
                                 </div>
 
-                                <div class="col-sm-2top cell-color">
+
+                                <div class="col-sm-2 top cell-color">
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Curiosidades de A.A.: Servicio general - Stevenson 2</strong>
                                 </div>
+
 
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>5:00pm</strong>
@@ -464,7 +467,7 @@ include_once 'header-bottom.inc';
                                     <br><br>
                                     Secretario: Roger M.
                                     <br>
-                                    <em>(Interpretación de ASL proporcionada)</em>
+                                    <em>(Interpretación en lenguaje de señas)</em>
                                 </div>
                                 <div class="col-sm-5 bottom feature-speaker">
                                     Preámbulo: Samantha C.<br>
@@ -476,8 +479,9 @@ include_once 'header-bottom.inc';
                                     Oración de cierre: Arthur T.
                                 </div>
 
+
                                 <div class="col-sm-2 top cell-color">
-                                    <strong>6:30 p. m.</strong>
+                                    <strong>6:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
                                     <strong>Sorteo de premios de Al-Anon: debe estar presente para ganar</strong>
@@ -485,11 +489,12 @@ include_once 'header-bottom.inc';
                                     (Inmediatamente después de la reunión de oradores)
                                 </div>
 
+
                                 <div class="col-sm-2 top">
-                                    <strong>7:00 p. m.</strong>
+                                    <strong>7:00pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Fin de la conferencia: hasta 2026</strong>
+                                    <strong>La conferencia termina - hasta 2026</strong>
                                 </div>
 
                             </div>

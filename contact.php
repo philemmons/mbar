@@ -86,13 +86,13 @@ include_once 'header-bottom.inc';
                  * https://www.codexworld.com/new-google-recaptcha-with-php/
                  */
 
-                // Google reCAPTCHA API keys settings 
+                // Google reCAPTCHA API keys settings
                 $secretKey  = getenv('g-secret-key');
 
                 // Email settings 
                 $recipientEmail = getenv('mbar-chair-email');
                 //echo "---> email should appear here-->". getenv('mbar-chair-email'); die();
-                // If the form is submitted 
+                // If the form is submitted
                 $postData = $statusMsg = '';
                 $status = 'error';
 
