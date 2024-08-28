@@ -317,7 +317,7 @@ include_once 'header-bottom.inc';
                                     <strong>9:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom">
-                                    <strong>Baile de máscaras divertido y de camaradería</strong>
+                                    <strong>Baile de Máscaras Divertido y de Camaradería</strong>
                                 </div>
 
                             </div>
@@ -362,7 +362,7 @@ include_once 'header-bottom.inc';
                                     <strong>9:30am</strong>
                                 </div>
                                 <div class="col-sm-10 bottom feature-speaker">
-                                    <strong>Panel A.A. - Intercambio de experiencias: Fundación para el Future</strong>
+                                    <strong>Panel A.A. - Intercambio de Experiencias: Fundación Para el Future</strong>
                                     <br>
                                     Panelistas: <strong>Pasquale C., Lisa M., Mike V. y Naomi B.</strong>
                                     <br><br>
