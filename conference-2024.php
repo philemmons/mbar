@@ -188,7 +188,7 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
-
+                                <div id="kos"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>10:00am</strong>
                                 </div>
@@ -210,7 +210,7 @@ include_once 'header-bottom.inc';
                                     Closing Prayer: Cole T.
                                 </div>
 
-
+                                <div id="dwp"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>11:30am</strong>
                                 </div>
@@ -230,7 +230,7 @@ include_once 'header-bottom.inc';
                                     <strong>Speed Fellowship - Stevenson 2</strong>
                                 </div>
 
-
+                                <div id="aalsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>2:00pm</strong>
                                 </div>
@@ -284,7 +284,7 @@ include_once 'header-bottom.inc';
                                     <strong>Meet the Speaker's Dinner - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
-
+                                <div id="asm1"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>7:30pm</strong>
                                 </div>
@@ -374,7 +374,7 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
-
+                                <div id="aap"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
@@ -396,7 +396,7 @@ include_once 'header-bottom.inc';
                                     (<a href="aa-spanish-marathon-2024.php" class="bb-link">See insert for scheduled times</a>)
                                 </div>
 
-
+                                <div id="alsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>11:00am</strong>
                                 </div>
@@ -433,9 +433,9 @@ include_once 'header-bottom.inc';
                                     <strong>Werewolf Fellowship Game - Stevenson 2</strong>
                                 </div>
 
-
+                                <div id="atsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
-                                    <strong>1:30am</strong>
+                                    <strong>1:30pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle feature-speaker">
                                     <strong>Alateen Speaker Meeting</strong>
@@ -479,7 +479,7 @@ include_once 'header-bottom.inc';
                                     <strong>A.A. Trivia: General Service - Stevenson 2</strong>
                                 </div>
 
-
+                                <div id="asm2"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
@@ -524,7 +524,7 @@ include_once 'header-bottom.inc';
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <strong>Δ Location of Event is different than conference site.</strong>
+                                    <a href="#map" class="bb-link"><strong>Δ Location of Event is different than conference site.</strong><a>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>

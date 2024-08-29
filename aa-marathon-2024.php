@@ -124,7 +124,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>10:00am A.A. Kick-Off Speaker</strong>
+                                    <a href="conference-2024.php#kos" class="bb-link"><strong>10:00am A.A. Kick-Off Speaker</strong></a>
                                 </div>
 
 

@@ -185,6 +185,7 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
+                                <div id="kos"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>10:00am</strong>
                                 </div>
@@ -206,6 +207,7 @@ include_once 'header-bottom.inc';
                                     Oración de Clausura: Cole T.
                                 </div>
 
+                                <div id="dwp"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>11:30am</strong>
                                 </div>
@@ -224,6 +226,7 @@ include_once 'header-bottom.inc';
                                     <strong>Speed Fellowship - Stevenson 2</strong>
                                 </div>
 
+                                <div id="aalsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>2:00pm</strong>
                                 </div>
@@ -275,6 +278,7 @@ include_once 'header-bottom.inc';
                                     <strong>Cena de presentación del orador - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
+                                <div id="asm1"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>7:30pm</strong>
                                 </div>
@@ -358,6 +362,7 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
+                                <div id="aap"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
@@ -378,6 +383,7 @@ include_once 'header-bottom.inc';
                                     (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
+                                <div id="alsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>11:00am</strong>
                                 </div>
@@ -412,6 +418,7 @@ include_once 'header-bottom.inc';
                                     <strong>Juego de la Comunidad de Hombres Lobo - Stevenson 2</strong>
                                 </div>
 
+                                <div id="atsm"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>1:30pm</strong>
                                 </div>
@@ -456,7 +463,7 @@ include_once 'header-bottom.inc';
                                     <strong>Curiosidades de A.A.: Servicio General - Stevenson 2</strong>
                                 </div>
 
-
+                                <div id="asm2"></div>
                                 <div class="col-sm-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
@@ -501,7 +508,7 @@ include_once 'header-bottom.inc';
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong>
+                                <a href="#map" class="bb-link"><strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong></a>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Descargo de responsabilidad: Este cronograma está sujeto a cambios.</strong>
