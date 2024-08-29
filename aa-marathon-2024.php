@@ -105,7 +105,7 @@ include_once 'header-bottom.inc';
                                     <strong>8:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Benny S., Salinas
+                                    Benny S. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Trust The Process
@@ -116,7 +116,7 @@ include_once 'header-bottom.inc';
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Ron M., Prunedale
+                                    Ron M. of Prunedale
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Spirituality
@@ -132,7 +132,7 @@ include_once 'header-bottom.inc';
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Jack F., Salinas
+                                    Jack F. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Quality vs Quantity
@@ -143,7 +143,7 @@ include_once 'header-bottom.inc';
                                     <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Steve C., Salinas
+                                    Steve C. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Freedom
@@ -159,7 +159,7 @@ include_once 'header-bottom.inc';
                                     <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Greg P., Oak Hills
+                                    Greg P. of Oak Hills
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Powerlessness
@@ -170,7 +170,7 @@ include_once 'header-bottom.inc';
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Tony G., Hollister
+                                    Tony G. of Hollister
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Gratitude
@@ -186,7 +186,7 @@ include_once 'header-bottom.inc';
                                     <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    David G., Monterey
+                                    David G. of Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Willingness
@@ -197,7 +197,7 @@ include_once 'header-bottom.inc';
                                     <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Mari W., Salinas
+                                    Mari W. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: One Day At A Time
@@ -208,7 +208,7 @@ include_once 'header-bottom.inc';
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Sean B., Salinas
+                                    Sean B. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Three Legacies of A.A.
@@ -224,7 +224,7 @@ include_once 'header-bottom.inc';
                                     <strong>5:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Jose C., Salinas
+                                    Jose C. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Acceptance
@@ -235,7 +235,7 @@ include_once 'header-bottom.inc';
                                     <strong>6:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Mark F., Monterey
+                                    Mark F. of Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Love and Tolerance
@@ -246,7 +246,7 @@ include_once 'header-bottom.inc';
                                     <strong>7:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Chael R., Salinas
+                                    Chael R. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Three Pertinent Ideas
@@ -289,7 +289,7 @@ include_once 'header-bottom.inc';
                                     <strong>9:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Maxine S., Salinas
+                                    Maxine S. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Newcomers
@@ -305,7 +305,7 @@ include_once 'header-bottom.inc';
                                     <strong>10:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Robert A., Monterey
+                                    Robert A. of Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Humility
@@ -332,7 +332,7 @@ include_once 'header-bottom.inc';
                                     <strong>12:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Cliff A., Monterey
+                                    Cliff A. of Monterey
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Stability
@@ -343,7 +343,7 @@ include_once 'header-bottom.inc';
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Ryan Y., Salinas
+                                    Ryan Y. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Surrender
@@ -359,7 +359,7 @@ include_once 'header-bottom.inc';
                                     <strong>2:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Bob C., Salinas
+                                    Bob C. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Sponsorship
@@ -375,7 +375,7 @@ include_once 'header-bottom.inc';
                                     <strong>3:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Michele T., Salinas
+                                    Michele T. of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Serenity
