@@ -108,8 +108,9 @@ include_once 'header-bottom.inc';
                                 <br>P.O. Box 1462
                                 <br>Monterey, CA 93942
                             </p>
-                            <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus selecciones y el monto total a pagar. No actualice la página web. Si su correo electrónico no llega, revise su carpeta de correo no deseado o comuníquese con el <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">administrador de sistemas</a>.</p>
+                            <p class="text-center">Después de registrarse, debería recibir un correo electrónico con sus selecciones y el monto total a pagar. No actualice la página web. Si su correo electrónico no llega, revise su carpeta de correo no deseado o comuníquese con el <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">administrador de sistemas</a>.
                             </p>
+                            <h3 class="card-title text-center mb-3"><a href="#payment-now" class="bb-link">Métodos de Pago</a></h3>
                         </section>
                     </div>
                 </div>
