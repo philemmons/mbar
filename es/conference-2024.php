@@ -508,7 +508,7 @@ include_once 'header-bottom.inc';
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                <a href="#map" class="bb-link"><strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong></a>
+                                <a href="#map" class="d-link"><strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong></a>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Descargo de responsabilidad: Este cronograma está sujeto a cambios.</strong>

@@ -524,7 +524,7 @@ include_once 'header-bottom.inc';
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <a href="#map" class="bb-link"><strong>Δ Location of Event is different than conference site.</strong></a>
+                                    <a href="#map" class="d-link"><strong>Δ Location of Event is different than conference site.</strong></a>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
