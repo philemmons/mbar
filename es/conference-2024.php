@@ -78,7 +78,9 @@ include_once 'header-bottom.inc';
                     <div class="p-3 text-center text-bg-light hero-text-border" title="El registro está activo">
                         <section aria-label="Área de registro">
                             <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestro próximo MBAR el fin de semana del Día del Trabajo!</h3>
-                            <p class="h3 text-dark">Reunión virtual de lanzamiento por Zoom</p>
+                            <p class="h3 text-dark">
+                                <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Reunión Virtual de Lanzamiento por Zoom<span class="sr-only">(Abre la aplicación Zoom)</span></a>
+                            </p>
                             <p class="dark-text">30 de Agosto a las 8:00pm PDT
                                 <br>
                                 Orador: Oliver D. de Delaware
@@ -508,7 +510,7 @@ include_once 'header-bottom.inc';
 
                             <div class="row">
                                 <div class="col-sm-6">
-                                <a href="#map" class="d-link"><strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong></a>
+                                    <a href="#map" class="d-link"><strong>Δ La ubicación del evento es diferente a la de la conferencia sitio.</strong></a>
                                 </div>
                                 <div class="col-sm-6">
                                     <strong>Descargo de responsabilidad: Este cronograma está sujeto a cambios.</strong>
