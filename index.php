@@ -87,7 +87,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - 2024 Event Schedule
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - <a href="conference-2024.php" class="bb-link">2024 Event Schedule</a>
                             </p>
                             <p class="card-text">Announcing our Kick-Off Zoom Meeting on August 30th at 8pm PDT. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware. This meeting is open to everyone, and join us in unity with his experience, strength, and hope.
                                 <br>
@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration is <strong>Live</strong>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Registration is <strong>Live</strong></a>
                             </p>
                             <p class="card-text">Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
                                 <br><br>
@@ -164,7 +164,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - More Fellowship
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - <a href="activities.php" class="bb-link">More Fellowship</a>
                             </p>
                             <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities for us than in previous years and invite you to them. The links below open PDF's with more information. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
                             </p>
@@ -198,7 +198,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Spanish Translation
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Spanish Translation</a>
                             </p>
                             <p class="card-text">We're committed to our Spanish-Speaking A.A. and Al-Anon Fellowships!
                                 <br><br>
@@ -232,7 +232,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volunteering in Recovery
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Volunteering in Recovery</a>
                             </p>
                             <p class="card-text">We have found that volunteering to do service significantly improves the quality of our recovery. By giving back, we not only help others but also strengthen our own journey.
                                 <br><br>
@@ -248,7 +248,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Our Past
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Our Past</a>
                             </p>
                             <p class="card-text">Since 1993, the Monterey Bay Area Round Up(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR fliers to see the impact and join us in continuing this legacy.
                             </p>

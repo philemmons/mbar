@@ -87,7 +87,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Calendario de Eventos de 2024
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - <a href="conference-2024.php" class="bb-link">Calendario de Eventos de 2024</a>
                             </p>
                             <p class="card-text">Anunciamos nuestra reunión inaugural por Zoom el 30 de Agosto a las 8:00pm (hora diurna del pacífico). Únase a nosotros con nuestro primer orador del evento de 2024: Oliver D. de Delaware. Este encuentro está abierto a todos, y nos permite unirnos con su experiencia, fortaleza y esperanza.
                                 <br>
@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>La Inscripción está <strong>Vivir</strong>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">La Inscripción está <strong>Vivir</strong></a>
                             </p>
                             <p class="card-text">Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
                                 <br><br>
@@ -164,7 +164,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Más Compañerismo
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - <a href="activities.php" class="bb-link">Más Compañerismo</a>
                             </p>
                             <p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
                             </p>
@@ -197,7 +197,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Traducción Española
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Traducción Española</a>
                             </p>
                             <p class="card-text">¡Estamos comprometidos con nuestras comunidades de A.A. y Al-Anon de habla hispana!
                                 <br><br>
@@ -231,7 +231,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Voluntariado en Recuperación
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Voluntariado en Recuperación</a>
                             </p>
                             <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
                                 <br><br>
@@ -247,7 +247,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nuestro Pasado
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Nuestro Pasado</a>
                             </p>
                             <p class="card-text">Desde 1993, Monterey Bay Area Round Up(MBAR) ha unido a oradores e invitados de todo el país. El voluntariado mejora nuestro camino hacia la recuperación al contribuir y fomentar el crecimiento personal. Explore los volantes anteriores de MBAR para ver el impacto y únase a nosotros para continuar con este legado.
                             </p>
