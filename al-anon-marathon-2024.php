@@ -157,7 +157,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) — Speaker Meeting</strong>
+                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) — Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -202,13 +202,13 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Chris and Eileen W. — Al-Anon Speaker Meeting</strong>
+                                    <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Chris and Eileen W. — Al-Anon Speaker Meeting</strong></a>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Amelia M. — Alateen Speaker Meeting</strong>
-                                    <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1');?> or Marge S. at <?php echo getenv('mbar-alateen-2');?></p>
+                                    <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Amelia M. — Alateen Speaker Meeting</strong></a>
+                                    <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
                                 </div>
 
 

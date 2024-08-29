@@ -152,7 +152,7 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm Denis D. (A.A.) y Shelly S. (Al-Anon) — Reunión de Oradores</strong>
+                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D. (A.A.) y Shelly S. (Al-Anon) — Reunión de Oradores</strong></a>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -194,12 +194,12 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Chris y Eileen W.: Reunión de Oradores de Al-Anon</strong>
+                                    <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Chris y Eileen W.: Reunión de Oradores de Al-Anon</strong></a>
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Amelia M.: Reunión de Oradores de Alateen</strong>
-                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1');?> o Marge S. en <?php echo getenv('mbar-alateen-2');?></p>
+                                    <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Amelia M.: Reunión de Oradores de Alateen</strong></a>
+                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1'); ?> o Marge S. en <?php echo getenv('mbar-alateen-2'); ?></p>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
