@@ -124,7 +124,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <a href="conference-2024.php#kos" class="bb-link"><strong>10:00am A.A. Kick-Off Speaker</strong></a>
+                                    <a href="conference-2024.php#kos" class="d-link"><strong>10:00am A.A. Kick-Off Speaker</strong></a>
                                 </div>
 
 
@@ -151,7 +151,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:30am A.A. Panel</strong>
+                                <a href="conference-2024.php#dwp" class="d-link"><strong>11:30am A.A. / Al-anon Double Winner Panel</strong></a>
                                 </div>
 
 
@@ -178,7 +178,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong>
+                                <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -254,7 +254,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>7:30pm A.A. Speaker Meeting</strong>
+                                <a href="conference-2024.php#asm1" class="d-link"><strong>7:30pm A.A. Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -297,7 +297,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong>
+                                <a href="conference-2024.php#aap" class="d-link"><strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong></a>
                                 </div>
 
 
@@ -313,7 +313,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Al-Anon Speaker Meeting</strong>
+                                <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Al-Anon Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Alateen Speaker Meeting</strong>
+                                <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Alateen Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -394,7 +394,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>5:00pm A.A.Speaker Meeting</strong>
+                                <a href="conference-2024.php#asm2" class="d-link"><strong>5:00pm A.A. Speaker Meeting</strong></a>
                                 </div>
 
 

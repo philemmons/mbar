@@ -17,6 +17,7 @@
 
   --color-21: #9eeaf9;
   --color-22: #0000c3;
+  --color-23: #00007a;
 
   --error-color: #ff0019;
   --success-color: #009b00;
@@ -674,4 +675,10 @@ dl {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
+}
+
+/**** schedule link on light blue bg ****/
+.d-link{
+  color: var(-color-23);
+  text-underline-offset: 0.25em !important;
 }
