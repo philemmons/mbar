@@ -75,7 +75,7 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="MBAR excitement!">
                         <section aria-label="Registration Area">
                             <h3 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend!</h3>
                             <p class="h3 text-dark">
