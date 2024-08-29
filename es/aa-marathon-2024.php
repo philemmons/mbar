@@ -124,7 +124,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>10:00am A.A. Orador Inaugural</strong>
+                                    <a href="conference-2024.php#kos" class="d-link"><strong>10:00am A.A. Orador Inaugural</strong></a>
                                 </div>
 
 
@@ -151,7 +151,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:30 Panel de A.A</strong>
+                                    <a href="conference-2024.php#dwp" class="d-link"><strong>11:30 Panel Doble Ganador de A.A. / Al-anon</strong></a>
                                 </div>
 
 
@@ -178,7 +178,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>2:00pm Reunión de Oradores de Denis D.(A.A.) y Shelly S.(Al-Anon)</strong>
+                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Reunión de Oradores de Denis D.(A.A.) y Shelly S.(Al-Anon)</strong></a>
                                 </div>
 
 
@@ -216,7 +216,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>5:00pm Conoce la Cena del Orador</strong>
+                                    <strong>5:00pm Conoce la Cena del Orador - Bethlehem Lutheran Church</strong>
                                 </div>
 
 
@@ -254,7 +254,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>7:30pm Reunión de Oradores de A.A.</strong>
+                                    <a href="conference-2024.php#asm1" class="d-link"><strong>7:30pm Reunión de Oradores de A.A.</strong></a>
                                 </div>
 
 
@@ -281,7 +281,7 @@ include_once 'header-bottom.inc';
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Desayuno y Juegos de bingo</strong>
+                                    <strong>8:00am Desayuno y Juegos de Bingo - Bethlehem Lutheran Church</strong>
                                 </div>
 
 
@@ -297,7 +297,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>9:30am Panel A.A. - Intercambio de Experiencias: Bases para el Futuro</strong>
+                                    <a href="conference-2024.php#aap" class="d-link"><strong>9:30am Panel A.A. - Intercambio de Experiencias: Bases para el Futuro</strong></a>
                                 </div>
 
 
@@ -313,7 +313,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>11:00am Reunión de Oradores de Al-Anon</strong>
+                                    <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Reunión de Oradores de Al-Anon</strong></a>
                                 </div>
 
 
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>1:30pm Reunión de oradores de Alateen</strong>
+                                    <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Reunión de oradores de Alateen</strong></a>
                                 </div>
 
 
@@ -367,7 +367,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>3:00pm Helado Social</strong>
+                                    <strong>3:00pm Helado Social - Terraza 2do Piso</strong>
                                 </div>
 
 
@@ -394,7 +394,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <strong>Reunión de Oradores de A.A. a las 5:00pm</strong>
+                                    <a href="conference-2024.php#asm2" class="d-link"><strong>Reunión de Oradores de A.A. a las 5:00pm</strong></a>
                                 </div>
 
                                 <div class="col-sm-12 text-center cell-color">

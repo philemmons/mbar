@@ -151,7 +151,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#dwp" class="d-link"><strong>11:30am A.A. / Al-anon Double Winner Panel</strong></a>
+                                    <a href="conference-2024.php#dwp" class="d-link"><strong>11:30am A.A. / Al-anon Double Winner Panel</strong></a>
                                 </div>
 
 
@@ -178,7 +178,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong></a>
+                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -216,7 +216,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>5:00pm Meet the Speaker's Dinner</strong>
+                                    <strong>5:00pm Meet the Speaker's Dinner - Bethlehem Lutheran Church</strong>
                                 </div>
 
 
@@ -254,7 +254,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#asm1" class="d-link"><strong>7:30pm A.A. Speaker Meeting</strong></a>
+                                    <a href="conference-2024.php#asm1" class="d-link"><strong>7:30pm A.A. Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -281,7 +281,7 @@ include_once 'header-bottom.inc';
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Round Up Breakfast and Bingo Games</strong>
+                                    <strong>8:00am Round Up Breakfast and Bingo Games - Bethlehem Lutheran Church</strong>
                                 </div>
 
 
@@ -297,7 +297,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#aap" class="d-link"><strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong></a>
+                                    <a href="conference-2024.php#aap" class="d-link"><strong>9:30am A.A. Panel - Experience Exchange: Foundation for the Future</strong></a>
                                 </div>
 
 
@@ -313,7 +313,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Al-Anon Speaker Meeting</strong></a>
+                                    <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Al-Anon Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -351,7 +351,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Alateen Speaker Meeting</strong></a>
+                                    <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Alateen Speaker Meeting</strong></a>
                                 </div>
 
 
@@ -367,7 +367,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>3:00pm Ice Cream Social</strong>
+                                    <strong>3:00pm Ice Cream Social - Terrace 2nd Floor</strong>
                                 </div>
 
 
@@ -394,7 +394,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                <a href="conference-2024.php#asm2" class="d-link"><strong>5:00pm A.A. Speaker Meeting</strong></a>
+                                    <a href="conference-2024.php#asm2" class="d-link"><strong>5:00pm A.A. Speaker Meeting</strong></a>
                                 </div>
 
 
