@@ -151,7 +151,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <a href="conference-2024.php#dwp" class="d-link"><strong>11:30am A.A. / Al-anon Double Winner Panel</strong></a>
+                                    <a href="conference-2024.php#dwp" class="d-link"><strong>11:30am A.A. / Al-Anon Double Winner Panel</strong></a>
                                 </div>
 
 
