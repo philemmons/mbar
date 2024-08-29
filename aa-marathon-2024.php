@@ -321,7 +321,7 @@ include_once 'header-bottom.inc';
                                     <strong>11:00am</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Patricia, Greenfield
+                                    Patricia of Greenfield
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Unity
@@ -386,7 +386,7 @@ include_once 'header-bottom.inc';
                                     <strong>4:00pm</strong>
                                 </div>
                                 <div class="col-sm-5 middle marathon-cell">
-                                    Irma, Salinas
+                                    Irma of Salinas
                                 </div>
                                 <div class="col-sm-5 bottom marathon-cell">
                                     Topic: Coming Back
