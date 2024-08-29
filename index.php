@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Registration is <strong>Live</strong></a>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Registration is Live</a>
                             </p>
                             <p class="card-text">Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
                                 <br><br>

@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">La Inscripción está <strong>Vivir</strong></a>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">La Inscripción está Vivir</a>
                             </p>
                             <p class="card-text">Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
                                 <br><br>
