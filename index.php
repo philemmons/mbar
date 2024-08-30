@@ -73,7 +73,6 @@ include_once 'header-bottom.inc';
                         <br>
                         Passcode: <strong>2024</strong>
                         <br>
-                        <br>
                         This meeting is open to everyone, and we encourage you to join!
                     </p>
 
