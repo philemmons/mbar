@@ -385,7 +385,7 @@ function getTwoPara($alpha, $beta)
 {
     global $dbConn;
 
-    $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+    $sql = "SELECT count(*) as result FROM registration where firstname like '" . $alpha . "' and email like '" . $beta . "'";
     //echo $sql . '<br>';
     $tot =  preExeFetNOPARA($sql);
     //print_r($tot);
