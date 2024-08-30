@@ -120,9 +120,9 @@ include_once 'header-bottom.inc';
                         <section aria-label="Merchandise">
                             <h3 class="card-title mb-3 text-center">Merchandise</h3>
                         </section>
-                        
+
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-7">
                                 <p class="h5">2024 Commemorative T-Shirts will be available at the conference, along with MBAR vacuum mugs and water bottles</p>
                                 <ul>
                                     <li>The t-shirts cost $15 each, and we have limited quantities from Small to 3X-Large.
@@ -137,7 +137,7 @@ include_once 'header-bottom.inc';
 
                             </div>
 
-                            <div class="col-md-4 pt-3">
+                            <div class="col-md-5 pt-4">
                                 <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
                             </div>
                         </div>
