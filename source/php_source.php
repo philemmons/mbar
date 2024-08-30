@@ -381,7 +381,7 @@ function tShirtSizeCheck($size, $quan)
      return $size;
 }
 
-function getTwoPara($alpha, $beta)
+function getPriorReg($alpha, $beta)
 {
     global $dbConn;
 

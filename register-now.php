@@ -203,7 +203,7 @@ include_once 'header-bottom.inc';
                                 // check for pre-existing registration
                                 $priorFirstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
                                 $priorEmail = isset($_POST['myEmail']) ? strtolower(htmlspecialchars($_POST['myEmail'], ENT_QUOTES)) : '';
-                                $prior = getTwoPara($priorFirstName, $priorEmail);
+                                $prior = getPriorReg($priorFirstName, $priorEmail);
                                 if ($prior == 0) {
 
                                     $tsq = tShirtQuanCheck($tss, $tsq);
