@@ -131,7 +131,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Centro de Conferencias de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?hl=es&entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Centro de Conferencias de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></small>
                         </div>
                     </div>
                 </div>
