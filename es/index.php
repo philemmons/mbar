@@ -67,6 +67,12 @@ include_once 'header-bottom.inc';
                     </p>
                     <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>
+                        Orador: Oliver D. de Delaware
+                        <br>
+                        ID de la reunión: <strong>831 4306 2293</strong>
+                        <br>
+                        Código de Acceso: <strong>2024</strong>
+                        <br>
                         Esta reunión está abierta a todos y lo alentamos a participar.
                     </p>
 
@@ -113,7 +119,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Regístrese en Persona
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="conference-2024.php/#inPerson" class="bb-link">Regístrese en Persona</a>
                             </p>
                             <p class="card-text">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!
                                 <br><br>
@@ -125,7 +131,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary fw-bold">Regístrese en Persona</small>
+                            <small class="text-body-secondary"><a href="conference-2024.php/#inPerson" class="btn btn-primary">Regístrese en Persona</a></small>
                         </div>
                     </div>
                 </div>

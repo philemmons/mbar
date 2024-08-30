@@ -67,6 +67,13 @@ include_once 'header-bottom.inc';
                     </p>
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>
+                        Speaker: Oliver D. from Delaware
+                        <br>
+                        Meeting ID: <strong>831 4306 2293</strong>
+                        <br>
+                        Passcode: <strong>2024</strong>
+                        <br>
+                        <br>
                         This meeting is open to everyone, and we encourage you to join!
                     </p>
 
@@ -112,7 +119,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration in Person
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="conference-2024.php/#inPerson" class="bb-link">Registration in Person</a>
                             </p>
                             <p class="card-text">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!
                                 <br><br>
@@ -124,7 +131,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary fw-bold">Register in Person</small>
+                            <small class="text-body-secondary"><a href="conference-2024.php/#inPerson" class="btn btn-primary">Registration in Person</a></small>
                         </div>
                     </div>
                 </div>
