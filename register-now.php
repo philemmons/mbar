@@ -116,7 +116,6 @@ include_once 'header-bottom.inc';
                 </div>
 
             </div>
-
         </div>
     </article>
 
