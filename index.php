@@ -223,15 +223,16 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Committee Meeting
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Feedback Surveys
                             </p>
-                            <p class="card-text">As we gear up for our upcoming event, we will be holding several additional planning meetings to ensure everything runs smoothly. Your input and participation are crucial to our success. Together, we can make this event truly exceptional!
+                            <p class="card-text">Feedback surveys are crucial because they offer valuable insights into what's working well and what needs improvement, allowing MBAR to change based on your experiences. By showing that MBAR values your opinions, feedback surveys also foster a sense of fellowship, and honors the first tradition of unity..
                                 <br><br>
-                                Looking forward to collaborating with all of you.
+                                <strong>We care. We really do.</strong>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/651897?lang=es" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">Spanish Survey<span class="sr-only">(Opens a new window)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/111299?lang=en" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">English Survey<span class="sr-only">(Opens a new window)</span></a></small>
                         </div>
                     </div>
                 </div>
