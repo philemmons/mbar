@@ -175,11 +175,7 @@ include_once 'header-bottom.inc';
                         <p class="bb-link">Remember: Your payment completes your registration!
                         </p>
 
-                        <p>You're welcome to pay for your online registration by <strong>check</strong> instead of Venmo or PayPal. Please make your check payable to MBAR, and mail it to
-                            <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
-                            <br>Attn: Naomi B.
-                            <br>P.O. Box 1462
-                            <br>Monterey, CA 93942
+                        <p>You're welcome to pay for your online registration by <strong>check or cash in person</strong> instead of Venmo or PayPal.
                         </p>
 
                         <p>The QR codes below require the mobile apps.
