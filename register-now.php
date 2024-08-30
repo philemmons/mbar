@@ -109,6 +109,7 @@ include_once 'header-bottom.inc';
                                 <br>
                                 You're welcome to pay for your registration by check or cash instead of Venmo or PayPal.
                             </p>
+                            <h3 class="card-title text-center mb-3"><a href="#payment-now" class="d-link">Payment Methods</a></h3>
                         </section>
 
                     </div>
