@@ -79,10 +79,10 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">Reuniones Presenciales</p>
                     <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                         <br>
-                        Tenga en cuenta que es necesario registrarse para el evento presencial. ¡Asegúrese de registrarse con anticipación!
+                        Tenga en cuenta que es necesario registrarse para el evento presencial. 
                     </p>
                     <a href="#register-now" class="btn btn-primary mb-2">Regístrese Ahora</a>
-                    <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
+                    
                 </div>
             </div>
         </div>

@@ -68,15 +68,17 @@ include_once 'header-bottom.inc';
                     <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>
                         Esta reunión está abierta a todos y lo alentamos a participar.
+                        <br>
+                        ¡Haga clic en el enlace de la reunión virtual de inicio por Zoom que aparece arriba para unirse a nosotros!
                     </p>
 
                     <p class="h3 text-dark">Reuniones en Persona</p>
                     <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                         <br>
-                        Tenga en cuenta que es necesario registrarse para el evento en persona. ¡Asegúrese de registrarse con anticipación!
+                        Tenga en cuenta que es necesario registrarse para el evento en persona. 
                     </p>
-                    <a href="register-now.php" class="btn btn-primary mb-2">Regístrese Ahora</a>
-                    <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que este MBAR sea un gran éxito!</p>
+                     <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
+                    
                 </div>
             </div>
         </div>

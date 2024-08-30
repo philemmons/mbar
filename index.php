@@ -68,12 +68,14 @@ include_once 'header-bottom.inc';
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>
                         This meeting is open to everyone, and we encourage you to join!
+                        <br>
+                        Click on the Virtual Kick-Off Zoom Meeting link above to join us!
                     </p>
 
                     <p class="h3 text-dark">In-Person Meetings</p>
                     <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
                         <br>
-                        Please note that registration is required for the in-person event. Make sure to sign up in advance!
+                        Please note that registration is required for the in-person event. 
                     </p>
                     <a href="register-now.php" class="btn btn-primary mb-2">Register Now</a>
                     <p class="dark-text mb-6">We look forward to your participation in both sessions. Let's make this MBAR a great success!</p>
