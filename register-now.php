@@ -114,10 +114,20 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
-                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                    <div class="p-3 text-bg-light hero-text-border" title="Merchandise">
+            </div>
 
-                        <section aria-label="Merchandise">
+        </div>
+    </article>
+
+
+    <aside aria-label="Merchandise">
+        <div class="container shadow-wrap">
+            <div class="row justify-content-center mb-5">
+
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="p-3 text-bg-light hero-text-border" title="MBAR Merchandise">
+
+                        <section aria-label="MBAR Merchandise">
                             <h3 class="card-title mb-3 text-center">Merchandise</h3>
                         </section>
 
@@ -146,7 +156,7 @@ include_once 'header-bottom.inc';
             </div>
 
         </div>
-    </article>
+    </aside>
 
 
     <!-- Part Payment -->
