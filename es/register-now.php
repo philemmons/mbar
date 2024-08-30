@@ -208,56 +208,67 @@ include_once 'header-bottom.inc';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
-                                $tsq = tShirtQuanCheck($tss, $tsq);
-                                $tss = tShirtSizeCheck($tss, $tsq);
+                                // check for pre-existing registration
+                                $priorFirstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
+                                $priorEmail = isset($_POST['myEmail']) ? strtolower(htmlspecialchars($_POST['myEmail'], ENT_QUOTES)) : '';
+                                $prior = getPriorReg($priorFirstName, $priorEmail);
+                                if ($prior == 0) {
 
-                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+                                    $tsq = tShirtQuanCheck($tss, $tsq);
+                                    $tss = tShirtSizeCheck($tss, $tsq);
 
-                                // Send email notification to the site admin 
-                                $to = $email;
-                                $subject = 'Formulario de Registro Enviado';
-                                $htmlContent = " 
-                    <h4>Formulario de Inscripción - Spanish</h4> 
-                    <p><b>Nombre: </b>" . $firstName . " " . $lastName . "</p> 
-                    <p><b>Placa de Identificación: </b>" . $badgeName . "</p> 
-                    <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Teléfono: </b>" . $phone . "</p> 
-                    <p><b>Dirección: </b>" . $address . "</p> 
-                    <p><b>Ciudad: </b>" . $city . "</p> 
-                    <p><b>State: </b>" . $state . "</p> 
-                    <p><b>Estado: </b>" . $zc . "</p> 
-                    <p><b>Compañerismo: </b>" . $fs . "</p> 
-                    <p><b>Grupo en el Hogar: </b>" . $hg . "</p> 
-                    <p><b>Registro: </b>" . $register . "</p> 
-                    <p><b>Paquete de Comida Para Madrugadores: </b>" . $ebmb . "</p> 
-                    <p><b>Conozca a la Cena de Oradores: </b>" . $mtsd . "</p> 
-                    <p><b>Redondeo Continuación Desayuno: </b>" . $rucb . "</p> 
-                    <p><b>Helado Social: </b>" . $ics . "</p> 
-                    <p><b>Baile del Sábado por la Noche: </b>" . $snd . "</p> 
-                    <p><b>Contribución de Mano Amiga: </b>" . $hhc . "</p> 
-                    <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
-                    <p><b>Cantidad de Camisetas : </b>" . $tsq . "</p> 
-                    <p><b>Talla de Camiseta: </b>$" . $total . ".00</p> 
-                    <p><b>Estuve de acuerdo con los ToS y entiendo que el registro está incompleto hasta que se pague: </b>" . $cBox . "</p> 
-                    <p><b>Método de Pago: </b>" . $pm . "</p> 
-                ";
+                                    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
-                                // Always set content-type when sending HTML email 
-                                $headers = "MIME-Version: 1.0" . "\r\n";
-                                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                                // More headers 
-                                $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
+                                    // Send email notification to the site admin 
+                                    $to = $email;
+                                    $subject = 'Formulario de Registro Enviado';
+                                    $htmlContent = " 
+                        <h4>Formulario de Inscripción - Spanish</h4> 
+                        <p><b>Nombre: </b>" . $firstName . " " . $lastName . "</p> 
+                        <p><b>Placa de Identificación: </b>" . $badgeName . "</p> 
+                        <p><b>Email: </b>" . $email . "</p> 
+                        <p><b>Teléfono: </b>" . $phone . "</p> 
+                        <p><b>Dirección: </b>" . $address . "</p> 
+                        <p><b>Ciudad: </b>" . $city . "</p> 
+                        <p><b>State: </b>" . $state . "</p> 
+                        <p><b>Estado: </b>" . $zc . "</p> 
+                        <p><b>Compañerismo: </b>" . $fs . "</p> 
+                        <p><b>Grupo en el Hogar: </b>" . $hg . "</p> 
+                        <p><b>Registro: </b>" . $register . "</p> 
+                        <p><b>Paquete de Comida Para Madrugadores: </b>" . $ebmb . "</p> 
+                        <p><b>Conozca a la Cena de Oradores: </b>" . $mtsd . "</p> 
+                        <p><b>Redondeo Continuación Desayuno: </b>" . $rucb . "</p> 
+                        <p><b>Helado Social: </b>" . $ics . "</p> 
+                        <p><b>Baile del Sábado por la Noche: </b>" . $snd . "</p> 
+                        <p><b>Contribución de Mano Amiga: </b>" . $hhc . "</p> 
+                        <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
+                        <p><b>Cantidad de Camisetas : </b>" . $tsq . "</p> 
+                        <p><b>Talla de Camiseta: </b>$" . $total . ".00</p> 
+                        <p><b>Estuve de acuerdo con los ToS y entiendo que el registro está incompleto hasta que se pague: </b>" . $cBox . "</p> 
+                        <p><b>Método de Pago: </b>" . $pm . "</p> 
+                    ";
 
-                                $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
+                                    // Always set content-type when sending HTML email 
+                                    $headers = "MIME-Version: 1.0" . "\r\n";
+                                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                                    // More headers 
+                                    $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
 
-                                // Send email 
-                                mail($to, $subject, $htmlContent, $headers);
+                                    $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
-                                $status = 'success';
-                                $statusMsg = '¡Gracias! Su registro se inició y le ayudará con la planificación y preparación del evento. Se le ha enviado una copia de su formulario de registro por correo electrónico.<br><span class="fw-bold">Recuerde: su registro no estará completo hasta que se haya realizado el <a href="#payment-now">pago</a>.</span>';
-                                $postData = '';
+                                    // Send email 
+                                    mail($to, $subject, $htmlContent, $headers);
 
-                                regFormData($total, $lang);
+                                    $status = 'success';
+                                    $statusMsg = '¡Gracias! Su registro se inició y le ayudará con la planificación y preparación del evento. Se le ha enviado una copia de su formulario de registro por correo electrónico.<br><span class="fw-bold">Recuerde: su registro no estará completo hasta que se haya realizado el <a href="#payment-now">pago</a>.</span>';
+                                    $postData = '';
+
+                                    regFormData($total, $lang);
+                                } else {
+                                    $status = 'success';
+                                    $statusMsg = 'MBAR ya tiene su registro registrado con su correo electrónico y su nombre. Por favor, proceda a la sección <a href="#payment-now class="d-link">Método de Pago</a> a continuación para completar su registro. Si cree que se trata de un error, necesita ayuda o simplemente desea conversar, comuníquese con <a href="mailto:sysadmin@montereybayarearoundup.org" class="d-link">SysAdmin</a>.';
+                                    $postData = '';
+                                }
                             } else {
                                 $statusMsg = 'La verificación de reCaptcha falló, inténtalo de nuevo.';
                             }
