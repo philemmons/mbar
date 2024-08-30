@@ -223,7 +223,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Novedad</strong>: Encuestas de Opinión
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo </strong> - Encuestas de Opinión
                             </p>
                             <p class="card-text">Las encuestas de opinión son cruciales porque ofrecen información valiosa sobre lo que funciona bien y lo que necesita mejorar, lo que permite a MBAR cambiar en función de sus experiencias. Al demostrar que MBAR valora sus opiniones, las encuestas de opinión también fomentan un sentido de compañerismo y honran la primera tradición de unidad.
                                 <br><br>
