@@ -94,10 +94,11 @@ include_once 'header-bottom.inc';
                             <p class="h3 text-dark">Reuniones en Persona</p>
                             <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                                 <br>
-                                Tenga en cuenta que es necesario registrarse para el evento en persona. 
+                                Tenga en cuenta que es necesario registrarse para el evento en persona.
                             </p>
-                             <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
-                            <p class="dark-text mb-6">Esperamos contar con su participación en ambas sesiones. ¡Hagamos que esta reunión de MBAR sea un gran éxito!</p>
+                            <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acércate a la mesa de registro para inscribirte en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darte la bienvenida!</p>
+                            <p class="h3 text-dark">Programa de eventos de MBAR</p>
+                            <a class="btn btn-outline-primary" href="../pdf/MBAR-2024-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Programa de MBAR 2024<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                         </section>
 
                     </div>

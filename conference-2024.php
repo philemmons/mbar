@@ -97,13 +97,8 @@ include_once 'header-bottom.inc';
                                 Please note that registration is required for the in-person event.
                             </p>
                             <p class="dark-text mb-6">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!</p>
-
                             <p class="h3 text-dark">MBAR's Schedule of Events</p>
-                            <div class="d-grid gap-2">
-
-                                <a class="btn btn-outline-primary" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR's Program 2024<span class="sr-only">(Open pdf in browser)</span></a>
-
-                            </div>
+                            <a class="btn btn-outline-primary" href="pdf/MBAR-2024-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR's Program 2024<span class="sr-only">(Open pdf in browser)</span></a>
                         </section>
 
                     </div>
