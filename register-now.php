@@ -105,7 +105,7 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="text-center">After registering, you should get an email with your selections and the total amount due. Please do not refresh the webpage. If your email fails to arrive, check your spam folder, or contact the <a href="mailto:<?php echo getenv('mbar-to-email'); ?>" class="bb-link">SysAdmin</a>.
                             </p>
-                            <h3 class="card-title text-center mb-3"><a href="#payment-now" class="bb-link">Payment Methods</a></h3>
+                            <h3 class="card-title text-center mb-3"><a href="#payment-now" class="d-link">Payment Methods</a></h3>
                         </section>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ include_once 'header-bottom.inc';
                                     regFormData($total, $lang);
                                 } else {
                                     $status = 'success';
-                                    $statusMsg = 'MBAR has your registration on file already with your email and your first name. Please proceed to the <a href="#payment-now class="d-link">Payment Method</a> section below to complete your registration. If you believe this is an error, or need of assistance, or just want to chat, please contact <a href="mailto:sysadmin@montereybayarearoundup.org" class="bb-link">SysAdmin</a>.';
+                                    $statusMsg = 'MBAR has your registration on file already with your email and your first name. Please proceed to the <a href="#payment-now class="d-link">Payment Method</a> section below to complete your registration. If you believe this is an error, or need of assistance, or just want to chat, please contact <a href="mailto:sysadmin@montereybayarearoundup.org" class="d-link">SysAdmin</a>.';
                                     $postData = '';
                                 }
                             } else {
