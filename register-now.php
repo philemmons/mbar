@@ -120,26 +120,28 @@ include_once 'header-bottom.inc';
 
                         <section aria-label="Merchandise">
                             <h3 class="card-title mb-3 text-center">Merchandise</h3>
-
-                            <div class="col-md-8">
-                                <p class="h5">2024 Commemorative T-Shirts will be available at the conference, along with MBAR vacuum mugs and water bottles</p>
-                                <ul>
-                                    <li>The t-shirts cost $15 each, and we have limited quantities from Small to 3X-Large.
-                                    </li>
-
-                                    <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
-                                    </li>
-
-                                    <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
-                                    </li>
-                                </ul>
-
-                            </div>
-
-                            <div class="col-md-4 pt-3">
-                                <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
-                            </div>
                         </section>
+                        
+                        <div class="col-md-8">
+                            <p class="h5">2024 Commemorative T-Shirts will be available at the conference, along with MBAR vacuum mugs and water bottles</p>
+                            <ul>
+                                <li>The t-shirts cost $15 each, and we have limited quantities from Small to 3X-Large.
+                                </li>
+
+                                <li>MBAR! Wear this MBAR favorite apparel to the big event or just hanging out around the house.
+                                </li>
+
+                                <li>100% Cotton, Solid Navy Blue, White and Gold Logo, Lightweight, Classic Fit, Double-needle Short Sleeve and Bottom Hem
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-4 pt-3">
+                            <img src="../images/2024_mbar_tee_shirt.png" class="img-fluid img-thumbnail" alt="Navy blue tee shirt with gold and white logo.">
+                        </div>
+
+
                     </div>
                 </div>
             </div>
