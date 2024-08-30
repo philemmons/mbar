@@ -68,8 +68,6 @@ include_once 'header-bottom.inc';
                     <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>
                         Esta reunión está abierta a todos y lo alentamos a participar.
-                        <br>
-                        ¡Haga clic en el enlace de la reunión virtual de inicio por Zoom que aparece arriba para unirse a nosotros!
                     </p>
 
                     <p class="h3 text-dark">Reuniones en Persona</p>

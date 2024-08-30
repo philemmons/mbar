@@ -68,8 +68,6 @@ include_once 'header-bottom.inc';
                     <p class="dark-text">August 30th at 8:00pm PDT
                         <br>
                         This meeting is open to everyone, and we encourage you to join!
-                        <br>
-                        Click on the Virtual Kick-Off Zoom Meeting link above to join us!
                     </p>
 
                     <p class="h3 text-dark">In-Person Meetings</p>
