@@ -91,26 +91,32 @@ include_once 'header-bottom.inc';
     <article aria-label="Registration">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4 text-center">
                     <div class="p-3  text-bg-light hero-text-border" title="Registration 2024">
                         <section aria-label="Registration In Person">
                             <h3 class="card-title mb-3">Registration 2024 In Person</h3>
-                            <p>We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!
+                            <p>We are excited to have you join us!
+                                <br>
+                                Please come over to the registration table to sign up in person, as online registration is now closed.
+                                <br>
+                                We can't wait to welcome you!
                                 <br><br>
                                 If you are paying for <i>more</i> than one person, add their name(s) in the note section.
                                 <br>
                                 Please be sure to use the <a href="#payment-now" class="bb-link">qrCodes or links</a> below for payment that completes your registration.
-                                <br><br>You're welcome to pay for your registration by check or cash instead of Venmo or PayPal.
+                                <br>
+                                You're welcome to pay for your registration by check or cash instead of Venmo or PayPal.
                             </p>
                         </section>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4 text-center">
                     <div class="p-3  text-bg-light hero-text-border" title="Merchandise">
-                        <section aria-label="Registration In Person">
+
+                        <section aria-label="Merchandise">
                             <h3 class="card-title mb-3">Merchandise</h3>
                         </section>
 
@@ -136,6 +142,7 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
             </div>
+
         </div>
     </article>
 
