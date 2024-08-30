@@ -223,7 +223,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>MBAR's Feedback Surveys
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - Feedback Surveys
                             </p>
                             <p class="card-text">Feedback surveys are crucial because they offer valuable insights into what's working well and what needs improvement, allowing MBAR to change based on your experiences. By showing that MBAR values your opinions, feedback surveys also foster a sense of fellowship, and honors the first tradition of unity..
                                 <br><br>

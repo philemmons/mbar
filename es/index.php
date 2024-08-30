@@ -223,18 +223,20 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reunión del Comité de MBAR
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Novedad</strong>: Encuestas de Opinión
                             </p>
-                            <p class="card-text">Mientras nos preparamos para nuestro próximo evento, realizaremos varias reuniones de planificación adicionales para asegurarnos de que todo transcurra sin problemas. Sus aportes y participación son cruciales para nuestro éxito. ¡Juntos, podemos hacer que este evento sea realmente excepcional!
+                            <p class="card-text">Las encuestas de opinión son cruciales porque ofrecen información valiosa sobre lo que funciona bien y lo que necesita mejorar, lo que permite a MBAR cambiar en función de sus experiencias. Al demostrar que MBAR valora sus opiniones, las encuestas de opinión también fomentan un sentido de compañerismo y honran la primera tradición de unidad.
                                 <br><br>
-                                Esperamos colaborar con todos ustedes.
+                                <strong>Nos preocupamos. Realmente lo hacemos.</strong>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/651897?lang=es" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">Encuesta en español<span class="sr-only">(Abre una nueva ventana)</span></a></small>
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/111299?lang=en" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">Encuesta en inglés<span class="sr-only">(Abre una nueva ventana)</span></a></small>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
