@@ -218,7 +218,7 @@ include_once 'header-bottom.inc';
                             <h3 class="card-title mb-3">Descargar el formulario de inscripción</h3>
                             <p>A continuación se encuentra el formulario de inscripción de MBAR 2024, que se puede devolver en la mesa de inscripción.
                             </p>
-                            <p><a class="btn btn-primary btn-sm" href="../pdf/mbar-register-form-es.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Formulario de inscripción de MBAR 2024<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            <p><a class="btn btn-primary btn-sm" href="../pdf/formulario-registro-mbar-es.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Formulario de Inscripción de MBAR 2024<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                             </p>
                             <p>Si tiene alguna pregunta sobre la inscripción, comuníquese con nuestro <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Presidente de Inscripciones</a>
                             </p>
