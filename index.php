@@ -114,9 +114,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Registration is Live</a>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Registration in Person</a>
                             </p>
-                            <p class="card-text">Help us plan a seamless event in advance, ensuring everything runs smoothly for you and everyone else. It shows your commitment and enthusiasm by signing up early.
+                            <p class="card-text">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!
                                 <br><br>
                                 The Marathon Meetings are open and do not require registration.
                                 <br><br>
@@ -126,7 +126,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Register Now</a></small>
+                            <small class="text-body-secondary">Register in Person</small>
                         </div>
                     </div>
                 </div>

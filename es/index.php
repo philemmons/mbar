@@ -115,9 +115,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">La Inscripción está Vivir</a>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="register-now.php" class="bb-link">Regístrese en persona</a>
                             </p>
-                            <p class="card-text">Ayúdanos a planificar un evento perfecto con anticipación, para garantizar que todo salga a la perfección para ti y para todos los demás. Demuestra tu compromiso y entusiasmo al registrarte con anticipación.
+                            <p class="card-text">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!
                                 <br><br>
                                 Las reuniones de maratón están abiertas y no requieren inscripción.
                                 <br><br>
@@ -127,7 +127,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="register-now.php" class="btn btn-primary">Regístrese Ahora</a></small>
+                            <small class="text-body-secondary">Regístrese en Persona</small>
                         </div>
                     </div>
                 </div>
