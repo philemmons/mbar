@@ -380,3 +380,14 @@ function tShirtSizeCheck($size, $quan)
      if ($quan == "0") return "none";
      return $size;
 }
+
+function getTwoPara($alpha, $beta)
+{
+    global $dbConn;
+
+    $sql = "SELECT count(*) as result FROM registration where " . $alpha . " like '" . $beta . "'";
+    //echo $sql . '<br>';
+    $tot =  preExeFetNOPARA($sql);
+    //print_r($tot);
+    return $tot[0]['result'];
+}

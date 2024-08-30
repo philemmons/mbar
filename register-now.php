@@ -117,12 +117,11 @@ include_once 'header-bottom.inc';
 
                 /**
                  * https://www.codexworld.com/new-google-recaptcha-with-php/
-                 * 
-                 * https://www.namecheap.com/support/knowledgebase/article.aspx/10038/31/how-to-configure-a-contact-form-with-us/#mailfunction
                  *
+                 * https://www.namecheap.com/support/knowledgebase/article.aspx/10038/31/how-to-configure-a-contact-form-with-us/#mailfunction
                  */
 
-                // Google reCAPTCHA API keys settings 
+                // Google reCAPTCHA API keys settings
                 $secretKey  = getenv('g-secret-key');
 
                 // Email settings
@@ -132,7 +131,7 @@ include_once 'header-bottom.inc';
                 // Change lang variable as needed based on lang reg form
                 $lang = 'en';
 
-                // If the form is submitted 
+                // If the form is submitted
                 $postData = $statusMsg = '';
                 $status = 'error';
 
@@ -166,13 +165,13 @@ include_once 'header-bottom.inc';
                         empty($_POST['beeName'])
                     ) {
 
-                        // Validate reCAPTCHA checkbox 
+                        // Validate reCAPTCHA checkbox
                         if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
-                            // Verify the reCAPTCHA API response 
+                            // Verify the reCAPTCHA API response
                             $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretKey . '&response=' . $_POST['g-recaptcha-response']);
 
-                            // Decode JSON data of API response 
+                            // Decode JSON data of API response
                             $responseData = json_decode($verifyResponse);
 
                             // If the reCAPTCHA API response is valid
@@ -201,56 +200,67 @@ include_once 'header-bottom.inc';
                                 $cBox = !empty($_POST['paymentCheckBox']) ? htmlspecialchars($_POST['paymentCheckBox'], ENT_QUOTES) : '';
                                 $pm = !empty($_POST['paymentMethod']) ? htmlspecialchars($_POST['paymentMethod'], ENT_QUOTES) : '';
 
-                                $tsq = tShirtQuanCheck($tss, $tsq);
-                                $tss = tShirtSizeCheck($tss, $tsq);
+                                // check for pre-existing registration
+                                $priorFirstName = isset($_POST['firstName']) ? strtolower(htmlspecialchars($_POST['firstName'], ENT_QUOTES)) : '';
+                                $priorEmail = isset($_POST['myEmail']) ? strtolower(htmlspecialchars($_POST['myEmail'], ENT_QUOTES)) : '';
+                                $prior = getTwoPara($priorFirstName, $priorEmail);
+                                if ($prior == 0) {
 
-                                $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
+                                    $tsq = tShirtQuanCheck($tss, $tsq);
+                                    $tss = tShirtSizeCheck($tss, $tsq);
 
-                                // Send email notification to the site admin 
-                                $to = $email;
-                                $subject = 'Registration Form Submitted';
-                                $htmlContent = " 
-                    <h4>Registration Form - EN</h4> 
-                    <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
-                    <p><b>Badge Name: </b>" . $badgeName . "</p> 
-                    <p><b>Email: </b>" . $email . "</p> 
-                    <p><b>Phone: </b>" . $phone . "</p> 
-                    <p><b>Address: </b>" . $address . "</p> 
-                    <p><b>City: </b>" . $city . "</p> 
-                    <p><b>State: </b>" . $state . "</p> 
-                    <p><b>Zip Code: </b>" . $zc . "</p> 
-                    <p><b>Fellowship: </b>" . $fs . "</p> 
-                    <p><b>Homegroup: </b>" . $hg . "</p> 
-                    <p><b>Registration: </b>" . $register . "</p> 
-                    <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "</p> 
-                    <p><b>Meet the Speaker Dinner: </b>" . $mtsd . "</p> 
-                    <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
-                    <p><b>Ice Cream Social: </b>" . $ics . "</p> 
-                    <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
-                    <p><b>Helping Hand Contribution: </b>" . $hhc . "</p>
-                    <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
-                    <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
-                    <p><b>Current Total: </b>$" . $total . ".00</p> 
-                    <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
-                    <p><b>Payment Method: </b>" . $pm . "</p> 
-                ";
+                                    $total = getTotal($register, $ebmb, $mtsd, $rucb, $ics, $hhc, $tsq, $tss);
 
-                                // Always set content-type when sending HTML email 
-                                $headers = "MIME-Version: 1.0" . "\r\n";
-                                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                                // More headers 
-                                $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
+                                    // Send email notification to the site admin 
+                                    $to = $email;
+                                    $subject = 'Registration Form Submitted';
+                                    $htmlContent = " 
+                        <h4>Registration Form - EN</h4> 
+                        <p><b>Name: </b>" . $firstName . " " . $lastName . "</p> 
+                        <p><b>Badge Name: </b>" . $badgeName . "</p> 
+                        <p><b>Email: </b>" . $email . "</p> 
+                        <p><b>Phone: </b>" . $phone . "</p> 
+                        <p><b>Address: </b>" . $address . "</p> 
+                        <p><b>City: </b>" . $city . "</p> 
+                        <p><b>State: </b>" . $state . "</p> 
+                        <p><b>Zip Code: </b>" . $zc . "</p> 
+                        <p><b>Fellowship: </b>" . $fs . "</p> 
+                        <p><b>Homegroup: </b>" . $hg . "</p> 
+                        <p><b>Registration: </b>" . $register . "</p> 
+                        <p><b>Early Bird Meal Bundle: </b>" . $ebmb . "</p> 
+                        <p><b>Meet the Speaker Dinner: </b>" . $mtsd . "</p> 
+                        <p><b>Round Up Cont. Breakfast: </b>" . $rucb . "</p> 
+                        <p><b>Ice Cream Social: </b>" . $ics . "</p> 
+                        <p><b>Sat. Night Dance: </b>" . $snd . "</p> 
+                        <p><b>Helping Hand Contribution: </b>" . $hhc . "</p>
+                        <p><b>Tee Shirt Size: </b>" . $tss . "</p> 
+                        <p><b>Tee Shirt Quantity : </b>" . $tsq . "</p> 
+                        <p><b>Current Total: </b>$" . $total . ".00</p> 
+                        <p><b>I agreed with the ToS and understand registration is incomplete until paid: </b>" . $cBox . "</p> 
+                        <p><b>Payment Method: </b>" . $pm . "</p> 
+                    ";
 
-                                $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
+                                    // Always set content-type when sending HTML email 
+                                    $headers = "MIME-Version: 1.0" . "\r\n";
+                                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                                    // More headers 
+                                    $headers .= 'From: MBAR SysAdmin<' . $recipientEmail . '>' . "\r\n";
 
-                                // Send email 
-                                mail($to, $subject, $htmlContent, $headers);
+                                    $headers .= 'Bcc: ' . $recipientEmail . "," . $bccEmail . "\r\n";
 
-                                $status = 'success';
-                                $statusMsg = 'Thank you! Your registration was started, and it will assist with event planning and preparation. A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete until <a href="#payment-now">payment has been made</a>.</span>';
-                                $postData = '';
+                                    // Send email 
+                                    mail($to, $subject, $htmlContent, $headers);
 
-                                regFormData($total, $lang);
+                                    $status = 'success';
+                                    $statusMsg = 'Thank you! Your registration was started, and it will assist with event planning and preparation. A copy of your registration form has been emailed to you.<br><span class="fw-bold">Remember: Your registration is not complete until payment has been made.</span><br>Please continue to the <a href="#payment-now" class="d-link">Payment Method</a> section below.';
+                                    $postData = '';
+
+                                    regFormData($total, $lang);
+                                } else {
+                                    $status = 'success';
+                                    $statusMsg = 'MBAR has your registration on file already with your email and your first name. Please proceed to the <a href="#payment-now class="d-link">Payment Method</a> section below to complete your registration. If you believe this is an error, or need of assistance, or just want to chat, please contact <a href="mailto:sysadmin@montereybayarearoundup.org" class="bb-link">SysAdmin</a>.';
+                                    $postData = '';
+                                }
                             } else {
                                 $statusMsg = 'reCaptcha verification failed, please try again.';
                             }
@@ -261,6 +271,7 @@ include_once 'header-bottom.inc';
                         $statusMsg = 'Please fill all the mandatory fields.';
                         if (!empty($_POST['beeName'])) {
                             $statusMsg = 'Are you a bot?';
+                            $postData = '';
                         }
                     }
                 }
