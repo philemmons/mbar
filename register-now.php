@@ -221,7 +221,7 @@ include_once 'header-bottom.inc';
                             </p>
                             <p><a class="btn btn-primary btn-sm" href="pdf/mbar-register-form-en.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">MBAR 2024 Registration Form<span class="sr-only">(Open pdf in browser)</span></a>
                             </p>
-                            <p>If you have any questions, please contact our <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Steering Committee</a>
+                            <p>If you have any registration questions, please contact our <a href="mailto:<?php echo getenv('mbar-reg-email') ?>" class="bb-link">Registration Chair</a>
                             </p>
                         </section>
                     </div>
