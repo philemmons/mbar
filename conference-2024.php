@@ -100,7 +100,9 @@ include_once 'header-bottom.inc';
 
                             <p class="h3 text-dark">Schedule of Events!</p>
                             <p class="d-grid gap-2">
-                                <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">MBAR's Program 2024<span class="sr-only">(Open pdf in browser)</span></a>
+                            <div class="col-sm-4">
+                                <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR's Program 2024<span class="sr-only">(Open pdf in browser)</span></a>
+                            </div>
                             </p>
                         </section>
 
