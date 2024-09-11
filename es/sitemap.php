@@ -72,7 +72,7 @@ include_once 'header-bottom.inc';
 			<div class="row justify-content-center" id="top">
 				<div class="col-xl-6 col-lg-6 col-md-12 pt-4">
 					<section aria-label="sitemap-start">
-						<h3 class="h5 float-end"><a href="https://montereybayarearoundup.org/es/" title="Monterey Bay Area Round Up 2024 Homepage">montereybayarearoundup.org/es/<br>Página Principal</a>
+						<h3 class="h5 float-end"><a href="https://montereybayarearoundup.org/es/" title="Monterey Bay Area Roundup 2024 Homepage">montereybayarearoundup.org/es/<br>Página Principal</a>
 						</h3>
 					</section>
 				</div>
@@ -219,10 +219,10 @@ include_once 'header-bottom.inc';
 						<p class="h3 text-dark">Reuniones Presenciales</p>
 						<p class="dark-text">31 de Agosto y 1 de Aeptiembre en el Centro de Conferencias de Monterey
 							<br>
-							Tenga en cuenta que es necesario registrarse para el evento presencial. 
+							Tenga en cuenta que es necesario registrarse para el evento presencial.
 						</p>
-						 <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
-						
+						<p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
+
 					</div>
 				</div>
 			</div>
@@ -238,7 +238,7 @@ include_once 'header-bottom.inc';
 	<aside aria-label="declaración de responsabilidad">
 		<div class=" row justify-content-md-center">
 			<div class='col-sm-4 banner'>
-				<img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Round Up 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
+				<img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
 			</div>
 			<div class='col-sm-8 col-md-6 p-4'>
 				<h4>Nuestra Declaración de Responsabilidad:</h4>

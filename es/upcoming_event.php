@@ -87,7 +87,7 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Agradecimientos por el Round Up en el Área de la Bahía de Monterey</a></p>
+                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Agradecimientos por el Roundup en el Área de la Bahía de Monterey</a></p>
                               <section aria-label="Información del evento">
                                    <h3 class="card-title mb-4"><strong>¡Gratitud!</strong></h3>
                                    <p class="mb-4 h5 text-dark">

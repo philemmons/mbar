@@ -86,7 +86,7 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Round Up Appreciation</a></p>
+                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Monterey Bay Area Roundup Appreciation</a></p>
                               <section aria-label="Event Information">
                                    <h3 class="card-title mb-4"><strong>Gratitude!</strong></h3>
                                    <p class="mb-4 h5 text-dark">

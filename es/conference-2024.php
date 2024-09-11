@@ -315,7 +315,7 @@ include_once 'header-bottom.inc';
                                     <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>Rifa de premios Round Up y sorteo 50/50: debe estar presente para ganar</strong>
+                                    <strong>Rifa de premios Roundup y sorteo 50/50: debe estar presente para ganar</strong>
                                     <br>
                                     (Inmediatamente después de la reunión de Oradores)
                                 </div>

@@ -334,7 +334,7 @@ include_once 'header-bottom.inc';
                                 </div>
                             </div>
                             <br>
-                            <strong>8:00am</strong> - Round Up Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
+                            <strong>8:00am</strong> - Roundup Fellowship Breakfast (Bethlehem Lutheran Church Hall ∆)
                             <br>
                             <hr>
                             <strong>10:00pm</strong> Doctors Opinion Panel: Jerry C. and Sheila C.
@@ -397,7 +397,7 @@ include_once 'header-bottom.inc';
                             <strong>5:00pm</strong> - Meet the Speaker's Dinner <strong>(Bethlehem Lutheran Church Hall ∆)</strong>
                             <br>
 
-                            <strong>7:00pm</strong> - Round Up Drawing - Must Be Present to Win
+                            <strong>7:00pm</strong> - Roundup Drawing - Must Be Present to Win
                             <br>
                             <strong>8:00pm</strong> - Saturday Night Speaker Meeting - ASL Interpretation Provided
                             <br>

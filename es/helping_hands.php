@@ -261,7 +261,7 @@ include_once 'header-bottom.inc';
                         </p>
 
                         <p>Si paga con <strong>cheque</strong>, hágalo a nombre de MBAR y envíelo por correo a
-                            <br><span class="text-uppercase">Monterey Bay Area Round Up</span>
+                            <br><span class="text-uppercase">Monterey Bay Area Roundup</span>
                             <br>Attn: de Naomi B.
                             <br>P.O. Box 1462
                             <br>Monterey, CA 93942

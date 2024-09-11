@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-history" title="Increíble Playa Estatal de Monterey">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Únete a nosotros en la comunión.">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Round Up<br>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup<br>
                         Historia</h2>
                     <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                 </div>
@@ -74,7 +74,7 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Round Up desde 1993.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
                         <section aria-label="Lema y propósito de MBAR">
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Mantenlo Simple".</span>
                             </h3>

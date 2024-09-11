@@ -259,7 +259,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center cell-color">
-                                    <strong>8:30pm Sorteo de Premios Round Up y Sorteo 50 / 50</strong>
+                                    <strong>8:30pm Sorteo de Premios Roundup y Sorteo 50 / 50</strong>
                                 </div>
 
 

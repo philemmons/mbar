@@ -259,7 +259,7 @@ include_once 'header-bottom.inc';
 
 
                                 <div class="col-sm-12 text-center cell-color">
-                                    <strong>8:30pm Round Up Prize Raffle and 50/50 Drawing</strong>
+                                    <strong>8:30pm Roundup Prize Raffle and 50/50 Drawing</strong>
                                 </div>
 
 
@@ -281,7 +281,7 @@ include_once 'header-bottom.inc';
                             <div class="row g-0 mb-4">
 
                                 <div class="col-sm-12 text-center">
-                                    <strong>8:00am Round Up Breakfast and Bingo Games - Bethlehem Lutheran Church</strong>
+                                    <strong>8:00am Roundup Breakfast and Bingo Games - Bethlehem Lutheran Church</strong>
                                 </div>
 
 

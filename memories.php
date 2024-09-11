@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-memories" title="Colorful trees during the fall.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in the fellowship.">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Round Up<br>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup<br>
                         Memories</h2>
                 </div>
             </div>

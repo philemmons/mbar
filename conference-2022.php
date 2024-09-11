@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="MBAR Conference 2022 Archive">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Round Up 2022 Archive</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup 2022 Archive</h2>
                 </div>
             </div>
         </div>

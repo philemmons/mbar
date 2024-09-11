@@ -75,7 +75,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-6 col-lg-6 col-md-12 pt-4">
                     <div class="p-3 text-bg-light hero-text-border" title="Política de privacidad del sitio web">
                         <section aria-label="Privacidad de los datos del usuario">
-                            <h3 class="mb-6 h4 text-dark">Política de Privacidad del Sitio Web de Monterey Bay Area Round Up</h3>
+                            <h3 class="mb-6 h4 text-dark">Política de Privacidad del Sitio Web de Monterey Bay Area Roundup</h3>
                         </section>
                     </div>
                 </div>
@@ -573,10 +573,10 @@ include_once 'header-bottom.inc';
                         <p class="h3 text-dark">Reuniones Presenciales</p>
                         <p class="dark-text">31 de Agosto y 1 de Aeptiembre en el Centro de Conferencias de Monterey
                             <br>
-                            Tenga en cuenta que es necesario registrarse para el evento presencial. 
+                            Tenga en cuenta que es necesario registrarse para el evento presencial.
                         </p>
-                         <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
-                        
+                        <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
+
                     </div>
                 </div>
             </div>
@@ -592,7 +592,7 @@ include_once 'header-bottom.inc';
     <aside aria-label="declaración de responsabilidad">
         <div class=" row justify-content-md-center">
             <div class='col-sm-4 banner'>
-                <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Round Up 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
+                <img src="../images/mbar_logo.png" class="img-fluid rounded-top" alt="Logotipo de Monterey Bay Area Roundup 2024 con una cola de ballena con pantalones y el lema: Mantenlo Simple.">
             </div>
             <div class='col-sm-8 col-md-6 p-4'>
                 <h4>Nuestra Declaración de Responsabilidad:</h4>

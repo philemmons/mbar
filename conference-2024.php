@@ -323,7 +323,7 @@ include_once 'header-bottom.inc';
                                     <strong>8:30pm</strong>
                                 </div>
                                 <div class="col-sm-10 bottom cell-color">
-                                    <strong>Round Up Prize Raffle and 50/50 Drawing - Must be present to win</strong>
+                                    <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
