@@ -202,25 +202,19 @@ include_once 'header-bottom.inc';
 		<div class="container shadow-wrap">
 			<div class="row justify-content-center mb-5">
 				<div class="col-xl-8 col-lg-8 col-md-12 py-4">
-					<div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
-						<h3 class="fw-bold px-3 px-md-0">We're excited to announce our upcoming MBAR on<br>Labor Day weekend.</h3>
-						<p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
-						<p class="dark-text">August 30th at 8:00pm PDT
-							<br>
-							Speaker: Oliver D. from Delaware
-							<br>
-							Meeting ID: <strong>831 4306 2293</strong>
-							<br>
-							Passcode: <strong>2024</strong>
-							<br>
-							This meeting is open to everyone, and we encourage you to join!
-						</p>
-						<p class="h3 text-dark">In-Person Meetings</p>
-						<p class="dark-text">August 31st and September 1st at the Monterey Conference Center
-							<br>
-							Please note that registration is required for the in-person event.
-						</p>
-						<p class="dark-text mb-6">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!</p>
+					<div class="p-3 text-center text-bg-light hero-text-border" title="Join us in 2026!">
+					<h3 class="fw-bold px-3 px-md-0">MBAR 2026 will take place over Labor Day weekend!</h3>
+                    <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                    <p class="dark-text">August 28th at 8:00pm PDT
+                        <br>
+                        This meeting is open to everyone, and we encourage you to join!
+                    </p>
+                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="dark-text">August 29th and August 30th at the Monterey Conference Center
+                        <br>
+                        Please note that registration is required for the in-person event.
+                    </p>
+                    <p class="dark-text mb-6">We look forward to seeing you then!</p>
 					</div>
 				</div>
 			</div>

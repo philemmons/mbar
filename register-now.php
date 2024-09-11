@@ -60,7 +60,7 @@ include_once 'header-bottom.inc';
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center at Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="Registration is Live!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in 2026!">
                     <h2 class="fw-bold px-3 px-md-0">We're excited about MBAR on<br>Labor Day weekend!</h2>
                     <p class="h3 text-dark">
                         <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Virtual Kick-Off Zoom Meeting<span class="sr-only">(Opens Zoom Application)</span></a>

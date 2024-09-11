@@ -60,7 +60,7 @@ include_once 'header-bottom.inc';
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-registration" title="Monterey Conference Center de Portola Plaza, Monterey.">
             <div id="zoom-info" class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡La inscripción ya está abierta!">
+                <div class="p-3 text-center text-bg-light hero-text-border" title="¡Únete a nosotros en 2026!">
                     <h2 class="fw-bold px-3 px-md-0">¡Estamos entusiasmados con el MBAR el
                         <br>
                         fin de semana del Día del Trabajo!
