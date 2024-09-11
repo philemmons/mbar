@@ -76,6 +76,7 @@ include_once 'header-bottom.inc';
                     <div class="p-3 text-center text-bg-light hero-text-border" title="">
                         <section aria-label="Call-to-action">
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it.</span></h3>
+                            <p class="mb-6 h5 text-dark">The purpose is to ensure that anyone who wants to benefit from the recovery and support available at these events is able to participate, regardless of financial constraints. This embodies the spirit of mutual support and fellowship central to A.A.'s mission.</p>
                         </section>
                     </div>
                 </div>

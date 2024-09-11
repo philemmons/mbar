@@ -221,18 +221,14 @@ include_once 'header-bottom.inc';
 
             <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo </strong> - Encuestas de Opinión
+                <div class="cuerpo-tarjeta">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
                             </p>
-                            <p class="card-text">Las encuestas de opinión son cruciales porque ofrecen información valiosa sobre lo que funciona bien y lo que necesita mejorar, lo que permite a MBAR cambiar en función de sus experiencias. Al demostrar que MBAR valora sus opiniones, las encuestas de opinión también fomentan un sentido de compañerismo y honran la primera tradición de unidad.
-                                <br><br>
-                                <strong>Nos preocupamos. Realmente lo hacemos.</strong>
+                            <p class="card-text">Eche una 'mano amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
                             </p>
                         </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/651897?lang=es" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">Encuesta en español<span class="sr-only">(Abre una nueva ventana)</span></a></small>
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/surveys/index.php/111299?lang=en" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow">Encuesta en inglés<span class="sr-only">(Abre una nueva ventana)</span></a></small>
+                        <div class="centro-de-texto-pie-de-tarjeta">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Manos Que Ayudan</a></small>
                         </div>
                     </div>
                 </div>

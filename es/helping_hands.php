@@ -75,7 +75,8 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="">
                         <section aria-label="Llamado a la acción">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Ofrezca una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo.</span></h3>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Dar una 'Mano Amiga' a alguien que quiera ir a la conferencia pero no pueda costearlo.</span></h3>
+                            <p class="mb-6 h5 text-dark">El propósito es asegurar que cualquier persona que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones económicas. Esto encarna el espíritu de apoyo mutuo y compañerismo que es central para la misión de A.A.</p>
                         </section>
                     </div>
                 </div>
