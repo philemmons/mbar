@@ -114,7 +114,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - Reuniones Maratonianas
+                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reuniones Maratonianas
                             </p>
                             <p class="card-text">Las reuniones de maratón son una parte crucial de las convenciones de A.A. y Al-Anon porque brindan apoyo y compañerismo continuos para todos. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
                                 <br><br>
@@ -147,14 +147,12 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - <a href="activities.php" class="bb-link">Más Compañerismo</a>
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Más Compañerismo</a>
                             </p>
                             <p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
                             </p>
                             <p class="card-text">
                             <ul>
-                                <li><strong>Nuevo</strong> - Fotomatones: ¡Captura divertidos selfies!
-                                </li>
                                 <li>Comunicación Rápida
                                 </li>
                                 <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
