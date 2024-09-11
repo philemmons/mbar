@@ -60,29 +60,13 @@ include_once 'header-bottom.inc';
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border" title="¡Emoción MBAR!">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">¡¡Prepárese para el MBAR el<br>fin de semana del Día del Trabajo!</h2>
-                    <p class="h3 text-dark">
-                        <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Reunión Virtual de Lanzamiento por Zoom<span class="sr-only">(Abre la aplicación Zoom)</span></a>
+                <div class="p-3 text-center text-bg-light hero-text-border">
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
+                    <p class="h3 text-dark">Un Sincero Agradecimiento a Nuestros Voluntarios Dedicados
+                    </P>
+                    <p class="dark-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio de sanación, apoyo y conexión. Ya sea que estuvieran organizando, preparando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dedicar su tiempo, energía y corazón a este importante evento.
                     </p>
-                    <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
-                        <br>
-                        Orador: Oliver D. de Delaware
-                        <br>
-                        ID de la reunión: <strong>831 4306 2293</strong>
-                        <br>
-                        Código de Acceso: <strong>2024</strong>
-                        <br>
-                        Esta reunión está abierta a todos y lo alentamos a participar.
-                    </p>
-
-                    <p class="h3 text-dark">Reuniones en Persona</p>
-                    <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
-                        <br>
-                        Tenga en cuenta que es necesario registrarse para el evento en persona.
-                    </p>
-                    <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
-
+                    <p class="h3 text-dark">Únase a Nosotros en 2026</p>
                 </div>
             </div>
         </div>
@@ -225,7 +209,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
                             </p>
-                            <p class="card-text">Eche una 'mano amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
+                            <p class="card-text">Eche una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
                             </p>
                         </div>
                         <div class="card-footer text-center">

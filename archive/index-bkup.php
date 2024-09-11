@@ -60,13 +60,28 @@ include_once 'header-bottom.inc';
     <div class="container shadow-wrap">
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-home">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                <div class="p-3 text-center text-bg-light hero-text-border">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
-                    <p class="h3 text-dark">A Heartfelt Thank You to Our Dedicated Volunteers
-                    </P>
-                    <p class="dark-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for healing, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
+                <div class="p-3 text-center text-bg-light hero-text-border" title="MBAR excitement!">
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Get Set for MBAR on<br>Labor Day Weekend!</h2>
+                    <p class="h3 text-dark">
+                        <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Virtual Kick-Off Zoom Meeting<span class="sr-only">(Opens Zoom Application)</span></a>
                     </p>
-                    <p class="h3 text-dark">Join Us in 2026</p>
+                    <p class="dark-text">August 30th at 8:00pm PDT
+                        <br>
+                        Speaker: Oliver D. from Delaware
+                        <br>
+                        Meeting ID: <strong>831 4306 2293</strong>
+                        <br>
+                        Passcode: <strong>2024</strong>
+                        <br>
+                        This meeting is open to everyone, and we encourage you to join!
+                    </p>
+
+                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                        <br>
+                        Please note that registration is required for the in-person event.
+                    </p>
+                    <p class="dark-text mb-6">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!</p>
                 </div>
             </div>
         </div>
