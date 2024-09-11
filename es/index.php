@@ -80,7 +80,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Sentido del Corazón Gracias
+                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Sentido del Corazón Gracias
                             </p>
                             <p class="card-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio para la recuperación, el apoyo y la conexión. Ya sea que estuvieran organizando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dar su tiempo, energía y corazón a este importante evento.
                             </p>

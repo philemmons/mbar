@@ -80,7 +80,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Heartfelt Thank You
+                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Heartfelt Thank You
                             </p>
                             <p class="card-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for recovery, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
                             </p>
