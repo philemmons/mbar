@@ -62,11 +62,13 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
-                    <p class="h3 text-dark">Un Sincero Agradecimiento a Nuestros Voluntarios Dedicados
+                    <p class="h3 text-dark">Gratitud y Reflexión Post-Conferencia
                     </P>
-                    <p class="dark-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio para la recuperación, el apoyo y la conexión. Ya sea que estuvieran organizando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dar su tiempo, energía y corazón a este importante evento.
+                    <p class="dark-text">Queremos tomarnos un momento para agradecer a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. El espíritu de compañerismo y recuperación estuvo vivo en cada sesión, conversación y experiencia compartida. Ya sea que haya asistido, colaborado como voluntario o prestado apoyo desde lejos, su presencia y participación ayudaron a crear un entorno de sanación, crecimiento y conexión.
+                        <br><br>
+                        Al regresar a nuestra vida diaria, lo alentamos a reflexionar sobre las valiosas lecciones y perspectivas obtenidas durante la conferencia. Sigamos llevando el mensaje de recuperación a quienes aún sufren y fortaleciendo nuestros vínculos dentro de esta comunidad. Esperamos verlo en futuras reuniones y, hasta entonces, ¡manténgase conectado y siga regresando!
                     </p>
-                    <p class="h3 text-dark">Únase a Nosotros en 2026</p>
+                    <p class="h3 text-dark">Gracias nuevamente por hacer de este evento una experiencia significativa para todos.</p>
                 </div>
             </div>
         </div>
@@ -79,19 +81,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>Nuevo</strong> - <a href="conference-2024.php" class="bb-link">Calendario de Eventos de 2024</a>
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Sentido del Corazón Gracias
                             </p>
-                            <p class="card-text">Anunciamos nuestra reunión inaugural por Zoom el 30 de Agosto a las 8:00pm (hora diurna del pacífico). Únase a nosotros con nuestro primer orador del evento de 2024: Oliver D. de Delaware. Este encuentro está abierto a todos, y nos permite unirnos con su experiencia, fortaleza y esperanza.
-                                <br>
-                                <a class="bb-link" href="register-now.php#zoom-info">Vea la información de Zoom aquí</a>
-                            </p>
-                            <p class="card-text">¡Prepárate para sumergirte! ¡Nuestro calendario de eventos ya está disponible! Pronto se darán a conocer más detalles a medida que la trama se complique.
-                            </p>
-                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="../pdf/spanish-aa-marathon-2024.pdf">¡El calendario de reuniones del Maratón de A.A. para hispanohablantes ya está disponible!<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
-                            </p>
-                            <p class="card-text"><strong>Novedad</strong>: <a class="bb-link" href="../pdf/final-aa-marathon-meeting-2024.pdf">Más reuniones de A.A. ¡Se han programado reuniones de maratón!<span class="sr-only">(Abrir PDF en el navegador)</span></a>
-                            </p>
-                            <p class="card-text"><a class="bb-link" href="../pdf/mbar-al-anon-speakers.pdf">Se han anunciado los oradores destacados de Al-Anon y Alateen<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                            <p class="card-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio para la recuperación, el apoyo y la conexión. Ya sea que estuvieran organizando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dar su tiempo, energía y corazón a este importante evento.
                             </p>
                         </div>
                         <div class="card-footer text-center">

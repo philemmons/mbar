@@ -62,11 +62,13 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
-                    <p class="h3 text-dark">A Heartfelt Thank You to Our Dedicated Volunteers
+                    <p class="h3 text-dark">Post-Conference Gratitude and Reflection
                     </P>
-                    <p class="dark-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for recovery, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
+                    <p class="dark-text">We want to take a moment to thank everyone who participated in and contributed to the success of our recent A.A. conference. The spirit of fellowship and recovery was alive in every session, conversation, and shared experience. Whether you attended, volunteered, or supported from afar, your presence and involvement helped create an environment of healing, growth, and connection.
+                        <br><br>
+                        As we return to our daily lives, we encourage you to reflect on the valuable lessons and insights gained during the conference. Let's continue to carry the message of recovery to those who still suffer and strengthen our bonds within this community. We look forward to seeing you at future gatherings, and until then, stay connected and keep coming back!
                     </p>
-                    <p class="h3 text-dark">Join Us in 2026</p>
+                    <p class="h3 text-dark">Thank you again for making this event a meaningful experience for all.</p>
                 </div>
             </div>
         </div>
@@ -79,19 +81,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><strong>New</strong> - <a href="conference-2024.php" class="bb-link">2024 Event Schedule</a>
+                            <p class="card-title h6"><i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Heartfelt Thank You
                             </p>
-                            <p class="card-text">Announcing our Kick-Off Zoom Meeting on August 30th at 8pm PDT. Join us with our first Speaker of the 2024 Event - Oliver D. from Delaware. This meeting is open to everyone, and join us in unity with his experience, strength, and hope.
-                                <br>
-                                <a class="bb-link" href="register-now.php#zoom-info">View the Zoom info here</a>
-                            </p>
-                            <p class="card-text">Get ready to dive in! Our event schedule is now live! More details will be unveiled shortly as the plot thickens.
-                            </p>
-                            <p class="card-text"><strong>New</strong> - <a class="bb-link" href="pdf/spanish-aa-marathon-2024.pdf">Spanish-Speaker A.A. Marathon Meetings Schedule is live!<span class="sr-only">(Open pdf in browser)</span></a>
-                            </p>
-                            <p class="card-text"><strong>New</strong> - <a class="bb-link" href="pdf/final-aa-marathon-meeting-2024.pdf">Even more A.A. Marathon Meetings have been scheduled!<span class="sr-only">(Open pdf in browser)</span></a>
-                            </p>
-                            <p class="card-text"><a class="bb-link" href="pdf/mbar-al-anon-speakers.pdf">Featured Al-Anon and Alateen Speakers have been Announced<span class="sr-only">(Open pdf in browser)</span></a>
+                            <p class="card-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for recovery, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
                             </p>
                         </div>
                         <div class="card-footer text-center">
