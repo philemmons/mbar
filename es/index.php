@@ -94,24 +94,71 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Regístrese en Persona
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Voluntariado en Recuperación</a>
                             </p>
-                            <p class="card-text">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!
+                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
                                 <br><br>
-                                Las reuniones de maratón están abiertas y no requieren inscripción.
-                                <br><br>
-                                ¡La reunión inicial de Zoom está disponible para todos y estamos ansiosos por verte allí!
-                            </p>
-                            <p class="card-text">Le recordamos que su inscripción se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
+                                Recuerde, recibe lo que da. Únase a nosotros para generar un impacto positivo y mejorar nuestra comunidad de recuperación.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?hl=es&entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Centro de Conferencias de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></small>
+                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Listo para prestar Servicio</a></small>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
+                            </p>
+                            <p class="card-text">Eche una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Manos Que Ayudan</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Nuestro Pasado</a>
+                            </p>
+                            <p class="card-text">Desde 1993, Monterey Bay Area Round Up(MBAR) ha unido a oradores e invitados de todo el país. El voluntariado mejora nuestro camino hacia la recuperación al contribuir y fomentar el crecimiento personal. Explore los volantes anteriores de MBAR para ver el impacto y únase a nosotros para continuar con este legado.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Traducción Española</a>
+                            </p>
+                            <p class="card-text">¡Estamos comprometidos con nuestras comunidades de A.A. y Al-Anon de habla hispana!
+                                <br><br>
+                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.) y Al-Anon, la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reuniones Maratonianas
@@ -135,16 +182,11 @@ include_once 'header-bottom.inc';
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Part Two -->
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Más Compañerismo</a>
@@ -175,66 +217,24 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Traducción Española</a>
+                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Regístrese en Persona
                             </p>
-                            <p class="card-text">¡Estamos comprometidos con nuestras comunidades de A.A. y Al-Anon de habla hispana!
+                            <p class="card-text">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!
                                 <br><br>
-                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.) y Al-Anon, la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Sitio Web en Inglés<span class="sr-only">(Se abre en una ventana nueva)</span></a></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
-                            </p>
-                            <p class="card-text">Eche una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Manos Que Ayudan</a></small>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Voluntariado en Recuperación</a>
-                            </p>
-                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
+                                Las reuniones de maratón están abiertas y no requieren inscripción.
                                 <br><br>
-                                Recuerde, recibe lo que da. Únase a nosotros para generar un impacto positivo y mejorar nuestra comunidad de recuperación.
+                                ¡La reunión inicial de Zoom está disponible para todos y estamos ansiosos por verte allí!
+                            </p>
+                            <p class="card-text">Le recordamos que su inscripción se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="contact.php" class="btn btn-primary">Listo para prestar Servicio</a></small>
+                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?hl=es&entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Centro de Conferencias de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></small>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Nuestro Pasado</a>
-                            </p>
-                            <p class="card-text">Desde 1993, Monterey Bay Area Roundup(MBAR) ha unido a oradores e invitados de todo el país. El voluntariado mejora nuestro camino hacia la recuperación al contribuir y fomentar el crecimiento personal. Explore los volantes anteriores de MBAR para ver el impacto y únase a nosotros para continuar con este legado.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
-                        </div>
                     </div>
                 </div>
             </div>
