@@ -228,7 +228,7 @@ include_once 'header-bottom.inc';
                             <p class="card-text">Eche una 'mano amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
                             </p>
                         </div>
-                        <div class="centro-de-texto-pie-de-tarjeta">
+                        <div class="card-footer text-center">
                             <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Manos Que Ayudan</a></small>
                         </div>
                     </div>
