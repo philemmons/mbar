@@ -221,7 +221,8 @@ include_once 'header-bottom.inc';
 
             <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                <div class="cuerpo-tarjeta">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
                             </p>
                             <p class="card-text">Eche una 'mano amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
