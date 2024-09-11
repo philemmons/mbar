@@ -64,7 +64,7 @@ include_once 'header-bottom.inc';
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
                     <p class="h3 text-dark">Un Sincero Agradecimiento a Nuestros Voluntarios Dedicados
                     </P>
-                    <p class="dark-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio de sanación, apoyo y conexión. Ya sea que estuvieran organizando, preparando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dedicar su tiempo, energía y corazón a este importante evento.
+                    <p class="dark-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio para la recuperación, el apoyo y la conexión. Ya sea que estuvieran organizando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dar su tiempo, energía y corazón a este importante evento.
                     </p>
                     <p class="h3 text-dark">Únase a Nosotros en 2026</p>
                 </div>

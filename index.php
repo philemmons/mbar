@@ -64,7 +64,7 @@ include_once 'header-bottom.inc';
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
                     <p class="h3 text-dark">A Heartfelt Thank You to Our Dedicated Volunteers
                     </P>
-                    <p class="dark-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for healing, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
+                    <p class="dark-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for recovery, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
                     </p>
                     <p class="h3 text-dark">Join Us in 2026</p>
                 </div>
