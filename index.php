@@ -68,7 +68,6 @@ include_once 'header-bottom.inc';
                         <br><br>
                         As we return to our daily lives, we encourage you to reflect on the valuable lessons and insights gained during the conference. Let's continue to carry the message of recovery to those who still suffer and strengthen our bonds within this community. We look forward to seeing you at future gatherings, and until then, stay connected and keep coming back!
                     </p>
-                    <p class="h3 text-dark">Thank you again for making this event a meaningful experience for all.</p>
                 </div>
             </div>
         </div>

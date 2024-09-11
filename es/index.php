@@ -68,7 +68,6 @@ include_once 'header-bottom.inc';
                         <br><br>
                         Al regresar a nuestra vida diaria, lo alentamos a reflexionar sobre las valiosas lecciones y perspectivas obtenidas durante la conferencia. Sigamos llevando el mensaje de recuperación a quienes aún sufren y fortaleciendo nuestros vínculos dentro de esta comunidad. Esperamos verlo en futuras reuniones y, hasta entonces, ¡manténgase conectado y siga regresando!
                     </p>
-                    <p class="h3 text-dark">Gracias nuevamente por hacer de este evento una experiencia significativa para todos.</p>
                 </div>
             </div>
         </div>
