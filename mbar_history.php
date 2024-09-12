@@ -102,7 +102,7 @@ include_once 'header-bottom.inc';
                                 <div class="carousel-item active">
                                     <img src="../images/2024.png" class="d-block w-100" alt="MBAR 2024">
                                 </div>
-                                <div class="carousel-item active">
+                                <div class="carousel-item">
                                     <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
                                 </div>
                                 <div class="carousel-item">
@@ -217,7 +217,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <section aria-label="Past Flyers">
                                 <h3 class="card-title h6">
-                                    <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Flyers Over the Years
+                                    <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Conference Programs in PDF's
                                 </h3>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>
