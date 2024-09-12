@@ -82,7 +82,7 @@ include_once 'header-bottom.inc';
                             <h3 class="h4 fw-bold mb-2"><span class="text-dark px-3 px-md-0">Origins and Early Development</span>
                             </h3>
 
-                            <p class="mb-6 h5 text-dark">The Monterey Bay Area Roundup follows the tradition of A.A. roundups, which started in the 1940s in various parts of the United States. Roundups became increasingly common as regional and local A.A. communities sought to create spaces for large-scale gatherings that fostered personal and spiritual growth through the principles of the A.A. 12 Steps. These gatherings were created to celebrate sobriety milestones, strengthen the bonds of fellowship, and provide a platform for sharing experiences, strength, and hope among A.A. and Al-Anon members.
+                            <p class="mb-6 h5 text-dark mb-3">The Monterey Bay Area Roundup follows the tradition of A.A. roundups, which started in the 1940s in various parts of the United States. Roundups became increasingly common as regional and local A.A. communities sought to create spaces for large-scale gatherings that fostered personal and spiritual growth through the principles of the A.A. 12 Steps. These gatherings were created to celebrate sobriety milestones, strengthen the bonds of fellowship, and provide a platform for sharing experiences, strength, and hope among A.A. and Al-Anon members.
                             </p>
 
                             <p class="mb-6 h5 text-dark">This event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.
