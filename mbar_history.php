@@ -167,7 +167,7 @@ include_once 'header-bottom.inc';
     </article>
 
     <!-- Part Two -->
-    <article aria-label="Past schedules, speaker, and fliers">
+    <article aria-label="Past schedules, speaker, and flyers">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
@@ -215,9 +215,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <section aria-label="Past Fliers">
+                            <section aria-label="Past Flyers">
                                 <h3 class="card-title h6">
-                                    <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years
+                                    <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Flyers Over the Years
                                 </h3>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>

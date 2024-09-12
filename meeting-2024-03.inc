@@ -60,7 +60,7 @@
             <dt>10. Old Business:</dt>
             <dt>Fundraising</dt>
 
-            <dd>a. St. Patty Day Sun 3/17: See Attached Flier in Invite; Phil C. Pool House; Event Time: 4 to 7pm; Setup: 1pm; Speaker: Avail L; Food: Matt R. and Helpers; Raffle: 50/50 and Prizes; Katherine needs help - Ticket Sales, Prize drawing; Use MBAR Vases for tickets; Rene decorations; Plates, napkins, and cutlery covered; Volunteers - Diane, Sydney, May, Conor and several people in chat;</dd>
+            <dd>a. St. Patty Day Sun 3/17: See Attached Flyer in Invite; Phil C. Pool House; Event Time: 4 to 7pm; Setup: 1pm; Speaker: Avail L; Food: Matt R. and Helpers; Raffle: 50/50 and Prizes; Katherine needs help - Ticket Sales, Prize drawing; Use MBAR Vases for tickets; Rene decorations; Plates, napkins, and cutlery covered; Volunteers - Diane, Sydney, May, Conor and several people in chat;</dd>
 
             <dt>T-shirt poll about the style and color of the MBAR t-shirts</dt>
 

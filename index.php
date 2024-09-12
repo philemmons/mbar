@@ -132,7 +132,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Our Past</a>
                             </p>
-                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR fliers to see the impact and join us in continuing this legacy.
+                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup(MBAR) has united speakers and guests nationwide. Volunteering enhances our recovery journey by giving back and fostering personal growth. Explore past MBAR flyers to see the impact and join us in continuing this legacy.
                             </p>
                         </div>
                         <div class="card-footer text-center">

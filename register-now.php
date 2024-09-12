@@ -266,7 +266,7 @@ include_once 'header-bottom.inc';
                             <h4 class="card-title text-center mb-3"><a href="#register-now" class="bb-link">A.A. Conventions: Why do we have to pay?</a></h4>
                             <p>There are many A.A. conferences/conventions held around the world. One of the most common misconceptions of their gathering is that they are A.A. meetings and since there are no dues or fees for A.A. membership, there should be no fees to attend. Conventions and conferences are special events, not regular A.A. meetings. They require months of planning, preparation and costs.
                             </p>
-                            <p>Since most events are held in hotels/conference centers, there is a charge for the use of some facilities. Other expenses include travel and lodging for the speakers, printing of fliers, schedules, programs, postage, supplies and entertainment. A large event requires a substantial amount of money.
+                            <p>Since most events are held in hotels/conference centers, there is a charge for the use of some facilities. Other expenses include travel and lodging for the speakers, printing of flyers, schedules, programs, postage, supplies and entertainment. A large event requires a substantial amount of money.
                             </p>
                             <p>Each conference is self-supporting. No group monies are used to pay for the event. The cost of the event is paid through registration fees, and MBAR fund raising events. Attendance is voluntary and as responsible A.A. members, we now "pay our own way."
                             </p>

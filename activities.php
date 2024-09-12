@@ -176,7 +176,7 @@ include_once 'header-bottom.inc';
                                 </section>
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
-                                    Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members. Scope out our new flier - <a class="bb-link" href="pdf/ice-cream-social.pdf">Ice Cream Social<span class="sr-only">(Open pdf in browser)</span></a>
+                                    Stop what you are doing, and come have some ice cream, with your favorite toppings! Enjoy the fellowship and share about your experience at being at this year's MBAR with other members. Scope out our new flyer - <a class="bb-link" href="pdf/ice-cream-social.pdf">Ice Cream Social<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="card-text">It will be held on the <strong>Stevenson Terrace</strong> at the Conference Center.</p>
                             </div>
