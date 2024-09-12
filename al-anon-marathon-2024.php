@@ -58,7 +58,7 @@ include_once 'header-bottom.inc';
 <main id="main-content">
     <!-- Hero Part -->
     <div class="container shadow-wrap">
-        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-conference-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
+        <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-marathon-2024" title="Monterey Conference Center - Portola Plaza, Monterey.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="2024 Marathon Meetings">
                     <h2 class="display-6 fw-bold px-3 px-md-0">2024 Al-Anon Marathon Meetings</h2>

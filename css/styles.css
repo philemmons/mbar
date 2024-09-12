@@ -294,6 +294,10 @@ nav {
   background-image: url("../images/bg-img-audio-trans.png");
 }
 
+.bg-img-marathon-2024{
+  background-image: url("../images/zen-stones-sunrise-beach-ai.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }
