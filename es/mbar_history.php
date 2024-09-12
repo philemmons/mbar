@@ -101,7 +101,7 @@ include_once 'header-bottom.inc';
                         </h3>
                         <div id="carouselExampleFade" class="carousel slide carousel-fade">
                             <div class="carousel-inner">
-                            <div class="carousel-item active">
+                                <div class="carousel-item active">
                                     <img src="../images/2024.png" class="d-block w-100" alt="MBAR 2024">
                                 </div>
                                 <div class="carousel-item active">
@@ -219,19 +219,19 @@ include_once 'header-bottom.inc';
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años
                                 </h3>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2024-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2024 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2024-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2024 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2015-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2015-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2014-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2014 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2014-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2014 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2003-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2003 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2003-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2003 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-1997-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 1997 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-1997-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 1997 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                             </section>
                         </div>

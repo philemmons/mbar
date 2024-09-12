@@ -220,19 +220,19 @@ include_once 'header-bottom.inc';
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Flyers Over the Years
                                 </h3>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2015-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2015 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2015-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2015 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2014-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2014 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2014-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2014 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2003-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2003 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2003-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2003 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                                 <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-1997-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 1997 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-1997-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 1997 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                             </section>
                         </div>
