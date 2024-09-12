@@ -75,10 +75,20 @@ include_once 'header-bottom.inc';
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
-                        <section aria-label="Lema y propósito de MBAR">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Mantenlo Simple".</span>
+                        <section aria-label="Historia y propósito de MBAR">
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Manténgalo simple".</span>
                             </h3>
-                            <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas que enfrentan los desafíos más difíciles y a avanzar hacia un futuro más fuerte y resiliente.</p>
+
+                            <p class="mb-6 h5 text-dark">El Monterey Bay Area Roundup es un evento anual que reúne a miembros de Alcohólicos Anónimos (A.A.) y Al-Anon para apoyarse mutuamente en el continuo camino de recuperación del alcoholismo. Con una rica historia que refleja el espíritu de comunidad, servicio y espiritualidad, el evento ha crecido hasta convertirse en una piedra angular para la comunidad de recuperación en la región de la Bahía de Monterey.</p>
+
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Orígenes y Desarrollo Temprano</span>
+                            </h3>
+
+                            <p class="mb-6 h5 text-dark">El Monterey Bay Area Roundup sigue la tradición de las reuniones de A.A., que comenzaron en la década de 1940 en varias partes de los Estados Unidos. Las reuniones se volvieron cada vez más comunes a medida que las comunidades regionales y locales de A.A. buscaban crear espacios para reuniones a gran escala que fomentaran el crecimiento personal y espiritual a través de los principios de los 12 Pasos de A.A. Estas reuniones se crearon para celebrar los hitos de la sobriedad, fortalecer los lazos de compañerismo y proporcionar una plataforma para compartir experiencias, fortaleza y esperanza entre los miembros de A.A. y Al-Anon.
+                            </p>
+
+                            <p class="mb-6 h5 text-dark">Este evento se ha dedicado a ayudar a las personas a enfrentar los desafíos más difíciles y avanzar hacia un futuro más fuerte y resiliente.
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -91,6 +101,9 @@ include_once 'header-bottom.inc';
                         </h3>
                         <div id="carouselExampleFade" class="carousel slide carousel-fade">
                             <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                    <img src="../images/2024.png" class="d-block w-100" alt="MBAR 2024">
+                                </div>
                                 <div class="carousel-item active">
                                     <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
                                 </div>
@@ -163,6 +176,7 @@ include_once 'header-bottom.inc';
                                 <h3 class="card-title h6">
                                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Calendario de Eventos Pasados
                                 </h3>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2024.php" class="bb-link" target="_blank" rel="noopener noreferrer">2024 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                                 <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2022.php" class="bb-link" target="_blank" rel="noopener noreferrer">2022 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                                 <p class="card-text"> <a href="https://montereybayarearoundup.org/es/conference-2019.php" class="bb-link" target="_blank" rel="noopener noreferrer">2019 Conferencia<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </section>
@@ -204,6 +218,9 @@ include_once 'header-bottom.inc';
                                 <h3 class="card-title h6">
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Volantes Anteriores A LO Largo de los Años
                                 </h3>
+                                <p class="d-grid gap-2">
+                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2024-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2024 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
+                                </p>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2015-Program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>

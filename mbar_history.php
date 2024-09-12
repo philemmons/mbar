@@ -73,10 +73,20 @@ include_once 'header-bottom.inc';
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
-                        <section aria-label="MBAR's slogan and purpose">
+                        <section aria-label="MBAR's history and purpose">
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR was established in 1993 with our guiding principle:<br>"Keep It Simple."</span>
                             </h3>
-                            <p class="mb-6 h5 text-dark">This event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.</p>
+
+                            <p class="mb-6 h5 text-dark">The Monterey Bay Area Roundup is an annual event that brings together members of Alcoholics Anonymous (A.A.) and Al-Anon to support each other in the ongoing journey of recovery from alcoholism. With a rich history that reflects the spirit of community, service, and spirituality, the event has grown to become a cornerstone for the recovery community in the Monterey Bay region.</p>
+
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Origins and Early Development</span>
+                            </h3>
+
+                            <p class="mb-6 h5 text-dark">The Monterey Bay Area Roundup follows the tradition of A.A. roundups, which started in the 1940s in various parts of the United States. Roundups became increasingly common as regional and local A.A. communities sought to create spaces for large-scale gatherings that fostered personal and spiritual growth through the principles of the A.A. 12 Steps. These gatherings were created to celebrate sobriety milestones, strengthen the bonds of fellowship, and provide a platform for sharing experiences, strength, and hope among A.A. and Al-Anon members.
+                            </p>
+
+                            <p class="mb-6 h5 text-dark">This event has dedicated itself to helping people facing the toughest challenges and move toward a stronger, and more resilient future.
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -89,6 +99,9 @@ include_once 'header-bottom.inc';
                         </h3>
                         <div id="carouselExampleFade" class="carousel slide carousel-fade">
                             <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../images/2024.png" class="d-block w-100" alt="MBAR 2024">
+                                </div>
                                 <div class="carousel-item active">
                                     <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
                                 </div>
@@ -164,6 +177,7 @@ include_once 'header-bottom.inc';
                                 <h3 class="card-title h6">
                                     <i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Schedule of Events
                                 </h3>
+                                <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2024.php" class="bb-link" target="_blank" rel="noopener noreferrer">2024 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                                 <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2022.php" class="bb-link" target="_blank" rel="noopener noreferrer">2022 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                                 <p class="card-text"> <a href="https://montereybayarearoundup.org/conference-2019.php" class="bb-link" target="_blank" rel="noopener noreferrer">2019 Conference<span class="sr-only">(Opens a new window)</span></a></p>
                             </section>
@@ -205,6 +219,9 @@ include_once 'header-bottom.inc';
                                 <h3 class="card-title h6">
                                     <i class="bi bi-award me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Past Fliers Over the Years
                                 </h3>
+                                <p class="d-grid gap-2">
+                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>
+                                </p>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2015-Program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2015 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
