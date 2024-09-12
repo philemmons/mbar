@@ -79,9 +79,9 @@ include_once 'header-bottom.inc';
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Manténgalo simple".</span>
                             </h3>
 
-                            <p class="mb-6 h5 text-dark">El Monterey Bay Area Roundup es un evento anual que reúne a miembros de Alcohólicos Anónimos (A.A.) y Al-Anon para apoyarse mutuamente en el continuo camino de recuperación del alcoholismo. Con una rica historia que refleja el espíritu de comunidad, servicio y espiritualidad, el evento ha crecido hasta convertirse en una piedra angular para la comunidad de recuperación en la región de la Bahía de Monterey.</p>
+                            <p class="mb-6 h5 text-dark mb-3">El Monterey Bay Area Roundup es un evento anual que reúne a miembros de Alcohólicos Anónimos (A.A.) y Al-Anon para apoyarse mutuamente en el continuo camino de recuperación del alcoholismo. Con una rica historia que refleja el espíritu de comunidad, servicio y espiritualidad, el evento ha crecido hasta convertirse en una piedra angular para la comunidad de recuperación en la región de la Bahía de Monterey.</p>
 
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Orígenes y Desarrollo Temprano</span>
+                            <h3 class="h4 fw-bold mb-2"><span class="text-dark px-3 px-md-0">Orígenes y Desarrollo Temprano</span>
                             </h3>
 
                             <p class="mb-6 h5 text-dark">El Monterey Bay Area Roundup sigue la tradición de las reuniones de A.A., que comenzaron en la década de 1940 en varias partes de los Estados Unidos. Las reuniones se volvieron cada vez más comunes a medida que las comunidades regionales y locales de A.A. buscaban crear espacios para reuniones a gran escala que fomentaran el crecimiento personal y espiritual a través de los principios de los 12 Pasos de A.A. Estas reuniones se crearon para celebrar los hitos de la sobriedad, fortalecer los lazos de compañerismo y proporcionar una plataforma para compartir experiencias, fortaleza y esperanza entre los miembros de A.A. y Al-Anon.
