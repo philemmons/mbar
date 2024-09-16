@@ -132,11 +132,11 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Our Past</a>
                             </p>
-                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup(MBAR) has steadily grown in size and significance since its inception, As the event continues to evolve, it remains deeply rooted in the spiritual principles of A.A. and Al-Anon, with a strong focus on fostering personal growth, mutual support, and spiritual development.
+                            <p class="card-text">Since 1993, the Monterey Bay Area Roundup (MBAR) has steadily grown in size and significance since its inception, As the event continues to evolve, it remains deeply rooted in the spiritual principles of A.A. and Al-Anon, with a strong focus on fostering personal growth, mutual support, and spiritual development.
                                 <br><br>
                                 Throughout its history, the Roundup has played a vital role in the lives of countless individuals and families, providing a space where they can find hope, healing, and fellowship in their recovery journey.
                                 <br><br>
-                                Explore past conferences, flyers, and A.A. / Al-Anon speaker recordings to catch a glimpse of our next MBAR.
+                                Explore past conferences, flyers, and A.A./Al-Anon speaker recordings to catch a glimpse of our next MBAR.
                             </p>
                         </div>
                         <div class="card-footer text-center">
