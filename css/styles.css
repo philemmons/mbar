@@ -683,6 +683,6 @@ dl {
 
 /**** schedule link on light blue bg ****/
 .d-link{
-  color: var(-color-23);
+  color: var(--color-23);
   text-underline-offset: 0.25em !important;
 }
