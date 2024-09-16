@@ -199,6 +199,12 @@ include_once 'header-bottom.inc';
                                     <strong>A.A. Kick-Off Speaker</strong>
                                     <br>
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
+                                    <audio controls="">
+                                        <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                    <br>
+                                    <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                     <br><br>
                                     Secretary: Jean T.
                                     <br>
