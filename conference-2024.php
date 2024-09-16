@@ -248,8 +248,6 @@ include_once 'header-bottom.inc';
                                             <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                         </div>
                                     </div>
-
-
                                     Secretary: Kathleen S.
                                 </div>
 
