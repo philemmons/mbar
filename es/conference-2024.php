@@ -168,15 +168,15 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Inglés): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="aa-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     A.A.(Español): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="aa-spanish-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     Al-Anon(Inglés): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="al-anon-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -185,7 +185,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     Al-Anon(Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="al-anon-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div id="kos"></div>
@@ -354,15 +354,15 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A.(Inglés): Comienzan las Reuniones de Maratón - <strong>Colton 1</strong>
                                     <br>
-                                    (<a href="aa-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="aa-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     A.A.(Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="aa-spanish-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                     <br><br>
                                     Al-Anon(Inglés\Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1b</strong>
                                     <br>
-                                    (<a href="al-anon-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="al-anon-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div id="aap"></div>
@@ -383,7 +383,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom marathon-cell">
                                     A.A. (Español): Comienzan las Reuniones de Maratón - <strong>Steinbeck 1a</strong>
                                     <br>
-                                    (<a href="aa-spanish-marathon-2024.php" class="bb-link">Ver el inserto para los horarios programados</a>)
+                                    (<a href="aa-spanish-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
                                 <div id="alsm"></div>
