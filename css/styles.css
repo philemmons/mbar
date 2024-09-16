@@ -568,7 +568,7 @@ iframe {
   padding: 0.5rem 0.25rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .row.g-0.mb-4 [class^="col"].top {
     border-bottom: 0 !important;
     padding: 0.25rem 0.25rem 0 !important;
