@@ -227,7 +227,29 @@ include_once 'header-bottom.inc';
                                     <strong>A.A. / Al-Anon Double Winner Panel</strong>
                                     <br>
                                     Panelist: <strong>Annette C. and Micha C.</strong>
-                                    <br><br>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Annette C.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Annette-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0"><strong>Micha C.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                    </div>
+
+
                                     Secretary: Kathleen S.
                                 </div>
 
@@ -246,28 +268,28 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Speaker Meeting</strong>
                                     <div class="row gx-1">
-                                        <div class="col-sm-6 border-0">
+                                        <div class="col-md-6 border-0">
                                             Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
                                             <br><br>
                                             Secretary: Jane H.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
-                                        <div class="col-sm-6 border-0">
+                                        <div class="col-md-6 border-0">
                                             Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps: Susan A.<br>
                                             Al-Anon Closing : Dawn C.
                                         </div>
                                         <hr>
-                                        <div class="col-sm-6 border-0">
+                                        <div class="col-md-6 border-0">
                                             A.A. Speaker: <strong>Denis D., Santa Cruz, CA </strong>
                                             <br><br>
                                             Secretary: Renee C.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
-                                        <div class="col-sm-6 border-0">
+                                        <div class="col-md-6 border-0">
                                             Twelve Traditions: Maryam H.<br>
                                             More About Alcoholism: Paul F.<br>
                                             How It Works: Sean B.<br>
