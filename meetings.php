@@ -78,12 +78,13 @@ include_once 'header-bottom.inc';
                 <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="Monthly meeting schedule">
-                            <h3 class="card-title text-center mb-3 px-sm-3"><em>As MBAR approaches, we have scheduled additional meetings at 10:00am for 1.5 hours.</em></h3>
+                            <h3 class="card-title text-center mb-3 px-sm-3">We invite you to join us for our upcoming committee meeting, where we focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR together!</h3>
                         </section>
+                        <h4 class="text-center">10:00am for 1.5 hours</h4>
                         <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
                             <strong>Password</strong>: 2024
                         </p>
-                        <p class="text-center"><strong>Next Meetings:</strong> 07/27/2024, 08/07/2024, 08/10/2024, 08/17/2024, and 08/24/2024</p>
+                        <p class="text-center"><strong>Next Meetings:</strong> 09/28/2024, 10/12/2024, 11/09/2024, and 12/14/2024</p>
                     </div>
                 </div>
             </div>
