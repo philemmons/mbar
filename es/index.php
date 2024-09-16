@@ -131,7 +131,11 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Nuestro Pasado</a>
                             </p>
-                            <p class="card-text">Desde 1993, Monterey Bay Area Round Up(MBAR) ha unido a oradores e invitados de todo el país. El voluntariado mejora nuestro camino hacia la recuperación al contribuir y fomentar el crecimiento personal. Explore los volantes anteriores de MBAR para ver el impacto y únase a nosotros para continuar con este legado.
+                            <p class="card-text">Desde 1993, el Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
+                                <br><br>
+                                A lo largo de su historia, el Roundup ha desempeñado un papel vital en las vidas de innumerables personas y familias, brindando un espacio donde pueden encontrar esperanza, sanación y compañerismo en su camino hacia la recuperación.
+                                <br><br>
+                                Explore conferencias pasadas, folletos y grabaciones de oradores de A.A./Al-Anon para echar un vistazo a nuestro próximo MBAR.
                             </p>
                         </div>
                         <div class="card-footer text-center">
