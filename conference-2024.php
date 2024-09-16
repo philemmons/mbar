@@ -544,20 +544,20 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>7:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Conference Ends - Until 2026</strong>
                                 </div>
 
                             </div>
 
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-md-6">
                                     <a href="#map" class="d-link"><strong>Δ Location of Event is different than conference site.</strong></a>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-md-6">
                                     <strong>Disclaimer: This schedule is subject to change.</strong>
                                 </div>
                             </div>
@@ -586,17 +586,17 @@ include_once 'header-bottom.inc';
                         </section>
 
                         <div class="row justify-content-center py-2">
-                            <div class="col-sm-12"><strong>Host of MBAR 2024:</strong> Cindy A.</div>
+                            <div class="col-md-12"><strong>Host of MBAR 2024:</strong> Cindy A.</div>
 
-                            <div class="col-sm-4"><strong>A.A. Chairperson:</strong> Chris T.</div>
-                            <div class="col-sm-4"><strong>Al-Anon Chairperson:</strong> Jane P.</div>
+                            <div class="col-md-4"><strong>A.A. Chairperson:</strong> Chris T.</div>
+                            <div class="col-md-4"><strong>Al-Anon Chairperson:</strong> Jane P.</div>
 
-                            <div class="col-sm-12"><strong>Co-Chair:</strong> Renee C.</div>
+                            <div class="col-md-12"><strong>Co-Chair:</strong> Renee C.</div>
 
-                            <div class="col-sm-4"><strong>Treasurer:</strong> Carolyn H.</div>
-                            <div class="col-sm-4"><strong>Co-Treasurer:</strong> Jean T.</div>
+                            <div class="col-md-4"><strong>Treasurer:</strong> Carolyn H.</div>
+                            <div class="col-md-4"><strong>Co-Treasurer:</strong> Jean T.</div>
 
-                            <div class="col-sm-12"><strong>Recording Secretary:</strong> Roger M.</div>
+                            <div class="col-md-12"><strong>Recording Secretary:</strong> Roger M.</div>
                         </div>
 
                     </div>
