@@ -123,17 +123,17 @@ include_once 'header-bottom.inc';
                             <h3 class="white-on-black py-2 mt-2">Friday Night, August 30th - Free for All</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>8:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <i class="bi bi-camera-video-fill" aria-hidden="true"> </i>A.A. Zoom Meeting
                                     <br>
                                     ID: <strong>831 4306 2293 </strong>
                                     <br>
                                     Password: <strong>2024</strong>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Speaker: <strong>Oliver D., Delaware</strong>
                                     <br>
                                     <strong>Topic:</strong> Experience, Strength, and Hope
@@ -142,10 +142,10 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>9:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Online 50/50 Drawing</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
@@ -156,18 +156,18 @@ include_once 'header-bottom.inc';
                         <section aria-label="Saturday's events">
                             <h3 class="white-on-black py-2 mt-2">Saturday, August 31st <br>Steinbeck Ballroom (2 and 3)</h3>
                             <div class="row g-0 mb-4">
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Registration Opens</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top marathon-cell">
+                                <div class="col-md-2 top marathon-cell">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom marathon-cell">
+                                <div class="col-md-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     (<a href="aa-marathon-2024.php" class="d-link">See insert for scheduled times</a>)
@@ -182,20 +182,20 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top marathon-cell">
+                                <div class="col-md-2 top marathon-cell">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom marathon-cell">
+                                <div class="col-md-10 bottom marathon-cell">
                                     Al-Anon(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (<a href="al-anon-marathon-2024.php" class="d-link">See insert for scheduled times</a>)
                                 </div>
 
                                 <div id="kos"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <strong>A.A. Kick-Off Speaker</strong>
                                     <br>
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
@@ -210,7 +210,7 @@ include_once 'header-bottom.inc';
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Preamble: Katherine J.<br>
                                     Twelve Traditions: Todd S.<br>
                                     More About Alcoholism: Arthur T.<br>
@@ -220,10 +220,10 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div id="dwp"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>11:30am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Double Winner Panel</strong>
                                     <br>
                                     Panelist: <strong>Annette C. and Micha C.</strong>
@@ -254,18 +254,18 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Speed Fellowship - Stevenson 2</strong>
                                 </div>
 
                                 <div id="aalsm"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. / Al-Anon Speaker Meeting</strong>
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
@@ -300,26 +300,26 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>3:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Goose Chase Scavenger Hunt - Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Meet the Speaker's Dinner - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
                                 <div id="asm1"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>7:30pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <strong>A.A. Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Krystal M., Sacramento, CA</strong>
@@ -328,7 +328,7 @@ include_once 'header-bottom.inc';
                                     Countdown: Carolyn H. and Arthur T. <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Preamble: Kathleen S.<br>
                                     Twelve Traditions: Jill V.<br>
                                     More About Alcoholism: Joel Y.<br>
@@ -339,28 +339,28 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>8:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>The Al-Anon Silent Auction Closes</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>8:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>9:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Fun and Fellowship Masquerade Dance</strong>
                                 </div>
 
@@ -372,26 +372,26 @@ include_once 'header-bottom.inc';
                             <h3 class="white-on-black py-2 mt-2">Sunday, September 1st <br>Steinbeck Ballroom (2 and 3)</h3>
                             <div class="row g-0 mb-4">
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Registration Opens</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>8:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Round-Up Breakfast and Bingo Games - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top marathon-cell">
+                                <div class="col-md-2 top marathon-cell">
                                     <strong>9:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom marathon-cell">
+                                <div class="col-md-10 bottom marathon-cell">
                                     A.A.(English): Marathon Meetings Begin - <strong>Colton 1</strong>
                                     <br>
                                     (<a href="aa-marathon-2024.php" class="d-link">See insert for scheduled times</a>)
@@ -406,10 +406,10 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div id="aap"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                     <br>
                                     Panelist: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
@@ -418,20 +418,20 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top marathon-cell">
+                                <div class="col-md-2 top marathon-cell">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-sm-10 bottom marathon-cell">
+                                <div class="col-md-10 bottom marathon-cell">
                                     A.A.(Spanish): Marathon Meetings Begin - <strong>Steinbeck 1a</strong>
                                     <br>
                                     (<a href="aa-spanish-marathon-2024.php" class="d-link">See insert for scheduled times</a>)
                                 </div>
 
                                 <div id="alsm"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <strong>Al-Anon Speaker Meeting </strong>
                                     <br>
                                     Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
@@ -440,7 +440,7 @@ include_once 'header-bottom.inc';
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Open with Serenity Prayer: Terrill K.<br>
                                     Al-Anon Welcome: Natalie A.<br>
                                     Al-Anon Preamble: Michelle M.<br>
@@ -449,26 +449,26 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>12:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Paint Party - Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>1:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Werewolf Fellowship Game - Stevenson 2</strong>
                                 </div>
 
                                 <div id="atsm"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>1:30pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <strong>Alateen Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
@@ -478,7 +478,7 @@ include_once 'header-bottom.inc';
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Open with Serenity Prayer<br>
                                     Al-Anon Welcome: Jody E.<br>
                                     Al-Anon Preamble: Susan A.<br>
@@ -487,34 +487,34 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>2:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Cornhole and Fellowship Hour - Stevenson 2</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top">
+                                <div class="col-md-2 top">
                                     <strong>3:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom">
+                                <div class="col-md-10 bottom">
                                     <strong>Ice Cream Social - 2nd Floor Terrace</strong>
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>4:00pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>A.A. Trivia: General Service - Stevenson 2</strong>
                                 </div>
 
                                 <div id="asm2"></div>
-                                <div class="col-sm-2 top feature-speaker">
+                                <div class="col-md-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-sm-5 middle feature-speaker">
+                                <div class="col-md-5 middle feature-speaker">
                                     <strong>A.A. Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
@@ -523,7 +523,7 @@ include_once 'header-bottom.inc';
                                     <br>
                                     <em>(ASL Interpretation Provided)</em>
                                 </div>
-                                <div class="col-sm-5 bottom feature-speaker">
+                                <div class="col-md-5 bottom feature-speaker">
                                     Preamble: Samantha C.<br>
                                     Preamble in Spanish: Robert<br>
                                     Twelve Traditions: Mark S.<br>
@@ -534,10 +534,10 @@ include_once 'header-bottom.inc';
                                 </div>
 
 
-                                <div class="col-sm-2 top cell-color">
+                                <div class="col-md-2 top cell-color">
                                     <strong>6:30pm</strong>
                                 </div>
-                                <div class="col-sm-10 bottom cell-color">
+                                <div class="col-md-10 bottom cell-color">
                                     <strong>Al-Anon Prize Raffle Drawing - Must be present to win</strong>
                                     <br>
                                     (Immediately Following Speaker Meeting)
