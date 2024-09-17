@@ -193,30 +193,26 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Más Compañerismo</a>
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Actividades y Aspectos Destacados</a>
                             </p>
-                            <p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
+                            <p class="card-text">A lo largo de los años, Monterey Bay Area Roundup ha crecido hasta incluir una variedad de actividades que apoyan el crecimiento personal y espiritual, entre ellas:
                             </p>
                             <p class="card-text">
                             <ul>
-                                <li>Comunicación Rápida
+                                <li>Reuniones de oradores: estas sesiones suelen contar con la participación de miembros destacados de A.A. o Al-Anon que comparten sus historias de adicción, recuperación y transformación espiritual.
                                 </li>
-                                <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                <li>Talleres y paneles: los temas cubren los aspectos prácticos de mantener la sobriedad, como el manejo de los factores desencadenantes, el bienestar emocional y mantenerse conectado espiritualmente.
                                 </li>
-                                <li><a class="bb-link" href="../pdf/paint-party.pdf">Fiesta de Pintura<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                <li>Acontecimientos sociales y de compañerismo: los bailes, las comidas y las reuniones informales brindan oportunidades para que los participantes se relacionen y compartan experiencias fuera de las reuniones formales.
                                 </li>
-                                <li><a class="bb-link" href="../pdf/werewolf.pdf">Juego Werewolf Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
-                                </li>
-                                <li><a class="bb-link" href="../pdf/cornhole.pdf">Cornhole y Compañerismo<span class="sr-only">(Abrir PDF en el navegador)</span></a>
-                                </li>
-                                <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
+                                <li>Voluntariado y servicio: muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. como un elemento clave de la recuperación.
                                 </li>
                             </ul>
-                            Anota en tu calendario un fin de semana de recuperación, compañerismo y diversión. ¡Pronto habrá más detalles!
+                            <p>"Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue trascendido por la felicidad que encontraron al entregarse a los demás". BB p132
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Vista Previa de Todas las Actividades de MBAR</a></small>
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Ver 2024 Actividades</a></small>
                         </div>
                     </div>
                 </div>
