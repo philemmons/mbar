@@ -205,7 +205,7 @@ include_once 'header-bottom.inc';
                                 </li>
                                 <li><strong>Workshops and Panels</strong>: Topics cover the practical aspects of maintaining sobriety, such as sponsorship, emotional well-being, and staying spiritually connected.
                                 </li>
-                                <li><strong>Fellowship and Social events</strong>: Dances, meals, and informal gatherings provide opportunities for participants to bond and share experiences outside of formal meetings.
+                                <li><strong>Fellowship and Social Events</strong>: Dances, meals, and informal gatherings provide opportunities for participants to bond and share experiences outside of formal meetings.
                                 </li>
                                 <li><strong>Volunteerism and Service</strong>: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s and Al-Anon's tradition of service as a key element of recovery.
                                 </li>
