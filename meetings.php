@@ -80,7 +80,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="Monthly meeting schedule">
                             <h3 class="card-title mb-3 px-sm-3">You're invited you to join us!</h3>
                         </section>
-                        <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR together.
+                        <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR memorable.
                         </p>
                         <h4>10:00am for 1.5 hours</h4>
                         <p><strong>Zoom ID</strong>: 831 4306 2293

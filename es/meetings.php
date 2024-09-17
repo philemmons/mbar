@@ -81,7 +81,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="Programa de reuniones mensuales">
                             <h3 class="card-title mb-3 px-sm-3">¡Estás invitado a unirte a nosotros!</h3>
                         </section>
-                        <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Tu presencia y tus aportes son importantes, y esperamos hacer MBAR juntos.
+                        <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Su presencia y sus aportes son importantes y esperamos que MBAR sea memorable.
                         </p>
                         <h4>10:00am durante 1,5 horas</h4>
                         <p><strong>ID de Zoom</strong>: 831 4306 2293
