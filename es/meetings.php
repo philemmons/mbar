@@ -77,15 +77,18 @@ include_once 'header-bottom.inc';
                     <a class="btn btn-primary btn-sm" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank"><img class="img-fluid" src="../images/zoom-login.png" alt="Pantalla de inicio de sesión de Zoom invertida con fondo azul."><span class="sr-only">(Abre la aplicación Zoom)</span></a>
                 </div>
                 <div class="col-md-8 py-4">
-                    <div class="p-3 text-bg-light hero-text-border">
+                    <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Programa de reuniones mensuales">
-                        <h3 class="card-title text-center mb-3 px-sm-3">Te invitamos a que te unas a nosotros en nuestra próxima reunión de comité, donde nos centraremos en la colaboración, el apoyo y el progreso compartido. Tu presencia y tus aportes son importantes, ¡y esperamos hacer MBAR juntos!</h3>
+                            <h3 class="card-title mb-3 px-sm-3">¡Estás invitado a unirte a nosotros!</h3>
                         </section>
-                        <h4 class="text-center">10:00am durante 1,5 horas</h4>
-                        <p class="text-center"><strong>ID de Zoom</strong>: 831 4306 2293 <br>
+                        <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Tu presencia y tus aportes son importantes, y esperamos hacer MBAR juntos.
+                        </p>
+                        <h4>10:00am durante 1,5 horas</h4>
+                        <p><strong>ID de Zoom</strong>: 831 4306 2293
+                            <br>
                             <strong>Contraseña</strong>: 2024
                         </p>
-                        <p class="text-center"><strong>Próximas reuniones:</strong> 28/09/2024, 12/10/2024, 09/11/2024 y 14/12/2024</p>
+                        <p><strong>Próximas Reuniones:</strong> 28/09/2024, 12/10/2024, 09/11/2024 y 14/12/2024</p>
                     </div>
                 </div>
             </div>

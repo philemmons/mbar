@@ -76,15 +76,18 @@ include_once 'header-bottom.inc';
                     <a class="btn btn-primary btn-sm" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."><span class="sr-only">(Opens Zoom Application)</span></a>
                 </div>
                 <div class="col-md-8 py-4">
-                    <div class="p-3 text-bg-light hero-text-border">
+                    <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Monthly meeting schedule">
-                            <h3 class="card-title text-center mb-3 px-sm-3">We invite you to join us for our upcoming committee meeting, where we focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR together!</h3>
+                            <h3 class="card-title mb-3 px-sm-3">You're invited you to join us!</h3>
                         </section>
-                        <h4 class="text-center">10:00am for 1.5 hours</h4>
-                        <p class="text-center"><strong>Zoom ID</strong>: 831 4306 2293 <br>
+                        <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR together.
+                        </p>
+                        <h4>10:00am for 1.5 hours</h4>
+                        <p><strong>Zoom ID</strong>: 831 4306 2293
+                            <br>
                             <strong>Password</strong>: 2024
                         </p>
-                        <p class="text-center"><strong>Next Meetings:</strong> 09/28/2024, 10/12/2024, 11/09/2024, and 12/14/2024</p>
+                        <p><strong>Next Meetings:</strong> 09/28/2024, 10/12/2024, 11/09/2024, and 12/14/2024</p>
                     </div>
                 </div>
             </div>

@@ -95,7 +95,7 @@ include_once 'header-bottom.inc';
                     <div class="card h-100 shadow-wrap">
 
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Jump Into Service</a>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Jump Into Service</a>
                             </p>
                             <p class="card-text">We have found that volunteering to do service significantly improves the quality of our recovery. By giving back, we not only help others but also strengthen our own journey.
                                 <br><br>
@@ -103,7 +103,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meeting.php" class="btn btn-primary">Meeting Info</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
                         </div>
                     </div>
                 </div>

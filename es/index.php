@@ -94,7 +94,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="contact.php" class="bb-link">Saltar al Servicio</a>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Saltar al Servicio</a>
                             </p>
                             <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
                                 <br><br>
@@ -102,7 +102,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meeting.php" class="btn btn-primary">Información de la Reunión</a></small>
+                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
                         </div>
                     </div>
                 </div>
