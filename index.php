@@ -210,6 +210,7 @@ include_once 'header-bottom.inc';
                                 <li>Volunteerism and service: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s tradition of service as a key element of recovery.
                                 </li>
                             </ul>
+</p>
                             <p>"Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
                             </p>
                         </div>
