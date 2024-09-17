@@ -129,7 +129,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Nuestro Pasado</a>
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Crecimiento y Legado</a>
                             </p>
                             <p class="card-text">Desde 1993, el Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
                                 <br><br>
@@ -149,9 +149,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Traducción Española</a>
                             </p>
-                            <p class="card-text">¡Estamos comprometidos con nuestras comunidades de A.A. y Al-Anon de habla hispana!
-                                <br><br>
-                                Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.) y Al-Anon, la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
+                            <p class="card-text">Traducir un sitio web al español es importante porque garantiza que los recursos esenciales de recuperación sean accesibles para las personas de habla hispana. En Alcohólicos Anónimos (A.A.) y Al-Anon, la inclusión es clave para llegar a la mayor cantidad posible de personas que necesitan apoyo. Al ofrecer una versión del sitio en español, podemos atender mejor las diversas necesidades de nuestra comunidad, asegurándonos de que todos, independientemente del idioma, tengan la oportunidad de encontrar ayuda y conectarse con otros en su camino hacia la recuperación.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -219,21 +217,25 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Regístrese en Persona
+                            <p class="card-title h6"><i class="bi bi-question-circle-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>¿Por qué tenemos MBAR?
                             </p>
-                            <p class="card-text">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!
-                                <br><br>
-                                Las reuniones de maratón están abiertas y no requieren inscripción.
-                                <br><br>
-                                ¡La reunión inicial de Zoom está disponible para todos y estamos ansiosos por verte allí!
+                            <p class="card-text">El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
+                                <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
                             </p>
-                            <p class="card-text">Le recordamos que su inscripción se completará cuando se haya realizado el <a href="register-now.php#payment-now" class="bb-link">pago</a>.
+                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
+                            </p>
+                            <p class="card-text">Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá por fin algún significado. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
+                            </p>
+                            <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la preocupación. Su imaginación se encenderá. La vida tendrá algún significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontramos la comunidad, y usted también la encontrará."
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?hl=es&entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Centro de Conferencias de Monterey<span class="sr-only">(Abre una nueva ventana)</span></a></small>
+                            <small class="text-body-secondary"><a href="memorias.php" class="btn btn-primary">Recuerdos de Eventos</a></small>
                         </div>
-
                     </div>
                 </div>
             </div>

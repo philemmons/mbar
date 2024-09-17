@@ -130,7 +130,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Our Past</a>
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Growth and Legacy</a>
                             </p>
                             <p class="card-text">Since 1993, the Monterey Bay Area Roundup (MBAR) has steadily grown in size and significance since its inception, As the event continues to evolve, it remains deeply rooted in the spiritual principles of A.A. and Al-Anon, with a strong focus on fostering personal growth, mutual support, and spiritual development.
                                 <br><br>
@@ -152,9 +152,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Spanish Translation</a>
                             </p>
-                            <p class="card-text">We're committed to our Spanish-Speaking A.A. and Al-Anon Fellowships!
-                                <br><br>
-                                Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.) and Al-Anon, inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
+                            <p class="card-text">Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.) and Al-Anon, inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
                             </p>
                         </div>
                         <div class="card-footer text-center">
@@ -221,19 +219,25 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Registration in Person
+                            <p class="card-title h6"><i class="bi bi-question-circle-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Why do we have MBAR?
                             </p>
-                            <p class="card-text">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!
-                                <br><br>
-                                The Marathon Meetings are open and do not require registration.
-                                <br><br>
-                                Kick-Off Zoom meeting is available for everyone, and we're eager to see you there!
+                            <p class="card-text">Frequent contact with newcomers and with each other is the bright spot of our lives.
+                                <br>
+                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
+                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book p89<span class="sr-only">(Open pdf in browser)</span></a>
                             </p>
-                            <p class="card-text">As a gentle reminder, your registration is completed when <a href="register-now.php#payment-now" class="bb-link">payment has been made</a>.
+                            <p class="sr-only">(This is the paragraph from page 89 above.)"Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it."
+                            </p>
+                            <p class="card-text">It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                                <br>
+                                <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
+                                <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book p152<span class="sr-only">(Open pdf in browser)</span></a>
+                            </p>
+                            <p class="sr-only">(This is the paragraph from page 152 above.)"Yes, there is a substitute and it is vastly more than that. It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus we find the fellowship, and so will you."
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://www.google.com/maps/dir//Monterey+Conference+Center+1+Portola+Plaza+Monterey,+CA+93940/@36.6014612,-121.8949613,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808de422461f891b:0x20f8f64ee124f091!2m2!1d-121.8949613!2d36.6014612?entry=ttu" class="btn btn-primary" target="_blank" title="Direct link to Google Map">Monterey Conference Center<span class="sr-only">(Opens a new window)</span></a></small>
+                            <small class="text-body-secondary"><a href="memories.php" class="btn btn-primary">Event Memories</a></small>
                         </div>
                     </div>
                 </div>
