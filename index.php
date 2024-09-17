@@ -201,13 +201,13 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">
                             <ul>
-                                <li>Speaker meetings: These sessions often feature prominent A.A. or Al-Anon members who share their stories of addiction, recovery, and spiritual transformation.
+                                <li><strong>Speaker Meetings</strong>: These sessions often feature A.A. or Al-Anon members who share their stories of experience, strength, and hope.
                                 </li>
-                                <li>Workshops and panels: Topics cover the practical aspects of maintaining sobriety, such as managing triggers, emotional well-being, and staying spiritually connected.
+                                <li><strong>Workshops and Panels</strong>: Topics cover the practical aspects of maintaining sobriety, such as sponsorship, emotional well-being, and staying spiritually connected.
                                 </li>
-                                <li>Fellowship and social events: Dances, meals, and informal gatherings provide opportunities for participants to bond and share experiences outside of formal meetings.
+                                <li><strong>Fellowship and Social events</strong>: Dances, meals, and informal gatherings provide opportunities for participants to bond and share experiences outside of formal meetings.
                                 </li>
-                                <li>Volunteerism and service: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s tradition of service as a key element of recovery.
+                                <li><strong>Volunteerism and Service</strong>: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s and Al-Anon's tradition of service as a key element of recovery.
                                 </li>
                             </ul>
                             </p>

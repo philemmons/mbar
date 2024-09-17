@@ -199,13 +199,13 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">
                             <ul>
-                                <li><strong>Reuniones de Oradores</strong>: Estas sesiones suelen contar con la participación de miembros destacados de A.A. o Al-Anon que comparten sus historias de adicción, recuperación y transformación espiritual.
+                                <li><strong>Reuniones de oradores</strong>: En estas sesiones, a menudo participan miembros de A.A. o Al-Anon que comparten sus historias de experiencia, fortaleza y esperanza.
                                 </li>
-                                <li><strong>Talleres y Paneles</strong>: Los temas cubren los aspectos prácticos de mantener la sobriedad, como el manejo de los factores desencadenantes, el bienestar emocional y mantenerse conectado espiritualmente.
+                                <li><strong>Talleres y paneles</strong>: Los temas cubren los aspectos prácticos de mantener la sobriedad, como el apadrinamiento, el bienestar emocional y la conexión espiritual.
                                 </li>
-                                <li><strong>Acontecimientos Sociales y de Compañerismo</strong>: Los bailes, las comidas y las reuniones informales brindan oportunidades para que los participantes se relacionen y compartan experiencias fuera de las reuniones formales.
+                                <li><strong>Eventos sociales y de confraternidad</strong>: Los bailes, las comidas y las reuniones informales brindan oportunidades para que los participantes se relacionen y compartan experiencias fuera de las reuniones formales.
                                 </li>
-                                <li><strong>Voluntariado y Servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. como un elemento clave de la recuperación.
+                                <li><strong>Voluntariado y servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. y Al-Anon como un elemento clave de la recuperación.
                                 </li>
                             </ul>
                             </p>
