@@ -219,7 +219,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-question-circle-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Why do we have MBAR?
+                            <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Why do we have MBAR?
+                            </p>
+                            <p class="card-text">A.A. conventions are more than just social gatherings; they are spiritual retreats, educational opportunities, and celebrations of sobriety that help individuals and families stay connected to the principles of Alcoholics Anonymous. They foster fellowship, provide opportunities for personal and spiritual growth, and serve as a reminder that recovery is a lifelong journey supported by community and a Higher Power.
                             </p>
                             <p class="card-text">Frequent contact with newcomers and with each other is the bright spot of our lives.
                                 <br>

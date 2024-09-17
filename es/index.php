@@ -217,7 +217,10 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-question-circle-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>¿Por qué tenemos MBAR?
+                            <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>¿Por qué tenemos MBAR?
+                            </p>
+
+                            <p class="card-text">Las convenciones de A.A. son más que simples reuniones sociales; son retiros espirituales, oportunidades educativas y celebraciones de la sobriedad que ayudan a las personas y a las familias a mantenerse conectadas con los principios de Alcohólicos Anónimos. Fomentan la camaradería, brindan oportunidades para el crecimiento personal y espiritual y sirven como recordatorio de que la recuperación es un viaje que dura toda la vida, apoyado por la comunidad y un Poder Superior.
                             </p>
                             <p class="card-text">El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
                                 <br>
