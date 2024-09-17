@@ -106,7 +106,7 @@ include_once 'header-bottom.inc';
             </div>
             <div class="row justify-content-center py-4 mb-5">
                 <div class="col-sm-12 col-12 text-center px-3">
-                    <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
+                    <img class="img-fluid" src="../images/banners-2024.png" alt="Main meeting room stage with A.A. conference banners.">
                 </div>
             </div>
         </div>

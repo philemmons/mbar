@@ -106,7 +106,7 @@ include_once 'header-bottom.inc';
             </div>
             <div class="row justify-content-center py-4 mb-5">
                 <div class="col-sm-12 col-12 text-center px-3">
-                    <img class="img-fluid" src="../images/conference-room.png" alt="Sala de Reuniones del Centro de Conferencias de Monterey, sillas alineadas frente a un escenario y más allá de los carteles de la conferencia de A.A.">
+                    <img class="img-fluid" src="../images/banners-2024.png" alt="Escenario de la sala de reuniones principal con pancartas de la conferencia de A.A.">
                 </div>
             </div>
         </div>
