@@ -201,7 +201,7 @@ include_once 'header-bottom.inc';
                                         Su navegador no admite el elemento de audio.
                                     </audio>
                                     <br>
-                                    <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Leer Transcripción en Inglés<span class="sr-only">(Abre una nueva ventana, haga clic para volver)</span></a>
+                                    <a href="../con-2024-mark.php" class="btn btn-outline-primary btn-sm">Leer Transcripción en Inglés<span class="sr-only">(Abre una nueva ventana, haga clic para volver)</span></a>
                                     <br><br>
                                     Secretaria: Jean T.
                                     <br>
@@ -233,7 +233,7 @@ include_once 'header-bottom.inc';
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <a href="../con-2024-annette.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
                                         </div>
                                         <div class="col-md-6 border-0"><strong>Micha C.</strong>
                                             <br>
@@ -242,7 +242,7 @@ include_once 'header-bottom.inc';
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <a href="../con-2024-micha.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
                                         </div>
                                     </div>
                                     Secretaria: Kathleen S.
