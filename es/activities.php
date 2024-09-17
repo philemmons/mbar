@@ -197,8 +197,6 @@ include_once 'header-bottom.inc';
                                 </p>
                                 <p class="card-text">
                                 <ul>
-                                    <li><strong>Nuevo</strong> - Fotomatones: ¡Captura divertidos selfies!
-                                    </li>
                                     <li>Comunicación Rápida</li>
                                     <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
