@@ -223,14 +223,14 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">A.A. conventions are more than just social gatherings; they are spiritual retreats, educational opportunities, and celebrations of sobriety that help individuals and families stay connected to the principles of Alcoholics Anonymous. They foster fellowship, provide opportunities for personal and spiritual growth, and serve as a reminder that recovery is a lifelong journey supported by community and a Higher Power.
                             </p>
-                            <p class="card-text">Frequent contact with newcomers and with each other is the bright spot of our lives.
+                            <p class="card-text text-center">Frequent contact with newcomers and with each other is the bright spot of our lives.
                                 <br>
                                 <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
                                 <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book p89<span class="sr-only">(Open pdf in browser)</span></a>
                             </p>
                             <p class="sr-only">(This is the paragraph from page 89 above.)"Life will take on new meaning. To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends—this is an experience you must not miss. We know you will not want to miss it."
                             </p>
-                            <p class="card-text">It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
+                            <p class="card-text text-center">It is a fellowship in Alcoholics Anonymous. There you will find release from care, boredom and worry. Your imagination will be fired. Life will mean something at last. The most satisfactory years of your existence lie ahead. Thus, we find the fellowship, and so will you.
                                 <br>
                                 <img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">
                                 <a class="btn btn-link bb-link" href="pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book p152<span class="sr-only">(Open pdf in browser)</span></a>
