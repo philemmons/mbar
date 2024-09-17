@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2024 Double Winner Micha C.</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2024-micha.php" >';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-micha.php" >';
 include_once 'header-bottom.inc';
 ?>
 
@@ -12,20 +12,20 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-audio-trans" title="Retro microphone on a blue background banner">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Audio Speaker Transcript">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Audio Transcript: Raw and Unedited</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Transcripción de Audio: sin editar y sin editar</h2>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Part One -->
-    <article aria-label="Transcript-Seven">
+    <article aria-label="Transcript-14">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Micha C.. in 2024.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Micha C. en 2019.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>I'm an alcoholic, I'm a member of Al-Anon and more recently a member of ACOA so I guess that makes me a triple winner. How special am I? The majority of my Al-Anon was done down in Riverside, California before I moved up here in 2020 and I spent seven years in Al-Anon pretty actively working steps and working steps with other men. And when I moved up here during the pandemic I never really fully got integrated back in Al-Anon. I was still attending the meetings virtually down there for quite a while and when I discovered ACOA it kind of started resonating with me.</p>
 
