@@ -27,7 +27,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Denis D. in 2024.<span class="sr-only">(Click to go back)</span>
                             </h3>
-
+                            <p> Transcript Coming Soon </p>
                         </section>
                     </div>
                 </div>
