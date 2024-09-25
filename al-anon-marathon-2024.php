@@ -166,7 +166,7 @@ include_once 'header-bottom.inc';
                                         Your browser does not support the audio element.
                                     </audio>
                                     <br>
-                                    <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -222,10 +222,6 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-chris.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                            <br><br>
-                                            Secretary: Jane H.
-                                            <br>
-                                            <em>(ASL Interpretation Provided)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
                                             <strong>Eileen W.</strong>
@@ -236,12 +232,6 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-eileen.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                            <br><br>
-                                            Open with Serenity Prayer: Terrill K.<br>
-                                            Al-Anon Welcome: Natalie A.<br>
-                                            Al-Anon Preamble: Michelle M.<br>
-                                            Al-Anon Twelve Steps: Natalie S.<br>
-                                            Al-Anon Closing: Liz M.
                                         </div>
                                     </div>
                                 </div>
