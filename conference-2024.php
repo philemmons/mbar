@@ -279,9 +279,9 @@ include_once 'header-bottom.inc';
                                             <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                         </div>
                                         <div class="col-md-6 border-0">
+                                        <em>(ASL Interpretation Provided)</em>
+                                        <br><br>
                                             Secretary: Jane H.<br>
-                                            <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
                                             Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps: Susan A.<br>
