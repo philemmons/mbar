@@ -25,7 +25,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Micha C.. in 2024.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Micha C. in 2024.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>I'm an alcoholic, I'm a member of Al-Anon and more recently a member of ACOA so I guess that makes me a triple winner. How special am I? The majority of my Al-Anon was done down in Riverside, California before I moved up here in 2020 and I spent seven years in Al-Anon pretty actively working steps and working steps with other men. And when I moved up here during the pandemic I never really fully got integrated back in Al-Anon. I was still attending the meetings virtually down there for quite a while and when I discovered ACOA it kind of started resonating with me.</p>
 

@@ -354,7 +354,7 @@ include_once 'header-bottom.inc';
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <a href="con-2024-krystal.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
                                             <br><br>
                                             Secretario: Chris T.<br>
                                             Cuenta regresiva: Carolyn H. y Arthur T. <br>
