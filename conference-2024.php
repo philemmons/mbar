@@ -148,7 +148,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-10 bottom cell-color">
                                     <strong>Online 50/50 Drawing</strong>
                                     <br>
-                                    (Immediately Following Speaker Meeting)
+                                    (Following the Speaker)
                                 </div>
                             </div>
                         </section>
@@ -205,12 +205,11 @@ include_once 'header-bottom.inc';
                                     </audio>
                                     <br>
                                     <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                    <br><br>
-                                    Secretary: Jean T.
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
                                 <div class="col-md-5 bottom feature-speaker">
+                                    Secretary: Jean T.<br>
+                                    <em>(ASL Interpretation Provided)</em>
+                                    <br><br>
                                     Preamble: Katherine J.<br>
                                     Twelve Traditions: Todd S.<br>
                                     More About Alcoholism: Arthur T.<br>
@@ -238,7 +237,8 @@ include_once 'header-bottom.inc';
                                             <br>
                                             <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                         </div>
-                                        <div class="col-md-6 border-0"><strong>Micha C.</strong>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Micha C.</strong>
                                             <br>
                                             <audio controls="">
                                                 <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
@@ -249,8 +249,6 @@ include_once 'header-bottom.inc';
                                         </div>
                                     </div>
                                     Secretary: Kathleen S.
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
 
 
@@ -279,9 +277,9 @@ include_once 'header-bottom.inc';
                                             <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                         </div>
                                         <div class="col-md-6 border-0">
-                                        <em>(ASL Interpretation Provided)</em>
-                                        <br><br>
                                             Secretary: Jane H.<br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                            <br><br>
                                             Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps: Susan A.<br>
@@ -297,7 +295,6 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-
                                         </div>
                                         <div class="col-md-6 border-0">
                                             Secretary: Renee C.<br>
@@ -336,12 +333,19 @@ include_once 'header-bottom.inc';
                                     <strong>A.A. Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Krystal M., Sacramento, CA</strong>
-                                    <br><br>
+                                    <br>
+                                    <audio controls="">
+                                        <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                    <br>
+                                    <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                </div>
+                                <div class="col-md-5 bottom feature-speaker">
                                     Secretary: Chris T.<br>
                                     Countdown: Carolyn H. and Arthur T. <br>
                                     <em>(ASL Interpretation Provided)</em>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
+                                    <br><br>
                                     Preamble: Kathleen S.<br>
                                     Twelve Traditions: Jill V.<br>
                                     More About Alcoholism: Joel Y.<br>
@@ -376,7 +380,6 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-10 bottom">
                                     <strong>Fun and Fellowship Masquerade Dance</strong>
                                 </div>
-
 
                             </div>
                         </section>
@@ -426,7 +429,48 @@ include_once 'header-bottom.inc';
                                     <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                     <br>
                                     Panelist: <strong>Pasquale C., Lisa M., Mike V., and Jill V.</strong>
-                                    <br><br>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Pasquale C.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Pasquale-C-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-pasquale.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 4<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Lisa M.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Lisa-M-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-lisa.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 4<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Mike V.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Mike-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-mike.php" class="btn btn-outline-primary btn-sm">Read Transcript 3 of 4<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Jill V.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Jill-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-jill.php" class="btn btn-outline-primary btn-sm">Read Transcript 4 of 4<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
+                                    </div>
                                     Secretary: Maryam H.
                                 </div>
 
