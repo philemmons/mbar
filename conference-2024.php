@@ -210,11 +210,11 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
+                                            <br><br>
                                             Secretary: Jean T.<br>
                                             <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
+                                        </div>
+                                        <div class="col-md-6 border-0">
                                             Preamble: Katherine J.<br>
                                             Twelve Traditions: Todd S.<br>
                                             More About Alcoholism: Arthur T.<br>
@@ -351,12 +351,12 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
+                                            <br><br>
                                             Secretary: Chris T.<br>
                                             Countdown: Carolyn H. and Arthur T. <br>
                                             <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
+                                        </div>
+                                        <div class="col-md-6 border-0">
                                             Preamble: Kathleen S.<br>
                                             Twelve Traditions: Jill V.<br>
                                             More About Alcoholism: Joel Y.<br>
