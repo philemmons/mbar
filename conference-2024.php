@@ -191,7 +191,7 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="d-link">See insert for scheduled times</a>)
                                 </div>
 
-                                
+
                                 <div id="kos"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>10:00am</strong>
@@ -366,6 +366,7 @@ include_once 'header-bottom.inc';
                                             Closing Prayer: Phillip E.
                                         </div>
                                     </div>
+</div>
 
                                     <div class="col-md-2 top cell-color">
                                         <strong>8:00pm</strong>
