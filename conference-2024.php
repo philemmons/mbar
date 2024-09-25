@@ -195,193 +195,201 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>10:00am</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. Kick-Off Speaker</strong>
                                     <br>
                                     Speaker: <strong>Mark S., Salinas, CA</strong>
-                                    <audio controls="">
-                                        <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                        Your browser does not support the audio element.
-                                    </audio>
-                                    <br>
-                                    <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Secretary: Jean T.<br>
-                                    <em>(ASL Interpretation Provided)</em>
-                                    <br><br>
-                                    Preamble: Katherine J.<br>
-                                    Twelve Traditions: Todd S.<br>
-                                    More About Alcoholism: Arthur T.<br>
-                                    How It Works: Samantha C.<br>
-                                    Vision For You: Aubrey G.<br>
-                                    Closing Prayer: Cole T.
-                                </div>
-
-                                <div id="dwp"></div>
-                                <div class="col-md-2 top feature-speaker">
-                                    <strong>11:30am</strong>
-                                </div>
-                                <div class="col-md-10 bottom feature-speaker">
-                                    <strong>A.A. / Al-Anon Double Winner Panel</strong>
-                                    <br>
-                                    Panelist: <strong>Annette C. and Micha C.</strong>
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
-                                            <strong>Annette C.</strong>
+                                            <strong>Mark S.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Annette-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
                                                 Your browser does not support the audio element.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                         </div>
                                         <div class="col-md-6 border-0">
-                                            <strong>Micha C.</strong>
-                                            <br>
-                                            <audio controls="">
-                                                <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                                Your browser does not support the audio element.
-                                            </audio>
-                                            <br>
-                                            <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                    </div>
-                                    Secretary: Kathleen S.
-                                </div>
-
-
-                                <div class="col-md-2 top cell-color">
-                                    <strong>1:00pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom cell-color">
-                                    <strong>Speed Fellowship - Stevenson 2</strong>
-                                </div>
-
-                                <div id="aalsm"></div>
-                                <div class="col-md-2 top feature-speaker">
-                                    <strong>2:00pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom feature-speaker">
-                                    <strong>A.A. / Al-Anon Speaker Meeting</strong>
-                                    <div class="row gx-1">
-                                        <div class="col-md-6 border-0">
-                                            Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
-                                            <br>
-                                            <audio controls="">
-                                                <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                                Your browser does not support the audio element.
-                                            </audio>
-                                            <br>
-                                            <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
-                                            Secretary: Jane H.<br>
+                                            Secretary: Jean T.<br>
                                             <em>(ASL Interpretation Provided)</em>
                                             <br><br>
-                                            Al-Anon Welcome: Su C.<br>
-                                            Al-Anon Preamble: Olya O.<br>
-                                            Al-Anon Twelve Steps: Susan A.<br>
-                                            Al-Anon Closing : Dawn C.
-                                        </div>
-                                        <hr>
-                                        <div class="col-md-6 border-0">
-                                            A.A. Speaker: <strong>Denis D., Santa Cruz, CA </strong>
-                                            <br>
-                                            <audio controls="">
-                                                <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                                Your browser does not support the audio element.
-                                            </audio>
-                                            <br>
-                                            <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
-                                            Secretary: Renee C.<br>
-                                            <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
-                                            Twelve Traditions: Maryam H.<br>
-                                            More About Alcoholism: Paul F.<br>
-                                            How It Works: Sean B.<br>
-                                            Vision For You: Gina H.<br>
-                                            Closing Prayer: T.C. W.<br>
+                                            Preamble: Katherine J.<br>
+                                            Twelve Traditions: Todd S.<br>
+                                            More About Alcoholism: Arthur T.<br>
+                                            How It Works: Samantha C.<br>
+                                            Vision For You: Aubrey G.<br>
+                                            Closing Prayer: Cole T.
                                         </div>
                                     </div>
-                                </div>
+
+                                    <div id="dwp"></div>
+                                    <div class="col-md-2 top feature-speaker">
+                                        <strong>11:30am</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom feature-speaker">
+                                        <strong>A.A. / Al-Anon Double Winner Panel</strong>
+                                        <br>
+                                        Panelist: <strong>Annette C. and Micha C.</strong>
+                                        <div class="row gx-1">
+                                            <div class="col-md-6 border-0">
+                                                <strong>Annette C.</strong>
+                                                <br>
+                                                <audio controls="">
+                                                    <source src="../audio/2024/Annette-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                                <br>
+                                                <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            </div>
+                                            <div class="col-md-6 border-0">
+                                                <strong>Micha C.</strong>
+                                                <br>
+                                                <audio controls="">
+                                                    <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                                <br>
+                                                <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            </div>
+                                        </div>
+                                        Secretary: Kathleen S.
+                                    </div>
 
 
-                                <div class="col-md-2 top cell-color">
-                                    <strong>3:30pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom cell-color">
-                                    <strong>Goose Chase Scavenger Hunt - Stevenson 2</strong>
-                                </div>
+                                    <div class="col-md-2 top cell-color">
+                                        <strong>1:00pm</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom cell-color">
+                                        <strong>Speed Fellowship - Stevenson 2</strong>
+                                    </div>
+
+                                    <div id="aalsm"></div>
+                                    <div class="col-md-2 top feature-speaker">
+                                        <strong>2:00pm</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom feature-speaker">
+                                        <strong>A.A. / Al-Anon Speaker Meeting</strong>
+                                        <div class="row gx-1">
+                                            <div class="col-md-6 border-0">
+                                                Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
+                                                <br>
+                                                <audio controls="">
+                                                    <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                                <br>
+                                                <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            </div>
+                                            <div class="col-md-6 border-0">
+                                                Secretary: Jane H.<br>
+                                                <em>(ASL Interpretation Provided)</em>
+                                                <br><br>
+                                                Al-Anon Welcome: Su C.<br>
+                                                Al-Anon Preamble: Olya O.<br>
+                                                Al-Anon Twelve Steps: Susan A.<br>
+                                                Al-Anon Closing : Dawn C.
+                                            </div>
+                                            <hr>
+                                            <div class="col-md-6 border-0">
+                                                A.A. Speaker: <strong>Denis D., Santa Cruz, CA </strong>
+                                                <br>
+                                                <audio controls="">
+                                                    <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                                <br>
+                                                <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            </div>
+                                            <div class="col-md-6 border-0">
+                                                Secretary: Renee C.<br>
+                                                <em>(ASL Interpretation Provided)</em>
+                                                <br><br>
+                                                Twelve Traditions: Maryam H.<br>
+                                                More About Alcoholism: Paul F.<br>
+                                                How It Works: Sean B.<br>
+                                                Vision For You: Gina H.<br>
+                                                Closing Prayer: T.C. W.<br>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
-                                <div class="col-md-2 top">
-                                    <strong>5:00pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom">
-                                    <strong>Meet the Speaker's Dinner - Bethlehem Lutheran Church ∆</strong>
-                                </div>
-
-                                <div id="asm1"></div>
-                                <div class="col-md-2 top feature-speaker">
-                                    <strong>7:30pm</strong>
-                                </div>
-                                <div class="col-md-5 middle feature-speaker">
-                                    <strong>A.A. Speaker Meeting</strong>
-                                    <br>
-                                    Speaker: <strong>Krystal M., Sacramento, CA</strong>
-                                    <br>
-                                    <audio controls="">
-                                        <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                        Your browser does not support the audio element.
-                                    </audio>
-                                    <br>
-                                    <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Secretary: Chris T.<br>
-                                    Countdown: Carolyn H. and Arthur T. <br>
-                                    <em>(ASL Interpretation Provided)</em>
-                                    <br><br>
-                                    Preamble: Kathleen S.<br>
-                                    Twelve Traditions: Jill V.<br>
-                                    More About Alcoholism: Joel Y.<br>
-                                    How It Works: Mark F.<br>
-                                    A Vision For You: Micah C.<br>
-                                    A Vision for You in Spanish: Robert<br>
-                                    Closing Prayer: Phillip E.
-                                </div>
+                                    <div class="col-md-2 top cell-color">
+                                        <strong>3:30pm</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom cell-color">
+                                        <strong>Goose Chase Scavenger Hunt - Stevenson 2</strong>
+                                    </div>
 
 
-                                <div class="col-md-2 top cell-color">
-                                    <strong>8:00pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom cell-color">
-                                    <strong>The Al-Anon Silent Auction Closes</strong>
-                                </div>
+                                    <div class="col-md-2 top">
+                                        <strong>5:00pm</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom">
+                                        <strong>Meet the Speaker's Dinner - Bethlehem Lutheran Church ∆</strong>
+                                    </div>
+
+                                    <div id="asm1"></div>
+                                    <div class="col-md-2 top feature-speaker">
+                                        <strong>7:30pm</strong>
+                                    </div>
+                                    <div class="col-md-10 bottom feature-speaker">
+                                        <strong>A.A. Speaker Meeting</strong>
+                                        <br>
+                                        Speaker: <strong>Krystal M., Sacramento, CA</strong>
+                                        <br>
+                                        <div class="row gx-1">
+                                            <div class="col-md-6 border-0">
+                                                <strong>Krystal M.</strong>
+                                                <audio controls="">
+                                                    <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                    Your browser does not support the audio element.
+                                                </audio>
+                                                <br>
+                                                <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            </div>
+                                            <div class="col-md-6 border-0">
+                                                Secretary: Chris T.<br>
+                                                Countdown: Carolyn H. and Arthur T. <br>
+                                                <em>(ASL Interpretation Provided)</em>
+                                                <br><br>
+                                                Preamble: Kathleen S.<br>
+                                                Twelve Traditions: Jill V.<br>
+                                                More About Alcoholism: Joel Y.<br>
+                                                How It Works: Mark F.<br>
+                                                A Vision For You: Micah C.<br>
+                                                A Vision for You in Spanish: Robert<br>
+                                                Closing Prayer: Phillip E.
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2 top cell-color">
+                                            <strong>8:00pm</strong>
+                                        </div>
+                                        <div class="col-md-10 bottom cell-color">
+                                            <strong>The Al-Anon Silent Auction Closes</strong>
+                                        </div>
 
 
-                                <div class="col-md-2 top cell-color">
-                                    <strong>8:30pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom cell-color">
-                                    <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
-                                    <br>
-                                    (Immediately Following Speaker Meeting)
-                                </div>
+                                        <div class="col-md-2 top cell-color">
+                                            <strong>8:30pm</strong>
+                                        </div>
+                                        <div class="col-md-10 bottom cell-color">
+                                            <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
+                                            <br>
+                                            (Immediately Following Speaker Meeting)
+                                        </div>
 
 
-                                <div class="col-md-2 top">
-                                    <strong>9:30pm</strong>
-                                </div>
-                                <div class="col-md-10 bottom">
-                                    <strong>Fun and Fellowship Masquerade Dance</strong>
-                                </div>
+                                        <div class="col-md-2 top">
+                                            <strong>9:30pm</strong>
+                                        </div>
+                                        <div class="col-md-10 bottom">
+                                            <strong>Fun and Fellowship Masquerade Dance</strong>
+                                        </div>
 
-                            </div>
+                                    </div>
                         </section>
 
                         <section aria-label="Sunday's events">
