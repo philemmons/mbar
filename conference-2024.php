@@ -366,34 +366,34 @@ include_once 'header-bottom.inc';
                                             Closing Prayer: Phillip E.
                                         </div>
                                     </div>
-</div>
-
-                                    <div class="col-md-2 top cell-color">
-                                        <strong>8:00pm</strong>
-                                    </div>
-                                    <div class="col-md-10 bottom cell-color">
-                                        <strong>The Al-Anon Silent Auction Closes</strong>
-                                    </div>
-
-
-                                    <div class="col-md-2 top cell-color">
-                                        <strong>8:30pm</strong>
-                                    </div>
-                                    <div class="col-md-10 bottom cell-color">
-                                        <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
-                                        <br>
-                                        (Immediately Following Speaker Meeting)
-                                    </div>
-
-
-                                    <div class="col-md-2 top">
-                                        <strong>9:30pm</strong>
-                                    </div>
-                                    <div class="col-md-10 bottom">
-                                        <strong>Fun and Fellowship Masquerade Dance</strong>
-                                    </div>
-
                                 </div>
+
+                                <div class="col-md-2 top cell-color">
+                                    <strong>8:00pm</strong>
+                                </div>
+                                <div class="col-md-10 bottom cell-color">
+                                    <strong>The Al-Anon Silent Auction Closes</strong>
+                                </div>
+
+
+                                <div class="col-md-2 top cell-color">
+                                    <strong>8:30pm</strong>
+                                </div>
+                                <div class="col-md-10 bottom cell-color">
+                                    <strong>Roundup Prize Raffle and 50/50 Drawing - Must be present to win</strong>
+                                    <br>
+                                    (Immediately Following Speaker Meeting)
+                                </div>
+
+
+                                <div class="col-md-2 top">
+                                    <strong>9:30pm</strong>
+                                </div>
+                                <div class="col-md-10 bottom">
+                                    <strong>Fun and Fellowship Masquerade Dance</strong>
+                                </div>
+
+                            </div>
                         </section>
 
                         <section aria-label="Sunday's events">
