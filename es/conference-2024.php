@@ -190,31 +190,37 @@ include_once 'header-bottom.inc';
 
                                 <div id="kos"></div>
                                 <div class="col-md-2 top feature-speaker">
-                                    <strong>10:00am</strong>
+                                    <strong>10:00 am</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>Orador Inaugural de A.A.</strong>
                                     <br>
                                     Orador: <strong>Mark S., Salinas, CA</strong>
-                                    <audio controls="">
-                                        <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                        Su navegador no admite el elemento de audio.
-                                    </audio>
-                                    <br>
-                                    <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Leer Transcripción en Inglés<span class="sr-only">(Abre una nueva ventana, haga clic para volver)</span></a>
-                                    <br><br>
-                                    Secretaria: Jean T.
-                                    <br>
-                                    <em>(Interpretación en lenguaje de señas)</em>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Mark S.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-mark.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haga clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretaria: Jean T.<br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Preámbulo: Katherine J.<br>
+                                            Las Doce Tradiciones: Todd S.<br>
+                                            Más Sobre el Alcoholismo: Arthur T.<br>
+                                            Cómo Funciona: Samantha C.<br>
+                                            Una Visión Para Ti: Aubrey G.<br>
+                                            Oración de Cierre: Cole T.
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Preámbulo: Katherine J.<br>
-                                    Las Doce Tradiciones: Todd S.<br>
-                                    Más Sobre el Alcoholismo: Arthur T.<br>
-                                    Cómo Funciona: Samantha C.<br>
-                                    Una visión Para Ti: Aubrey G.<br>
-                                    Oración de Clausura: Cole T.
-                                </div>
+
 
                                 <div id="dwp"></div>
                                 <div class="col-md-2 top feature-speaker">
@@ -230,31 +236,35 @@ include_once 'header-bottom.inc';
                                             <br>
                                             <audio controls="">
                                                 <source src="../audio/2024/Annette-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <a href="con-2024-annette.php" class="btn btn-outline-primary btn-sm">Leer transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
                                         </div>
-                                        <div class="col-md-6 border-0"><strong>Micha C.</strong>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Micha C.</strong>
                                             <br>
                                             <audio controls="">
                                                 <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
-                                                Su navegador no soporta el elemento de audio.
+
+                                                Tu navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Leer Transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <a href="con-2024-micha.php" class="btn btn-outline-primary btn-sm">Leer transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
                                         </div>
                                     </div>
                                     Secretaria: Kathleen S.
-                                    <br>
-                                    <em>(Interpretación en lenguaje de señas)</em>
                                 </div>
+
+
                                 <div class="col-md-2 top cell-color">
                                     <strong>1:00pm</strong>
                                 </div>
                                 <div class="col-md-10 bottom cell-color">
                                     <strong>Speed Fellowship - Stevenson 2</strong>
                                 </div>
+
 
                                 <div id="aalsm"></div>
                                 <div class="col-md-2 top feature-speaker">
@@ -264,11 +274,18 @@ include_once 'header-bottom.inc';
                                     <strong>Reunión de Oradores de A.A./Al-Anon</strong>
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
-                                            Orador de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
-                                            <br><br>
-                                            Secretario: Jane H.
+                                            Oradora de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
                                             <br>
-                                            <em>(Interpretación de ASL proporcionada)</em>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Leer transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haga clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretaria: Jane H.<br>
+                                            <em>(Se proporciona interpretación en lenguaje de señas)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
                                             Bienvenida de Al-Anon: Su C.<br>
@@ -278,21 +295,30 @@ include_once 'header-bottom.inc';
                                         </div>
                                         <hr>
                                         <div class="col-md-6 border-0">
-                                            Orador de A.A.: <strong>Denis D., Santa Cruz, CA</strong>
-                                            <br><br>
-                                            Secretaria: Renee C.
+                                            A.A. Orador: Denis D., Santa Cruz, CA
+
                                             <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Leer transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretaria: Renee C.<br>
                                             <em>(Interpretación en lenguaje de señas)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
-                                            Doce Tradiciones: Maryam H.<br>
-                                            Más Sobre el Alcoholismo: Paul F.<br>
-                                            Cómo Funciona: Sean B.<br>
-                                            Una Visión Para Ti: Gina H.<br>
-                                            Oración de Clausura: T.C. W.<br>
+                                            Las doce tradiciones: Maryam H.<br>
+                                            Más sobre el alcoholismo: Paul F.<br>
+                                            Cómo funciona: Sean B.<br>
+                                            Una visión para ti: Gina H.<br>
+                                            Oración de cierre: T.C. W.<br>
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <div class="col-md-2 top cell-color">
                                     <strong>3:30pm</strong>
@@ -301,6 +327,7 @@ include_once 'header-bottom.inc';
                                     <strong>Búsqueda del Tesoro Goose Chase - Stevenson 2</strong>
                                 </div>
 
+
                                 <div class="col-md-2 top">
                                     <strong>5:00pm</strong>
                                 </div>
@@ -308,28 +335,43 @@ include_once 'header-bottom.inc';
                                     <strong>Cena de presentación del orador - Bethlehem Lutheran Church ∆</strong>
                                 </div>
 
+
                                 <div id="asm1"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>7:30pm</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
-                                    <strong>A.A. Reunión de Oradores</strong>
+                                <div class="col-md-10 bottom feature-speaker">
+                                    <strong>Reunión de Oradores de A.A.</strong>
                                     <br>
                                     Oradora: <strong>Krystal M., Sacramento, CA</strong>
-                                    <br><br>
-                                    Secretario: Chris T.<br>
-                                    Cuenta Regresiva: Carolyn H. y Arthur T. <br>
-                                    <em>(Interpretación de ASL proporcionada)</em>
+                                    <br>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Krystal M.</strong>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretario: Chris T.<br>
+                                            Cuenta regresiva: Carolyn H. y Arthur T. <br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Preámbulo: Kathleen S.<br>
+                                            Doce tradiciones: Jill V.<br>
+                                            Más sobre el alcoholismo: Joel Y.<br>
+                                            Cómo funciona: Mark F.<br>
+                                            Una visión para ti: Micah C.<br>
+                                            Una visión para ti en español: Robert<br>
+                                            Oración de cierre: Phillip E.
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Preámbulo: Kathleen S.<br>
-                                    Doce tradiciones: Jill V.<br>
-                                    Más Sobre el Alcoholismo: Joel Y.<br>
-                                    Cómo Funciona: Mark F.<br>
-                                    Una visión Para Ti: Micah C.<br>
-                                    Una visión Para Ti en Español: Robert<br>
-                                    Oración de Clausura: Phillip E.
-                                </div>
+
 
                                 <div class="col-md-2 top cell-color">
                                     <strong>8:00pm</strong>
@@ -337,6 +379,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-10 bottom cell-color">
                                     <strong>La Se Cierra la Subasta Silenciosa de Al-Anon</strong>
                                 </div>
+
 
                                 <div class="col-md-2 top cell-color">
                                     <strong>8:30pm</strong>
@@ -346,6 +389,7 @@ include_once 'header-bottom.inc';
                                     <br>
                                     (Inmediatamente después de la reunión de Oradores)
                                 </div>
+
 
                                 <div class="col-md-2 top">
                                     <strong>9:30pm</strong>
@@ -392,17 +436,61 @@ include_once 'header-bottom.inc';
                                     (<a href="al-anon-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
+
                                 <div id="aap"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>9:30am</strong>
                                 </div>
                                 <div class="col-md-10 bottom feature-speaker">
-                                    <strong>Panel A.A. - Intercambio de Experiencias: Fundación Para el Future</strong>
+                                    <strong>Panel A.A. - Intercambio de experiencias: bases para el futuro</strong>
                                     <br>
                                     Panelistas: <strong>Pasquale C., Lisa M., Mike V. y Jill V.</strong>
-                                    <br><br>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Pasquale C.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Pasquale-C-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-pasquale.php" class="btn btn-outline-primary btn-sm">Leer transcripción 1 de 4<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Lisa M.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Lisa-M-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-lisa.php" class="btn btn-outline-primary btn-sm">Leer transcripción 2 de 4<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Mike V.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Mike-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-mike.php" class="btn btn-outline-primary btn-sm">Leer transcripción 3 de 4<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Jill V.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Jill-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-jill.php" class="btn btn-outline-primary btn-sm">Leer transcripción 4 de 4<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                        </div>
+                                    </div>
                                     Secretaria: Maryam H.
                                 </div>
+
 
                                 <div class="col-md-2 top marathon-cell">
                                     <strong>10:00am</strong>
@@ -413,26 +501,49 @@ include_once 'header-bottom.inc';
                                     (<a href="aa-spanish-marathon-2024.php" class="d-link">Ver el inserto para los horarios programados</a>)
                                 </div>
 
+
                                 <div id="alsm"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>Reunión de Oradores de Al-Anon </strong>
                                     <br>
-                                    Oradores: <strong>Chris W. y Eileen W., Redding, CA (padres)</strong>
-                                    <br><br>
-                                    Secretaria: Jane H.
-                                    <br>
-                                    <em>(Interpretación de ASL proporcionada)</em>
+                                    Oradores: <strong>Chris W. y Eileen W. (padres), Redding, CA</strong>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Chris W.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Su navegador no admite el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-chris.php" class="btn btn-outline-primary btn-sm">Leer transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretaria: Jane H.
+                                            <br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Eileen W.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-eileen.php" class="btn btn-outline-primary btn-sm">Leer transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Iniciar con la oración de la serenidad: Terrill K.<br>
+                                            Bienvenida de Al-Anon: Natalie A.<br>
+                                            Preámbulo de Al-Anon: Michelle M.<br>
+                                            Doce Pasos de Al-Anon: Natalie S.<br>
+                                            Clausura de Al-Anon: Liz M.
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Apertura con Oración de Serenidad: Terrill K.<br>
-                                    Bienvenida de Al-Anon: Natalie A.<br>
-                                    Preámbulo de Al-Anon: Michelle M.<br>
-                                    Doce Pasos de Al-Anon: Natalie S.<br>
-                                    Clausura de Al-Anon: Liz M.
-                                </div>
+
 
                                 <div class="col-md-2 top cell-color">
                                     <strong>12:00pm</strong>
@@ -441,6 +552,7 @@ include_once 'header-bottom.inc';
                                     <strong>Fiesta de Pintura - Stevenson 2</strong>
                                 </div>
 
+
                                 <div class="col-md-2 top cell-color">
                                     <strong>1:00pm</strong>
                                 </div>
@@ -448,27 +560,41 @@ include_once 'header-bottom.inc';
                                     <strong>Juego de la Comunidad de Hombres Lobo - Stevenson 2</strong>
                                 </div>
 
+
                                 <div id="atsm"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>1:30pm</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>Reunión de Oradores de Alateen</strong>
                                     <br>
-                                    Oradora: <strong>Amelia - 16 Años y Cesta-de-Preguntas</strong>
-                                    <p>MBAR cumple con el requisito B-17 NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1'); ?> o Marge S. en <?php echo getenv('mbar-alateen-2'); ?></p>
+                                    Oradora: <strong>Amelia, 16 años y miembro de Ask-it-Basket</strong>
+                                    <p>MBAR cumple con el requisito B-17 de NCWSA para la seguridad de los miembros de Alateen. Para obtener más información, comuníquese con Concetta C. en <?php echo getenv('mbar-alateen-1'); ?> o con Marge S. en <?php echo getenv('mbar-alateen-2'); ?></p>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Amelia</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Su navegador no admite el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-amelia.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haga clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretaria: Marge S. (Presidenta)
+                                            <br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Comienzo con la oración de la serenidad<br>
+                                            Bienvenida de Al-Anon: Jody E.<br>
+                                            Preámbulo de Al-Anon: Susan A.<br>
+                                            Doce Pasos de Al-Anon: Jackie H.<br>
+                                            Clausura de Al-Anon: Concetta C.<br>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                    Secretaria: Marge S.(Presidenta)
-                                    <br>
-                                    <em>(Interpretación en lenguaje de señas)</em>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Apertura con la Oración de la Serenidad<br>
-                                    Bienvenida de Al-Anon: Jody E.<br>
-                                    Preámbulo de Al-Anon: Susan A.<br>
-                                    Doce Pasos de Al-Anon: Jackie H.<br>
-                                    Clausura de Al-Anon: Concetta C.<br>
-                                </div>
 
                                 <div class="col-md-2 top cell-color">
                                     <strong>2:00pm</strong>
@@ -493,27 +619,40 @@ include_once 'header-bottom.inc';
                                     <strong>Curiosidades de A.A.: Servicio General - Stevenson 2</strong>
                                 </div>
 
+
                                 <div id="asm2"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>Reunión de Oradores de A.A.</strong>
                                     <br>
                                     Orador: <strong>Dean S., Salinas, CA</strong>
-                                    <br><br>
-                                    Secretario: Roger M.
-                                    <br>
-                                    <em>(Interpretación en lenguaje de señas)</em>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Preámbulo: Samantha C.<br>
-                                    Preámbulo en Español: Robert<br>
-                                    Doce Tradiciones: Mark S.<br>
-                                    Más Sobre el Alcoholismo: Conor R.<br>
-                                    Cómo Funciona: Rick<br>
-                                    Una Visión Para Ti: Naomi B.<br>
-                                    Oración de Clausura: Arthur T.
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Dean S.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-dean.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                            <br><br>
+                                            Secretario: Roger M.
+                                            <br>
+                                            <em>(Interpretación en lenguaje de señas)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Preámbulo: Samantha C.<br>
+                                            Preámbulo en español: Robert<br>
+                                            Las doce tradiciones: Mark S.<br>
+                                            Más sobre el alcoholismo: Conor R.<br>
+                                            Cómo funciona: Rick<br>
+                                            Visión para ti: Naomi B.<br>
+                                            Oración de cierre: Arthur T.
+                                        </div>
+                                    </div>
                                 </div>
 
 
