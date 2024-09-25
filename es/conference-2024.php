@@ -541,6 +541,16 @@ include_once 'header-bottom.inc';
                                             Doce Pasos de Al-Anon: Natalie S.<br>
                                             Clausura de Al-Anon: Liz M.
                                         </div>
+                                        <div class="col-md-12 border-0">
+                                        <strong>Su C. cantando la oración de apertura</strong>
+                                        <br>
+                                        <audio controls="">
+                                            <source src="../audio/2024/Su-C-al-anon-song-MBAR2024.mp3" type="audio/mpeg">
+                                            Su navegador no soporta el elemento de audio.
+                                        </audio>
+                                        <br>
+                                        <a href="con-2024-su.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver)</span></a>
+                                    </div>
                                     </div>
                                 </div>
 

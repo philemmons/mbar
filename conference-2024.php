@@ -535,6 +535,16 @@ include_once 'header-bottom.inc';
                                             Al-Anon Twelve Steps: Natalie S.<br>
                                             Al-Anon Closing: Liz M.
                                         </div>
+                                        <div class="col-md-12 border-0">
+                                            <strong>Su C. Singing the Opening Prayer</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Su-C-al-anon-song-MBAR2024.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-su.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                        </div>
                                     </div>
                                 </div>
 
