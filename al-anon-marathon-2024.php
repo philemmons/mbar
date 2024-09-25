@@ -159,7 +159,8 @@ include_once 'header-bottom.inc';
                                 <div class="col-sm-12 text-center feature-speaker">
                                     <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) — Speaker Meeting</strong></a>
                                     <br>
-                                    <strong>Shelly S.</strong>
+                                    <strong class="mb-1">Shelly S.</strong>
+                                    <br>
                                     <audio controls="">
                                         <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
