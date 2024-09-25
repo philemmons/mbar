@@ -501,24 +501,34 @@ include_once 'header-bottom.inc';
                                     <strong>11:00am</strong>
                                 </div>
                                 <div class="col-md-10 bottom feature-speaker">
+                                    <strong>Al-Anon Speaker Meeting </strong>
+                                    <br>
+                                    Speakers: <strong>Chris W. and Eileen W.(Parents), Redding, CA</strong>
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
-                                            <strong>Al-Anon Speaker Meeting </strong>
-                                            <br>
-                                            Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
+                                            <strong>Chris W.</strong>
                                             <br>
                                             <audio controls="">
                                                 <source src="#" type="audio/mpeg">
                                                 Your browser does not support the audio element.
                                             </audio>
                                             <br>
-                                            <a href="con-2024-chris-eileen.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <a href="con-2024-chris.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                             <br><br>
                                             Secretary: Jane H.
                                             <br>
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
+                                        <strong>Eileen W.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-eileen.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <br><br>
                                             Open with Serenity Prayer: Terrill K.<br>
                                             Al-Anon Welcome: Natalie A.<br>
                                             Al-Anon Preamble: Michelle M.<br>
@@ -557,6 +567,13 @@ include_once 'header-bottom.inc';
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
                                             <strong>Amelia</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-amelia.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                             <br><br>
                                             Secretary: Marge S.(Chair)
                                             <br>
