@@ -158,6 +158,14 @@ include_once 'header-bottom.inc';
 
                                 <div class="col-sm-12 text-center feature-speaker">
                                     <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D.(A.A.) and Shelly S.(Al-Anon) — Speaker Meeting</strong></a>
+                                    <br>
+                                    <strong>Shelly S.</strong>
+                                    <audio controls="">
+                                        <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                    <br>
+                                    <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
@@ -203,12 +211,52 @@ include_once 'header-bottom.inc';
 
                                 <div class="col-sm-12 text-center feature-speaker">
                                     <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Chris and Eileen W. — Al-Anon Speaker Meeting</strong></a>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Chris W.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Chris-W-from-Redding-CA-MBAR2024.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-chris.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <br><br>
+                                            Secretary: Jane H.
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            <strong>Eileen W.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Eileen-W-from-Redding-CA-MBAR2024 .mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-eileen.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <br><br>
+                                            Open with Serenity Prayer: Terrill K.<br>
+                                            Al-Anon Welcome: Natalie A.<br>
+                                            Al-Anon Preamble: Michelle M.<br>
+                                            Al-Anon Twelve Steps: Natalie S.<br>
+                                            Al-Anon Closing: Liz M.
+                                        </div>
+                                    </div>
                                 </div>
 
 
                                 <div class="col-sm-12 text-center feature-speaker">
                                     <a href="conference-2024.php#atsm" class="d-link"><strong>1:30pm Amelia M. — Alateen Speaker Meeting</strong></a>
                                     <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
+                                    <strong>Amelia</strong>
+                                    <br>
+                                    <audio controls="">
+                                        <source src="../audio/2024/Amelia-alateen-MBAR2024.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                    <br>
+                                    <a href="con-2024-amelia.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
 
 
