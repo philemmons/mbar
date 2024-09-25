@@ -201,7 +201,7 @@ include_once 'header-bottom.inc';
                                             <strong>Mark S.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Mark-S-from-Salinas-CA-MBAR2024.mp3" type="audio/mpeg">
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
@@ -235,7 +235,7 @@ include_once 'header-bottom.inc';
                                             <strong>Annette C.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Annette-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Annette-C-double-winner-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
@@ -246,7 +246,7 @@ include_once 'header-bottom.inc';
                                             <strong>Micha C.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Micha-C-double-winner-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Micha-C-double-winner-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Tu navegador no soporta el elemento de audio.
                                             </audio>
@@ -277,7 +277,7 @@ include_once 'header-bottom.inc';
                                             Oradora de Al-Anon: <strong>Shelly S., Newport Beach, CA</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
@@ -299,7 +299,7 @@ include_once 'header-bottom.inc';
 
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
@@ -349,7 +349,7 @@ include_once 'header-bottom.inc';
                                         <div class="col-md-6 border-0">
                                             <strong>Krystal M.</strong>
                                             <audio controls="">
-                                                <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Krystal-M-from-Sacramento-CA-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
@@ -450,7 +450,7 @@ include_once 'header-bottom.inc';
                                             <strong>Pasquale C.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Pasquale-C-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Pasquale-C-experience-exchange-MBAR2024.mp3" type="audio/mpeg">
 
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
@@ -461,7 +461,7 @@ include_once 'header-bottom.inc';
                                             <strong>Lisa M.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Lisa-M-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Lisa-M-experience-exchange-MBAR2024.mp3" type="audio/mpeg">
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
@@ -471,7 +471,7 @@ include_once 'header-bottom.inc';
                                             <strong>Mike V.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Mike-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Mike-V-experience-exchange-MBAR2024.mp3" type="audio/mpeg">
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
@@ -481,7 +481,7 @@ include_once 'header-bottom.inc';
                                             <strong>Jill V.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Jill-V-experience-exchange-MBAR2024-09-01-24.mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Jill-V-experience-exchange-MBAR2024.mp3" type="audio/mpeg">
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>
