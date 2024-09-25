@@ -277,12 +277,11 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                            <br><br>
-                                            Secretary: Jane H.
-                                            <br>
-                                            <em>(ASL Interpretation Provided)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
+                                            Secretary: Jane H.<br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                            <br><br>
                                             Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps: Susan A.<br>
@@ -298,12 +297,12 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                            <br><br>
-                                            Secretary: Renee C.
-                                            <br>
-                                            <em>(ASL Interpretation Provided)</em>
+
                                         </div>
                                         <div class="col-md-6 border-0">
+                                            Secretary: Renee C.<br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                            <br><br>
                                             Twelve Traditions: Maryam H.<br>
                                             More About Alcoholism: Paul F.<br>
                                             How It Works: Sean B.<br>
