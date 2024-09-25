@@ -152,7 +152,17 @@ include_once 'header-bottom.inc';
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">
-                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>2:00pm Denis D. (A.A.) y Shelly S. (Al-Anon) — Reunión de Oradores</strong></a>
+                                    <a href="conference-2024.php#aalsm" class="d-link"><strong>14:00 Denis D.(A.A.) y Shelly S.(Al-Anon) — Reunión de oradores</strong></a>
+                                    <br>
+                                    <strong class="mb-1">Shelly S.</strong>
+                                    <br>
+                                    <audio controls="">
+                                        <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024.mp3" type="audio/mpeg">
+
+                                        Su navegador no soporta el elemento de audio.
+                                    </audio>
+                                    <br>
+                                    <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver)</span></a>
                                 </div>
 
                                 <div class="col-sm-2 top marathon-cell">
@@ -193,8 +203,28 @@ include_once 'header-bottom.inc';
                                     Tema: Donaciones de Al-Anon: Cómo Liberar Nuestro Enorme Potencial
                                 </div>
 
-                                <div class="col-sm-12 text-center feature-speaker">
-                                    <a href="conference-2024.php#alsm" class="d-link"><strong>11:00am Chris y Eileen W.: Reunión de Oradores de Al-Anon</strong></a>
+                                <div class="row gx-1">
+                                    <div class="col-md-6 border-0">
+                                        <strong>Chris W.</strong>
+                                        <br>
+                                        <audio controls="">
+                                            <source src="../audio/2024/Chris-W-from-Redding-CA-MBAR2024.mp3" type="audio/mpeg">
+
+                                            Su navegador no soporta el elemento de audio.
+                                        </audio>
+                                        <br>
+                                        <a href="con-2024-chris.php" class="btn btn-outline-primary btn-sm">Leer transcripción 1 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                    </div>
+                                    <div class="col-md-6 border-0">
+                                        <strong>Eileen W.</strong>
+                                        <br>
+                                        <audio controls="">
+                                            <source src="../audio/2024/Eileen-W-from-Redding-CA-MBAR2024.mp3" type="audio/mpeg">
+                                            Su navegador no soporta el elemento de audio.
+                                        </audio>
+                                        <br>
+                                        <a href="con-2024-eileen.php" class="btn btn-outline-primary btn-sm">Leer transcripción 2 de 2<span class="sr-only">(Abre una nueva ventana, haz clic para volver atrás)</span></a>
+                                    </div>
                                 </div>
 
                                 <div class="col-sm-12 text-center feature-speaker">

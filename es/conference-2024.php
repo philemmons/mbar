@@ -633,7 +633,7 @@ include_once 'header-bottom.inc';
                                             <strong>Dean S.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="#" type="audio/mpeg">
+                                                <source src="../audio/2024/Dean-S-from-Salinas-CA-MBAR2024.mp3" type="audio/mpeg">
                                                 Su navegador no soporta el elemento de audio.
                                             </audio>
                                             <br>

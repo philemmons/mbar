@@ -227,7 +227,7 @@ include_once 'header-bottom.inc';
                                             <strong>Eileen W.</strong>
                                             <br>
                                             <audio controls="">
-                                                <source src="../audio/2024/Eileen-W-from-Redding-CA-MBAR2024 .mp3" type="audio/mpeg">
+                                                <source src="../audio/2024/Eileen-W-from-Redding-CA-MBAR2024.mp3" type="audio/mpeg">
                                                 Your browser does not support the audio element.
                                             </audio>
                                             <br>
