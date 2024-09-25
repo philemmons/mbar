@@ -249,6 +249,8 @@ include_once 'header-bottom.inc';
                                         </div>
                                     </div>
                                     Secretary: Kathleen S.
+                                    <br>
+                                    <em>(ASL Interpretation Provided)</em>
                                 </div>
 
 
@@ -268,6 +270,13 @@ include_once 'header-bottom.inc';
                                     <div class="row gx-1">
                                         <div class="col-md-6 border-0">
                                             Al-Anon Speaker: <strong>Shelly S., Newport Beach, CA</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Shelly-S-from-Newport-Beach-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                             <br><br>
                                             Secretary: Jane H.
                                             <br>
@@ -282,6 +291,13 @@ include_once 'header-bottom.inc';
                                         <hr>
                                         <div class="col-md-6 border-0">
                                             A.A. Speaker: <strong>Denis D., Santa Cruz, CA </strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Denis-D-from-Santa-Cruz-CA-MBAR2024-08-31-24.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                             <br><br>
                                             Secretary: Renee C.
                                             <br>
@@ -410,7 +426,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. Panel - Experience Exchange: Foundation for the Future</strong>
                                     <br>
-                                    Panelist: <strong>Pasquale C., Lisa M., Mike V., and Naomi B.</strong>
+                                    Panelist: <strong>Pasquale C., Lisa M., Mike V., and Jill V.</strong>
                                     <br><br>
                                     Secretary: Maryam H.
                                 </div>

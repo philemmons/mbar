@@ -246,6 +246,8 @@ include_once 'header-bottom.inc';
                                         </div>
                                     </div>
                                     Secretaria: Kathleen S.
+                                    <br>
+                                    <em>(Interpretación en lenguaje de señas)</em>
                                 </div>
                                 <div class="col-md-2 top cell-color">
                                     <strong>1:00pm</strong>
@@ -397,7 +399,7 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-10 bottom feature-speaker">
                                     <strong>Panel A.A. - Intercambio de Experiencias: Fundación Para el Future</strong>
                                     <br>
-                                    Panelistas: <strong>Pasquale C., Lisa M., Mike V. y Naomi B.</strong>
+                                    Panelistas: <strong>Pasquale C., Lisa M., Mike V. y Jill V.</strong>
                                     <br><br>
                                     Secretaria: Maryam H.
                                 </div>
