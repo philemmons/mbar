@@ -283,11 +283,11 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-shelly.php" class="btn btn-outline-primary btn-sm">Read Transcript 1 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
+                                            <br><br>
                                             Secretary: Jane H.<br>
                                             <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
+                                        </div>
+                                        <div class="col-md-6 border-0">
                                             Al-Anon Welcome: Su C.<br>
                                             Al-Anon Preamble: Olya O.<br>
                                             Al-Anon Twelve Steps: Susan A.<br>
@@ -303,11 +303,11 @@ include_once 'header-bottom.inc';
                                             </audio>
                                             <br>
                                             <a href="con-2024-denis.php" class="btn btn-outline-primary btn-sm">Read Transcript 2 of 2<span class="sr-only">(Opens a new window, click to go back)</span></a>
-                                        </div>
-                                        <div class="col-md-6 border-0">
+                                            <br><br>
                                             Secretary: Renee C.<br>
                                             <em>(ASL Interpretation Provided)</em>
-                                            <br><br>
+                                        </div>
+                                        <div class="col-md-6 border-0">
                                             Twelve Traditions: Maryam H.<br>
                                             More About Alcoholism: Paul F.<br>
                                             How It Works: Sean B.<br>
@@ -500,21 +500,32 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>11:00am</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
-                                    <strong>Al-Anon Speaker Meeting </strong>
-                                    <br>
-                                    Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
-                                    <br><br>
-                                    Secretary: Jane H.
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Open with Serenity Prayer: Terrill K.<br>
-                                    Al-Anon Welcome: Natalie A.<br>
-                                    Al-Anon Preamble: Michelle M.<br>
-                                    Al-Anon Twelve Steps: Natalie S.<br>
-                                    Al-Anon Closing: Liz M.
+                                <div class="col-md-10 bottom feature-speaker">
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Al-Anon Speaker Meeting </strong>
+                                            <br>
+                                            Speakers: <strong>Chris W. and Eileen W., Redding, CA (Parents)</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-chris-eileen.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <br><br>
+                                            Secretary: Jane H.
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Open with Serenity Prayer: Terrill K.<br>
+                                            Al-Anon Welcome: Natalie A.<br>
+                                            Al-Anon Preamble: Michelle M.<br>
+                                            Al-Anon Twelve Steps: Natalie S.<br>
+                                            Al-Anon Closing: Liz M.
+                                        </div>
+                                    </div>
                                 </div>
 
 
@@ -533,26 +544,32 @@ include_once 'header-bottom.inc';
                                     <strong>Werewolf Fellowship Game - Stevenson 2</strong>
                                 </div>
 
+
                                 <div id="atsm"></div>
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>1:30pm</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>Alateen Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Amelia - 16 year old and Ask-it-Basket</strong>
                                     <p>MBAR abides by the B-17 NCWSA Requirement for Alateen Member Safety - For more information contact Concetta C. at <?php echo getenv('mbar-alateen-1'); ?> or Marge S. at <?php echo getenv('mbar-alateen-2'); ?></p>
-
-                                    Secretary: Marge S.(Chair)
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
-                                </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Open with Serenity Prayer<br>
-                                    Al-Anon Welcome: Jody E.<br>
-                                    Al-Anon Preamble: Susan A.<br>
-                                    Al-Anon Twelve Steps: Jackie H.<br>
-                                    Al-Anon Closing: Concetta C.<br>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Amelia</strong>
+                                            <br><br>
+                                            Secretary: Marge S.(Chair)
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Open with Serenity Prayer<br>
+                                            Al-Anon Welcome: Jody E.<br>
+                                            Al-Anon Preamble: Susan A.<br>
+                                            Al-Anon Twelve Steps: Jackie H.<br>
+                                            Al-Anon Closing: Concetta C.<br>
+                                        </div>
+                                    </div>
                                 </div>
 
 
@@ -583,24 +600,37 @@ include_once 'header-bottom.inc';
                                 <div class="col-md-2 top feature-speaker">
                                     <strong>5:00pm</strong>
                                 </div>
-                                <div class="col-md-5 middle feature-speaker">
+                                <div class="col-md-10 bottom feature-speaker">
                                     <strong>A.A. Speaker Meeting</strong>
                                     <br>
                                     Speaker: <strong>Dean S., Salinas, CA</strong>
-                                    <br><br>
-                                    Secretary: Roger M.
-                                    <br>
-                                    <em>(ASL Interpretation Provided)</em>
+                                    <div class="row gx-1">
+                                        <div class="col-md-6 border-0">
+                                            <strong>Dean S.</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="#" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-dean.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                            <br><br>
+                                            Secretary: Roger M.
+                                            <br>
+                                            <em>(ASL Interpretation Provided)</em>
+                                        </div>
+                                        <div class="col-md-6 border-0">
+                                            Preamble: Samantha C.<br>
+                                            Preamble in Spanish: Robert<br>
+                                            Twelve Traditions: Mark S.<br>
+                                            More About Alcoholism: Conor R.<br>
+                                            How It Works: Rick<br>
+                                            Vision For You: Naomi B.<br>
+                                            Closing Prayer: Arthur T.
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-5 bottom feature-speaker">
-                                    Preamble: Samantha C.<br>
-                                    Preamble in Spanish: Robert<br>
-                                    Twelve Traditions: Mark S.<br>
-                                    More About Alcoholism: Conor R.<br>
-                                    How It Works: Rick<br>
-                                    Vision For You: Naomi B.<br>
-                                    Closing Prayer: Arthur T.
-                                </div>
+
 
 
                                 <div class="col-md-2 top cell-color">
