@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2024 Double Winner Annette C.</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-annette.php" >';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-shelly.php" >';
 include_once 'header-bottom.inc';
 ?>
 
