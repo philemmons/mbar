@@ -25,7 +25,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Mark s.en 2024.<span class="sr-only">(Haga clic para regresar)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Mark S. en 2024.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>And now I would like to introduce our speaker. He's our kickoff speaker for today, Mark S from Salinas, California. Good morning everybody. My name is Mark and I'm going to call it.
                             </p>

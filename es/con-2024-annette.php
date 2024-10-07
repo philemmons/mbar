@@ -25,7 +25,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Annette C. en 2019.<span class="sr-only">(Haga clic para regresar)</span>
+                            <h3 class="text-center p-4">A continuación se muestra una transcripción en bruto en inglés de la grabación de audio de<br>Annette C. en 2024.<span class="sr-only">(Haga clic para regresar)</span>
                             </h3>
                             <p>Hi, my name is Annette and I'm an alcoholic. And I'm also a member of Al-Anon. Thank you, Kathleen, for inviting me to share. And if I'm not speaking into the microphone, let me know because I'm not used to this. So, my sobriety date is October 31st, 2008.</p>
 
