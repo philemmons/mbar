@@ -62,7 +62,7 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
-                    <p class="h3 text-dark">Gratitud y Reflexión Post-Conferencia
+                    <p class="h3 text-dark">2024 Gratitud y Reflexión Post-Conferencia
                     </P>
                     <p class="dark-text">Queremos tomarnos un momento para agradecer a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. El espíritu de compañerismo y recuperación estuvo vivo en cada sesión, conversación y experiencia compartida. Ya sea que haya asistido, colaborado como voluntario o prestado apoyo desde lejos, su presencia y participación ayudaron a crear un entorno de sanación, crecimiento y conexión.
                         <br><br>
@@ -218,7 +218,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Reuniones Maratonianas
+                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Reuniones Maratonianas
                             </p>
                             <p class="card-text">Las reuniones de maratón son una parte crucial de las convenciones de A.A. y Al-Anon porque brindan apoyo y compañerismo continuos para todos. Estas reuniones ofrecen un espacio para que los miembros compartan sus experiencias, fortaleza y esperanza las 24 horas del día, lo que garantiza que siempre haya ayuda disponible cuando la necesiten.
                                 <br><br>

@@ -62,7 +62,7 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
-                    <p class="h3 text-dark">Post-Conference Gratitude and Reflection
+                    <p class="h3 text-dark">2024 Post-Conference Gratitude and Reflection
                     </P>
                     <p class="dark-text">We want to take a moment to thank everyone who participated in and contributed to the success of our recent A.A. conference. The spirit of fellowship and recovery was alive in every session, conversation, and shared experience. Whether you attended, volunteered, or supported from afar, your presence and involvement helped create an environment of healing, growth, and connection.
                         <br><br>
@@ -220,7 +220,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Marathon Meetings
+                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Marathon Meetings
                             </p>
                             <p class="card-text">Marathon meetings are a crucial part of A.A. and Al-Anon conventions because they provide continuous support and fellowship for all. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
                                 <br><br>
