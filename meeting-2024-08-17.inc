@@ -57,7 +57,7 @@
             <dt>13. Signage for Merchandise: Motion approved - sell merchandise on first come, first served basis;
             </dt>
 
-            <dt>14.  - Kevin: Family emergency - Chris covering; Rene pick up ice cream scoops in Salinas;</dt>
+            <dt>14. Merchandise - Kevin: Family emergency - Chris covering; Rene pick up ice cream scoops in Salinas;</dt>
 
             <dt>15. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)
             </dt>
