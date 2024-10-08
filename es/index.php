@@ -183,7 +183,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="memorias.php" class="btn btn-primary">Recuerdos de Eventos</a></small>
+                            <small class="text-body-secondary"><a href="memories.php" class="btn btn-primary">Recuerdos de Eventos</a></small>
                         </div>
                     </div>
                 </div>
