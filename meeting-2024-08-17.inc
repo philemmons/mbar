@@ -1,4 +1,4 @@
-<div id="august-10-2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
+<div id="august-17-2024" class="accordion-collapse collapse " data-bs-parent="#accordion2024">
     <div class="accordion-body">
         <p class="text-center">
             MBAR 2024 Committee Notes
@@ -68,30 +68,32 @@
 
             <dt>18. Raffle Bundles - Katherine: No report</dt>
 
-            <dt>15. </dt>
+            <dt>19. Website - Phillip: Updated homepage content and layout with marathon meetings; added AA marathon meeting page and Al-Anon marathon meeting page; Al-Anon page updated with marathon meeting section; updated the committee page; enabled the ASL feature on Zoom(easy) and purchased large meeting add-on for one month for $50 with the credit card on file; started to ask for readers for Zoom meetings; agreed to help Cole with 50/50 raffle; added conference center floor plan pdf; created backup of the online registrations; To do's and ideas - Perhaps reword the hospitality sign to read 'private' because if it says 'hospitality' peeps might associate it with the hospitality room from 2022; Online pdf fliers for the main speakers and AA marathon meeting are work in progress, by the respective chairs, and it's wise to wait for the final final before making them available for download; Is it okay to post pics of the mug and tumbler online? If so, please Chris would you send it or them over; If and when the Spanish A.A. marathon meeting schedule has a rough outline, then could we have it online too? I'll add the 8-10-24 meeting notes by Monday at the latest; I'll backup the online reg every three days since we are in the home stretch as one of them slipped through the cracks. Lost data is taboo.</dt>
 
-            <dt>15. </dt>
+            <dt>20. Social Media - Gina: Posting on local groups;</dt>
 
-            <dt>15. </dt>
+            <dt>21. Events - Samantha: All materials received except bingo supplies; Found D.J. - Mark A. for dance; Have volunteers for most everything; Need volunteers for the dance;</dt>
 
-            <dt>15. </dt>
+            <dt>22. Hospitality Room - Jennefer(in Texas): Working on bottled water; Planning two photo booths; Coordinating with Mark F. in Facilities;</dt>
 
-            <dt>15. </dt>
+            <dt>23. Spanish - Robert: Coordinating with Naomi; Passing along program;</dt>
 
-            <dt>15. </dt>
+            <dt>24. GSR/IGR - Cole: attending GSR meeting Tuesday;</dt>
 
-            <dt>15. </dt>
+            <dt>25. Breakfast - Joanie: Contract with church finalized including Friday night; Rene forward insurance information to Joanie - forward to the church; Revise terminology on website breakfast is not continental; Sean help with A.A. coffee urns; Mary Grace and Chris coordinate cash box - get there by 730am; Jean and Carolyn provide change;</dt>
 
-            <dt>15. </dt>
+            <dt>26. Fund Raising and Fellowship Events: Coastal Rally - Arthur and Connor;</dt>
 
-            <dt>15. </dt>
+            <dt>27. New Business: None;</dt>
 
-            <dt>16. Next Committee meeting is Saturday 08/17/2024 at 10am; Subsequent meetings will be every week till the conference date;</dt>
+            <dt>28. Next Committee meeting is Saturday 08/24/2024 at 10am; Subsequent meetings will be every week till the conference date;</dt>
 
-            <dt>17. Meeting adjourned at 12:15pm with the Serenity Prayer;</dt>
+            <dt>29. Next Steering Committee meeting:  8/27/2024 at 7pm;</dt>
+
+            <dt>17. Meeting adjourned with the Serenity Prayer;</dt>
         </dl>
 
-        <p> Attendees: Arthur, Aubrey, Carolyn, Chris, Cindy, Cole, Conor, Esther, Gina, Jane, Janet, Jean, Katherine, Kathleen, Kevin, Mark F., Mark S., Mary Grace, May, Phil C., Renee, Roger, and Samantha;</p>
+        <p> Attendees: Arthur, Carolyn, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Joanie, Kathleen, Mary Grace, Phil C., Phillip, Renee, Roger, Samantha, and Sean;</p>
 
     </div>
 </div>
