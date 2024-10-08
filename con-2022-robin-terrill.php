@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2022 Al-Anon Robin K. and Terrill K.</title>";
+echo "<title>2022 Al-Anon Robin K. and Terrill K. - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2022-robin-terrill.php" >';
 include_once 'header-bottom.inc';
 ?>

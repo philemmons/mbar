@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2017 Paul O. </title>";
+echo "<title>2017 A.A. Paul O. - Transcripción</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2017-paul-o.php" >';
 include_once 'header-bottom.inc';
 ?>

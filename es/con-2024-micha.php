@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>Doble Ganador del 2024 Micha C.</title>";
+echo "<title>Doble Ganador del 2024 Micha C. - Transcripción</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-micha.php" >';
 include_once 'header-bottom.inc';
 ?>

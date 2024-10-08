@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2019 Al-Anon Louise M.</title>";
+echo "<title>2019 Al-Anon Louise M. - Transcripción</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2019-louise.php" >';
 include_once 'header-bottom.inc';
 ?>

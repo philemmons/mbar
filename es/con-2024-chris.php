@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>Orador de Al-Anon 2024 Chris W.</title>";
+echo "<title>2024 Al-Anon Chris W. - Transcripción</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-chris.php" >';
 include_once 'header-bottom.inc';
 ?>

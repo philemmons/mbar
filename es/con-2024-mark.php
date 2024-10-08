@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2024 A.A. Mark S.</title>";
+echo "<title>2024 A.A. Mark S. - Transcripción</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-mark.php" >';
 include_once 'header-bottom.inc';
 ?>

@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2024 Al-Anon Singing Su C.</title>";
+echo "<title>2024 Al-Anon Singing Su C. - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2024-su.php" >';
 include_once 'header-bottom.inc';
 ?>

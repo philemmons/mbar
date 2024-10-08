@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2019 The Many Paths to Spirituality Panel </title>";
+echo "<title>2019 A.A. Many Paths to Spirituality Panel - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-many-paths-spirituality-panel.php" >';
 include_once 'header-bottom.inc';
 ?>

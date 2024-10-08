@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2019 A.A. Pat B. </title>";
+echo "<title>2019 A.A. Pat B. - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-pat.php" >';
 include_once 'header-bottom.inc';
 ?>

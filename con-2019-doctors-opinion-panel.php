@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2019  Doctors Opinion Panel</title>";
+echo "<title>2019 A.A. Doctor's Opinion Panel - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2019-doctors-opinion-panel.php" >';
 include_once 'header-bottom.inc';
 ?>
@@ -27,7 +27,7 @@ include_once 'header-bottom.inc';
                         <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Dr.Sheila C. and Dr.Jerry C., Doctors Opinion Panel, in 2019<span class="sr-only">(Click to go back)</span>
                             </h3>
-                            <p>Hello, my name is Samantha and I am an alcoholic. Welcome to Enbarr. We are, this is Money Pah has been granted the privilege to do some speaker meetings here at Enbarr this year, so we're really excited about that. Today we're going to have the doctor's opinion. So let's have a moment of silence for those still suffering in and out of the rooms. God grant me the serenity to accept the things I cannot change, the courage to change the things I can and the wisdom to know the difference.
+                            <p>Hello, my name is Samantha and I am an alcoholic. Welcome to MBAR. We are, this is Money Pah has been granted the privilege to do some speaker meetings here at MBAR this year, so we're really excited about that. Today we're going to have the doctor's opinion. So let's have a moment of silence for those still suffering in and out of the rooms. God grant me the serenity to accept the things I cannot change, the courage to change the things I can and the wisdom to know the difference.
                             </p>
                             <p>Thank you. I'm just going to read a brief portion out of the big book, out of the doctor's opinion and it says, we of Alcoholics Anonymous believe that the reader will be interested in the medical estimate of the plan of recovery described in this book. Convincing testimony must surely come from medical men and women who have had experience with the suffering of our members and have witnessed our return to health. And so today I'm going to introduce to you our first speaker, Sheila C, who's a psychiatric nurse practitioner in addiction medicine. And so here she is. Good morning everyone.
                             </p>

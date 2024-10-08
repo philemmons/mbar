@@ -1,7 +1,7 @@
 <?php
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
-echo "<title>2022 A.A. Chris T.</title>";
+echo "<title>2022 A.A. Chris T. - Transcript</title>";
 echo '<link rel="canonical" href= "https://montereybayarearoundup.org/con-2022-chris.php" >';
 include_once 'header-bottom.inc';
 ?>
