@@ -27,7 +27,28 @@ include_once 'header-bottom.inc';
                         <section aria-label="transcript">
                             <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Su C. in 2024.<span class="sr-only">(Click to go back)</span>
                             </h3>
-                            <p> Transcript Coming Soon </p>
+                            <p>But I want to sing a little prayer for you before you share.</p>
+                            <p>So if you could all close your eyes and just, it's not religious.</p>
+                            <p>I'm not religious.</p>
+                            <p>I'm not even baptized.</p>
+                            <p>I'm just sharing.</p>
+                            <p>I'm just going to sing this little prayer because we talked, in Dennis's meeting we
+                            <p>talked about unlocking our gifts and I feel like this feels right to me.</p>
+                            <p>Okay.</p>
+                            <p>Why do I feel discouraged?
+                            <p>Why do the shadows come?
+                            <p>Why does my heart feel lonely and long for heaven and home?
+                            <p>Because God is my portion.</p>
+                            <p>A constant friend is here.</p>
+                            <p>His eyes on the sparrow.</p>
+                            <p>And I know he watches me.</p>
+                            <p>His eyes on the sparrow.</p>
+                            <p>And I know he watches me.</p>
+                            <p>So I sing because I'm happy and I sing because I'm free.</p>
+                            <p>Oh, is I, is I'm the sparrow?
+                            <p>And I know he watches me.</p>
+                            <p>His eyes on the sparrow.</p>
+                            <p>And I know he watches me.</p>
                         </section>
                     </div>
                 </div>
