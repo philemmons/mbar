@@ -275,7 +275,7 @@ include_once 'header-bottom.inc';
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-5">
-                                <img src="" class="img-fluid shadow-wrap" alt="Venmo QR code" title="Venmo qrCode">
+                                
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                                 <p class="text-center"><a href="https://venmo.com" class="bb-link" target="_blank" rel="noopener noreferrer" title="Venmo qrCode Link">Venmo's qrCode Link<span class="sr-only">(Opens a new window)</span></a></p>
                             </div>

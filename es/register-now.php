@@ -187,7 +187,7 @@ include_once 'header-bottom.inc';
 
                         <div class="row">
                             <div class="col-sm-6 py-5">
-                                <img src="" class="img-fluid shadow-wrap" alt="Código QR de Venmo" title="Código QR de Venmo">
+                          
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                                 <p class="text-center"><a href="https://venmo.com" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Enlace del Código qr de Venmo<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
