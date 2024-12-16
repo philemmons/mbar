@@ -25,7 +25,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-bg-light hero-text-border">
                         <section aria-label="transcript">
-                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Ameila in 2024.<span class="sr-only">(Click to go back)</span>
+                            <h3 class="text-center p-4">Below is a raw transcript from the audio recording by<br>Amelia in 2024.<span class="sr-only">(Click to go back)</span>
                             </h3>
                             <p>Hi, I'm Amelia, a grateful member of Alateen. Hi Amelia. So today I've asked my higher power to be with me and give me the words to tell my story from the heart. I am a little nervous just to preface this but yeah. So growing up both of my parents drank.</p>
 

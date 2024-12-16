@@ -2,7 +2,7 @@
 session_start();  //start or resume an existing session
 include_once 'header-top.inc';
 echo "<title>2024 Alateen Amelia - Transcripción</title>";
-echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-ameila.php" >';
+echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/con-2024-amelia.php" >';
 include_once 'header-bottom.inc';
 ?>
 
