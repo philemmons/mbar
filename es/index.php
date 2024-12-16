@@ -65,7 +65,21 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">Elecciones 2026: Comité Directivo y Presidentes
                     </P>
                     <p class="text-dark">
+                        <strong>01/11/2025 a las 10am</strong>
+                        <br>
+                        <strong>ID de Zoom:</strong> 831 4306 2293
+                        <br>
+                        <strong>Contraseña:</strong> 2026
+                        <br>
+                        <strong class="h3">¡Todos los puestos están disponibles!</strong>
+                        <br>
+                        Marque la diferencia en nuestra comunidad siendo parte de la planificación que da vida a la convención. El servicio es una forma poderosa de retribuir, practicar la espiritualidad y crecer juntos. Ya sea organizando, apoyando o simplemente asistiendo, su participación ayuda a crear una experiencia significativa e inspiradora para todos. ¡Trabajemos juntos para llevar el mensaje de recuperación con amor y propósito!
+                        <br><br>
+                        Nota: Solo el Comité Directivo tiene los requisitos descritos en el PDF a continuación.
                     </p>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary"><a href="../pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Más Información: Comité Directivo <span class="sr-only">(Abrir PDF en el navegador)</span></a></small>
+                    </div>
                 </div>
             </div>
         </div>

@@ -78,7 +78,7 @@ include_once 'header-bottom.inc';
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">More Info - Steering Committee <span class="sr-only">(Open pdf in browser)</span></a></small>
+                        <small class="text-body-secondary"><a href="pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> More Info - Steering Committee <span class="sr-only">(Open pdf in browser)</span></a></small>
                     </div>
                 </div>
             </div>
