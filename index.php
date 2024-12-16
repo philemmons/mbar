@@ -71,12 +71,12 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Password:</strong> 2026
                         <br><br>
-                        <strong>All positions are available!</strong>
+                        <strong class="h3 text-dark">All positions are available!</strong>
                         <br>
                         Make a difference in our fellowship by being part of the team that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
                     </p>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="pdf/steering-election-flyer.pdf" class="btn btn-primary">Steering Committee Info</a></small>
+                        <small class="text-body-secondary"><a href="pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon">Steering Committee Info<span class="sr-only">(Open pdf in browser)</span></a></small>
                     </div>
                 </div>
             </div>
