@@ -62,12 +62,22 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
-                    <p class="h3 text-dark">2024 Post-Conference Gratitude and Reflection
+                    <p class="h3 text-dark">2026 Elections: Steering Committee and Chairs
                     </P>
-                    <p class="dark-text">We want to take a moment to thank everyone who participated in and contributed to the success of our recent A.A. conference. The spirit of fellowship and recovery was alive in every session, conversation, and shared experience. Whether you attended, volunteered, or supported from afar, your presence and involvement helped create an environment of healing, growth, and connection.
+                    <p class="dark-text">
+                        <strong>01/11/2025 at 10am</strong>
+                        <br>
+                        <strong>Zoom ID:</strong> 831 4306 2293
+                        <br>
+                        <strong>Password:</strong> 2026
                         <br><br>
-                        As we return to our daily lives, we encourage you to reflect on the valuable lessons and insights gained during the conference. Let's continue to carry the message of recovery to those who still suffer and strengthen our bonds within this community. We look forward to seeing you at future gatherings, and until then, stay connected and keep coming back!
+                        <strong>All positions are available!</strong>
+                        <br>
+                        Make a difference in our fellowship by being part of the team that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
                     </p>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary"><a href="pdf/steering-election-flyer.pdf" class="btn btn-primary">Steering Committee Info</a></small>
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,15 +105,12 @@ include_once 'header-bottom.inc';
                     <div class="card h-100 shadow-wrap">
 
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Jump Into Service</a>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitude and Reflection</a>
                             </p>
-                            <p class="card-text">We have found that volunteering to do service significantly improves the quality of our recovery. By giving back, we not only help others but also strengthen our own journey.
+                            <p class="card-text">We sincerely thank everyone who participated in and contributed to the success of our recent A.A. conference. Your involvement—whether attending, volunteering, or supporting—helped foster an atmosphere of fellowship, recovery, and connection.
                                 <br><br>
-                                Remember, you get what you give. Join us in making a positive impact and enhancing our recovery community.
+                                As we return to our daily lives, let's reflect on the lessons and insights we shared and continue carrying the message of recovery to those in need. Stay connected, keep coming back, and we look forward to seeing you at future gatherings!
                             </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Meeting Info</a></small>
                         </div>
                     </div>
                 </div>
@@ -242,7 +249,7 @@ include_once 'header-bottom.inc';
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>

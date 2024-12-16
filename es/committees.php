@@ -222,7 +222,7 @@ include_once 'header-bottom.inc';
                     <section aria-label="Presidentes de comités">
                         <h3 class="fw-bold">Presidentes de comités</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 28 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
+                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>

@@ -223,7 +223,7 @@ include_once 'header-bottom.inc';
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 28 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
+                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>

@@ -62,11 +62,9 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
-                    <p class="h3 text-dark">2024 Gratitud y Reflexión Post-Conferencia
+                    <p class="h3 text-dark">Elecciones 2026: Comité Directivo y Presidentes
                     </P>
-                    <p class="dark-text">Queremos tomarnos un momento para agradecer a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. El espíritu de compañerismo y recuperación estuvo vivo en cada sesión, conversación y experiencia compartida. Ya sea que haya asistido, colaborado como voluntario o prestado apoyo desde lejos, su presencia y participación ayudaron a crear un entorno de sanación, crecimiento y conexión.
-                        <br><br>
-                        Al regresar a nuestra vida diaria, lo alentamos a reflexionar sobre las valiosas lecciones y perspectivas obtenidas durante la conferencia. Sigamos llevando el mensaje de recuperación a quienes aún sufren y fortaleciendo nuestros vínculos dentro de esta comunidad. Esperamos verlo en futuras reuniones y, hasta entonces, ¡manténgase conectado y siga regresando!
+                    <p class="dark-text">
                     </p>
                 </div>
             </div>
@@ -94,15 +92,12 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Saltar al Servicio</a>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitud y Reflexión</a>
                             </p>
-                            <p class="card-text">Hemos descubierto que ofrecerse voluntariamente para prestar servicio mejora significativamente la calidad de nuestra recuperación. Al contribuir, no solo ayudamos a otros, sino que también fortalecemos nuestro propio camino.
+                            <p class="card-text">Agradecemos sinceramente a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. Su participación, ya sea asistiendo, trabajando como voluntarios o brindando apoyo, ayudó a fomentar una atmósfera de compañerismo, recuperación y conexión.
                                 <br><br>
-                                Recuerde, recibe lo que da. Únase a nosotros para generar un impacto positivo y mejorar nuestra comunidad de recuperación.
+                                Al regresar a nuestra vida diaria, reflexionemos sobre las lecciones y los conocimientos que compartimos y sigamos llevando el mensaje de recuperación a quienes lo necesitan. ¡Manténgase conectado, siga viniendo y esperamos verlo en futuras reuniones!
                             </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="meetings.php" class="btn btn-primary">Información de la Reunión</a></small>
                         </div>
                     </div>
                 </div>
@@ -241,7 +236,7 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
