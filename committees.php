@@ -283,6 +283,12 @@ include_once 'header-bottom.inc';
                                     <td>Mark F.</td>
                                 </tr>
                                 <tr class="table-primary">
+                                    <th scope="row">Fundraising Chair</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
                                     <th scope="row">G.S.R. Liaison</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>

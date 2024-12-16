@@ -282,6 +282,12 @@ include_once 'header-bottom.inc';
                                     <td>Mark F.</td>
                                 </tr>
                                 <tr class="table-primary">
+                                    <th scope="row">Presidente de Recaudación de Fondos</th>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr class="table-primary">
                                     <th scope="row">Enlace de G.S.R.</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
