@@ -78,7 +78,7 @@ include_once 'header-bottom.inc';
                         Nota: Solo el Comité Directivo tiene los requisitos descritos en el PDF a continuación.
                     </p>
                     <div class="card-footer text-center">
-                        <small class="text-body-secondary"><a href="../pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Más Información: Comité Directivo <span class="sr-only">(Abrir PDF en el navegador)</span></a></small>
+                        <small class="text-body-secondary"><a href="../pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Más Información: Comité Directivo <span class="sr-only">(Abrir PDF en el navegador)</span></a></small>
                     </div>
                 </div>
             </div>
