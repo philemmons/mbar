@@ -64,17 +64,17 @@ include_once 'header-bottom.inc';
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
                     <p class="h3 text-dark">2026 Elections: Steering Committee and Chairs
                     </P>
-                    <p class="dark-text">
+                    <p class="text-dark">
                         <strong>01/11/2025 at 10am</strong>
                         <br>
                         <strong>Zoom ID:</strong> 831 4306 2293
                         <br>
                         <strong>Password:</strong> 2026
-                        <br><br>
-                        <strong class="h3 text-dark">All positions are available!</strong>
+                        <br>
+                        <strong class="h3">All positions are available!</strong>
                         <br>
                         Make a difference in our fellowship by being part of the team that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
-                        <br>
+                        <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
                     <div class="card-footer text-center">

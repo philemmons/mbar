@@ -64,7 +64,7 @@ include_once 'header-bottom.inc';
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
                     <p class="h3 text-dark">Elecciones 2026: Comité Directivo y Presidentes
                     </P>
-                    <p class="dark-text">
+                    <p class="text-dark">
                     </p>
                 </div>
             </div>

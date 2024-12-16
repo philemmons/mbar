@@ -68,7 +68,7 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">
                         <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Reunión Virtual de Lanzamiento por Zoom<span class="sr-only">(Abre la aplicación Zoom)</span></a>
                     </p>
-                    <p class="dark-text">30 de Agosto a las 8:00pm, hora del Pacífico
+                    <p class="text-dark">30 de Agosto a las 8:00pm, hora del Pacífico
                         <br>
                         Orador: Oliver D. de Delaware
                         <br>
@@ -79,11 +79,11 @@ include_once 'header-bottom.inc';
                         ¡Esta reunión está abierta a todos y lo alentamos a unirse!
                     </p>
                     <p class="h3 text-dark">Reuniones Presenciales</p>
-                    <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
+                    <p class="text-dark">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                         <br>
                         Tenga en cuenta que es necesario registrarse para el evento presencial.
                     </p>
-                    <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
+                    <p class="text-dark mb-6">¡Estamos emocionados de que te unas a nosotros! Acérquese a la mesa de registro para registrarse en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darle la bienvenida!</p>
                 </div>
             </div>
         </div>
@@ -187,7 +187,7 @@ include_once 'header-bottom.inc';
 
                         <div class="row">
                             <div class="col-sm-6 py-5">
-                          
+
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                                 <p class="text-center"><a href="https://venmo.com" class="bb-link" target="_blank" rel="noopener noreferrer" title="PayPal qrCode Link">Enlace del Código qr de Venmo<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>

@@ -81,7 +81,7 @@ include_once 'header-bottom.inc';
                             <p class="h3 text-dark">
                                 <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Reunión Virtual de Lanzamiento por Zoom<span class="sr-only">(Abre la aplicación Zoom)</span></a>
                             </p>
-                            <p class="dark-text">30 de Agosto a las 8:00pm PDT
+                            <p class="text-dark">30 de Agosto a las 8:00pm PDT
                                 <br>
                                 Orador: Oliver D. de Delaware
                                 <br>
@@ -92,11 +92,11 @@ include_once 'header-bottom.inc';
                                 ¡Esta reunión está abierta a todos y lo invitamos a unirse!
                             </p>
                             <p class="h3 text-dark">Reuniones en Persona</p>
-                            <p class="dark-text">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
+                            <p class="text-dark">31 de Agosto y 1 de Septiembre en el Centro de Conferencias de Monterey
                                 <br>
                                 Tenga en cuenta que es necesario registrarse para el evento en persona.
                             </p>
-                            <p class="dark-text mb-6">¡Estamos emocionados de que te unas a nosotros! Acércate a la mesa de registro para inscribirte en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darte la bienvenida!</p>
+                            <p class="text-dark mb-6">¡Estamos emocionados de que te unas a nosotros! Acércate a la mesa de registro para inscribirte en persona, ya que el registro en línea ya está cerrado. ¡Estamos ansiosos por darte la bienvenida!</p>
                             <p class="h3 text-dark">Programa de eventos de MBAR</p>
                             <a class="btn btn-outline-primary" href="../pdf/MBAR-2024-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">Programa de MBAR 2024<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                         </section>
@@ -542,15 +542,15 @@ include_once 'header-bottom.inc';
                                             Clausura de Al-Anon: Liz M.
                                         </div>
                                         <div class="col-md-12 border-0">
-                                        <strong>Su C. cantando la oración de apertura</strong>
-                                        <br>
-                                        <audio controls="">
-                                            <source src="../audio/2024/Su-C-al-anon-song-MBAR2024.mp3" type="audio/mpeg">
-                                            Su navegador no soporta el elemento de audio.
-                                        </audio>
-                                        <br>
-                                        <a href="con-2024-su.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver)</span></a>
-                                    </div>
+                                            <strong>Su C. cantando la oración de apertura</strong>
+                                            <br>
+                                            <audio controls="">
+                                                <source src="../audio/2024/Su-C-al-anon-song-MBAR2024.mp3" type="audio/mpeg">
+                                                Su navegador no soporta el elemento de audio.
+                                            </audio>
+                                            <br>
+                                            <a href="con-2024-su.php" class="btn btn-outline-primary btn-sm">Leer transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para volver)</span></a>
+                                        </div>
                                     </div>
                                 </div>
 

@@ -81,7 +81,7 @@ include_once 'header-bottom.inc';
                             <p class="h3 text-dark">
                                 <a class="d-link" href="https://us02web.zoom.us/j/83143062293?pwd=QXZMWUVoZEkzVnUyY0poanAyclBHdz09" rel="noopener noreferrer nofollow" target="_blank">Virtual Kick-Off Zoom Meeting<span class="sr-only">(Opens Zoom Application)</span></a>
                             </p>
-                            <p class="dark-text">August 30th at 8:00pm PDT
+                            <p class="text-dark">August 30th at 8:00pm PDT
                                 <br>
                                 Speaker: Oliver D. from Delaware
                                 <br>
@@ -92,11 +92,11 @@ include_once 'header-bottom.inc';
                                 This meeting is open to everyone, and we encourage you to join!
                             </p>
                             <p class="h3 text-dark">In-Person Meetings</p>
-                            <p class="dark-text">August 31st and September 1st at the Monterey Conference Center
+                            <p class="text-dark">August 31st and September 1st at the Monterey Conference Center
                                 <br>
                                 Please note that registration is required for the in-person event.
                             </p>
-                            <p class="dark-text mb-6">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!</p>
+                            <p class="text-dark mb-6">We are excited to have you join us! Please come over to the registration table to sign up in person, as online registration is now closed. We can't wait to welcome you!</p>
                             <p class="h3 text-dark">MBAR's Schedule of Events</p>
                             <a class="btn btn-outline-primary" href="pdf/MBAR-2024-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> MBAR's Program 2024<span class="sr-only">(Open pdf in browser)</span></a>
                         </section>
@@ -520,7 +520,7 @@ include_once 'header-bottom.inc';
                                             <em>(ASL Interpretation Provided)</em>
                                         </div>
                                         <div class="col-md-6 border-0">
-                                        <strong>Eileen W.</strong>
+                                            <strong>Eileen W.</strong>
                                             <br>
                                             <audio controls="">
                                                 <source src="../audio/2024/Eileen-W-from-Redding-CA-MBAR2024.mp3" type="audio/mpeg">
