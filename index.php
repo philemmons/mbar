@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong class="h3">All positions are available!</strong>
                         <br>
-                        Make a difference in our fellowship by being part of the team that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
+                        Make a difference in our fellowship by being part of the planning that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
