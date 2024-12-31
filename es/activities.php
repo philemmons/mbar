@@ -133,12 +133,12 @@ include_once 'header-bottom.inc';
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/es/conference-2024.php#map" class="bb-link">(Ver mapa aquí)</a>
                                     <br>
                                     Únase a nosotros para disfrutar de un delicioso desayuno y compañerismo <strong>en el salón de la iglesia luterana de Belén</strong>, en la parte trasera del edificio, para comenzar las actividades del día. ¡Sí, prepare su marcador y disfrute de la emoción de ganar!
+                                </p>
                                 <ul>
                                     <li>
                                         <a class="bb-link" href="../pdf/breakfast_bingo.pdf">Desayuno y Juegos de Bingo<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -154,12 +154,12 @@ include_once 'header-bottom.inc';
                                     <h3>Baile de Máscaras</h3>
                                 </section>
                                 <p class="card-text">Después de la reunión del orador principal el sábado por la noche, únase a nosotros para divertirse y compartir. Baile toda la noche en nuestra mascarada (se proporcionarán máscaras). Después de todo, "no somos gente triste. Si los recién llegados no pudieran ver alegría ni diversión en nuestra existencia, no la querrían. Insistimos absolutamente en disfrutar de la vida". BB p132
+                                </p>
                                 <ul>
                                     <li>
                                         <a class="bb-link" href="../pdf/masquerade_dance.pdf">Baile de Máscaras<img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"><span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +195,6 @@ include_once 'header-bottom.inc';
                                 </section>
                                 <p class="card-text">¿Qué mejor manera de cuidar a otra persona que conocerla mejor? Este año tenemos más actividades de compañerismo que en años anteriores y te invitamos a participar. Los enlaces a continuación abren archivos PDF con más información. "Aunque sabían que debían ayudar a otros alcohólicos si querían permanecer sobrios, ese motivo pasó a un segundo plano. Fue superado por la felicidad que encontraron al entregarse a los demás". BB p132
                                 </p>
-                                <p class="card-text">
                                 <ul>
                                     <li>Comunicación Rápida</li>
                                     <li><a class="bb-link" href="../pdf/scavenger_hunt.pdf">Búsqueda del Tesoro de la Persecución del Ganso<span class="sr-only">(Abrir PDF en el navegador)</span></a>
@@ -208,8 +207,6 @@ include_once 'header-bottom.inc';
                                     <li><a class="bb-link" href="../pdf/aa_trivia.pdf">Trivialidades de A.A: Servicios Generales<span class="sr-only">(Abrir PDF en el navegador)</span></a>
                                     </li>
                                 </ul>
-                                </p>
-
                             </div>
                         </div>
                     </div>

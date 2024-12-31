@@ -133,12 +133,13 @@ include_once 'header-bottom.inc';
                                 <p class="card-text"><a href="https://montereybayarearoundup.org/conference-2024.php#map" class="bb-link">(See map here)</a>
                                     <br>
                                     Rejoin us for a tasty breakfast and fellowship <strong>at Bethlehem Lutheran Church Hall</strong>, in the back of the building, to start off the activities of the day. Yes, get your dauber ready and the thrill of the win!
+                                </p>
+
                                 <ul>
                                     <li>
                                         <a class="bb-link" href="pdf/breakfast_bingo.pdf">Breakfast and Bingo Games<img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"><span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -154,12 +155,12 @@ include_once 'header-bottom.inc';
                                     <h3>Masquerade Dance</h3>
                                 </section>
                                 <p class="card-text">After the Main Speaker Meeting on Saturday night, join us for some fun and fellowship. Dance the night away at our Masquerade - Masks provided. After all, "We aren't a glum lot. If newcomers could see no joy or fun in our existence, they wouldn't want it. We absolutely insist on enjoying life." BB p132
+                                </p>
                                 <ul>
                                     <li>
                                         <a class="bb-link" href="pdf/masquerade_dance.pdf">Masquerade Dance<img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"><span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                 </ul>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +196,6 @@ include_once 'header-bottom.inc';
                                 </section>
                                 <p class="card-text">What better way to care for another, than to get to know them better. This year we have more fellowship activities for us than in previous years and invite you to them. The links below open PDF's with more information. "Though they knew they must help other alcoholics if they would remain sober, that motive became secondary. It was transcended by the happiness they found in giving themselves for others." BB p132
                                 </p>
-                                <p class="card-text">
                                 <ul>
                                     <li>Speed Fellowship-ing</li>
                                     <li><a class="bb-link" href="pdf/scavenger_hunt.pdf">Goose Chase Scavenger Hunt<span class="sr-only">(Open pdf in browser)</span></a>
@@ -208,8 +208,6 @@ include_once 'header-bottom.inc';
                                     <li><a class="bb-link" href="pdf/aa_trivia.pdf">A.A Trivia: General Service<span class="sr-only">(Open pdf in browser)</span></a>
                                     </li>
                                 </ul>
-                                </p>
-
                             </div>
                         </div>
                     </div>
