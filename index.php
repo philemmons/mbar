@@ -63,7 +63,7 @@ include_once 'header-bottom.inc';
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
                     <p class="h3 text-dark">2026 Elections: Steering Committee and Chairs
-                    </P>
+                    </p>
                     <p class="text-dark">
                         <strong>01/11/2025 at 10am</strong>
                         <br>
@@ -207,6 +207,7 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">Over the years, the Monterey Bay Area Roundup has grown to include a variety of activities that support personal and spiritual growth, including:
                             </p>
+
                             <p class="card-text">
                             <ul>
                                 <li><strong>Speaker Meetings</strong>: These sessions often feature A.A. or Al-Anon members who share their stories of experience, strength, and hope.
@@ -219,6 +220,7 @@ include_once 'header-bottom.inc';
                                 </li>
                             </ul>
                             </p>
+
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">View 2024 Activities</a></small>
