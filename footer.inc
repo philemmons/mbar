@@ -60,7 +60,7 @@
             <div class="col-sm-12" id="footer-image" role=img aria-label="A road through rolling hills, covered with flowers, with a sunset backdrop.">
                 <p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
                 </p>
-                <p class-="sr-only">Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
+                <p class="sr-only">Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
                 </p>
             </div>
             <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">
