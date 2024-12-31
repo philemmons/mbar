@@ -101,7 +101,7 @@ include_once 'header-bottom.inc';
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Oradores destacados de AA, Al-Anon y Alateen</h4>
+                        <h4 class="fw-bold mb-3 text-primary text-center"><span class="text-dark px-3 px-md-0">Oradores destacados de AA, Al-Anon y Alateen</span></h4>
                         <hr>
                         <div class="mb-4">
                             <img class="img-fluid" src="../images/mbar-al-anon-speakers.png" alt="Folleto con oradores destacados de AA, Al-Anon y Alateen">
