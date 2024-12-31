@@ -205,8 +205,8 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">A lo largo de los años, Monterey Bay Area Roundup ha crecido hasta incluir una variedad de actividades que apoyan el crecimiento personal y espiritual, entre ellas:
                             </p>
-                            <p class="card-text">
-                            <ul>
+                            
+                            <ul class="card-text">
                                 <li><strong>Reuniones de oradores</strong>: En estas sesiones, a menudo participan miembros de A.A. o Al-Anon que comparten sus historias de experiencia, fortaleza y esperanza.
                                 </li>
                                 <li><strong>Talleres y paneles</strong>: Los temas cubren los aspectos prácticos de mantener la sobriedad, como el apadrinamiento, el bienestar emocional y la conexión espiritual.
@@ -216,7 +216,7 @@ include_once 'header-bottom.inc';
                                 <li><strong>Voluntariado y servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. y Al-Anon como un elemento clave de la recuperación.
                                 </li>
                             </ul>
-                            </p>
+                            
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Ver 2024 Actividades</a></small>
