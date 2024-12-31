@@ -61,6 +61,8 @@
             <div class="col-sm-12" id="footer-image" role=img aria-label="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
                 <p>Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
                 </p>
+                <p class-="sr-only">Copyright © <?php echo date('Y'); ?> Reunirs del Área de la Bahía de Monterey. Reservados todos los derechos.
+                </p>
             </div>
             <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="menú de pie de página">
                 <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
