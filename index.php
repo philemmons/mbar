@@ -208,8 +208,7 @@ include_once 'header-bottom.inc';
                             <p class="card-text">Over the years, the Monterey Bay Area Roundup has grown to include a variety of activities that support personal and spiritual growth, including:
                             </p>
 
-                            <p class="card-text">
-                            <ul>
+                            <ul class="card-text">
                                 <li><strong>Speaker Meetings</strong>: These sessions often feature A.A. or Al-Anon members who share their stories of experience, strength, and hope.
                                 </li>
                                 <li><strong>Workshops and Panels</strong>: Topics cover the practical aspects of maintaining sobriety, such as sponsorship, emotional well-being, and staying spiritually connected.
@@ -219,7 +218,6 @@ include_once 'header-bottom.inc';
                                 <li><strong>Volunteerism and Service</strong>: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s and Al-Anon's tradition of service as a key element of recovery.
                                 </li>
                             </ul>
-                            </p>
 
                         </div>
                         <div class="card-footer text-center">
