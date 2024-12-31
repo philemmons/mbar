@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                         <h2 class="display-6 fw-bold px-3 px-md-0">Próximos Eventos 2024</h2>
+                         <h2 class="display-6 fw-bold px-3 px-md-0">Próximos Eventos 2026</h2>
                          <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
                     </div>
                </div>
@@ -74,7 +74,7 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2024!</p>
+                              <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2026!</p>
                          </div>
                     </div>
                </div>

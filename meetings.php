@@ -85,7 +85,7 @@ include_once 'header-bottom.inc';
                         <h4>10:00am for 1.5 hours</h4>
                         <p><strong>Zoom ID</strong>: 831 4306 2293
                             <br>
-                            <strong>Password</strong>: 2026
+                            <strong>Password</strong>: 2024
                         </p>
                         <p><strong>Next Meetings:</strong>2026 MBAR's Steering Committee Elections 01/11/2025</p>
                     </div>

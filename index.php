@@ -69,7 +69,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Zoom ID:</strong> 831 4306 2293
                         <br>
-                        <strong>Password:</strong> 2026
+                        <strong>Password:</strong> 2024
                         <br>
                         <strong class="h3">All positions are available!</strong>
                         <br>

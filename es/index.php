@@ -69,7 +69,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>ID de Zoom:</strong> 831 4306 2293
                         <br>
-                        <strong>Contraseña:</strong> 2026
+                        <strong>Contraseña:</strong> 2024
                         <br>
                         <strong class="h3">¡Todos los puestos están disponibles!</strong>
                         <br>

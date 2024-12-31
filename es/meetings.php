@@ -86,7 +86,7 @@ include_once 'header-bottom.inc';
                         <h4>10:00am durante 1,5 horas</h4>
                         <p><strong>ID de Zoom</strong>: 831 4306 2293
                             <br>
-                            <strong>Contraseña</strong>: 2026
+                            <strong>Contraseña</strong>: 2024
                         </p>
                         <p><strong>Próximas Reuniones:</strong> 2026 Elecciones del Comité Directivo de MBAR 11/01/2025</p>
                     </div>

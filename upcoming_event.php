@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Prior events create fellowship and generate contributions to offset MBAR's cost.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in 2026!">
-                         <h2 class="display-6 fw-bold px-3 px-md-0">Upcoming Events 2024</h2>
+                         <h2 class="display-6 fw-bold px-3 px-md-0">Upcoming Events 2026</h2>
                     </div>
                </div>
           </div>
@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="h5 text-dark">Thank you for continuing to check back for more events leading up to the 2024 Conference!</p>
+                              <p class="h5 text-dark">Thank you for continuing to check back for more events leading up to the 2026 Conference!</p>
                          </div>
                     </div>
                </div>
