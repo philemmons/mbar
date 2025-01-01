@@ -644,6 +644,10 @@ ol.ol-roman {
   list-style-type: lower-roman;
 }
 
+ol>li, ol>li>ul>li{
+  margin-bottom: 0.5em;
+}
+
 /**** text indent ****/
 
 .ti-1 {
