@@ -90,10 +90,11 @@
 
             <dt>29. Next Steering Committee meeting:  8/27/2024 at 7pm;</dt>
 
-            <dt>17. Meeting adjourned with the Serenity Prayer;</dt>
-        </dl>
+            <dt>30. Meeting adjourned with the Serenity Prayer;</dt>
 
-        <p> Attendees: Arthur, Carolyn, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Joanie, Kathleen, Mary Grace, Phil C., Phillip, Renee, Roger, Samantha, and Sean;</p>
+            <p> Attendees: Arthur, Carolyn, Chris, Cindy, Cole, Dawn, Gina, Jane, Janet, Jean, Joanie, Kathleen, Mary Grace, Phil C., Phillip, Renee, Roger, Samantha, and Sean;</p>
+
+        </dl>
 
     </div>
 </div>
