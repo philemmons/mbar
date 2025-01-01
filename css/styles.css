@@ -308,7 +308,7 @@ nav {
 
 .btn-primary {
   --bs-btn-bg: var(--color-12);
-  --bs-btn-hover-bg: #22aaff;
+  --bs-btn-hover-bg: #0070b6;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
 }
 
