@@ -38,7 +38,7 @@
 
             <dd>b. Registration - Naomi: Ten registrations received; Working on online registration process;</dd>
 
-            <dd>c. Spanish - Robert: Meet last Wednesday of the month (potluck); Need Spanish translation of registration form - Rene to get translation made; 28 Spanish Groups; Working on speakers from Texas and Mexico;</dd>
+            <dd>c. Spanish - Robert: Meet last Wednesday of the month (potluck); Need Spanish translation of registration form - Renee to get translation made; 28 Spanish Groups; Working on speakers from Texas and Mexico;</dd>
 
             <dd>d. Al-Anon - Dawn: Start meetings next month; Committees assembled;</dd>
 
@@ -48,7 +48,7 @@
 
             <dd>g. Facilities - Sally: No report;</dd>
 
-            <dd>h. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn and Naomi; Address domain renewal; Robert check Spanish page on website; Rene coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
+            <dd>h. Website - Phillip: New website is accessible (ADA); Working on registration - Money to treasurer and Registration form to registration chair; Resolve process for marking registrations as paid – coordinate with Carolyn and Naomi; Address domain renewal; Robert check Spanish page on website; Renee coordinate Spanish translation; Needs digital copies of Spanish translation;</dd>
 
             <dd>i. Raffle - Katherine: Chris needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day - Collect money for meals: Joanie and Chris;</dd>
 

@@ -71,7 +71,7 @@
 
             <dd>a. Reminder Committee Members should all be registered, within the next month;</dd>
 
-            <dd>b. Non-Profit Status: Committee Members please announce we are needing assistance with this. Chris followed up with Jana to have this be an IGR announcement as well; Motion passed - pay for professional to do non-profit application; Rene & Cindy volunteered to be liaison;</dd>
+            <dd>b. Non-Profit Status: Committee Members please announce we are needing assistance with this. Chris followed up with Jana to have this be an IGR announcement as well; Motion passed - pay for professional to do non-profit application; Renee & Cindy volunteered to be liaison;</dd>
 
             <dt>11. Fundraising Ideas</dt>
 

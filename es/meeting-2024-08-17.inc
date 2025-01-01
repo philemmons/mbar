@@ -35,12 +35,12 @@
                 Gracias de antemano por su participación y apoyo, ¡realmente nos estamos acercando a unos tiempos emocionantes y felices por delante!
             </dt>
 
-            <dt>7. Informe del Tesorero - Carolyn H.: Ver la hoja de cálculo del presupuesto; en el futuro, se presentarán documentos con las cifras reales para su revisión. Así como los artículos que deben aprobarse para el pago; Saldo $37,500; $25,500 Gastos a pagar; $12,000 netos - menos de la reserva prudente planificada de $16,000; No incluye: paquetes de comidas, 50/50, rifa y séptima tradición; ¿Está bien que el dinero que ingresa se limite a efectivo o cheque o PayPal o Venmo? - Carolyn: prefiere no usar Square; Cindy: no mucho Venmo o PayPal en 2019; 50/50 debe ser efectivo; Si 50/50 usa Venmo, habrá más ventas; Naomi: Square se usa para las inscripciones; Según Cindy, hubo problemas técnicos; se aprobó la moción: usar Square solo para las inscripciones; Las cajas de efectivo en cada evento de comida están atendidas por voluntarios del evento: Mary Grace en la caja de efectivo del desayuno; Rene en la caja de efectivo de la cena;
+            <dt>7. Informe del Tesorero - Carolyn H.: Ver la hoja de cálculo del presupuesto; en el futuro, se presentarán documentos con las cifras reales para su revisión. Así como los artículos que deben aprobarse para el pago; Saldo $37,500; $25,500 Gastos a pagar; $12,000 netos - menos de la reserva prudente planificada de $16,000; No incluye: paquetes de comidas, 50/50, rifa y séptima tradición; ¿Está bien que el dinero que ingresa se limite a efectivo o cheque o PayPal o Venmo? - Carolyn: prefiere no usar Square; Cindy: no mucho Venmo o PayPal en 2019; 50/50 debe ser efectivo; Si 50/50 usa Venmo, habrá más ventas; Naomi: Square se usa para las inscripciones; Según Cindy, hubo problemas técnicos; se aprobó la moción: usar Square solo para las inscripciones; Las cajas de efectivo en cada evento de comida están atendidas por voluntarios del evento: Mary Grace en la caja de efectivo del desayuno; Renee en la caja de efectivo de la cena;
             </dt>
 
             <dt>8. Inscripción - Naomi: 222 Total completo - 137 en línea, 85 en papel; Dispersos entre las comunidades: 158 A.A., 43 Al-Anon, 20 Dobles, 1 Otro; 14 inscripciones desde el 1/8/2024; Complementos: 90 paquetes, 111 cenas, 90 desayunos, 105 helados, 87 camisetas; 5 o 6 solicitudes de ayuda; Naomi tiene voluntarios de A.A. y Al-Anon que atenderán la mesa de inscripción; Programa completo, excepto los lectores de Al-Anon; Es necesario actualizar el folleto de Alateen; No hay aportes de Robert sobre las inscripciones en español; Tony V. ayudará con las inscripciones de habla hispana; Se aceptan inscripciones para comidas hasta el día del evento; Aubrey permite entre un 10 y un 15 % más de inscripciones;
 
-            <dt>9. Varios: Capacidad de la iglesia 130 por contrato; Moción aprobada: Samantha compra marcadores, dobbers, etc. según sea necesario con posiblemente 130 personas; Rene contacta a Transporte (Trevor): planifica 130 personas para las comidas y puede usar a Nick K. para ayudar;
+            <dt>9. Varios: Capacidad de la iglesia 130 por contrato; Moción aprobada: Samantha compra marcadores, dobbers, etc. según sea necesario con posiblemente 130 personas; Renee contacta a Transporte (Trevor): planifica 130 personas para las comidas y puede usar a Nick K. para ayudar;
 
 
             <dt>10. Camiseta - Kevin(Ausente): Precios - Pedí 144 en total y costo promedio $13.57 - 87 preordenadas, 57 para vender en la conferencia, Moción aprobada: vender camisetas en la conferencia por $15; Carolyn recoge las camisetas el 17/8/2024; Chris tiene tazas en su casa; Las camisetas del comité se pueden recoger en la casa de Chris - lunes o más tarde: llama a Chris para coordinar;
@@ -53,7 +53,7 @@
             <dt>13. Señalización de la Mercancía: Se aprobó la moción: vender la mercancía por orden de llegada;
             </dt>
 
-            <dt>14. Mercancías - Kevin: Emergencia familiar: Chris cubre; Rene recoge helados en Salinas;</dt>
+            <dt>14. Mercancías - Kevin: Emergencia familiar: Chris cubre; Renee recoge helados en Salinas;</dt>
 
             <dt>15. Séptima tradición: puede hacer una contribución a la Séptima tradición: PayPal a mbartreasurer@gmail.com o enviando un cheque a: MBAR, PO Box 1462, Monterey, CA 93942; o Venmo: @MBARoundup24 (<em>Nota:</em> Venmo y el cheque van 100 % al Tesoro, PayPal cobra una tarifa).
             </dt>
@@ -76,7 +76,7 @@
 
             <dt>24. GSR/IGR - Cole: se está asistiendo a la reunión del GSR el martes;</dt>
 
-            <dt>25. Desayuno - Joanie: se finalizó el contrato con la iglesia, incluida la noche del viernes; Rene envía la información del seguro a Joanie; se la envía a la iglesia; se revisa la terminología en el sitio web; el desayuno no es continental; Sean ayuda con las cafeteras de A.A.; Mary Grace y Chris coordinan la caja registradora; llegan a las 7:30 a. m.; Jean y Carolyn dan el cambio;</dt>
+            <dt>25. Desayuno - Joanie: se finalizó el contrato con la iglesia, incluida la noche del viernes; Renee envía la información del seguro a Joanie; se la envía a la iglesia; se revisa la terminología en el sitio web; el desayuno no es continental; Sean ayuda con las cafeteras de A.A.; Mary Grace y Chris coordinan la caja registradora; llegan a las 7:30 a. m.; Jean y Carolyn dan el cambio;</dt>
 
             <dt>26. Eventos de recaudación de fondos y compañerismo: Rally Costero - Arthur y Connor;</dt>
 

@@ -31,7 +31,7 @@
             <dt>8. Committee BBQ: Chris send invitation to Al-Anon; Sign-up link to be sent out by email - Need responses by 8/23; $10 donation - provide bucket at the BBQ - simpler for the treasurer; Speakers are free; Approved Motion - Accept online registration; Pay at the event; Matt and Mark Purchase supplies and submit for reimbursement; Arthur has supplies (paper plates, utensils, etc.); Ribs / Chicken / tri-tip at past events;
             </dt>
 
-            <dt>9. Program: See attached; Rene - ASL booked for Sat and Sun Meetings; Update program to show which meetings have ASL; Add 8pm Friday Zoom meeting; Add schedule to website, etc. so it can be downloaded to a phone; Add info about which room events are being held; Mark share with Conf Center; Naomi distribute updated draft and distribute to steering committee for approval;
+            <dt>9. Program: See attached; Renee - ASL booked for Sat and Sun Meetings; Update program to show which meetings have ASL; Add 8pm Friday Zoom meeting; Add schedule to website, etc. so it can be downloaded to a phone; Add info about which room events are being held; Mark share with Conf Center; Naomi distribute updated draft and distribute to steering committee for approval;
             </dt>
 
             <dt>10. Dennis(2pm Sat Speaker): Kathleen confirm that there is a hotel room booked;

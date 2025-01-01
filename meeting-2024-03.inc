@@ -35,7 +35,7 @@
 
             <dt>9. Committee Chairs/Steering Committee Reports</dt>
 
-            <dd>a. Media - Gina: Rene translating several documents to Spanish;</dd>
+            <dd>a. Media - Gina: Renee translating several documents to Spanish;</dd>
 
             <dd>b. Registration - Naomi: 13 total registrations received; Eight of the 20 paid registrations reported by treasurer; Five free registrations - logo contest and raffle prizes; Working on online registration process; Al-Anon volunteered to assist; Chris encouraged all committee members to register;</dd>
 
@@ -53,14 +53,14 @@
 
             <dd>i. Facilities- Sally: No report - holding pattern for now;</dd>
 
-            <dd>j. Website - Phillip: New website accessibility (ADA) compliance nearly complete; Working on setting up registration process - Money to treasurer; Registration form to registration chair; Get Google form from Rene; Updating payment process; Spanish page setup; Address domain, web hosting, etc. renewal fees; Working on Al-Anon page; Rene coordinate Spanish translation; </dd>
+            <dd>j. Website - Phillip: New website accessibility (ADA) compliance nearly complete; Working on setting up registration process - Money to treasurer; Registration form to registration chair; Get Google form from Rene; Updating payment process; Spanish page setup; Address domain, web hosting, etc. renewal fees; Working on Al-Anon page; Renee coordinate Spanish translation; </dd>
 
             <dd>k. Raffle - Katherine: $715 from Bingo 50/50; Chris (co-chair) needs volunteers to help with raffle at St. Patrick's Day; Add committee for St Patrick's day; May volunteered to help with raffle;</dd>
 
             <dt>10. Old Business:</dt>
             <dt>Fundraising</dt>
 
-            <dd>a. St. Patty Day Sun 3/17: See Attached Flyer in Invite; Phil C. Pool House; Event Time: 4 to 7pm; Setup: 1pm; Speaker: Avail L; Food: Matt R. and Helpers; Raffle: 50/50 and Prizes; Katherine needs help - Ticket Sales, Prize drawing; Use MBAR Vases for tickets; Rene decorations; Plates, napkins, and cutlery covered; Volunteers - Diane, Sydney, May, Conor and several people in chat;</dd>
+            <dd>a. St. Patty Day Sun 3/17: See Attached Flyer in Invite; Phil C. Pool House; Event Time: 4 to 7pm; Setup: 1pm; Speaker: Avail L; Food: Matt R. and Helpers; Raffle: 50/50 and Prizes; Katherine needs help - Ticket Sales, Prize drawing; Use MBAR Vases for tickets; Renee decorations; Plates, napkins, and cutlery covered; Volunteers - Diane, Sydney, May, Conor and several people in chat;</dd>
 
             <dt>T-shirt poll about the style and color of the MBAR t-shirts</dt>
 

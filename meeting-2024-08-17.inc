@@ -36,13 +36,13 @@
                 times ahead!
             </dt>
 
-            <dt>7. Treasurer's Report - Carolyn H.: See budget spreadsheet; Moving forward this will have documents presented w/ the actual figures for your review. As well as items needing to be approved for payment; Balance $37,500; $25,500 Expenses to be paid; $12,000 net - short of planned $16,000 prudent reserve; Not included - meal bundles, 50/50, raffle, and 7th tradition; Is it okay for money coming in to be limited to cash or check or PayPal or Venmo? - Carolyn: prefers not to use Square; Cindy: not much Venmo or PayPal in 2019; 50/50 needs to be cash; If 50/50 uses Venmo there will be more sales; Naomi: Square used for registrations; Per Cindy there were technical issues - motion approved: use Square for registrations only; Cash boxes at each meal event are staffed by event volunteers: Mary Grace at breakfast cash box; Rene at dinner cash box;
+            <dt>7. Treasurer's Report - Carolyn H.: See budget spreadsheet; Moving forward this will have documents presented w/ the actual figures for your review. As well as items needing to be approved for payment; Balance $37,500; $25,500 Expenses to be paid; $12,000 net - short of planned $16,000 prudent reserve; Not included - meal bundles, 50/50, raffle, and 7th tradition; Is it okay for money coming in to be limited to cash or check or PayPal or Venmo? - Carolyn: prefers not to use Square; Cindy: not much Venmo or PayPal in 2019; 50/50 needs to be cash; If 50/50 uses Venmo there will be more sales; Naomi: Square used for registrations; Per Cindy there were technical issues - motion approved: use Square for registrations only; Cash boxes at each meal event are staffed by event volunteers: Mary Grace at breakfast cash box; Renee at dinner cash box;
             </dt>
 
             <dt>8. Registration - Naomi: 222 Complete total - 137 online, 85 paper; Dispersed between fellowships - 158 A.A., 43 Al-Anon, 20 Double, 1 Other; 14 registrations since 8/1/2024; Add-ons - 90 bundles, 111 dinners, 90 breakfast, 105 ice cream, 87 t-shirts; 5 or 6 helping hand requests; Naomi has A.A. and Al-Anon volunteers that will staff registration table; Program complete except Al-Anon readers; Need to update Alateen handout; No input from Robert about Spanish registrations; Tony V. will help with Spanish Speaking registrations; Taking meal registrations up to the day of the event - Aubrey allowing for 10 to 15% over registration count;
             </dt>
 
-            <dt>9. Miscellaneous: Church capacity 130 per contract; Motion approved - Samantha buy markers, dobbers, etc. as needed with possibly 130 people; Rene reach out to Transportation(Trevor): plan for 130 people at meals and may use Nick K. to assist;
+            <dt>9. Miscellaneous: Church capacity 130 per contract; Motion approved - Samantha buy markers, dobbers, etc. as needed with possibly 130 people; Renee reach out to Transportation(Trevor): plan for 130 people at meals and may use Nick K. to assist;
             </dt>
 
             <dt>10. T-shirt - Kevin(Absent): Prices - Ordered 144 total and average cost $13.57 - 87 pre-ordered, 57 to sell at conference, Motion approved: sell t-shirts at conference for $15; Carolyn pickup t-shirts 8/17/2024; Chris has mugs at her house; Committee t-shirts can be picked up at Chris' house - Monday or later: call Chris to coordinate;
@@ -57,7 +57,7 @@
             <dt>13. Signage for Merchandise: Motion approved - sell merchandise on first come, first served basis;
             </dt>
 
-            <dt>14. Merchandise - Kevin: Family emergency - Chris covering; Rene pick up ice cream scoops in Salinas;</dt>
+            <dt>14. Merchandise - Kevin: Family emergency - Chris covering; Renee pick up ice cream scoops in Salinas;</dt>
 
             <dt>15. Seventh Tradition: You can make a 7th Tradition contribution - PayPal at mbartreasurer@gmail.com or by sending a check to - MBAR, PO Box 1462, Monterey, CA 93942; Or Venmo: @MBARoundup24 (<em>Note:</em> Venmo and check go 100% to Treasury, PayPal collects a fee.)
             </dt>
@@ -80,7 +80,7 @@
 
             <dt>24. GSR/IGR - Cole: attending GSR meeting Tuesday;</dt>
 
-            <dt>25. Breakfast - Joanie: Contract with church finalized including Friday night; Rene forward insurance information to Joanie - forward to the church; Revise terminology on website breakfast is not continental; Sean help with A.A. coffee urns; Mary Grace and Chris coordinate cash box - get there by 730am; Jean and Carolyn provide change;</dt>
+            <dt>25. Breakfast - Joanie: Contract with church finalized including Friday night; Renee forward insurance information to Joanie - forward to the church; Revise terminology on website breakfast is not continental; Sean help with A.A. coffee urns; Mary Grace and Chris coordinate cash box - get there by 730am; Jean and Carolyn provide change;</dt>
 
             <dt>26. Fund Raising and Fellowship Events: Coastal Rally - Arthur and Connor;</dt>
 

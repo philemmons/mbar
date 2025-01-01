@@ -72,7 +72,7 @@
 
             <dd>a. Recordatorio: todos los miembros del comité deben estar registrados dentro del próximo mes;</dd>
 
-            <dd>b. Estado sin fines de lucro: los miembros del comité deben anunciar que necesitamos ayuda con esto. Chris se comunicó con Jana para que esto también sea un anuncio de IGR; Moción aprobada: pagar a un profesional para que complete la solicitud sin fines de lucro; Rene y Cindy se ofrecieron como voluntarios para ser el enlace;</dd>
+            <dd>b. Estado sin fines de lucro: los miembros del comité deben anunciar que necesitamos ayuda con esto. Chris se comunicó con Jana para que esto también sea un anuncio de IGR; Moción aprobada: pagar a un profesional para que complete la solicitud sin fines de lucro; Renee y Cindy se ofrecieron como voluntarios para ser el enlace;</dd>
 
             <dt>11. Ideas para recaudar fondos</dt>
 
