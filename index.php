@@ -93,7 +93,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
+                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
                             </p>
                             <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other. "We absolutely insist on enjoying life!"
                             </p>
