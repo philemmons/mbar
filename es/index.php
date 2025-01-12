@@ -89,6 +89,21 @@ include_once 'header-bottom.inc';
     <article aria-label="tarjetas de información">
         <div class="container">
             <div class="row justify-content-center mb-5">
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nueva Página de Instagram
+                            </p>
+                            <p class="card-text"> ¡En vivo! ¡Página oficial de Instagram de MBAR 2026! Esta cuenta <strong>privada<strong> garantiza un espacio seguro y de apoyo para que nuestras comunidades compartan actualizaciones, generen entusiasmo y demuestren la espiritualidad que estamos encontrando entre nosotros.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Abre una nueva ventana)</span>MBAR2026 Instagram</a></small>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -115,20 +130,6 @@ include_once 'header-bottom.inc';
                             <div class="card-footer text-center">
                                 <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Manos Que Ayudan
-                            </p>
-                            <p class="card-text">Eche una 'Mano Amiga' a alguien que quiera asistir a la conferencia pero no pueda permitírselo. El objetivo es garantizar que cualquiera que quiera beneficiarse de la recuperación y el apoyo disponibles en estos eventos pueda participar, independientemente de sus limitaciones financieras. Esto encarna el espíritu de apoyo mutuo y compañerismo central para la misión de A.A.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Manos Que Ayudan</a></small>
                         </div>
                     </div>
                 </div>

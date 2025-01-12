@@ -89,6 +89,21 @@ include_once 'header-bottom.inc';
     <article aria-label="information cards">
         <div class="container">
             <div class="row justify-content-center mb-5">
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
+                            </p>
+                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private<strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Opens a new window)</span>MBAR2026 Instagram</a></small>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -115,20 +130,6 @@ include_once 'header-bottom.inc';
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Helping Hands
-                            </p>
-                            <p class="card-text">Give a 'Helping Hand' for someone who wants to go to the conference but can't afford it. The purpose is to ensure that anyone who wants to benefit from the recovery and support available at these events is able to participate, regardless of financial constraints. This embodies the spirit of mutual support and fellowship central to A.A.'s mission.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="helping_hands.php">Helping Hands</a></small>
                         </div>
                     </div>
                 </div>
