@@ -87,7 +87,7 @@ include_once 'header-bottom.inc';
                             <br>
                             <strong>Password</strong>: 2026
                         </p>
-                        <p><strong>Next Meetings:</strong>2026 MBAR's Steering Committee Elections 01/11/2025, 02/08/2025, and 03/08/2025</p>
+                        <p><strong>Next Meetings:</strong> 2026 MBAR's Steering Committee Elections 01/11/2025, 02/08/2025, and 03/08/2025</p>
                     </div>
                 </div>
             </div>
