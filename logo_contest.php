@@ -71,13 +71,14 @@ include_once 'header-bottom.inc';
     <article aria-label="Contest info">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
+                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Logo Contest">
                             <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Design the Logo for the 2026 MBAR Conference: Keep It Simple</span>
                             </h3>
                             <p class="mb-6 h5 text-dark">Join us in shaping the identity of the 2026 MBAR Conference by designing a vibrant, memorable logo! The design should incorporate no more than three colors, reflecting the spirit of unity, recovery, and hope that define our community. Let your creativity shine as we celebrate the journey together. Submit your logo concept today and be a part of this meaningful event!</p>
-                            <p class="mb-6 h4 text-dark">Email your logo to <?php echo getenv('mbar-chair-email'); ?> </p>
+                            <p class="mb-6 h4 text-dark"> Email your logo to <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">MBAR 2026 Chair</a>.
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -85,8 +86,8 @@ include_once 'header-bottom.inc';
                 <!--<div class="col-sm-12 col-12 text-center px-3 py-4">
                     <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
 -->
-                </div>
             </div>
+        </div>
         </div>
     </article>
 
