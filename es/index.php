@@ -98,7 +98,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Enviar Logotipo</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Comparte tu Logotipo</a></small>
                         </div>
                     </div>
                 </div>

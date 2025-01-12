@@ -98,7 +98,7 @@ include_once 'header-bottom.inc';
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Share Your Logo</a></small>
                         </div>
                     </div>
                 </div>
