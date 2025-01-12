@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Concurso de Logotipos 2026
+                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">Concurso de Logotipos 2026</a>
                             </p>
                             <p class="card-text">¡Únase a nosotros para dar forma a la identidad de la Conferencia MBAR 2026 diseñando un logotipo vibrante y memorable! El diseño no debe incorporar más de tres colores, que reflejen el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos el viaje juntos. Envíe su concepto de logotipo hoy y sea parte de este evento significativo.
                             </p>

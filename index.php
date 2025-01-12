@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2026 Logo Contest
+                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">2026 Logo Contest</a>
                             </p>
                             <p class="card-text">Join us in shaping the identity of the 2026 MBAR Conference by designing a vibrant, memorable logo! The design should incorporate no more than three colors, reflecting the spirit of unity, recovery, and hope that define our community. Let your creativity shine as we celebrate the journey together. Submit your logo concept today and be a part of this meaningful event!
                             </p>
