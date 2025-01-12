@@ -83,11 +83,11 @@ include_once 'header-bottom.inc';
                         <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR memorable.
                         </p>
                         <h4>10:00am for 1.5 hours</h4>
-                        <p><strong>Zoom ID</strong>: 831 4306 2293
+                        <p><strong>Zoom ID</strong>: Coming Soon
                             <br>
-                            <strong>Password</strong>: 2024
+                            <strong>Password</strong>: 2026
                         </p>
-                        <p><strong>Next Meetings:</strong>2026 MBAR's Steering Committee Elections 01/11/2025</p>
+                        <p><strong>Next Meetings:</strong>2026 MBAR's Steering Committee Elections 01/11/2025, 02/08/2025, and 03/08/2025</p>
                     </div>
                 </div>
             </div>

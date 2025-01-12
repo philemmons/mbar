@@ -84,11 +84,11 @@ include_once 'header-bottom.inc';
                         <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Su presencia y sus aportes son importantes y esperamos que MBAR sea memorable.
                         </p>
                         <h4>10:00am durante 1,5 horas</h4>
-                        <p><strong>ID de Zoom</strong>: 831 4306 2293
+                        <p><strong>ID de Zoom</strong>: Coming Soon
                             <br>
-                            <strong>Contraseña</strong>: 2024
+                            <strong>Contraseña</strong>: 2026
                         </p>
-                        <p><strong>Próximas Reuniones:</strong> 2026 Elecciones del Comité Directivo de MBAR 11/01/2025</p>
+                        <p><strong>Próximas Reuniones:</strong> 2026 Elecciones del Comité Directivo de MBAR 11/01/2025, 08/02/2025, y 08/03/2025</p>
                     </div>
                 </div>
             </div>
