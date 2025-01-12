@@ -95,7 +95,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-people-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
                             </p>
-                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other.
+                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other. We absolutely insist on enjoying life!
                             </p>
                         </div>
                         <div class="card-footer text-center">
