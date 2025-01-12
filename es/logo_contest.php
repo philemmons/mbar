@@ -61,43 +61,31 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Cinco logotipos anteriores como nuestro banner.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Ganador y finalistas del Logo Contest 2024.">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Concurso de Logotipos 2024</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">Concurso de Logotipos 2026</h2>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Part One -->
-    <article aria-label="Información del ganador">
+    <article aria-label="Información del Concurso">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Ganador del logo">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Micha C. - Logo D es el ganador del Concurso de Logotipos de MBAR para 2024.</span>
+                        <section aria-label="Concurso de Logotipos">
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Diseñe el logotipo para la Conferencia de MBAR de 2026: Manténgalo Simple</span>
                             </h3>
-                            <p class="mb-6 h5 text-dark">Gran trabajo Micha!</p>
+                            <p class="mb-6 h5 text-dark">¡Únase a nosotros para dar forma a la identidad de la Conferencia de MBAR de 2026 diseñando un logotipo vibrante y memorable! El diseño debe incorporar no más de tres colores, reflejando el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos juntos el viaje. ¡Envíe su concepto de logotipo hoy y sea parte de este evento significativo!</p>
+                            <p class="mb-6 h4 text-dark">Envíe su logotipo por correo electrónico a <?php echo getenv('mbar-chair-email'); ?> </p>
                         </section>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-12 text-center px-3 py-4">
+                <!-- <div class="col-sm-12 col-12 text-center px-3 py-4">
                     <img class="img-fluid" src="../images/logo2024.png" alt="Se presentaron doce logotipos diferentes para 2024 con el tema Mantenlo Simple.">
                 </div>
-            </div>
-        </div>
-
-        <!-- Part Two -->
-        <div class="container shadow-wrap">
-            <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Gratitud">
-                            <h3 class="mb-6 h4 text-dark">Gracias a todos los que participaron y realmente apreciamos su creatividad.</h3>
-                            <p class="h5">Esperamos que hayas disfrutado de este concurso tanto como nosotros.</p>
-                        </section>
-                    </div>
-                </div>
+-->
             </div>
         </div>
     </article>
