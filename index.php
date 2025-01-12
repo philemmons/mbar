@@ -65,13 +65,13 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">2026 Elections: Steering Committee and Chairs
                     </p>
                     <p class="text-dark">
-                        <strong>01/11/2025 at 10am</strong>
+                        <strong>02/08/2025 at 10am</strong>
                         <br>
-                        <strong>Zoom ID:</strong> 831 4306 2293
+                        <strong>Zoom ID:</strong> Coming Soon
                         <br>
-                        <strong>Password:</strong> 2024
+                        <strong>Password:</strong> 2026
                         <br>
-                        <strong class="h3">All positions are available!</strong>
+                        <strong class="h3">Positions are available!</strong>
                         <br>
                         Make a difference in our fellowship by being part of the planning that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
                         <br><br>
@@ -92,20 +92,19 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Heartfelt Thank You
+                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2026 Logo Contest
                             </p>
-                            <p class="card-text">On behalf of everyone in our A.A. and Al-Anon communities, we want to extend our deepest gratitude to all the volunteers who made this event possible. Your dedication, compassion, and hard work have created a space for recovery, support, and connection. Whether you were setting up, organizing, or simply offering a kind word, your efforts did not go unnoticed, and they reflect the true spirit of fellowship. We couldn't have done this without you, and for that, we are immensely grateful. Thank you for giving your time, energy, and heart to this important event.
+                            <p class="card-text">Join us in shaping the identity of the 2026 MBAR Conference by designing a vibrant, memorable logo! The design should incorporate no more than three colors, reflecting the spirit of unity, recovery, and hope that define our community. Let your creativity shine as we celebrate the journey together. Submit your logo concept today and be a part of this meaningful event!
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo</a></small>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
-
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitude and Reflection</a>
                             </p>
@@ -113,6 +112,9 @@ include_once 'header-bottom.inc';
                                 <br><br>
                                 As we return to our daily lives, let's reflect on the lessons and insights we shared and continue carrying the message of recovery to those in need. Stay connected, keep coming back, and we look forward to seeing you at future gatherings!
                             </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
                         </div>
                     </div>
                 </div>

@@ -67,11 +67,11 @@ include_once 'header-bottom.inc';
                     <p class="text-dark">
                         <strong>01/11/2025 a las 10am</strong>
                         <br>
-                        <strong>ID de Zoom:</strong> 831 4306 2293
+                        <strong>ID de Zoom:</strong> Muy Pronto
                         <br>
-                        <strong>Contraseña:</strong> 2024
+                        <strong>Contraseña:</strong> 2026
                         <br>
-                        <strong class="h3">¡Todos los puestos están disponibles!</strong>
+                        <strong class="h3">¡Hay Puestos Disponibles!</strong>
                         <br>
                         Marque la diferencia en nuestra comunidad siendo parte de la planificación que da vida a la convención. El servicio es una forma poderosa de retribuir, practicar la espiritualidad y crecer juntos. Ya sea organizando, apoyando o simplemente asistiendo, su participación ayuda a crear una experiencia significativa e inspiradora para todos. ¡Trabajemos juntos para llevar el mensaje de recuperación con amor y propósito!
                         <br><br>
@@ -92,13 +92,13 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Sentido del Corazón Gracias
+                            <p class="card-title h6"><i class="bi bi-heart-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Concurso de Logotipos 2026
                             </p>
-                            <p class="card-text">En nombre de todos los miembros de nuestras comunidades de A.A. y Al-Anon, queremos expresar nuestro más profundo agradecimiento a todos los voluntarios que hicieron posible este evento. Su dedicación, compasión y arduo trabajo han creado un espacio para la recuperación, el apoyo y la conexión. Ya sea que estuvieran organizando o simplemente ofreciendo una palabra amable, sus esfuerzos no pasaron desapercibidos y reflejan el verdadero espíritu de compañerismo. No podríamos haberlo hecho sin ustedes y, por eso, estamos inmensamente agradecidos. Gracias por dar su tiempo, energía y corazón a este importante evento.
+                            <p class="card-text">¡Únase a nosotros para dar forma a la identidad de la Conferencia MBAR 2026 diseñando un logotipo vibrante y memorable! El diseño no debe incorporar más de tres colores, que reflejen el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos el viaje juntos. Envíe su concepto de logotipo hoy y sea parte de este evento significativo.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Enviar Logotipo</a></small>
                         </div>
                     </div>
                 </div>
@@ -112,6 +112,9 @@ include_once 'header-bottom.inc';
                                 <br><br>
                                 Al regresar a nuestra vida diaria, reflexionemos sobre las lecciones y los conocimientos que compartimos y sigamos llevando el mensaje de recuperación a quienes lo necesitan. ¡Manténgase conectado, siga viniendo y esperamos verlo en futuras reuniones!
                             </p>
+                            <div class="card-footer text-center">
+                                <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,7 +208,7 @@ include_once 'header-bottom.inc';
                             </p>
                             <p class="card-text">A lo largo de los años, Monterey Bay Area Roundup ha crecido hasta incluir una variedad de actividades que apoyan el crecimiento personal y espiritual, entre ellas:
                             </p>
-                            
+
                             <ul>
                                 <li><strong>Reuniones de oradores</strong>: En estas sesiones, a menudo participan miembros de A.A. o Al-Anon que comparten sus historias de experiencia, fortaleza y esperanza.
                                 </li>
@@ -216,7 +219,7 @@ include_once 'header-bottom.inc';
                                 <li><strong>Voluntariado y servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. y Al-Anon como un elemento clave de la recuperación.
                                 </li>
                             </ul>
-                            
+
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Ver 2024 Actividades</a></small>
