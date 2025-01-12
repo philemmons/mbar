@@ -74,7 +74,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Concurso de Logotipos">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Diseñe el logotipo para la Conferencia de MBAR de 2026;
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Diseñe el logotipo para la Conferencia de MBAR de 2026:
                                     <br>Manténgalo Simple</span>
                             </h3>
                             <p class="mb-6 h5 text-dark">¡Únase a nosotros para dar forma a la identidad de la Conferencia de MBAR de 2026 diseñando un logotipo vibrante y memorable! El diseño debe incorporar no más de tres colores, reflejando el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos juntos el viaje. ¡Envíe su concepto de logotipo hoy y sea parte de este evento significativo!</p>
