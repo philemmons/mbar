@@ -84,13 +84,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="Comité Directivo de A.A.">
                         <h3 class="fw-bold">Comité Directivo de A.A.</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
-                            <caption class="small" id="tableOne">Comité directivo de A.A: la primera fila consta de cuatro columnas que son Roles, 2019, 2022 y 2024. La primera columna tiene cinco filas que tienen roles MBAR específicos. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre del miembro.</caption>
+                            <caption class="small" id="tableOne">Comité directivo de A.A: la primera fila consta de cinco columnas que son Roles, 2019, 2022, 2024 y 2026. La primera columna tiene cinco filas que tienen roles MBAR específicos. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre del miembro.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -100,30 +101,35 @@ include_once 'header-bottom.inc';
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
                                     <td>Chris T.</td>
+                                    <td>Jennifer G.</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Copresidente de AA</th>
                                     <td>--</td>
                                     <td>Phil C. </td>
                                     <td>Renee C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Tesorero da A.A.</th>
                                     <td>Cindy A.</td>
                                     <td>Daylene A.</td>
                                     <td>Carolyn H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Co-Tesorero de A.A.</th>
                                     <td>Cindy A.</td>
                                     <td>Mona S.</td>
                                     <td>Jean T.</td>
+                                    <td>Katherine J.</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Secretario de Grabación de A.A.</th>
                                     <td>Andy V.</td>
                                     <td>Andy V.</td>
                                     <td>Roger M.</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -132,13 +138,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="Comité Directivo de Al-Anon">
                         <h3 class="fw-bold">Comité Directivo de Al-Anon</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
-                            <caption class="small" id="tableTwo">Comité Directivo de Al-Anon: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 12 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
+                            <caption class="small" id="tableTwo">Comité Directivo de Al-Anon: la primera fila consta de cinco columnas que son Funciones, 2019, 2022, 2024 y 2026. La primera columna tiene 12 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -148,72 +155,84 @@ include_once 'header-bottom.inc';
                                     <td>Thomas L.</td>
                                     <td>Sidney A.R.</td>
                                     <td>Jane H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Presidente de las Reuniones de Al-Anon</th>
                                     <td>Donna F.</td>
                                     <td>--</td>
                                     <td>Olya O.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Copresidente de Alateen</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Concetta C./ Marge S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Silla de Desayuno</th>
                                     <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Copresidente de Recaudación de Fondos de Al-Anon</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Literatura de Al-Anon</th>
                                     <td>--</td>
                                     <td>Dawn C.</td>
                                     <td>Ashley</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Presidente de Registro de Al-Anon</th>
                                     <td>Debbie O.</td>
                                     <td>--</td>
                                     <td>Kathy P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Secretario de Al-Anon</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Dawn C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Coordinador de Español Al-Anon</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Yuliana</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Copresidente del Orador de Al-Anon</th>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                     <td>Susan A. / Su C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Asistente Tecnológico de Al-Anon</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Julie H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Tesorero de Al-Anon</th>
                                     <td>--</td>
                                     <td>Thomas L.</td>
                                     <td>Thomas L.</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -222,13 +241,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="Presidentes de comités">
                         <h3 class="fw-bold">Presidentes de comités</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cuatro columnas que son Funciones, 2019, 2022 y 2024. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
+                            <caption class="small" id="tableThree">Presidentes de comités: la primera fila consta de cinco columnas que son Funciones, 2019, 2022, 2024 y 2026. La primera columna tiene 29 filas que tienen funciones MBAR específicas. Haga una referencia cruzada de la fila del año con la columna de función específica para el nombre de los miembros. Puede haber más de un nombre por rol.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -238,11 +258,13 @@ include_once 'header-bottom.inc';
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de la Barbacoa</th>
                                     <td>Joanie</td>
                                     <td>--</td>
+                                    <td>Matt R.</td>
                                     <td>Matt R.</td>
                                 </tr>
                                 <tr class="table-primary">
@@ -250,149 +272,174 @@ include_once 'header-bottom.inc';
                                     <td>Joanie D.</td>
                                     <td>Renee N.</td>
                                     <td>Joanie D.</td>
+                                    <td>Chris H.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Baile</th>
                                     <td>--</td>
                                     <td>Chris T.</td>
                                     <td>Samantha C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Decoraciones</th>
                                     <td>Hilda P.</td>
                                     <td>Hilda P.</td>
                                     <td>Jennifer G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de la Cena</th>
                                     <td>Joanie D.</td>
                                     <td>Aubrey G.</td>
                                     <td>Aubrey G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Eventos</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>Samantha C.</td>
+                                    <td>Sara R.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Instalaciones</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
                                     <td>Mark F.</td>
+                                    <td>Renee C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Recaudación de Fondos</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Enlace de G.S.R.</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
                                     <td>Cole</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Enlace de H&amp;I</th>
                                     <td>Michael R.</td>
                                     <td>Michael R.</td>
                                     <td>Mari W.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Hospitalidad</th>
                                     <td>Phil C.</td>
                                     <td>--</td>
                                     <td>Jennifer G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Anfitriona</th>
                                     <td>Phil C.</td>
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
+                                    <td>Chris T.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Social de Helados</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
                                     <td>Rick D.</td>
+                                    <td>Chris H.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidenta de Literatura</th>
                                     <td>Monica P.</td>
                                     <td>May H.</td>
                                     <td>May H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidenta de Reuniones de Maratón</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Mercancía</th>
                                     <td>May H.</td>
                                     <td>May H.</td>
                                     <td>Kevin P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Organizaciones sin Fines de Lucro</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Difusión</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Rifas</th>
                                     <td>Esther F.</td>
                                     <td>Katherine J.</td>
                                     <td>Katherine J.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Servicio de Transporte</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
                                     <td>Nick K. / Trevor F.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Redes Sociales</th>
                                     <td>--</td>
                                     <td>Chris T. / Victoria M.</td>
                                     <td>Gina H. / Sean B.</td>
+                                    <td>Kathleen S.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Comunidad Hispana</th>
                                     <td>--</td>
                                     <td>Eric M.</td>
                                     <td>Robert</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Grupo de Oradores</th>
                                     <td>Brady S.</td>
                                     <td>Mark B.</td>
                                     <td>Kathleen S.</td>
+                                    <td>Carolyn H. / Conor</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Grupo de Oradores (Al-Anon)</th>
                                     <td>--</td>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Grupo de Remeras</th>
                                     <td>---.</td>
                                     <td>Charly F.</td>
                                     <td>Kevin P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente del Sitio Web</th>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td>Phillip E.</td>
                                     <td>Phillip E.</td>
                                 </tr>
                                 <tr class="table-primary">
@@ -400,12 +447,14 @@ include_once 'header-bottom.inc';
                                     <td>---</td>
                                     <td>Arthur T.</td>
                                     <td>Arthur T.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de los Jóvenes</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>

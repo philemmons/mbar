@@ -85,13 +85,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="A.A. Steering Committee">
                         <h3 class="fw-bold">A.A. Steering Committee</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableOne">
-                            <caption class="small" id="tableOne">A.A steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has five rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name.</caption>
+                            <caption class="small" id="tableOne">A.A steering committee - The first row consist of five columns which are Roles, 2019, 2022, 2024, and 2026. The first column has five rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -101,30 +102,35 @@ include_once 'header-bottom.inc';
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
                                     <td>Chris T.</td>
+                                    <td>Jennifer G.</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">A.A. Co-Chair</th>
                                     <td>--</td>
                                     <td>Phil C. </td>
                                     <td>Renee C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">A.A. Treasurer</th>
                                     <td>Cindy A.</td>
                                     <td>Daylene A.</td>
                                     <td>Carolyn H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">A.A. Co-Treasurer</th>
                                     <td>Cindy A.</td>
                                     <td>Mona S.</td>
                                     <td>Jean T.</td>
+                                    <td>Katherine J.</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">A.A. Recording Secretary</th>
                                     <td>Andy V.</td>
                                     <td>Andy V.</td>
                                     <td>Roger M.</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -133,13 +139,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="Al-Anon Steering Committee">
                         <h3 class="fw-bold">Al-Anon Steering Committee</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableTwo">
-                            <caption class="small" id="tableTwo">Al-Anon steering committee - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 12 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
+                            <caption class="small" id="tableTwo">Al-Anon steering committee - The first row consist of five columns which are Roles, 2019, 2022, 2024, and 2026. The first column has 12 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -149,72 +156,84 @@ include_once 'header-bottom.inc';
                                     <td>Thomas L.</td>
                                     <td>Sidney A.R.</td>
                                     <td>Jane H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Meetings Chair</th>
                                     <td>Donna F.</td>
                                     <td>--</td>
                                     <td>Olya O.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Alateen Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Concetta C./ Marge S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Breakfast Chair</th>
                                     <td>Joanie D.</td>
                                     <td>--</td>
                                     <td>Joanie D.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Fundraising Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Rachel G. / Amorina S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Literature</th>
                                     <td>--</td>
                                     <td>Dawn C.</td>
                                     <td>Ashley</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Registration Chair</th>
                                     <td>Debbie O.</td>
                                     <td>--</td>
                                     <td>Kathy P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Secretary</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Dawn C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Spanish Coordinator</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Yuliana</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Speaker Chair</th>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
                                     <td>Susan A. / Su C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Tech Wizard</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>Julie H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-warning">
                                     <th scope="row">Al-Anon Treasurer</th>
                                     <td>--</td>
                                     <td>Thomas L.</td>
                                     <td>Thomas L.</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -223,13 +242,14 @@ include_once 'header-bottom.inc';
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of four columns which are Roles, 2019, 2022, and 2024. The first column has 29 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
+                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of five columns which are Roles, 2019, 2022, 2024, and 2026. The first column has 29 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
                                     <th scope="col" class="col-2">2019</th>
                                     <th scope="col" class="col-2">2022</th>
                                     <th scope="col" class="col-2">2024</th>
+                                    <th scope="col" class="col-2">2026</th>
                                 </tr>
                             </thead>
 
@@ -239,11 +259,13 @@ include_once 'header-bottom.inc';
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
                                     <td>Naomi B.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">BBQ Chair</th>
                                     <td>Joanie</td>
                                     <td>--</td>
+                                    <td>Matt R.</td>
                                     <td>Matt R.</td>
                                 </tr>
                                 <tr class="table-primary">
@@ -251,149 +273,174 @@ include_once 'header-bottom.inc';
                                     <td>Joanie D.</td>
                                     <td>Renee N.</td>
                                     <td>Joanie D.</td>
+                                    <td>Chris H.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Dance Chair</th>
                                     <td>--</td>
                                     <td>Chris T.</td>
                                     <td>Samantha C.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Decorations Chair</th>
                                     <td>Hilda P.</td>
                                     <td>Hilda P.</td>
                                     <td>Jennifer G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Dinner Chair</th>
                                     <td>Joanie D.</td>
                                     <td>Aubrey G.</td>
                                     <td>Aubrey G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Events Chair</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>Samantha C.</td>
+                                    <td>Sara R.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Facilities Chair</th>
                                     <td>Nick K.</td>
                                     <td>Billy H.</td>
                                     <td>Mark F.</td>
+                                    <td>Renee C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Fundraising Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td>Samantha C.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">G.S.R. Liaison</th>
                                     <td>Teresa J.</td>
                                     <td>--</td>
                                     <td>Cole</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">H&amp;I Liaison</th>
                                     <td>Michael R.</td>
                                     <td>Michael R.</td>
                                     <td>Mari W.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Hospitality</th>
                                     <td>Phil C.</td>
                                     <td>--</td>
                                     <td>Jennifer G.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Host</th>
                                     <td>Phil C.</td>
                                     <td>May H.</td>
                                     <td>Cindy A.</td>
+                                    <td>Chris T.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Ice Cream Social</th>
                                     <td>Joanie D.</td>
                                     <td>Joanie D.</td>
                                     <td>Rick D.</td>
+                                    <td>Chris H.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Literature Chair</th>
                                     <td>Monica P.</td>
                                     <td>May H.</td>
                                     <td>May H.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Marathon Meetings Chair</th>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
                                     <td>Mark S.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Merchandise Chair</th>
                                     <td>May H.</td>
                                     <td>May H.</td>
                                     <td>Kevin P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Non Profit Chair</th>
                                     <td>--</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Outreach Chair</th>
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Raffle Chair</th>
                                     <td>Esther F.</td>
                                     <td>Katherine J.</td>
                                     <td>Katherine J.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Shuttle Service Chair</th>
                                     <td>Chuck N.</td>
                                     <td>Chuck N.</td>
                                     <td>Nick K. / Trevor F.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Social Media Chair</th>
                                     <td>--</td>
                                     <td>Chris T. / Victoria M.</td>
                                     <td>Gina H. / Sean B.</td>
+                                    <td>Kathleen S.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Spanish Community</th>
                                     <td>--</td>
                                     <td>Eric M.</td>
                                     <td>Robert</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Speaker Chair</th>
                                     <td>Brady S.</td>
                                     <td>Mark B.</td>
                                     <td>Kathleen S.</td>
+                                    <td>Carolyn H. / Conor</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Speaker Chair (Al-Anon)</th>
                                     <td>--</td>
                                     <td>Susan A.</td>
                                     <td>Susan A.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">T-shirts Chair</th>
                                     <td>---.</td>
                                     <td>Charly F.</td>
                                     <td>Kevin P.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Website Chair</th>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td>Phillip E.</td>
                                     <td>Phillip E.</td>
                                 </tr>
                                 <tr class="table-primary">
@@ -401,12 +448,14 @@ include_once 'header-bottom.inc';
                                     <td>---</td>
                                     <td>Arthur T.</td>
                                     <td>Arthur T.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Young People Chair</th>
                                     <td>Samantha C.</td>
                                     <td>--</td>
                                     <td>--</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
