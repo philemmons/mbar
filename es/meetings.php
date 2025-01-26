@@ -84,7 +84,7 @@ include_once 'header-bottom.inc';
                         <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Su presencia y sus aportes son importantes y esperamos que MBAR sea memorable.
                         </p>
                         <h4>10:00am durante 1,5 horas</h4>
-                        <p><strong>ID de Zoom</strong>: Coming Soon
+                        <p><strong>ID de Zoom</strong>: 330 100 7207
                             <br>
                             <strong>Contraseña</strong>: 2026
                         </p>

@@ -65,15 +65,15 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">Elecciones 2026: Comité Directivo y Presidentes
                     </P>
                     <p class="text-dark">
-                        <strong>01/11/2025 a las 10am</strong>
+                        <strong>08/02/2025 a las 10 am</strong>
                         <br>
-                        <strong>ID de Zoom:</strong> Muy Pronto
+                        <strong>*NUEVO* ID de Zoom:</strong> 330 100 7207
                         <br>
                         <strong>Contraseña:</strong> 2026
                         <br>
-                        <strong class="h3">¡Hay Puestos Disponibles!</strong>
+                        <strong class="h3">Puestos vacantes en el comité</strong>
                         <br>
-                        Marque la diferencia en nuestra comunidad siendo parte de la planificación que da vida a la convención. El servicio es una forma poderosa de retribuir, practicar la espiritualidad y crecer juntos. Ya sea organizando, apoyando o simplemente asistiendo, su participación ayuda a crear una experiencia significativa e inspiradora para todos. ¡Trabajemos juntos para llevar el mensaje de recuperación con amor y propósito!
+                        ¡Únase a nuestra reunión de negocios, el 8 de Febrero a las 10 am, para conocer las responsabilidades de los puestos enumerados! Difusión, Copresidente de Difusión, Tesorero, Secretario, Hospitalidad, Copresidente de Medios Sociales, Enlace de GSR/IGR, Enlace de H&I, Premio de la rifa, Rifa 50/50, Registro y más.
                         <br><br>
                         Nota: Solo el Comité Directivo tiene los requisitos descritos en el PDF a continuación.
                     </p>

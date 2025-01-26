@@ -83,7 +83,7 @@ include_once 'header-bottom.inc';
                         <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR memorable.
                         </p>
                         <h4>10:00am for 1.5 hours</h4>
-                        <p><strong>Zoom ID</strong>: Coming Soon
+                        <p><strong>Zoom ID</strong>: 330 100 7207
                             <br>
                             <strong>Password</strong>: 2026
                         </p>

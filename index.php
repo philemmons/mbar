@@ -67,13 +67,13 @@ include_once 'header-bottom.inc';
                     <p class="text-dark">
                         <strong>02/08/2025 at 10am</strong>
                         <br>
-                        <strong>Zoom ID:</strong> Coming Soon
+                        <strong>*NEW* Zoom ID:</strong> 330 100 7207
                         <br>
                         <strong>Password:</strong> 2026
                         <br>
-                        <strong class="h3">Positions are available!</strong>
+                        <strong class="h3">Open Committee Positions</strong>
                         <br>
-                        Make a difference in our fellowship by being part of the planning that brings the convention to life. Service is a powerful way to give back, practice spirituality, and grow together. Whether organizing, supporting, or simply showing up, your involvement helps create a meaningful and inspiring experience for all. Let's work together to carry the message of recovery with love and purpose!
+                        Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Socail Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
