@@ -74,16 +74,22 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Logo Contest">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">The MBAR Logo Content is here! Below are the requirements for submission:</span>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">The MBAR Logo Content is here!
+                                    <br>
+                                    Below are the requirements for submission:</span>
                             </h3>
                             <p class="mb-6 h5 text-dark">
                                 Submit your design and artwork for consideration to the MBAR Committee
                                 <br><br>
-                                Each entry should include the the conference theme, "Keep It Simple", and the year, "2026"
+                                Each entry should include the the conference theme "Keep It Simple"
+                                <br>
+                                and the year, "2026"
                                 <br><br>
                                 Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo
                                 <br><br>
-                                The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> Don't miss out on the Fun and Fellowship!
+                                The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> 
+                                <br>
+                                Don't miss out on the Fun and Fellowship!
                                 <br><br>
                                 <span class="text-uppercase fw-bold">Submit Entries by 05/04/25</span>
                                 <br><br>
