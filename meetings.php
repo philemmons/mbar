@@ -78,16 +78,16 @@ include_once 'header-bottom.inc';
                 <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Monthly meeting schedule">
-                            <h3 class="card-title mb-3 px-sm-3">You're invited you to join us!</h3>
+                            <h3 class="card-title mb-3 px-sm-3">Open Committee Positions</h3>
                         </section>
-                        <p>We focus on collaboration, support, and shared progress. Your presence and input matter, and we look forward to making MBAR memorable.
+                        <p>Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
                         </p>
                         <h4>10:00am for 1.5 hours</h4>
                         <p><strong>Zoom ID</strong>: 330 100 7207
                             <br>
                             <strong>Password</strong>: 2026
                         </p>
-                        <p><strong>Next Meetings:</strong> 2026 MBAR's Steering Committee Elections 01/11/2025, 02/08/2025, and 03/08/2025</p>
+                        <p><strong>Next Meetings:</strong> 2026 MBAR's Committee Elections 02/08/2025, and 03/08/2025</p>
                     </div>
                 </div>
             </div>

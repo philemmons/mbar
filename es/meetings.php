@@ -79,16 +79,16 @@ include_once 'header-bottom.inc';
                 <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Programa de reuniones mensuales">
-                            <h3 class="card-title mb-3 px-sm-3">¡Estás invitado a unirte a nosotros!</h3>
+                            <h3 class="card-title mb-3 px-sm-3">Puestos vacantes en el comité</h3>
                         </section>
-                        <p>Nos centramos en la colaboración, el apoyo y el progreso compartido. Su presencia y sus aportes son importantes y esperamos que MBAR sea memorable.
+                        <p>¡Únase a nuestra reunión de negocios, el 8 de febrero a las 10 am, para conocer las responsabilidades de los puestos enumerados! Difusión, Copresidente de Difusión, Tesorero, Secretario, Hospitalidad, Copresidente de Redes Sociales, Enlace GSR/IGR, Enlace H&I, Premio de la rifa, Rifa 50/50, Registro y más!
                         </p>
-                        <h4>10:00am durante 1,5 horas</h4>
+                        <h4>10:00 a. m. durante 1,5 horas</h4>
                         <p><strong>ID de Zoom</strong>: 330 100 7207
                             <br>
                             <strong>Contraseña</strong>: 2026
                         </p>
-                        <p><strong>Próximas Reuniones:</strong> 2026 Elecciones del Comité Directivo de MBAR 11/01/2025, 08/02/2025, y 08/03/2025</p>
+                        <p><strong>Próximas reuniones:</strong> Elecciones del Comité de MBAR 2026 08/02/2025 y 08/03/2025</p>
                     </div>
                 </div>
             </div>

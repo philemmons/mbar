@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong class="h3">Open Committee Positions</strong>
                         <br>
-                        Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Socail Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
+                        Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
