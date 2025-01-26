@@ -117,9 +117,9 @@ include_once 'header-bottom.inc';
 
 							<li class="lpage"><a href="https://montereybayarearoundup.org/committees.php" title="MBAR - Committees ">MBAR - Committees </a></li>
 
-							<li class="lpage"><a href="https://montereybayarearoundup.org/upcoming_event.php" title="MBAR - Upcoming Events ">MBAR - Upcoming Events </a></li>
-
 							<li class="lpage"><a href="https://montereybayarearoundup.org/logo_contest.php" title="MBAR - Logo Contest ">MBAR - Logo Contest </a></li>
+
+							<li class="lpage"><a href="https://montereybayarearoundup.org/upcoming_event.php" title="MBAR - Upcoming Events ">MBAR - Upcoming Events </a></li>
 
 							<li class="lpage"><a href="https://montereybayarearoundup.org/contact.php" title="MBAR - Contact Us ">MBAR - Contact Us </a></li>
 
@@ -228,9 +228,9 @@ include_once 'header-bottom.inc';
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/committees.php" title="MBAR - Comités ">MBAR - Comités </a></li>
 
-									<li class="lpage"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" title="MBAR - Próximos Eventos ">MBAR - Próximos Eventos </a></li>
-
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/logo_contest.php" title="MBAR - Concurso de Logotipos ">MBAR - Concurso de Logotipos </a></li>
+
+									<li class="lpage"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" title="MBAR - Próximos Eventos ">MBAR - Próximos Eventos </a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/contact.php" title="MBAR - Contacto ">MBAR - Contacto </a></li>
 
