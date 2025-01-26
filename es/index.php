@@ -62,7 +62,7 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Resumen del Área de la Bahía de Monterey</h2>
-                    <p class="h3 text-dark">Elecciones 2026: Comité Directivo y Presidentes
+                    <p class="h3 text-dark">Puestos Vacantes en el Comité
                     </P>
                     <p class="text-dark">
                         <strong>08/02/2025 a las 10 am</strong>
@@ -70,9 +70,7 @@ include_once 'header-bottom.inc';
                         <strong>*NUEVO* ID de Zoom:</strong> 330 100 7207
                         <br>
                         <strong>Contraseña:</strong> 2026
-                        <br>
-                        <strong class="h3">Puestos vacantes en el comité</strong>
-                        <br>
+                        <br><br>
                         ¡Únase a nuestra reunión de negocios, el 8 de Febrero a las 10 am, para conocer las responsabilidades de los puestos enumerados! Difusión, Copresidente de Difusión, Tesorero, Secretario, Hospitalidad, Copresidente de Medios Sociales, Enlace de GSR/IGR, Enlace de H&I, Premio de la rifa, Rifa 50/50, Registro y más.
                         <br><br>
                         Nota: Solo el Comité Directivo tiene los requisitos descritos en el PDF a continuación.

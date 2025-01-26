@@ -62,7 +62,7 @@ include_once 'header-bottom.inc';
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border">
                     <h2 class="display-6 fw-bold px-3 px-md-0">Monterey Bay Area Roundup</h2>
-                    <p class="h3 text-dark">2026 Elections: Steering Committee and Chairs
+                    <p class="h3 text-dark">Open Committee Positions
                     </p>
                     <p class="text-dark">
                         <strong>02/08/2025 at 10am</strong>
@@ -70,9 +70,7 @@ include_once 'header-bottom.inc';
                         <strong>*NEW* Zoom ID:</strong> 330 100 7207
                         <br>
                         <strong>Password:</strong> 2026
-                        <br>
-                        <strong class="h3">Open Committee Positions</strong>
-                        <br>
+                        <br><br>
                         Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
