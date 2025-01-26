@@ -108,7 +108,7 @@ include_once 'header-bottom.inc';
                             <p class="card-text">The MBAR Logo Content is here! Below are the requirements for submission:
                             <ul>
                                 <li>Submit your design and artwork for consideration to the MBAR Committee</li>
-                                <li>Each entry should include the the conference theme, "Keep It Simple", and the year, "2026"</li>
+                                <li>Each entry should include the conference theme, "Keep It Simple", and the year, "2026"</li>
                                 <li> Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo</li>
                                 <li>The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">T-Shirt</span> -  Don't miss out on the Fun and Fellowship!</li>
                                 <li class="text-uppercase fw-bold">Submit Entries by 05/04/25</li>
