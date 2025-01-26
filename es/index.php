@@ -109,7 +109,7 @@ include_once 'header-bottom.inc';
                             <ul>
                                 <li>Envíe su diseño y obra de arte para que el Comité MBAR lo considere</li>
                                 <li>Cada propuesta debe incluir el tema de la conferencia, "Keep It Simple" (Manténgalo simple), y el año, "2026"</li>
-                                <li>Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2' x 2'</li>
+                                <li>Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2" x 2"</li>
                                 <li>La propuesta del artista ganador recibirá una <span class="text-uppercase fw-bold">inscripción gratuita</span> a la conferencia y una <span class="text-uppercase fw-bold">camiseta</span>. ¡No se pierda la diversión y la camaradería!</li>
                                 <li class="text-uppercase fw-bold">Envíe las propuestas antes del 04/05/25</li>
                                 <li>El ganador se anunciará en la reunión del cumpleaños de junio, el 28/06/25</li>
