@@ -73,12 +73,25 @@ include_once 'header-bottom.inc';
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
-                        <section aria-label="Concurso de Logotipos">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Diseñe el logotipo para la Conferencia de MBAR de 2026:
-                                    <br>Manténgalo Simple</span>
+                        <section aria-label="Concurso de logotipos">
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">¡El contenido del logotipo de MBAR ya está aquí! A continuación se detallan los requisitos para la presentación:</span>
                             </h3>
-                            <p class="mb-6 h5 text-dark">¡Únase a nosotros para dar forma a la identidad de la Conferencia de MBAR de 2026 diseñando un logotipo vibrante y memorable! El diseño debe incorporar no más de tres colores, reflejando el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos juntos el viaje. ¡Envíe su concepto de logotipo hoy y sea parte de este evento significativo!</p>
-                            <p class="mb-6 h4 text-dark"> Envíe su logotipo por correo electrónico a <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de MBAR 2026</a>.
+                            <p class="mb-6 h5 text-dark">
+                                Envíe su diseño y obra de arte para que el Comité de MBAR lo considere
+                                <br><br>
+                                Cada propuesta debe incluir el tema de la conferencia, "Keep It Simple" (Manténgalo simple), y el año, "2026"
+                                <br><br>
+                                Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2' x 2'
+                                <br><br>
+                                La propuesta del artista ganador recibirá una <span class="text-uppercase fw-bold">inscripción gratuita</span> a la conferencia y una <span class="text-uppercase fw-bold">camiseta</span> ¡No se pierda la diversión y la camaradería!
+                                <br><br>
+                                <span class="text-uppercase fw-bold">Envíe sus propuestas antes del 04/05/25</span>
+                                <br><br>
+                                El ganador se anunciará en la reunión del cumpleaños de Junio
+                                <br>
+                                28/06/25
+                            </p>
+                            <p class="mb-6 h4 text-dark">Envíe su Logotipo y Preguntas: <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente del MBAR 2026</a>.
                             </p>
                         </section>
                     </div>

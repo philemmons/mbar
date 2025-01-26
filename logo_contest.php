@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
         <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-logoContest" title="Five past logo's as our banner.">
             <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Logo Contest 2024 winner and runner-ups.">
-                    <h2 class="display-6 fw-bold px-3 px-md-0">Logo Contest 2026</h2>
+                    <h2 class="display-6 fw-bold px-3 px-md-0">MBAR 2026 Logo Contest</h2>
                 </div>
             </div>
         </div>
@@ -74,11 +74,24 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Logo Contest">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">Design the Logo for the 2026 MBAR Conference:
-                                    <br>Keep It Simple</span>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">The MBAR Logo Content is here! Below are the requirements for submission:</span>
                             </h3>
-                            <p class="mb-6 h5 text-dark">Join us in shaping the identity of the 2026 MBAR Conference by designing a vibrant, memorable logo! The design should incorporate no more than three colors, reflecting the spirit of unity, recovery, and hope that define our community. Let your creativity shine as we celebrate the journey together. Submit your logo concept today and be a part of this meaningful event!</p>
-                            <p class="mb-6 h4 text-dark"> Email your logo to <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">MBAR 2026 Chair</a>.
+                            <p class="mb-6 h5 text-dark">
+                                Submit your design and artwork for consideration to the MBAR Committee
+                                <br><br>
+                                Each entry should include the the conference theme, "Keep It Simple", and the year, "2026"
+                                <br><br>
+                                Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo
+                                <br><br>
+                                The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> Don't miss out on the Fun and Fellowship!
+                                <br><br>
+                                <span class="text-uppercase fw-bold">Submit Entries by 05/04/25</span>
+                                <br><br>
+                                Winner will be announced at the June B-Day meeting
+                                <br>
+                                06/28/25
+                            </p>
+                            <p class="mb-6 h4 text-dark">Submit Logo and Questions: <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">MBAR 2026 Chair</a>.
                             </p>
                         </section>
                     </div>
