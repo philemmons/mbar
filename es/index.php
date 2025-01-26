@@ -103,13 +103,21 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">Concurso de Logotipos 2026</a>
+                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">Concurso de logotipos 2026</a>
                             </p>
-                            <p class="card-text">¡Únase a nosotros para dar forma a la identidad de la Conferencia MBAR 2026 diseñando un logotipo vibrante y memorable! El diseño no debe incorporar más de tres colores, que reflejen el espíritu de unidad, recuperación y esperanza que definen a nuestra comunidad. Deje que su creatividad brille mientras celebramos el viaje juntos. Envíe su concepto de logotipo hoy y sea parte de este evento significativo.
+                            <p class="card-text">¡El contenido del logotipo de MBAR ya está aquí! A continuación se indican los requisitos para la presentación:
+                            <ul>
+                                <li>Envíe su diseño y obra de arte para que el Comité MBAR lo considere</li>
+                                <li>Cada propuesta debe incluir el tema de la conferencia, "Keep It Simple" (Manténgalo simple), y el año, "2026"</li>
+                                <li>Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2' x 2'</li>
+                                <li>La propuesta del artista ganador recibirá una <span class="text-uppercase fw-bold">inscripción gratuita</span> a la conferencia y una <span class="text-uppercase fw-bold">camiseta</span>. ¡No se pierda la diversión y la camaradería!</li>
+                                <li class="text-uppercase fw-bold">Envíe las propuestas antes del 04/05/25</li>
+                                <li>El ganador se anunciará en la reunión del cumpleaños de junio, el 28/06/25</li>
+                            </ul>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Comparte tu Logotipo</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Enviar Logotipo y Preguntas</a></small>
                         </div>
                     </div>
                 </div>
