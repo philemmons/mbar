@@ -81,13 +81,17 @@ include_once 'header-bottom.inc';
                             <p class="mb-6 h5 text-dark">
                                 Submit your design and artwork for consideration to the MBAR Committee
                                 <br><br>
-                                Each entry should include the the conference theme "Keep It Simple"
+                                Each entry should include
+                                <br>
+                                the conference theme "Keep It Simple"
                                 <br>
                                 and the year, "2026"
                                 <br><br>
                                 Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo
                                 <br><br>
-                                The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> 
+                                The winning artist's submission will receive
+                                <br>
+                                <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> 
                                 <br>
                                 Don't miss out on the Fun and Fellowship!
                                 <br><br>
