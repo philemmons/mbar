@@ -106,16 +106,18 @@ include_once 'header-bottom.inc';
                             <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">2026 Logo Contest</a>
                             </p>
                             <p class="card-text">The MBAR Logo Content is here!  Below are the requirements for submission:
-                            <br><br>
-                            Submit your design and artwork for consideration to the MBAR Committee.
-                            <br>
-                            Each entry should include the the conference theme, "Keep It Simple", and the year, "2026".
-                            <br>
-                            Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo.
+                            <ul>
+                                <li>Submit your design and artwork for consideration to the MBAR Committee</li>
+                                <li>Each entry should include the the conference theme, "Keep It Simple", and the year, "2026"</li>
+                                <li> Be sure graphics are simple, maximum of 3 colors, and usable for a 2' by 2' logo</li>
+                                <li>The winning artist's submission will receive <span class="">free registration</span> to the conference and a <span class="">T-Shirt</span> -  Don't miss out on the Fun and Fellowship!</li>
+                                <li class="">Submit Entries by 05/04/25</li>
+                                <li>Winner will be announced at the June B-Day meeting</li>
+                            </ul>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Share Your Logo</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo and Question</a></small>
                         </div>
                     </div>
                 </div>
