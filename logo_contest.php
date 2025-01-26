@@ -83,11 +83,11 @@ include_once 'header-bottom.inc';
                                 <br><br>
                                 Each entry should include the conference theme
                                 <br>
-                                "Keep It Simple"
+                                <span class="fw-bold">"Keep It Simple"</span>
                                 <br>
                                 and the year
                                 <br>
-                                "2026"
+                                <span class="fw-bold">"2026"</span>
                                 <br><br>
                                 Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo
                                 <br><br>
