@@ -65,8 +65,6 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">Open Committee Positions
                     </p>
                     <p class="text-dark">
-                        <strong>02/08/2025 at 10am</strong>
-                        <br>
                         <strong>*NEW* Zoom ID:</strong> 330 100 7207
                         <br>
                         <strong>Password:</strong> 2026

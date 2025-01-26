@@ -65,8 +65,6 @@ include_once 'header-bottom.inc';
                     <p class="h3 text-dark">Puestos Vacantes en el Comité
                     </P>
                     <p class="text-dark">
-                        <strong>08/02/2025 a las 10 am</strong>
-                        <br>
                         <strong>*NUEVO* ID de Zoom:</strong> 330 100 7207
                         <br>
                         <strong>Contraseña:</strong> 2026
