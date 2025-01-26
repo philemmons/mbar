@@ -74,28 +74,38 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Concurso de logotipos">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">¡El contenido del logotipo de MBAR ya está aquí!
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">¡El Contenido del Logotipo de MBAR ya está aquí!
                                     <br>
-                                    A continuación se detallan los requisitos para la presentación:</span>
+                                    A continuación, se detallan los requisitos para la presentación:</span>
                             </h3>
                             <p class="mb-6 h5 text-dark">
-                                Envíe su diseño y obra de arte para que el Comité de MBAR lo considere
+                                Envíe su diseño y obra de arte para que el Comité de MBAR lo considere.
                                 <br><br>
-                                Cada propuesta debe incluir el tema de la conferencia, "Keep It Simple" (Manténgalo simple), y el año, "2026"
+                                Cada entrada debe incluir el tema de la conferencia
+                                <br>
+                                <span class="fw-bold">"Keep It Simple"</span>
+                                <br>
+                                y el año.
+                                <br>
+                                <span class="fw-bold">"2026"</span>
                                 <br><br>
-                                Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2' x 2'
+                                Asegúrese de que los gráficos sean simples, con un máximo de 3 colores y que se puedan usar para un logotipo de 2" x 2".
                                 <br><br>
-                                La propuesta del artista ganador recibirá una <span class="text-uppercase fw-bold">inscripción gratuita</span> a la conferencia y una <span class="text-uppercase fw-bold">camiseta</span> ¡No se pierda la diversión y la camaradería!
+                                La propuesta del artista ganador recibirá
+                                <br>
+                                <span class="text-uppercase fw-bold">Inscripción Gratuita</span> a la conferencia y una <span class="text-uppercase fw-bold">Camiseta</span>.
                                 <br><br>
-                                <span class="text-uppercase fw-bold">Envíe sus propuestas antes del 04/05/25</span>
+                                ¡No te pierdas la Diversión y la Camaradería!
                                 <br><br>
-                                El ganador se anunciará en la reunión del cumpleaños de Junio
+                                <span class="text-uppercase fw-bold">Envía tus propuestas antes del 04/05/25</span>
+                                <br><br>
+                                El ganador se anunciará en la reunión del cumpleaños de Junio.
                                 <br>
                                 28/06/25
                             </p>
-                            <p class="mb-6 h4 text-dark">Envíe su Logotipo y Preguntas: <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente del MBAR 2026</a>.
+                            <p class="mb-6 h4 text-dark">Envía el Logotipo y las Preguntas: <a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="bb-link">Presidente de MBAR 2026</a>.
                             </p>
-                        </section>
+                            </sección>
                     </div>
                 </div>
 

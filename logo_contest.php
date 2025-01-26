@@ -79,27 +79,27 @@ include_once 'header-bottom.inc';
                                     Below are the requirements for submission:</span>
                             </h3>
                             <p class="mb-6 h5 text-dark">
-                                Submit your design and artwork for consideration to the MBAR Committee
+                                Submit your design and artwork for consideration to the MBAR Committee.
                                 <br><br>
                                 Each entry should include the conference theme
                                 <br>
                                 <span class="fw-bold">"Keep It Simple"</span>
                                 <br>
-                                and the year
+                                and the year.
                                 <br>
                                 <span class="fw-bold">"2026"</span>
                                 <br><br>
-                                Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo
+                                Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo.
                                 <br><br>
                                 The winning artist's submission will receive
                                 <br>
-                                <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span> 
+                                <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">t-shirt</span>.
                                 <br><br>
                                 Don't miss out on the Fun and Fellowship!
                                 <br><br>
                                 <span class="text-uppercase fw-bold">Submit Entries by 05/04/25</span>
                                 <br><br>
-                                Winner will be announced at the June B-Day meeting
+                                Winner will be announced at the June B-Day meeting.
                                 <br>
                                 06/28/25
                             </p>
