@@ -76,10 +76,8 @@ include_once 'header-bottom.inc';
                               <section aria-label="Event Information">
                                    <h3 class="card-title mb-4"><strong>St. Patrick's Potluck and Speaker Meeting</strong></h3>
                               </section>
+                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
                          </div>
-                         <div class="col-sm-12 col-12 text-center px-3 py-4">
-                         <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
-                    </div>
                     </div>
                </div>
           </div>
