@@ -93,7 +93,7 @@ include_once 'header-bottom.inc';
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <p class="mb-4 h5 text-dark">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
                               </p>
-                              <div class="row justify-content-center">
+                              <div class="row">
                                    <div class="col-md-6 col-sm-12 mb-4">
                                         <p class="fs-2 text-success center rotate-15 fw-bold text-uppercase">
                                              Funds
@@ -102,7 +102,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark">
+                                        <p class="text-dark fw-bold">
                                              When: Sunday 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -116,9 +116,9 @@ include_once 'header-bottom.inc';
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-4">
                                         <p class="text-dark">
-                                             Potluck Suggestions
+                                             <span class="fw-bold">Potluck Suggestions
                                              <br>
-                                             1st Initial
+                                             1st Initial</span>
                                              <br>
                                              A to C: Dessert
                                              <br>
