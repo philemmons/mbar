@@ -132,8 +132,10 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fs-3  text-uppercase text-decoration-underline text-center">
+                                        <p class="fs-3  text-uppercase text-center">
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                              Event Highlights
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                         </p>
                                         <ul>
                                              <li>Corned Beef and Cabbage Provided</li>

@@ -5,12 +5,12 @@
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in 2026!">
                     <h3 class="fw-bold px-3 px-md-0">MBAR 2026 on Labor Day weekend!</h3>
-                    <p class="h3 text-dark">Virtual Kick-Off Zoom Meeting</p>
+                    <p class="fs-3 text-dark">Virtual Kick-Off Zoom Meeting</p>
                     <p class="text-dark">August 28th at 8:00pm PDT
                         <br>
                         This meeting is open to everyone, and we encourage you to join!
                     </p>
-                    <p class="h3 text-dark">In-Person Meetings</p>
+                    <p class="fs-3 text-dark">In-Person Meetings</p>
                     <p class="text-dark">August 29th and August 30th at the Monterey Conference Center
                         <br>
                         Please note that registration is required for the in-person event.
