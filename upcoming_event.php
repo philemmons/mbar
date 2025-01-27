@@ -93,14 +93,14 @@ include_once 'header-bottom.inc';
                          <div class="p-3 text-bg-light hero-text-border">
                               <div class="row">
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="fs-3 text-success text-center rotate-15 fw-bold text-uppercase">
+                                        <p class="fs-2 text-success text-center rotate-15 fw-bold text-uppercase">
                                              Funds
                                              <br>
                                              and
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark fw-bold">
+                                        <p class="text-dark fw-bold pt-5 px-4">
                                              When: Sunday 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -137,8 +137,8 @@ include_once 'header-bottom.inc';
                                         </ul>
                                    </div>
                               </div>
-                              <p class="fs-4">
-                                   In lieu of the 7th Tradition, we will be collecting contributions for MBAR 206!
+                              <p class="text-center text-dark ">
+                                   In lieu of the 7th Tradition, we will be collecting contributions for MBAR 2026!
                               </p>
                          </div>
                     </div>
