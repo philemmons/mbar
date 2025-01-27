@@ -89,20 +89,6 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nueva Página de Instagram
-                            </p>
-                            <p class="card-text"> ¡En vivo! ¡Página oficial de Instagram de MBAR 2026! Esta cuenta <strong>privada</strong> garantiza un espacio seguro y de apoyo para que nuestras comunidades compartan actualizaciones, generen entusiasmo y demuestren la espiritualidad que estamos encontrando entre nosotros. "¡Insistimos absolutamente en disfrutar la vida!"
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Abre una nueva ventana)</span>MBAR2026 Instagram</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">Concurso de logotipos 2026</a>
                             </p>
                             <p class="card-text">¡El contenido del logotipo de MBAR ya está aquí! A continuación se indican los requisitos para la presentación:
@@ -125,6 +111,52 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
+                            <p class="card-title h6"><img class="me-2 mb-3" src="../images/icons/big-shamrock.png" width="40" height="40" alt="Icono de trébol" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">Comida Compartida de San Patricio</a>
+                            </p>
+                            <p class="card-text">Nuestra comida compartida anual de San Patricio y reunión de oradores será el Domingo 16/03/25 en 437 Laureles Grade, Carmel Valley. Las puertas abren a las 3pm, la cena es a las 4pm y el orador sorpresa es a las 5pm
+                                <br><br>
+                                <a href="upcoming_event.php" class="btn btn-link bb-link">Consulta más Información Aquí</a>
+
+                            <ul>
+                                <li>Fondos y Becas</li>
+                                <li>Se Proporcionará Carne en Conserva y Repollo</li>
+                                <li>Sugerencias para Compartir con los Participantes Iniciales</li>
+                                <li>Rifa 50/50</li>
+                                <li>Trae una Silla y Algunos Amigos de Bill W.</li>
+                                <li>Usa tu Equipo Verde o Anterior de MBAR</li>
+                            </ul>
+                            <br>
+                            ¡Nos vemos en Marzo!
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Próximo evento</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="card h-100 shadow-wrap">
+                    <div class="card-body">
+                        <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nueva Página de Instagram
+                        </p>
+                        <p class="card-text"> ¡En vivo! ¡Página oficial de Instagram de MBAR 2026! Esta cuenta <strong>privada</strong> garantiza un espacio seguro y de apoyo para que nuestras comunidades compartan actualizaciones, generen entusiasmo y demuestren la espiritualidad que estamos encontrando entre nosotros. "¡Insistimos absolutamente en disfrutar la vida!"
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Abre una nueva ventana)</span>MBAR2026 Instagram</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitud y Reflexión</a>
                             </p>
                             <p class="card-text">Agradecemos sinceramente a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. Su participación, ya sea asistiendo, trabajando como voluntarios o brindando apoyo, ayudó a fomentar una atmósfera de compañerismo, recuperación y conexión.
@@ -137,12 +169,7 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Part Two -->
-        <div class="container">
-            <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -160,8 +187,10 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Traducción Española</a>
@@ -174,9 +203,8 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" row justify-content-center mb-5">
+
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -205,7 +233,6 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
-
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -231,7 +258,7 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-
+                <!--
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -258,7 +285,7 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-
+-->
             </div>
 
         </div>
