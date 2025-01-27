@@ -5,12 +5,12 @@
             <div class="col-xl-8 col-lg-8 col-md-12 py-4">
                 <div class="p-3 text-center text-bg-light hero-text-border" title="¡Únete a nosotros en 2026!">
                     <h3 class="fw-bold px-3 px-md-0">¡MBAR 2026 en el fin de semana del Día del Trabajo!</h3>
-                    <p class="h3 text-dark">Reunión Virtual de Lanzamiento por Zoom</p>
+                    <p class="fs-3 text-dark">Reunión Virtual de Lanzamiento por Zoom</p>
                     <p class="text-dark">28 de Agosto a las 8:00 p. m., hora del Pacífico
                         <br>
                         ¡Esta reunión está abierta a todos y lo alentamos a participar!
                     </p>
-                    <p class="h3 text-dark">Reuniones en Persona</p>
+                    <p class="fs-3 text-dark">Reuniones en Persona</p>
                     <p class="text-dark">29 y 30 de Agosto en el Centro de Conferencias de Monterey
                         <br>
                         Tenga en cuenta que es necesario registrarse para el evento en persona.
