@@ -117,13 +117,14 @@ include_once 'header-bottom.inc';
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                        <p class="text-dark text-center">
+                                        <p class="fs-3 text-dark text-center">
                                              <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                              Potluck Suggestions
                                              <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                              <br>
                                              1st Initial
-                                             <br>
+                                        </p>
+                                        <p class="text-dark text-center">
                                              A to C: Dessert
                                              <br>
                                              D to J: Hot Veggie Dish
