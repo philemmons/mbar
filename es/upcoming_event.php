@@ -109,13 +109,13 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Las puertas abren a las 3pm
                                              <br>
-                                             Cena a las 4:00 p. m.
+                                             Cena a las 4pm
                                              <br>
                                              Orador: Invitado Sorpresa a las 5pm
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                        <p class="fs-3 text-dark text-center mb-0">
+                                        <p class="fs-4 text-dark text-center mb-0">
                                              <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                              Sugerencias Para Compartir
                                              <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
@@ -131,7 +131,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              De la P a la Z: Ensalada o Pan
                                         </p>
-                                        <p class="fs-3 text-uppercase text-center">
+                                        <p class="fs-4 text-uppercase text-center">
                                              <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                              Aspectos destacados del evento
                                              <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
