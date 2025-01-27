@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-bg-light hero-text-border">
                               <div class="row">
-                                   <div class="col-md-6 col-sm-12 mb-4">
+                                   <div class="col-md-6 col-sm-12 mb-3">
                                         <p class="fs-2 text-center tall-angled-text fw-bold">
                                              Funds
                                              <br>
@@ -100,7 +100,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark fw-bold p-4">
+                                        <p class="text-dark fw-bold p-5">
                                              When: Sunday - 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -112,7 +112,7 @@ include_once 'header-bottom.inc';
                                              Speaker: Surprise Guest at 5pm
                                         </p>
                                    </div>
-                                   <div class="col-md-6 col-sm-12 mb-4">
+                                   <div class="col-md-6 col-sm-12 mb-4 mb-sm-0 ">
                                         <p class="text-dark text-center">
                                              <span class="fw-bold">Potluck Suggestions
                                                   <br>
