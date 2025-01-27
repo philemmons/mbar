@@ -112,21 +112,23 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">2026 Logo Contest</a>
+                            <p class="card-title h6"><img class="me-2" src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">St. Patrick's Potluck</a>
                             </p>
-                            <p class="card-text">The MBAR Logo Content is here! Below are the requirements for submission:
+                            <p class="card-text">Our annual St. Patrick's Potluck and Speaker Meeting is Sunday, 03/16/25 at 437 Laureles Grade, Carmel Valley. The doors open at 3pm, dinner is at 4pm, and surprise Speaker at 5pm.
                             <ul>
-                                <li>Submit your design and artwork for consideration to the MBAR Committee</li>
-                                <li>Each entry should include the conference theme, "Keep It Simple", and the year, "2026"</li>
-                                <li> Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo</li>
-                                <li>The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">T-Shirt</span> - Don't miss out on the Fun and Fellowship!</li>
-                                <li class="text-uppercase fw-bold">Submit Entries by 05/04/25</li>
-                                <li>Winner will be announced at the June B-Day meeting - 06/28/25</li>
+                                <li><a href="upcoming_event.php" class="btn btn-link bb-link">Check out more information here</a>
+                                <li>Funds and Fellowship</li>
+                                <li>Corned Beef and Cabbage Provided</li>
+                                <li>50 / 50 Raffle</li>
+                                <li>Bring a Chair and Some Friends of Bill W.</li>
+                                <li>Wear Your Green or Previous MBAR Gear</li>
+                                <li>See you in March!!
+                                <li>
                             </ul>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo and Questions</a></small>
+                            <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Upcoming Event</a></small>
                         </div>
                     </div>
 
