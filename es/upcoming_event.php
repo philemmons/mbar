@@ -75,9 +75,9 @@ include_once 'header-bottom.inc';
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <section aria-label="Información del evento">
                                    <h3 class="card-title mb-4">
-                                        <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
+                                        <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                         <strong>Día de San Patricio Comida Compartida y Reunión de Oradores de San Patricio</strong>
-                                        <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
+                                        <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                    </h3>
                               </section>
                               <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la comida compartida y reunión de oradores de San Patricio">
