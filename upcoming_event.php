@@ -102,7 +102,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark fw-bold">
+                                        <p class="text-dark fw-bold text-left">
                                              When: Sunday 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -131,7 +131,7 @@ include_once 'header-bottom.inc';
                                         <p class="fs-4 fw-bold text-uppercase text-decoration-underline">
                                              Event Highlights
                                         </p>
-                                        <ul class="">
+                                        <ul class="text-left">
                                              <li>Corned Beef and Cabbage Provided</li>
                                              <li>50 / 50 Raffle</li>
                                              <li>Bring a Chair and Some Friends of Bill W.</li>
