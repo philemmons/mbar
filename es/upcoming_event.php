@@ -116,9 +116,9 @@ include_once 'header-bottom.inc';
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
                                         <p class="fs-3 text-dark text-center mb-0">
-                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                              Sugerencias Para Compartir
-                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                              <br>
                                              Primera Inicial
                                         </p>
@@ -132,9 +132,9 @@ include_once 'header-bottom.inc';
                                              De la P a la Z: Ensalada o Pan
                                         </p>
                                         <p class="fs-3 text-uppercase text-center">
-                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                              Aspectos destacados del evento
-                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <img src="../images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
                                         </p>
                                         <ul>
                                              <li>Se proporcionará carne en conserva y repollo</li>
