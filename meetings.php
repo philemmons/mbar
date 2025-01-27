@@ -40,7 +40,7 @@ include_once 'header-bottom.inc';
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                                                <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
+                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                         <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
                     </div>
                 </li>
@@ -104,6 +104,24 @@ include_once 'header-bottom.inc';
                         </h4>
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2024">
+
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#november-09-2024" aria-expanded="false" aria-controls="november2024">November 9th</button>
+                                </h4>
+
+                                <?php include_once 'meeting-2024-11-09.inc'; ?>
+
+                            </div>
+
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#september-28-2024" aria-expanded="false" aria-controls="september2024">September 28th</button>
+                                </h4>
+
+                                <?php include_once 'meeting-2024-09-28.inc'; ?>
+
+                            </div>
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
