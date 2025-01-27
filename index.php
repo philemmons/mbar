@@ -89,15 +89,24 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
+                            <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">2026 Logo Contest</a>
                             </p>
-                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other. "We absolutely insist on enjoying life!"
+                            <p class="card-text">The MBAR Logo Content is here! Below are the requirements for submission:
+                            <ul>
+                                <li>Submit your design and artwork for consideration to the MBAR Committee</li>
+                                <li>Each entry should include the conference theme, "Keep It Simple", and the year, "2026"</li>
+                                <li> Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo</li>
+                                <li>The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">T-Shirt</span> - Don't miss out on the Fun and Fellowship!</li>
+                                <li class="text-uppercase fw-bold">Submit Entries by 05/04/25</li>
+                                <li>Winner will be announced at the June B-Day meeting - 06/28/25</li>
+                            </ul>
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Opens a new window)</span>MBAR2026 Instagram</a></small>
+                            <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo and Questions</a></small>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
@@ -110,7 +119,7 @@ include_once 'header-bottom.inc';
                                 <li>Submit your design and artwork for consideration to the MBAR Committee</li>
                                 <li>Each entry should include the conference theme, "Keep It Simple", and the year, "2026"</li>
                                 <li> Be sure graphics are simple, maximum of 3 colors, and usable for a 2" by 2" logo</li>
-                                <li>The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">T-Shirt</span> -  Don't miss out on the Fun and Fellowship!</li>
+                                <li>The winning artist's submission will receive <span class="text-uppercase fw-bold">free registration</span> to the conference and a <span class="text-uppercase fw-bold">T-Shirt</span> - Don't miss out on the Fun and Fellowship!</li>
                                 <li class="text-uppercase fw-bold">Submit Entries by 05/04/25</li>
                                 <li>Winner will be announced at the June B-Day meeting - 06/28/25</li>
                             </ul>
@@ -120,8 +129,29 @@ include_once 'header-bottom.inc';
                             <small class="text-body-secondary"><a href="mailto:<?php echo getenv('mbar-chair-email') ?>" class="btn btn-primary">Submit Logo and Questions</a></small>
                         </div>
                     </div>
+
                 </div>
 
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
+                            </p>
+                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other. "We absolutely insist on enjoying life!"
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Opens a new window)</span>MBAR2026 Instagram</a></small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -136,13 +166,9 @@ include_once 'header-bottom.inc';
                             <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Part Two -->
-        <div class="container">
-            <div class="row justify-content-center mb-5">
+                </div>
+
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -158,12 +184,12 @@ include_once 'header-bottom.inc';
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
                         </div>
-
-
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Spanish Translation</a>
@@ -176,9 +202,7 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -233,6 +257,7 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
+                <!--
                 <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -257,10 +282,10 @@ include_once 'header-bottom.inc';
                                 </div>
                             </div>
                         </div>
+
                     </div>
-
                 </div>
-
+                -->
             </div>
         </div>
     </article>
