@@ -117,7 +117,7 @@ include_once 'header-bottom.inc';
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                        <p class="fs-3 text-dark text-center">
+                                        <p class="fs-3 text-dark text-center mb-0">
                                              <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                              Potluck Suggestions
                                              <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
