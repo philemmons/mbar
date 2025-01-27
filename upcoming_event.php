@@ -131,7 +131,7 @@ include_once 'header-bottom.inc';
                                         <p class="fs-4 fw-bold text-uppercase text-decoration-underline">
                                              Event Highlights
                                         </p>
-                                        <ul>
+                                        <ul class="">
                                              <li>Corned Beef and Cabbage Provided</li>
                                              <li>50 / 50 Raffle</li>
                                              <li>Bring a Chair and Some Friends of Bill W.</li>
