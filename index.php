@@ -115,16 +115,19 @@ include_once 'header-bottom.inc';
                             <p class="card-title h6"><img class="me-2" src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">St. Patrick's Potluck</a>
                             </p>
                             <p class="card-text">Our annual St. Patrick's Potluck and Speaker Meeting is Sunday, 03/16/25 at 437 Laureles Grade, Carmel Valley. The doors open at 3pm, dinner is at 4pm, and surprise Speaker at 5pm.
+                                <br><br>
+                                <a href="upcoming_event.php" class="btn btn-link bb-link">Check out more information here</a>
+
                             <ul>
-                                <li><a href="upcoming_event.php" class="btn btn-link bb-link">Check out more information here</a>
                                 <li>Funds and Fellowship</li>
                                 <li>Corned Beef and Cabbage Provided</li>
+                                <li>Potluck Suggestions by 1st Initial</li>
                                 <li>50 / 50 Raffle</li>
                                 <li>Bring a Chair and Some Friends of Bill W.</li>
                                 <li>Wear Your Green or Previous MBAR Gear</li>
-                                <li>See you in March!!
-                                <li>
                             </ul>
+                            <br>
+                            See you in March!!
                             </p>
                         </div>
                         <div class="card-footer text-center">
