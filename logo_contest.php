@@ -41,7 +41,7 @@ include_once 'header-bottom.inc';
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
                         <a class="dropdown-item active" href="logo_contest.php" aria-current="page">Logo Contest<span class="visually-hidden">(current)</span></a>
-                        <a class="dropdown-item" href="upcoming_event.php">Gratitude</a>
+                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -110,13 +110,13 @@ include_once 'header-bottom.inc';
                 </div>
 
                 <!--<div class="col-sm-12 col-12 text-center px-3 py-4">
-                    <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
--->
+                        <img class="img-fluid" src="../images/logo2024.png" alt="Twelve different logo's were submitted for 2024 with the theme of Keep It Simple.">
+                    </div>-->
             </div>
-        </div>
         </div>
     </article>
 
+    <?php include_once 'event-gratitude.inc' ?>
 
     <?php include_once 'footer.inc' ?>
     </body>

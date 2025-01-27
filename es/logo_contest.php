@@ -117,6 +117,8 @@ include_once 'header-bottom.inc';
         </div>
     </article>
 
+    <?php include_once 'event-gratitude.inc' ?>
+
     <?php include_once 'footer.inc' ?>
     </body>
 
