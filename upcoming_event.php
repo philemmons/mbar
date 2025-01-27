@@ -77,10 +77,9 @@ include_once 'header-bottom.inc';
                                    <h3 class="card-title mb-4"><strong>St. Patrick's Potluck and Speaker Meeting</strong></h3>
                               </section>
                          </div>
-                    </div>
-
-                    <div class="col-sm-12 col-12 text-center px-3 py-4">
+                         <div class="col-sm-12 col-12 text-center px-3 py-4">
                          <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
+                    </div>
                     </div>
                </div>
           </div>
@@ -92,13 +91,13 @@ include_once 'header-bottom.inc';
      <article aria-label="Event details">
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
-                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
+                    <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <p class="mb-4 h5 text-dark">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
                               </p>
-                              <div class="row justify-content-center mb-5">
+                              <div class="row justify-content-center">
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="fs-2 text-success center rotate-15">
+                                        <p class="fs-2 text-success center rotate-15 fw-bold text-uppercase">
                                              Funds
                                              <br>
                                              and
@@ -131,7 +130,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fs-4 text-uppercase text-decoration-underline">
+                                        <p class="fs-4 fw-bold text-uppercase text-decoration-underline">
                                              Event Highlights
                                         </p>
                                         <ul>
