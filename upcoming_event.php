@@ -74,7 +74,11 @@ include_once 'header-bottom.inc';
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
                               <section aria-label="Event Information">
-                                   <h3 class="card-title mb-4"><strong>St. Patrick's Potluck and Speaker Meeting</strong></h3>
+                                   <h3 class="card-title mb-4">
+                                        <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                        <strong>St. Patrick's Potluck and Speaker Meeting</strong>
+                                        <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                   </h3>
                               </section>
                               <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
                          </div>
@@ -114,9 +118,11 @@ include_once 'header-bottom.inc';
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
                                         <p class="text-dark text-center">
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
                                              Potluck Suggestions
-                                                  <br>
-                                                  1st Initial
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <br>
+                                             1st Initial
                                              <br>
                                              A to C: Dessert
                                              <br>
