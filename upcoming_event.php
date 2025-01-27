@@ -90,19 +90,19 @@ include_once 'header-bottom.inc';
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
+                         <div class="p-3 text-bg-light hero-text-border">
+                              <p class="mb-4 h5 text-dark text-center">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
                               </p>
-                              <div class="row">
+                              <div class="row fs-2">
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="fs-2 text-success center rotate-15 fw-bold text-uppercase">
+                                        <p class="text-success text-center rotate-15 fw-bold text-uppercase">
                                              Funds
                                              <br>
                                              and
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark fw-bold text-left">
+                                        <p class="text-dark fw-bold">
                                              When: Sunday 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -115,7 +115,7 @@ include_once 'header-bottom.inc';
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="text-dark">
+                                        <p class="text-dark text-center">
                                              <span class="fw-bold">Potluck Suggestions
                                              <br>
                                              1st Initial</span>
@@ -128,10 +128,10 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fs-4 fw-bold text-uppercase text-decoration-underline">
+                                        <p class="fw-bold text-uppercase text-decoration-underline text-center">
                                              Event Highlights
                                         </p>
-                                        <ul class="text-left">
+                                        <ul class="">
                                              <li>Corned Beef and Cabbage Provided</li>
                                              <li>50 / 50 Raffle</li>
                                              <li>Bring a Chair and Some Friends of Bill W.</li>
