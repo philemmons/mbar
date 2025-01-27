@@ -101,15 +101,15 @@ include_once 'header-bottom.inc';
                                              Fellowship</span>
                                         </p>
                                         <p class="text-dark fw-bold p-4">
-                                             When: Sunday 03/16/25
+                                             When: Sunday -  03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
                                              <br>
-                                             Doors: at 3pm
+                                             Doors Open at 3pm
                                              <br>
                                              Dinner at 4pm
                                              <br>
-                                             Speaker: Surprise at 5pm
+                                             Speaker: Surprise Guest at 5pm
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-4">
@@ -126,7 +126,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fs-2 fw-bold text-uppercase text-decoration-underline text-center">
+                                        <p class="fs-3 fw-bold text-uppercase text-decoration-underline text-center">
                                              Event Highlights
                                         </p>
                                         <ul class="">
