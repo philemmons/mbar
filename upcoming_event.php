@@ -91,11 +91,9 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark text-center">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
-                              </p>
-                              <div class="row fs-2">
+                              <div class="row">
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="text-success text-center rotate-15 fw-bold text-uppercase">
+                                        <p class="fs-3 text-success text-center rotate-15 fw-bold text-uppercase">
                                              Funds
                                              <br>
                                              and
@@ -128,7 +126,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fw-bold text-uppercase text-decoration-underline text-center">
+                                        <p class="fs-2 fw-bold text-uppercase text-decoration-underline text-center">
                                              Event Highlights
                                         </p>
                                         <ul class="">
@@ -139,7 +137,7 @@ include_once 'header-bottom.inc';
                                         </ul>
                                    </div>
                               </div>
-                              <p class="">
+                              <p class="fs-4">
                                    In lieu of the 7th Tradition, we will be collecting contributions for MBAR 206!
                               </p>
                          </div>
