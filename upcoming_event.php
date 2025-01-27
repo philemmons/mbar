@@ -61,7 +61,7 @@ include_once 'header-bottom.inc';
           <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Prior events create fellowship and generate contributions to offset MBAR's cost.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Join us in 2026!">
-                         <h2 class="display-6 fw-bold px-3 px-md-0">Upcoming Events 2025</h2>
+                         <h2 class="display-6 fw-bold px-3 px-md-0">St. Patrick's Day Potluck</h2>
                     </div>
                </div>
           </div>
@@ -73,12 +73,20 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="h5 text-dark">St. Patrick's Day Potluck</p>
+                              <section aria-label="Event Information">
+                                   <h3 class="card-title mb-4"><strong>St. Patrick's Potluck and Speaker Meeting</strong></h3>
+                              </section>
                          </div>
+                    </div>
+
+                    <div class="col-sm-12 col-12 text-center px-3 py-4">
+                         <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="St. Patrick's Potluck and Speaker Meeting Flyer">
                     </div>
                </div>
           </div>
      </article>
+
+
 
      <!-- Part Two -->
      <article aria-label="Event details">
@@ -86,14 +94,57 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <section aria-label="Event Information">
-                                   <h3 class="card-title mb-4"><strong>Gratitude!</strong></h3>
-                                   <p class="mb-4 h5 text-dark">
-                                        MBAR events like potlucks, softball games, and bingo nights offer wonderful opportunities for everyone to come together, share experiences, and have fun. Potlucks bring a delicious variety of homemade dishes to enjoy, where each person's contribution adds to the communal feast. Softball games encourage friendly competition and teamwork, regardless of skill level, fostering a spirit of fellowship and shared enjoyment of the outdoors. Bingo nights provide excitement and laughter as participants eagerly await their numbers to be called, creating moments of suspense and joy for all involved. These inclusive activities celebrate diversity, create bonds, and ensure that everyone feels welcomed and valued within their recovery journey. Whether you're bringing a dish, swinging a bat, or marking your bingo card, these events embody the spirit of togetherness and enjoyment for everyone involved.
-                                        <br><br>
-                                        Once again, thank you all.
-                                   </p>
-                              </section>
+                              <p class="mb-4 h5 text-dark">Monterey Bay Area Roundup presents: St.Patrick's Potluck and Speaker Meeting
+                              </p>
+                              <div class="row justify-content-center mb-5">
+                                   <div class="col-md-6 col-sm-12 mb-4">
+                                        <p class="fs-2 text-success center rotate-15">
+                                             Funds
+                                             <br>
+                                             and
+                                             <br>
+                                             Fellowship
+                                        </p>
+                                        <p class="text-dark">
+                                             When: Sunday 03/16/25
+                                             <br>
+                                             Where: 437 Laureles Grade, Carmel Valley
+                                             <br>
+                                             Doors: at 3pm
+                                             <br>
+                                             Dinner at 4pm
+                                             <br>
+                                             Speaker: Surprise at 5pm
+                                        </p>
+                                   </div>
+                                   <div class="col-md-6 col-sm-12 mb-4">
+                                        <p class="text-dark">
+                                             Potluck Suggestions
+                                             <br>
+                                             1st Initial
+                                             <br>
+                                             A to C: Dessert
+                                             <br>
+                                             D to J: Hot Veggie Dish
+                                             <br>
+                                             K to O: Potato Dish
+                                             <br>
+                                             P to Z: Salad or Bread
+                                        </p>
+                                        <p class="fs-4 text-uppercase text-decoration-underline">
+                                             Event Highlights
+                                        </p>
+                                        <ul>
+                                             <li>Corned Beef and Cabbage Provided</li>
+                                             <li>50 / 50 Raffle</li>
+                                             <li>Bring a Chair and Some Friends of Bill W.</li>
+                                             <li>Wear Your Green or Previous MBAR Gear!</li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <p class="">
+                                   In lieu of the 7th Tradition, we will be collecting contributions for MBAR 206!
+                              </p>
                          </div>
                     </div>
                </div>

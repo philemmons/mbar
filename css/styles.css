@@ -690,3 +690,8 @@ dl {
   color: var(--color-22);
   text-underline-offset: 0.25em !important;
 }
+
+/****** text rotate ******/
+.rotate-15{
+  rotate: -15deg;
+}
