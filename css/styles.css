@@ -695,4 +695,5 @@ dl {
 .tall-angled-text{
   rotate: -10deg;
   font-style: oblique;
+  color: var(--color-success);
 }
