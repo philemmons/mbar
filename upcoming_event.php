@@ -91,16 +91,16 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-bg-light hero-text-border">
-                              <div class="row">
+                              <div class="row fw-bold">
                                    <div class="col-md-6 col-sm-12 mb-3">
-                                        <p class="fs-2 text-center tall-angled-text fw-bold">
+                                        <p class="fs-2 text-center tall-angled-text">
                                              Funds
                                              <br>
                                              and
                                              <br>
                                              Fellowship
                                         </p>
-                                        <p class="text-dark fw-bold p-5">
+                                        <p class="text-dark ps-5 py-3">
                                              When: Sunday - 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
@@ -114,9 +114,9 @@ include_once 'header-bottom.inc';
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-4 mb-sm-0 ">
                                         <p class="text-dark text-center">
-                                             <span class="fw-bold">Potluck Suggestions
+                                             Potluck Suggestions
                                                   <br>
-                                                  1st Initial</span>
+                                                  1st Initial
                                              <br>
                                              A to C: Dessert
                                              <br>
@@ -126,10 +126,10 @@ include_once 'header-bottom.inc';
                                              <br>
                                              P to Z: Salad or Bread
                                         </p>
-                                        <p class="fs-3 fw-bold text-uppercase text-decoration-underline text-center">
+                                        <p class="fs-3  text-uppercase text-decoration-underline text-center">
                                              Event Highlights
                                         </p>
-                                        <ul class="">
+                                        <ul>
                                              <li>Corned Beef and Cabbage Provided</li>
                                              <li>50 / 50 Raffle</li>
                                              <li>Bring a Chair and Some Friends of Bill W.</li>
