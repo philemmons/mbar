@@ -692,12 +692,7 @@ dl {
 }
 
 /****** text rotate ******/
-.rotate-10{
+.tall-angled-text{
   rotate: -10deg;
-}
-
-.tall-angled-text {
-  line-height: 1.5; /* Makes the font taller */
-  font-style: oblique; /* Adds a slant to the text */
-
+  font-style: oblique;
 }

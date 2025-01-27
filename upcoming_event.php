@@ -93,14 +93,14 @@ include_once 'header-bottom.inc';
                          <div class="p-3 text-bg-light hero-text-border">
                               <div class="row">
                                    <div class="col-md-6 col-sm-12 mb-4">
-                                        <p class="fs-2 text-center tall-angled-text fw-bold text-uppercase"><span style="color: var(--success-color);">
+                                        <p class="fs-2 text-center tall-angled-text fw-bold"><span style="color: var(--success-color);">
                                              Funds
                                              <br>
                                              and
                                              <br>
                                              Fellowship</span>
                                         </p>
-                                        <p class="text-dark fw-bold pt-5 px-4">
+                                        <p class="text-dark fw-bold p-4">
                                              When: Sunday 03/16/25
                                              <br>
                                              Where: 437 Laureles Grade, Carmel Valley
