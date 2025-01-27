@@ -58,11 +58,10 @@ include_once 'header-bottom.inc';
 <main id="main-content">
      <!-- Hero Part -->
      <div class="container shadow-wrap">
-          <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
+          <div class="row justify-content-center py-6 mb-5 bg-body-tertiary bg-img-upcoming" title="Los eventos anteriores crean compañerismo y generan contribuciones para compensar el costo de MBAR.">
                <div class="col-xl-7 col-lg-7 col-md-12 py-5">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="¡La preinscripción está abierta!">
-                         <h2 class="display-6 fw-bold px-3 px-md-0">Próximos Eventos 2026</h2>
-                         <p>Tenga en cuenta: los archivos de audio y PDF están en inglés.</p>
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="¡Póngase su irlandés!">
+                         <h2 class="display-6 fw-bold px-3 px-md-0">St. Comida Compartida del Día de San Patricio</h2>
                     </div>
                </div>
           </div>
@@ -74,7 +73,14 @@ include_once 'header-bottom.inc';
                <div class="row justify-content-center mb-5">
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="h5 text-dark">¡Gracias por seguir consultando para conocer más eventos previos a la Conferencia de 2026!</p>
+                              <section aria-label="Información del evento">
+                                   <h3 class="card-title mb-4">
+                                        <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
+                                        <strong>Día de San Patricio Comida Compartida y Reunión de Oradores de San Patricio
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Icono de trébol">
+                                   </h3>
+                              </section>
+                              <img class="img-fluid" src="../images/saint-patrick-potluck.png" alt="Folleto de la comida compartida y reunión de oradores de San Patricio">
                          </div>
                     </div>
                </div>
@@ -85,17 +91,62 @@ include_once 'header-bottom.inc';
      <article aria-label="Detalles del evento">
           <div class="container shadow-wrap">
                <div class="row justify-content-center mb-5">
-                    <div class="col-xl-10 col-lg-10 col-md-12 py-4">
-                         <div class="p-3 text-center text-bg-light hero-text-border">
-                              <p class="mb-4 h5 text-dark"><a href="activities.php" class="bb-link">Agradecimientos por el Roundup en el Área de la Bahía de Monterey</a></p>
-                              <section aria-label="Información del evento">
-                                   <h3 class="card-title mb-4"><strong>¡Gratitud!</strong></h3>
-                                   <p class="mb-4 h5 text-dark">
-                                        Los eventos de MBAR como comidas compartidas, juegos de softbol y noches de bingo ofrecen oportunidades maravillosas para que todos se reúnan, compartan experiencias y se diviertan. Las comidas compartidas traen una deliciosa variedad de platos caseros para disfrutar, donde la contribución de cada persona se suma a la fiesta comunitaria. Los juegos de softbol fomentan la competencia amistosa y el trabajo en equipo, independientemente del nivel de habilidad, fomentando un espíritu de camaradería y disfrute compartido del aire libre. Las noches de bingo brindan emoción y risas mientras los participantes esperan ansiosamente que se llame a sus números, lo que crea momentos de suspenso y alegría para todos los involucrados. Estas actividades inclusivas celebran la diversidad, crean vínculos y garantizan que todos se sientan bienvenidos y valorados en su camino hacia la recuperación. Ya sea que traiga un plato, blanda un bate o marque su tarjeta de bingo, estos eventos encarnan el espíritu de unión y disfrute para todos los involucrados.
-                                        <br><br>
-                                        Una vez más, gracias a todos.
-                                   </p>
-                              </section>
+                    <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                         <div class="p-3 text-bg-light hero-text-border">
+                              <div class="row fw-bold">
+                                   <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
+                                        <p class="fs-2 text-center tall-angled-text">
+                                             Fondos
+                                             <br>
+                                             y
+                                             <br>
+                                             Beca
+                                        </p>
+                                        <p class="text-dark ps-5 py-3">
+                                             Cuándo: Domingo - 16/03/25
+                                             <br>
+                                             Dónde: 437 Laureles Grade, Carmel Valley
+                                             <br>
+                                             Las puertas abren a las 3pm
+                                             <br>
+                                             Cena a las 4:00 p. m.
+                                             <br>
+                                             Orador: Invitado Sorpresa a las 5pm
+                                        </p>
+                                   </div>
+                                   <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
+                                        <p class="fs-3 text-dark text-center mb-0">
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             Sugerencias Para Compartir
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             <br>
+                                             Primera Inicial
+                                        </p>
+                                        <p class="text-dark text-center">
+                                             De la A a la C: Postre
+                                             <br>
+                                             De la D a la J: Plato de Verduras Calientes
+                                             <br>
+                                             De la K a la O: Plato de Papas
+                                             <br>
+                                             De la P a la Z: Ensalada o Pan
+                                        </p>
+                                        <p class="fs-3 text-uppercase text-center">
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                             Aspectos destacados del evento
+                                             <img src="images/icons/shamrock-icon.png" width="30" height="30" alt="Shamrock icon">
+                                        </p>
+                                        <ul>
+                                             <li>Se proporcionará carne en conserva y repollo</li>
+                                             <li>Rifa 50/50</li>
+                                             <li>Traiga una silla y algunos amigos de Bill W.</li>
+                                             <li>¡Use su equipo verde o anterior de MBAR!</li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <p class="text-center text-dark ">
+                                   En lugar de la Séptima Tradición, ¡estaremos recolectando contribuciones para MBAR 2026!
+                              </p>
                          </div>
                     </div>
                </div>
