@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
                     <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                          <div class="p-3 text-bg-light hero-text-border">
                               <div class="row fw-bold">
-                                   <div class="col-md-6 col-sm-12 mb-3">
+                                   <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
                                         <p class="fs-2 text-center tall-angled-text">
                                              Funds
                                              <br>
@@ -112,7 +112,7 @@ include_once 'header-bottom.inc';
                                              Speaker: Surprise Guest at 5pm
                                         </p>
                                    </div>
-                                   <div class="col-md-6 col-sm-12 mb-4 mb-sm-0 ">
+                                   <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
                                         <p class="text-dark text-center">
                                              Potluck Suggestions
                                                   <br>
