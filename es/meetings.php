@@ -117,7 +117,7 @@ include_once 'header-bottom.inc';
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#september20242024" aria-expanded="false" aria-controls="september2024">28 de Septiembre</button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#september2024" aria-expanded="false" aria-controls="september2024">28 de Septiembre</button>
                                 </h4>
 
                                 <?php include_once 'meeting-2024-09.inc'; ?>
