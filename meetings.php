@@ -110,7 +110,7 @@ include_once 'header-bottom.inc';
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2025" aria-expanded="false" aria-controls="january2025">January 11th</button>
                                 </h4>
 
-                                <p>Coming Soon</p>
+                                <?php include_once 'meeting-2025-01.inc'; ?>
 
                             </div>
 
