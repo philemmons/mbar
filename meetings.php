@@ -133,7 +133,7 @@ include_once 'header-bottom.inc';
                 </div>
 
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border">
+                    <div class="p-3 text-bg-light hero-text-border">
 
                         <div class="accordion accordion-flush" id="accordionFlushExample">
 
