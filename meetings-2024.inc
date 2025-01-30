@@ -29,7 +29,7 @@
 
                 <div class="accordion-item">
                     <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#august-17-2024" aria-expanded="false" aria-controls="august2024">August 17th</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#august-17-2024" aria-expanded="false" aria-controls="august-17-2024">August 17th</button>
                     </h4>
 
                     <?php include_once 'meeting-2024-08-17.inc'; ?>
@@ -38,7 +38,7 @@
 
                 <div class="accordion-item">
                     <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#august-10-2024" aria-expanded="false" aria-controls="august2024">August 10th</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#august-10-2024" aria-expanded="false" aria-controls="august-10-2024">August 10th</button>
                     </h4>
 
                     <?php include_once 'meeting-2024-08-10.inc'; ?>
