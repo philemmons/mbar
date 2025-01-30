@@ -106,7 +106,7 @@ include_once 'header-bottom.inc';
                         <hr>
                         <div class="accordion accordion-flush" id="accordion2025">
 
-                        <div class="accordion-item">
+                            <div class="accordion-item">
                                 <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2025" aria-expanded="false" aria-controls="january2025">11 de Enero</button>
                                 </h4>
@@ -114,7 +114,7 @@ include_once 'header-bottom.inc';
                                 <?php include_once 'meeting-2025-01.inc'; ?>
 
                             </div>
-                            
+
 
                         </div>
                     </div>
