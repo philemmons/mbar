@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
 
 							<li class="lhead">/ <span class="lcount">53 pages</span></li>
 
-							<li class="lpage"><a href="https://montereybayarearoundup.org/" title="MBAR - Home ">MBAR - Home </a></li>
+							<li class="lpage"><a href="https://montereybayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
 
 							<li class="lpage"><a href="https://montereybayarearoundup.org/conference-2024.php" title="MBAR - 2024 Conference ">MBAR - 2024 Conference </a></li>
 
@@ -203,7 +203,7 @@ include_once 'header-bottom.inc';
 
 									<li class="lhead">es/ <span class="lcount">53 pages</span></li>
 
-									<li class="lpage"><a href="https://montereybayarearoundup.org/es/" title="MBAR - Hogar ">MBAR - Hogar </a></li>
+									<li class="lpage"><a href="https://montereybayarearoundup.org/es/index.php" title="MBAR - Hogar ">MBAR - Hogar </a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/conference-2024.php" title="MBAR - 2024 Conferencia ">MBAR - 2024 Conferencia </a></li>
 
