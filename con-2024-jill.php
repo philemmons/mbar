@@ -31,7 +31,7 @@ include_once 'header-bottom.inc';
 
                             <p>So can somebody poke me? Literally poke me. Because I don't hear well. He had to really poke me. Anyway, I am really grateful to be here. Thank you, Chris. And thank you, sweetheart.</p>
 
-                            <p>OK, I'll probably can't see very well either. OK. Anyway, like I said, I'm so grateful to be here. And I have to tell you, it takes me back to 1993 when we started this thing. And what a miracle it's been. I was sitting with Jerry. He's still alive, so I won't say his last name.</p>
+                            <p>OK, I'll probably can't see very well either. OK. Anyway, like I said, I'm so grateful to be here. And I have to tell you, it takes me back to when we started this thing. And what a miracle it's been. I was sitting with Jerry. He's still alive, so I won't say his last name.</p>
 
                             <p>In the Alotto Club, when it was upstairs. And I guess we don't have an Alotto Club anymore. What's it called today? Felicia Paul, right. Anyway, we were sitting up there. We have both moved here. Talk about moving from another place.</p>
 
