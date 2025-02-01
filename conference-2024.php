@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
     <!-- Part One -->
     <article aria-label="Event registration, reason, location, and unity">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="MBAR excitement!">
                         <section aria-label="Registration Area">
@@ -102,11 +102,6 @@ include_once 'header-bottom.inc';
                         </section>
 
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center py-4 mb-5">
-                <div class="col-sm-12 col-12 text-center px-3">
-                    <img class="img-fluid" src="../images/banners-2024.png" alt="Main meeting room stage with A.A. conference banners.">
                 </div>
             </div>
         </div>

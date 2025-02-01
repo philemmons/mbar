@@ -71,7 +71,7 @@ include_once 'header-bottom.inc';
     <article aria-label="2022 event introduction">
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 pt-4 mb-5">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule">
                         <section aria-label=" Introduction">
                             <h3 class="fw-bold text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation
@@ -79,11 +79,6 @@ include_once 'header-bottom.inc';
                             <p class="mb-6 h4 text-dark">Featuring Speaker's Audio</p>
                         </section>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center mb-5">
-                <div class="col-sm-12 col-12 text-center px-3 py-4">
-                    <img class="img-fluid" src="../images/conference-room.png" alt="Monterey Conference Center meeting room, chairs lined up facing a stage, and past A.A. conference banners.">
                 </div>
             </div>
         </div>
