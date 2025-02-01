@@ -116,7 +116,7 @@
                 <br>
                 Costo de revisión de nuestras finanzas;
                 <br>
-                No se han mantenido todos los estados financieros o están intactos. Hay algunas carpetas a mano, pero no desde 1993.
+                No se han mantenido todos los estados financieros o están intactos. Algunas carpetas disponibles pero que no son antiguas;
                 <br>
                 $445/hora para revisar los estados financieros. Podemos operar como una entidad no incorporada, que es como hemos operado en el pasado, lo que significa que seguimos siendo viables de manera continua. Costo de $5,000 a $10,000 para organizaciones sin fines de lucro. Recomendación del abogado para ocuparse de nuestra obligación tributaria antes de convertirnos en una organización sin fines de lucro.
                 <br><br>

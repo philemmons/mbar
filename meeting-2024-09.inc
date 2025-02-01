@@ -122,7 +122,7 @@
                 <br>
                 Cost to review our financial;
                 <br>
-                Not all financial have been maintained or are in tact - Some binders on hand but not dating back to 1993;
+                Not all financial have been maintained or are in tact - Some binders on hand but not dating back;
                 <br>
                 $445/hour to review the financial, We can operate as an unincorporated entity, which is how we have operated in the past which means we remain viable on a rolling basis, $5,000-$10,000 cost for non-profit, Recommendation from attorney to take care of our tax liability prior to becoming a non-profit;
                 <br><br>
