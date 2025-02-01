@@ -1,4 +1,4 @@
-```markdown
+
 # Monterey Bay Area Roundup (MBAR)
 
 The Monterey Bay Area Roundup (MBAR) is an annual conference dedicated to fostering fellowship and personal growth among members of Alcoholics Anonymous (A.A.) and Al-Anon. Established in 1993, MBAR has become a significant event for individuals and families seeking support and connection in their recovery journeys. ([montereybayarearoundup.org](https://montereybayarearoundup.org/mbar_history.php?utm_source=chatgpt.com))
@@ -19,4 +19,3 @@ These activities aim to strengthen the bonds within the recovery community and p
 MBAR 2026 is scheduled for Labor Day weekend, with a virtual kick-off meeting on August 28, 2026, at 8:00 PM PDT, followed by in-person meetings on August 29th and 30th at the Monterey Conference Center. Registration is required for the in-person events. ([montereybayarearoundup.org](https://montereybayarearoundup.org/upcoming_event.php?utm_source=chatgpt.com))
 
 For more information, visit the official MBAR website: [montereybayarearoundup.org](https://montereybayarearoundup.org)
-``` 
