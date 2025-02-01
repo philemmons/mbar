@@ -151,7 +151,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <section aria-label="Orador 2017">
+                            <section aria-label="Orador 2019">
                                 <h3 class="card-title h6">
                                     <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:
                                 </h3>
