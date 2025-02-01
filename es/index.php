@@ -174,7 +174,7 @@ include_once 'header-bottom.inc';
                             <div class="card-body">
                                 <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Crecimiento y Legado</a>
                                 </p>
-                                <p class="card-text">Desde 1993, el Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
+                                <p class="card-text">El Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
                                     <br><br>
                                     A lo largo de su historia, el Roundup ha desempeñado un papel vital en las vidas de innumerables personas y familias, brindando un espacio donde pueden encontrar esperanza, sanación y compañerismo en su camino hacia la recuperación.
                                     <br><br>
