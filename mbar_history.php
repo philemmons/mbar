@@ -72,9 +72,9 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup since 1993.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup.">
                         <section aria-label="MBAR's history and purpose">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR was established in 1993 with our guiding principle:<br>"Keep It Simple."</span>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR was established with our guiding principle:<br>"Keep It Simple."</span>
                             </h3>
 
                             <p class="mb-6 h5 text-dark mb-3">The Monterey Bay Area Roundup is an annual event that brings together members of Alcoholics Anonymous (A.A.) and Al-Anon to support each other in the ongoing journey of recovery from alcoholism. With a rich history that reflects the spirit of community, service, and spirituality, the event has grown to become a cornerstone for the recovery community in the Monterey Bay region.</p>
@@ -100,52 +100,10 @@ include_once 'header-bottom.inc';
                         <div id="carouselExampleFade" class="carousel slide carousel-fade">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../images/2024.png" class="d-block w-100" alt="MBAR 2024">
-                                </div>
-                                <div class="carousel-item">
                                     <img src="../images/2022.png" class="d-block w-100" alt="MBAR 2022">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
                                 </div>
                             </div>
 
@@ -191,18 +149,18 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <section aria-label="2017 Speaker">
+                            <section aria-label="2019 Speaker">
                                 <h3 class="card-title h6">
                                     <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Audio Recording of Speakers
                                 </h3>
-                                <p class="card-text">Paul O. from 2017</p>
+                                <p class="card-text">Paul O. from 2019</p>
                                 <audio controls="">
-                                    <source src="../audio/2017/Paul-O.ogg" type="audio/ogg">
-                                    <source src="../audio/2017/Paul-O.mp3" type="audio/mpeg">
+                                    <source src="../audio/2019/Paul-O.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Paul-O.mp3" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
                                 <div class="d-grid gap-2 pt-3">
-                                    <a href="con-2017-paul-o.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
+                                    <a href="con-2019-paul-o.php" class="btn btn-outline-primary btn-sm">Read Transcript<span class="sr-only">(Opens a new window, click to go back)</span></a>
                                 </div>
                             </section>
                         </div>
@@ -221,18 +179,6 @@ include_once 'header-bottom.inc';
                                 </h3>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2024-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2024 Program<span class="sr-only">(Open pdf in browser)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2015-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2015 Program<span class="sr-only">(Open pdf in browser)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2014-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2014 Program<span class="sr-only">(Open pdf in browser)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-2003-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 2003 Program<span class="sr-only">(Open pdf in browser)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="pdf/MBAR-1997-program.pdf"><img src="images/icons/pdf-logo.png" width="30" height="30" alt="Adobe PDF icon"> 1997 Program<span class="sr-only">(Open pdf in browser)</span></a>
                                 </p>
                             </section>
                         </div>

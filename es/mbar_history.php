@@ -74,9 +74,9 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
-                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup desde 1993.">
+                    <div class="p-3 text-center text-bg-light hero-text-border" title="Monterey Bay Area Roundup.">
                         <section aria-label="Historia y propósito de MBAR">
-                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció en 1993 con nuestro principio rector:<br>"Manténgalo simple".</span>
+                            <h3 class="h4 fw-bold mb-3"><span class="text-dark px-3 px-md-0">MBAR se estableció con nuestro principio rector:<br>"Manténgalo simple".</span>
                             </h3>
 
                             <p class="mb-6 h5 text-dark mb-3">El Monterey Bay Area Roundup es un evento anual que reúne a miembros de Alcohólicos Anónimos (A.A.) y Al-Anon para apoyarse mutuamente en el continuo camino de recuperación del alcoholismo. Con una rica historia que refleja el espíritu de comunidad, servicio y espiritualidad, el evento ha crecido hasta convertirse en una piedra angular para la comunidad de recuperación en la región de la Bahía de Monterey.</p>
@@ -109,45 +109,6 @@ include_once 'header-bottom.inc';
                                 </div>
                                 <div class="carousel-item">
                                     <img src="../images/2019.png" class="d-block w-100" alt="MBAR 2019">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2015.png" class="d-block w-100" alt="MBAR 2015">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2014.png" class="d-block w-100" alt="MBAR 2014">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2013.png" class="d-block w-100" alt="MBAR 2013">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2011.png" class="d-block w-100" alt="MBAR 2011">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2009.png" class="d-block w-100" alt="MBAR 2009">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2007.png" class="d-block w-100" alt="MBAR 2007">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2005.png" class="d-block w-100" alt="MBAR 2005">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2003.png" class="d-block w-100" alt="MBAR 2003">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/2001.png" class="d-block w-100" alt="MBAR 2001">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1999.png" class="d-block w-100" alt="MBAR 1999">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1997.png" class="d-block w-100" alt="MBAR 1997">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1995.png" class="d-block w-100" alt="MBAR 1995">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../images/1993.png" class="d-block w-100" alt="MBAR 1993">
                                 </div>
                             </div>
                             <button class="btn btn-primary btn-lg mt-3 me-3" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -194,14 +155,14 @@ include_once 'header-bottom.inc';
                                 <h3 class="card-title h6">
                                     <i class="bi bi-mic me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Grabación de audio de los oradores Nota:
                                 </h3>
-                                <p class="card-text">Paul O. de 2017</p>
+                                <p class="card-text">Paul O. de 2019</p>
                                 <audio controls="">
-                                    <source src="../audio/2017/Paul-O.ogg" type="audio/ogg">
-                                    <source src="../audio/2017/Paul-O.mp3" type="audio/mpeg">
+                                    <source src="../audio/2019/Paul-O.ogg" type="audio/ogg">
+                                    <source src="../audio/2019/Paul-O.mp3" type="audio/mpeg">
                                     Su navegador no soporta el elemento de audio.
                                 </audio>
                                 <div class="d-grid gap-2 pt-3">
-                                    <a href="con-2017-paul-o.php" class="btn btn-outline-primary btn-sm">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
+                                    <a href="con-2019-paul-o.php" class="btn btn-outline-primary btn-sm">Abre la Transcripción<span class="sr-only">(Abre una nueva ventana, haz clic para regresar)</span></a>
                                 </div>
                             </section>
                         </div>
@@ -220,18 +181,6 @@ include_once 'header-bottom.inc';
                                 </h3>
                                 <p class="d-grid gap-2">
                                     <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2024-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2024 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2015-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2015 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2014-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2014 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-2003-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 2003 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
-                                </p>
-                                <p class="d-grid gap-2">
-                                    <a class="btn btn-outline-primary btn-sm" href="../pdf/MBAR-1997-program.pdf"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> 1997 Programa<span class="sr-only">(Abrir pdf en el navegador)</span></a>
                                 </p>
                             </section>
                         </div>

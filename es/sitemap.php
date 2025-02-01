@@ -165,7 +165,7 @@ include_once 'header-bottom.inc';
 
 							<li class="lpage"><a href="https://montereybayarearoundup.org/conference-2019.php" title="MBAR - 2019 Conference ">MBAR - 2019 Conference </a></li>
 
-							<li class="lpage"><a href="https://montereybayarearoundup.org/con-2017-paul-o.php" title="2017 A.A. Paul O. - Transcript">2017 A.A. Paul O. - Transcript</a></li>
+							<li class="lpage"><a href="https://montereybayarearoundup.org/con-2019-paul-o.php" title="2019 A.A. Paul O. - Transcript">2019 A.A. Paul O. - Transcript</a></li>
 
 							<li class="lpage"><a href="https://montereybayarearoundup.org/index.php" title="MBAR - Home ">MBAR - Home </a></li>
 
@@ -248,7 +248,7 @@ include_once 'header-bottom.inc';
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/conference-2019.php" title="MBAR - 2019 Conferencia ">MBAR - 2019 Conferencia </a></li>
 
-									<li class="lpage"><a href="https://montereybayarearoundup.org/es/con-2017-paul-o.php" title="2017 A.A. Paul O. - Transcripción">2017 A.A. Paul O. - Transcripción</a></li>
+									<li class="lpage"><a href="https://montereybayarearoundup.org/es/con-2019-paul-o.php" title="2019 A.A. Paul O. - Transcripción">2019 A.A. Paul O. - Transcripción</a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/con-2022-arthur.php" title="2022 A.A. Authur T. - Transcripción">2022 A.A. Authur T. - Transcripción</a></li>
 
@@ -346,14 +346,6 @@ include_once 'header-bottom.inc';
 									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/cornhole.pdf" title="https://montereybayarearoundup.org/pdf/cornhole.pdf">https://montereybayarearoundup.org/pdf/cornhole.pdf</a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/aa_trivia.pdf" title="https://montereybayarearoundup.org/pdf/aa_trivia.pdf">https://montereybayarearoundup.org/pdf/aa_trivia.pdf</a></li>
-
-									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/MBAR-2015-program.pdf" title="https://montereybayarearoundup.org/pdf/MBAR-2015-program.pdf">https://montereybayarearoundup.org/pdf/MBAR-2015-program.pdf</a></li>
-
-									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/MBAR-2014-program.pdf" title="https://montereybayarearoundup.org/pdf/MBAR-2014-program.pdf">https://montereybayarearoundup.org/pdf/MBAR-2014-program.pdf</a></li>
-
-									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/MBAR-2003-program.pdf" title="https://montereybayarearoundup.org/pdf/MBAR-2003-program.pdf">https://montereybayarearoundup.org/pdf/MBAR-2003-program.pdf</a></li>
-
-									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/MBAR-1997-program.pdf" title="https://montereybayarearoundup.org/pdf/MBAR-1997-program.pdf">https://montereybayarearoundup.org/pdf/MBAR-1997-program.pdf</a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/pdf/mbar-al-anon-speakers.pdf" title="https://montereybayarearoundup.org/pdf/mbar-al-anon-speakers.pdf">https://montereybayarearoundup.org/pdf/mbar-al-anon-speakers.pdf</a></li>
 
