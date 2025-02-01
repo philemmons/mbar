@@ -72,7 +72,7 @@ include_once 'header-bottom.inc';
     <article aria-label="Introducción al evento 2022">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4 ">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule">
                         <section aria-label=" Nuestros grupos">
                             <h3 class="fw-bold text-dark px-3 px-md-0">2022 A.A. Conferencia con participación de Al-Anon

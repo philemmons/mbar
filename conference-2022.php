@@ -40,7 +40,7 @@ include_once 'header-bottom.inc';
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                                                <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
+                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                         <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
                     </div>
                 </li>
@@ -70,8 +70,8 @@ include_once 'header-bottom.inc';
     <!-- Part One -->
     <article aria-label="2022 event introduction">
         <div class="container shadow-wrap">
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4 mb-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="Welcome to 2022 event schedule">
                         <section aria-label=" Introduction">
                             <h3 class="fw-bold text-dark px-3 px-md-0">2022 A.A. Conference with Al-Anon Participation

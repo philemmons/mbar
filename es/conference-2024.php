@@ -74,7 +74,7 @@ include_once 'header-bottom.inc';
     <article aria-label="Registro, motivo, ubicación y unidad del evento">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-10 col-lg-10 col-md-12 pt-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border" title="¡Emoción MBAR!">
                         <section aria-label="Área de registro">
                             <h3 class="fw-bold px-3 px-md-0">¡Nos complace anunciar nuestro próximo MBAR el fin de semana del Día del Trabajo!</h3>
