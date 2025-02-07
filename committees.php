@@ -123,7 +123,7 @@ include_once 'header-bottom.inc';
                                     <td>Cindy A.</td>
                                     <td>Mona S.</td>
                                     <td>Jean T.</td>
-                                    <td>Katherine J.</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">A.A. Recording Secretary</th>
