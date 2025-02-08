@@ -108,7 +108,7 @@ include_once 'header-bottom.inc';
                                     <td>--</td>
                                     <td>Phil C. </td>
                                     <td>Renee C.</td>
-                                    <td></td>
+                                    <td>Ali T.</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">Tesorero da A.A.</th>
@@ -279,7 +279,7 @@ include_once 'header-bottom.inc';
                                     <td>--</td>
                                     <td>Chris T.</td>
                                     <td>Samantha C.</td>
-                                    <td></td>
+                                    <td>Patricia W.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Decoraciones</th>
@@ -384,7 +384,7 @@ include_once 'header-bottom.inc';
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
-                                    <td></td>
+                                    <td>Jesse S.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Presidente de Rifas</th>

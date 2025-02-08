@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Dinner at 4pm
                                              <br>
-                                             Speaker: Surprise Guest at 5pm
+                                             Speaker: Tinia sharing her experience, strength, and hope at 5pm
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">

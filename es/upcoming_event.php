@@ -111,7 +111,7 @@ include_once 'header-bottom.inc';
                                              <br>
                                              Cena a las 4pm
                                              <br>
-                                             Orador: Invitado Sorpresa a las 5pm
+                                             Orador: Oradora: Tinia comparte su experiencia, fortaleza y esperanza a las 5 pm
                                         </p>
                                    </div>
                                    <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
