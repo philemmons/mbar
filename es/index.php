@@ -69,9 +69,9 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Contraseña:</strong> 2026
                         <br><br>
-                        ¡Únase a nuestra reunión de negocios, el 8 de Febrero a las 10 am, para conocer las responsabilidades de los puestos enumerados! Difusión, Copresidente de Difusión, Tesorero, Secretario, Hospitalidad, Copresidente de Medios Sociales, Enlace de GSR/IGR, Enlace de H&I, Premio de la rifa, Rifa 50/50, Registro y más.
+                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Abre la aplicación Zoom)</span></a>Únase a nuestra reunión de negocios</a>, el 8 de febrero a las 10 a. m., para conocer las responsabilidades de los puestos enumerados. Difusión, copresidente de difusión, tesorero, secretario, hospitalidad, copresidente de redes sociales, enlace de GSR/IGR, enlace de H&I, premio de la rifa, rifa 50/50, registro y más.
                         <br><br>
-                        Nota: Solo el Comité Directivo tiene los requisitos descritos en el PDF a continuación.
+                        Nota: Solo el Comité Directivo tiene requisitos descritos en el PDF a continuación.
                     </p>
                     <div class="card-footer text-center">
                         <small class="text-body-secondary"><a href="../pdf/steering-election-flyer.pdf" class="btn btn-primary"><img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF"> Más Información: Comité Directivo <span class="sr-only">(Abrir PDF en el navegador)</span></a></small>
