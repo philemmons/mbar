@@ -73,7 +73,8 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-sm-auto py-4">
-                    <a class="btn btn-primary btn-sm" href="#" rel="noopener noreferrer nofollow" target="_blank"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."><span class="sr-only">(Opens Zoom Application)</span></a>
+                    <a class="btn btn-primary btn-sm" href="Join Zoom Meeting
+https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><img class="img-fluid" src="../images/zoom-login.png" alt="Inverted Zoom login screen with blue background."><span class="sr-only">(Opens Zoom Application)</span></a>
                 </div>
                 <div class="col-md-8 py-4">
                     <div class="p-3 text-bg-light hero-text-border text-center">
