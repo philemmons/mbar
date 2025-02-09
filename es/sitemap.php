@@ -7,7 +7,7 @@ include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="navegación principal">
-    <div class="container my-1">
+	<div class="container my-1">
 		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -40,8 +40,9 @@ include_once 'header-bottom.inc';
 				<li class="nav-item dropdown">
 					<button class="nav-link dropdown-toggle" type="button" id="dropdown-próximos-eventos" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Próximos Eventos</button>
 					<div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
-						<a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
 						<a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
+						<a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
+						<a class="dropdown-item" href="al-anon-with-aa-event.php">Participación en Al-Anon con A.A.</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -516,15 +517,15 @@ include_once 'header-bottom.inc';
 	<aside aria-label="grupo privado de facebook">
 		<div class="row justify-content-md-center">
 			<div class="col-sm-12 col-md-10 shadow text-center">
-			<hr>
-                <h4 class="text-center">
-                    <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">
-                        <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupo privado de miembros de AA."><span class="sr-only">(Abre una nueva ventana)</span></a>
-                    <strong>Únete a un grupo privado</strong>
-                    <a href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow">
-                        <img src="../images/instagram.png" width="40" alt="Logotipo de Instagram para grupo privado de miembros de AA."><span class="sr-only">(Abre una nueva ventana)</span></a>
-                </h4>
-                <hr>
+				<hr>
+				<h4 class="text-center">
+					<a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">
+						<img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupo privado de miembros de AA."><span class="sr-only">(Abre una nueva ventana)</span></a>
+					<strong>Únete a un grupo privado</strong>
+					<a href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow">
+						<img src="../images/instagram.png" width="40" alt="Logotipo de Instagram para grupo privado de miembros de AA."><span class="sr-only">(Abre una nueva ventana)</span></a>
+				</h4>
+				<hr>
 			</div>
 		</div>
 	</aside>

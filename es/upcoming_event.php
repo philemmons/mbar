@@ -7,7 +7,7 @@ include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="navegación principal">
-    <div class="container my-1">
+     <div class="container my-1">
           <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,6 +42,7 @@ include_once 'header-bottom.inc';
                          <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
                               <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                               <a class="dropdown-item active" aria-current="page" href="upcoming_event.php">Comida Compartida de San Patricio<span class="visually-hidden">(actual)</span></a>
+                              <a class="dropdown-item" href="al-anon-with-aa-event.php">Participación en Al-Anon con A.A.</a>
                          </div>
                     </li>
                     <li class="nav-item">

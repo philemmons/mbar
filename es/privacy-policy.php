@@ -42,6 +42,7 @@ include_once 'header-bottom.inc';
                     <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
                         <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                         <a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
+                        <a class="dropdown-item" href="al-anon-with-aa-event.php">Participación en Al-Anon con A.A.</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -600,7 +601,7 @@ include_once 'header-bottom.inc';
     <aside aria-label="grupo privado de facebook">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
-            <hr>
+                <hr>
                 <h4 class="text-center">
                     <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">
                         <img src="../images/facebook_logo.png" width="40" alt="Logotipo de Facebook para grupo privado de miembros de AA."><span class="sr-only">(Abre una nueva ventana)</span></a>

@@ -138,7 +138,6 @@ include_once 'header-bottom.inc';
                                         <br>
                                         Fellowship
                                     </p>
-                                    </p>
                                 </div>
                             </div>
                             <p class="text-dark fs-4">

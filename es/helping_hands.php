@@ -42,6 +42,7 @@ include_once 'header-bottom.inc';
                     <div class="dropdown-menu" aria-labelledby="dropdown-próximos-eventos">
                         <a class="dropdown-item" href="logo_contest.php">Concurso de Logotipos</a>
                         <a class="dropdown-item" href="upcoming_event.php">Comida Compartida de San Patricio</a>
+                        <a class="dropdown-item" href="al-anon-with-aa-event.php">Participación en Al-Anon con A.A.</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -274,7 +275,7 @@ include_once 'header-bottom.inc';
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-sm-6 py-5">
-                              
+
                                 <p class="text-center pt-4"><?php echo getenv('mbar-venmo') ?></p>
                                 <p class="text-center"><a href="https://venmo.com" class="bb-link" target="_blank" rel="noopener noreferrer" title="Enlace de código QR de PayPal">Enlace de código QR de Venmo<span class="sr-only">(Abre una nueva ventana)</span></a></p>
                             </div>
