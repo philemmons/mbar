@@ -298,6 +298,10 @@ nav {
   background-image: url("../images/zen-stones-sunrise-beach-ai.png");
 }
 
+.bg-img-participation{
+  background-image: url("../images/gratitude-rock.png");
+}
+
 .shadow-wrap {
   box-shadow: 0 0 8px 2px var(--color-8);
 }
