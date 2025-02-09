@@ -48,8 +48,11 @@ include_once 'header-bottom.inc';
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contacto<span class="visually-hidden">(current)</span></a>
                 </li>
-                <li class="nav-item" style="border-right: none;">
+                <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="helping_hands.php">Manos Amigas<span class="visually-hidden">(actual)</span></a>
+                </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link" href="/">Inglés</a>
                 </li>
             </ul>
         </div>
