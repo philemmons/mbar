@@ -40,8 +40,9 @@ include_once 'header-bottom.inc';
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                                                <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
+                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                         <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
+                        <a class="dropdown-item" href="al-anon-with-aa-event.php">Al-Anon with A.A. Participation</a>
                     </div>
                 </li>
                 <li class="nav-item">

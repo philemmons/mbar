@@ -40,8 +40,9 @@ include_once 'header-bottom.inc';
                 <li class="nav-item dropdown">
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
-                                                <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
+                        <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
                         <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
+                        <a class="dropdown-item" href="al-anon-with-aa-event.php">Al-Anon with A.A. Participation</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -161,7 +162,7 @@ include_once 'header-bottom.inc';
     <aside aria-label="private facebook group">
         <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-10 shadow text-center">
-            <hr>
+                <hr>
                 <h4 class="text-center">
                     <a href="https://www.facebook.com/groups/MBAR2021/" target="_blank" rel="noopener noreferrer nofollow">
                         <img src="../images/facebook_logo.png" width="40" alt="Facebook logo for private group of AA members."><span class="sr-only">(Opens a new window)</span></a>
