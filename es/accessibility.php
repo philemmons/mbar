@@ -190,7 +190,7 @@ include_once 'header-bottom.inc';
                 </p>
             </div>
             <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="menú de pie de página">
-                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav mx-auto mt-2 mt-xl-0">
                     <li class="nav-item">
                         <a class="nav-link nav-link-size active" href="accessibility.php" aria-current="page">Accesibilidad del Sitio<span class="visually-hidden">(actual)</span></a>
                     </li>
