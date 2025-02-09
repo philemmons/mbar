@@ -77,10 +77,12 @@ include_once 'header-bottom.inc';
                         <section aria-label="Event Information">
                             <h3 class="card-title px-3 px-md-0">
                                 <img src="images/icons/alanon-icon.png" width="30" height="30" alt="Al-Anon icon">
-                                <strong>Monday Night Serenity - 41st Anniversary</strong>
+                                <strong>Monday Night Serenity</strong>
                                 <img src="images/icons/aa-icon.png" width="30" height="30" alt="A.A icon">
+                                <br>
+                                <strong>41st Anniversary</strong>
                             </h3>
-                            <p class="fs-3 text-dark">"Honoring the Past, Embracing the Future"</p>
+                            <p class="fs-4 text-dark">"Honoring the Past, Embracing the Future"</p>
                         </section>
                         <img class="img-fluid" src="../images/al-anon-with-aa-event.png" alt="Al-Anon with A.A. Participation flyer">
                     </div>
@@ -96,10 +98,10 @@ include_once 'header-bottom.inc';
                     <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Flyer description">
                             <h3 class="card-title"><strong>Party Date, Time, and Schedule</strong></h3>
-                            <p class="fs-3">Monday, February 17th</p>
-                            <div class="row fw-bold">
+                            <p class="fs-4">Monday, February 17th</p>
+                            <div class="row">
                                 <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                    <p class="">
+                                    <p class=" fw-bold">
                                         5:30pm
                                         <br>
                                         Doors Open
@@ -110,24 +112,24 @@ include_once 'header-bottom.inc';
                                         <br>
                                         Meeting Commences
                                         <br><br>
-                                        7:15pm
-                                        <br>
-                                        Al-Anon Speaker: Father Tom W.
-                                        <br>
-                                        Oakland, CA.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                    <p class="">
                                         6:30pm
                                         <br>
                                         A.A. Speaker: Melanie Y.
                                         <br>
                                         Sand City, CA.
-                                        <br><br>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
+                                    <p class=" fw-bold">
                                         7:00pm
                                         <br>
                                         Break
+                                        <br><br>
+                                        7:15pm
+                                        <br>
+                                        Al-Anon Speaker: Father Tom W.
+                                        <br>
+                                        Oakland, CA.
                                         <br><br>
                                         8:15pm
                                         <br>
@@ -138,8 +140,11 @@ include_once 'header-bottom.inc';
                                     </p>
                                 </div>
                             </div>
-                            <p class="text-dark fs-3">
-                                First Presbyterian Church of Monterey, 501 El Dorado, Monterey, CA
+                            <p class="text-dark fs-4">
+                                First Presbyterian Church of Monterey
+                                <br>
+                                501 El Dorado
+                                <br>Monterey, CA.
                             </p>
                         </section>
                     </div>
