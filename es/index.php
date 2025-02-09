@@ -122,7 +122,7 @@ include_once 'header-bottom.inc';
                                     <br><br>
                                     Únase a nosotros el lunes 17 de Febrero en la Primera Iglesia Presbiteriana de Monterey, ubicada en 501 El Dorado, Monterey, CA.
                                 <ul>
-                                    <li>Las puertas abren a las 5:30 pm</li>
+                                    <li>Las puertas abren a las 5:30pm</li>
                                     <li>Se ofrecerán refrigerios ligeros</li>
                                     <li>Melanie Y., oradora de A.A.</li>
                                     <li>Padre Tom W., orador de Al-Anon</li>
@@ -164,118 +164,121 @@ include_once 'header-bottom.inc';
                             <small class="text-body-secondary"><a href="upcoming_event.php" class="btn btn-primary">Próximo evento</a></small>
                         </div>
                     </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nueva Página de Instagram
+                            </p>
+                            <p class="card-text"> ¡En vivo! ¡Página oficial de Instagram de MBAR 2026! Esta cuenta <strong>privada</strong> garantiza un espacio seguro y de apoyo para que nuestras comunidades compartan actualizaciones, generen entusiasmo y demuestren la espiritualidad que estamos encontrando entre nosotros. "¡Insistimos absolutamente en disfrutar la vida!"
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Abre una nueva ventana)</span>MBAR2026 Instagram</a></small>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Part Two -->
-                <div class="container">
-                    <div class="row justify-content-center mb-5">
-                        <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                            <div class="card h-100 shadow-wrap">
-                                <div class="card-body">
-                                    <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Nueva Página de Instagram
-                                    </p>
-                                    <p class="card-text"> ¡En vivo! ¡Página oficial de Instagram de MBAR 2026! Esta cuenta <strong>privada</strong> garantiza un espacio seguro y de apoyo para que nuestras comunidades compartan actualizaciones, generen entusiasmo y demuestren la espiritualidad que estamos encontrando entre nosotros. "¡Insistimos absolutamente en disfrutar la vida!"
-                                    </p>
-                                </div>
-                                <div class="card-footer text-center">
-                                    <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Abre una nueva ventana)</span>MBAR2026 Instagram</a></small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                            <div class="card h-100 shadow-wrap">
-                                <div class="card-body">
-                                    <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitud y Reflexión</a>
-                                    </p>
-                                    <p class="card-text">Agradecemos sinceramente a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. Su participación, ya sea asistiendo, trabajando como voluntarios o brindando apoyo, ayudó a fomentar una atmósfera de compañerismo, recuperación y conexión.
-                                        <br><br>
-                                        Al regresar a nuestra vida diaria, reflexionemos sobre las lecciones y los conocimientos que compartimos y sigamos llevando el mensaje de recuperación a quienes lo necesitan. ¡Manténgase conectado, siga viniendo y esperamos verlo en futuras reuniones!
-                                    </p>
-                                    <div class="card-footer text-center">
-                                        <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>
-                                    </div>
-                                </div>
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitud y Reflexión</a>
+                            </p>
+                            <p class="card-text">Agradecemos sinceramente a todos los que participaron y contribuyeron al éxito de nuestra reciente conferencia de A.A. Su participación, ya sea asistiendo, trabajando como voluntarios o brindando apoyo, ayudó a fomentar una atmósfera de compañerismo, recuperación y conexión.
+                                <br><br>
+                                Al regresar a nuestra vida diaria, reflexionemos sobre las lecciones y los conocimientos que compartimos y sigamos llevando el mensaje de recuperación a quienes lo necesitan. ¡Manténgase conectado, siga viniendo y esperamos verlo en futuras reuniones!
+                            </p>
+                            <div class="card-footer text-center">
+                                <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">Calendario de Conferencias 2024</a></small>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class=" row justify-content-center mb-5">
-                        <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                            <div class="card h-100 shadow-wrap">
-                                <div class="card-body">
-                                    <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Crecimiento y Legado</a>
-                                    </p>
-                                    <p class="card-text">El Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
-                                        <br><br>
-                                        A lo largo de su historia, el Roundup ha desempeñado un papel vital en las vidas de innumerables personas y familias, brindando un espacio donde pueden encontrar esperanza, sanación y compañerismo en su camino hacia la recuperación.
-                                        <br><br>
-                                        Explore conferencias pasadas, folletos y grabaciones de oradores de A.A./Al-Anon para echar un vistazo a nuestro próximo MBAR.
-                                    </p>
-                                </div>
-                                <div class="card-footer text-center">
-                                    <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
-                                </div>
-                            </div>
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Crecimiento y Legado</a>
+                            </p>
+                            <p class="card-text">El Monterey Bay Area Roundup (MBAR) ha crecido de manera constante en tamaño e importancia desde su inicio. A medida que el evento continúa evolucionando, sigue estando profundamente arraigado en los principios espirituales de A.A. y Al-Anon, con un fuerte enfoque en fomentar el crecimiento personal, el apoyo mutuo y el desarrollo espiritual.
+                                <br><br>
+                                A lo largo de su historia, el Roundup ha desempeñado un papel vital en las vidas de innumerables personas y familias, brindando un espacio donde pueden encontrar esperanza, sanación y compañerismo en su camino hacia la recuperación.
+                                <br><br>
+                                Explore conferencias pasadas, folletos y grabaciones de oradores de A.A./Al-Anon para echar un vistazo a nuestro próximo MBAR.
+                            </p>
                         </div>
-
-
-                        <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                            <div class="card h-100 shadow-wrap">
-                                <div class="card-body">
-                                    <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>¿Por qué tenemos MBAR?
-                                    </p>
-
-                                    <p class="card-text">Las convenciones de A.A. son más que simples reuniones sociales; son retiros espirituales, oportunidades educativas y celebraciones de la sobriedad que ayudan a las personas y a las familias a mantenerse conectadas con los principios de Alcohólicos Anónimos. Fomentan la camaradería, brindan oportunidades para el crecimiento personal y espiritual y sirven como recordatorio de que la recuperación es un viaje que dura toda la vida, apoyado por la comunidad y un Poder Superior.
-                                    </p>
-                                    <p class="card-text text-center">El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
-                                        <br>
-                                        <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
-                                        <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
-                                    </p>
-                                    <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
-                                    </p>
-                                    <p class="card-text text-center">Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá por fin algún significado. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
-                                        <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
-                                        <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
-                                    </p>
-                                    <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la preocupación. Su imaginación se encenderá. La vida tendrá algún significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontramos la comunidad, y usted también la encontrará."
-                                    </p>
-                                </div>
-                                <div class="card-footer text-center">
-                                    <small class="text-body-secondary"><a href="memories.php" class="btn btn-primary">Recuerdos de Eventos</a></small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                            <div class="card h-100 shadow-wrap">
-                                <div class="card-body">
-                                    <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Actividades y Aspectos Destacados</a>
-                                    </p>
-                                    <p class="card-text">A lo largo de los años, Monterey Bay Area Roundup ha crecido hasta incluir una variedad de actividades que apoyan el crecimiento personal y espiritual, entre ellas:
-                                    </p>
-
-                                    <ul>
-                                        <li><strong>Reuniones de oradores</strong>: En estas sesiones, a menudo participan miembros de A.A. o Al-Anon que comparten sus historias de experiencia, fortaleza y esperanza.
-                                        </li>
-                                        <li><strong>Talleres y paneles</strong>: Los temas cubren los aspectos prácticos de mantener la sobriedad, como el apadrinamiento, el bienestar emocional y la conexión espiritual.
-                                        </li>
-                                        <li><strong>Eventos sociales y de confraternidad</strong>: Los bailes, las comidas y las reuniones informales brindan oportunidades para que los participantes se relacionen y compartan experiencias fuera de las reuniones formales.
-                                        </li>
-                                        <li><strong>Voluntariado y servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. y Al-Anon como un elemento clave de la recuperación.
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <div class="card-footer text-center">
-                                    <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Ver 2024 Actividades</a></small>
-                                </div>
-                            </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">Historia de MBAR</a></small>
                         </div>
                     </div>
-
                 </div>
+
+
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>¿Por qué tenemos MBAR?
+                            </p>
+
+                            <p class="card-text">Las convenciones de A.A. son más que simples reuniones sociales; son retiros espirituales, oportunidades educativas y celebraciones de la sobriedad que ayudan a las personas y a las familias a mantenerse conectadas con los principios de Alcohólicos Anónimos. Fomentan la camaradería, brindan oportunidades para el crecimiento personal y espiritual y sirven como recordatorio de que la recuperación es un viaje que dura toda la vida, apoyado por la comunidad y un Poder Superior.
+                            </p>
+                            <p class="card-text text-center">El contacto frecuente con los recién llegados y entre nosotros es el punto brillante de nuestras vidas.
+                                <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_7_P-89.pdf">Big Book pág. 89<span class="sr-only">(Abrir el pdf en el navegador)</span></a>
+                            </p>
+                            <p class="sr-only">(Este es el párrafo de la página 89 anterior.) "La vida adquirirá un nuevo significado. Ver a las personas recuperarse, verlas ayudar a otros, ver cómo se desvanece la soledad, ver cómo se forma una comunidad a tu alrededor, tener una multitud de amigos: ésta es una experiencia que no debes perderte. Sabemos que no querrás perdértela".
+                            </p>
+                            <p class="card-text text-center">Es una comunidad en Alcohólicos Anónimos. Allí encontrarás liberación de la preocupación, el aburrimiento y la ansiedad. Tu imaginación se encenderá. La vida tendrá por fin algún significado. Los años más satisfactorios de tu existencia están por venir. Así, nosotros encontramos la comunión, y tú también la encontrarás. <br>
+                                <img src="../images/icons/pdf-logo.png" width="30" height="30" alt="Icono de Adobe PDF">
+                                <a class="btn btn-link bb-link" href="../pdf/BIG-BOOK-CHAPTER_11_P-152.pdf">Big Book pág. 152<span class="sr-only">(Abrir el PDF en el navegador)</span></a>
+                            </p>
+                            <p class="sr-only">(Este es el párrafo de la página 152 anterior.)"Sí, hay un sustituto y es mucho más que eso. Es una comunidad en Alcohólicos Anónimos. Allí encontrará liberación de la preocupación, el aburrimiento y la preocupación. Su imaginación se encenderá. La vida tendrá algún significado por fin. Los años más satisfactorios de su existencia están por venir. Así encontramos la comunidad, y usted también la encontrará."
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="memories.php" class="btn btn-primary">Recuerdos de Eventos</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Actividades y Aspectos Destacados</a>
+                            </p>
+                            <p class="card-text">A lo largo de los años, Monterey Bay Area Roundup ha crecido hasta incluir una variedad de actividades que apoyan el crecimiento personal y espiritual, entre ellas:
+                            </p>
+
+                            <ul>
+                                <li><strong>Reuniones de oradores</strong>: En estas sesiones, a menudo participan miembros de A.A. o Al-Anon que comparten sus historias de experiencia, fortaleza y esperanza.
+                                </li>
+                                <li><strong>Talleres y paneles</strong>: Los temas cubren los aspectos prácticos de mantener la sobriedad, como el apadrinamiento, el bienestar emocional y la conexión espiritual.
+                                </li>
+                                <li><strong>Eventos sociales y de confraternidad</strong>: Los bailes, las comidas y las reuniones informales brindan oportunidades para que los participantes se relacionen y compartan experiencias fuera de las reuniones formales.
+                                </li>
+                                <li><strong>Voluntariado y servicio</strong>: Muchos participantes ofrecen su tiempo y esfuerzo como voluntarios para ayudar a organizar el evento, lo que refleja la tradición de servicio de A.A. y Al-Anon como un elemento clave de la recuperación.
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">Ver 2024 Actividades</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <!-- Part Three -->
