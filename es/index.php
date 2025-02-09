@@ -6,8 +6,8 @@ echo '<link rel="canonical" href= "https://montereybayarearoundup.org/es/index.p
 include_once 'header-bottom.inc';
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="menú principal">
-    <div class="container">
+<nav class="navbar navbar-expand-lg" aria-label="navegación principal">
+    <div class="container my-1">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
