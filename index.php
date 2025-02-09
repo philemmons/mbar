@@ -116,9 +116,9 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/alanon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Participation</a>
+                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/alanon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Event</a>
                             </p>
-                            <p class="card-text">Monday Night Serenity is celebrating its 41st Anniversary with the theme "Honoring the Past, Embracing the Future."
+                            <p class="card-text">Al-Anon's Monday Night Serenity is celebrating its <strong>41st</strong> Anniversary with the theme "Honoring the Past, Embracing the Future."
                                 <br><br>
                                 Join us Monday, February 17th, at the First Presbyterian Church of Monterey, located at 501 El Dorado, Monterey, CA.
                             <ul>
@@ -129,7 +129,7 @@ include_once 'header-bottom.inc';
                                 <li>Cake and Fellowship</li>
                             </ul>
                             <br>
-                            This special gathering will bring together Al-Anon and AA participants for a night of unity, recovery, and celebration.
+                            This special gathering will bring together Al-Anon and A.A. participants for a night of unity, recovery, and celebration.
                             </p>
                         </div>
                         <div class="card-footer text-center">
