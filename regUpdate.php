@@ -104,13 +104,13 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
 
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
+<nav class="navbar navbar-expand-xl" aria-label="main menu">
     <div class="container my-1">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mx-auto mt-2 mt-xl-0">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>

@@ -6,13 +6,13 @@ echo '<link rel="canonical" href= "https://montereybayarearoundup.org/sitemap.ph
 include_once 'header-bottom.inc';
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
-	<div class="container">
-		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-xl" aria-label="main menu">
+	<div class="container my-1">
+		<button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavId">
-			<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+			<ul class="navbar-nav mx-auto mt-2 mt-xl-0">
 				<li class="nav-item">
 					<a class="nav-link" href="/">Home</a>
 				</li>
@@ -549,7 +549,7 @@ include_once 'header-bottom.inc';
 				</p>
 			</div>
 			<nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">
-				<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+				<ul class="navbar-nav mx-auto mt-2 mt-xl-0">
 					<li class="nav-item">
 						<a class="nav-link nav-link-size" href="accessibility.php">Site Accessibility</a>
 					</li>
