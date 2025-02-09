@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Password:</strong> 2026
                         <br><br>
-                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Opens Zoom Application)</span>Join our business meeting</a>, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
+                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Opens Zoom Application)</span>Join our business meeting</a>, March 8th at 10am, to hear about the responsibilities of the listed positions! Co-Chair Outreach, Treasurer, Co-Treasurer, Secretary, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, Dance, Dinner,and more!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>
@@ -116,6 +116,32 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
+                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/al-anon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Participation</a>
+                            </p>
+                            <p class="card-text">Monday Night Serenity is celebrating its 41st Anniversary with the theme "Honoring the Past, Embracing the Future."
+                                <br><br>
+                                Join us Monday, February 17th, at the First Presbyterian Church of Monterey, located at 501 El Dorado, Monterey, CA.
+                            <ul>
+                                <li>Doors open at 5:30pm</li>
+                                <li>Light Refreshments Available</li>
+                                <li>A.A. Speaker, Melanie Y.</li>
+                                <li>Al-Anon speaker, Father Tom W.</li>
+                                <li>Cake and Fellowship</li>
+                            </ul>
+                            <br>
+                            This special gathering will bring together Al-Anon and AA participants for a night of unity, recovery, and celebration.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="al-anon-with-aa-event.php" class="btn btn-primary">Al-Anon with A.A.</a></small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
                             <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/big-shamrock.png" width="40" height="40" alt="Shamrock icon" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">St. Patrick's Potluck</a>
                             </p>
                             <p class="card-text">Our annual St. Patrick's Potluck and Speaker Meeting is Sunday, 03/16/25 at 437 Laureles Grade, Carmel Valley. The doors open at 3pm, dinner is at 4pm, and Tinia sharing her experience, strength, and hope at 5pm.
@@ -140,7 +166,12 @@ include_once 'header-bottom.inc';
                     </div>
 
                 </div>
+            </div>
+        </div>
 
+        <!-- Part Two -->
+        <div class="container">
+            <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -153,14 +184,8 @@ include_once 'header-bottom.inc';
                             <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Opens a new window)</span>MBAR2026 Instagram</a></small>
                         </div>
                     </div>
-
                 </div>
-            </div>
-        </div>
 
-        <!-- Part Two -->
-        <div class="container">
-            <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
@@ -175,10 +200,11 @@ include_once 'header-bottom.inc';
                             <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
                         </div>
                     </div>
-
                 </div>
+            </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+            <div class=" row justify-content-center mb-5">
+                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Growth and Legacy</a>
@@ -192,22 +218,6 @@ include_once 'header-bottom.inc';
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-translate me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="https://montereybayarearoundup.org/es/" class="bb-link">Spanish Translation</a>
-                            </p>
-                            <p class="card-text">Translating a website into Spanish is important because it ensures that essential recovery resources are accessible to Spanish-speaking individuals. In Alcoholics Anonymous(A.A.) and Al-Anon, inclusivity is key to reaching as many people as possible who need support. By offering a Spanish-language version of the site, we can better serve the diverse needs of our community, making sure that everyone, regardless of language, has the opportunity to find help and connect with others on their recovery journey.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="https://montereybayarearoundup.org/es/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Spanish Website<span class="sr-only">(Opens a new window)</span></a></small>
                         </div>
                     </div>
                 </div>
@@ -265,36 +275,6 @@ include_once 'header-bottom.inc';
                         </div>
                     </div>
                 </div>
-
-                <!--
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-cup-hot-fill me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>2024 Marathon Meetings
-                            </p>
-                            <p class="card-text">Marathon meetings are a crucial part of A.A. and Al-Anon conventions because they provide continuous support and fellowship for all. These meetings offer a space for members to share their experiences, strength, and hope around the clock, ensuring that help is always available when needed.
-                                <br><br>
-                                If you would like to be of service, or be a speaker at a meeting or submit your marathon meeting schedule, please contact our A.A Marathon Chair: Mark S. or our Spanish-Speaking Chair: Robert or our Al-Anon Marathon Chair: Olya O.
-                            </p>
-                        </div>
-
-                        <div class="card-footer text-center">
-                            <div class="row">
-                                <div class="col-sm-7 text-center mb-2 mb-sm-0">
-                                    <small class="text-body-secondary"><a href="aa-spanish-marathon-2024.php" class="btn btn-primary">Spanish A.A. Meetings</a></small>
-                                </div>
-                                <div class="col-sm-5 text-center mb-2 mb-sm-0">
-                                    <small class="text-body-secondary"><a href="aa-marathon-2024.php" class="btn btn-primary">A.A. Meetings</a></small>
-                                </div>
-                                <div class="col-sm-12 text-center mt-sm-2">
-                                    <small class="text-body-secondary"><a href="al-anon-marathon-2024.php" class="btn btn-primary">Al-Anon Meetings</a></small>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </article>
