@@ -6,9 +6,9 @@ echo '<link rel="canonical" href= "https://montereybayarearoundup.org/activities
 include_once 'header-bottom.inc';
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main navigation">
+<nav class="navbar navbar-expand-xl" aria-label="main navigation">
     <div class="container my-1">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
