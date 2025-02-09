@@ -79,9 +79,9 @@ include_once 'header-bottom.inc';
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Información del evento">
                             <h3 class="card-title px-3 px-md-0">
-                                <img src="images/icons/alanon-icon.png" width="30" height="30" alt="Ícono de Al-Anon">
+                                <img src="../images/icons/alanon-icon.png" width="30" height="30" alt="Ícono de Al-Anon">
                                 <strong>Serenidad del Lunes por la Noche</strong>
-                                <img src="images/icons/aa-icon.png" width="30" height="30" alt="A.A icon">
+                                <img src="../images/icons/aa-icon.png" width="30" height="30" alt="A.A icon">
                                 <br>
                                 <strong>41.º Aniversario</strong>
                             </h3>
