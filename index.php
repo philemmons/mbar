@@ -6,13 +6,13 @@ echo '<link rel="canonical" href= "https://montereybayarearoundup.org/" >';
 include_once 'header-bottom.inc';
 ?>
 
-<nav class="navbar navbar-expand-lg" aria-label="main menu">
+<nav class="navbar navbar-expand-xl" aria-label="main menu">
     <div class="container my-1">
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mx-auto mt-2 mt-xl-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Home<span class="visually-hidden">(current)</span></a>
                 </li>
@@ -48,8 +48,11 @@ include_once 'header-bottom.inc';
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-                <li class="nav-item" style="border-right: none;">
+                <li class="nav-item">
                     <a class="nav-link" href="helping_hands.php">Helping Hands</a>
+                </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link" href="/es/">Spanish</a>
                 </li>
             </ul>
         </div>
