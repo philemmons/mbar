@@ -162,8 +162,11 @@ if (isset($_POST['submitInsert'])) {  //admin has submitted the "new user" form
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-                <li class="nav-item style=" border-right: none;">
+                <li class="nav-item">
                     <a class="nav-link" href="helping_hands.php">Helping Hands</a>
+                </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link" href="/es/">Spanish</a>
                 </li>
             </ul>
         </div>

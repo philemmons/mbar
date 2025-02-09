@@ -51,6 +51,9 @@ include_once 'header-bottom.inc';
                 <li class="nav-item" style="border-right: none;">
                     <a class="nav-link active" aria-current="page" href="helping_hands.php">Helping Hands<span class="visually-hidden">(current)</span></a>
                 </li>
+                <li class="nav-item" style="border-right: none;">
+                    <a class="nav-link" href="/es/">Spanish</a>
+                </li>
             </ul>
         </div>
     </div>

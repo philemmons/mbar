@@ -47,8 +47,11 @@ include_once 'header-bottom.inc';
 				<li class="nav-item">
 					<a class="nav-link" href="contact.php">Contact</a>
 				</li>
-				<li class="nav-item" style="border-right: none;">
+				<li class="nav-item">
 					<a class="nav-link" href="helping_hands.php">Helping Hands</a>
+				</li>
+				<li class="nav-item" style="border-right: none;">
+					<a class="nav-link" href="/es/">Spanish</a>
 				</li>
 			</ul>
 		</div>
@@ -234,7 +237,7 @@ include_once 'header-bottom.inc';
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/upcoming_event.php" title="MBAR - Próximos Eventos ">MBAR - Próximos Eventos </a></li>
 
-									<li class="lpage"><a href="https://montereybayarearoundup.org/es/al-anon-with-aa-event.php" title="MBAR - Participación en Al-Anon con A.A. ">MBAR - Participación en Al-Anon con A.A.  </a></li>
+									<li class="lpage"><a href="https://montereybayarearoundup.org/es/al-anon-with-aa-event.php" title="MBAR - Participación en Al-Anon con A.A. ">MBAR - Participación en Al-Anon con A.A. </a></li>
 
 									<li class="lpage"><a href="https://montereybayarearoundup.org/es/contact.php" title="MBAR - Contacto ">MBAR - Contacto </a></li>
 

@@ -7,7 +7,7 @@ include_once 'header-bottom.inc';
 ?>
 
 <nav class="navbar navbar-expand-lg" aria-label="main navigation">
-    <div class="container my-1">
+     <div class="container my-1">
           <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
           </button>
@@ -48,8 +48,11 @@ include_once 'header-bottom.inc';
                     <li class="nav-item">
                          <a class="nav-link" href="contact.php">Contact</a>
                     </li>
-                    <li class="nav-item" style="border-right: none;">
+                    <li class="nav-item">
                          <a class="nav-link" href="helping_hands.php">Helping Hands</a>
+                    </li>
+                    <li class="nav-item" style="border-right: none;">
+                         <a class="nav-link" href="/es/">Spanish</a>
                     </li>
                </ul>
           </div>
