@@ -97,7 +97,8 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Flyer description">
-                            <h3 class="card-title"><strong>Party Date, Time, and Schedule</strong></h3>
+                            <h3 class="card-title"><strong>Occasion Date, Time, and Schedule</strong></h3>
+                            <hr>
                             <p class="fs-4">Monday, February 17th</p>
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
