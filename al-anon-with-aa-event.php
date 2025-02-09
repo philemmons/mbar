@@ -75,12 +75,12 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Event Information">
-                            <h3 class="card-title mb-4 px-3 px-md-0">
+                            <h3 class="card-title px-3 px-md-0">
                                 <img src="images/icons/alanon-icon.png" width="30" height="30" alt="Al-Anon icon">
                                 <strong>Monday Night Serenity - 41st Anniversary</strong>
                                 <img src="images/icons/aa-icon.png" width="30" height="30" alt="A.A icon">
                             </h3>
-                            <p class="fs-2 text-dark">"Honoring the Past, Embracing the Future"</p>
+                            <p class="fs-3 text-dark">"Honoring the Past, Embracing the Future"</p>
                         </section>
                         <img class="img-fluid" src="../images/al-anon-with-aa-event.png" alt="Al-Anon with A.A. Participation flyer">
                     </div>
@@ -95,7 +95,7 @@ include_once 'header-bottom.inc';
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
                     <div class="p-3 text-bg-light hero-text-border text-center">
                         <section aria-label="Flyer description">
-                            <h3 class="card-title mb-4"><strong>Event Date, Time, and Schedule</strong></h3>
+                            <h3 class="card-title"><strong>Party Date, Time, and Schedule</strong></h3>
                             <p class="fs-3">Monday, February 17th</p>
                             <div class="row fw-bold">
                                 <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
@@ -138,7 +138,7 @@ include_once 'header-bottom.inc';
                                     </p>
                                 </div>
                             </div>
-                            <p class="text-dark ">
+                            <p class="text-dark fs-3">
                                 First Presbyterian Church of Monterey, 501 El Dorado, Monterey, CA
                             </p>
                         </section>
