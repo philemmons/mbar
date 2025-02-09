@@ -41,8 +41,8 @@ include_once 'header-bottom.inc';
                     <button class="nav-link dropdown-toggle" type="button" id="dropdown-upcoming-events" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Upcoming Events</button>
                     <div class="dropdown-menu" aria-labelledby="dropdown-upcoming-events">
                         <a class="dropdown-item" href="logo_contest.php">Logo Contest</a>
-                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck<span class="visually-hidden">(current)</span></a>
-                        <a class="dropdown-item active" aria-current="page" href="al-anon-with-aa-event.php">Al-Anon with A.A. Participation</a>
+                        <a class="dropdown-item" href="upcoming_event.php">St. Patrick's Day Potluck</a>
+                        <a class="dropdown-item active" aria-current="page" href="al-anon-with-aa-event.php">Al-Anon with A.A. Participation<span class="visually-hidden">(current)</span></a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -100,20 +100,20 @@ include_once 'header-bottom.inc';
                             <h3 class="card-title"><strong>Occasion Date, Time, and Schedule</strong></h3>
                             <hr>
                             <p class="fs-4">Monday, February 17th</p>
-                            <div class="row">
+                            <div class="row fs-5">
                                 <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                    <p class=" fw-bold">
-                                        5:30pm
+                                    <p>
+                                        <strong>5:30pm</strong>
                                         <br>
                                         Doors Open
                                         <br>
                                         Light Refreshments
                                         <br><br>
-                                        6:00pm
+                                        <strong>6:00pm</strong>
                                         <br>
                                         Meeting Commences
                                         <br><br>
-                                        6:30pm
+                                        <strong>6:30pm</strong>
                                         <br>
                                         A.A. Speaker: Melanie Y.
                                         <br>
@@ -121,18 +121,18 @@ include_once 'header-bottom.inc';
                                     </p>
                                 </div>
                                 <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                    <p class=" fw-bold">
-                                        7:00pm
+                                    <p>
+                                        <strong>7:00pm</strong>
                                         <br>
                                         Break
                                         <br><br>
-                                        7:15pm
+                                        <strong>7:15pm</strong>
                                         <br>
                                         Al-Anon Speaker: Father Tom W.
                                         <br>
                                         Oakland, CA.
                                         <br><br>
-                                        8:15pm
+                                        <strong>8:15pm</strong>
                                         <br>
                                         Cake
                                         <br>
