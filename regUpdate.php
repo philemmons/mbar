@@ -110,7 +110,7 @@ if (isset($_POST['submitUpdate'])) {  //admin has submitted the "update user" fo
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mx-auto mt-2 mt-xl-0">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
