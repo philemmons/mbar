@@ -545,8 +545,8 @@ include_once 'header-bottom.inc';
 				<p>Copyright © <?php echo date('Y'); ?> Monterey Bay Area Roundup. All Rights Reserved.
 				</p>
 			</div>
-            <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">
-                <ul class="navbar-nav mx-auto mt-2 mt-xl-0">
+			<nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="footer menu">
+				<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
 					<li class="nav-item">
 						<a class="nav-link nav-link-size" href="accessibility.php">Site Accessibility</a>
 					</li>
