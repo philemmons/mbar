@@ -72,15 +72,15 @@ include_once 'header-bottom.inc';
     <article aria-label="Current event">
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
-                <div class="col-xl-8 col-lg-8 col-md-10 py-4">
+                <div class="col-xl-10 col-lg-10 col-md-12 py-4">
                     <div class="p-3 text-center text-bg-light hero-text-border">
                         <section aria-label="Event Information">
-                            <h3 class="card-title mb-4">
+                            <h3 class="card-title mb-4 px-3 px-md-0">
                                 <img src="images/icons/alanon-icon.png" width="30" height="30" alt="Al-Anon icon">
                                 <strong>Monday Night Serenity - 41st Anniversary</strong>
                                 <img src="images/icons/aa-icon.png" width="30" height="30" alt="A.A icon">
-                                <p>"Honoring the Past, Embracing the Future"</p>
                             </h3>
+                            <p class="fs-2 text-dark">"Honoring the Past, Embracing the Future"</p>
                         </section>
                         <img class="img-fluid" src="../images/al-anon-with-aa-event.png" alt="Al-Anon with A.A. Participation flyer">
                     </div>
@@ -93,52 +93,55 @@ include_once 'header-bottom.inc';
         <div class="container shadow-wrap">
             <div class="row justify-content-center mb-5">
                 <div class="col-xl-8 col-lg-8 col-md-10 py-4">
-                    <div class="p-3 text-bg-light hero-text-border">
-                        <p>Monday, February 17th</p>
-                        <div class="row fw-bold">
-                            <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                <p class="">
-                                    5:30pm
-                                    <br>
-                                    Doors Open
-                                    <br>
-                                    Light Refreshments
-                                    <br><br>
-                                    6:00pm
-                                    <br>
-                                    Meeting Commences
-                                    <br><br>
-                                    7:15pm
-                                    <br>
-                                    Al-Anon Speaker: Father Tom W.
-                                    <br>
-                                    Oakland, CA.
-                                </p>
+                    <div class="p-3 text-bg-light hero-text-border text-center">
+                        <section aria-label="Flyer description">
+                            <h3 class="card-title mb-4"><strong>Event Date, Time, and Schedule</strong></h3>
+                            <p class="fs-3">Monday, February 17th</p>
+                            <div class="row fw-bold">
+                                <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
+                                    <p class="">
+                                        5:30pm
+                                        <br>
+                                        Doors Open
+                                        <br>
+                                        Light Refreshments
+                                        <br><br>
+                                        6:00pm
+                                        <br>
+                                        Meeting Commences
+                                        <br><br>
+                                        7:15pm
+                                        <br>
+                                        Al-Anon Speaker: Father Tom W.
+                                        <br>
+                                        Oakland, CA.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
+                                    <p class="">
+                                        6:30pm
+                                        <br>
+                                        A.A. Speaker: Melanie Y.
+                                        <br>
+                                        Sand City, CA.
+                                        <br><br>
+                                        7:00pm
+                                        <br>
+                                        Break
+                                        <br><br>
+                                        8:15pm
+                                        <br>
+                                        Cake
+                                        <br>
+                                        Fellowship
+                                    </p>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 mb-3 mb-sm-0">
-                                <p class="">
-                                    6:30pm
-                                    <br>
-                                    A.A. Speaker: Melanie Y.
-                                    <br>
-                                    Sand City, CA.
-                                    <br><br>
-                                    7:00pm
-                                    <br>
-                                    Break
-                                    <br><br>
-                                    8:15pm
-                                    <br>
-                                    Cake
-                                    <br>
-                                    Fellowship
-                                </p>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="text-center text-dark ">
-                            First Presbyterian Church of Monterey, 501 El Dorado, Monterey, CA
-                        </p>
+                            <p class="text-dark ">
+                                First Presbyterian Church of Monterey, 501 El Dorado, Monterey, CA
+                            </p>
+                        </section>
                     </div>
                 </div>
             </div>
