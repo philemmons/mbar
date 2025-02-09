@@ -116,7 +116,7 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/al-anon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Participation</a>
+                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/alanon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Participation</a>
                             </p>
                             <p class="card-text">Monday Night Serenity is celebrating its 41st Anniversary with the theme "Honoring the Past, Embracing the Future."
                                 <br><br>
