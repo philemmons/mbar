@@ -144,17 +144,17 @@ include_once 'header-bottom.inc';
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-bookmark-heart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="committees.php" class="bb-link">Join Us!</a>
+                            <p class="card-title h6"><i class="bi bi-bookmark-heart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="committees.php" class="bb-link">Committee Sign Up</a>
                             </p>
                             <p class="card-text">Would you like to sign up for a Committee Chair? Scan the QRcode below!
                             <br><br>
-                            <img class="img-fluid" src="../images/sign-up-qrcode.gif" alt="Google form sign up QR code.">
+                            <img class="img-fluid text-center" src="../images/sign-up-qrcode.gif" alt="Google form sign up QR code.">
                             <br><br> 
                             A.A. service is awesome because it's all about giving back and staying connected. It gives us purpose, builds friendships, a real way to live out the A.A. principles, and make this feel like home. It's simple: when we show up for others, we stay together. And that's what it's all about.
                             </p>
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary"></a>Open Chairs</small>
+                            <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary">Open Chairs</a></small>
                         </div>
                     </div>
 
