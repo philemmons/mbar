@@ -1,4 +1,10 @@
 /**** variables ****/
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("../css/font/LibreBaskerville-Bold.ttf");
+  src: url("../css/font/LibreBaskerville-Italic.ttf");
+  src: url("../css/font/LibreBaskerville-Regular.ttf");
+}
 :root {
   --color-1: #f8f8f8;
   --color-2: #ffffff;
@@ -24,32 +30,24 @@
 
   --ff-main: "Libre Baskerville", Raleway, Helvetica, Calibri, Arial, sans-serif;
 
+}
 
-  @font-face {
-    font-family: "Libre Baskerville";
-    src: url("../css/font/LibreBaskerville-Bold.ttf");
-    src: url("../css/font/LibreBaskerville-Italic.ttf");
-    src: url("../css/font/LibreBaskerville-Regular.ttf");
-  }
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .libre-baskerville-regular {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-bold {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-regular-italic {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /**** accessibility ****/
