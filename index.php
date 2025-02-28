@@ -165,7 +165,7 @@ include_once 'header-bottom.inc';
         <!-- Part Two -->
         <div class="container">
             <div class="row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Why do we have MBAR?
@@ -193,7 +193,7 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                <div class="col-lg-5 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitude and Reflection</a>
