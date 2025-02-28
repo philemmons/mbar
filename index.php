@@ -114,33 +114,7 @@ include_once 'header-bottom.inc';
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/alanon-icon.png" width="40" height="40" alt="Al-Anon icon" aria-hidden="true"><a href="al-anon-with-aa-event.php" class="bb-link">Al-Anon with A.A. Event</a>
-                            </p>
-                            <p class="card-text">Al-Anon's Monday Night Serenity is celebrating its <strong>41st</strong> Anniversary with the theme "Honoring the Past, Embracing the Future."
-                                <br><br>
-                                Join us Monday, February 17th, at the First Presbyterian Church of Monterey, located at 501 El Dorado, Monterey, CA.
-                            <ul>
-                                <li>Doors open at 5:30pm</li>
-                                <li>Light Refreshments Available</li>
-                                <li>A.A. Speaker, Melanie Y.</li>
-                                <li>Al-Anon speaker, Father Tom W.</li>
-                                <li>Cake and Fellowship</li>
-                            </ul>
-                            <br>
-                            This special gathering will bring together Al-Anon and A.A. participants for a night of unity, recovery, and celebration.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="al-anon-with-aa-event.php" class="btn btn-primary">Al-Anon with A.A.</a></small>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
+                <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><img class="me-2 mb-3" src="images/icons/big-shamrock.png" width="40" height="40" alt="Shamrock icon" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">St. Patrick's Potluck</a>
                             </p>
@@ -166,6 +140,25 @@ include_once 'header-bottom.inc';
                     </div>
 
                 </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
+                    <div class="card h-100 shadow-wrap">
+                        <div class="card-body">
+                            <p class="card-title h6"><i class="bi bi-bookmark-heart me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="committees.php" class="bb-link">Join Us!</a>
+                            </p>
+                            <p class="card-text">Would you like to sign up for a Committee Chair? Scan the QRcode below!
+                            <br><br>
+                            <img class="img-fluid" src="../images/sign-up-qrcode.gif" alt="Google form sign up QR code.">
+                            <br><br> 
+                            A.A. service is awesome because it's all about giving back and staying connected. It gives us purpose, builds friendships, a real way to live out the A.A. principles, and make this feel like home. It's simple: when we show up for others, we stay together. And that's what it's all about.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-body-secondary"><a href="committees.php" class="btn btn-primary"></a>Open Chairs</small>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -173,57 +166,7 @@ include_once 'header-bottom.inc';
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-instagram me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>New Instagram Page
-                            </p>
-                            <p class="card-text"> Live - Official MBAR 2026 Instagram page! This <strong>private</strong> account ensures a safe, supportive space for our fellowships to share updates, build excitement, and demonstrate the spirituality we are finding with each other. "We absolutely insist on enjoying life!"
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a class="btn btn-primary" href="https://www.instagram.com/mbar2026/" target="_blank" rel="noopener noreferrer nofollow"><span class="sr-only">(Opens a new window)</span>MBAR2026 Instagram</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitude and Reflection</a>
-                            </p>
-                            <p class="card-text">We sincerely thank everyone who participated in and contributed to the success of our recent A.A. conference. Your involvement—whether attending, volunteering, or supporting—helped foster an atmosphere of fellowship, recovery, and connection.
-                                <br><br>
-                                As we return to our daily lives, let's reflect on the lessons and insights we shared and continue carrying the message of recovery to those in need. Stay connected, keep coming back, and we look forward to seeing you at future gatherings!
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" row justify-content-center mb-5">
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
-                        <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-book me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="mbar_history.php" class="bb-link">Growth and Legacy</a>
-                            </p>
-                            <p class="card-text">The Monterey Bay Area Roundup (MBAR) has steadily grown in size and significance since its inception, As the event continues to evolve, it remains deeply rooted in the spiritual principles of A.A. and Al-Anon, with a strong focus on fostering personal growth, mutual support, and spiritual development.
-                                <br><br>
-                                Throughout its history, the Roundup has played a vital role in the lives of countless individuals and families, providing a space where they can find hope, healing, and fellowship in their recovery journey.
-                                <br><br>
-                                Explore past conferences, flyers, and A.A./Al-Anon speaker recordings to catch a glimpse of our next MBAR.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="mbar_history.php" class="btn btn-primary">MBAR's History</a></small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
-                    <div class="card h-100 shadow-wrap">
+                <div class="card h-100 shadow-wrap">
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-question-circle me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i>Why do we have MBAR?
                             </p>
@@ -250,28 +193,18 @@ include_once 'header-bottom.inc';
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-3 mb-lg-5 px-4">
+                <div class="col-lg-4 mb-3 mb-lg-0 px-4">
                     <div class="card h-100 shadow-wrap">
                         <div class="card-body">
-                            <p class="card-title h6"><i class="bi bi-activity me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="activities.php" class="bb-link">Activities and Highlights</a>
+                            <p class="card-title h6"><i class="bi bi-door-open me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="meetings.php" class="bb-link">Gratitude and Reflection</a>
                             </p>
-                            <p class="card-text">Over the years, the Monterey Bay Area Roundup has grown to include a variety of activities that support personal and spiritual growth, including:
+                            <p class="card-text">We sincerely thank everyone who participated in and contributed to the success of our recent A.A. conference. Your involvement—whether attending, volunteering, or supporting—helped foster an atmosphere of fellowship, recovery, and connection.
+                                <br><br>
+                                As we return to our daily lives, let's reflect on the lessons and insights we shared and continue carrying the message of recovery to those in need. Stay connected, keep coming back, and we look forward to seeing you at future gatherings!
                             </p>
-
-                            <ul>
-                                <li><strong>Speaker Meetings</strong>: These sessions often feature A.A. or Al-Anon members who share their stories of experience, strength, and hope.
-                                </li>
-                                <li><strong>Workshops and Panels</strong>: Topics cover the practical aspects of maintaining sobriety, such as sponsorship, emotional well-being, and staying spiritually connected.
-                                </li>
-                                <li><strong>Fellowship and Social Events</strong>: Dances, meals, and informal gatherings provide opportunities for participants to bond and share experiences outside of formal meetings.
-                                </li>
-                                <li><strong>Volunteerism and Service</strong>: Many participants volunteer their time and effort to help organize the event, reflecting A.A.'s and Al-Anon's tradition of service as a key element of recovery.
-                                </li>
-                            </ul>
-
                         </div>
                         <div class="card-footer text-center">
-                            <small class="text-body-secondary"><a href="activities.php" class="btn btn-primary">View 2024 Activities</a></small>
+                            <small class="text-body-secondary"><a href="conference-2024.php" class="btn btn-primary">2024 Conference Schedule</a></small>
                         </div>
                     </div>
                 </div>
