@@ -103,6 +103,7 @@ h4,
 h5,
 h6 {
   line-height: 1.5 !important;
+  letter-spacing: 3px;
 }
 
 a {
@@ -117,9 +118,6 @@ a {
   padding: 1rem;
 }
 
-.banner>h1 {
-  letter-spacing: 4px;
-}
 
 /**** footer ****/
 .top-footer {
