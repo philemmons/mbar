@@ -188,7 +188,7 @@ include_once 'header-bottom.inc';
             <div class="col-sm-12" id="footer-image" role=img aria-label="Un camino a través de colinas, cubiertas de flores, con una puesta de sol como telón de fondo.">
                 <p>Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup - P.O. Box 1462 Monterey, CA 93942 | Todos los Derechos Reservados.
                 </p>
-                <p class="sr-only">Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup - P.O. Box 1462 Monterey, CA 93942 | Todos los Derechos Reservados.
+                <p class="sr-only">Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup | P.O. Box 1462 Monterey, CA 93942 | Todos los Derechos Reservados.
                 </p>
             </div>
             <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark" aria-label="menú de pie de página">

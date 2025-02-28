@@ -63,7 +63,7 @@
     <div class='container'>
         <div class="row justify-content-md-center">
             <div class="col-sm-12" id="footer-image" role=img aria-label="A road through rolling hills, covered with flowers, with a sunset backdrop.">
-                <p>Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup - P.O. Box 1462 Monterey, CA 93942 | All Rights Reserved.
+                <p>Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup | P.O. Box 1462 Monterey, CA 93942 | All Rights Reserved.
                 </p>
                 <p class="sr-only">Copyright © <?php echo date('Y'); ?> | Monterey Bay Area Roundup - P.O. Box 1462 Monterey, CA 93942 | All Rights Reserved.
                 </p>
