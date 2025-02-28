@@ -23,6 +23,33 @@
   --success-color: #009b00;
 
   --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
+
+
+  @font-face {
+    font-family: Libre Baskerville;
+    src: url("../css/font/LibreBaskerville-Bold.ttf");
+    src: url("../css/font/LibreBaskerville-Italic.ttf");
+    src: url("../css/font/LibreBaskerville-Regular.ttf");
+  }
+
+  .libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 }
 
 /**** accessibility ****/

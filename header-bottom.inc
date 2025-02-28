@@ -40,7 +40,7 @@
     <header class='container'>
         <div class="row justify-content-md-center pt-5 pb-3">
             <div class='col-sm-4 banner'>
-                <h1 class="text-uppercase">Monterey Bay Area Roundup</h1>
+                <h1 class="text-uppercase libre-baskerville-regular">Monterey Bay Area Roundup</h1>
                 <p>To watch people recover, to see them help others, to watch loneliness vanish, to see a fellowship grow up about you, to have a host of friends — <span class="font-italic">this is an experience you must not miss</span>.<span class='sr-only'>(This is plain text) - this is an experience you must not miss.</span></p>
             </div>
             <div class='col-sm-auto banner'>
