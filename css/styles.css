@@ -22,11 +22,11 @@
   --error-color: #ff0019;
   --success-color: #009b00;
 
-  --ff-main: Raleway, Helvetica, Calibri, Arial, sans-serif;
+  --ff-main: Libre Baskerville, Raleway, Helvetica, Calibri, Arial, sans-serif;
 
 
   @font-face {
-    font-family: Libre Baskerville;
+    font-family: ;
     src: url("../css/font/LibreBaskerville-Bold.ttf");
     src: url("../css/font/LibreBaskerville-Italic.ttf");
     src: url("../css/font/LibreBaskerville-Regular.ttf");
