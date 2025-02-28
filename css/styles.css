@@ -22,7 +22,7 @@
   --error-color: #ff0019;
   --success-color: #009b00;
 
-  --ff-main: Libre Baskerville, Raleway, Helvetica, Calibri, Arial, sans-serif;
+  --ff-main: "Libre Baskerville", Raleway, Helvetica, Calibri, Arial, sans-serif;
 
 
   @font-face {
