@@ -84,14 +84,14 @@ include_once 'header-bottom.inc';
                         <section aria-label="Monthly meeting schedule">
                             <h3 class="card-title mb-3 px-sm-3">Open Committee Positions</h3>
                         </section>
-                        <p>Join our business meeting, February 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
+                        <p>Join our business meeting, March 8th at 10am, to hear about the responsibilities of the listed positions! Outreach, Co-Chair Outreach, Treasurer, Secretary, Hospitality, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, and more!
                         </p>
                         <h4>10:00am for 1.5 hours</h4>
                         <p><strong>Zoom ID</strong>: 330 100 7207
                             <br>
                             <strong>Password</strong>: 2026
                         </p>
-                        <p><strong>Next Meetings:</strong> 2026 MBAR's Committee Elections 02/08/2025, and 03/08/2025</p>
+                        <p><strong>Next Meetings:</strong> 2026 MBAR's Committee Elections 03/08/2025, and 04/12/2025</p>
                     </div>
                 </div>
             </div>

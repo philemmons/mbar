@@ -92,7 +92,7 @@ include_once 'header-bottom.inc';
                             <br>
                             <strong>Contraseña</strong>: 2026
                         </p>
-                        <p><strong>Próximas reuniones:</strong> Elecciones del Comité de MBAR 2026 08/02/2025 y 08/03/2025</p>
+                        <p><strong>Próximas Reuniones:</strong> Elecciones del Comité de MBAR 2026 08/03/2025 y 12/04/2025</p>
                     </div>
                 </div>
             </div>
