@@ -111,6 +111,15 @@ include_once 'header-bottom.inc';
 
                             <div class="accordion-item">
                                 <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#february2025" aria-expanded="false" aria-controls="february2025">February 10th</button>
+                                </h4>
+
+                                <?php include_once 'meeting-2025-02.inc'; ?>
+
+                            </div>
+
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#january2025" aria-expanded="false" aria-controls="january2025">January 11th</button>
                                 </h4>
 
