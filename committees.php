@@ -246,7 +246,7 @@ include_once 'header-bottom.inc';
                     <section aria-label="Committee Chairs">
                         <h3 class="fw-bold">Committee Chairs</h3>
                         <table class="table table-bordered table-striped table-hover" aria-labelledby="tableThree">
-                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of five columns which are Roles, 2019, 2022, 2024, and 2026. The first column has 29 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
+                            <caption class="small" id="tableThree">Committee Chairs - The first row consist of five columns which are Roles, 2019, 2022, 2024, and 2026. The first column has 30 rows that have specific MBAR roles. Cross reference the year row with the specific role column for the members name. There may be more than one name per role.</caption>
                             <thead class="table-light">
                                 <tr class="text-center">
                                     <th scope="col" class="col-4">Roles</th>
@@ -375,7 +375,7 @@ include_once 'header-bottom.inc';
                                     <td>May H.</td>
                                     <td>May H.</td>
                                     <td>Kevin P.</td>
-                                    <td></td>
+                                    <td>Kevin P.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Non Profit Chair</th>
@@ -389,14 +389,21 @@ include_once 'header-bottom.inc';
                                     <td>--</td>
                                     <td>Kathleen M.</td>
                                     <td>Conor / Rick D.</td>
-                                    <td>Jesse S.</td>
+                                    <td>Jesse S. / David O.</td>
+                                </tr>
+                                <tr class="table-primary">
+                                    <th scope="row">Panel Chair</th>
+                                    <td>--</td>
+                                    <td>Mary-Grace</td>
+                                    <td>--</td>
+                                    <td></td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Raffle Chair</th>
                                     <td>Esther F.</td>
                                     <td>Katherine J.</td>
                                     <td>Katherine J.</td>
-                                    <td></td>
+                                    <td>Karen B.</td>
                                 </tr>
                                 <tr class="table-primary">
                                     <th scope="row">Shuttle Service Chair</th>

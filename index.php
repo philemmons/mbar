@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Password:</strong> 2026
                         <br><br>
-                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Opens Zoom Application)</span>Join our business meeting</a>, March 8th at 10am, to hear about the responsibilities of the listed positions! Co-Chair Outreach, Treasurer, Co-Treasurer, Secretary, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Raffle 50/50, Registration, Dance, Dinner,and more!
+                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Opens Zoom Application)</span>Join our Committee Meeting</a>, April 12th at 10am, to be of Service and make MBAR awesome! Treasurer, Co-Treasurer, Secretary, Co-Chair Social Media, GSR/IGR Liaison, H&I Liaison, Raffle Prize, Registration, Dance, Dinner,and more!
                         <br><br>
                         Note: Only the Steering Committee has requirements described in the PDF below.
                     </p>

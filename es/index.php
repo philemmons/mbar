@@ -73,7 +73,7 @@ include_once 'header-bottom.inc';
                         <br>
                         <strong>Contraseña:</strong> 2026
                         <br><br>
-                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Abre la aplicación Zoom)</span>¡Únase a nuestra reunión de negocios</a>, el 8 de Marzo a las 10am, para conocer las responsabilidades de los puestos enumerados! Copresidente de difusión, tesorero, cotesorero, secretario, copresidente de redes sociales, enlace de GSR/IGR, enlace de H&I, premio de la rifa, rifa 50/50, inscripción, baile, cena y más.
+                        <a class="bb-link" href="https://us02web.zoom.us/j/3301007207?pwd=olR3pXbrM9zKtXLjhdVqFPfOtbbbdh.1&omn=87244042787" rel="noopener noreferrer nofollow" target="_blank"><span class="sr-only">(Abre la aplicación de Zoom)</span>Únase a nuestra reunión de comité</a>, el 12 de Abril a las 10am, para brindar servicio y hacer que MBAR sea increíble. Tesorero, cotesorero, secretario, copresidente de redes sociales, enlace de GSR/IGR, enlace de H&I, premio de la rifa, inscripción, baile, cena y más.
                         <br><br>
                         Nota: Solo el Comité Directivo tiene requisitos descritos en el PDF a continuación.
                     </p>
