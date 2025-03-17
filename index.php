@@ -95,7 +95,7 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><i class="bi bi-shield-shaded me-2" style="font-size: 2rem; color: var(--color-8);" aria-hidden="true"></i><a href="logo_contest.php" class="bb-link">2026 Logo Contest</a>
                             </p>
-                            <p class="card-text">The MBAR Logo Content is here! Below are the requirements for submission:
+                            <p class="card-text">The MBAR Logo Contest is here! Below are the requirements for submission:
                             <ul>
                                 <li>Submit your design and artwork for consideration to the MBAR Committee</li>
                                 <li>Each entry should include the conference theme, "Keep It Simple", and the year, "2026"</li>
