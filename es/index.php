@@ -117,9 +117,9 @@ include_once 'header-bottom.inc';
                         <div class="card-body">
                             <p class="card-title h6"><img class="me-2 mb-3" src="../images/icons/big-shamrock.png" width="40" height="40" alt="Icono de trébol" aria-hidden="true"><a href="upcoming_event.php" class="bb-link">Comida Compartida de San Patricio</a>
                             </p>
-                            <p class="card-text">Nuestra reunión anual de oradores y comida compartida de San Patricio se llevará a cabo el domingo 16 de Marzo de 2025 en 437 Laureles Grade, Carmel Valley. Las puertas se abrirán a las 3:00 pm, la cena será a las 4:00 pm y Tinia compartirá su experiencia, fortaleza y esperanza a las 5:00 pm.
+                            <p class="card-text">¡Guau, un evento increíble! Gracias a todos por su servicio, a los voluntarios y, especialmente, a Tinia por compartir su experiencia, fortaleza y esperanza con nosotros. La espiritualidad fluía de maravilla, en el punto justo y el clima estuvo perfecto.
                                 <br><br>
-                                <a href="upcoming_event.php" class="btn btn-link bb-link">Consulta más Información Aquí</a>
+                                ¡Hasta el año que viene, feliz Día de San Patricio!
 
                             <ul>
                                 <li>Fondos y Becas</li>
